@@ -1,0 +1,169 @@
+**********************
+PowerShell transcript start
+Start time: 20211103111522
+Username: HS\krussell
+RunAs User: HS\krussell
+Configuration Name: 
+Machine: HSKEVINTEST (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 37564
+PSVersion: 7.1.5
+PSEdition: Core
+GitCommitId: 7.1.5
+OS: Microsoft Windows 10.0.19042
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.5
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\\2021-11-03-11-15-Get-PrimaryMachine-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\
+VERBOSE: File Count: 4
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\\2021-11-03-11-15-Get-PrimaryMachine-SessionTranscript.txt
+
+UserName PrimaryMachine
+-------- --------------
+mfisher  HSINFDIS3F34
+
+PS HS1:\> sl C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "mfisher"
+
+UserName PrimaryMachine
+-------- --------------
+mfisher  HSINFDIS3F34
+
+PS HS1:\> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+
+.\Get-PrimaryMachine.ps1: The term '.\Get-PrimaryMachine.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+[91m.\Get-PrimaryMachine.ps1: [91mThe term '.\Get-PrimaryMachine.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+PS HS1:\> sl C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+
+UserName        : krussell
+PrimaryMachine  : {HS-ITDSS-CB3A, HSITSCC81, HSPRINT1, HSPRINT3…}
+PrimaryMachine0 : HS-ITDSS-CB3A
+PrimaryMachine1 : HSITSCC81
+PrimaryMachine2 : HSPRINT1
+PrimaryMachine3 : HSPRINT3
+PrimaryMachine4 : HSKEVINTEST
+PrimaryMachine5 : HSITSEB00
+
+
+PS HS1:\> sl C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> TerminatingError(Get-CMUserDeviceAffinity): "This command cannot be run from the current drive. To run this command you must first connect to a Configuration Manager drive."
+
+Get-CMUserDeviceAffinity: C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Get-PrimaryMachine.ps1:63:19
+Line |
+  63 |  $ComputerArray = (Get-CMUserDeviceAffinity -UserName $User).ResourceN …
+     |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | This command cannot be run from the current drive. To run this command you must first connect to a Configuration Manager drive.
+
+[91mGet-CMUserDeviceAffinity: [0mC:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Get-PrimaryMachine.ps1:63:19
+[96mLine |
+[96m  63 | [0m $ComputerArray = ([96mGet-CMUserDeviceAffinity -UserName $User[0m).ResourceN …
+[96m     | [91m                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[91m[96m     | [91mThis command cannot be run from the current drive. To run this command you must first connect to a Configuration Manager drive.
+[0m
+
+UserName PrimaryMachine
+-------- --------------
+krussell {}
+
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+
+UserName        : krussell
+PrimaryMachine  : {HS-ITDSS-CB3A, HSITSCC81, HSPRINT1, HSPRINT3…}
+PrimaryMachine0 : HS-ITDSS-CB3A
+PrimaryMachine1 : HSITSCC81
+PrimaryMachine2 : HSPRINT1
+PrimaryMachine3 : HSPRINT3
+PrimaryMachine4 : HSKEVINTEST
+PrimaryMachine5 : HSITSEB00
+
+
+PS HS1:\> sl C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+
+UserName        : krussell
+PrimaryMachine  : {HS-ITDSS-CB3A, HSITSCC81, HSPRINT1, HSPRINT3…}
+PrimaryMachine0 : HS-ITDSS-CB3A
+PrimaryMachine1 : HSITSCC81
+PrimaryMachine2 : HSPRINT1
+PrimaryMachine3 : HSPRINT3
+PrimaryMachine4 : HSKEVINTEST
+PrimaryMachine5 : HSITSEB00
+
+C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine is where you are
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> TerminatingError(Set-Location): "A positional parameter cannot be found that accepts argument 'C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine'."
+
+Set-Location: C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Get-PrimaryMachine.ps1:86:5
+Line |
+  86 |      Set-Location = $CurrentLocation
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | A positional parameter cannot be found that accepts argument 'C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine'.
+
+[91mSet-Location: [0mC:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Get-PrimaryMachine.ps1:86:5
+[96mLine |
+[96m  86 | [0m     [96mSet-Location = $CurrentLocation[0m
+[96m     | [91m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[91m[96m     | [91mA positional parameter cannot be found that accepts argument 'C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine'.
+[0m
+
+PS HS1:\> sl C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+
+UserName        : krussell
+PrimaryMachine  : {HS-ITDSS-CB3A, HSITSCC81, HSPRINT1, HSPRINT3…}
+PrimaryMachine0 : HS-ITDSS-CB3A
+PrimaryMachine1 : HSITSCC81
+PrimaryMachine2 : HSPRINT1
+PrimaryMachine3 : HSPRINT3
+PrimaryMachine4 : HSKEVINTEST
+PrimaryMachine5 : HSITSEB00
+
+C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine is where you are
+
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+
+UserName        : krussell
+PrimaryMachine  : {HS-ITDSS-CB3A, HSITSCC81, HSPRINT1, HSPRINT3…}
+PrimaryMachine0 : HS-ITDSS-CB3A
+PrimaryMachine1 : HSITSCC81
+PrimaryMachine2 : HSPRINT1
+PrimaryMachine3 : HSPRINT3
+PrimaryMachine4 : HSKEVINTEST
+PrimaryMachine5 : HSITSEB00
+
+
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> import-module HSC-TestingModule-Kevin -Repository "HSCPSRepo"
+>> TerminatingError(Import-Module): "A parameter cannot be found that matches parameter name 'Repository'."
+
+Import-Module: A parameter cannot be found that matches parameter name 'Repository'.
+
+[91mImport-Module: [91mA parameter cannot be found that matches parameter name 'Repository'.[0m
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> Get-PSRepository
+
+Name                      InstallationPolicy   SourceLocation
+----                      ------------------   --------------
+PSGallery                 Untrusted            https://www.powershellgallery.com/api/v2
+HSCPSRepo                 Trusted              \\hs-tools\tools\HSCCustomModules
+

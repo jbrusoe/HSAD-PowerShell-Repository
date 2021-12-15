@@ -1,0 +1,1445 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210728124657
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 652
+PSVersion: 5.1.14393.4530
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4530
+BuildVersion: 10.0.14393.4530
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-AzureADLicense\Logs\\2021-07-28-12-46-Remove-AzureADLicense-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-AzureADLicense\Logs\
+VERBOSE: File Count: 3
+0
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-AzureADLicense\Logs\\2021-07-28-12-46-Remove-AzureADLicense-SessionTranscript.txt
+Current User: acollin6@hsc.wvu.edu
+User Count: 1
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: acosta@hsc.wvu.edu
+User Count: 2
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: adanko@hsc.wvu.edu
+User Count: 3
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: adpugh@hsc.wvu.edu
+User Count: 4
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ads0058@hsc.wvu.edu
+User Count: 5
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ads0058@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: adt0029@hsc.wvu.edu
+User Count: 6
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: adt0029@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: aebolyard@hsc.wvu.edu
+User Count: 7
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: aedelvalle@hsc.wvu.edu
+User Count: 8
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: aedelvalle@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: aedward9@hsc.wvu.edu
+User Count: 9
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: aedward9@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: aet00006@hsc.wvu.edu
+User Count: 10
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: afansle1@hsc.wvu.edu
+User Count: 11
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: afansle1@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: afarris@hsc.wvu.edu
+User Count: 12
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: afarris@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: afrye4@hsc.wvu.edu
+User Count: 13
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: afrye4@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: agarner2@hsc.wvu.edu
+User Count: 14
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: agb0029@hsc.wvu.edu
+User Count: 15
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: agb0029@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: agcain@hsc.wvu.edu
+User Count: 16
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: agcain@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: agt0012@hsc.wvu.edu
+User Count: 17
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: agt0012@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ah0108@hsc.wvu.edu
+User Count: 18
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ah0108@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: aha00003@hsc.wvu.edu
+User Count: 19
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ahagood1@hsc.wvu.edu
+User Count: 20
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ahagood1@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ahagood2@hsc.wvu.edu
+User Count: 21
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ahagood2@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ahmckinney@hsc.wvu.edu
+User Count: 22
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ajkeath@hsc.wvu.edu
+User Count: 23
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ajmoran@hsc.wvu.edu
+User Count: 24
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ajmoran@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ajones25@hsc.wvu.edu
+User Count: 25
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ajones25@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ajp0050@hsc.wvu.edu
+User Count: 26
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ajp0050@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ajs0143@hsc.wvu.edu
+User Count: 27
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ajs0143@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ajw0064@hsc.wvu.edu
+User Count: 28
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ajw0064@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ak0094@hsc.wvu.edu
+User Count: 29
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ak0178@hsc.wvu.edu
+User Count: 30
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ak0178@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: akh0022@hsc.wvu.edu
+User Count: 31
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: akh0022@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: akhokar2@hsc.wvu.edu
+User Count: 32
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: akhokar2@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: akleadmon@hsc.wvu.edu
+User Count: 33
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: akleadmon@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: al0119@hsc.wvu.edu
+User Count: 34
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: al0143@hsc.wvu.edu
+User Count: 35
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: al0143@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: alm10002@hsc.wvu.edu
+User Count: 36
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: almayerich@hsc.wvu.edu
+User Count: 37
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: almayerich@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: alt0025@hsc.wvu.edu
+User Count: 38
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: alt0025@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: am0176@hsc.wvu.edu
+User Count: 39
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: am0176@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: am10399@hsc.wvu.edu
+User Count: 40
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ama0083@hsc.wvu.edu
+User Count: 41
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ama0083@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amd0066@hsc.wvu.edu
+User Count: 42
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amd0066@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amd0090@hsc.wvu.edu
+User Count: 43
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amd0090@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ame00012@hsc.wvu.edu
+User Count: 44
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ame00012@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amg00001@hsc.wvu.edu
+User Count: 45
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amg00001@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amh0009@hsc.wvu.edu
+User Count: 46
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amh0009@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amh0139@hsc.wvu.edu
+User Count: 47
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: aminfante@hsc.wvu.edu
+User Count: 48
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: amj0038@hsc.wvu.edu
+User Count: 49
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amj0038@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: aml0080@hsc.wvu.edu
+User Count: 50
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: aml0080@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amm0153@hsc.wvu.edu
+User Count: 51
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amm0153@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amm0173@hsc.wvu.edu
+User Count: 52
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amm0173@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amo0011@hsc.wvu.edu
+User Count: 53
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amo0011@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: amorley@hsc.wvu.edu
+User Count: 54
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amorley@hsc.wvu.edu
+PS>TerminatingError(Set-AzureADUserLicense): "Error occurred while executing SetUserLicenses 
+Code: Request_BadRequest
+Message: User license is inherited from a group membership and it cannot be removed directly from the user.
+RequestId: 91da1414-c907-4631-a511-b516a969e477
+DateTimeStamp: Wed, 28 Jul 2021 16:48:34 GMT
+HttpStatusCode: BadRequest
+HttpStatusDescription: Bad Request
+HttpResponseStatus: Completed
+"
+WARNING: Unable to remove user license
+VERBOSE: *******************************
+*******************************
+Current User: amsparks@hsc.wvu.edu
+User Count: 55
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: amsparks@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: an00001@hsc.wvu.edu
+User Count: 56
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: an00001@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: andersonshe@hsc.wvu.edu
+User Count: 57
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: andersonshe@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ans0055@hsc.wvu.edu
+User Count: 58
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ans0055@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ans0100@hsc.wvu.edu
+User Count: 59
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ans0100@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: anstanley@hsc.wvu.edu
+User Count: 60
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: anstanley@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: apl0016@hsc.wvu.edu
+User Count: 61
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: apl0016@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: apratt8@hsc.wvu.edu
+User Count: 62
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: apratt8@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ar0106@hsc.wvu.edu
+User Count: 63
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ar0106@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: arcurry@hsc.wvu.edu
+User Count: 64
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ard0026@hsc.wvu.edu
+User Count: 65
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ard0026@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ard0047@hsc.wvu.edu
+User Count: 66
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ard0047@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: as0306@hsc.wvu.edu
+User Count: 67
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: as0306@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: as0375@hsc.wvu.edu
+User Count: 68
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: as0375@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: as10384@hsc.wvu.edu
+User Count: 69
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: as10384@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: asa0031@hsc.wvu.edu
+User Count: 70
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: asa0031@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ashapiro@hsc.wvu.edu
+User Count: 71
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ashapiro@hsc.wvu.edu
+PS>TerminatingError(Set-AzureADUserLicense): "Error occurred while executing SetUserLicenses 
+Code: Request_BadRequest
+Message: User license is inherited from a group membership and it cannot be removed directly from the user.
+RequestId: 26c625f1-1636-4b04-8977-053568921164
+DateTimeStamp: Wed, 28 Jul 2021 16:49:08 GMT
+HttpStatusCode: BadRequest
+HttpStatusDescription: Bad Request
+HttpResponseStatus: Completed
+"
+WARNING: Unable to remove user license
+VERBOSE: *******************************
+*******************************
+Current User: ashrafm@hsc.wvu.edu
+User Count: 72
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ashrafm@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: atrabulsi@hsc.wvu.edu
+User Count: 73
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ayodib@hsc.wvu.edu
+User Count: 74
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ayodib@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: azeiders@hsc.wvu.edu
+User Count: 75
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: azeiders@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bab0055@hsc.wvu.edu
+User Count: 76
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bab0055@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bac0048@hsc.wvu.edu
+User Count: 77
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: bam0067@hsc.wvu.edu
+User Count: 78
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bam0067@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bam0072@hsc.wvu.edu
+User Count: 79
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bam0072@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: barnetta@hsc.wvu.edu
+User Count: 80
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: barnetta@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bat0011@hsc.wvu.edu
+User Count: 81
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bat0011@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: battistellal@hsc.wvu.edu
+User Count: 82
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: battistellal@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: baw0039@hsc.wvu.edu
+User Count: 83
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: baw0039@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bdd0012@hsc.wvu.edu
+User Count: 84
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bdd0012@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bdeane@hsc.wvu.edu
+User Count: 85
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bdeane@hsc.wvu.edu
+PS>TerminatingError(Set-AzureADUserLicense): "Error occurred while executing SetUserLicenses 
+Code: Request_BadRequest
+Message: User license is inherited from a group membership and it cannot be removed directly from the user.
+RequestId: ef303e83-9ccf-4b09-acc2-5b0b30c4b136
+DateTimeStamp: Wed, 28 Jul 2021 16:49:36 GMT
+HttpStatusCode: BadRequest
+HttpStatusDescription: Bad Request
+HttpResponseStatus: Completed
+"
+WARNING: Unable to remove user license
+VERBOSE: *******************************
+*******************************
+Current User: bdw0024@hsc.wvu.edu
+User Count: 86
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bdw0024@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: beanl@hsc.wvu.edu
+User Count: 87
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: beanl@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: beattymi@hsc.wvu.edu
+User Count: 88
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: beattymi@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: beckb@hsc.wvu.edu
+User Count: 89
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: beckb@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bellt@hsc.wvu.edu
+User Count: 90
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bellt@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bend@hsc.wvu.edu
+User Count: 91
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bend@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: benderc@hsc.wvu.edu
+User Count: 92
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: benderc@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bep0016@hsc.wvu.edu
+User Count: 93
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bep0016@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bhedrick@hsc.wvu.edu
+User Count: 94
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bhedrick@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bhwilliamson@hsc.wvu.edu
+User Count: 95
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: bj0015@hsc.wvu.edu
+User Count: 96
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: bjh0026@hsc.wvu.edu
+User Count: 97
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bjh0026@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bjp0016@hsc.wvu.edu
+User Count: 98
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bjp0016@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bjs0045@hsc.wvu.edu
+User Count: 99
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bjs0045@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bkh0013@hsc.wvu.edu
+User Count: 100
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bkh0013@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bl00003@hsc.wvu.edu
+User Count: 101
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: blburnette@hsc.wvu.edu
+User Count: 102
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: blburnette@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: blkeener@hsc.wvu.edu
+User Count: 103
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: blkeener@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bll00001@hsc.wvu.edu
+User Count: 104
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bll00001@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bm0021@hsc.wvu.edu
+User Count: 105
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bm0021@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bmateer@hsc.wvu.edu
+User Count: 106
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: bmf0028@hsc.wvu.edu
+User Count: 107
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bmf0028@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bmg10030@hsc.wvu.edu
+User Count: 108
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: bmongold@hsc.wvu.edu
+User Count: 109
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: bms0051@hsc.wvu.edu
+User Count: 110
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bms0051@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bodena@hsc.wvu.edu
+User Count: 111
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bodena@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: boos@hsc.wvu.edu
+User Count: 112
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: boos@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: boylef@hsc.wvu.edu
+User Count: 113
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: boylef@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bp00001@hsc.wvu.edu
+User Count: 114
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bp00001@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bpp0003@hsc.wvu.edu
+User Count: 115
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bpp0003@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bps0014@hsc.wvu.edu
+User Count: 116
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bps0014@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: brgriffith@hsc.wvu.edu
+User Count: 117
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: brgriffith@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: bryoung@hsc.wvu.edu
+User Count: 118
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bryoung@hsc.wvu.edu
+PS>TerminatingError(Set-AzureADUserLicense): "Error occurred while executing SetUserLicenses 
+Code: Request_BadRequest
+Message: User license is inherited from a group membership and it cannot be removed directly from the user.
+RequestId: 418cb271-8e3b-4ea7-ac72-90b4ba7ec186
+DateTimeStamp: Wed, 28 Jul 2021 16:50:39 GMT
+HttpStatusCode: BadRequest
+HttpStatusDescription: Bad Request
+HttpResponseStatus: Completed
+"
+WARNING: Unable to remove user license
+VERBOSE: *******************************
+*******************************
+Current User: bsmcneel@hsc.wvu.edu
+User Count: 119
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: bsmcneel@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: btalkington@hsc.wvu.edu
+User Count: 120
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: btc0012@hsc.wvu.edu
+User Count: 121
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: btc0012@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: btl00001@hsc.wvu.edu
+User Count: 122
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: buchananka@hsc.wvu.edu
+User Count: 123
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: buchananka@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ca0057@hsc.wvu.edu
+User Count: 124
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ca0057@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ca0068@hsc.wvu.edu
+User Count: 125
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ca0068@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: caa0032@hsc.wvu.edu
+User Count: 126
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: caa0032@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cac0115@hsc.wvu.edu
+User Count: 127
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cac0115@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cah0098@hsc.wvu.edu
+User Count: 128
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cah0098@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: caleminel@hsc.wvu.edu
+User Count: 129
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: caleminel@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: camurphy@hsc.wvu.edu
+User Count: 130
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: camurphy@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cannonm@hsc.wvu.edu
+User Count: 131
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cannonm@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: carsont@hsc.wvu.edu
+User Count: 132
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: carsont@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cas0103@hsc.wvu.edu
+User Count: 133
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cas0103@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cathomas1@hsc.wvu.edu
+User Count: 134
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cathomas1@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: catmiller@hsc.wvu.edu
+User Count: 135
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: cav0019@hsc.wvu.edu
+User Count: 136
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cav0019@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cbarnes@hsc.wvu.edu
+User Count: 137
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cbarnes@hsc.wvu.edu
+PS>TerminatingError(Set-AzureADUserLicense): "Error occurred while executing SetUserLicenses 
+Code: Request_BadRequest
+Message: User license is inherited from a group membership and it cannot be removed directly from the user.
+RequestId: c0e4c950-2295-4d34-ad10-47684f077a2f
+DateTimeStamp: Wed, 28 Jul 2021 16:51:15 GMT
+HttpStatusCode: BadRequest
+HttpStatusDescription: Bad Request
+HttpResponseStatus: Completed
+"
+WARNING: Unable to remove user license
+VERBOSE: *******************************
+*******************************
+Current User: cbm0033@hsc.wvu.edu
+User Count: 138
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cbm0033@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ccarter@hsc.wvu.edu
+User Count: 139
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: ccc0027@hsc.wvu.edu
+User Count: 140
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ccc0027@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cch0022@hsc.wvu.edu
+User Count: 141
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cch0022@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cdp0025@hsc.wvu.edu
+User Count: 142
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cdp0025@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cendanag@hsc.wvu.edu
+User Count: 143
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cendanag@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ceserranoalmeida@hsc.wvu.edu
+User Count: 144
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: cf0029@hsc.wvu.edu
+User Count: 145
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cf0029@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cf0039@hsc.wvu.edu
+User Count: 146
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cf0039@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cfinch3@hsc.wvu.edu
+User Count: 147
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: cfinch3@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: cfmangie@hsc.wvu.edu
+User Count: 148
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: chaislip@hsc.wvu.edu
+User Count: 149
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: chandrann@hsc.wvu.edu
+User Count: 150
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: chandrann@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: chill@hsc.wvu.edu
+User Count: 151
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: chill@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: chillni@hsc.wvu.edu
+User Count: 152
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: chillni@hsc.wvu.edu
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-AzureADLicense> .\Remove-AzureADLicense.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20210728125522
+**********************

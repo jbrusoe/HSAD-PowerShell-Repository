@@ -1,0 +1,116 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201019151524
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 8152
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-19-15-15-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\
+VERBOSE: File Count: 5
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-19-15-15-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Count: 1
+Mailbox: WVURNI5043@hsc.wvu.edu
+
+
+RunspaceId       : 7ff903a4-4b6e-4873-9c21-7af9c6fe6248
+Identity         : WVURNI5043
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 2
+Mailbox: WVURNI7017@hsc.wvu.edu
+RunspaceId       : 7ff903a4-4b6e-4873-9c21-7af9c6fe6248
+Identity         : WVURNI7017
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 3
+Mailbox: Jeremy.Soule@hsc.wvu.edu
+RunspaceId       : 7ff903a4-4b6e-4873-9c21-7af9c6fe6248
+Identity         : Jeremy Soule
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 4
+Mailbox: WVURNI8445@hsc.wvu.edu
+RunspaceId       : 7ff903a4-4b6e-4873-9c21-7af9c6fe6248
+Identity         : WVURNI8445
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 5
+Mailbox: rni.3876@hsc.wvu.edu
+RunspaceId       : 7ff903a4-4b6e-4873-9c21-7af9c6fe6248
+Identity         : rni.3876
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 6
+Mailbox: rni.3242@hsc.wvu.edu
+RunspaceId       : 7ff903a4-4b6e-4873-9c21-7af9c6fe6248
+Identity         : rni.3242
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 7
+Mailbox: rni.7151@hsc.wvu.edu
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> cls
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> .\Remove-EmailBySubjectAndDate.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20201019152402
+**********************

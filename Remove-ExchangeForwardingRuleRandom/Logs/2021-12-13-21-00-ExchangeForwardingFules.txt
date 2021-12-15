@@ -1,0 +1,8 @@
+PrimarySMTPAddress,RuleName,RuleForwardTo
+dmiller@hsc.wvu.edu,NCjobs,"HSC Jobs" [EX:/o=HSC Exchange/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=hscjobs]
+shelby.bishop@wvumedicine.org,WVUM Coding Manger/CFO Dashboard,"WVUM Coding Mgr/CFO Dashboard" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=group6f6c26a2]
+bdreynolds@hsc.wvu.edu,Charles River RMS,"Bolyard, Wendy" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c2ac8d9d3a3c4c17b4580c5fbfa9355c-Wendy Bolya]
+stephanie.juristy@wvumedicine.org,UNUM,"Schneider, Shannon" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=460c4cd0f5674bb5bbef1b08e2e66ff9-smschneider]
+rdtpuser@hsc.wvu.edu,Incarcerate Email Replies,"Small, Stephen" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a20b4aa82a4940a180aa2dc40454acc9-Stephen Sma]
+epaletta@hsc.wvu.edu,Erin's Voicemail Messages,"Pirlo, Kent" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4001bcd630314d5692e32aa99f17313b-Kent Pirlo]
+jill.johnston@wvumedicine.org,UNUM,"Mclaughlin, Virginia" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=077c4f1973cc42d197d3baf341af4103-McLaughlin,]

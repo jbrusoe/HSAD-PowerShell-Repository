@@ -1,0 +1,14 @@
+C:\Users\Jeff\Documents\GitHub\HSC-CSharp-Repository\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Documents\GitHub\HSC-CSharp-Repository\NTFSFolderPermissions\NTFSFolderPermissions\bin\Debug\NTFSFolderPermissions.exe.config
+C:\Users\Jeff\Documents\GitHub\HSC-CSharp-Repository\NTFSFolderPermissions\NTFSFolderPermissions\bin\Debug\NTFSFolderPermissions.exe
+C:\Users\Jeff\Documents\GitHub\HSC-CSharp-Repository\NTFSFolderPermissions\NTFSFolderPermissions\bin\Debug\NTFSFolderPermissions.pdb
+C:\Users\Jeff\Documents\GitHub\HSC-CSharp-Repository\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.exe
+C:\Users\Jeff\Documents\GitHub\HSC-CSharp-Repository\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.pdb
+C:\Users\Jeff\Documents\GitHub\HSC-CSharp-Repository\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.csproj.AssemblyReference.cache
+C:\Users\Jeff\Documents\GitHub\HSC-PowerShell-Repository\7UnderDevelopment\NTFSFolderPermissions\NTFSFolderPermissions\bin\Debug\NTFSFolderPermissions.exe.config
+C:\Users\Jeff\Documents\GitHub\HSC-PowerShell-Repository\7UnderDevelopment\NTFSFolderPermissions\NTFSFolderPermissions\bin\Debug\NTFSFolderPermissions.exe
+C:\Users\Jeff\Documents\GitHub\HSC-PowerShell-Repository\7UnderDevelopment\NTFSFolderPermissions\NTFSFolderPermissions\bin\Debug\NTFSFolderPermissions.pdb
+C:\Users\Jeff\Documents\GitHub\HSC-PowerShell-Repository\7UnderDevelopment\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.csproj.AssemblyReference.cache
+C:\Users\Jeff\Documents\GitHub\HSC-PowerShell-Repository\7UnderDevelopment\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Documents\GitHub\HSC-PowerShell-Repository\7UnderDevelopment\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.exe
+C:\Users\Jeff\Documents\GitHub\HSC-PowerShell-Repository\7UnderDevelopment\NTFSFolderPermissions\NTFSFolderPermissions\obj\Debug\NTFSFolderPermissions.pdb

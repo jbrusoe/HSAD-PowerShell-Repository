@@ -1,0 +1,48 @@
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************

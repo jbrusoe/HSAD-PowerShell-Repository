@@ -1,0 +1,4 @@
+#TYPE Deserialized.Microsoft.Exchange.Management.StoreTasks.MailboxFolderPermission
+"PSComputerName","RunspaceId","PSShowComputerName","Identity","FolderName","User","AccessRights","SharingPermissionFlags","IsValid","ObjectState"
+"ps.outlook.com","3d96f2b9-6bd7-4804-8c46-17312b842aa1","False","camctest:\Calendar","Calendar","Default","AvailabilityOnly",,"True","New"
+"ps.outlook.com","3d96f2b9-6bd7-4804-8c46-17312b842aa1","False","camctest:\Calendar","Calendar","Anonymous","None",,"True","New"

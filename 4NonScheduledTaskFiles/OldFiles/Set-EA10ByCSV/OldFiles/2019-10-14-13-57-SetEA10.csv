@@ -1,0 +1,7 @@
+#TYPE Selected.Microsoft.ActiveDirectory.Management.ADUser
+"SamAccountName","extensionAttribute10","DistinguishedName"
+"mme0008",,"CN=Megan Elavsky,OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"sk00003",,"CN=Sarah Yuri Kim,OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"jwietholter",,"CN=Jon Wietholter,OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"ola00001",,"CN=Orin Autry,OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"drpatel",,"CN=Dixaben Patel,OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"

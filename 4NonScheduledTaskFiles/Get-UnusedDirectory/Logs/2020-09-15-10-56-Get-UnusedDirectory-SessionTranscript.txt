@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200915105657
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Configuration Name: 
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 37292
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-UnusedDirectory\Logs\\2020-09-15-10-56-Get-UnusedDirectory-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-UnusedDirectory\Logs\
+VERBOSE: File Count: 3
+All input parameters are set to default values.
+
+C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-UnusedDirectory\Logs\\2020-09-15-10-56-Get-UnusedDirectory-SessionTranscript.txt
+PS>TerminatingError(Get-ChildItem): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Could not find a part of the path '\\hs-bassci\bassci\anat\cajohnson\Backup 3-13-14\Users\cajohnson\Desktop\Cary\Documents and Settings\CJohnson.AAGMON-LAB\My Documents\eFiles\Personel\HIV\New Directions in Antiretroviral Therapy_files\438136&ct=us&st=WV&pf=15&sp=1004&ovr=cc-ivaids.02&rf=cc-ivaids(1)'."
+WARNING: Error with gci
+The variable '$Directories' cannot be retrieved because it has not been set.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-UnusedDirectory\Get-Unuse
+dDirectory.ps1:17 char:24
++ foreach ($Directory in $Directories)
++                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (Directories:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$Directories' cannot be retrieved because it has not been set.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-UnusedDirectory\Get-Unus
+edDirectory.ps1:17 char:24
++ foreach ($Directory in $Directories)
++                        ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (Directories:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+**********************
+Windows PowerShell transcript end
+End time: 20200915105711
+**********************

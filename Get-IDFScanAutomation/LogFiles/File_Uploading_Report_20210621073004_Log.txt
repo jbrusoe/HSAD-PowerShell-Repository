@@ -1,0 +1,4 @@
+[06/21/2021 07:30:08] - Exception calling "ExecuteQuery" with "0" argument(s): "The underlying connection was closed: An unexpected error occurred on a send."in uploading File!: 
+[06/21/2021 07:30:08] - 1: 20210621_IDF2_HSC_CCs.xlsx
+[06/21/2021 07:30:08] - Exception calling "ExecuteQuery" with "0" argument(s): "The underlying connection was closed: An unexpected error occurred on a send."in uploading File!: 
+[06/21/2021 07:30:08] - 2: 20210621_IDF2_HSC_SSNs.xlsx

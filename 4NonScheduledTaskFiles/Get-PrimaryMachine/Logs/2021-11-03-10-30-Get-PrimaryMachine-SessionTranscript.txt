@@ -1,0 +1,62 @@
+**********************
+PowerShell transcript start
+Start time: 20211103103036
+Username: HS\krussell
+RunAs User: HS\krussell
+Configuration Name: 
+Machine: HSKEVINTEST (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 37564
+PSVersion: 7.1.5
+PSEdition: Core
+GitCommitId: 7.1.5
+OS: Microsoft Windows 10.0.19042
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.5
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\\2021-11-03-10-30-Get-PrimaryMachine-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\
+VERBOSE: File Count: 1
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\\2021-11-03-10-30-Get-PrimaryMachine-SessionTranscript.txt
+
+UserName PrimaryMachine
+-------- --------------
+krussell {HS-ITDSS-CB3A, HSITSCC81, HSPRINT1, HSPRINT3…}
+
+PS HS1:\> sl C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+
+ParserError: C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Get-PrimaryMachine.ps1:77:27
+Line |
+  77 |          $ComputerArray = $index $ComputerArray[$index]
+     |                                  ~~~~~~~~~~~~~~
+     | Unexpected token '$ComputerArray' in expression or statement.
+
+[91mParserError: [0mC:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Get-PrimaryMachine.ps1:77:27
+[96mLine |
+[96m  77 | [0m         $ComputerArray = $index [96m$ComputerArray[0m[$index]
+[96m     | [91m                                 ~~~~~~~~~~~~~~
+[91m[96m     | [91mUnexpected token '$ComputerArray' in expression or statement.
+[0m
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "krussell"
+**********************
+PowerShell transcript end
+End time: 20211103103227
+**********************

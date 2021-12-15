@@ -1,0 +1,205 @@
+#--------------------------------------------------------------------------------------------------
+#Get-IDFinderReports
+#
+#Written by: Matt Logue
+#
+#Modified by: Matt Logue
+#
+#Last Modified: April 9, 2020
+#
+#Version: 1.0
+#
+#Purpose: This file is ran on a local sharepoint node and looks at a network share for the most recent modified file that was created by
+#the Get-IDFScanAutomation script then uploads the document to a document library folder on sharepoint
+#
+#This file assumes permissions for the account running it to the UNC path - \\hs\public\ITS\security services\ID Finder Scan Files
+#--------------------------------------------------------------------------------------------------
+
+<#
+.SYNOPSIS
+ 	This uploads content from a share location to a document library folder in sharepoint
+    
+.DESCRIPTION
+ 	Requires
+	1. Being Ran on Sharepoint Node
+    2. Permissions to the shared folder
+    3. Permission to run scripts on Sharepoint
+ 	
+.PARAMETER
+	Paramter information.
+
+.NOTES
+	Author: Matt Logue
+	Last Updated by: Matt Logue
+    Last Updated: April 9, 2020
+#>
+
+[CmdletBinding()]
+param (
+	[switch]$SessionTranscript = $true,
+    [string]$LogFilePath = "c:\ad-development\Get-IDFinderReports\Logs",
+	[switch]$StopOnError = $true, #keep this value true - will error if no filetype gets passed to script
+	[int]$DaysToKeepLogFiles = 5, #this value used to clean old log files
+	
+	#File specific param
+    [string]$url="https://hsccommons.hsc.wvu.edu/csc/", #url for sharepoint site
+    [string]$uncPath = "\\hs\public\ITS\security services\ID Finder Scan Files",
+    [string]$spCreditCardFolder = "PCI Reports/Credit Card Info Reports",
+    [string]$spSSNFolder = "PCI Reports/SSN Info Reports",
+    [string]$spePHIFolder ="PCI Reports/PHI Info Reports",
+    [string]$speTAXESFolder ="PCI Reports/TAXES Info Reports"
+
+	)
+#Add Sharepoint snapin to powershell
+Add-PSSnapin Microsoft.Sharepoint.Powershell
+
+#Cleaning Up old log files
+Write-Output "Deleting Previous Log files from last script run"
+Get-ChildItem -Path $LogFilePath -Include * -File -Recurse | Remove-Item $_ -Recurse -Force
+
+#Verify the log file directory exists
+if ([string]::IsNullOrEmpty($LogFilePath)) 
+{
+	Write-ColorOutput -Message "Log file path is null" -ForegroundColor "Yellow"
+	Write-ColorOutput -Message "Setting log path to c:\ad-development\Get-IDFinderReports\Logs" -ForegroundColor "Yellow"
+	
+	
+	if (!(Test-Path $LogFilePath))
+	{
+		New-Item $LogFilePath -Type Directory -force
+	}
+	
+	if ($Error.Count -gt 0)
+	{
+		$Continue = Read-Host "There was an error creating the log file directory.  Continue(y/n)"
+		
+		if ($Continue -ne "y") 
+		{
+			exit
+		}
+	}
+}
+
+### 
+#Common variable declarations
+$FileDatePrefix = Get-Date -Format "yyyyMMdd"
+$TranscriptLogFile = $LogFilePath + "\" + $FileDatePrefix +  "-Get-IDFinderReports-SessionOutput.txt"
+$ErrorLogFile = $LogFilePath + "\" + $FileDatePrefix +  "-Get-IDFinderReports-ErrorLogFile.txt"
+
+	
+#Initializing log file location
+if (!(Test-Path $ErrorLogFile))
+{
+	New-Item $ErrorLogFile -Type File -Force
+	Write-LogFileSummaryInformation -Path $ErrorLogFile -Summary "Get-IDFinderReports Error Log"
+}
+	
+if ($SessionTranscript)
+{
+	
+	try 
+	{
+		Stop-Transcript -ea "Stop"
+	}
+	catch
+	{
+	}
+		"TranscriptLogFile: " + $TranscriptLogFile
+		Start-Transcript -Path $TranscriptLogFile -Force
+		"Transcript log file started"
+}
+	
+$Error.clear()
+
+
+
+$web=Get-SPWeb -Identity $url
+
+if($web)
+{
+    try
+    {
+        $spfolder = $web.GetFolder($spCreditCardFolder)
+        $spFileCollection = $spFolder.Files
+        Write-Output "File Collection" + $spFileCollection.ParentFolder
+        $file = Get-ChildItem -Path "$uncPath\*\Processed\*CCs.xlsx" -Force -Recurse | Sort LastWriteTime | select -Last 1
+        Write-Output "File Name" $file.Name
+        $done= $spFileCollection.Add( $spfolder.URL+"/" + $file.Name, $file.OpenRead(), $true)
+
+        Write-Host "Uploaded into the Site"+$done.Name -ForegroundColor Green
+    }
+    catch
+    {
+        $ErrorMessage = $_.Exception.Message
+        Write-Host "Error Getting CC file`n"+$ErrorMessage | Add-Content -path $ErrorLogFile
+    }
+
+
+    try
+    {
+        $spfolder1 = $web.GetFolder($spSSNFolder)
+        $spFileCollection1 = $spFolder1.Files
+        Write-Output "File Collection" + $spFileCollection1.ParentFolder
+        $file1 = Get-ChildItem -Path "$uncPath\*\Processed\*SSNs.xlsx" -Force -Recurse | Sort LastWriteTime | select -Last 1
+        Write-Output "File Name" $file1.Name
+        $done1= $spFileCollection.Add( $spfolder1.URL+"/" + $file1.Name, $file1.OpenRead(), $true)
+
+        Write-Host "Uploaded into the Site"+$done1.Name -ForegroundColor Green
+    }
+    catch
+    {
+        $ErrorMessage = $_.Exception.Message
+        Write-Host "Error Getting SSN file`n"+$ErrorMessage | Add-Content -path $ErrorLogFile
+    }
+
+
+    try
+    {
+        $spfolder2 = $web.GetFolder($spePHIFolder)
+        $spFileCollection2 = $spFolder2.Files
+        Write-Output "File Collection" + $spFileCollection2.ParentFolder
+        $file2 = Get-ChildItem -Path "$uncPath\*\Processed\*ePHI.xlsx" -Force -Recurse | Sort LastWriteTime | select -Last 1
+        Write-Output "File Name" $file2.Name
+        $done2= $spFileCollection.Add( $spfolder2.URL+"/" + $file2.Name, $file2.OpenRead(), $true)
+
+        Write-Host "Uploaded into the Site"+$done2.Name -ForegroundColor Green
+    }
+    catch
+    {
+        $ErrorMessage = $_.Exception.Message
+        Write-Host "Error Getting ePHI file:`n"+$ErrorMessage | Add-Content -path $ErrorLogFile
+    }
+
+    try
+    {
+        $spfolder3 = $web.GetFolder($speTAXESFolder)
+        $spFileCollection3 = $spFolder3.Files
+        Write-Output "File Collection" + $spFileCollection3.ParentFolder
+        $file3 = Get-ChildItem -Path "$uncPath\*\Processed\*TAXES.xlsx" -Force -Recurse | Sort LastWriteTime | select -Last 1
+        Write-Output "File Name" $file3.Name
+        $done3= $spFileCollection.Add( $spfolder3.URL+"/" + $file3.Name, $file3.OpenRead(), $true)
+
+        Write-Host "Uploaded into the Site"+$done3.Name -ForegroundColor Green
+    }
+    catch
+    {
+        $ErrorMessage = $_.Exception.Message
+        Write-Host "Error Getting Taxes file:`n"+$ErrorMessage | Add-Content -path $ErrorLogFile
+    }
+}
+
+else
+{
+    Write-Host "Site Doesn't exist" | Add-Content -path $ErrorLogFile
+}
+
+$web.Dispose()
+
+if ($SessionTranscript)
+{
+		"TranscriptLogFile: " + $TranscriptLogFile
+		
+		Stop-Transcript
+		
+		"Transcript log file stopped"
+}

@@ -1,0 +1,11 @@
+HSCDepartmentName,SailPointDepartmentName,CSCEmail,CreateEmail,Groups,OUPath,HomeDirectoryPath
+HSC Eastern Division,HSC Eastern Division,michael.webber1@wvumedicine.org,Yes,$East_Div,"OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Anesthesiology,SOM Anesthesiology L4,microsoft@hsc.wvu.edu,Yes,$Anest;Anest,"OU=Anest,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Family Medicine,SOM Family Medicine L4,baylesc@wvumedicine.org,Yes,$FAMMED;FAMMED,"OU=FAMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Family Medicine,Family Medicine,baylesc@wvumedicine.org,Yes,$FAMMED;FAMMED,"OU=FAMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Opthamology,SOM Ophthalmology L4,tmiller@wvumedicine.org,Yes,$Optha;Optha,"OU=Optha,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOD Orthodontics,SOD Orthodontics L4,christopher.braham@hsc.wvu.edu,Yes,$SODORTHO;ORTHO,"OU=ORTHO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\ortho
+HSC SOD Oral Surgery,SOD Oral Surgery L4,christopher.braham@hsc.wvu.edu,Yes,$OS;OS,"OU=OS,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\os
+HSC SOD Endodontics,SOD Endodontics L4,christopher.braham@hsc.wvu.edu,Yes,$SODENDO;ENDO,"OU=ENDO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\endo
+HSC SOD Periodontics,SOD Periodontics L4,christopher.braham@hsc.wvu.edu,Yes,$PERIO;PERIO,"OU=PERIO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\perio
+HSC Eastern Division,SOM Eastern Division L4,michael.webber1@wvumedicine.org,Yes,$East_Div,"OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory

@@ -1,0 +1,8 @@
+[11/30/2020 15:12:58] - Exception calling "ExecuteQuery" with "0" argument(s): "The partner returned a bad sign-in name or password error. For more information, see Federation Error-handling Scenarios."in uploading File!: 
+[11/30/2020 15:12:58] - 1: 20201130_IDF2_HSC_CCs.xlsx
+[11/30/2020 15:12:58] - Exception calling "ExecuteQuery" with "0" argument(s): "The partner returned a bad sign-in name or password error. For more information, see Federation Error-handling Scenarios."in uploading File!: 
+[11/30/2020 15:12:58] - 2: 20201130_IDF2_HSC_ePHI.xlsx
+[11/30/2020 15:12:59] - Exception calling "ExecuteQuery" with "0" argument(s): "The partner returned a bad sign-in name or password error. For more information, see Federation Error-handling Scenarios."in uploading File!: 
+[11/30/2020 15:12:59] - 3: 20201130_IDF2_HSC_SSNs.xlsx
+[11/30/2020 15:12:59] - Exception calling "ExecuteQuery" with "0" argument(s): "The partner returned a bad sign-in name or password error. For more information, see Federation Error-handling Scenarios."in uploading File!: 
+[11/30/2020 15:12:59] - 4: 20201130_IDF2_HSC_TAXES.xlsx

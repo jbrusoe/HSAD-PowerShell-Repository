@@ -1,0 +1,8 @@
+Original Mail Attribute: 
+New Mail Attribute: justina.okonkwo@hsc.wvu.edu
+Successfully changed attribute
+************************
+Original Mail Attribute: 
+New Mail Attribute: dochoi@hsc.wvu.edu
+Successfully changed attribute
+************************

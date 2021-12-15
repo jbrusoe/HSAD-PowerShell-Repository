@@ -1,0 +1,151 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210401091210
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 7768
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\\2021-04-01-09-12-Create-NewAccountManual-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\
+VERBOSE: File Count: 45
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-12-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-15-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-16-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-17-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-18-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-19-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-20-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-08-21-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-10-06-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-10-11-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-30-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-34-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-36-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-37-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-38-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-39-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-40-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-41-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-42-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-43-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-45-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-46-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-47-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-49-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-50-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-52-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-53-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-56-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-58-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-11-59-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-12-01-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-12-02-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-25-12-03-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-26-10-09-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-03-26-10-19-Create-NewAccountManual-SessionTranscript.txt
+All input parameters are set to default values.
+
+Start Date:
+Opening Deparment Map File
+SAMAccountName: bat0011
+
+Step1: Getting SailPoint deparmtents from department map file
+SailPoint Departments:
+HSC Eastern Division
+SOM Anesthesiology L4
+SOM Family Medicine L4
+Family Medicine
+SOM Ophthalmology L4
+SOD Orthodontics L4
+SOD Oral Surgery L4
+SOD Endodontics L4
+SOD Periodontics L4
+SOM Eastern Division L4
+Searching AD NewUsers for matching department names
+
+***********************
+User found in NewUsers Org Unit
+SamAccountName: bat0011
+Password Last Set: 02/05/2021 14:37:57
+When Created: 10/20/2016 21:16:17
+Distinguished Name:
+CN=Bradley Thuro,OU=OPTHA,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+
+Step2: Determine destination OU
+Destination OU From File: OU=Optha,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Searching for Org Unit
+AD Target OU:
+OU=OPTHA,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+One unique destination OU was found. User is being moved there.
+Step 3: Attempting to move user to destination OU
+Successfully moved user
+
+Step 4: Generating new user object after move
+
+Step5: Creating home directory
+Home Directory Path: NoHomeDirectory
+Home Directory Path: NoHomeDirectory
+Not creating a home directory
+
+Adding ProxyAddresses
+
+Step 6: Adding Primary SMTP Address
+Setting Primary SMTP Address: bradley.thuro@hsc.wvu.edu
+Successfully set primary smtp address
+
+Step 7a: Adding Proxy Address: bat0011@hsc.wvu.edu
+Succesfully set samaccountname@hsc proxy address
+
+Step 7b: Adding onmicrosoft.com proxy: bat0011@WVUHSC.onmicrosoft.com
+Successfully set onmicrosoft.com proxy address
+
+Step 8: Adding SIP address: SIP:bat0011@hsc.wvu.edu
+
+Step 9: Adding user to groups
+User DN:
+CN=Bradley Thuro,OU=OPTHA,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+User DN: CN=Bradley Thuro,OU=OPTHA,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+True
+
+Step10: Setting extensionAttribute7
+Setting ext7 to Yes365
+
+Step 11: Setting name and display name
+Display Name: Thuro, Bradley
+
+Step 12: Enabling AD Account: bat0011
+Successfully enabled account
+Set-ADUser : Multiple values were specified for an attribute that can have only one value
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Create-N
+ewAccountManual.ps1:478 char:15
++     $NewADUser | Set-ADUser -Add @{msExchHideFromAddressLists=$false}
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (CN=Bradley Thur...d,DC=wvu,DC=edu:ADUser) [Set-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8321,Microsoft.ActiveDirectory.Management.Commands.SetADUser
+Set-ADUser : Multiple values were specified for an attribute that can have only one value
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Crea
+te-NewAccountManual.ps1:478 char:15
++     $NewADUser | Set-ADUser -Add @{msExchHideFromAddressLists=$false}
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (CN=Bradley Thur...d,DC=wvu,DC=edu:ADUser) [Set-ADUser], ADException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:8321,Microsoft.ActiveDirectory.Management.Commands.SetADUser
+
+*************************
+Copying session transcript to logs to save directory

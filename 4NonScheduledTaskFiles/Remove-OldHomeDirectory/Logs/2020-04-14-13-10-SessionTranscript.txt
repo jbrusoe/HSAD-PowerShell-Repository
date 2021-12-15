@@ -1,0 +1,3883 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200414131012
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.15063.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 41936
+PSVersion: 5.1.15063.1805
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.1805
+BuildVersion: 10.0.15063.1805
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory\Logs\2020-04-14-13-10-SessionTranscript.txt
+File system path exists.
+aakinyem
+ab0106
+abpetrone
+ACGME
+aclemmer
+ads0058
+adt0029
+ag10198
+aha0012
+amm0009
+amp0057
+Andreas Resident Files
+arg0048
+arn0007
+ars0049
+asmittle
+battistellal
+Billing
+bjhickey
+bmccormick
+bradabaugh
+Carie-Trevor
+catitus
+cboykin
+Cheryl-Andrea
+Cheryl-Erin
+Chief-Resident-Andrea
+clarient-data
+cls0042
+Cytopathology-Fellowship
+dagray
+dcastrodale
+dco10003
+derm-DIF
+dgray
+dgray-7-7-2016
+dh0001
+dhowell
+Division Newsletter
+dmburch
+dreynolds
+Drivers
+dtacker
+eel0006
+EM-data
+eosborne
+ffranyut
+flanagan-Scholl
+Grossing Manual
+Heme Path Fellowship
+Hemepath Director-Coordinator
+hho00001
+hjwilliams
+HTL Program
+image1
+INBRE
+ja0071
+jag0046
+jao0015
+jawade
+jcoad
+jfalcon1
+jkarakiozis
+jrh0036
+jvevans
+jvos
+kfeaster
+kharbert
+kk00001
+kmolchanoff
+Koneman
+Kym-Andrea
+ltrout
+ma00009
+ma0268
+Marty-Erin
+mbsmolkin
+mcostas
+Medical Examiner
+Medtech
+mflanagan
+mgb0002
+mjz0005
+MLS-Admissions
+MLS-Curriculum Task Force
+MLS-Files
+MLS-Handbook-Taskforce
+MLS-Recruitment
+MLS-Website-Taskforce
+mmb0061
+mnkumar
+MS2 Pathology Course
+mtdownes
+mwa0006
+nhm0006
+nm0077
+Old-Accounts
+Overdue Reports VOS
+PA program
+PA-Admissions
+Path-Chair
+PathAdmin
+pbacaj
+plasala
+PLTM-GrossRoom-Pictures
+pperrotta
+QAU
+QB-Kieffer
+QB-PLTM
+Question-Bank
+rasasi
+Research-Lab
+Residency-Program
+Resident-Admin
+rfw10005
+rjc0031
+rlc0063
+rmchurma
+RMT-websites
+Robinson Data Extraction (LaSala - Auten - Kehinde)
+rys0001
+Saved Gross Specimens
+sdp10010
+shared
+sjk0013
+sss00001
+SurgPathFellowship
+swrigh11
+Tissue-Bank Database
+tjh00005
+tk10046
+TPL work
+Translational Pathology Archive
+tst0015
+twk0003
+twolfe10
+WVAP
+wvupath1
+Current Directory: aakinyem
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\aakinyem
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+aakinyem BUILTIN\Administrators HS\aakinyem Allow  Modify, Synchronize
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ab0106
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ab0106
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+ab0106 BUILTIN\Administrators S-1-5-21-865322659-4255640127-3857865232-66577 Allow  Modify, Synchronize
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: abpetrone
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\abpetrone
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path      Owner          Access
+----      -----          ------
+abpetrone HS\dcastrodale HS\abpetrone Allow  Modify, Synchronize
+                         HS\jbrusoe Allow  FullControl
+                         S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                         HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                         HS\HSC Pathology CSC Allow  FullControl
+                         BUILTIN\Administrators Allow  FullControl
+                         HS\dcastrodale Allow  FullControl
+                         CREATOR OWNER Allow  FullControl
+                         NT AUTHORITY\SYSTEM Allow  FullControl
+                         HS\rnichols Allow  ReadAndExecute, Synchronize
+                         HS\ITS Systems Server Admins Allow  FullControl
+                         HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ACGME
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ACGME
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path  Owner                  Access
+----  -----                  ------
+ACGME BUILTIN\Administrators HS\jcoad Allow  Read, Synchronize
+                             S-1-5-21-865322659-4255640127-3857865232-5909 Allow  Read, Synchronize
+                             S-1-5-21-865322659-4255640127-3857865232-6341 Allow  Modify, Synchronize
+                             HS\ACGME Allow  Modify, Synchronize
+                             HS\ddavisson Allow  ReadAndExecute, Synchronize
+                             HS\jbrusoe Allow  FullControl
+                             S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                             HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                             HS\HSC Pathology CSC Allow  FullControl
+                             BUILTIN\Administrators Allow  FullControl
+                             CREATOR OWNER Allow  FullControl
+                             NT AUTHORITY\SYSTEM Allow  FullControl
+                             HS\rnichols Allow  ReadAndExecute, Synchronize
+                             HS\ITS Systems Server Admins Allow  FullControl
+                             HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: aclemmer
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\aclemmer
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner          Access
+----     -----          ------
+aclemmer HS\dcastrodale HS\aclemmer Allow  Modify, Synchronize
+                        HS\jbrusoe Allow  FullControl
+                        S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                        HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                        HS\HSC Pathology CSC Allow  FullControl
+                        BUILTIN\Administrators Allow  FullControl
+                        HS\dcastrodale Allow  FullControl
+                        CREATOR OWNER Allow  FullControl
+                        NT AUTHORITY\SYSTEM Allow  FullControl
+                        HS\rnichols Allow  ReadAndExecute, Synchronize
+                        HS\ITS Systems Server Admins Allow  FullControl
+                        HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ads0058
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ads0058
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+ads0058 BUILTIN\Administrators HS\ads0058 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: adt0029
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\adt0029
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+adt0029 BUILTIN\Administrators HS\adt0029 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ag10198
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ag10198
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+ag10198 BUILTIN\Administrators HS\ag10198 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: aha0012
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\aha0012
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+aha0012 BUILTIN\Administrators HS\aha0012 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: amm0009
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\amm0009
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+amm0009 BUILTIN\Administrators HS\amm0009 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: amp0057
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\amp0057
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+amp0057 BUILTIN\Administrators HS\amp0057 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Andreas Resident Files
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Andreas Resident Files
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                   Owner                  Access
+----                   -----                  ------
+Andreas Resident Files BUILTIN\Administrators HS\ddavisson Allow  Modify, Synchronize
+                                              HS\aclemmer Allow  Modify, Synchronize
+                                              HS\jbrusoe Allow  FullControl
+                                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                              HS\HSC Pathology CSC Allow  FullControl
+                                              BUILTIN\Administrators Allow  FullControl
+                                              CREATOR OWNER Allow  FullControl
+                                              NT AUTHORITY\SYSTEM Allow  FullControl
+                                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                                              HS\ITS Systems Server Admins Allow  FullControl
+                                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: arg0048
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\arg0048
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+arg0048 BUILTIN\Administrators HS\arg0048 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: arn0007
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\arn0007
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+arn0007 BUILTIN\Administrators HS\arn0007 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ars0049
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ars0049
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+ars0049 BUILTIN\Administrators HS\ars0049 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: asmittle
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\asmittle
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner          Access
+----     -----          ------
+asmittle HS\dcastrodale HS\asmittle Allow  Modify, Synchronize
+                        HS\jbrusoe Allow  FullControl
+                        S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                        HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                        HS\HSC Pathology CSC Allow  FullControl
+                        BUILTIN\Administrators Allow  FullControl
+                        HS\dcastrodale Allow  FullControl
+                        CREATOR OWNER Allow  FullControl
+                        NT AUTHORITY\SYSTEM Allow  FullControl
+                        HS\rnichols Allow  ReadAndExecute, Synchronize
+                        HS\ITS Systems Server Admins Allow  FullControl
+                        HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: battistellal
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\battistellal
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path         Owner                  Access
+----         -----                  ------
+battistellal BUILTIN\Administrators HS\battistellal Allow  FullControl
+                                    HS\jbrusoe Allow  FullControl
+                                    S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                    HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                    HS\HSC Pathology CSC Allow  FullControl
+                                    BUILTIN\Administrators Allow  FullControl
+                                    CREATOR OWNER Allow  FullControl
+                                    NT AUTHORITY\SYSTEM Allow  FullControl
+                                    HS\rnichols Allow  ReadAndExecute, Synchronize
+                                    HS\ITS Systems Server Admins Allow  FullControl
+                                    HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Billing
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Billing
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+Billing BUILTIN\Administrators HS\dreynolds Allow  ReadAndExecute, Synchronize
+                               HS\jcoad Allow  Modify, Synchronize
+                               HS\jkarakiozis Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: bjhickey
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\bjhickey
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+bjhickey BUILTIN\Administrators HS\bjhickey Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: bmccormick
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\bmccormick
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner                  Access
+----       -----                  ------
+bmccormick BUILTIN\Administrators HS\bmccormick Allow  Modify, Synchronize
+                                  HS\jbrusoe Allow  FullControl
+                                  S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                  HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                  HS\HSC Pathology CSC Allow  FullControl
+                                  BUILTIN\Administrators Allow  FullControl
+                                  CREATOR OWNER Allow  FullControl
+                                  NT AUTHORITY\SYSTEM Allow  FullControl
+                                  HS\rnichols Allow  ReadAndExecute, Synchronize
+                                  HS\ITS Systems Server Admins Allow  FullControl
+                                  HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: bradabaugh
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\bradabaugh
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner                  Access
+----       -----                  ------
+bradabaugh BUILTIN\Administrators HS\bradabaugh Allow  FullControl
+                                  HS\jbrusoe Allow  FullControl
+                                  S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                  HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                  HS\HSC Pathology CSC Allow  FullControl
+                                  BUILTIN\Administrators Allow  FullControl
+                                  CREATOR OWNER Allow  FullControl
+                                  NT AUTHORITY\SYSTEM Allow  FullControl
+                                  HS\rnichols Allow  ReadAndExecute, Synchronize
+                                  HS\ITS Systems Server Admins Allow  FullControl
+                                  HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Carie-Trevor
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Carie-Trevor
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path         Owner          Access
+----         -----          ------
+Carie-Trevor HS\dcastrodale HS\ccoffindaffer Allow  Modify, Synchronize
+                            HS\twolfe10 Allow  Modify, Synchronize
+                            HS\jbrusoe Allow  FullControl
+                            S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                            HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                            HS\HSC Pathology CSC Allow  FullControl
+                            BUILTIN\Administrators Allow  FullControl
+                            HS\dcastrodale Allow  FullControl
+                            CREATOR OWNER Allow  FullControl
+                            NT AUTHORITY\SYSTEM Allow  FullControl
+                            HS\rnichols Allow  ReadAndExecute, Synchronize
+                            HS\ITS Systems Server Admins Allow  FullControl
+                            HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: catitus
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\catitus
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+catitus BUILTIN\Administrators HS\catitus Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: cboykin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\cboykin
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+cboykin HS\dcastrodale HS\ccoffindaffer Allow  Modify, Synchronize
+                       HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Cheryl-Andrea
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Cheryl-Andrea
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path          Owner          Access
+----          -----          ------
+Cheryl-Andrea HS\dcastrodale HS\ddavisson Allow  Modify, Synchronize
+                             HS\aclemmer Allow  Modify, Synchronize
+                             HS\jbrusoe Allow  FullControl
+                             S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                             HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                             HS\HSC Pathology CSC Allow  FullControl
+                             BUILTIN\Administrators Allow  FullControl
+                             HS\dcastrodale Allow  FullControl
+                             CREATOR OWNER Allow  FullControl
+                             NT AUTHORITY\SYSTEM Allow  FullControl
+                             HS\rnichols Allow  ReadAndExecute, Synchronize
+                             HS\ITS Systems Server Admins Allow  FullControl
+                             HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Cheryl-Erin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Cheryl-Erin
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path        Owner          Access
+----        -----          ------
+Cheryl-Erin HS\dcastrodale HS\ecosborne Allow  Modify, Synchronize
+                           HS\jbrusoe Allow  FullControl
+                           S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                           HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                           HS\HSC Pathology CSC Allow  FullControl
+                           BUILTIN\Administrators Allow  FullControl
+                           HS\dcastrodale Allow  FullControl
+                           CREATOR OWNER Allow  FullControl
+                           NT AUTHORITY\SYSTEM Allow  FullControl
+                           HS\rnichols Allow  ReadAndExecute, Synchronize
+                           HS\ITS Systems Server Admins Allow  FullControl
+                           HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Chief-Resident-Andrea
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Chief-Resident-Andrea
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                  Owner                  Access
+----                  -----                  ------
+Chief-Resident-Andrea BUILTIN\Administrators BUILTIN\Administrators Allow  Modify, Synchronize
+                                             HS\ddavisson Allow  Modify, Synchronize
+                                             HS\jvos Allow  Modify, Synchronize
+                                             HS\aclemmer Allow  Modify, Synchronize
+                                             HS\aha0012 Allow  Modify, Synchronize
+                                             HS\cls0042 Allow  Modify, Synchronize
+                                             HS\mwa0006 Allow  Modify, Synchronize
+                                             HS\amp0057 Allow  Modify, Synchronize
+                                             HS\jbrusoe Allow  FullControl
+                                             S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                             HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                             HS\HSC Pathology CSC Allow  FullControl
+                                             BUILTIN\Administrators Allow  FullControl
+                                             CREATOR OWNER Allow  FullControl
+                                             NT AUTHORITY\SYSTEM Allow  FullControl
+                                             HS\rnichols Allow  ReadAndExecute, Synchronize
+                                             HS\ITS Systems Server Admins Allow  FullControl
+                                             HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: clarient-data
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\clarient-data
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path          Owner                  Access
+----          -----                  ------
+clarient-data BUILTIN\Administrators HS\dcastrodale Allow  Modify, Synchronize
+                                     HS\graye Allow  ReadAndExecute, Synchronize
+                                     HS\pbacaj Allow  Modify, Synchronize
+                                     HS\mflanagan Allow  Modify, Synchronize
+                                     HS\jbrusoe Allow  FullControl
+                                     S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                     HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                     HS\HSC Pathology CSC Allow  FullControl
+                                     BUILTIN\Administrators Allow  FullControl
+                                     CREATOR OWNER Allow  FullControl
+                                     NT AUTHORITY\SYSTEM Allow  FullControl
+                                     HS\rnichols Allow  ReadAndExecute, Synchronize
+                                     HS\ITS Systems Server Admins Allow  FullControl
+                                     HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: cls0042
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\cls0042
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+cls0042 BUILTIN\Administrators HS\cls0042 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Cytopathology-Fellowship
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Cytopathology-Fellowship
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                     Owner          Access
+----                     -----          ------
+Cytopathology-Fellowship HS\dcastrodale HS\ddavisson Allow  Modify, Synchronize
+                                        HS\mflanagan Allow  Modify, Synchronize
+                                        HS\aclemmer Allow  Modify, Synchronize
+                                        HS\jbrusoe Allow  FullControl
+                                        S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                        HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                        HS\HSC Pathology CSC Allow  FullControl
+                                        BUILTIN\Administrators Allow  FullControl
+                                        HS\dcastrodale Allow  FullControl
+                                        CREATOR OWNER Allow  FullControl
+                                        NT AUTHORITY\SYSTEM Allow  FullControl
+                                        HS\rnichols Allow  ReadAndExecute, Synchronize
+                                        HS\ITS Systems Server Admins Allow  FullControl
+                                        HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dagray
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dagray
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner          Access
+----   -----          ------
+dagray HS\dcastrodale HS\dagray Allow  Modify, Synchronize
+                      HS\jbrusoe Allow  FullControl
+                      S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                      HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                      HS\HSC Pathology CSC Allow  FullControl
+                      BUILTIN\Administrators Allow  FullControl
+                      HS\dcastrodale Allow  FullControl
+                      CREATOR OWNER Allow  FullControl
+                      NT AUTHORITY\SYSTEM Allow  FullControl
+                      HS\rnichols Allow  ReadAndExecute, Synchronize
+                      HS\ITS Systems Server Admins Allow  FullControl
+                      HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dcastrodale
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dcastrodale
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path        Owner                  Access
+----        -----                  ------
+dcastrodale BUILTIN\Administrators HS\dcastrodale Allow  FullControl
+                                   HS\jbrusoe Allow  FullControl
+                                   S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                   HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                   HS\HSC Pathology CSC Allow  FullControl
+                                   BUILTIN\Administrators Allow  FullControl
+                                   CREATOR OWNER Allow  FullControl
+                                   NT AUTHORITY\SYSTEM Allow  FullControl
+                                   HS\rnichols Allow  ReadAndExecute, Synchronize
+                                   HS\ITS Systems Server Admins Allow  FullControl
+                                   HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dco10003
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dco10003
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+dco10003 BUILTIN\Administrators HS\dco10003 Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: derm-DIF
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\derm-DIF
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner          Access
+----     -----          ------
+derm-DIF HS\dcastrodale HS\dmburch Allow  Modify, Synchronize
+                        HS\adt0029 Allow  Modify, Synchronize
+                        HS\kk00001 Allow  Modify, Synchronize
+                        HS\jbrusoe Allow  FullControl
+                        S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                        HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                        HS\HSC Pathology CSC Allow  FullControl
+                        BUILTIN\Administrators Allow  FullControl
+                        HS\dcastrodale Allow  FullControl
+                        CREATOR OWNER Allow  FullControl
+                        NT AUTHORITY\SYSTEM Allow  FullControl
+                        HS\rnichols Allow  ReadAndExecute, Synchronize
+                        HS\ITS Systems Server Admins Allow  FullControl
+                        HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dgray
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dgray
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path  Owner                  Access
+----  -----                  ------
+dgray BUILTIN\Administrators HS\dagray Allow  Modify, ChangePermissions, Synchronize
+                             HS\jbrusoe Allow  FullControl
+                             S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                             HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                             HS\HSC Pathology CSC Allow  FullControl
+                             BUILTIN\Administrators Allow  FullControl
+                             CREATOR OWNER Allow  FullControl
+                             NT AUTHORITY\SYSTEM Allow  FullControl
+                             HS\rnichols Allow  ReadAndExecute, Synchronize
+                             HS\ITS Systems Server Admins Allow  FullControl
+                             HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dgray-7-7-2016
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dgray-7-7-2016
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path           Owner          Access
+----           -----          ------
+dgray-7-7-2016 HS\dcastrodale HS\dagray Allow  Write, ReadAndExecute, Synchronize
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              HS\dcastrodale Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dh0001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dh0001
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+dh0001 BUILTIN\Administrators S-1-5-21-865322659-4255640127-3857865232-60989 Allow  FullControl
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dhowell
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dhowell
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+dhowell BUILTIN\Administrators HS\dhowell Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Division Newsletter
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Division Newsletter
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                Owner          Access
+----                -----          ------
+Division Newsletter HS\dcastrodale HS\kmfeaster Allow  Modify, Synchronize
+                                   HS\mcostas Allow  Modify, Synchronize
+                                   HS\mmb0061 Allow  Modify, Synchronize
+                                   HS\battistellal Allow  Modify, Synchronize
+                                   HS\jbrusoe Allow  FullControl
+                                   S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                   HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                   HS\HSC Pathology CSC Allow  FullControl
+                                   BUILTIN\Administrators Allow  FullControl
+                                   HS\dcastrodale Allow  FullControl
+                                   CREATOR OWNER Allow  FullControl
+                                   NT AUTHORITY\SYSTEM Allow  FullControl
+                                   HS\rnichols Allow  ReadAndExecute, Synchronize
+                                   HS\ITS Systems Server Admins Allow  FullControl
+                                   HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dmburch
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dmburch
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+dmburch HS\dcastrodale HS\dmburch Allow  Modify, Synchronize
+                       HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dreynolds
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dreynolds
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path      Owner                  Access
+----      -----                  ------
+dreynolds BUILTIN\Administrators HS\dreynolds Allow  FullControl
+                                 HS\jbrusoe Allow  FullControl
+                                 S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                 HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                 HS\HSC Pathology CSC Allow  FullControl
+                                 BUILTIN\Administrators Allow  FullControl
+                                 CREATOR OWNER Allow  FullControl
+                                 NT AUTHORITY\SYSTEM Allow  FullControl
+                                 HS\rnichols Allow  ReadAndExecute, Synchronize
+                                 HS\ITS Systems Server Admins Allow  FullControl
+                                 HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Drivers
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Drivers
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+Drivers HS\dcastrodale HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: dtacker
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dtacker
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+dtacker BUILTIN\Administrators HS\dtacker Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: eel0006
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\eel0006
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+eel0006 BUILTIN\Administrators HS\eel0006 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: EM-data
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\EM-data
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+EM-data HS\dcastrodale HS\dhowell Allow  Modify, Synchronize
+                       HS\bradabaugh Allow  Modify, Synchronize
+                       S-1-5-21-865322659-4255640127-3857865232-4737 Allow  Modify, Synchronize
+                       HS\graye Allow  Write, ReadAndExecute, Synchronize
+                       HS\pbacaj Allow  Modify, Synchronize
+                       HS\rjc0031 Allow  Write, ReadAndExecute, Synchronize
+                       HS\ma00009 Allow  Modify, Synchronize
+                       HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: eosborne
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\eosborne
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+eosborne BUILTIN\Administrators HS\ecosborne Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ffranyut
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ffranyut
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+ffranyut BUILTIN\Administrators HS\ffranyut Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: flanagan-Scholl
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\flanagan-Scholl
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path            Owner          Access
+----            -----          ------
+flanagan-Scholl HS\dcastrodale HS\mflanagan Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               HS\dcastrodale Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Grossing Manual
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Grossing Manual
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path            Owner          Access
+----            -----          ------
+Grossing Manual HS\dcastrodale HS\Pathology Residents Allow  ReadAndExecute, Synchronize
+                               HS\Pathology Faculty Allow  ReadAndExecute, Synchronize
+                               HS\ccoffindaffer Allow  Modify, Synchronize
+                               HS\PAs Allow  ReadAndExecute, Synchronize
+                               HS\twolfe10 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               HS\dcastrodale Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Heme Path Fellowship
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Heme Path Fellowship
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                 Owner                  Access
+----                 -----                  ------
+Heme Path Fellowship BUILTIN\Administrators S-1-5-21-865322659-4255640127-3857865232-3087 Allow  Modify, Synchronize
+                                            HS\jcoad Allow  Modify, Synchronize
+                                            HS\pperrotta Allow  ReadAndExecute, Synchronize
+                                            HS\ddavisson Allow  Modify, Synchronize
+                                            HS\jvos Allow  Modify, Synchronize
+                                            HS\aclemmer Allow  Modify, Synchronize
+                                            HS\plasala Allow  ReadAndExecute, Synchronize
+                                            S-1-5-21-865322659-4255640127-3857865232-41592 Allow  Modify, Synchronize
+                                            HS\rasasi Allow  ReadAndExecute, Synchronize
+                                            S-1-5-21-865322659-4255640127-3857865232-48274 Allow  ReadAndExecute,
+                                            Synchronize
+                                            HS\swrigh11 Allow  Modify, Synchronize
+                                            HS\ag10198 Allow  ReadAndExecute, Synchronize
+                                            HS\jbrusoe Allow  FullControl
+                                            S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                            HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                            HS\HSC Pathology CSC Allow  FullControl
+                                            BUILTIN\Administrators Allow  FullControl
+                                            CREATOR OWNER Allow  FullControl
+                                            NT AUTHORITY\SYSTEM Allow  FullControl
+                                            HS\rnichols Allow  ReadAndExecute, Synchronize
+                                            HS\ITS Systems Server Admins Allow  FullControl
+                                            HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Hemepath Director-Coordinator
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Hemepath Director-Coordinator
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                          Owner          Access
+----                          -----          ------
+Hemepath Director-Coordinator HS\dcastrodale HS\jcoad Allow  ReadAndExecute, Synchronize
+                                             HS\ddavisson Allow  Modify, Synchronize
+                                             HS\jvos Allow  FullControl
+                                             HS\aclemmer Allow  Modify, Synchronize
+                                             HS\plasala Allow  ReadAndExecute, Synchronize
+                                             S-1-5-21-865322659-4255640127-3857865232-48274 Allow  Modify, Synchronize
+                                             HS\jbrusoe Allow  FullControl
+                                             S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                             HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                             HS\HSC Pathology CSC Allow  FullControl
+                                             BUILTIN\Administrators Allow  FullControl
+                                             HS\dcastrodale Allow  FullControl
+                                             CREATOR OWNER Allow  FullControl
+                                             NT AUTHORITY\SYSTEM Allow  FullControl
+                                             HS\rnichols Allow  ReadAndExecute, Synchronize
+                                             HS\ITS Systems Server Admins Allow  FullControl
+                                             HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: hho00001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\hho00001
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+hho00001 BUILTIN\Administrators HS\hho00001 Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: hjwilliams
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\hjwilliams
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner                  Access
+----       -----                  ------
+hjwilliams BUILTIN\Administrators HS\hjwilliams Allow  FullControl
+                                  HS\jbrusoe Allow  FullControl
+                                  S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                  HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                  HS\HSC Pathology CSC Allow  FullControl
+                                  BUILTIN\Administrators Allow  FullControl
+                                  CREATOR OWNER Allow  FullControl
+                                  NT AUTHORITY\SYSTEM Allow  FullControl
+                                  HS\rnichols Allow  ReadAndExecute, Synchronize
+                                  HS\ITS Systems Server Admins Allow  FullControl
+                                  HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: HTL Program
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\HTL Program
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path        Owner          Access
+----        -----          ------
+HTL Program HS\dcastrodale HS\kmfeaster Allow  Modify, Synchronize
+                           HS\jawade Allow  Modify, Synchronize
+                           HS\jbrusoe Allow  FullControl
+                           S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                           HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                           HS\HSC Pathology CSC Allow  FullControl
+                           BUILTIN\Administrators Allow  FullControl
+                           HS\dcastrodale Allow  FullControl
+                           CREATOR OWNER Allow  FullControl
+                           NT AUTHORITY\SYSTEM Allow  FullControl
+                           HS\rnichols Allow  ReadAndExecute, Synchronize
+                           HS\ITS Systems Server Admins Allow  FullControl
+                           HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: image1
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\image1
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+image1 BUILTIN\Administrators BUILTIN\Administrators Allow  FullControl
+                              HS\jbrusoe Allow  FullControl
+                              HS\$PATH Allow  ReadAndExecute, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              HS\kadmin Allow  FullControl
+                              WVUH\pperrotta Allow  ReadData, ExecuteFile, ReadAttributes, ReadPermissions, Synchronize
+
+
+*********************
+Current Directory: INBRE
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\INBRE
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path  Owner          Access
+----  -----          ------
+INBRE HS\dcastrodale HS\pperrotta Allow  Modify, Synchronize
+                     HS\plasala Allow  Modify, Synchronize
+                     S-1-5-21-865322659-4255640127-3857865232-31158 Allow  Modify, Synchronize
+                     HS\jbrusoe Allow  FullControl
+                     S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                     HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                     HS\HSC Pathology CSC Allow  FullControl
+                     BUILTIN\Administrators Allow  FullControl
+                     HS\dcastrodale Allow  FullControl
+                     CREATOR OWNER Allow  FullControl
+                     NT AUTHORITY\SYSTEM Allow  FullControl
+                     HS\rnichols Allow  ReadAndExecute, Synchronize
+                     HS\ITS Systems Server Admins Allow  FullControl
+                     HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ja0071
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ja0071
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+ja0071 BUILTIN\Administrators HS\ja0071 Allow  FullControl
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jag0046
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jag0046
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+jag0046 BUILTIN\Administrators HS\jag0046 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jao0015
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jao0015
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+jao0015 BUILTIN\Administrators HS\jao0015 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jawade
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jawade
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+jawade BUILTIN\Administrators HS\jawade Allow  Modify, Synchronize
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jcoad
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jcoad
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path  Owner                  Access
+----  -----                  ------
+jcoad BUILTIN\Administrators HS\jcoad Allow  FullControl
+                             HS\jbrusoe Allow  FullControl
+                             S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                             HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                             HS\HSC Pathology CSC Allow  FullControl
+                             BUILTIN\Administrators Allow  FullControl
+                             CREATOR OWNER Allow  FullControl
+                             NT AUTHORITY\SYSTEM Allow  FullControl
+                             HS\rnichols Allow  ReadAndExecute, Synchronize
+                             HS\ITS Systems Server Admins Allow  FullControl
+                             HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jfalcon1
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jfalcon1
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+jfalcon1 BUILTIN\Administrators HS\jfalcon1 Allow  Modify, Synchronize
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jkarakiozis
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jkarakiozis
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path        Owner                  Access
+----        -----                  ------
+jkarakiozis BUILTIN\Administrators HS\jkarakiozis Allow  FullControl
+                                   HS\jbrusoe Allow  FullControl
+                                   S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                   HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                   HS\HSC Pathology CSC Allow  FullControl
+                                   BUILTIN\Administrators Allow  FullControl
+                                   CREATOR OWNER Allow  FullControl
+                                   NT AUTHORITY\SYSTEM Allow  FullControl
+                                   HS\rnichols Allow  ReadAndExecute, Synchronize
+                                   HS\ITS Systems Server Admins Allow  FullControl
+                                   HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jrh0036
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jrh0036
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+jrh0036 BUILTIN\Administrators HS\jrh0036 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jvevans
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jvevans
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+jvevans BUILTIN\Administrators HS\jvevans Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: jvos
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jvos
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path Owner                  Access
+---- -----                  ------
+jvos BUILTIN\Administrators HS\jvos Allow  FullControl
+                            HS\jbrusoe Allow  FullControl
+                            S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                            HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                            HS\HSC Pathology CSC Allow  FullControl
+                            BUILTIN\Administrators Allow  FullControl
+                            CREATOR OWNER Allow  FullControl
+                            NT AUTHORITY\SYSTEM Allow  FullControl
+                            HS\rnichols Allow  ReadAndExecute, Synchronize
+                            HS\ITS Systems Server Admins Allow  FullControl
+                            HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: kfeaster
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kfeaster
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+kfeaster BUILTIN\Administrators HS\kmfeaster Allow  Modify, Synchronize
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: kharbert
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kharbert
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+kharbert BUILTIN\Administrators HS\kharbert Allow  Modify, ChangePermissions, Synchronize
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: kk00001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kk00001
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+kk00001 BUILTIN\Administrators HS\kk00001 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: kmolchanoff
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kmolchanoff
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path        Owner                  Access
+----        -----                  ------
+kmolchanoff BUILTIN\Administrators HS\jbrusoe Allow  FullControl
+                                   S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                   HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                   HS\HSC Pathology CSC Allow  FullControl
+                                   BUILTIN\Administrators Allow  FullControl
+                                   CREATOR OWNER Allow  FullControl
+                                   NT AUTHORITY\SYSTEM Allow  FullControl
+                                   HS\rnichols Allow  ReadAndExecute, Synchronize
+                                   HS\ITS Systems Server Admins Allow  FullControl
+                                   HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Koneman
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Koneman
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+Koneman HS\dcastrodale HS\kmfeaster Allow  ReadAndExecute, Synchronize
+                       HS\Pathology Residents Allow  ReadAndExecute, Synchronize
+                       HS\Pathology Faculty Allow  ReadAndExecute, Synchronize
+                       HS\Medtech Faculty Allow  ReadAndExecute, Synchronize
+                       HS\PAs Allow  ReadAndExecute, Synchronize
+                       HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Kym-Andrea
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Kym-Andrea
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner                  Access
+----       -----                  ------
+Kym-Andrea BUILTIN\Administrators HS\ddavisson Allow  Modify, Synchronize
+                                  HS\aclemmer Allow  Modify, Synchronize
+                                  HS\jbrusoe Allow  FullControl
+                                  S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                  HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                  HS\HSC Pathology CSC Allow  FullControl
+                                  BUILTIN\Administrators Allow  FullControl
+                                  CREATOR OWNER Allow  FullControl
+                                  NT AUTHORITY\SYSTEM Allow  FullControl
+                                  HS\rnichols Allow  ReadAndExecute, Synchronize
+                                  HS\ITS Systems Server Admins Allow  FullControl
+                                  HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ltrout
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ltrout
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner          Access
+----   -----          ------
+ltrout HS\dcastrodale HS\ltrout Allow  Modify, Synchronize
+                      HS\jbrusoe Allow  FullControl
+                      S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                      HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                      HS\HSC Pathology CSC Allow  FullControl
+                      BUILTIN\Administrators Allow  FullControl
+                      HS\dcastrodale Allow  FullControl
+                      CREATOR OWNER Allow  FullControl
+                      NT AUTHORITY\SYSTEM Allow  FullControl
+                      HS\rnichols Allow  ReadAndExecute, Synchronize
+                      HS\ITS Systems Server Admins Allow  FullControl
+                      HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ma00009
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ma00009
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+ma00009 BUILTIN\Administrators HS\ma00009 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: ma0268
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ma0268
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+ma0268 BUILTIN\Administrators HS\ma0268 Allow  FullControl
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Marty-Erin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Marty-Erin
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner          Access
+----       -----          ------
+Marty-Erin HS\dcastrodale HS\ecosborne Allow  Modify, Synchronize
+                          HS\mmb0061 Allow  Modify, Synchronize
+                          HS\jbrusoe Allow  FullControl
+                          S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                          HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                          HS\HSC Pathology CSC Allow  FullControl
+                          BUILTIN\Administrators Allow  FullControl
+                          HS\dcastrodale Allow  FullControl
+                          CREATOR OWNER Allow  FullControl
+                          NT AUTHORITY\SYSTEM Allow  FullControl
+                          HS\rnichols Allow  ReadAndExecute, Synchronize
+                          HS\ITS Systems Server Admins Allow  FullControl
+                          HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mbsmolkin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mbsmolkin
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path      Owner                  Access
+----      -----                  ------
+mbsmolkin BUILTIN\Administrators HS\mbsmolkin Allow  Modify, Synchronize
+                                 HS\jbrusoe Allow  FullControl
+                                 S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                 HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                 HS\HSC Pathology CSC Allow  FullControl
+                                 BUILTIN\Administrators Allow  FullControl
+                                 CREATOR OWNER Allow  FullControl
+                                 NT AUTHORITY\SYSTEM Allow  FullControl
+                                 HS\rnichols Allow  ReadAndExecute, Synchronize
+                                 HS\ITS Systems Server Admins Allow  FullControl
+                                 HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mcostas
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mcostas
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+mcostas BUILTIN\Administrators HS\mcostas Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Medical Examiner
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Medical Examiner
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path             Owner                  Access
+----             -----                  ------
+Medical Examiner BUILTIN\Administrators CREATOR OWNER Allow  FullControl
+                                        NT AUTHORITY\SYSTEM Allow  FullControl
+                                        BUILTIN\Administrators Allow  FullControl
+                                        HS\jbrusoe Allow  FullControl
+                                        S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                        HS\mkondrla Allow  FullControl
+                                        HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                        HS\dreynolds Allow  Modify, Synchronize
+                                        HS\graye Allow  Modify, Synchronize
+                                        HS\HSC Pathology CSC Allow  FullControl
+                                        HS\Medical Examiners Allow  Modify, Synchronize
+                                        HS\rnichols Allow  ReadAndExecute, Synchronize
+                                        HS\ITS Systems Server Admins Allow  FullControl
+                                        WVUH\H48891 Allow  Modify, Synchronize
+
+
+*********************
+Current Directory: Medtech
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Medtech
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+Medtech BUILTIN\Administrators HS\kharbert Allow  Modify, Synchronize
+                               HS\MedLabSci Allow  Modify, Synchronize
+                               HS\jawade Allow  Modify, Synchronize
+                               HS\mtdownes Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mflanagan
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mflanagan
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path      Owner                  Access
+----      -----                  ------
+mflanagan BUILTIN\Administrators HS\mflanagan Allow  FullControl
+                                 HS\jbrusoe Allow  FullControl
+                                 S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                 HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                 HS\HSC Pathology CSC Allow  FullControl
+                                 BUILTIN\Administrators Allow  FullControl
+                                 CREATOR OWNER Allow  FullControl
+                                 NT AUTHORITY\SYSTEM Allow  FullControl
+                                 HS\rnichols Allow  ReadAndExecute, Synchronize
+                                 HS\ITS Systems Server Admins Allow  FullControl
+                                 HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mgb0002
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mgb0002
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+mgb0002 BUILTIN\Administrators HS\mgb0002 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mjz0005
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mjz0005
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+mjz0005 BUILTIN\Administrators HS\mjz0005 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: MLS-Admissions
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Admissions
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path           Owner          Access
+----           -----          ------
+MLS-Admissions HS\dcastrodale HS\kmfeaster Allow  Modify, Synchronize
+                              HS\mtdownes Allow  Modify, Synchronize
+                              HS\mmb0061 Allow  Modify, Synchronize
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              HS\dcastrodale Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: MLS-Curriculum Task Force
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Curriculum Task Force
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                      Owner          Access
+----                      -----          ------
+MLS-Curriculum Task Force HS\dcastrodale HS\kmfeaster Allow  Modify, Synchronize
+                                         HS\jvevans Allow  Modify, Synchronize
+                                         HS\mmb0061 Allow  Modify, Synchronize
+                                         HS\jbrusoe Allow  FullControl
+                                         S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                         HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                         HS\HSC Pathology CSC Allow  FullControl
+                                         BUILTIN\Administrators Allow  FullControl
+                                         HS\dcastrodale Allow  FullControl
+                                         CREATOR OWNER Allow  FullControl
+                                         NT AUTHORITY\SYSTEM Allow  FullControl
+                                         HS\rnichols Allow  ReadAndExecute, Synchronize
+                                         HS\ITS Systems Server Admins Allow  FullControl
+                                         HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: MLS-Files
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Files
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path      Owner          Access
+----      -----          ------
+MLS-Files HS\dcastrodale HS\ecosborne Allow  Modify, Synchronize
+                         HS\Medtech Faculty Allow  Modify, Synchronize
+                         HS\jbrusoe Allow  FullControl
+                         S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                         HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                         HS\HSC Pathology CSC Allow  FullControl
+                         BUILTIN\Administrators Allow  FullControl
+                         HS\dcastrodale Allow  FullControl
+                         CREATOR OWNER Allow  FullControl
+                         NT AUTHORITY\SYSTEM Allow  FullControl
+                         HS\rnichols Allow  ReadAndExecute, Synchronize
+                         HS\ITS Systems Server Admins Allow  FullControl
+                         HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: MLS-Handbook-Taskforce
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Handbook-Taskforce
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                   Owner          Access
+----                   -----          ------
+MLS-Handbook-Taskforce HS\dcastrodale HS\kmfeaster Allow  Modify, Synchronize
+                                      HS\jawade Allow  Modify, Synchronize
+                                      HS\catitus Allow  Modify, Synchronize
+                                      HS\mmb0061 Allow  Modify, Synchronize
+                                      HS\battistellal Allow  Modify, Synchronize
+                                      HS\jbrusoe Allow  FullControl
+                                      S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                      HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                      HS\HSC Pathology CSC Allow  FullControl
+                                      BUILTIN\Administrators Allow  FullControl
+                                      HS\dcastrodale Allow  FullControl
+                                      CREATOR OWNER Allow  FullControl
+                                      NT AUTHORITY\SYSTEM Allow  FullControl
+                                      HS\rnichols Allow  ReadAndExecute, Synchronize
+                                      HS\ITS Systems Server Admins Allow  FullControl
+                                      HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: MLS-Recruitment
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Recruitment
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path            Owner          Access
+----            -----          ------
+MLS-Recruitment HS\dcastrodale HS\kmfeaster Allow  Modify, Synchronize
+                               HS\jvevans Allow  Modify, Synchronize
+                               HS\mmb0061 Allow  Modify, Synchronize
+                               HS\battistellal Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               HS\dcastrodale Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: MLS-Website-Taskforce
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Website-Taskforce
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                  Owner          Access
+----                  -----          ------
+MLS-Website-Taskforce HS\dcastrodale HS\kmfeaster Allow  Modify, Synchronize
+                                     HS\mfizer Allow  Modify, Synchronize
+                                     HS\catitus Allow  Modify, Synchronize
+                                     HS\mmb0061 Allow  Modify, Synchronize
+                                     HS\jbrusoe Allow  FullControl
+                                     S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                     HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                     HS\HSC Pathology CSC Allow  FullControl
+                                     BUILTIN\Administrators Allow  FullControl
+                                     HS\dcastrodale Allow  FullControl
+                                     CREATOR OWNER Allow  FullControl
+                                     NT AUTHORITY\SYSTEM Allow  FullControl
+                                     HS\rnichols Allow  ReadAndExecute, Synchronize
+                                     HS\ITS Systems Server Admins Allow  FullControl
+                                     HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mmb0061
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mmb0061
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+mmb0061 BUILTIN\Administrators HS\mmb0061 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mnkumar
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mnkumar
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+mnkumar BUILTIN\Administrators HS\mnkumar Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: MS2 Pathology Course
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MS2 Pathology Course
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                 Owner          Access
+----                 -----          ------
+MS2 Pathology Course HS\dcastrodale HS\hjwilliams Allow  Modify, Synchronize
+                                    HS\mflanagan Allow  Modify, Synchronize
+                                    HS\plasala Allow  Modify, Synchronize
+                                    HS\asmittle Allow  Modify, Synchronize
+                                    HS\jbrusoe Allow  FullControl
+                                    S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                    HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                    HS\HSC Pathology CSC Allow  FullControl
+                                    BUILTIN\Administrators Allow  FullControl
+                                    HS\dcastrodale Allow  FullControl
+                                    CREATOR OWNER Allow  FullControl
+                                    NT AUTHORITY\SYSTEM Allow  FullControl
+                                    HS\rnichols Allow  ReadAndExecute, Synchronize
+                                    HS\ITS Systems Server Admins Allow  FullControl
+                                    HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mtdownes
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mtdownes
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+mtdownes BUILTIN\Administrators HS\mtdownes Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: mwa0006
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mwa0006
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+mwa0006 BUILTIN\Administrators HS\mwa0006 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: nhm0006
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\nhm0006
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+nhm0006 HS\dcastrodale HS\nhm0006 Allow  Modify, Synchronize
+                       HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: nm0077
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\nm0077
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+nm0077 BUILTIN\Administrators HS\nm0077 Allow  FullControl
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Old-Accounts
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Old-Accounts
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path         Owner          Access
+----         -----          ------
+Old-Accounts HS\dcastrodale HS\jbrusoe Allow  FullControl
+                            S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                            HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                            HS\HSC Pathology CSC Allow  FullControl
+                            BUILTIN\Administrators Allow  FullControl
+                            HS\dcastrodale Allow  FullControl
+                            CREATOR OWNER Allow  FullControl
+                            NT AUTHORITY\SYSTEM Allow  FullControl
+                            HS\rnichols Allow  ReadAndExecute, Synchronize
+                            HS\ITS Systems Server Admins Allow  FullControl
+                            HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Overdue Reports VOS
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Overdue Reports VOS
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                Owner          Access
+----                -----          ------
+Overdue Reports VOS HS\dcastrodale HS\dreynolds Allow  Modify, Synchronize
+                                   HS\jvos Allow  Modify, Synchronize
+                                   HS\asmittle Allow  Modify, Synchronize
+                                   HS\jbrusoe Allow  FullControl
+                                   S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                   HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                   HS\HSC Pathology CSC Allow  FullControl
+                                   BUILTIN\Administrators Allow  FullControl
+                                   HS\dcastrodale Allow  FullControl
+                                   CREATOR OWNER Allow  FullControl
+                                   NT AUTHORITY\SYSTEM Allow  FullControl
+                                   HS\rnichols Allow  ReadAndExecute, Synchronize
+                                   HS\ITS Systems Server Admins Allow  FullControl
+                                   HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: PA program
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PA program
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner          Access
+----       -----          ------
+PA program HS\dcastrodale HS\bmccormick Allow  Modify, Synchronize
+                          HS\PAs Allow  Modify, Synchronize
+                          HS\jbrusoe Allow  FullControl
+                          S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                          HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                          HS\HSC Pathology CSC Allow  FullControl
+                          BUILTIN\Administrators Allow  FullControl
+                          HS\dcastrodale Allow  FullControl
+                          CREATOR OWNER Allow  FullControl
+                          NT AUTHORITY\SYSTEM Allow  FullControl
+                          HS\rnichols Allow  ReadAndExecute, Synchronize
+                          HS\ITS Systems Server Admins Allow  FullControl
+                          HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: PA-Admissions
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PA-Admissions
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path          Owner          Access
+----          -----          ------
+PA-Admissions HS\dcastrodale HS\bradabaugh Allow  Modify, Synchronize
+                             HS\kmfeaster Allow  Modify, Synchronize
+                             HS\jawade Allow  Modify, Synchronize
+                             HS\mtdownes Allow  Modify, Synchronize
+                             HS\PAs Allow  Modify, Synchronize
+                             HS\jbrusoe Allow  FullControl
+                             S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                             HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                             HS\HSC Pathology CSC Allow  FullControl
+                             BUILTIN\Administrators Allow  FullControl
+                             HS\dcastrodale Allow  FullControl
+                             CREATOR OWNER Allow  FullControl
+                             NT AUTHORITY\SYSTEM Allow  FullControl
+                             HS\rnichols Allow  ReadAndExecute, Synchronize
+                             HS\ITS Systems Server Admins Allow  FullControl
+                             HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Path-Chair
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Path-Chair
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner          Access
+----       -----          ------
+Path-Chair HS\dcastrodale HS\dtoothman Allow  Modify, Synchronize
+                          HS\pperrotta Allow  Modify, Synchronize
+                          HS\rfw10005 Allow  Modify, Synchronize
+                          HS\jbrusoe Allow  FullControl
+                          S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                          HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                          HS\HSC Pathology CSC Allow  FullControl
+                          BUILTIN\Administrators Allow  FullControl
+                          HS\dcastrodale Allow  FullControl
+                          CREATOR OWNER Allow  FullControl
+                          NT AUTHORITY\SYSTEM Allow  FullControl
+                          HS\rnichols Allow  ReadAndExecute, Synchronize
+                          HS\ITS Systems Server Admins Allow  FullControl
+                          HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: PathAdmin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PathAdmin
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path      Owner                  Access
+----      -----                  ------
+PathAdmin BUILTIN\Administrators HS\dreynolds Allow  Modify, Synchronize
+                                 HS\dtoothman Allow  Modify, Synchronize
+                                 HS\pperrotta Allow  Modify, Synchronize
+                                 HS\ltrout Allow  Modify, Synchronize
+                                 HS\rfw10005 Allow  Modify, Synchronize
+                                 HS\jbrusoe Allow  FullControl
+                                 S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                 HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                 HS\HSC Pathology CSC Allow  FullControl
+                                 BUILTIN\Administrators Allow  FullControl
+                                 CREATOR OWNER Allow  FullControl
+                                 NT AUTHORITY\SYSTEM Allow  FullControl
+                                 HS\rnichols Allow  ReadAndExecute, Synchronize
+                                 HS\ITS Systems Server Admins Allow  FullControl
+                                 HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: pbacaj
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\pbacaj
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+pbacaj BUILTIN\Administrators HS\pbacaj Allow  FullControl
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: plasala
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\plasala
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+plasala BUILTIN\Administrators HS\plasala Allow  Modify, Synchronize
+                               WVUH\plasala Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: PLTM-GrossRoom-Pictures
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PLTM-GrossRoom-Pictures
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                    Owner          Access
+----                    -----          ------
+PLTM-GrossRoom-Pictures HS\dcastrodale HS\jcoad Allow  Modify, Synchronize
+                                       HS\jkarakiozis Allow  Modify, Synchronize
+                                       HS\ccoffindaffer Allow  Modify, Synchronize
+                                       HS\twolfe10 Allow  Modify, Synchronize
+                                       HS\rmchurma Allow  ReadAndExecute, Synchronize
+                                       HS\sss00001 Allow  ReadAndExecute, Synchronize
+                                       S-1-5-21-1692214462-1677214539-1954969180-112394 Allow  Write, ReadAndExecute,
+                                       Synchronize
+                                       HS\jbrusoe Allow  FullControl
+                                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                       HS\HSC Pathology CSC Allow  FullControl
+                                       BUILTIN\Administrators Allow  FullControl
+                                       HS\dcastrodale Allow  FullControl
+                                       CREATOR OWNER Allow  FullControl
+                                       NT AUTHORITY\SYSTEM Allow  FullControl
+                                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                                       HS\ITS Systems Server Admins Allow  FullControl
+                                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: pperrotta
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\pperrotta
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path      Owner                  Access
+----      -----                  ------
+pperrotta BUILTIN\Administrators HS\pperrotta Allow  Modify, ChangePermissions, Synchronize
+                                 WVUH\pperrotta Allow  FullControl
+                                 HS\jbrusoe Allow  FullControl
+                                 S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                 HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                 HS\HSC Pathology CSC Allow  FullControl
+                                 BUILTIN\Administrators Allow  FullControl
+                                 CREATOR OWNER Allow  FullControl
+                                 NT AUTHORITY\SYSTEM Allow  FullControl
+                                 HS\rnichols Allow  ReadAndExecute, Synchronize
+                                 HS\ITS Systems Server Admins Allow  FullControl
+                                 HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: QAU
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\QAU
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path Owner          Access
+---- -----          ------
+QAU  HS\dcastrodale HS\jcoad Allow  Modify, Synchronize
+                    HS\jkarakiozis Allow  Modify, Synchronize
+                    HS\jbrusoe Allow  FullControl
+                    S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                    HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                    HS\HSC Pathology CSC Allow  FullControl
+                    BUILTIN\Administrators Allow  FullControl
+                    HS\dcastrodale Allow  FullControl
+                    CREATOR OWNER Allow  FullControl
+                    NT AUTHORITY\SYSTEM Allow  FullControl
+                    HS\rnichols Allow  ReadAndExecute, Synchronize
+                    HS\ITS Systems Server Admins Allow  FullControl
+                    HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: QB-Kieffer
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\QB-Kieffer
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path       Owner          Access
+----       -----          ------
+QB-Kieffer HS\dcastrodale HS\ecosborne Allow  Modify, Synchronize
+                          HS\jbrusoe Allow  FullControl
+                          S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                          HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                          HS\HSC Pathology CSC Allow  FullControl
+                          BUILTIN\Administrators Allow  FullControl
+                          HS\dcastrodale Allow  FullControl
+                          CREATOR OWNER Allow  FullControl
+                          NT AUTHORITY\SYSTEM Allow  FullControl
+                          HS\rnichols Allow  ReadAndExecute, Synchronize
+                          HS\ITS Systems Server Admins Allow  FullControl
+                          HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: QB-PLTM
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\QB-PLTM
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+QB-PLTM HS\dcastrodale HS\ecosborne Allow  Modify, Synchronize
+                       HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Question-Bank
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Question-Bank
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path          Owner                  Access
+----          -----                  ------
+Question-Bank BUILTIN\Administrators HS\hjwilliams Allow  Modify, Synchronize
+                                     HS\Question-Bank Allow  Read, Synchronize
+                                     HS\Question-Bank-RW-Access Allow  Write, Delete, Read, ChangePermissions,
+                                     Synchronize
+                                     HS\mflanagan Allow  Modify, Synchronize
+                                     HS\asmittle Allow  Modify, Synchronize
+                                     HS\jbrusoe Allow  FullControl
+                                     S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                     HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                     HS\HSC Pathology CSC Allow  FullControl
+                                     BUILTIN\Administrators Allow  FullControl
+                                     CREATOR OWNER Allow  FullControl
+                                     NT AUTHORITY\SYSTEM Allow  FullControl
+                                     HS\rnichols Allow  ReadAndExecute, Synchronize
+                                     HS\ITS Systems Server Admins Allow  FullControl
+                                     HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: rasasi
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rasasi
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner          Access
+----   -----          ------
+rasasi HS\dcastrodale HS\rasasi Allow  Modify, Synchronize
+                      HS\jbrusoe Allow  FullControl
+                      S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                      HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                      HS\HSC Pathology CSC Allow  FullControl
+                      BUILTIN\Administrators Allow  FullControl
+                      HS\dcastrodale Allow  FullControl
+                      CREATOR OWNER Allow  FullControl
+                      NT AUTHORITY\SYSTEM Allow  FullControl
+                      HS\rnichols Allow  ReadAndExecute, Synchronize
+                      HS\ITS Systems Server Admins Allow  FullControl
+                      HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Research-Lab
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Research-Lab
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path         Owner                  Access
+----         -----                  ------
+Research-Lab BUILTIN\Administrators S-1-5-21-865322659-4255640127-3857865232-2704 Allow  Modify, Synchronize
+                                    HS\dcastrodale Allow  Modify, Synchronize
+                                    HS\jcoad Allow  Modify, Synchronize
+                                    HS\jkarakiozis Allow  Modify, Synchronize
+                                    HS\jbrusoe Allow  FullControl
+                                    S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                    HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                    HS\HSC Pathology CSC Allow  FullControl
+                                    BUILTIN\Administrators Allow  FullControl
+                                    CREATOR OWNER Allow  FullControl
+                                    NT AUTHORITY\SYSTEM Allow  FullControl
+                                    HS\rnichols Allow  ReadAndExecute, Synchronize
+                                    HS\ITS Systems Server Admins Allow  FullControl
+                                    HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Residency-Program
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Residency-Program
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path              Owner          Access
+----              -----          ------
+Residency-Program HS\dcastrodale HS\ddavisson Allow  Modify, Synchronize
+                                 HS\jvos Allow  Modify, Synchronize
+                                 HS\mflanagan Allow  Modify, Synchronize
+                                 HS\aclemmer Allow  Modify, Synchronize
+                                 HS\plasala Allow  Modify, Synchronize
+                                 HS\jbrusoe Allow  FullControl
+                                 S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                 HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                 HS\HSC Pathology CSC Allow  FullControl
+                                 BUILTIN\Administrators Allow  FullControl
+                                 HS\dcastrodale Allow  FullControl
+                                 CREATOR OWNER Allow  FullControl
+                                 NT AUTHORITY\SYSTEM Allow  FullControl
+                                 HS\rnichols Allow  ReadAndExecute, Synchronize
+                                 HS\ITS Systems Server Admins Allow  FullControl
+                                 HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Resident-Admin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Resident-Admin
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path           Owner          Access
+----           -----          ------
+Resident-Admin HS\dcastrodale HS\ddavisson Allow  Modify, Synchronize
+                              HS\jvos Allow  Modify, Synchronize
+                              HS\aclemmer Allow  Modify, Synchronize
+                              HS\plasala Allow  Modify, Synchronize
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              HS\dcastrodale Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: rfw10005
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rfw10005
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner          Access
+----     -----          ------
+rfw10005 HS\dcastrodale HS\rfw10005 Allow  Modify, Synchronize
+                        HS\jbrusoe Allow  FullControl
+                        S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                        HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                        HS\HSC Pathology CSC Allow  FullControl
+                        BUILTIN\Administrators Allow  FullControl
+                        HS\dcastrodale Allow  FullControl
+                        CREATOR OWNER Allow  FullControl
+                        NT AUTHORITY\SYSTEM Allow  FullControl
+                        HS\rnichols Allow  ReadAndExecute, Synchronize
+                        HS\ITS Systems Server Admins Allow  FullControl
+                        HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: rjc0031
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rjc0031
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+rjc0031 BUILTIN\Administrators HS\rjc0031 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: rlc0063
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rlc0063
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+rlc0063 BUILTIN\Administrators HS\rlc0063 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: rmchurma
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rmchurma
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+rmchurma BUILTIN\Administrators HS\rmchurma Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: RMT-websites
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\RMT-websites
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path         Owner          Access
+----         -----          ------
+RMT-websites HS\dcastrodale HS\Pathology Faculty Allow  ReadAndExecute, Synchronize
+                            HS\ccoffindaffer Allow  ReadAndExecute, Synchronize
+                            HS\twolfe10 Allow  ReadAndExecute, Synchronize
+                            HS\Pathology Residents Complete Allow  ReadAndExecute, Synchronize
+                            HS\jbrusoe Allow  FullControl
+                            S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                            HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                            HS\HSC Pathology CSC Allow  FullControl
+                            BUILTIN\Administrators Allow  FullControl
+                            HS\dcastrodale Allow  FullControl
+                            CREATOR OWNER Allow  FullControl
+                            NT AUTHORITY\SYSTEM Allow  FullControl
+                            HS\rnichols Allow  ReadAndExecute, Synchronize
+                            HS\ITS Systems Server Admins Allow  FullControl
+                            HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Robinson Data Extraction (LaSala - Auten - Kehinde)
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Robinson Data Extraction (LaSala - Auten - Kehinde)
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                                                Owner          Access
+----                                                -----          ------
+Robinson Data Extraction (LaSala - Auten - Kehinde) HS\dcastrodale HS\plasala Allow  Modify, Synchronize
+                                                                   HS\mwa0006 Allow  Modify, Synchronize
+                                                                   HS\tk10046 Allow  Modify, Synchronize
+                                                                   HS\jbrusoe Allow  FullControl
+                                                                   S-1-5-21-865322659-4255640127-3857865232-2113 Allow
+                                                                    FullControl
+                                                                   HS\dcastrodale Allow  Write, Delete, Read,
+                                                                   Synchronize
+                                                                   HS\HSC Pathology CSC Allow  FullControl
+                                                                   BUILTIN\Administrators Allow  FullControl
+                                                                   HS\dcastrodale Allow  FullControl
+                                                                   CREATOR OWNER Allow  FullControl
+                                                                   NT AUTHORITY\SYSTEM Allow  FullControl
+                                                                   HS\rnichols Allow  ReadAndExecute, Synchronize
+                                                                   HS\ITS Systems Server Admins Allow  FullControl
+                                                                   HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: rys0001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rys0001
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+rys0001 BUILTIN\Administrators HS\rys0001 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Saved Gross Specimens
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Saved Gross Specimens
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                  Owner          Access
+----                  -----          ------
+Saved Gross Specimens HS\dcastrodale HS\mcostas Allow  Modify, Synchronize
+                                     HS\ccoffindaffer Allow  Modify, Synchronize
+                                     S-1-5-21-1692214462-1677214539-1954969180-79450 Allow  Modify, Synchronize
+                                     HS\jbrusoe Allow  FullControl
+                                     S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                     HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                     HS\HSC Pathology CSC Allow  FullControl
+                                     BUILTIN\Administrators Allow  FullControl
+                                     HS\dcastrodale Allow  FullControl
+                                     CREATOR OWNER Allow  FullControl
+                                     NT AUTHORITY\SYSTEM Allow  FullControl
+                                     HS\rnichols Allow  ReadAndExecute, Synchronize
+                                     HS\ITS Systems Server Admins Allow  FullControl
+                                     HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: sdp10010
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\sdp10010
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+sdp10010 BUILTIN\Administrators HS\sdp10010 Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: shared
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\shared
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path   Owner                  Access
+----   -----                  ------
+shared BUILTIN\Administrators HS\dcastrodale Allow  Modify, Synchronize
+                              HS\$PATH Allow  Modify, Synchronize
+                              HS\Anatomy Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-50316 Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-67573 Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-67631 Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-94078 Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-98874 Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-101852 Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-131421 Allow  Modify, Synchronize
+                              S-1-5-21-1692214462-1677214539-1954969180-137977 Allow  Modify, Synchronize
+                              HS\jbrusoe Allow  FullControl
+                              S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                              HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                              HS\HSC Pathology CSC Allow  FullControl
+                              BUILTIN\Administrators Allow  FullControl
+                              CREATOR OWNER Allow  FullControl
+                              NT AUTHORITY\SYSTEM Allow  FullControl
+                              HS\rnichols Allow  ReadAndExecute, Synchronize
+                              HS\ITS Systems Server Admins Allow  FullControl
+                              HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: sjk0013
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\sjk0013
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+sjk0013 BUILTIN\Administrators HS\sjk0013 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: sss00001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\sss00001
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+sss00001 BUILTIN\Administrators HS\sss00001 Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: SurgPathFellowship
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\SurgPathFellowship
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path               Owner          Access
+----               -----          ------
+SurgPathFellowship HS\dcastrodale HS\ddavisson Allow  Modify, Synchronize
+                                  HS\pbacaj Allow  Modify, Synchronize
+                                  HS\aclemmer Allow  Modify, Synchronize
+                                  HS\jbrusoe Allow  FullControl
+                                  S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                  HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                  HS\HSC Pathology CSC Allow  FullControl
+                                  BUILTIN\Administrators Allow  FullControl
+                                  HS\dcastrodale Allow  FullControl
+                                  CREATOR OWNER Allow  FullControl
+                                  NT AUTHORITY\SYSTEM Allow  FullControl
+                                  HS\rnichols Allow  ReadAndExecute, Synchronize
+                                  HS\ITS Systems Server Admins Allow  FullControl
+                                  HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: swrigh11
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\swrigh11
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+swrigh11 BUILTIN\Administrators HS\swrigh11 Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Tissue-Bank Database
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Tissue-Bank Database
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                 Owner          Access
+----                 -----          ------
+Tissue-Bank Database HS\dcastrodale HS\dcastrodale Allow  FullControl
+                                    HS\jcoad Allow  Modify, Synchronize
+                                    HS\jkarakiozis Allow  Modify, Synchronize
+                                    HS\TissueBank Allow  Modify, Synchronize
+                                    S-1-5-21-865322659-4255640127-3857865232-66514 Allow  Modify, Synchronize
+                                    HS\jbrusoe Allow  FullControl
+                                    S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                    HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                    HS\HSC Pathology CSC Allow  FullControl
+                                    BUILTIN\Administrators Allow  FullControl
+                                    HS\dcastrodale Allow  FullControl
+                                    CREATOR OWNER Allow  FullControl
+                                    NT AUTHORITY\SYSTEM Allow  FullControl
+                                    HS\rnichols Allow  ReadAndExecute, Synchronize
+                                    HS\ITS Systems Server Admins Allow  FullControl
+                                    HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: tjh00005
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\tjh00005
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+tjh00005 BUILTIN\Administrators HS\tjh00005 Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: tk10046
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\tk10046
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner          Access
+----    -----          ------
+tk10046 HS\dcastrodale HS\tk10046 Allow  Modify, Synchronize
+                       HS\jbrusoe Allow  FullControl
+                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                       HS\HSC Pathology CSC Allow  FullControl
+                       BUILTIN\Administrators Allow  FullControl
+                       HS\dcastrodale Allow  FullControl
+                       CREATOR OWNER Allow  FullControl
+                       NT AUTHORITY\SYSTEM Allow  FullControl
+                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                       HS\ITS Systems Server Admins Allow  FullControl
+                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: TPL work
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\TPL work
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+TPL work BUILTIN\Administrators HS\jcoad Allow  Modify, Synchronize
+                                HS\jkarakiozis Allow  ReadAndExecute, Synchronize
+                                HS\jrh0036 Allow  Modify, Synchronize
+                                HS\rmchurma Allow  Modify, Synchronize
+                                HS\bjhickey Allow  Modify, Synchronize
+                                HS\sss00001 Allow  Modify, Synchronize
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: Translational Pathology Archive
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Translational Pathology Archive
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path                            Owner                  Access
+----                            -----                  ------
+Translational Pathology Archive BUILTIN\Administrators S-1-5-21-865322659-4255640127-3857865232-2704 Allow  Modify,
+                                                       Synchronize
+                                                       HS\dcastrodale Allow  Modify, Synchronize
+                                                       HS\jcoad Allow  Modify, Synchronize
+                                                       HS\jkarakiozis Allow  Modify, Synchronize
+                                                       HS\rmchurma Allow  Write, ReadAndExecute, Synchronize
+                                                       HS\bjhickey Allow  Write, ReadAndExecute, Synchronize
+                                                       HS\jbrusoe Allow  FullControl
+                                                       S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                                       HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                                       HS\HSC Pathology CSC Allow  FullControl
+                                                       BUILTIN\Administrators Allow  FullControl
+                                                       CREATOR OWNER Allow  FullControl
+                                                       NT AUTHORITY\SYSTEM Allow  FullControl
+                                                       HS\rnichols Allow  ReadAndExecute, Synchronize
+                                                       HS\ITS Systems Server Admins Allow  FullControl
+                                                       HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: tst0015
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\tst0015
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+tst0015 BUILTIN\Administrators HS\tst0015 Allow  FullControl
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: twk0003
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\twk0003
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path    Owner                  Access
+----    -----                  ------
+twk0003 BUILTIN\Administrators HS\twk0003 Allow  Modify, Synchronize
+                               HS\jbrusoe Allow  FullControl
+                               S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                               HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                               HS\HSC Pathology CSC Allow  FullControl
+                               BUILTIN\Administrators Allow  FullControl
+                               CREATOR OWNER Allow  FullControl
+                               NT AUTHORITY\SYSTEM Allow  FullControl
+                               HS\rnichols Allow  ReadAndExecute, Synchronize
+                               HS\ITS Systems Server Admins Allow  FullControl
+                               HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: twolfe10
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\twolfe10
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+twolfe10 BUILTIN\Administrators HS\twolfe10 Allow  FullControl
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: WVAP
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\WVAP
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path Owner          Access
+---- -----          ------
+WVAP HS\dcastrodale HS\cstasiak Allow  Modify, Synchronize
+                    HS\ltrout Allow  Modify, Synchronize
+                    HS\jbrusoe Allow  FullControl
+                    S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                    HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                    HS\HSC Pathology CSC Allow  FullControl
+                    BUILTIN\Administrators Allow  FullControl
+                    HS\dcastrodale Allow  FullControl
+                    CREATOR OWNER Allow  FullControl
+                    NT AUTHORITY\SYSTEM Allow  FullControl
+                    HS\rnichols Allow  ReadAndExecute, Synchronize
+                    HS\ITS Systems Server Admins Allow  FullControl
+                    HS\mkondrla Allow  FullControl
+
+
+*********************
+Current Directory: wvupath1
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\wvupath1
+Directory Permissions:
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\Public\Path
+
+
+Path     Owner                  Access
+----     -----                  ------
+wvupath1 BUILTIN\Administrators S-1-5-21-865322659-4255640127-3857865232-2113 Allow  Modify, Synchronize
+                                HS\jbrusoe Allow  FullControl
+                                S-1-5-21-865322659-4255640127-3857865232-2113 Allow  FullControl
+                                HS\dcastrodale Allow  Write, Delete, Read, Synchronize
+                                HS\HSC Pathology CSC Allow  FullControl
+                                BUILTIN\Administrators Allow  FullControl
+                                CREATOR OWNER Allow  FullControl
+                                NT AUTHORITY\SYSTEM Allow  FullControl
+                                HS\rnichols Allow  ReadAndExecute, Synchronize
+                                HS\ITS Systems Server Admins Allow  FullControl
+                                HS\mkondrla Allow  FullControl
+
+
+*********************
+Current User: aig0005
+**************************
+Current User: bkirby
+**************************
+Current User: nm0077
+**************************
+Current User: dtsinclair
+**************************
+Current User: jcoad
+**************************
+Current User: pperrotta
+**************************
+Current User: mjz0005
+**************************
+Current User: pbacaj
+**************************
+Current User: cwinkie
+**************************
+Current User: amp0057
+**************************
+Current User: ffranyut
+**************************
+Current User: dco10003
+**************************
+Current User: tjh00005
+**************************
+Current User: ecosborne
+**************************
+Current User: kgyure
+**************************
+Current User: adt0029
+**************************
+Current User: twolfe10
+**************************
+Current User: mflanagan
+**************************
+Current User: sdp10010
+**************************
+Current User: jvos
+**************************
+Current User: jshrout3
+**************************
+Current User: amm0009
+**************************
+Current User: aakinyem
+**************************
+Current User: catitus
+**************************
+Current User: db0116
+**************************
+Current User: rys0001
+**************************
+Current User: kmfeaster
+**************************
+Current User: rfw10005
+**************************
+Current User: ads0058
+**************************
+Current User: 2316mailroom
+**************************
+Current User: plasala
+**************************
+Current User: jkarakiozis
+**************************
+Current User: kharbert
+**************************
+Current User: graye
+**************************
+Current User: MedLabSci
+**************************
+Current User: dtoothman
+**************************
+Current User: dagray
+**************************
+Current User: dreynolds
+**************************
+Current User: mfizer
+**************************
+Current User: cstasiak
+**************************
+Current User: bradabaugh
+**************************
+Current User: ruckleam
+**************************
+Current User: tlu2
+**************************
+Current User: mtdownes
+**************************
+Current User: mbsmolkin
+**************************
+Current User: abpetrone
+**************************
+Current User: mnkumar
+**************************
+Current User: swrigh11
+**************************
+Current User: mmb0061
+**************************
+Current User: rlc0063
+**************************
+Current User: tk10046
+**************************
+Current User: asmittle
+**************************
+Current User: jao0015
+**************************
+Current User: ys0027
+**************************
+Current User: mcostas
+**************************
+Current User: dmburch
+**************************
+Current User: rmchurma
+**************************
+Current User: cls0042
+**************************
+Current User: rasasi
+**************************
+Current User: ccoffindaffer
+**************************
+Current User: ma00009
+**************************
+Current User: hebennett
+**************************
+Current User: jvevans
+**************************
+Current User: HSC_PATH_STUDENT_LAB
+**************************
+Current User: PATH_CONFERENCE_A
+**************************
+Current User: PATH_CONFERENCE_C
+**************************
+Current User: PATH_CONFERENCE_D
+**************************
+Current User: dhowell
+**************************
+Current User: wvhealthywomen
+**************************
+Current User: pa-info
+**************************
+Current User: mwa0006
+**************************
+Current User: hho00001
+**************************
+Current User: jag0046
+**************************
+Current User: arn0007
+**************************
+Current User: bmccormick
+**************************
+Current User: ag10198
+**************************
+Current User: jrh0036
+**************************
+Current User: dtacker
+**************************
+Current User: dcastrodale
+**************************
+Current User: sss00001
+**************************
+Current User: aclemmer
+**************************
+Current User: jfalcon1
+**************************
+Current User: rr0047
+**************************
+Current User: tomago-chesneym
+**************************
+Current User: bjhickey
+**************************
+Current User: ltrout
+**************************
+Current User: battistellal
+**************************
+Current User: ars0049
+**************************
+Current User: sjk0013
+**************************
+Current User: jhfugett
+**************************
+Current User: ma0268
+**************************
+Current User: jm00012
+**************************
+Current User: aha0012
+**************************
+Current User: jawade
+**************************
+Current User: twk0003
+**************************
+Current User: rjc0031
+**************************
+Current User: mgb0002
+**************************
+Current User: bbertus
+**************************
+Current User: arg0048
+**************************
+Current User: kk00001
+**************************
+Current User: tst0015
+**************************
+Current User: bducatman
+**************************
+Current User: hjwilliams
+**************************
+**********************
+Windows PowerShell transcript end
+End time: 20200414131031
+**********************

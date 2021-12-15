@@ -1,0 +1,1297 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200306154906
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 8572
+PSVersion: 5.1.14393.3471
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3471
+BuildVersion: 10.0.14393.3471
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-HSDomainUserInfo\Logs\2020-03-06-15-49-06-SessionTranscript.txt
+
+
+Generating AD user list
+Current User: krbtgt
+Password Last Set: 02/14/2008 10:51:37
+Password Age: 4404
+WARNING: No password history count information
+User Count: 1
+**********************
+Current User: WVUH$
+Password Last Set: 03/01/2020 23:54:26
+Password Age: 4
+WARNING: No password history count information
+User Count: 2
+**********************
+Current User: UHC$
+Password Last Set: 03/01/2020 23:54:26
+Password Age: 4
+WARNING: No password history count information
+User Count: 3
+**********************
+Current User: WVUHS$
+Password Last Set: 02/25/2020 16:09:21
+Password Age: 9
+WARNING: No password history count information
+User Count: 4
+**********************
+Current User: WVU-AD$
+Password Last Set: 02/25/2020 16:09:21
+Password Age: 9
+WARNING: No password history count information
+User Count: 5
+**********************
+Current User: Guest
+Password Last Set: 04/27/2018 13:05:51
+Password Age: 679
+WARNING: No password history count information
+User Count: 6
+**********************
+Current User: Administrator
+Password Last Set: 01/04/2018 14:16:50
+Password Age: 792
+WARNING: No password history count information
+User Count: 7
+**********************
+Current User: CHI$
+Password Last Set: 03/01/2020 06:58:18
+Password Age: 5
+WARNING: No password history count information
+User Count: 8
+**********************
+Current User: ca6bu
+Password Last Set: 03/04/2009 08:39:48
+Password Age: 4020
+WARNING: No password history count information
+User Count: 9
+**********************
+Current User: IUSR_HSCA
+Password Last Set: 04/16/2010 09:32:18
+Password Age: 3612
+WARNING: No password history count information
+User Count: 10
+**********************
+Current User: mattadmin
+Password Last Set: 10/23/2019 11:46:51
+Password Age: 135
+User Count: 11
+**********************
+Current User: jbrusoeadmin
+Password Last Set: 10/31/2019 08:39:37
+Password Age: 127
+User Count: 12
+**********************
+Current User: jnesselrodtadmin
+Password Last Set: 10/23/2019 11:16:58
+Password Age: 135
+User Count: 13
+**********************
+Current User: mlkadmin
+Password Last Set: 10/23/2019 09:56:02
+Password Age: 135
+User Count: 14
+**********************
+Current User: microsoft
+Password Last Set: 04/11/2016 09:52:19
+Password Age: 1425
+WARNING: No password history count information
+User Count: 15
+**********************
+Current User: yoda
+Password Last Set: 09/23/2011 08:51:19
+Password Age: 3087
+WARNING: No password history count information
+User Count: 16
+**********************
+Current User: tridentadmin
+Password Last Set: 03/24/2017 11:14:11
+Password Age: 1078
+WARNING: No password history count information
+User Count: 17
+**********************
+Current User: rnichols
+Password Last Set: 11/15/2019 08:49:16
+Password Age: 112
+User Count: 18
+**********************
+Current User: r.nichols
+Password Last Set: 09/26/2019 15:23:36
+Password Age: 162
+User Count: 19
+**********************
+Current User: jlga
+Password Last Set: 01/09/2017 09:04:04
+Password Age: 1152
+WARNING: No password history count information
+User Count: 20
+**********************
+Current User: kadmin
+Password Last Set: 10/23/2019 10:00:01
+Password Age: 135
+User Count: 21
+**********************
+Current User: adfsres
+Password Last Set: 12/04/2012 13:26:47
+Password Age: 2649
+WARNING: No password history count information
+User Count: 22
+**********************
+Current User: mkondrla
+Password Last Set: 07/02/2019 10:02:16
+Password Age: 248
+User Count: 23
+**********************
+Current User: O365Maintenance
+Password Last Set: 03/05/2014 08:40:02
+Password Age: 2193
+WARNING: No password history count information
+User Count: 24
+**********************
+Current User: jnesselrodt
+Password Last Set: 07/10/2019 11:29:04
+Password Age: 240
+User Count: 25
+**********************
+Current User: hsusersync
+Password Last Set: 11/29/2011 12:10:51
+Password Age: 3020
+WARNING: No password history count information
+User Count: 26
+**********************
+Current User: hscspsa
+Password Last Set: 12/13/2010 10:07:00
+Password Age: 3371
+WARNING: No password history count information
+User Count: 27
+**********************
+Current User: hscspusersync
+Password Last Set: 01/17/2012 15:48:57
+Password Age: 2971
+WARNING: No password history count information
+User Count: 28
+**********************
+Current User: WVUHPAN
+Password Last Set: 06/21/2018 14:30:43
+Password Age: 624
+WARNING: No password history count information
+User Count: 29
+**********************
+Current User: paloaltomgmt
+Password Last Set: 02/18/2014 09:10:53
+Password Age: 2208
+WARNING: No password history count information
+User Count: 30
+**********************
+Current User: mdarnell
+Password Last Set: 09/12/2019 13:58:43
+Password Age: 176
+User Count: 31
+**********************
+Current User: tcrouse
+Password Last Set: 07/02/2019 16:06:36
+Password Age: 247
+User Count: 32
+**********************
+Current User: dmonday
+Password Last Set: 08/21/2019 08:26:28
+Password Age: 198
+User Count: 33
+**********************
+Current User: wvuhpalo
+Password Last Set: 04/27/2016 09:56:57
+Password Age: 1409
+WARNING: No password history count information
+User Count: 34
+**********************
+Current User: infoblox
+Password Last Set: 02/21/2017 16:15:17
+Password Age: 1108
+WARNING: No password history count information
+User Count: 35
+**********************
+Current User: sailsvc
+Password Last Set: 11/05/2018 09:47:43
+Password Age: 487
+WARNING: No password history count information
+User Count: 36
+**********************
+Current User: extreme
+Password Last Set: 05/18/2018 15:10:42
+Password Age: 658
+WARNING: No password history count information
+User Count: 37
+**********************
+Current User: idmmanager
+Password Last Set: 07/02/2013 09:21:58
+Password Age: 2439
+WARNING: No password history count information
+User Count: 38
+**********************
+Current User: jswilson
+Password Last Set: 09/23/2019 09:02:23
+Password Age: 165
+User Count: 39
+**********************
+Current User: tgreaser
+Password Last Set: 07/05/2019 08:05:34
+Password Age: 245
+User Count: 40
+**********************
+Current User: jmarton
+Password Last Set: 07/02/2019 10:15:03
+Password Age: 248
+User Count: 41
+**********************
+Current User: jbrusoe
+Password Last Set: 07/02/2019 10:27:08
+Password Age: 248
+User Count: 42
+**********************
+Current User: btolka
+Password Last Set: 08/05/2019 07:44:18
+Password Age: 214
+User Count: 43
+**********************
+Current User: llroth
+Password Last Set: 07/02/2019 11:28:26
+Password Age: 248
+User Count: 44
+**********************
+Current User: krodney
+Password Last Set: 07/03/2019 10:35:06
+Password Age: 247
+User Count: 45
+**********************
+Current User: krussell
+Password Last Set: 09/12/2019 14:00:50
+Password Age: 176
+User Count: 46
+**********************
+Current User: console
+Password Last Set: 11/13/2008 12:53:58
+Password Age: 4131
+WARNING: No password history count information
+User Count: 47
+**********************
+Current User: mauber
+Password Last Set: 10/02/2019 23:14:11
+Password Age: 155
+User Count: 48
+**********************
+Current User: ecrowell
+Password Last Set: 01/23/2019 11:25:05
+Password Age: 408
+User Count: 49
+**********************
+Current User: printmanager
+Password Last Set: 11/13/2008 12:54:08
+Password Age: 4131
+WARNING: No password history count information
+User Count: 50
+**********************
+Current User: webmaster
+Password Last Set: 07/23/2015 23:07:25
+Password Age: 1687
+WARNING: No password history count information
+User Count: 51
+**********************
+Current User: HelpDeskAnnouncement
+Password Last Set: 01/14/2013 09:14:45
+Password Age: 2608
+WARNING: No password history count information
+User Count: 52
+**********************
+Current User: helpdesk
+Password Last Set: 08/10/2016 14:20:34
+Password Age: 1304
+WARNING: No password history count information
+User Count: 53
+**********************
+Current User: epugacheva
+Password Last Set: 08/22/2019 19:16:56
+Password Age: 196
+User Count: 54
+**********************
+Current User: sfrisch
+Password Last Set: 07/10/2019 10:46:25
+Password Age: 240
+User Count: 55
+**********************
+Current User: scweed
+Password Last Set: 08/20/2019 10:58:20
+Password Age: 199
+User Count: 56
+**********************
+Current User: weedlab
+Password Last Set: 11/11/2009 16:03:04
+Password Age: 3767
+WARNING: No password history count information
+User Count: 57
+**********************
+Current User: aammer
+Password Last Set: 08/19/2019 10:03:44
+Password Age: 200
+User Count: 58
+**********************
+Current User: jyu
+Password Last Set: 06/16/2019 08:37:18
+Password Age: 264
+User Count: 59
+**********************
+Current User: DNA
+Password Last Set: 11/13/2008 12:53:59
+Password Age: 4131
+WARNING: No password history count information
+User Count: 60
+**********************
+Current User: jezheng
+Password Last Set: 08/07/2019 09:40:31
+Password Age: 212
+User Count: 61
+**********************
+Current User: kamartin
+Password Last Set: 08/29/2019 09:12:17
+Password Age: 190
+User Count: 62
+**********************
+Current User: cfmm
+Password Last Set: 11/13/2008 12:53:57
+Password Age: 4131
+WARNING: No password history count information
+User Count: 63
+**********************
+Current User: srellick
+Password Last Set: 08/19/2019 10:29:20
+Password Age: 200
+User Count: 64
+**********************
+Current User: junliu
+Password Last Set: 08/23/2019 12:27:18
+Password Age: 196
+User Count: 65
+**********************
+Current User: wpetros
+Password Last Set: 09/25/2019 09:48:14
+Password Age: 163
+User Count: 66
+**********************
+Current User: petroslab
+Password Last Set: 05/28/2013 13:52:39
+Password Age: 2474
+WARNING: No password history count information
+User Count: 67
+**********************
+Current User: lguo
+Password Last Set: 08/19/2019 10:39:01
+Password Age: 200
+User Count: 68
+**********************
+Current User: aivanov
+Password Last Set: 09/24/2019 13:16:49
+Password Age: 164
+User Count: 69
+**********************
+Current User: kehayes
+Password Last Set: 02/12/2020 19:37:35
+Password Age: 22
+User Count: 70
+**********************
+Current User: jyulab
+Password Last Set: 08/27/2009 10:02:23
+Password Age: 3844
+WARNING: No password history count information
+User Count: 71
+**********************
+Current User: wapac2
+Password Last Set: 03/10/2008 10:36:28
+Password Age: 4379
+WARNING: No password history count information
+User Count: 72
+**********************
+Current User: wapac
+Password Last Set: 08/24/2011 14:30:40
+Password Age: 3117
+WARNING: No password history count information
+User Count: 73
+**********************
+Current User: fax-iso
+Password Last Set: 11/13/2008 12:54:00
+Password Age: 4131
+WARNING: No password history count information
+User Count: 74
+**********************
+Current User: shadique
+Password Last Set: 09/18/2019 13:12:39
+Password Age: 170
+User Count: 75
+**********************
+Current User: meconn
+Password Last Set: 08/06/2019 15:20:32
+Password Age: 213
+User Count: 76
+**********************
+Current User: pward
+Password Last Set: 07/18/2019 15:37:24
+Password Age: 232
+User Count: 77
+**********************
+Current User: ATCtrial
+Password Last Set: 11/13/2008 12:53:56
+Password Age: 4131
+WARNING: No password history count information
+User Count: 78
+**********************
+Current User: vburke
+Password Last Set: 10/02/2019 11:54:13
+Password Age: 156
+User Count: 79
+**********************
+Current User: cisoffice
+Password Last Set: 11/13/2008 12:53:58
+Password Age: 4131
+WARNING: No password history count information
+User Count: 80
+**********************
+Current User: arallen
+Password Last Set: 08/29/2019 11:40:10
+Password Age: 190
+User Count: 81
+**********************
+Current User: elaustin
+Password Last Set: 08/14/2019 14:55:26
+Password Age: 205
+User Count: 82
+**********************
+Current User: ruwatts
+Password Last Set: 08/21/2019 08:40:28
+Password Age: 198
+User Count: 83
+**********************
+Current User: cistemp
+Password Last Set: 11/13/2008 12:53:58
+Password Age: 4131
+WARNING: No password history count information
+User Count: 84
+**********************
+Current User: lc
+Password Last Set: 11/13/2008 12:54:04
+Password Age: 4131
+WARNING: No password history count information
+User Count: 85
+**********************
+Current User: acale
+Password Last Set: 09/23/2019 12:36:54
+Password Age: 165
+User Count: 86
+**********************
+Current User: pwdtest
+Password Last Set: 11/13/2008 12:54:08
+Password Age: 4131
+WARNING: No password history count information
+User Count: 87
+**********************
+Current User: abuse
+Password Last Set: 11/13/2008 12:53:55
+Password Age: 4131
+WARNING: No password history count information
+User Count: 88
+**********************
+Current User: syncuser2
+Password Last Set: 11/13/2008 12:54:14
+Password Age: 4131
+WARNING: No password history count information
+User Count: 89
+**********************
+Current User: HSCITNews
+Password Last Set: 11/13/2008 12:54:01
+Password Age: 4131
+WARNING: No password history count information
+User Count: 90
+**********************
+Current User: mpoling
+Password Last Set: 10/16/2019 15:08:09
+Password Age: 142
+User Count: 91
+**********************
+Current User: mhurst
+Password Last Set: 01/31/2020 18:55:46
+Password Age: 34
+User Count: 92
+**********************
+Current User: tuser1
+Password Last Set: 10/17/2012 14:17:07
+Password Age: 2697
+WARNING: No password history count information
+User Count: 93
+**********************
+Current User: jsgeorge
+Password Last Set: 07/02/2019 16:54:45
+Password Age: 247
+User Count: 94
+**********************
+Current User: development
+Password Last Set: 05/20/2011 11:48:48
+Password Age: 3213
+WARNING: No password history count information
+User Count: 95
+**********************
+Current User: nfapuser
+Password Last Set: 11/13/2008 12:54:07
+Password Age: 4131
+WARNING: No password history count information
+User Count: 96
+**********************
+Current User: kstevenson
+Password Last Set: 07/11/2019 06:35:10
+Password Age: 239
+User Count: 97
+**********************
+Current User: FACUSER
+Password Last Set: 11/13/2008 12:54:00
+Password Age: 4131
+WARNING: No password history count information
+User Count: 98
+**********************
+Current User: FACSCAN
+Password Last Set: 11/13/2008 12:54:00
+Password Age: 4131
+WARNING: No password history count information
+User Count: 99
+**********************
+Current User: FLOWLAB
+Password Last Set: 11/13/2008 12:54:00
+Password Age: 4131
+WARNING: No password history count information
+User Count: 100
+**********************
+Current User: FACSTAR
+Password Last Set: 11/13/2008 12:54:00
+Password Age: 4131
+WARNING: No password history count information
+User Count: 101
+**********************
+Current User: dev-ga
+Password Last Set: 11/13/2008 12:53:59
+Password Age: 4131
+WARNING: No password history count information
+User Count: 102
+**********************
+Current User: wvucancer
+Password Last Set: 01/27/2016 14:08:18
+Password Age: 1500
+WARNING: No password history count information
+User Count: 103
+**********************
+Current User: thogan
+Password Last Set: 12/06/2019 10:24:00
+Password Age: 91
+User Count: 104
+**********************
+Current User: wnsmith
+Password Last Set: 08/05/2019 09:02:07
+Password Age: 214
+User Count: 105
+**********************
+Current User: sfilburn
+Password Last Set: 04/26/2019 07:38:24
+Password Age: 315
+User Count: 106
+**********************
+Current User: tmcmanus
+Password Last Set: 09/03/2019 07:53:18
+Password Age: 185
+User Count: 107
+**********************
+Current User: skurian
+Password Last Set: 07/30/2019 08:48:56
+Password Age: 220
+User Count: 108
+**********************
+Current User: jrogers
+Password Last Set: 01/04/2018 14:19:39
+Password Age: 792
+User Count: 109
+**********************
+Current User: smcewuen
+Password Last Set: 10/01/2019 13:31:36
+Password Age: 157
+User Count: 110
+**********************
+Current User: formfill
+Password Last Set: 11/13/2008 12:54:00
+Password Age: 4131
+WARNING: No password history count information
+User Count: 111
+**********************
+Current User: tempuser
+Password Last Set: 08/24/2011 07:55:17
+Password Age: 3117
+WARNING: No password history count information
+User Count: 112
+**********************
+Current User: jhornsby
+Password Last Set: 10/22/2019 11:52:47
+Password Age: 136
+User Count: 113
+**********************
+Current User: sgiles
+Password Last Set: 07/03/2019 10:26:41
+Password Age: 247
+WARNING: No password history count information
+User Count: 114
+**********************
+Current User: crwalker
+Password Last Set: 01/04/2018 14:21:34
+Password Age: 792
+WARNING: No password history count information
+User Count: 115
+**********************
+Current User: spope
+Password Last Set: 10/13/2019 14:58:55
+Password Age: 145
+User Count: 116
+**********************
+Current User: jdefelice
+Password Last Set: 08/07/2019 12:58:21
+Password Age: 212
+User Count: 117
+**********************
+Current User: jjames
+Password Last Set: 08/31/2018 08:45:43
+Password Age: 553
+User Count: 118
+**********************
+Current User: srowan
+Password Last Set: 02/23/2020 21:30:17
+Password Age: 11
+User Count: 119
+**********************
+Current User: aobringer
+Password Last Set: 08/06/2019 12:20:01
+Password Age: 213
+User Count: 120
+**********************
+Current User: mvernon
+Password Last Set: 09/30/2019 15:29:21
+Password Age: 158
+User Count: 121
+**********************
+Current User: wholls
+Password Last Set: 01/23/2020 20:16:09
+Password Age: 42
+User Count: 122
+**********************
+Current User: mhashmi
+Password Last Set: 08/20/2019 15:37:49
+Password Age: 199
+User Count: 123
+**********************
+Current User: naliston
+Password Last Set: 08/09/2019 09:16:57
+Password Age: 210
+User Count: 124
+**********************
+Current User: rtoffle
+Password Last Set: 10/25/2019 08:04:31
+Password Age: 133
+User Count: 125
+**********************
+Current User: shbush
+Password Last Set: 02/25/2020 16:03:28
+Password Age: 9
+User Count: 126
+**********************
+Current User: pwomeldorff
+Password Last Set: 03/05/2020 13:48:50
+Password Age: 1
+User Count: 127
+**********************
+Current User: jfleshman
+Password Last Set: 08/09/2019 11:42:45
+Password Age: 210
+User Count: 128
+**********************
+Current User: pcourtney
+Password Last Set: 05/07/2019 18:02:33
+Password Age: 303
+WARNING: No password history count information
+User Count: 129
+**********************
+Current User: bmiller
+Password Last Set: 10/25/2019 21:25:05
+Password Age: 132
+User Count: 130
+**********************
+Current User: lcerbone
+Password Last Set: 11/27/2019 11:00:58
+Password Age: 100
+User Count: 131
+**********************
+Current User: dzeh
+Password Last Set: 03/04/2020 11:47:06
+Password Age: 2
+User Count: 132
+**********************
+Current User: jhonaker
+Password Last Set: 09/22/2019 16:39:04
+Password Age: 165
+User Count: 133
+**********************
+Current User: tms0084
+Password Last Set: 04/15/2019 06:17:23
+Password Age: 326
+User Count: 134
+**********************
+Current User: jjanoo
+Password Last Set: 01/12/2020 16:09:12
+Password Age: 53
+WARNING: No password history count information
+User Count: 135
+**********************
+Current User: reproductionlab
+Password Last Set: 11/12/2009 10:40:31
+Password Age: 3767
+WARNING: No password history count information
+User Count: 136
+**********************
+Current User: whembree
+Password Last Set: 09/26/2019 08:42:53
+Password Age: 162
+User Count: 137
+**********************
+Current User: ltyre
+Password Last Set: 10/01/2019 14:15:17
+Password Age: 157
+User Count: 138
+**********************
+Current User: TMA_Web_Access
+Password Last Set: 11/13/2008 12:54:14
+Password Age: 4131
+WARNING: No password history count information
+User Count: 139
+**********************
+Current User: cpatterson
+Password Last Set: 09/06/2019 12:11:46
+Password Age: 182
+User Count: 140
+**********************
+Current User: tma
+Password Last Set: 11/13/2008 12:54:14
+Password Age: 4131
+WARNING: No password history count information
+User Count: 141
+**********************
+Current User: gandreas
+Password Last Set: 01/04/2018 14:19:42
+Password Age: 792
+WARNING: No password history count information
+User Count: 142
+**********************
+Current User: pshaffron
+Password Last Set: 08/26/2019 14:38:44
+Password Age: 193
+User Count: 143
+**********************
+Current User: tlmullins
+Password Last Set: 09/04/2019 09:44:59
+Password Age: 184
+User Count: 144
+**********************
+Current User: leadkins
+Password Last Set: 09/17/2019 10:34:50
+Password Age: 171
+User Count: 145
+**********************
+Current User: jhunt
+Password Last Set: 09/19/2019 09:05:19
+Password Age: 169
+User Count: 146
+**********************
+Current User: ctoth
+Password Last Set: 07/23/2019 09:54:30
+Password Age: 227
+User Count: 147
+**********************
+Current User: wreger
+Password Last Set: 12/12/2019 11:14:46
+Password Age: 85
+User Count: 148
+**********************
+Current User: tjarrett
+Password Last Set: 07/30/2019 08:15:31
+Password Age: 220
+User Count: 149
+**********************
+Current User: pmathers
+Password Last Set: 07/15/2019 16:12:11
+Password Age: 234
+User Count: 150
+**********************
+Current User: lgclassroom
+Password Last Set: 11/13/2008 12:54:04
+Password Age: 4131
+WARNING: No password history count information
+User Count: 151
+**********************
+Current User: cfrance
+Password Last Set: 08/01/2019 13:07:12
+Password Age: 218
+User Count: 152
+**********************
+Current User: jstevenson
+Password Last Set: 02/12/2020 13:10:30
+Password Age: 23
+User Count: 153
+**********************
+Current User: CTN-0030
+Password Last Set: 11/13/2008 12:53:58
+Password Age: 4131
+WARNING: No password history count information
+User Count: 154
+**********************
+Current User: jberry
+Password Last Set: 11/04/2019 13:40:35
+Password Age: 123
+User Count: 155
+**********************
+Current User: mhaut
+Password Last Set: 09/13/2019 08:46:54
+Password Age: 175
+User Count: 156
+**********************
+Current User: bquigley
+Password Last Set: 08/12/2019 10:26:52
+Password Age: 207
+User Count: 157
+**********************
+Current User: pchumber
+Password Last Set: 08/27/2019 13:03:10
+Password Age: 192
+User Count: 158
+**********************
+Current User: llander
+Password Last Set: 07/09/2019 10:07:26
+Password Age: 241
+User Count: 159
+**********************
+Current User: tleatherman
+Password Last Set: 08/19/2019 13:54:05
+Password Age: 200
+User Count: 160
+**********************
+Current User: mcarey
+Password Last Set: 11/20/2019 12:54:11
+Password Age: 107
+User Count: 161
+**********************
+Current User: khonaker
+Password Last Set: 09/13/2019 12:57:23
+Password Age: 175
+User Count: 162
+**********************
+Current User: mferris
+Password Last Set: 08/22/2019 08:47:36
+Password Age: 197
+User Count: 163
+**********************
+Current User: erankin
+Password Last Set: 09/18/2019 08:06:12
+Password Age: 170
+User Count: 164
+**********************
+Current User: pmarshalek
+Password Last Set: 08/28/2019 19:50:20
+Password Age: 190
+User Count: 165
+**********************
+Current User: dtrumbull
+Password Last Set: 06/12/2019 14:52:28
+Password Age: 268
+User Count: 166
+**********************
+Current User: chill
+Password Last Set: 07/18/2019 15:17:52
+Password Age: 232
+User Count: 167
+**********************
+Current User: csullivan
+Password Last Set: 09/15/2018 09:38:21
+Password Age: 538
+User Count: 168
+**********************
+Current User: sbienekcate
+Password Last Set: 10/07/2019 16:02:19
+Password Age: 150
+User Count: 169
+**********************
+Current User: delswick
+Password Last Set: 10/28/2019 15:38:33
+Password Age: 130
+User Count: 170
+**********************
+Current User: hzhang
+Password Last Set: 09/03/2019 11:58:00
+Password Age: 185
+User Count: 171
+**********************
+Current User: jecoffman
+Password Last Set: 09/09/2019 11:42:33
+Password Age: 179
+User Count: 172
+**********************
+Current User: redmundson
+Password Last Set: 08/20/2019 08:41:58
+Password Age: 199
+User Count: 173
+**********************
+Current User: mbyrne
+Password Last Set: 07/09/2019 16:44:03
+Password Age: 240
+User Count: 174
+**********************
+Current User: jjacobs
+Password Last Set: 07/23/2019 07:46:52
+Password Age: 227
+User Count: 175
+**********************
+Current User: nmogge
+Password Last Set: 07/09/2018 09:46:43
+Password Age: 606
+User Count: 176
+**********************
+Current User: ccooperlehki
+Password Last Set: 07/11/2019 11:19:18
+Password Age: 239
+User Count: 177
+**********************
+Current User: tglance
+Password Last Set: 09/02/2019 06:41:47
+Password Age: 186
+User Count: 178
+**********************
+Current User: wzheng
+Password Last Set: 09/17/2019 11:50:10
+Password Age: 171
+User Count: 179
+**********************
+Current User: baltaha
+Password Last Set: 03/05/2019 08:53:17
+Password Age: 367
+WARNING: No password history count information
+User Count: 180
+**********************
+Current User: scrayne
+Password Last Set: 02/04/2020 11:11:52
+Password Age: 31
+User Count: 181
+**********************
+Current User: schaeferc
+Password Last Set: 04/22/2019 16:42:37
+Password Age: 318
+User Count: 182
+**********************
+Current User: eyoung
+Password Last Set: 07/08/2019 13:53:28
+Password Age: 242
+User Count: 183
+**********************
+Current User: cwilson
+Password Last Set: 01/10/2020 11:21:39
+Password Age: 56
+User Count: 184
+**********************
+Current User: aaboraya
+Password Last Set: 09/30/2019 11:29:31
+Password Age: 158
+User Count: 185
+**********************
+Current User: tgoodykoontz
+Password Last Set: 01/10/2020 09:38:46
+Password Age: 56
+User Count: 186
+**********************
+Current User: avedock
+Password Last Set: 09/24/2019 15:56:13
+Password Age: 163
+User Count: 187
+**********************
+Current User: jhowsare
+Password Last Set: 08/12/2019 14:21:47
+Password Age: 207
+User Count: 188
+**********************
+Current User: bdesai2
+Password Last Set: 01/04/2018 14:19:39
+Password Age: 792
+User Count: 189
+**********************
+Current User: suclayton
+Password Last Set: 06/17/2019 08:03:00
+Password Age: 263
+User Count: 190
+**********************
+Current User: gdino
+Password Last Set: 08/02/2019 10:42:12
+Password Age: 217
+User Count: 191
+**********************
+Current User: randerson
+Password Last Set: 01/04/2018 14:19:43
+Password Age: 792
+User Count: 192
+**********************
+Current User: ksimon
+Password Last Set: 10/01/2019 12:05:36
+Password Age: 157
+User Count: 193
+**********************
+Current User: ntompkins
+Password Last Set: 08/12/2019 10:36:00
+Password Age: 207
+User Count: 194
+**********************
+Current User: jkayrouz
+Password Last Set: 01/04/2018 14:21:24
+Password Age: 792
+User Count: 195
+**********************
+Current User: cjcooper
+Password Last Set: 10/23/2019 12:37:04
+Password Age: 135
+User Count: 196
+**********************
+Current User: mijacques
+Password Last Set: 01/04/2018 14:19:34
+Password Age: 792
+User Count: 197
+**********************
+Current User: vlazuka
+Password Last Set: 08/29/2019 15:58:01
+Password Age: 189
+User Count: 198
+**********************
+Current User: jgrubb2
+Password Last Set: 08/12/2019 11:09:28
+Password Age: 207
+User Count: 199
+**********************
+Current User: rdinsmore
+Password Last Set: 08/29/2019 08:38:54
+Password Age: 190
+User Count: 200
+**********************
+Current User: rmeckstroth
+Password Last Set: 08/19/2019 08:09:54
+Password Age: 200
+User Count: 201
+**********************
+Current User: dhickman
+Password Last Set: 02/10/2018 15:02:39
+Password Age: 755
+User Count: 202
+**********************
+Current User: bawalters
+Password Last Set: 09/23/2019 12:38:05
+Password Age: 165
+User Count: 203
+**********************
+Current User: creed
+Password Last Set: 07/29/2019 09:13:37
+Password Age: 221
+User Count: 204
+**********************
+Current User: lyely
+Password Last Set: 10/09/2019 09:41:46
+Password Age: 149
+User Count: 205
+**********************
+Current User: dpompili
+Password Last Set: 08/14/2019 09:52:35
+Password Age: 205
+User Count: 206
+**********************
+Current User: dault
+Password Last Set: 07/17/2019 10:24:36
+Password Age: 233
+User Count: 207
+**********************
+Current User: jcross
+Password Last Set: 08/05/2019 12:03:44
+Password Age: 214
+User Count: 208
+**********************
+Current User: ksoccorsi
+Password Last Set: 08/27/2019 07:59:32
+Password Age: 192
+User Count: 209
+**********************
+Current User: lbakos
+Password Last Set: 09/26/2019 16:24:59
+Password Age: 161
+User Count: 210
+**********************
+Current User: bweaver
+Password Last Set: 12/20/2019 09:44:55
+Password Age: 77
+User Count: 211
+**********************
+Current User: bmarshall
+Password Last Set: 08/13/2019 11:39:54
+Password Age: 206
+User Count: 212
+**********************
+Current User: tbonasso
+Password Last Set: 09/23/2019 10:03:38
+Password Age: 165
+User Count: 213
+**********************
+Current User: aclondon
+Password Last Set: 01/30/2020 16:52:21
+Password Age: 35
+User Count: 214
+**********************
+Current User: eshulman
+Password Last Set: 01/04/2018 14:17:23
+Password Age: 792
+WARNING: No password history count information
+User Count: 215
+**********************
+Current User: taucremanne
+Password Last Set: 09/18/2019 10:07:12
+Password Age: 170
+User Count: 216
+**********************
+Current User: lkozikowski
+Password Last Set: 09/09/2019 07:35:06
+Password Age: 179
+User Count: 217
+**********************
+Current User: asarwari
+Password Last Set: 08/29/2019 11:27:50
+Password Age: 190
+User Count: 218
+**********************
+Current User: rbeto
+Password Last Set: 01/03/2020 11:55:47
+Password Age: 63
+User Count: 219
+**********************
+Current User: cfailinger
+Password Last Set: 06/09/2018 16:24:49
+Password Age: 635
+User Count: 220
+**********************
+Current User: leddy
+Password Last Set: 11/21/2019 13:58:51
+Password Age: 106
+User Count: 221
+**********************
+Current User: ajain
+Password Last Set: 12/03/2019 08:50:19
+Password Age: 94
+User Count: 222
+**********************
+Current User: mfisher
+Password Last Set: 07/18/2019 11:11:59
+Password Age: 232
+User Count: 223
+**********************
+Current User: tmorise
+Password Last Set: 11/07/2019 17:38:05
+Password Age: 119
+User Count: 224
+**********************
+Current User: lstark
+Password Last Set: 10/24/2019 11:56:29
+Password Age: 134
+User Count: 225
+**********************
+Current User: mwarden
+Password Last Set: 09/26/2019 10:40:43
+Password Age: 162
+User Count: 226
+**********************
+Current User: nlerfald
+Password Last Set: 10/07/2019 11:41:09
+Password Age: 151
+User Count: 227
+**********************
+Current User: sschmidt
+Password Last Set: 08/05/2019 09:05:02
+Password Age: 214
+User Count: 228
+**********************
+Current User: neelyj
+Password Last Set: 11/04/2019 16:56:16
+Password Age: 122
+User Count: 229
+**********************
+Current User: rkhakoo
+Password Last Set: 09/16/2019 10:41:45
+Password Age: 172
+User Count: 230
+**********************
+Current User: cpalmer
+Password Last Set: 03/31/2019 13:33:09
+Password Age: 341
+User Count: 231
+**********************
+Current User: ckelly
+Password Last Set: 10/25/2019 09:09:00
+Password Age: 133
+User Count: 232
+**********************
+Current User: jparker
+Password Last Set: 08/20/2019 11:34:28
+Password Age: 199
+User Count: 233
+**********************
+Current User: rpowers
+Password Last Set: 11/26/2019 09:09:41
+Password Age: 101
+User Count: 234
+**********************
+Current User: ckincaid
+Password Last Set: 09/10/2019 14:31:51
+Password Age: 178
+User Count: 235
+**********************
+Current User: smanivannan
+Password Last Set: 10/02/2019 14:03:09
+Password Age: 156
+User Count: 236
+**********************
+Current User: mkolar
+Password Last Set: 08/21/2019 08:50:33
+Password Age: 198
+User Count: 237
+**********************
+Current User: rlayne
+Password Last Set: 03/21/2016 11:38:38
+Password Age: 1446
+User Count: 238
+**********************
+Current User: mvalent
+Password Last Set: 09/09/2019 08:53:33
+Password Age: 179
+User Count: 239
+**********************
+Current User: rwbrock
+Password Last Set: 02/20/2020 21:35:45
+Password Age: 14
+User Count: 240
+**********************
+Current User: hbillings
+Password Last Set: 08/14/2019 17:45:23
+Password Age: 204
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-HSDomainUserInfo> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."

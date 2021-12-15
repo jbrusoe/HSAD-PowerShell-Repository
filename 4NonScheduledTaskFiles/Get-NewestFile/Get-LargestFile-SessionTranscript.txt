@@ -1,0 +1,195 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210125105647
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Configuration Name: 
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 14272
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Get-LargestFile-SessionTranscript.txt
+PS C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-NewestFile> dir
+
+
+    Directory: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-NewestFile
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/25/2021  10:56 AM              0 Get-LargestFile-SessionTranscript.txt
+
+
+PS C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-NewestFile> cd \\hs.wvu-ad.wvu.edu\public\sod
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD> get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date).AddDays(-3)} | Export-CSV "SODNewestFiles.csv"
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD> dir
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\public\SOD
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        7/20/2016   9:27 AM                Assessment
+d-----        4/10/2014   9:04 AM                Axium
+d-----         6/8/2017   3:59 PM                Axium Setup Information
+d-----         1/5/2017   1:45 PM                Axiummaster
+d-----        1/22/2021   2:52 PM                dentadmin
+d-----         1/8/2019   9:41 AM                Departments
+d-r---       10/26/2020  12:31 PM                dh
+d-----       10/12/2020  11:28 AM                dprh
+d-----         6/1/2020   3:26 PM                ds
+d-----         4/8/2015   9:36 AM                Employee Records
+d-----         9/2/2020   3:45 PM                endo
+d-----        6/27/2019   8:44 AM                OD
+d-----        8/27/2013   3:23 PM                OP
+d-----       12/17/2020   9:31 AM                ortho
+d-----       11/20/2020   9:30 AM                os
+d-----       12/29/2020   3:30 PM                PD
+d-----         1/6/2021  11:33 AM                perio
+d-----       10/19/2017   9:27 AM                Proslit
+d-----         1/5/2021   8:08 AM                prostho
+d-----         1/8/2021  10:48 AM                Public
+d-----        10/5/2020  10:00 AM                rd
+d-----         6/6/2017  11:23 AM                Research
+d-----        10/9/2020   8:12 AM                Shared Drive
+d-----       11/15/2018   3:50 PM                SOD Clinical Issues
+d-----        10/7/2014   5:12 PM                STC Facilities
+-a----        1/25/2021  11:12 AM         119704 SODNewestFiles.csv
+
+
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD> cd .\dentadmin\
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dentadmin> get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date).AddDays(-3)} #| Export-CSV "SODNewestFiles.csv"
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\aalkire\televoxfiles\Archive
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/22/2021   2:36 PM          21670 televox_01222021_143704.csv
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\AcademicAffairs\DDS\National Boards\Class Results 2007-2024
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/22/2021   2:56 PM         535040 National Board Results - By Class.xls
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\AcademicAffairs\DDS\National Boards\JCNDE Monthly
+    Reports\2020\12 December 2020
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/22/2021   2:40 PM         219699 2020 12 3230 NBDEI.pdf
+-a----        1/22/2021   2:41 PM         224533 2020 12 3230 NBDEII.pdf
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\AcademicAffairs\DDS\Student Information\Student Academic
+    Record Tracking
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/22/2021   2:39 PM         297894 Class of 2023.xlsx
+-a----        1/22/2021  11:18 AM         290168 Class of 2024.xlsx
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\AcademicAffairs\Postdocs\Meeting - Minutes\Program Directors
+    Meeting Minutes\2021
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        1/22/2021   3:03 PM          27020 PDM January 2021.docx
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dentadmin> get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date).AddDays(-3)} | Export-CSV "DentadminNewestFiles.csv"
+get-childitem : Could not find a part of the path 
+'\\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\MSTURMS\Backup\msturms@hsc.wvu.edu\SDW16032-DO\Data\C\Users\msturms\Saved 
+Games'.
+At line:1 char:1
++ get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date) ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (\\hs.wvu-ad.wvu...rms\Saved Games:String) [Get-ChildItem], 
+DirectoryNotFoundException
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+get-childitem : Could not find a part of the path
+'\\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\MSTURMS\Backup\msturms@hsc.wvu.edu\SDW16032-DO\Data\C\Users\msturms\Saved
+Games'.
+At line:1 char:1
++ get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date) ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (\\hs.wvu-ad.wvu...rms\Saved Games:String) [Get-ChildItem], DirectoryNotFound
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+get-childitem : Could not find a part of the path 
+'\\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\MSTURMS\Backup\msturms@hsc.wvu.edu\SDW16032-DO\Data\C\Users\msturms\Searches'.
+At line:1 char:1
++ get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date) ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (\\hs.wvu-ad.wvu...sturms\Searches:String) [Get-ChildItem], 
+DirectoryNotFoundException
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+get-childitem : Could not find a part of the path '\\hs.wvu-ad.wvu.edu\public\SOD\dentadmin\MSTURMS\Backup\msturms@hsc.
+wvu.edu\SDW16032-DO\Data\C\Users\msturms\Searches'.
+At line:1 char:1
++ get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date) ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (\\hs.wvu-ad.wvu...sturms\Searches:String) [Get-ChildItem], DirectoryNotFound
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dentadmin> cd ..
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD> dir
+
+
+    Directory: \\hs.wvu-ad.wvu.edu\public\SOD
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        7/20/2016   9:27 AM                Assessment
+d-----        4/10/2014   9:04 AM                Axium
+d-----         6/8/2017   3:59 PM                Axium Setup Information
+d-----         1/5/2017   1:45 PM                Axiummaster
+d-----        1/25/2021  11:14 AM                dentadmin
+d-----         1/8/2019   9:41 AM                Departments
+d-r---       10/26/2020  12:31 PM                dh
+d-----       10/12/2020  11:28 AM                dprh
+d-----         6/1/2020   3:26 PM                ds
+d-----         4/8/2015   9:36 AM                Employee Records
+d-----         9/2/2020   3:45 PM                endo
+d-----        6/27/2019   8:44 AM                OD
+d-----        8/27/2013   3:23 PM                OP
+d-----       12/17/2020   9:31 AM                ortho
+d-----       11/20/2020   9:30 AM                os
+d-----       12/29/2020   3:30 PM                PD
+d-----         1/6/2021  11:33 AM                perio
+d-----       10/19/2017   9:27 AM                Proslit
+d-----         1/5/2021   8:08 AM                prostho
+d-----         1/8/2021  10:48 AM                Public
+d-----        10/5/2020  10:00 AM                rd
+d-----         6/6/2017  11:23 AM                Research
+d-----        10/9/2020   8:12 AM                Shared Drive
+d-----       11/15/2018   3:50 PM                SOD Clinical Issues
+d-----        10/7/2014   5:12 PM                STC Facilities
+-a----        1/25/2021  11:12 AM         119704 SODNewestFiles.csv
+
+
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD> cd .\dprh\
+PS Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dprh> get-childitem -recurse -File | where {$_.LastWriteTime -gt (Get-Date).AddDays(-3)} | Export-CSV "DPRHNewestFiles.csv"

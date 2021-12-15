@@ -1,0 +1,69 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210511150316
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Configuration Name: 
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 25536
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Logs\\2021-05-11-15-03-Get-LargeFile-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Logs\
+VERBOSE: File Count: 2
+0
+All input parameters are set to default values.
+
+C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Logs\\2021-05-11-15-03-Get-LargeFile-SessionTranscript.txt
+Path: \\hs.wvu-ad.wvu.edu\public\bioc\
+Getting file list
+Files Count: 989101
+Selecting files
+
+FullName
+--------
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store\backup\eCAT3.3.vdi
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store\backup\eCat-112015\.VirtualBox\HardDisks\Windows.vdi
+\\hs.wvu-ad.wvu.edu\public\bioc\dsmith2\Outlook Archive\archive-WVU.pst
+\\hs.wvu-ad.wvu.edu\public\bioc\SmithLab\Network Backups\dmsmithlab1 backup\dmsmithlab1-from-syn2\Downloads\ZENblue3...
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store\backup\eCat-112015\.VirtualBox\HardDisks\eCAT3.3.vdi
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\Aipl1-883-20512544\alignm...
+\\hs.wvu-ad.wvu.edu\public\bioc\baw0033\Microscopy\090318 VPC overnight timelapse\VPC overnight timelapse.nd2
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\BG-wt-1-20479800\alignmen...
+\\hs.wvu-ad.wvu.edu\public\bioc\Public - New Server Folder\dmcdonnell\Old\From Server\spoulson\olderPC-Win7upgrade\d...
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\BG-wt-4-20479861\alignmen...
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\BG-wt-2-20510571\alignmen...
+\\hs.wvu-ad.wvu.edu\public\bioc\Public - New Server Folder\dmcdonnell\Old\Old User Folders\Lana_Files\EmailArchives\...
+\\hs.wvu-ad.wvu.edu\public\bioc\lyoho\OutlookFiles2015\Outlook-GW-Archive\migrated.pst
+\\hs.wvu-ad.wvu.edu\public\bioc\jschupp\Jane-BackupFiles\Downloads\workshop_2016_bgal.zip
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\Aipl1-885-20479836\alignm...
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\Aipl1-884-20479844\alignm...
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\BG-wt-3-20507667\alignmen...
+\\hs.wvu-ad.wvu.edu\public\bioc\dsmith2\Outlook Archive\archive-WVU.bak
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\eCAT_store_old\RNA-seq\Retina\Stoilov-19773754\Aipl1-my22-pl56-20479747\...
+\\hs.wvu-ad.wvu.edu\public\bioc\Stoilov Lab\Windows10_iso\Windows.iso
+
+
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20210511151440
+**********************

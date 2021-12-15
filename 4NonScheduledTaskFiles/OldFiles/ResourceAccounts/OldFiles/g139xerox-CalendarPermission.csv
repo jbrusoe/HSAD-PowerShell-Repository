@@ -1,0 +1,4 @@
+#TYPE Deserialized.Microsoft.Exchange.Management.StoreTasks.MailboxFolderPermission
+"PSComputerName","RunspaceId","PSShowComputerName","Identity","FolderName","User","AccessRights","SharingPermissionFlags","IsValid","ObjectState"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","G139 Xerox:\Calendar","Calendar","Default","AvailabilityOnly",,"True","New"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","G139 Xerox:\Calendar","Calendar","Anonymous","None",,"True","New"

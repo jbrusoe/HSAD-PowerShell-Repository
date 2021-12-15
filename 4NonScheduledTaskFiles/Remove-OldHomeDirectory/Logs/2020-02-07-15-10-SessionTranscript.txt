@@ -1,0 +1,439 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200207151033
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT2 (Microsoft Windows NT 6.3.9600.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1036
+PSVersion: 5.1.14409.1018
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1018
+BuildVersion: 10.0.14409.1018
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory\Logs\2020-02-07-15-10-SessionTranscript.txt
+Current Directory: aakinyem
+Full path:
+*********************
+Current Directory: ab0106
+Full path:
+*********************
+Current Directory: abpetrone
+Full path:
+*********************
+Current Directory: ACGME
+Full path:
+*********************
+Current Directory: aclemmer
+Full path:
+*********************
+Current Directory: ads0058
+Full path:
+*********************
+Current Directory: adt0029
+Full path:
+*********************
+Current Directory: ag10198
+Full path:
+*********************
+Current Directory: aha0012
+Full path:
+*********************
+Current Directory: amm0009
+Full path:
+*********************
+Current Directory: amp0057
+Full path:
+*********************
+Current Directory: Andreas Resident Files
+Full path:
+*********************
+Current Directory: arg0048
+Full path:
+*********************
+Current Directory: arn0007
+Full path:
+*********************
+Current Directory: ars0049
+Full path:
+*********************
+Current Directory: asmittle
+Full path:
+*********************
+Current Directory: battistellal
+Full path:
+*********************
+Current Directory: Billing
+Full path:
+*********************
+Current Directory: bjhickey
+Full path:
+*********************
+Current Directory: bmccormick
+Full path:
+*********************
+Current Directory: bradabaugh
+Full path:
+*********************
+Current Directory: Carie-Trevor
+Full path:
+*********************
+Current Directory: catitus
+Full path:
+*********************
+Current Directory: cboykin
+Full path:
+*********************
+Current Directory: Cheryl-Andrea
+Full path:
+*********************
+Current Directory: Cheryl-Erin
+Full path:
+*********************
+Current Directory: Chief-Resident-Andrea
+Full path:
+*********************
+Current Directory: clarient-data
+Full path:
+*********************
+Current Directory: cls0042
+Full path:
+*********************
+Current Directory: Cytopathology-Fellowship
+Full path:
+*********************
+Current Directory: dagray
+Full path:
+*********************
+Current Directory: dcastrodale
+Full path:
+*********************
+Current Directory: dco10003
+Full path:
+*********************
+Current Directory: derm-DIF
+Full path:
+*********************
+Current Directory: dgray
+Full path:
+*********************
+Current Directory: dgray-7-7-2016
+Full path:
+*********************
+Current Directory: dh0001
+Full path:
+*********************
+Current Directory: dhowell
+Full path:
+*********************
+Current Directory: Division Newsletter
+Full path:
+*********************
+Current Directory: dmburch
+Full path:
+*********************
+Current Directory: dreynolds
+Full path:
+*********************
+Current Directory: Drivers
+Full path:
+*********************
+Current Directory: dtacker
+Full path:
+*********************
+Current Directory: dtoothman
+Full path:
+*********************
+Current Directory: eel0006
+Full path:
+*********************
+Current Directory: EM-data
+Full path:
+*********************
+Current Directory: eosborne
+Full path:
+*********************
+Current Directory: ffranyut
+Full path:
+*********************
+Current Directory: flanagan-Scholl
+Full path:
+*********************
+Current Directory: Grossing Manual
+Full path:
+*********************
+Current Directory: Heme Path Fellowship
+Full path:
+*********************
+Current Directory: Hemepath Director-Coordinator
+Full path:
+*********************
+Current Directory: hho00001
+Full path:
+*********************
+Current Directory: hjwilliams
+Full path:
+*********************
+Current Directory: HTL Program
+Full path:
+*********************
+Current Directory: image1
+Full path:
+*********************
+Current Directory: INBRE
+Full path:
+*********************
+Current Directory: ja0071
+Full path:
+*********************
+Current Directory: jag0046
+Full path:
+*********************
+Current Directory: jao0015
+Full path:
+*********************
+Current Directory: jawade
+Full path:
+*********************
+Current Directory: jcoad
+Full path:
+*********************
+Current Directory: jfalcon1
+Full path:
+*********************
+Current Directory: jkarakiozis
+Full path:
+*********************
+Current Directory: jrh0036
+Full path:
+*********************
+Current Directory: jshrout3
+Full path:
+*********************
+Current Directory: jvevans
+Full path:
+*********************
+Current Directory: jvos
+Full path:
+*********************
+Current Directory: kfeaster
+Full path:
+*********************
+Current Directory: kharbert
+Full path:
+*********************
+Current Directory: kk00001
+Full path:
+*********************
+Current Directory: kmolchanoff
+Full path:
+*********************
+Current Directory: Koneman
+Full path:
+*********************
+Current Directory: Kym-Andrea
+Full path:
+*********************
+Current Directory: ltrout
+Full path:
+*********************
+Current Directory: ma00009
+Full path:
+*********************
+Current Directory: ma0268
+Full path:
+*********************
+Current Directory: Marty-Erin
+Full path:
+*********************
+Current Directory: mbsmolkin
+Full path:
+*********************
+Current Directory: mcostas
+Full path:
+*********************
+Current Directory: Medical Examiner
+Full path:
+*********************
+Current Directory: Medtech
+Full path:
+*********************
+Current Directory: mflanagan
+Full path:
+*********************
+Current Directory: mgb0002
+Full path:
+*********************
+Current Directory: mjz0005
+Full path:
+*********************
+Current Directory: MLS-Admissions
+Full path:
+*********************
+Current Directory: MLS-Curriculum Task Force
+Full path:
+*********************
+Current Directory: MLS-Files
+Full path:
+*********************
+Current Directory: MLS-Handbook-Taskforce
+Full path:
+*********************
+Current Directory: MLS-Recruitment
+Full path:
+*********************
+Current Directory: MLS-Website-Taskforce
+Full path:
+*********************
+Current Directory: mmb0061
+Full path:
+*********************
+Current Directory: mnkumar
+Full path:
+*********************
+Current Directory: MS2 Pathology Course
+Full path:
+*********************
+Current Directory: mtdownes
+Full path:
+*********************
+Current Directory: mwa0006
+Full path:
+*********************
+Current Directory: nhm0006
+Full path:
+*********************
+Current Directory: nm0077
+Full path:
+*********************
+Current Directory: Old-Accounts
+Full path:
+*********************
+Current Directory: Overdue Reports VOS
+Full path:
+*********************
+Current Directory: PA program
+Full path:
+*********************
+Current Directory: PA-Admissions
+Full path:
+*********************
+Current Directory: Path-Chair
+Full path:
+*********************
+Current Directory: PathAdmin
+Full path:
+*********************
+Current Directory: pbacaj
+Full path:
+*********************
+Current Directory: plasala
+Full path:
+*********************
+Current Directory: PLTM-GrossRoom-Pictures
+Full path:
+*********************
+Current Directory: pperrotta
+Full path:
+*********************
+Current Directory: QAU
+Full path:
+*********************
+Current Directory: QB-Kieffer
+Full path:
+*********************
+Current Directory: QB-PLTM
+Full path:
+*********************
+Current Directory: Question-Bank
+Full path:
+*********************
+Current Directory: rasasi
+Full path:
+*********************
+Current Directory: Research-Lab
+Full path:
+*********************
+Current Directory: Residency-Program
+Full path:
+*********************
+Current Directory: Resident-Admin
+Full path:
+*********************
+Current Directory: rjc0031
+Full path:
+*********************
+Current Directory: rlc0063
+Full path:
+*********************
+Current Directory: rlcrickard
+Full path:
+*********************
+Current Directory: rmchurma
+Full path:
+*********************
+Current Directory: RMT-websites
+Full path:
+*********************
+Current Directory: rys0001
+Full path:
+*********************
+Current Directory: Saved Gross Specimens
+Full path:
+*********************
+Current Directory: sdp10010
+Full path:
+*********************
+Current Directory: shared
+Full path:
+*********************
+Current Directory: sjk0013
+Full path:
+*********************
+Current Directory: sss00001
+Full path:
+*********************
+Current Directory: SurgPathFellowship
+Full path:
+*********************
+Current Directory: swrigh11
+Full path:
+*********************
+Current Directory: Tissue-Bank Database
+Full path:
+*********************
+Current Directory: tk10046
+Full path:
+*********************
+Current Directory: TPL work
+Full path:
+*********************
+Current Directory: Translational Pathology Archive
+Full path:
+*********************
+Current Directory: tst0015
+Full path:
+*********************
+Current Directory: twk0003
+Full path:
+*********************
+Current Directory: twolfe10
+Full path:
+*********************
+Current Directory: Web Cases
+Full path:
+*********************
+Current Directory: WVAP
+Full path:
+*********************
+Current Directory: wvupath1
+Full path:
+*********************
+**********************
+Windows PowerShell transcript end
+End time: 20200207151033
+**********************

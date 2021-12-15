@@ -1,0 +1,11 @@
+Name,DirectoryPath,BackupType
+Nursing,\\hssql2\f$\Backups\SON_Backup*,Nursing
+Nursing,\\hs.wvu-ad.wvu.edu\public\SON\studentservices,Nursing
+Nursing,\\hs.wvu-ad.wvu.edu\public\SON\Nursing,Nursing
+VDI,c:\ad-development,Regular
+VDI,C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository,Regular
+Sysscript3,\\sysscript3\c$\ad-development,Regular
+Sysscript3,\\sysscript3\c$\Backups,Regular
+Sysscript4,\\sysscript3\c$\HSCPowerShellModules,Regular
+Sysscript4,\\sysscript4\c$\ad-development,Regular
+Sysscript4,\\sysscript4\c$\ad-developmentNEW,Regular

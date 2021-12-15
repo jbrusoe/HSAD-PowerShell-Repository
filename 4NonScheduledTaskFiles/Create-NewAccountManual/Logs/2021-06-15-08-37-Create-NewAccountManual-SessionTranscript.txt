@@ -1,0 +1,147 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210615083748
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 17196
+PSVersion: 5.1.14393.4467
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4467
+BuildVersion: 10.0.14393.4467
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\\2021-06-15-08-37-Create-NewAccountManual-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\
+VERBOSE: File Count: 16
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-08-52-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-08-54-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-08-55-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-08-56-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-08-59-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-09-02-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-09-05-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-03-09-06-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-04-09-49-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-04-09-52-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-04-09-54-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-04-09-55-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-04-09-59-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-04-10-04-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\2021-06-04-10-06-Create-NewAccountManual-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+All input parameters are set to default values.
+
+Start Date:
+Opening Deparment Map File
+SAMAccountName: poheiraty
+
+Step1: Getting SailPoint deparmtents from department map file
+SailPoint Departments:
+HSC Eastern Division
+SOM Anesthesiology L4
+SOM Family Medicine L4
+Family Medicine
+SOM Ophthalmology L4
+SOD Orthodontics L4
+SOD Oral Surgery L4
+SOD Endodontics L4
+SOD Periodontics L4
+SOM Eastern Division L4
+SOM Dermatology L4
+Searching AD NewUsers for matching department names
+
+***********************
+User found in NewUsers Org Unit
+SamAccountName: poheiraty
+Password Last Set: 01/04/2021 06:44:15
+When Created: 11/17/2020 18:50:43
+Distinguished Name:
+CN=Pooya Heiraty,OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+
+Step2: Determine destination OU
+Destination OU From File: OU=Anest,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Searching for Org Unit
+AD Target OU:
+OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+One unique destination OU was found. User is being moved there.
+Step 3: Attempting to move user to destination OU
+Successfully moved user
+True
+
+Step 4: Generating new user object after move
+
+Step5: Creating home directory
+Home Directory Path: NoHomeDirectory
+Home Directory Path: NoHomeDirectory
+Not creating a home directory
+
+Adding ProxyAddresses
+
+Step 6: Adding Primary SMTP Address
+Setting Primary SMTP Address: pooya.heiraty@hsc.wvu.edu
+Successfully set primary smtp address
+True
+
+Step 7a: Adding Proxy Address: poheiraty@hsc.wvu.edu
+Succesfully set samaccountname@hsc proxy address
+
+Step 7b: Adding onmicrosoft.com proxy: poheiraty@WVUHSC.onmicrosoft.com
+Successfully set onmicrosoft.com proxy address
+True
+
+Step 8: Adding SIP address: SIP:poheiraty@hsc.wvu.edu
+True
+
+Step 9: Adding user to groups
+User DN:
+CN=Pooya Heiraty,OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+User DN: CN=Pooya Heiraty,OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+True
+
+Step10: Setting extensionAttribute7
+Setting ext7 to Yes365
+True
+
+Step 11: Setting name and display name
+Display Name: Heiraty, Pooya
+
+Step 12: Enabling AD Account: poheiraty
+Successfully enabled account
+*************************
+Copying session transcript to logs to save directory
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find drive. A drive with the name '15 C' does not exist."
+WARNING: Error copying files to backup directory
+Final Error Count: 1
+**********************
+Windows PowerShell transcript end
+End time: 20210615083851
+**********************

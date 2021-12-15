@@ -1,0 +1,7 @@
+#HSC PowerShell Repository gitignore file.
+.vs/VSWorkspaceState.json
+.vs/HSC-PowerShell-Repository/v16/.suo
+.vs/slnx.sqlite
+3PowerShell-Code-Review/~$PSFileStatus.xlsx
+3PowerShell-Code-Review/2021-01-07/~$2021-01-07.pptx
+2CommonFiles/MappingFiles/~$CSCInfo-FromJackie.xlsx

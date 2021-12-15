@@ -1,0 +1,4 @@
+#TYPE System.Management.Automation.PSCustomObject
+"EmailFromFile","EmployeeNumberFromFile","Enabled","PasswordLastSet","DistinguishedName"
+"kim.ice@hsc.wvu.edu","700630333","False","3/11/2019 8:05:16 AM","CN=Kim Ice,OU=DERM,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"shofer@hsc.wvu.edu","700149622","True","8/10/2020 10:25:46 AM","CN=Scott Hofer,OU=WVSteps SPs,OU=WVSTEPS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"

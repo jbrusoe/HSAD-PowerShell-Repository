@@ -1,0 +1,43 @@
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Get-ADUser jefftest -Properties * | select proxyAddresses -ExpandProperty proxyAddresses
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository>
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Add-HSCProxyAddress jefftest -NewProxyAddress "jefftest@hsc.wvu.edu" -Primary
+Attempting to find user: jefftest
+User found
+Adding: SMTP:jefftest@hsc.wvu.edu
+Successfully added new proxy address
+True
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository>
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Get-ADUser jefftest -Properties * | select proxyAddresses -ExpandProperty proxyAddresses
+SMTP:jefftest@hsc.wvu.edu
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository>
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Get-ADUser jefftest -Properties * | select proxyAddresses -ExpandProperty proxyAddresses
+SMTP:jefftest@hsc.wvu.edu
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository>
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Add-HSCProxyAddress jefftest -NewProxyAddress "jefftest@hsc.wvu.edu"
+Attempting to find user: jefftest
+User found
+Current Proxy Address from ADUser: SMTP:jefftest@hsc.wvu.edu
+New Proxy address is the primary SMTP address.
+False
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository>
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Get-ADUser jefftest -Properties * | select proxyAddresses -ExpandProperty proxyAddresses
+SMTP:jefftest@hsc.wvu.edu
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository>
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Get-ADUser jefftest -Properties * | select proxyAddresses -ExpandProperty proxyAddresses
+SMTP:jefftest@hsc.wvu.edu
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Add-HSCProxyAddress jefftest -NewProxyAddress "jefftest2@hsc.wvu.edu"
+Attempting to find user: jefftest
+User found
+Current Proxy Address from ADUser: SMTP:jefftest@hsc.wvu.edu
+Adding: smtp:jefftest2@hsc.wvu.edu
+Successfully added new proxy address
+True
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository> Get-ADUser jefftest -Properties * | select proxyAddresses -ExpandProperty proxyAddresses
+smtp:jefftest2@hsc.wvu.edu
+SMTP:jefftest@hsc.wvu.edu
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository>
+
+
+

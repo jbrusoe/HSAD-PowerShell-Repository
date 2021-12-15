@@ -1,0 +1,16 @@
+Search Path: OU=path,OU=SOM,OU=HSC,DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Home directories with no corresponding users:
+ab0106
+cboykin
+dgray
+dgray-7-7-2016
+dh0001
+eel0006
+eosborne
+ja0071
+kfeaster
+kmolchanoff
+Koneman
+nhm0006
+WVAP
+wvupath1

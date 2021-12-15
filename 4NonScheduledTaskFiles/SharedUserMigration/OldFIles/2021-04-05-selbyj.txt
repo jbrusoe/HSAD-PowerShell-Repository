@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210405113432
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 11104
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-04-05-selbyj.txt
+HSC Email: jselby1@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=rcbhsc/cn=Recipients/cn=selbyj
+************************
+HSC Email: jselby1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7021fb1df73542dfb131e983151243e3-Selby, Jose
+************************
+HSC Email: jselby1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:jselby1@wvumedicine.org
+************************
+HSC Email: jselby1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:selbyj@wvumedicine.org
+************************
+HSC Email: jselby1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7021fb1df73542dfb131e983151243e3-Selby, Jose
+************************
+HSC Email: jselby1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d9d19a9f6cca46659de4f70bf867fc2d-selbyj
+************************
+**********************
+Windows PowerShell transcript end
+End time: 20210405113448
+**********************

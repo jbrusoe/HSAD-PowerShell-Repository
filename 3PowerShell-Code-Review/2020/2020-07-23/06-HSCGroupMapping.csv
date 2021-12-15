@@ -1,0 +1,172 @@
+UserDN,Groups
+"OU=ACAF,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ACAF;ACAF
+"OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCAdmin
+"OU=AHEC,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$AHEC
+"OU=ALUMNI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ALUMNI;ALUMNI
+"OU=ANAT,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ANAT;Anatomy
+"OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ANEST;ANEST
+"OU=ANIMQ,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ANIMQ;ANIMQ
+"OU=Application and Web Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Application and Web Services Group;Application and Web Services Group
+"OU=AVP,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCAVP
+"OU=AVP,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$AVP;AVP
+"OU=BEHADPH,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$BEHADPH
+"OU=BEHM,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCBEHM
+"OU=BEHM,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",BEHM;$BEHM
+"OU=BILLING,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Billing
+"OU=BIOCHEM,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$BIOCHEM;BIOC
+"OU=BIOMED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$BIOMED;BIOMED
+"OU=BIOSTAT,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",BIOSTAT;$BIOSTAT
+"OU=BIRTHSCORE,OU=PEDS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Birthscore;Birthscore
+"OU=BLDGSERV,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$BLDGSERV
+"OU=BPS,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$BPS;BPS
+"OU=BRNI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$BRNI;$BRNI Group
+"OU=BUSAFF,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$BUSAFF
+"OU=BUSINESS,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Business;Business Office
+"OU=CAMDENCLARKRESIDENTS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=CARD,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CARD;Cardiology
+"OU=CCC,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CCC;CCC
+"OU=CE,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CE;$CE-Group
+"OU=CED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",UACDD;$UACDD
+"OU=CEI,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CEI;CEI;CEI ALL
+"OU=CENTREC,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CENTREC;CENTREC
+"OU=Classroom Technology,OU=Support Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",
+"OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CLIN;CLIN
+"OU=CME,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CME;CME
+"OU=COA,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$COA;COA
+"OU=Community Practice,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Community Practice;Community Practice
+"OU=COMPSERV,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$COMPPSERV
+"OU=CRC,OU=RESGRAD,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CRC;CRC
+"OU=CTRU,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CTRU;CTRU
+"OU=Database and Application Development Services,OU=Application and Web Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Database and Application Development Services Group;Database and Application Development Services Group
+"OU=DEAN,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",SOMDEAN
+"OU=DEAN,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SONDEAN;SONDEAN
+"OU=DEAN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SOPDEAN;DEAN;SOP-Deans-Office-Folder
+"OU=DENTADMIN,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$DENTADMIN;DENTADMIN
+"OU=DERM,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$DERM;Dermatology
+"OU=Desktop Support,OU=Support Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HD;Desktop Support Group;Help Desk
+"OU=DEVEL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$DEVEL;DEVEL
+"OU=DH,OU=SOD Students,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",HSC SOD All Students
+"OU=DH,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$DH;DH
+"OU=DPRH,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$DPRH;DPRH
+"OU=DS,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",DS;$DS
+"OU=EDPROG,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$EDPROG;EDPROG
+"OU=EMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$EMMED;EMMED
+"OU=ENDO,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SOMENDO;Endocrinology
+"OU=ENDO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SODENDO;ENDO
+"OU=ENT,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ENT;Otolaryngology
+"OU=EPIDEM,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$EPIDEM;EPIDEM
+"OU=ETHICS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Ethics;Ethics
+"OU=EXERPHYS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Exerphys;Exerphys
+"OU=FACDEVEL,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$FACDEVEL;FACDEVEL
+"OU=FACIL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$FACIL;FACIL
+"OU=FAMMED,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCFAMMED
+"OU=FAMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$FAMMED;FAMMED
+"OU=GERI,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$GERI;Geriatrics
+"OU=GI,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$GI;Gastroenterology
+"OU=HCOP,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HCOP;HCOP
+"OU=HEALRES,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HEALRES;HEALRES
+"OU=HEALSYS,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HEALSYS;HEALSYS
+"OU=HEMONC,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$MBRCCHEMONC;HEMONC;Hematology
+"OU=HEMONC,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SOMHEONC;Oncology
+"OU=HMR,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HMR;HMR
+"OU=HOUSESTAFF,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HOUSESTAFF;Housestaff
+"OU=HPML,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HPML;HPML
+"OU=HPRR,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HPRR;HPRR
+"OU=HR,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCHR
+"OU=HR,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HR;Human Resources
+"OU=HRC,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HRC;HRC
+"OU=HSTA,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCHSTA
+"OU=HSTA,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$HSTA;HSTA
+"OU=HUMANPERF,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",Humanperf;$HUMANPERF
+"OU=HVI,OU=CARD,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=HVI,OU=SURG,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=ICM,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ICM;ICM
+"OU=ICRC,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CREM;CREM
+"OU=IEC,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$IEC;IEC
+"OU=INFDIS,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$INFDIS;Infectious Disease
+"OU=INTMED,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$INTMED
+"OU=ITSWeb,OU=Resource Accounts,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=KEYSER,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=LAB,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCLAB
+"OU=LEGAL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$LEGAL;LEGAL
+"OU=ME,OU=FACIL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ME;ME
+"OU=MEDIA,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$MEDIA
+"OU=MGMT,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=MGMT,OU=FACIL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$FACILMGMT
+"OU=MGMT,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ISOMGMT;ITS Management
+"OU=MGMT,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$MBRCCMGMT;MBRCC MGMT
+"OU=MGMT,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$MEDMGMT
+"OU=MGMT,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CMEDMGMT
+"OU=MGP,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$MGP;MGP
+"OU=MICRO,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$MICRO;MICRO
+"OU=NEPH,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$NEPH;Nephrology
+"OU=Network Infrastructure,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",Network Infrastructure Group
+"OU=Network Systems,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$NS;Network Systems Group
+"OU=NEURO,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$NEURO;NEURO
+"OU=NEUSCI,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$NEUSCI;NEUSCI
+"OU=NEUSUR,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$NEUSUR;NEUSUR
+"OU=OBGYN,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCOBGYN
+"OU=OBGYN,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OBGYN;OBGYN
+"OU=OCCMED,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",IOEH;$IOEH
+"OU=OD,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OD;OD
+"OU=OEHS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OEHS;OEHS
+"OU=OHSR,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OHSR;OHSR
+"OU=OP,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OP;OP
+"OU=OPTHA,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OPTHA;OPTHA
+"OU=ORTHO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SODORTHO;ORTHO
+"OU=ORTHO,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$ORTHO;Orthopedics
+"OU=OS,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OS;OS
+"OU=OSResidents,OU=OS,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OSResidents
+"OU=OT,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OT;Occupational Therapy
+"OU=OTHER,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$OTHER;OTHER
+"OU=PA,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PA;PA
+"OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PATH;PathologyDept
+"OU=PD,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PD;PD
+"OU=PEDS,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCPEDS
+"OU=PEDS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Peds;Pediatrics
+"OU=PERIO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PERIO;PERIO
+"OU=PHYSIO,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Physio;Physiology
+"OU=POISON,OU=SOP,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$POISON
+"OU=PRC,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PRC
+"OU=PROSTHO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PROSTHO;PROSTHO
+"OU=PSI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PSI;PSI
+"OU=PT,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PT;Physical Therapy
+"OU=Public,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PUBLIC
+"OU=PULM,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$PULM;Pulmonary
+"OU=RAD,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RAD;Radiology
+"OU=RADONC,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RADONC;RADONC
+"OU=RADSAF,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RADSAF;RADSAF
+"OU=RadTest,OU=RAD,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RADTest;Radiology Test
+"OU=RD,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RD;RD
+"OU=RDTP,OU=BEHADPH,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RDTP;RDTP Group
+"OU=reception,OU=NEUSUR,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RECEPTION
+"OU=RESEARCH,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",RES;$RESEARCH
+"OU=RESGRAD,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RESGRAD;RESGRAD
+"OU=RESIDENTS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RESIDENTS
+"OU=RESLAB,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RESLAB;Reslab
+"OU=RHEUM,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RHEUM;Rheumatology
+"OU=RURHEA,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$RURHEA
+"OU=SAFETY,OU=FACIL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SAFETY;SAFETY
+"OU=SBHS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",SBHS;$SBHS
+"OU=Security Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",Security Officer Group;Security Services Group
+"OU=SOCIAL,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SOCIAL
+"OU=SOD Clinic Accounts,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=SOMDEAN,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SOMDEAN;SOMDEAN
+"OU=SON,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCSON
+"OU=SOP,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCSOP
+"OU=SSERVICES,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCSSERVICES
+"OU=SSERVICES,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SSERVICES;SSERVICES
+"OU=STUALUM,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",STUALUM;$STUALUM
+"OU=Students,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=Support Services,OU=Application and Web Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",
+"OU=SURG,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$CHSCSURG
+"OU=SURG,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$SURG;SURG
+"OU=Training and Consulting Services,OU=Application and Web Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Training and Consulting Services Group;Training and Consulting Services Group
+"OU=UHS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$UHS;UHS
+"OU=VP,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$VP;VP
+"OU=Web Services,OU=Application and Web Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$Web Services Group;Web Services Group
+"OU=WELLNESS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$WELLNESS;Wellness Group
+"OU=WVCTSI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$WVCTSI;WVCTSI
+"OU=WVSteps SPs,OU=WVSTEPS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoGroupInfo
+"OU=WVSTEPS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$WVSTEPS;WV-Steps-Group
+"OU=WVUCPRC,OU=WVCTSI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",$WVUCPRC;WVUCPRC

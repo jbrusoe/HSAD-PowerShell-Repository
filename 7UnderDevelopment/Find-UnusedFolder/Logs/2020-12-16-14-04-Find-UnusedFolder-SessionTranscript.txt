@@ -1,0 +1,3382 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201216140443
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5168
+PSVersion: 5.1.17763.1490
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1490
+BuildVersion: 10.0.17763.1490
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-16-14-04-Find-UnusedFolder-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\
+VERBOSE: File Count: 11
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-16-14-04-Find-UnusedFolder-SessionTranscript.txt
+
+
+Path to Search: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin
+Getting directory list
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aalkire
+In if statement - aalkire
+Searching AD for: aalkire
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+
+Value
+-----
+HS\aalkire
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aas0029
+In if statement - aas0029
+Searching AD for: aas0029
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\aas0029
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aashaffer
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-28555
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aburns
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-6840
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\AcademicAffairs
+In if statement - caboyce
+Searching AD for: caboyce
+AD user in ACL found
+In if statement - cdebiase
+Searching AD for: cdebiase
+AD user in ACL found
+In if statement - pfreed
+Searching AD for: pfreed
+AD user in ACL found
+In if statement - clphalen
+Searching AD for: clphalen
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\caboyce
+HS\cdebiase
+HS\pfreed
+HS\clphalen
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\acaldwell
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-14367
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Accounting
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7526
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7641
+In if statement - msturms
+Searching AD for: msturms
+AD user in ACL found
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7881
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\msturms
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aclemsic
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aclondon
+In if statement - aclondon
+Searching AD for: aclondon
+AD user in ACL found
+In if statement - cwisser
+Searching AD for: cwisser
+AD user in ACL found
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\aclondon
+HS\cwisser
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\acollin6
+In if statement - acollin6
+Searching AD for: acollin6
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\acollin6
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\adavis
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-6846
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\addanks
+In if statement - addanks
+Searching AD for: addanks
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\addanks
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\adj0003
+In if statement - adj0003
+Searching AD for: adj0003
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\adj0003
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Admissions
+In if statement - sprice
+Searching AD for: sprice
+AD user in ACL found
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-8236
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-14368
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-18486
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-57791
+In if statement - wridenour
+Searching AD for: wridenour
+AD user in ACL found
+In if statement - hdm0020
+Searching AD for: hdm0020
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\sprice
+HS\wridenour
+HS\hdm0020
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\afs10020
+In if statement - afs10020
+Searching AD for: afs10020
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\afs10020
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\agarber2
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-55488
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\agardino
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-14368
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ahelfer
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ajhunter
+In if statement - ajhunter
+Searching AD for: ajhunter
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\ajhunter
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ala0008
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-66316
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\amsumey
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aowens5
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\arr00019
+In if statement - arr00019
+Searching AD for: arr00019
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\arr00019
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\as0290
+In if statement - as0290
+Searching AD for: as0290
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\as0290
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\asink
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-30990
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\awright
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-33825
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\AXIUM
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-6906
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\baclay
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bdadisman
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\BFANSLER
+In if statement - bfansler
+Searching AD for: bfansler
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\bfansler
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bhedrick
+In if statement - bhedrick
+Searching AD for: bhedrick
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\bhedrick
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bjdevito
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bmcginnis
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-6950
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bmoughamer
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-6953
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bmwyant
+In if statement - bmwyant
+Searching AD for: bmwyant
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\bmwyant
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bphilli7
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-41717
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bstafford
+In if statement - bstafford
+Searching AD for: bstafford
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\bstafford
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\btolley
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-6982
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bwinlan1
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-47621
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cbeck
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-31820
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\CBOYCE
+In if statement - caboyce
+Searching AD for: caboyce
+AD user in ACL found
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-49851
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\caboyce
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cbraham
+In if statement - cbraham
+Searching AD for: cbraham
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\cbraham
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cdavis15
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-41718
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\CDEBIASE
+In if statement - cdebiase
+Searching AD for: cdebiase
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\cdebiase
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cdsmith2
+In if statement - cdsmith2
+Searching AD for: cdsmith2
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\cdsmith2
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-41866
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cfmangie
+In if statement - cfmangie
+Searching AD for: cfmangie
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\cfmangie
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\CGLOVER
+In if statement - cglover
+Searching AD for: cglover
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\cglover
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\chalterman
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7037
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\chaynes
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-34000
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\clphalen
+In if statement - clphalen
+Searching AD for: clphalen
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\clphalen
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cmay
+In if statement - crmay
+Searching AD for: crmay
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\crmay
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cmmiller
+In if statement - cmmiller
+Searching AD for: cmmiller
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\cmmiller
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Confidential Admissions Information
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-57791
+In if statement - wridenour
+Searching AD for: wridenour
+AD user in ACL found
+In if statement - hdm0020
+Searching AD for: hdm0020
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\wridenour
+HS\hdm0020
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\COVID 19 Tracking
+In if statement - haidd
+Searching AD for: haidd
+AD user in ACL found
+In if statement - tchipps
+Searching AD for: tchipps
+AD user in ACL found
+In if statement - fsp0002
+Searching AD for: fsp0002
+AD user in ACL found
+In if statement - cbraham
+Searching AD for: cbraham
+AD user in ACL found
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\haidd
+HS\tchipps
+HS\fsp0002
+HS\cbraham
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cre0018
+In if statement - cre0018
+Searching AD for: cre0018
+AD user in ACL found
+In if statement - cwisser
+Searching AD for: cwisser
+AD user in ACL found
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\cre0018
+HS\cwisser
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\crg0026
+In if statement - crg0026
+Searching AD for: crg0026
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\crg0026
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\crodeheaver
+In if statement - crodeheaver
+Searching AD for: crodeheaver
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\crodeh...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott
+In exclude list - HS\ccscott
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\csimonyi
+In if statement - csimonyi
+Searching AD for: csimonyi
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\csimonyi
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\csisler
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\csm0028
+In if statement - csm0028
+Searching AD for: csm0028
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\csm0028
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ctenney
+In if statement - ctenney
+Searching AD for: ctenney
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\ctenney
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cwisser
+In if statement - cwisser
+Searching AD for: cwisser
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\cwisser
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dboggess
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\DeansOffice
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-3911
+In if statement - msturms
+Searching AD for: msturms
+AD user in ACL found
+In if statement - ricep
+Searching AD for: ricep
+AD user in ACL found
+In if statement - mpsperry
+Searching AD for: mpsperry
+AD user in ACL found
+In if statement - klg0031
+Searching AD for: klg0031
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\msturms
+HS\ricep
+HS\mpsperry
+HS\klg0031
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dentaladmit
+In if statement - dentaladmit
+Searching AD for: dentaladmit
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\dental...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\DHAID
+In if statement - haidd
+Searching AD for: haidd
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\haidd
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\DHESS
+In if statement - ldhess
+Searching AD for: ldhess
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\ldhess
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dlfoley
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-41417
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dmandel
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7152
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dmcneil
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dmott
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7163
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dpg0003
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-74521
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Dpuderbaugh
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dsauter
+In if statement - dsauter
+Searching AD for: dsauter
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\dsauter
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dshultz
+In if statement - dshultz-Retiree
+Searching AD for: dshultz-Retiree
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\dshult...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-18486
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ekehler
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7222
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hhall
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7313
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hjordan
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-28125
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hlantz
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-28124
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hmclean
+In if statement - hmclean
+Searching AD for: hmclean
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\hmclean
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hnwillis
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-54795
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hrcurfman
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jberlin
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jetucker
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\JFAZIO
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jfletch5
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-49851
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jh0073
+In if statement - jh0073
+Searching AD for: jh0073
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jh0073
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jirelan1
+In if statement - jirelan1
+Searching AD for: jirelan1
+AD user in ACL found
+In if statement - cwisser
+Searching AD for: cwisser
+AD user in ACL found
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jirelan1
+HS\cwisser
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-80109
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jlovell
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7436
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jmacias
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jmc0066
+In if statement - jmc0066
+Searching AD for: jmc0066
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jmc0066
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jmferencak
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-45078
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jmmcmillen
+In if statement - jmmcmillen
+Searching AD for: jmmcmillen
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jmmcmi...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jnash
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jnmoss
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jpanderson
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-45467
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jrose17
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-36922
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jrupar
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-14370
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jsauter
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jsmallwood
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-14371
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jsp0023
+In if statement - jsp0023
+Searching AD for: jsp0023
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jsp0023
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\JTEETS
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jts0001
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-54778
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jvf0004
+In if statement - jvf0004
+Searching AD for: jvf0004
+AD user in ACL found
+In exclude list - HS\jnesselrodt
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jvf0004
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jwaxman
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-27530
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jwolford
+In if statement - jwolford
+Searching AD for: jwolford
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jwolford
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kacoles
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-45573
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Kazarembarabatin
+In if statement - kazarembarabatin
+Searching AD for: kazarembarabatin
+AD user in ACL found
+In if statement - cwisser
+Searching AD for: cwisser
+AD user in ACL found
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\kazare...
+HS\cwisser
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kbrooks5
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Kdeprospero
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7526
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kdm0003
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kdposton
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-47934
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kja0016
+In if statement - kja0016
+Searching AD for: kja0016
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\kja0016
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kjohnson
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-31746
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kjohnston
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\klb0053
+In if statement - klb0053
+Searching AD for: klb0053
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\klb0053
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kln0013
+In if statement - kln0013
+Searching AD for: kln0013
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\kln0013
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\krevans
+In if statement - krevans
+Searching AD for: krevans
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\krevans
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kthorn
+In if statement - krthorn
+Searching AD for: krthorn
+AD user in ACL found
+In if statement - wilsonbr
+Searching AD for: wilsonbr
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\krthorn
+HS\wilsonbr
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kwolfe
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7581
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lbise
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lchristopher
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-19601
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\leheinzman
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-41480
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ljbrown
+In if statement - ljbrown
+Searching AD for: ljbrown
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\ljbrown
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ljrudy
+In if statement - mpsperry
+Searching AD for: mpsperry
+AD user in ACL found
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-45503
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\mpsperry
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\llisauckis
+In if statement - llisauckis
+Searching AD for: llisauckis
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\llisau...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lnicholas
+In if statement - lnicholas
+Searching AD for: lnicholas
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\lnicholas
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\loeddy
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-48007
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\LPACK
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7641
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lscole
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-47040
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Lveselicky
+In if statement - lveselicky
+Searching AD for: lveselicky
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\lvesel...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\MBAGBY
+In if statement - mbagby
+Searching AD for: mbagby
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\mbagby
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Mclingerman
+In if statement - mclingerman
+Searching AD for: mclingerman
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\mcling...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mdkuhn
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-52654
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mdm0002
+In if statement - mdm0002
+Searching AD for: mdm0002
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\mdm0002
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour
+In if statement - memalakpour
+Searching AD for: memalakpour
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\memala...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mfidler
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7702
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mhewston
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-19942
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mjjones1
+In if statement - mjjones1
+Searching AD for: mjjones1
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\mjjones1
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-48026
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlengman
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-44902
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mmoughamer
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\moscanya
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mpsperry
+In if statement - mpsperry
+Searching AD for: mpsperry
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\mpsperry
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mrc00012
+In if statement - mrc00012
+Searching AD for: mrc00012
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\mrc00012
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mrz0001
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mscott
+In if statement - mscott
+Searching AD for: mscott
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\mscott
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\MSTURMS
+In if statement - msturms
+Searching AD for: msturms
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\msturms
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mvm0007
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-86049
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mw0073
+In if statement - mw0073
+Searching AD for: mw0073
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\mw0073
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mwoods
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-31747
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\nltennant
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7795
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Outcome Assessments
+In if statement - jmarton
+Searching AD for: jmarton
+AD user in ACL found
+In if statement - cdebiase
+Searching AD for: cdebiase
+AD user in ACL found
+In if statement - haidd
+Searching AD for: haidd
+AD user in ACL found
+In if statement - msturms
+Searching AD for: msturms
+AD user in ACL found
+In if statement - rmeckstroth
+Searching AD for: rmeckstroth
+AD user in ACL found
+In if statement - rwanker
+Searching AD for: rwanker
+AD user in ACL found
+In if statement - sprice
+Searching AD for: sprice
+AD user in ACL found
+In if statement - pfreed
+Searching AD for: pfreed
+AD user in ACL found
+In if statement - clphalen
+Searching AD for: clphalen
+AD user in ACL found
+In if statement - kac0029
+Searching AD for: kac0029
+AD user in ACL found
+In if statement - fsp0002
+Searching AD for: fsp0002
+AD user in ACL found
+In if statement - cwisser
+Searching AD for: cwisser
+AD user in ACL found
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\jmarton
+HS\cdebiase
+HS\haidd
+HS\msturms
+HS\rmecks...
+HS\rwanker
+HS\sprice
+HS\pfreed
+HS\clphalen
+HS\kac0029
+HS\fsp0002
+HS\cwisser
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\pagray
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7823
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\PBENSON
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\pccarreon
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-45470
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\plwalker
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-47716
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\pmccutheon
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\PostDocAffairs
+In if statement - caboyce
+Searching AD for: caboyce
+AD user in ACL found
+In if statement - clphalen
+Searching AD for: clphalen
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\caboyce
+HS\clphalen
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\preed
+In if statement - pfreed
+Searching AD for: pfreed
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\pfreed
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\prodriguez
+In if statement - prodriguez
+Searching AD for: prodriguez
+AD user in ACL found
+In if statement - mpowley
+Searching AD for: mpowley
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\prodri...
+HS\mpowley
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Public
+Dollar sign group - HS\$DENTADMIN
+In exclude list - HS\kadmin
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\punderwood
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7863
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rchristopher
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7881
+In if statement - ricep
+Searching AD for: ricep
+AD user in ACL found
+In if statement - mpsperry
+Searching AD for: mpsperry
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\ricep
+HS\mpsperry
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rcmoore
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7883
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rcupp
+In if statement - rcupp
+Searching AD for: rcupp
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\rcupp
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rdove
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-14372
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rekerby
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-48069
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rfaris
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7895
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rhayhurst
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7902
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ricep
+In if statement - ricep
+Searching AD for: ricep
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\ricep
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rljelliff
+In if statement - rljelliff
+Searching AD for: rljelliff
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\rljelliff
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rmcale
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-32997
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rmilburn
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-22138
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rolunka
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-45395
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rshreves
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence
+In if statement - rwence
+Searching AD for: rwence
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\rwence
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sag0001
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sbolyar2
+In if statement - sbolyar2
+Searching AD for: sbolyar2
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\sbolyar2
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\schapman
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-7969
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\scroston
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-19597
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sdee
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-31270
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Senior Checkout
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sfb10001
+In if statement - sfb10001
+Searching AD for: sfb10001
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\sfb10001
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sherschler
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-33025
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sjones
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-28320
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\slhayhurst
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-44866
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\slittle
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-41421
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sll10042
+In if statement - sll10042
+Searching AD for: sll10042
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - BUILTIN\Administrators
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\sll10042
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\slodell
+In exclude list - S-1-5-21-865322659-4255640127-3857865232-44977
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\smslaughter
+In if statement - smslaughter
+Searching AD for: smslaughter
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: False
+
+
+Printing $CleanedFolderAcl
+HS\smslau...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Sniederriter
+In if statement - sniederriter
+Searching AD for: sniederriter
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+In exclude list - CREATOR OWNER
+In exclude list - NT AUTHORITY\SYSTEM
+In exclude list - HS\ITS Systems Server Admins
+In exclude list - BUILTIN\Administrators
+In exclude list - HS\HSC Dentistry CSC
+In exclude list - HS\jlga
+
+
+Orphaned Folder: True
+
+
+Printing $CleanedFolderAcl
+HS\sniede...
+*****************************
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\SOD IT
+In if statement - rcgamble
+Searching AD for: rcgamble
+AD user in ACL found
+In if statement - SOD IT Share Group
+Searching AD for: SOD IT Share Group
+PS>TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SOD IT Share Group' under: 'DC=HS,DC=wvu-ad,DC=wvu,DC=edu'."
+ADUser not found
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> get-aduser rcgamble
+
+
+DistinguishedName : CN=Ryan Gamble,OU=Desktop Support,OU=Support
+                    Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Enabled           : True
+GivenName         : Ryan
+Name              : Ryan Gamble
+ObjectClass       : user
+ObjectGUID        : 9416eba3-390b-49f5-9c90-67b50e8d93a9
+SamAccountName    : rcgamble
+SID               : S-1-5-21-865322659-4255640127-3857865232-37279
+Surname           : Gamble
+UserPrincipalName : rcgamble@hsc.wvu.edu
+
+
+

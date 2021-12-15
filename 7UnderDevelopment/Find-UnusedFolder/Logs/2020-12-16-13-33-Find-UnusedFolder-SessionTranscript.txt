@@ -1,0 +1,106 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201216133312
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5364
+PSVersion: 5.1.17763.1490
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1490
+BuildVersion: 10.0.17763.1490
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-16-13-33-Find-UnusedFolder-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\
+VERBOSE: File Count: 9
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-16-13-33-Find-UnusedFolder-SessionTranscript.txt
+
+
+Path to Search: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin
+Getting directory list
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aalkire
+In if statement - aalkire
+Searching AD for: aalkire
+AD user in ACL found
+In exclude list - BUILTIN\Administrators
+Potential Orphaned Folder
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> $Error
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> get-aduser aalkire
+
+
+DistinguishedName : CN=April Alkire,OU=DENTADMIN,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Enabled           : True
+GivenName         : April
+Name              : April Alkire
+ObjectClass       : user
+ObjectGUID        : c49edee9-b471-4bd0-8bda-ec77567abe98
+SamAccountName    : aalkire
+SID               : S-1-5-21-865322659-4255640127-3857865232-6831
+Surname           : Davis
+UserPrincipalName : aalkire@hsc.wvu.edu
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> error
+error : The term 'error' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ error
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (error:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+error : The term 'error' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ error
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (error:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> $Error
+error : The term 'error' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ error
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (error:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> get-aduser aalkire
+
+
+DistinguishedName : CN=April Alkire,OU=DENTADMIN,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Enabled           : True
+GivenName         : April
+Name              : April Alkire
+ObjectClass       : user
+ObjectGUID        : c49edee9-b471-4bd0-8bda-ec77567abe98
+SamAccountName    : aalkire
+SID               : S-1-5-21-865322659-4255640127-3857865232-6831
+Surname           : Davis
+UserPrincipalName : aalkire@hsc.wvu.edu
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> .\Find-UnusedFolder.ps1
+Configuring Environment
+**********************
+Windows PowerShell transcript end
+End time: 20201216134210
+**********************

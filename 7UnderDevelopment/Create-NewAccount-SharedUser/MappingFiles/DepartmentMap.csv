@@ -1,0 +1,5 @@
+HSCDepartmentName,SailPointDepartmentName,CSCEmail,CreateEmail,Groups,OUPath,HomeDirectoryPath
+HSC Eastern Division,HSC Eastern Division,,,,"OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Anesthesiology,SOM Anesthesiology L4,,,,"OU=2022,OU=Students,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Family Medicine,SOM Family Medicine L4,baylesc@wvumedicine.org,Yes,$FAMMED;FAMMED,"OU=FAMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Family Medicine,Family Medicine,baylesc@wvumedicine.org,,,"OU=FAMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory

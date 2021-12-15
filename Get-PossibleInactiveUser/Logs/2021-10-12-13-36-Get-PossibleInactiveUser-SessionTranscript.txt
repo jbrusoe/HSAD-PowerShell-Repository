@@ -1,0 +1,1845 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211012133638
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6080
+PSVersion: 5.1.17763.2183
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2183
+BuildVersion: 10.0.17763.2183
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-13-36-Get-PossibleInactiveUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\
+VERBOSE: File Count: 19
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-13-36-Get-PossibleInactiveUser-SessionTranscript.txt
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       10/12/2021   1:36 PM              0 2021-10-12-ADPossibleInactiveUsers.csv
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       10/12/2021   1:36 PM              0 Logs2021-10-12-ADActiveUsers.csv
+Getting list of AD org units under:
+DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Current AD Org Unit:
+OU=Domain Controllers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=Systems Servers,OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: 2264conference
+Password Last Set: 03/18/2016 10:16:33
+Password was last set over a year ago
+-------------------------
+Current AD User: backupadmin
+Password Last Set: 11/13/2008 12:53:56
+Password was last set over a year ago
+-------------------------
+Current AD User: hsc911
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: tempadmin
+Password Last Set: 11/13/2008 12:54:11
+Password was last set over a year ago
+-------------------------
+Current AD User: spbackup
+Password Last Set: 03/09/2010 15:12:33
+Password was last set over a year ago
+-------------------------
+Current AD User: testadmin
+Password Last Set: 11/13/2008 12:54:14
+Password was last set over a year ago
+-------------------------
+Current AD User: WVUHPAN
+Password Last Set: 06/21/2018 14:30:43
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: hsccopy
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: HSCPasswordManagemen
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: idm
+Password Last Set: 07/20/2011 08:55:15
+Password was last set over a year ago
+-------------------------
+Current AD User: jbbackup
+Password Last Set: 11/13/2008 12:54:02
+Password was last set over a year ago
+-------------------------
+Current AD User: testmid
+Password Last Set: 09/21/2021 12:59:57
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: upn.test
+Password Last Set: 06/22/2017 10:43:56
+Password was last set over a year ago
+-------------------------
+Current AD User: wvuhexport
+Password Last Set: 08/13/2009 14:44:18
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: bizhubtest
+Password Last Set: 03/22/2010 15:47:34
+Password was last set over a year ago
+-------------------------
+Current AD User: its
+Password Last Set: 04/15/2011 12:38:25
+Password was last set over a year ago
+-------------------------
+Current AD User: TestMcafee
+Password Last Set: 04/17/2012 07:37:24
+Password was last set over a year ago
+-------------------------
+Current AD User: resolved
+Password Last Set: 03/18/2010 08:37:27
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: wifitest
+Password Last Set: 01/28/2019 08:26:03
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Resource Accounts,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: abuse
+Password Last Set: 11/13/2008 12:53:55
+Password was last set over a year ago
+-------------------------
+Current AD User: MSAIP
+Password Last Set: 03/26/2018 13:45:16
+Password was last set over a year ago
+-------------------------
+Current AD User: CM_JD
+Password Last Set: 09/15/2017 08:15:09
+Password was last set over a year ago
+-------------------------
+Current AD User: ctsiarcgis
+Password Last Set: 03/22/2021 10:50:49
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: hsbackup
+Password Last Set: 03/16/2016 09:58:05
+Password was last set over a year ago
+-------------------------
+Current AD User: hscmbamdb
+Password Last Set: 02/29/2016 11:16:21
+Password was last set over a year ago
+-------------------------
+Current AD User: hscxiv
+Password Last Set: 03/12/2013 15:29:23
+Password was last set over a year ago
+-------------------------
+Current AD User: hscadconnect
+Password Last Set: 08/22/2016 11:20:37
+Password was last set over a year ago
+-------------------------
+Current AD User: maincampusldap
+Password Last Set: 01/08/2018 15:09:45
+Password was last set over a year ago
+-------------------------
+Current AD User: masonnesselrodt-test
+Password Last Set: 07/15/2021 15:29:55
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: MBAMAppPool
+Password Last Set: 02/29/2016 10:55:41
+Password was last set over a year ago
+-------------------------
+Current AD User: MBAMROUser
+Password Last Set: 02/29/2016 11:01:08
+Password was last set over a year ago
+-------------------------
+Current AD User: O365Maintenance
+Password Last Set: 03/05/2014 08:40:02
+Password was last set over a year ago
+-------------------------
+Current AD User: paloaltomgmt
+Password Last Set: 02/18/2014 09:10:53
+Password was last set over a year ago
+-------------------------
+Current AD User: radiuscheck
+Password Last Set: 05/18/2020 10:35:32
+Password was last set over a year ago
+-------------------------
+Current AD User: rdtpsftp
+Password Last Set: 02/17/2016 14:47:22
+Password was last set over a year ago
+-------------------------
+Current AD User: replication
+Password Last Set: 03/10/2008 10:36:27
+Password was last set over a year ago
+-------------------------
+Current AD User: sccmsvc
+Password Last Set: 01/28/2014 13:57:45
+Password was last set over a year ago
+-------------------------
+Current AD User: sgdresource
+Password Last Set: 11/15/2016 09:15:46
+Password was last set over a year ago
+-------------------------
+Current AD User: sopmodeling
+Password Last Set: 12/09/2014 15:47:51
+Password was last set over a year ago
+-------------------------
+Current AD User: srodney-test
+Password Last Set: 09/10/2019 08:18:32
+Password was last set over a year ago
+-------------------------
+Current AD User: viewtestuser1
+Password Last Set: 06/19/2020 11:32:13
+Password was last set over a year ago
+-------------------------
+Current AD User: viewtestuser2
+Password Last Set: 03/06/2020 10:52:32
+Password was last set over a year ago
+-------------------------
+Current AD User: wvdjoin
+Password Last Set: 01/02/2020 16:26:59
+Password was last set over a year ago
+-------------------------
+Current AD User: wvuhpalo
+Password Last Set: 04/27/2016 09:56:57
+Password was last set over a year ago
+-------------------------
+Current AD User: wvumtestemail
+Password Last Set: 03/25/2021 09:22:42
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Resource Accounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: casperro
+Password Last Set: 06/05/2015 13:34:22
+Password was last set over a year ago
+-------------------------
+Current AD User: casperrw
+Password Last Set: 06/05/2015 13:35:21
+Password was last set over a year ago
+-------------------------
+Current AD User: firealarm
+Password Last Set: 04/13/2021 12:48:07
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: hssrm
+Password Last Set: 06/10/2014 12:04:22
+Password was last set over a year ago
+-------------------------
+Current AD User: hscvcenterssodr
+Password Last Set: 12/03/2014 10:25:20
+Password was last set over a year ago
+-------------------------
+Current AD User: netvuln-internal
+Password Last Set: 08/11/2016 14:34:13
+Password was last set over a year ago
+-------------------------
+Current AD User: regrow
+Password Last Set: 11/30/2020 10:37:16
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: sqlagent
+Password Last Set: 07/20/2010 16:21:29
+Password was last set over a year ago
+-------------------------
+Current AD User: vmware
+Password Last Set: 12/12/2014 15:49:23
+Password was last set over a year ago
+-------------------------
+Current AD User: hsvdisvc
+Password Last Set: 05/11/2015 11:40:14
+Password was last set over a year ago
+-------------------------
+Current AD User: hsvdisvc1
+Password Last Set: 06/17/2019 13:01:44
+Password was last set over a year ago
+-------------------------
+Current AD User: wvuhf5
+Password Last Set: 03/28/2014 14:34:59
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Network Systems,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: mailboxtest
+Password Last Set: 12/06/2016 09:07:50
+Password was last set over a year ago
+-------------------------
+Current AD User: j.nesselrodt
+Password Last Set: 06/24/2020 10:37:32
+Password was last set over a year ago
+-------------------------
+Current AD User: jnesselrodt
+Password Last Set: 06/30/2021 08:06:41
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jbrusoeadmin
+Password Last Set: 10/31/2019 08:39:37
+Password was last set over a year ago
+-------------------------
+Current AD User: jbrusoe
+Password Last Set: 06/28/2021 09:28:10
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: kevinadmin
+Password Last Set: 09/07/2021 14:29:13
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: krussell
+Password Last Set: 09/11/2021 07:55:23
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: krodney
+Password Last Set: 06/21/2021 08:02:31
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: kadmin
+Password Last Set: 10/27/2020 12:07:04
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: mattadmin
+Password Last Set: 11/30/2020 15:11:56
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: mlogue
+Password Last Set: 06/24/2020 08:16:33
+Password was last set over a year ago
+-------------------------
+Current AD User: mkondrla
+Password Last Set: 09/16/2021 09:52:35
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: micheletest
+Password Last Set: 09/22/2021 08:28:20
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: microsoft
+Password Last Set: 04/11/2016 09:52:19
+Password was last set over a year ago
+-------------------------
+Current AD User: microsoft1
+Password Last Set: 09/25/2013 15:50:24
+Password was last set over a year ago
+-------------------------
+Current AD User: microsoft2
+Password Last Set: 09/25/2013 15:50:45
+Password was last set over a year ago
+-------------------------
+Current AD User: microsoft3
+Password Last Set: 09/25/2013 15:51:15
+Password was last set over a year ago
+-------------------------
+Current AD User: microsoft4
+Password Last Set: 10/08/2014 09:31:24
+Password was last set over a year ago
+-------------------------
+Current AD User: migrateme1
+Password Last Set: 10/03/2013 17:20:44
+Password was last set over a year ago
+-------------------------
+Current AD User: mlkadmin
+Password Last Set: 10/23/2020 09:44:33
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: r.nichols
+Password Last Set: 11/23/2020 20:29:37
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: rnichols
+Password Last Set: 04/10/2021 08:00:49
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: rickytest
+Password Last Set: 09/26/2019 15:32:34
+Password was last set over a year ago
+-------------------------
+Current AD User: rntest
+Password Last Set: 09/10/2018 09:54:16
+Password was last set over a year ago
+-------------------------
+Current AD User: sar_da
+Password Last Set: 11/13/2017 07:51:16
+Password was last set over a year ago
+-------------------------
+Current AD User: scantestuser2
+Password Last Set: 09/28/2017 15:36:52
+Password was last set over a year ago
+-------------------------
+Current AD User: sreyes
+Password Last Set: 09/14/2021 07:38:30
+Password has been set within the last year
+Valid User
+-------------------------
+****************************
+Current AD Org Unit:
+OU=HS Resource Accounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: adfsres
+Password Last Set: 12/04/2012 13:26:47
+Password was last set over a year ago
+-------------------------
+Current AD User: arcgis
+Password Last Set: 07/10/2018 13:39:58
+Password was last set over a year ago
+-------------------------
+Current AD User: asterian
+Password Last Set: 07/09/2020 16:09:29
+Password was last set over a year ago
+-------------------------
+Current AD User: chscbackup
+Password Last Set: 02/11/2020 14:07:32
+Password was last set over a year ago
+-------------------------
+Current AD User: ds_admin
+Password Last Set: 08/28/2015 14:05:30
+Password was last set over a year ago
+-------------------------
+Current AD User: ds_sql_svc
+Password Last Set: 01/21/2014 12:07:24
+Password was last set over a year ago
+-------------------------
+Current AD User: duoproxysvc
+Password Last Set: 06/05/2018 14:51:51
+Password was last set over a year ago
+-------------------------
+Current AD User: extreme
+Password Last Set: 05/18/2018 15:10:42
+Password was last set over a year ago
+-------------------------
+Current AD User: fpsvc
+Password Last Set: 03/18/2021 09:03:55
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: hschvac
+Password Last Set: 07/15/2019 10:34:14
+Password was last set over a year ago
+-------------------------
+Current AD User: hssccmcp
+Password Last Set: 07/14/2016 14:20:20
+Password was last set over a year ago
+-------------------------
+Current AD User: hssccmshare
+Password Last Set: 07/09/2019 10:30:52
+Password was last set over a year ago
+-------------------------
+Current AD User: infoblox
+Password Last Set: 02/21/2017 16:15:17
+Password was last set over a year ago
+-------------------------
+Current AD User: infoblox-dns
+Password Last Set: 05/18/2018 15:08:10
+Password was last set over a year ago
+-------------------------
+Current AD User: itswebsco
+Password Last Set: 01/16/2020 15:46:13
+Password was last set over a year ago
+-------------------------
+Current AD User: komprise
+Password Last Set: 03/24/2021 13:27:29
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: macadmin
+Password Last Set: 02/20/2020 12:50:22
+Password was last set over a year ago
+-------------------------
+Current AD User: mediaserver
+Password Last Set: 01/29/2014 10:25:29
+Password was last set over a year ago
+-------------------------
+Current AD User: qlabs
+Password Last Set: 07/14/2020 13:54:00
+Password was last set over a year ago
+-------------------------
+Current AD User: RightfaxRDTP
+Password Last Set: 08/04/2021 08:42:48
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: sailsvc
+Password Last Set: 11/05/2018 09:47:43
+Password was last set over a year ago
+-------------------------
+Current AD User: sodmrview
+Password Last Set: 11/13/2018 08:38:29
+Password was last set over a year ago
+-------------------------
+Current AD User: StarRez
+Password Last Set: 07/23/2020 09:53:55
+Password was last set over a year ago
+-------------------------
+Current AD User: Tapingo
+Password Last Set: 08/03/2020 10:21:21
+Password was last set over a year ago
+-------------------------
+Current AD User: wvucovid
+Password Last Set: 07/21/2020 09:43:05
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=SharePoint2010New,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: hscspfarm
+Password Last Set: 11/28/2011 16:35:43
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspmonitor
+Password Last Set: 04/22/2013 10:59:19
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspsearchservice
+Password Last Set: 11/29/2011 11:53:59
+Password was last set over a year ago
+-------------------------
+Current AD User: hsspsa
+Password Last Set: 11/29/2011 13:06:14
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspservices
+Password Last Set: 11/29/2011 12:09:52
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspsetup
+Password Last Set: 11/01/2011 13:36:38
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspwebapp
+Password Last Set: 06/07/2013 09:44:22
+Password was last set over a year ago
+-------------------------
+Current AD User: hsusersync
+Password Last Set: 11/29/2011 12:10:51
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=SharePoint2010,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: hsccommons
+Password Last Set: 12/13/2010 09:20:04
+Password was last set over a year ago
+-------------------------
+Current AD User: hsccommons80
+Password Last Set: 03/28/2011 13:14:53
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspclaimstoken
+Password Last Set: 02/17/2011 11:59:32
+Password was last set over a year ago
+-------------------------
+Current AD User: hsspdocconversion
+Password Last Set: 01/17/2012 15:48:57
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspfarmold
+Password Last Set: 11/10/2011 15:51:02
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspfoundationsearc
+Password Last Set: 02/17/2011 11:57:28
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspsearch
+Password Last Set: 11/10/2011 15:11:09
+Password was last set over a year ago
+-------------------------
+Current AD User: hscsptrace
+Password Last Set: 01/17/2012 15:48:57
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspusersync
+Password Last Set: 01/17/2012 15:48:57
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspwebanalytics
+Password Last Set: 02/17/2011 11:59:03
+Password was last set over a year ago
+-------------------------
+Current AD User: hscspsa
+Password Last Set: 12/13/2010 10:07:00
+Password was last set over a year ago
+-------------------------
+Current AD User: hsspfarmadmin
+Password Last Set: 12/13/2010 09:22:24
+Password was last set over a year ago
+-------------------------
+Current AD User: hsspprojectservice
+Password Last Set: 03/30/2011 08:48:58
+Password was last set over a year ago
+-------------------------
+Current AD User: hsspsetup
+Password Last Set: 12/13/2010 09:21:41
+Password was last set over a year ago
+-------------------------
+Current AD User: myapppoolsa
+Password Last Set: 01/17/2012 15:48:57
+Password was last set over a year ago
+-------------------------
+Current AD User: spcontent
+Password Last Set: 01/31/2011 13:34:23
+Password was last set over a year ago
+-------------------------
+Current AD User: sppowerpoint
+Password Last Set: 06/20/2011 15:43:45
+Password was last set over a year ago
+-------------------------
+Current AD User: spservices
+Password Last Set: 10/10/2011 11:40:00
+Password was last set over a year ago
+-------------------------
+Current AD User: spsuperreader
+Password Last Set: 02/17/2011 12:46:15
+Password was last set over a year ago
+-------------------------
+Current AD User: spsuperuser
+Password Last Set: 02/17/2011 12:45:25
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: camcgme
+Password Last Set: 02/20/2013 16:04:19
+Password was last set over a year ago
+-------------------------
+Current AD User: checkin
+Password Last Set: 11/13/2008 12:53:58
+Password was last set over a year ago
+-------------------------
+Current AD User: chschvac
+Password Last Set: 11/07/2017 09:20:38
+Password was last set over a year ago
+-------------------------
+Current AD User: CHSCHR1
+Password Last Set: 09/05/2018 15:00:56
+Password was last set over a year ago
+-------------------------
+Current AD User: CHSCFP
+Password Last Set: 11/13/2008 12:53:58
+Password was last set over a year ago
+-------------------------
+Current AD User: medlrc3
+Password Last Set: 12/08/2009 09:12:31
+Password was last set over a year ago
+-------------------------
+Current AD User: charnews
+Password Last Set: 11/13/2008 12:53:58
+Password was last set over a year ago
+-------------------------
+Current AD User: cs
+Password Last Set: 11/13/2008 12:53:58
+Password was last set over a year ago
+-------------------------
+Current AD User: family
+Password Last Set: 05/11/2010 12:40:29
+Password was last set over a year ago
+-------------------------
+Current AD User: dentistry
+Password Last Set: 11/13/2008 12:53:59
+Password was last set over a year ago
+-------------------------
+Current AD User: genlib2w
+Password Last Set: 11/13/2008 12:54:00
+Password was last set over a year ago
+-------------------------
+Current AD User: health
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab1
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab16
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab17
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab2
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab20
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab3
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab4
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab5
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab6
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Lab7
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub1
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub18
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub19
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub3
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub5
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub7
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub9
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Scan
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: lib-media
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lib-Pub15
+Password Last Set: 11/13/2008 12:54:04
+Password was last set over a year ago
+-------------------------
+Current AD User: Lucent
+Password Last Set: 11/13/2008 12:54:05
+Password was last set over a year ago
+-------------------------
+Current AD User: med3
+Password Last Set: 11/13/2008 12:54:05
+Password was last set over a year ago
+-------------------------
+Current AD User: med5
+Password Last Set: 11/13/2008 12:54:05
+Password was last set over a year ago
+-------------------------
+Current AD User: medlecture
+Password Last Set: 11/13/2008 12:54:05
+Password was last set over a year ago
+-------------------------
+Current AD User: medlab1
+Password Last Set: 11/13/2008 12:54:05
+Password was last set over a year ago
+-------------------------
+Current AD User: MedLaptop
+Password Last Set: 11/13/2008 12:54:05
+Password was last set over a year ago
+-------------------------
+Current AD User: miscdoc
+Password Last Set: 11/13/2008 12:54:06
+Password was last set over a year ago
+-------------------------
+Current AD User: oblab
+Password Last Set: 11/13/2008 12:54:07
+Password was last set over a year ago
+-------------------------
+Current AD User: students
+Password Last Set: 11/13/2008 12:54:13
+Password was last set over a year ago
+-------------------------
+Current AD User: obres
+Password Last Set: 11/13/2008 12:54:07
+Password was last set over a year ago
+-------------------------
+Current AD User: pednurse
+Password Last Set: 11/13/2008 12:54:07
+Password was last set over a year ago
+-------------------------
+Current AD User: pedworkrm
+Password Last Set: 11/13/2008 12:54:07
+Password was last set over a year ago
+-------------------------
+Current AD User: Pharlab
+Password Last Set: 11/13/2008 12:54:07
+Password was last set over a year ago
+-------------------------
+Current AD User: ptemp
+Password Last Set: 11/13/2008 12:54:08
+Password was last set over a year ago
+-------------------------
+Current AD User: ss
+Password Last Set: 10/27/2009 11:11:31
+Password was last set over a year ago
+-------------------------
+Current AD User: tempfam
+Password Last Set: 11/13/2008 12:54:14
+Password was last set over a year ago
+-------------------------
+Current AD User: vrucker
+Password Last Set: 10/01/2021 09:46:29
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: physicianWR
+Password Last Set: 11/13/2008 12:54:07
+Password was last set over a year ago
+-------------------------
+Current AD User: WVUCharleston
+Password Last Set: 01/25/2013 08:02:19
+Password was last set over a year ago
+-------------------------
+Current AD User: wvupc_picos
+Password Last Set: 02/08/2013 12:55:48
+Password was last set over a year ago
+-------------------------
+Current AD User: wvupcemployment
+Password Last Set: 03/27/2013 12:07:14
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: chscroom
+Password Last Set: 04/20/2016 14:05:46
+Password was last set over a year ago
+-------------------------
+Current AD User: ekampsnider
+Password Last Set: 07/08/2021 12:33:01
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: klaxton
+Password Last Set: 05/26/2021 09:07:17
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: sexstudy
+Password Last Set: 11/13/2008 12:54:12
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=COMPSERV,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: camctest
+Password Last Set: 09/26/2013 15:08:40
+Password was last set over a year ago
+-------------------------
+Current AD User: chsc2063
+Password Last Set: 02/12/2014 10:25:56
+Password was last set over a year ago
+-------------------------
+Current AD User: chsc3042
+Password Last Set: 02/12/2014 10:25:43
+Password was last set over a year ago
+-------------------------
+Current AD User: chscinput
+Password Last Set: 02/09/2011 09:54:56
+Password was last set over a year ago
+-------------------------
+Current AD User: CIT
+Password Last Set: 10/18/2011 13:07:58
+Password was last set over a year ago
+-------------------------
+Current AD User: cerogan
+Password Last Set: 05/26/2021 12:26:45
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jlwaugh
+Password Last Set: 01/06/2021 10:05:35
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: kmnewcomb
+Password Last Set: 06/16/2021 14:54:29
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: definity
+Password Last Set: 11/13/2008 12:54:05
+Password was last set over a year ago
+-------------------------
+Current AD User: mdarnell
+Password Last Set: 09/07/2021 16:21:12
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: mcw0011
+Password Last Set: 08/27/2021 10:36:43
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: rrecco
+Password Last Set: 05/12/2021 08:30:10
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: sjm0030
+Password Last Set: 09/07/2021 09:31:52
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: tdmccallister
+Password Last Set: 06/30/2021 08:22:37
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: tcrouse
+Password Last Set: 06/28/2021 08:58:13
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: zac00004
+Password Last Set: 03/09/2021 10:19:23
+Password has been set within the last year
+Valid User
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Support Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=Classroom Technology,OU=Support Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: rrwilliams
+Password Last Set: 03/29/2021 08:52:39
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: blsmith
+Password Last Set: 06/16/2021 08:53:23
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: camccodian
+Password Last Set:
+Password was last set over a year ago
+-------------------------
+Current AD User: cbarnes
+Password Last Set: 06/23/2021 08:09:11
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: dmonday
+Password Last Set: 05/25/2021 09:05:06
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: etru
+Password Last Set: 03/19/2010 11:31:04
+Password was last set over a year ago
+-------------------------
+Current AD User: ETRU_Production
+Password Last Set: 11/13/2008 12:54:00
+Password was last set over a year ago
+-------------------------
+Current AD User: fusionsvc
+Password Last Set: 09/09/2016 09:38:22
+Password was last set over a year ago
+-------------------------
+Current AD User: g252fbizhub200
+Password Last Set: 02/03/2010 11:30:56
+Password was last set over a year ago
+-------------------------
+Current AD User: gdonahue
+Password Last Set: 06/28/2021 15:50:27
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: hscrooms
+Password Last Set: 02/02/2011 13:52:24
+Password was last set over a year ago
+-------------------------
+Current AD User: ITSCSS
+Password Last Set: 04/16/2010 14:33:23
+Password was last set over a year ago
+-------------------------
+Current AD User: jslavensky
+Password Last Set: 06/28/2021 08:09:53
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: lcclass
+Password Last Set: 07/30/2017 12:14:22
+Password was last set over a year ago
+-------------------------
+Current AD User: mdtv
+Password Last Set: 04/06/2017 14:20:39
+Password was last set over a year ago
+-------------------------
+Current AD User: mdtvscan
+Password Last Set: 03/03/2009 12:27:57
+Password was last set over a year ago
+-------------------------
+Current AD User: mdtv1
+Password Last Set: 02/24/2020 09:35:35
+Password was last set over a year ago
+-------------------------
+Current AD User: mdtv2
+Password Last Set: 02/24/2020 09:36:12
+Password was last set over a year ago
+-------------------------
+Current AD User: etruscheduler
+Password Last Set:
+Password was last set over a year ago
+-------------------------
+Current AD User: sarnett1
+Password Last Set: 07/12/2021 11:08:34
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: vidyo
+Password Last Set: 02/20/2013 09:04:26
+Password was last set over a year ago
+-------------------------
+Current AD User: wbowser
+Password Last Set: 07/12/2021 08:27:48
+Password has been set within the last year
+Valid User
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Desktop Support,OU=Support Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: aleathe2
+Password Last Set: 09/22/2021 08:35:33
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ceddy2
+Password Last Set: 01/11/2021 08:28:59
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: cobarrick
+Password Last Set: 07/06/2021 07:26:37
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: helpdesk
+Password Last Set: 08/10/2016 14:20:34
+Password was last set over a year ago
+-------------------------
+Current AD User: HelpDeskAnnouncement
+Password Last Set: 01/14/2013 09:14:45
+Password was last set over a year ago
+-------------------------
+Current AD User: webmaster
+Password Last Set: 07/23/2015 23:07:25
+Password was last set over a year ago
+-------------------------
+Current AD User: HSC_ISO_SCHEDULE
+Password Last Set: 04/21/2009 07:58:42
+Password was last set over a year ago
+-------------------------
+Current AD User: hschelpdesk_macstore
+Password Last Set: 05/23/2014 09:09:51
+Password was last set over a year ago
+-------------------------
+Current AD User: ITPurchases
+Password Last Set: 05/01/2014 13:46:30
+Password was last set over a year ago
+-------------------------
+Current AD User: ITSS
+Password Last Set: 08/11/2011 08:32:34
+Password was last set over a year ago
+-------------------------
+Current AD User: jcross
+Password Last Set: 07/26/2021 08:58:59
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jal00022
+Password Last Set: 04/03/2021 10:39:49
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jwbuttermore
+Password Last Set: 09/14/2021 15:49:31
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jtcox
+Password Last Set: 07/01/2021 07:48:44
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jsgeorge
+Password Last Set: 06/15/2021 08:55:28
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jts00019
+Password Last Set: 01/21/2021 16:33:12
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jmarton
+Password Last Set: 03/30/2021 14:13:36
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jgbridges
+Password Last Set: 06/21/2021 11:10:19
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: joshtest
+Password Last Set: 06/12/2020 08:56:27
+Password was last set over a year ago
+-------------------------
+Current AD User: js00135
+Password Last Set: 08/30/2021 08:31:05
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: kevintest
+Password Last Set: 10/05/2021 14:18:56
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:140 
+char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+140 char:17
++             if (($ADUser.LastLogonDate) -AND
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: mzimmer4
+Password Last Set: 01/04/2021 08:34:58
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: printmanager
+Password Last Set: 11/13/2008 12:54:08
+Password was last set over a year ago
+-------------------------
+Current AD User: rhuff
+Password Last Set: 08/30/2021 07:14:51
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: rcgamble
+Password Last Set: 04/12/2021 07:29:24
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: tclark8
+Password Last Set: 07/01/2021 09:01:01
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: zpatter1
+Password Last Set: 06/30/2021 16:01:30
+Password has been set within the last year
+Valid User
+-------------------------
+****************************
+Current AD Org Unit:
+OU=RDSH,OU=Systems Servers,OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=NETWORK,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=NSA,OU=NETWORK,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: testact
+Password Last Set: 11/13/2008 12:53:55
+Password was last set over a year ago
+-------------------------
+Current AD User: bmail
+Password Last Set: 11/13/2008 12:53:56
+Password was last set over a year ago
+-------------------------
+Current AD User: webpub
+Password Last Set: 11/13/2008 12:54:00
+Password was last set over a year ago
+-------------------------
+Current AD User: iftest
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: ipmgr
+Password Last Set: 05/18/2009 07:26:34
+Password was last set over a year ago
+-------------------------
+Current AD User: nfap
+Password Last Set: 11/13/2008 12:54:07
+Password was last set over a year ago
+-------------------------
+Current AD User: novell
+Password Last Set: 10/01/2009 10:56:16
+Password was last set over a year ago
+-------------------------
+Current AD User: testsom
+Password Last Set: 11/13/2008 12:54:14
+Password was last set over a year ago
+-------------------------
+Current AD User: webadmin
+Password Last Set: 07/23/2015 09:02:42
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=GW,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: agrability
+Password Last Set: 11/19/2009 15:01:42
+Password was last set over a year ago
+-------------------------
+Current AD User: DeptofMedicineConfRm
+Password Last Set: 06/27/2012 12:02:45
+Password was last set over a year ago
+-------------------------
+Current AD User: DrDiBartolomeoConfRm
+Password Last Set: 06/27/2012 12:03:16
+Password was last set over a year ago
+-------------------------
+Current AD User: hscschedule
+Password Last Set: 03/08/2010 08:37:07
+Password was last set over a year ago
+-------------------------
+Current AD User: sodequipment
+Password Last Set: 08/04/2009 08:47:18
+Password was last set over a year ago
+-------------------------
+Current AD User: Urology
+Password Last Set: 04/28/2009 14:58:05
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: mclaughlinaa
+Password Last Set: 03/17/2021 12:01:11
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: apolinik
+Password Last Set: 02/19/2021 11:32:15
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: zavalaa
+Password Last Set: 03/26/2021 10:00:57
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ak00024
+Password Last Set: 02/05/2021 17:44:13
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: as0132
+Password Last Set: 03/02/2021 13:10:34
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ajames4
+Password Last Set: 01/18/2021 08:29:49
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: arb00038
+Password Last Set: 09/05/2021 21:16:14
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ays0006
+Password Last Set: 02/16/2021 19:38:10
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: alarvon
+Password Last Set: 06/11/2021 12:01:13
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: agd0003
+Password Last Set: 07/08/2021 14:01:54
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: acombs
+Password Last Set: 02/25/2021 11:02:25
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: amm0145
+Password Last Set: 01/29/2021 10:09:29
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: aoglesby
+Password Last Set: 03/16/2021 13:15:33
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ac00100
+Password Last Set: 07/20/2021 09:47:57
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ap0134
+Password Last Set: 03/01/2021 13:15:39
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ahaines4
+Password Last Set: 02/17/2021 08:29:51
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bbarmar
+Password Last Set: 10/09/2019 09:05:45
+Password was last set over a year ago
+-------------------------
+Current AD User: bshaw
+Password Last Set: 04/26/2021 08:05:12
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bhwilliamson
+Password Last Set: 06/08/2021 15:05:41
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bcb00011
+Password Last Set: 02/10/2021 11:48:13
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bcreasy
+Password Last Set: 04/07/2021 12:27:30
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bjschleter
+Password Last Set: 06/17/2021 16:03:44
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bjs0066
+Password Last Set: 02/16/2021 08:40:47
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bp0059
+Password Last Set: 02/23/2021 16:55:42
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: cca00006
+Password Last Set: 07/14/2021 09:26:43
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: cn0043
+Password Last Set: 09/13/2021 12:52:23
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: cmw0001
+Password Last Set: 03/18/2021 13:48:08
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: clbellew
+Password Last Set: 02/23/2021 10:07:04
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: cls0030
+Password Last Set: 06/01/2021 10:10:40
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ccruden
+Password Last Set: 03/03/2021 10:32:54
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: cstruthe
+Password Last Set: 02/25/2021 13:25:55
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: dlb0061
+Password Last Set: 02/16/2021 17:36:41
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: baltierrada
+Password Last Set: 03/16/2021 14:39:46
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: dfishkin
+Password Last Set: 04/26/2021 15:39:48
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: dpr0010
+Password Last Set: 05/04/2021 13:19:31
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: roelkeyd
+Password Last Set:
+Password was last set over a year ago
+-------------------------
+Current AD User: dtk0007
+Password Last Set: 08/05/2021 13:10:43
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: equarantillo
+Password Last Set: 02/24/2021 15:46:00
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: smithele
+Password Last Set: 03/18/2021 13:47:35
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ekline1
+Password Last Set: 02/19/2021 08:08:42
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ew0001
+Password Last Set: 04/01/2021 14:46:06
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: ehamilton
+Password Last Set: 06/02/2021 10:13:07
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: eem10012
+Password Last Set: 03/22/2021 12:51:23
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: eil00002
+Password Last Set: 09/20/2021 17:52:43
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: emwilari
+Password Last Set: 04/16/2021 15:34:47
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: fh0030
+Password Last Set: 04/23/2021 08:19:05
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: fnoori
+Password Last Set: 04/06/2021 14:26:15
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: bw0019
+Password Last Set: 05/04/2021 10:14:42
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: gsprouse
+Password Last Set: 03/02/2021 13:42:54
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: hmm0051
+Password Last Set: 03/11/2021 12:15:33
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jjanoo
+Password Last Set: 12/28/2020 12:20:13
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jfield1
+Password Last Set: 06/11/2021 10:36:39
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jkletter
+Password Last Set: 03/04/2021 14:01:43
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jbswalm
+Password Last Set: 08/18/2021 08:00:47
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jasturner
+Password Last Set: 03/10/2021 11:23:34
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jestead
+Password Last Set: 04/08/2021 13:28:37
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jhensl10
+Password Last Set: 09/18/2021 17:50:46
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jbaker32
+Password Last Set: 06/23/2021 08:35:54
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jmh00043
+Password Last Set: 03/22/2021 15:28:29
+Password has been set within the last year
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> .\Get-PossibleInactiveUser.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20211012134800
+**********************

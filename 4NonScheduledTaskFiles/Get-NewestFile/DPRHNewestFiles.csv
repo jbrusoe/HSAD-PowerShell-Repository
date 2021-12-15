@@ -1,0 +1,30 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dprh\DPRHNewestFiles.csv","Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dprh","DPRHNewestFiles.csv","Microsoft.PowerShell.Core\FileSystem","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             \\hs.wvu-ad.wvu.edu\public\SOD\dprh\DPRHNewestFiles.csv
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","DPRHNewestFiles",,,"DPRHNewestFiles.csv","0","\\hs.wvu-ad.wvu.edu\public\SOD\dprh","\\hs.wvu-ad.wvu.edu\public\SOD\dprh","False","True","\\hs.wvu-ad.wvu.edu\public\SOD\dprh\DPRHNewestFiles.csv",".csv","1/25/2021 11:58:01 AM","1/25/2021 4:58:01 PM","1/25/2021 11:58:01 AM","1/25/2021 4:58:01 PM","1/25/2021 11:58:01 AM","1/25/2021 4:58:01 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Favorites\MyID (2021_01_25 15_52_34 UTC).url","Microsoft.PowerShell.Core\FileSystem::\\hs.wvu-ad.wvu.edu\public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Favorites","MyID (2021_01_25 15_52_34 UTC).url","Microsoft.PowerShell.Core\FileSystem","Microsoft.PowerShell.Core\FileSystem","False","-ar---","File:             \\hs.wvu-ad.wvu.edu\public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Favorites\MyID (2021_01_25 15_52_34 UTC).url
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","MyID (2021_01_25 15_52_34 UTC)",,,"MyID (2021_01_25 15_52_34 UTC).url","56","\\hs.wvu-ad.wvu.edu\public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Favorites","\\hs.wvu-ad.wvu.edu\public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Favorites","True","True","\\hs.wvu-ad.wvu.edu\public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Favorites\MyID (2021_01_25 15_52_34 UTC).url",".url","1/25/2021 10:55:13 AM","1/25/2021 3:55:13 PM","1/25/2021 10:55:13 AM","1/25/2021 3:55:13 PM","1/25/2021 10:26:15 AM","1/25/2021 3:26:15 PM","ReadOnly, Archive, NotContentIndexed"

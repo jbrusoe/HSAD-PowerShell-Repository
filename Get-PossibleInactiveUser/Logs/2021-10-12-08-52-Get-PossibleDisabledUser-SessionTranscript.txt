@@ -1,0 +1,45 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211012085211
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10912
+PSVersion: 5.1.17763.2183
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2183
+BuildVersion: 10.0.17763.2183
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Logs\\2021-10-12-08-52-Get-PossibleDisabledUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Logs\
+VERBOSE: File Count: 1
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Logs\\2021-10-12-08-52-Get-PossibleDisabledUser-SessionTranscript.txt
+Getting list of AD org units under:
+DC=hsc,DC=wvu-ad,DC=wvu,DC=edu
+PS>TerminatingError(Get-ADOrganizationalUnit): "The supplied distinguishedName must belong to one of the following partition(s): 'CN=Configuration,DC=wvu-ad,DC=wvu,DC=edu , CN=Schema,CN=Configuration,DC=wvu-ad,DC=wvu,DC=edu , DC=HS,DC=wvu-ad,DC=wvu,DC=edu'."
+WARNING: Unable to generate list of AD org units
+Final Error Count: 1
+**********************
+Windows PowerShell transcript end
+End time: 20211012085219
+**********************

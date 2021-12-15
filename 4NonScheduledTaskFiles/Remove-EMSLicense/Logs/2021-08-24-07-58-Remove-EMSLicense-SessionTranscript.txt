@@ -1,0 +1,1316 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210824075853
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 8392
+PSVersion: 5.1.14393.4583
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4583
+BuildVersion: 10.0.14393.4583
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-EMSLicense\Logs\\2021-08-24-07-58-Remove-EMSLicense-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-EMSLicense\Logs\
+VERBOSE: File Count: 9
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-EMSLicense\Logs\\2021-08-24-07-58-Remove-EMSLicense-SessionTranscript.txt
+Connection Account: microsoft1@hsc.wvu.edu
+Encrypted File Path: C:\users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\2CommonFiles\EncryptedFiles\microsoft-SYSSCRIPT3.txt
+Connecting to HSC Exchange Online with V2 cmdlets...
+
+----------------------------------------------------------------------------
+The module allows access to all existing remote PowerShell (V1) cmdlets in addition to the 9 new, faster, and more reliable cmdlets.
+
+|--------------------------------------------------------------------------|
+|    Old Cmdlets                    |    New/Reliable/Faster Cmdlets       |
+|--------------------------------------------------------------------------|
+|    Get-CASMailbox                 |    Get-EXOCASMailbox                 |
+|    Get-Mailbox                    |    Get-EXOMailbox                    |
+|    Get-MailboxFolderPermission    |    Get-EXOMailboxFolderPermission    |
+|    Get-MailboxFolderStatistics    |    Get-EXOMailboxFolderStatistics    |
+|    Get-MailboxPermission          |    Get-EXOMailboxPermission          |
+|    Get-MailboxStatistics          |    Get-EXOMailboxStatistics          |
+|    Get-MobileDeviceStatistics     |    Get-EXOMobileDeviceStatistics     |
+|    Get-Recipient                  |    Get-EXORecipient                  |
+|    Get-RecipientPermission        |    Get-EXORecipientPermission        |
+|--------------------------------------------------------------------------|
+
+To get additional information, run: Get-Help Connect-ExchangeOnline or check https://aka.ms/exops-docs
+
+Send your product improvement suggestions and feedback to exocmdletpreview@service.microsoft.com. For issues related to the module, contact Microsoft support. Don't use the feedback alias for problems or support issues.
+----------------------------------------------------------------------------
+
+Removed the PSSession ExchangeOnlineInternalSession_2 connected to outlook.office365.com
+
+Successfully authenticated to Exchange Online with V2 cmdlets
+True
+Attempting to Connect to Office 365...
+
+Account                Environment TenantId                             TenantDomain           AccountType
+-------                ----------- --------                             ------------           -----------
+microsoft3@hsc.wvu.edu AzureCloud  a2d1f95f-8510-4424-8ae1-5c596bdbd578 WVUHSC.onmicrosoft.com User
+Authenticated to Office 365
+Successfully configured environment
+O365 Mailbox Count: 5736
+Current User: 1040xerox@wvuhsc.onmicrosoft.com
+UPN: 1040xerox@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 0
+Object ID: 90b3d3f0-a2a9-47e3-bd11-4b8adf782958
+User doesn't have EMS License
+************************
+Current User: 1147xerox@hsc.wvu.edu
+UPN: 1147xerox@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 1
+Object ID: 450c58d5-af95-4be9-af95-c38ca8c0863e
+User doesn't have EMS License
+************************
+Current User: 1168xerox@hsc.wvu.edu
+UPN: 1168xerox@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 2
+Object ID: 18f873cf-6359-4e61-8819-94e6cef7b90b
+User doesn't have EMS License
+************************
+Current User: 118annexconference@hsc.wvu.edu
+UPN: 118annexconference@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 3
+Object ID: 71f96d36-afec-499e-915c-7aa1d98708cf
+User doesn't have EMS License
+************************
+Current User: 1195-minolta363@hsc.wvu.edu
+UPN: 1195-minolta363@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 4
+Object ID: e6e55fe6-114b-434b-8e55-02e4f284d6ce
+User doesn't have EMS License
+************************
+Current User: 2172-minolta363@hsc.wvu.edu
+UPN: 2172-minolta363@hsc.wvu.edu
+O365 Mailbox Index: 5
+Object ID: f64ac540-1254-4eb7-ac54-602fce679294
+User doesn't have EMS License
+************************
+Current User: 2264conference@hsc.wvu.edu
+UPN: 2264conference@WVUHSC.onmicrosoft.com
+O365 Mailbox Index: 6
+Object ID: c53343c3-4041-476b-aafc-d83dfd6c52dd
+User doesn't have EMS License
+************************
+Current User: 2316mailroom@hsc.wvu.edu
+UPN: 2316mailroom@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 7
+Object ID: 72cfd7cc-5bd5-43b3-83cf-d0d078ad2aac
+User doesn't have EMS License
+************************
+Current User: chsc3009@hsc.wvu.edu
+UPN: chsc3009@WVUHSC.onmicrosoft.com
+O365 Mailbox Index: 8
+Object ID: 76507cd6-3eb6-44ba-bdcb-51ee2e91d441
+User doesn't have EMS License
+************************
+Current User: 3tresearch@hsc.wvu.edu
+UPN: 3tresearch@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 9
+Object ID: e18664eb-5d3d-45ae-96d8-33350831e1f9
+User doesn't have EMS License
+************************
+Current User: chsc4000@hsc.wvu.edu
+UPN: chsc4000@WVUHSC.onmicrosoft.com
+O365 Mailbox Index: 10
+Object ID: 471fd98f-6ef5-4f0d-87db-f8ab7e725d8b
+User doesn't have EMS License
+************************
+Current User: 4720ConferenceRoom@hsc.wvu.edu
+UPN: 4632ConferenceRoom@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 11
+Object ID: e44b933e-a40e-473e-a307-bd1cd0a06583
+User doesn't have EMS License
+************************
+Current User: 6400-minoltac552@hsc.wvu.edu
+UPN: 6400-minoltac552@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 12
+Object ID: dfd0b102-b30d-452d-a694-3e9036d0812c
+User doesn't have EMS License
+************************
+Current User: aarika.willis@hsc.wvu.edu
+UPN: ahende12@hsc.wvu.edu
+O365 Mailbox Index: 13
+Object ID: da2b5543-afe6-4881-a4f6-179cd749fa42
+User doesn't have EMS License
+************************
+Current User: aaron.casto@hsc.wvu.edu
+UPN: acasto@hsc.wvu.edu
+O365 Mailbox Index: 14
+Object ID: 87d51894-6014-48d0-ba9b-7117efcd6258
+User doesn't have EMS License
+************************
+Current User: amhudnall@hsc.wvu.edu
+UPN: amhudnall@hsc.wvu.edu
+O365 Mailbox Index: 15
+Object ID: 20104c8f-c57d-4d85-8e7e-88cb3e63c98a
+User doesn't have EMS License
+************************
+Current User: aaron.jacobson@hsc.wvu.edu
+UPN: aj0092@hsc.wvu.edu
+O365 Mailbox Index: 16
+Object ID: d5aa7970-1a28-4069-bf8a-5751b7893e4a
+User doesn't have EMS License
+************************
+Current User: amkessler@hsc.wvu.edu
+UPN: amkessler@hsc.wvu.edu
+O365 Mailbox Index: 17
+Object ID: 8ca69c4b-b1eb-41d7-9b10-3da1af6cb2fc
+User doesn't have EMS License
+************************
+Current User: aleathe2@hsc.wvu.edu
+UPN: ALEATHE2@hsc.wvu.edu
+O365 Mailbox Index: 18
+Object ID: 4a5e4e6a-4a74-48a7-b3a4-0ad7047e1a37
+User doesn't have EMS License
+************************
+Current User: aaron.mclaughlin@hsc.wvu.edu
+UPN: mclaughlinaa@hsc.wvu.edu
+O365 Mailbox Index: 19
+Object ID: 638af6c5-8634-49e9-98e5-ba65e8c4d338
+User doesn't have EMS License
+************************
+Current User: amonseau@hsc.wvu.edu
+UPN: amonseau@hsc.wvu.edu
+O365 Mailbox Index: 20
+Object ID: 652ae4b6-4bed-4e18-9cb6-5a233e3cfc76
+User doesn't have EMS License
+************************
+Current User: aaron.ostrowski@hsc.wvu.edu
+UPN: amo0011@hsc.wvu.edu
+O365 Mailbox Index: 21
+Object ID: 923e8708-48f6-4e7f-a460-c8a114478244
+User doesn't have EMS License
+************************
+Current User: aaron.robart@hsc.wvu.edu
+UPN: arr0025@hsc.wvu.edu
+O365 Mailbox Index: 22
+Object ID: e3804f08-31ae-4b83-8f70-bbd3cbb794b2
+User doesn't have EMS License
+************************
+Current User: aaron.schneider1@hsc.wvu.edu
+UPN: ajs10148@hsc.wvu.edu
+O365 Mailbox Index: 23
+Object ID: bbffad50-050b-4692-b564-6e38d93dd87b
+User doesn't have EMS License
+************************
+Current User: aaron.shmookler@hsc.wvu.edu
+UPN: ads0058@hsc.wvu.edu
+O365 Mailbox Index: 24
+Object ID: 31cfc0af-1a4e-4624-8171-d37880d565fc
+User doesn't have EMS License
+************************
+Current User: aaron.stewart@hsc.wvu.edu
+UPN: as00010@hsc.wvu.edu
+O365 Mailbox Index: 25
+Object ID: d8ce9e06-e972-4f00-b18b-28e5f2a4aef4
+User doesn't have EMS License
+************************
+Current User: aaron.thomas@hsc.wvu.edu
+UPN: athomas5@hsc.wvu.edu
+O365 Mailbox Index: 26
+Object ID: 92f16514-5bfe-4a21-8fc5-d8a8d9c414c2
+User doesn't have EMS License
+************************
+Current User: aaron.vedock@hsc.wvu.edu
+UPN: avedock@hsc.wvu.edu
+O365 Mailbox Index: 27
+Object ID: 31396f15-1860-463d-8b6a-af16ad606eec
+User doesn't have EMS License
+************************
+Current User: aarti.goswami@hsc.wvu.edu
+UPN: ag10198@hsc.wvu.edu
+O365 Mailbox Index: 28
+Object ID: 49e1a2f9-fed3-447f-a6bb-04778baa1e56
+User doesn't have EMS License
+************************
+Current User: aatif.mansoor@hsc.wvu.edu
+UPN: am0170@hsc.wvu.edu
+O365 Mailbox Index: 29
+Object ID: fed438e2-c5d0-48c6-8b0d-f5652924831d
+User doesn't have EMS License
+************************
+Current User: abbas.ali@wvumedicine.org
+UPN: asa0031@hsc.wvu.edu
+O365 Mailbox Index: 30
+Object ID: e2ddc086-a386-434a-9d94-60d79ece88d5
+User doesn't have EMS License
+************************
+Current User: aamerendino@hsc.wvu.edu
+UPN: AAMERENDINO@hsc.wvu.edu
+O365 Mailbox Index: 31
+Object ID: 2e620c4f-fc7e-4826-8b91-5ee11dd6a3e7
+User doesn't have EMS License
+************************
+Current User: abby.starkey@hsc.wvu.edu
+UPN: ans0055@hsc.wvu.edu
+O365 Mailbox Index: 32
+Object ID: 389fb543-afeb-4d58-bcc0-b21adb06d674
+User doesn't have EMS License
+************************
+Current User: abdeel.memon@hsc.wvu.edu
+UPN: am10453@hsc.wvu.edu
+O365 Mailbox Index: 33
+Object ID: a21ab20f-4972-4281-b114-e8416e588df1
+User doesn't have EMS License
+************************
+Current User: Abdul.Abbasi@wvumedicine.org
+UPN: aha00003@hsc.wvu.edu
+O365 Mailbox Index: 34
+Object ID: 8a97f89f-e73a-4891-8937-09a67d901320
+User doesn't have EMS License
+************************
+Current User: abdul.mannan@hsc.wvu.edu
+UPN: am0176@hsc.wvu.edu
+O365 Mailbox Index: 35
+Object ID: ce12d99e-acfb-4c12-af1b-9f8b1a38f960
+User doesn't have EMS License
+************************
+Current User: ARTARABISHY@hsc.wvu.edu
+UPN: artarabishy@hsc.wvu.edu
+O365 Mailbox Index: 36
+Object ID: dd54d996-cb0a-40bd-bcbf-408e966d7b91
+User doesn't have EMS License
+************************
+Current User: abdullah.albouri@hsc.wvu.edu
+UPN: aha0012@hsc.wvu.edu
+O365 Mailbox Index: 37
+Object ID: b1fb2ac1-7efa-4242-bfc6-637978222f4e
+User doesn't have EMS License
+************************
+Current User: amittal@hsc.wvu.edu
+UPN: AMITTAL@hsc.wvu.edu
+O365 Mailbox Index: 38
+Object ID: e2953e97-086e-4b17-8ab1-b315c12c256c
+User doesn't have EMS License
+************************
+Current User: abhishek.anand@hsc.wvu.edu
+UPN: aa0291@hsc.wvu.edu
+O365 Mailbox Index: 39
+Object ID: 1fdea087-6bf9-4939-b80b-ce02304c3ab4
+User doesn't have EMS License
+************************
+Current User: abigail.crawford@hsc.wvu.edu
+UPN: aac0031@hsc.wvu.edu
+O365 Mailbox Index: 40
+Object ID: bfb11ba5-0c76-4100-9d05-9f0340476e34
+User doesn't have EMS License
+************************
+Current User: abigail.foster1@hsc.wvu.edu
+UPN: alf0040@hsc.wvu.edu
+O365 Mailbox Index: 41
+Object ID: 4d991d06-83b1-4de8-b3bf-d6a06c0e2811
+User doesn't have EMS License
+************************
+Current User: akerns6@hsc.wvu.edu
+UPN: akerns6@hsc.wvu.edu
+O365 Mailbox Index: 42
+Object ID: 28adbdd1-822b-454c-a526-ed7bcd962015
+User doesn't have EMS License
+************************
+Current User: as10435@hsc.wvu.edu
+UPN: as10435@hsc.wvu.edu
+O365 Mailbox Index: 43
+Object ID: 4abe45ea-703e-4d71-ac4d-9ed9d06c63a6
+User doesn't have EMS License
+************************
+Current User: abigail.tennant@hsc.wvu.edu
+UPN: at00036@hsc.wvu.edu
+O365 Mailbox Index: 44
+Object ID: e3ee8709-be7b-4fef-960a-fdd71955b77c
+User doesn't have EMS License
+************************
+Current User: abiodun.akisanya@hsc.wvu.edu
+UPN: aea00014@hsc.wvu.edu
+O365 Mailbox Index: 45
+Object ID: 1b3cbe58-52f3-4363-af44-00f5ab4c0f9b
+User doesn't have EMS License
+************************
+Current User: abnash.jain1@hsc.wvu.edu
+UPN: ajain@hsc.wvu.edu
+O365 Mailbox Index: 46
+Object ID: e6f1d596-03c3-4391-a40a-77113471809b
+User doesn't have EMS License
+************************
+Current User: abraham.kwok@hsc.wvu.edu
+UPN: ak10244@hsc.wvu.edu
+O365 Mailbox Index: 47
+Object ID: 6704d1b9-439e-4d39-ac6a-26bb1ab4b38b
+User doesn't have EMS License
+************************
+Current User: abraham.rodriguez@hsc.wvu.edu
+UPN: ar0091@hsc.wvu.edu
+O365 Mailbox Index: 48
+Object ID: 0b33f495-f784-4b06-a5c4-36d92608c78f
+User doesn't have EMS License
+************************
+Current User: acara.turner@hsc.wvu.edu
+UPN: aet00009@hsc.wvu.edu
+O365 Mailbox Index: 49
+Object ID: 838ccd82-f644-4b02-84c1-c8febf6eeadc
+User doesn't have EMS License
+************************
+Current User: achuta.aynampudi@hsc.wvu.edu
+UPN: aa0390@hsc.wvu.edu
+O365 Mailbox Index: 50
+Object ID: f31fa601-5ae2-4c2a-9bd0-93671e28b644
+User doesn't have EMS License
+************************
+Current User: acpAbstracts@hsc.wvu.edu
+UPN: acpAbstracts@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 51
+Object ID: d1757935-9909-4517-895f-be1f0847b981
+User doesn't have EMS License
+************************
+Current User: abaus@hsc.wvu.edu
+UPN: abaus@hsc.wvu.edu
+O365 Mailbox Index: 52
+Object ID: e43eb44c-c711-41e3-b538-8c12d9a07c0b
+User doesn't have EMS License
+************************
+Current User: adam.bobak@hsc.wvu.edu
+UPN: akb0028@hsc.wvu.edu
+O365 Mailbox Index: 53
+Object ID: 74e0cab3-9bf6-4b49-a770-23b173c35666
+User doesn't have EMS License
+************************
+Current User: acosner@hsc.wvu.edu
+UPN: acosner@hsc.wvu.edu
+O365 Mailbox Index: 54
+Object ID: 89be5c37-80b4-4d77-b3c5-df73581c93c3
+User doesn't have EMS License
+************************
+Current User: AMHACKNEY@hsc.wvu.edu
+UPN: hackneya@hsc.wvu.edu
+O365 Mailbox Index: 55
+Object ID: 4dd865bd-29ed-43c1-9b14-0cd4e425763b
+User doesn't have EMS License
+************************
+Current User: adam.hansen@wvumedicine.org
+UPN: hansenada@hsc.wvu.edu
+O365 Mailbox Index: 56
+Object ID: 33bc78fb-93f5-4a53-9bf8-2e661a0cef87
+User doesn't have EMS License
+************************
+Current User: ahoffma2@hsc.wvu.edu
+UPN: ahoffma2@hsc.wvu.edu
+O365 Mailbox Index: 57
+Object ID: 095f714e-94ce-4659-a2c2-2cb97fdb18cc
+User doesn't have EMS License
+************************
+Current User: ajkeath@hsc.wvu.edu
+UPN: ajkeath@hsc.wvu.edu
+O365 Mailbox Index: 58
+Object ID: 13cb6d3d-d54f-460e-b760-00efc31c83de
+User doesn't have EMS License
+************************
+Current User: AEKLEIN@hsc.wvu.edu
+UPN: aeklein@hsc.wvu.edu
+O365 Mailbox Index: 59
+Object ID: b01fd9f1-37e4-47dc-bd56-ffde0058c716
+User doesn't have EMS License
+************************
+Current User: Adam.Luchey@hsc.wvu.edu
+UPN: aluchey@hsc.wvu.edu
+O365 Mailbox Index: 60
+Object ID: 37de7905-5404-4e99-81e8-3730a5a63738
+User doesn't have EMS License
+************************
+Current User: aspauley@hsc.wvu.edu
+UPN: aspauley@hsc.wvu.edu
+O365 Mailbox Index: 61
+Object ID: f92a0977-356e-4733-b872-b1d935505063
+User doesn't have EMS License
+************************
+Current User: adam.pearlman@hsc.wvu.edu
+UPN: ahp00002@hsc.wvu.edu
+O365 Mailbox Index: 62
+Object ID: 8a1738b6-05be-432b-b7e0-2858b3ef2ea7
+User doesn't have EMS License
+************************
+Current User: adam.polinik@hsc.wvu.edu
+UPN: apolinik@hsc.wvu.edu
+O365 Mailbox Index: 63
+Object ID: 21814b0b-04a1-4c35-acdb-59ded5ee2767
+User doesn't have EMS License
+************************
+Current User: apratt1@hsc.wvu.edu
+UPN: APRATT1@hsc.wvu.edu
+O365 Mailbox Index: 64
+Object ID: 98489177-1feb-4878-9f3f-cd9760199fde
+User doesn't have EMS License
+************************
+Current User: adam.robertson@hsc.wvu.edu
+UPN: asr0002@hsc.wvu.edu
+O365 Mailbox Index: 65
+Object ID: 468c56c2-9f47-4db8-8038-6186d26b4dc5
+User doesn't have EMS License
+************************
+Current User: ajr0032@hsc.wvu.edu
+UPN: ajr0032@hsc.wvu.edu
+O365 Mailbox Index: 66
+Object ID: 8dde0d90-0988-4f6e-8964-bd4be5586d1f
+User doesn't have EMS License
+************************
+Current User: adambeke.nwozuzu@hsc.wvu.edu
+UPN: an00021@hsc.wvu.edu
+O365 Mailbox Index: 67
+Object ID: 5a035dae-c7e2-43ad-8324-d57fa22a819c
+User doesn't have EMS License
+************************
+Current User: adbowe@hsc.wvu.edu
+UPN: adbowe@hsc.wvu.edu
+O365 Mailbox Index: 68
+Object ID: 8ee6a6d6-d9e5-4d4a-9ce7-6bab9b988482
+User doesn't have EMS License
+************************
+Current User: admin_exph@hsc.wvu.edu
+UPN: admin_exph@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 69
+Object ID: fc4cf12e-1757-4780-89cd-0be7b70a50c6
+User doesn't have EMS License
+************************
+Current User: admrms@hsc.wvu.edu
+UPN: admrms@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 70
+Object ID: 5c214b5d-0dec-4254-ad6c-a55e344fb41a
+User doesn't have EMS License
+************************
+Current User: adnan.haider@hsc.wvu.edu
+UPN: ah0108@hsc.wvu.edu
+O365 Mailbox Index: 71
+Object ID: c5d81470-d20a-451e-8be3-ef25f50d10f8
+User doesn't have EMS License
+************************
+Current User: adnan.khan@hsc.wvu.edu
+UPN: aak0019@hsc.wvu.edu
+O365 Mailbox Index: 72
+Object ID: 3fbbbaec-8dbb-4a40-a3bb-2212a76a5973
+User doesn't have EMS License
+************************
+Current User: aleach@hsc.wvu.edu
+UPN: aleach@hsc.wvu.edu
+O365 Mailbox Index: 73
+Object ID: 876fdb51-388c-497a-8163-b9ce2534aafc
+User doesn't have EMS License
+************************
+Current User: Adrian.Hagood@hsc.wvu.edu
+UPN: ahagood2@hsc.wvu.edu
+O365 Mailbox Index: 74
+Object ID: d05d9303-8087-48bd-a53a-d490163c5bc2
+User doesn't have EMS License
+************************
+Current User: adrian.williamson@hsc.wvu.edu
+UPN: aw0129@hsc.wvu.edu
+O365 Mailbox Index: 75
+Object ID: c35c5169-8bac-497e-848c-0764cae4b89b
+User doesn't have EMS License
+************************
+Current User: adriana.diakiw@hsc.wvu.edu
+UPN: ard0047@hsc.wvu.edu
+O365 Mailbox Index: 76
+Object ID: 5b8e9057-0dce-4987-9c59-b9138cf1e7a9
+User doesn't have EMS License
+************************
+Current User: adriana.garrison@hsc.wvu.edu
+UPN: ag0144@hsc.wvu.edu
+O365 Mailbox Index: 77
+Object ID: fc17cb68-5889-499b-beca-d324c767a0dd
+User doesn't have EMS License
+************************
+Current User: aduckwor@hsc.wvu.edu
+UPN: ADUCKWOR@hsc.wvu.edu
+O365 Mailbox Index: 78
+Object ID: dd682f26-ad4c-4379-b2fb-cdb65e0ea227
+User doesn't have EMS License
+************************
+Current User: asalm@hsc.wvu.edu
+UPN: asalm@hsc.wvu.edu
+O365 Mailbox Index: 79
+Object ID: ff2b051d-f831-42b6-809b-d16a97d1b543
+User doesn't have EMS License
+************************
+Current User: zavalaa@hsc.wvu.edu
+UPN: zavalaa@hsc.wvu.edu
+O365 Mailbox Index: 80
+Object ID: f3d02831-4440-4e6e-a26e-9dec6fe7912d
+User doesn't have EMS License
+************************
+Current User: aegd@hsc.wvu.edu
+UPN: aegd@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 81
+Object ID: 7e1dc7f9-1a8f-4cb7-bcc8-d2770dd490a3
+User doesn't have EMS License
+************************
+Current User: affan.haleem@wvumedicine.org
+UPN: ah10260@hsc.wvu.edu
+O365 Mailbox Index: 82
+Object ID: c448fc9e-9f16-44cd-a6c4-41a2b1c30fab
+User doesn't have EMS License
+************************
+Current User: afra.khan@hsc.wvu.edu
+UPN: ak00024@hsc.wvu.edu
+O365 Mailbox Index: 83
+Object ID: 9c0c05b9-51cd-4fbb-921d-897e41baa5ef
+User doesn't have EMS License
+************************
+Current User: afsoun.sichani@hsc.wvu.edu
+UPN: as0132@hsc.wvu.edu
+O365 Mailbox Index: 84
+Object ID: dcbec08c-4e0c-4867-a30d-53ecdf0a2c9f
+User doesn't have EMS License
+************************
+Current User: ahmad.cheema@hsc.wvu.edu
+UPN: arc00018@hsc.wvu.edu
+O365 Mailbox Index: 85
+Object ID: af1abc1e-bd51-42ac-8c06-1b128e339393
+User doesn't have EMS License
+************************
+Current User: ahmad.dahman@hsc.wvu.edu
+UPN: ad0098@hsc.wvu.edu
+O365 Mailbox Index: 86
+Object ID: 98341dcc-73d2-4678-a5a8-12af2697c010
+User doesn't have EMS License
+************************
+Current User: AHANIF@hsc.wvu.edu
+UPN: ahanif@hsc.wvu.edu
+O365 Mailbox Index: 87
+Object ID: 8e850249-ad97-4e98-a947-3b0ea430bad5
+User doesn't have EMS License
+************************
+Current User: ahmad.khan1@hsc.wvu.edu
+UPN: ak0004@hsc.wvu.edu
+O365 Mailbox Index: 88
+Object ID: 6de067e7-e475-4184-9c7e-64b5dce6a548
+User doesn't have EMS License
+************************
+Current User: ahmadnaeem.lone@hsc.wvu.edu
+UPN: al0119@hsc.wvu.edu
+O365 Mailbox Index: 89
+Object ID: 1bd2b740-7fa4-47cc-b2bc-4f5df899826a
+User doesn't have EMS License
+************************
+Current User: aaboraya@hsc.wvu.edu
+UPN: aaboraya@hsc.wvu.edu
+O365 Mailbox Index: 90
+Object ID: 7c3e376f-ab29-458e-ab37-35f3793348b9
+User doesn't have EMS License
+************************
+Current User: ahmed.elwidaa@hsc.wvu.edu
+UPN: ae00001@hsc.wvu.edu
+O365 Mailbox Index: 91
+Object ID: c9439ac3-5733-455f-b59c-2030e6091646
+User doesn't have EMS License
+************************
+Current User: abyousaf@hsc.wvu.edu
+UPN: abyousaf@hsc.wvu.edu
+O365 Mailbox Index: 92
+Object ID: 446fd88e-72d1-4b7a-9c58-342f8b9955fb
+User doesn't have EMS License
+************************
+Current User: ahsanullah.khan@hsc.wvu.edu
+UPN: ak0143@hsc.wvu.edu
+O365 Mailbox Index: 93
+Object ID: 70ec1202-b1dd-424e-9b4c-0d02841f804d
+User doesn't have EMS License
+************************
+Current User: aimee.bond@hsc.wvu.edu
+UPN: akb00016@hsc.wvu.edu
+O365 Mailbox Index: 94
+Object ID: df06f82f-78ff-4367-b35b-9ecfe0a23b8c
+User doesn't have EMS License
+************************
+Current User: aburkhart@hsc.wvu.edu
+UPN: aburkhart@hsc.wvu.edu
+O365 Mailbox Index: 95
+Object ID: 11acf8e9-e594-4302-bd85-8104d3eff37b
+User doesn't have EMS License
+************************
+Current User: aisha.abbasi@hsc.wvu.edu
+UPN: aaa00010@hsc.wvu.edu
+O365 Mailbox Index: 96
+Object ID: 327b730c-4ed3-4ad9-9cad-558b72fb918e
+User doesn't have EMS License
+************************
+Current User: aisha.mohamed@hsc.wvu.edu
+UPN: am00137@hsc.wvu.edu
+O365 Mailbox Index: 97
+Object ID: bb435823-1e31-4341-a43a-7d55cb474458
+User doesn't have EMS License
+************************
+Current User: aishwarya.shimpi@hsc.wvu.edu
+UPN: ais0005@hsc.wvu.edu
+O365 Mailbox Index: 98
+Object ID: abc524db-8a70-4068-a2f2-e99af52774c7
+User doesn't have EMS License
+************************
+Current User: aislinn.mcilvenny@hsc.wvu.edu
+UPN: amm0173@hsc.wvu.edu
+O365 Mailbox Index: 99
+Object ID: 1c1ae04f-4bb3-4072-8d1a-5511fbf9ff71
+User doesn't have EMS License
+************************
+Current User: akash.ajmera@hsc.wvu.edu
+UPN: aa0438@hsc.wvu.edu
+O365 Mailbox Index: 100
+Object ID: 3d0a1ca4-3273-42ac-9eb0-27b7a497bfc6
+User doesn't have EMS License
+************************
+Current User: aksha.memon@hsc.wvu.edu
+UPN: amm0153@hsc.wvu.edu
+O365 Mailbox Index: 101
+Object ID: adb1b087-f25c-4f02-8f47-b683870c9f79
+User doesn't have EMS License
+************************
+Current User: akkesari@hsc.wvu.edu
+UPN: akkesari@hsc.wvu.edu
+O365 Mailbox Index: 102
+Object ID: 9b5013a3-b558-458f-bae6-b1a462e7004b
+User doesn't have EMS License
+************************
+Current User: akshith.doddi@hsc.wvu.edu
+UPN: ad00055@hsc.wvu.edu
+O365 Mailbox Index: 103
+Object ID: ccac68d0-bb95-4146-8d7f-d5b45140ab6c
+User doesn't have EMS License
+************************
+Current User: alan.barnett@hsc.wvu.edu
+UPN: barnetta@hsc.wvu.edu
+O365 Mailbox Index: 104
+Object ID: 7e48b75e-9911-446a-93d6-5ea7b5e084e1
+User doesn't have EMS License
+************************
+Current User: alan.casciola@hsc.wvu.edu
+UPN: atc00001@hsc.wvu.edu
+O365 Mailbox Index: 105
+Object ID: db07db1f-31a1-44fd-8632-41db56f4ad8e
+User doesn't have EMS License
+************************
+Current User: aducatman@hsc.wvu.edu
+UPN: aducatman@hsc.wvu.edu
+O365 Mailbox Index: 106
+Object ID: 9e94f1d6-cd9b-4fd4-965f-74e351051283
+User doesn't have EMS License
+************************
+Current User: alan.mizener@hsc.wvu.edu
+UPN: adm0049@hsc.wvu.edu
+O365 Mailbox Index: 107
+Object ID: 82dc154a-20ac-4c4d-9fea-b62b677ec233
+User doesn't have EMS License
+************************
+Current User: aathomay@hsc.wvu.edu
+UPN: AATHOMAY@hsc.wvu.edu
+O365 Mailbox Index: 108
+Object ID: f8f12764-f7d7-446d-bc0b-a825b6f79099
+User doesn't have EMS License
+************************
+Current User: anstanley@hsc.wvu.edu
+UPN: anstanley@hsc.wvu.edu
+O365 Mailbox Index: 109
+Object ID: c1048e14-817d-4844-9357-3478f2b0870c
+User doesn't have EMS License
+************************
+Current User: alayna.mellott@hsc.wvu.edu
+UPN: anm00016@hsc.wvu.edu
+O365 Mailbox Index: 110
+Object ID: b3905203-f779-443d-b96d-72018c79e21d
+User doesn't have EMS License
+************************
+Current User: albaraa.badawood@hsc.wvu.edu
+UPN: ab10363@hsc.wvu.edu
+O365 Mailbox Index: 111
+Object ID: 38e98543-387c-439a-b686-7102525fd1a7
+User doesn't have EMS License
+************************
+Current User: amousa@hsc.wvu.edu
+UPN: amousa@hsc.wvu.edu
+O365 Mailbox Index: 112
+Object ID: 31a0878a-a089-4bb8-bf8c-12cccda106ab
+User doesn't have EMS License
+************************
+Current User: aberrebi@hsc.wvu.edu
+UPN: aberrebi@hsc.wvu.edu
+O365 Mailbox Index: 113
+Object ID: 13e44f38-1984-4d23-ac44-e2d294111e36
+User doesn't have EMS License
+************************
+Current User: alec.james@hsc.wvu.edu
+UPN: ajames4@hsc.wvu.edu
+O365 Mailbox Index: 114
+Object ID: de6a327c-00b0-45f6-89a2-e64c98bea581
+User doesn't have EMS License
+************************
+Current User: astatler@hsc.wvu.edu
+UPN: astatler@hsc.wvu.edu
+O365 Mailbox Index: 115
+Object ID: 5601ab31-c1d8-4161-a218-113f9878a6c7
+User doesn't have EMS License
+************************
+Current User: alen.eid@hsc.wvu.edu
+UPN: ate00001@hsc.wvu.edu
+O365 Mailbox Index: 116
+Object ID: 64e14103-551f-4768-995a-81940d3204d2
+User doesn't have EMS License
+************************
+Current User: alesha.heil@hsc.wvu.edu
+UPN: akh0022@hsc.wvu.edu
+O365 Mailbox Index: 117
+Object ID: 5b905b8e-7e80-45c9-a69f-b289eb68414b
+User doesn't have EMS License
+************************
+Current User: arowlands@hsc.wvu.edu
+UPN: arowlands@hsc.wvu.edu
+O365 Mailbox Index: 118
+Object ID: d677accd-3fd4-4c1e-80ed-5ffc39f23ab9
+User doesn't have EMS License
+************************
+Current User: alex.verhoeven@hsc.wvu.edu
+UPN: pav0003@hsc.wvu.edu
+O365 Mailbox Index: 119
+Object ID: 4d29b6ef-5381-45e0-bc68-676b5db97e2a
+User doesn't have EMS License
+************************
+Current User: adconti@hsc.wvu.edu
+UPN: adconti@hsc.wvu.edu
+O365 Mailbox Index: 120
+Object ID: 4f4f8e58-dbbc-472c-b1dc-0e9a395e1c49
+User doesn't have EMS License
+************************
+Current User: alexander.gross@hsc.wvu.edu
+UPN: arg0048@hsc.wvu.edu
+O365 Mailbox Index: 121
+Object ID: 04af7e6f-966c-4bb8-9783-36efd2d09f92
+User doesn't have EMS License
+************************
+Current User: alexander.horspool@hsc.wvu.edu
+UPN: amh0139@hsc.wvu.edu
+O365 Mailbox Index: 122
+Object ID: 6f96dada-0297-479b-9f99-7d0568392efa
+User doesn't have EMS License
+************************
+Current User: alexander.lietz@hsc.wvu.edu
+UPN: ajl0050@hsc.wvu.edu
+O365 Mailbox Index: 123
+Object ID: d3198232-2207-45a6-b96d-91c9a9e86785
+User doesn't have EMS License
+************************
+Current User: apanger@hsc.wvu.edu
+UPN: apanger@hsc.wvu.edu
+O365 Mailbox Index: 124
+Object ID: 28fc69e3-b6ec-49a1-8896-9b8f3b680c76
+User doesn't have EMS License
+************************
+Current User: alexander.shin@hsc.wvu.edu
+UPN: ays0006@hsc.wvu.edu
+O365 Mailbox Index: 125
+Object ID: cdc23646-d5aa-4e83-81e9-fb1d57c04a85
+User doesn't have EMS License
+************************
+Current User: astolin@hsc.wvu.edu
+UPN: astolin@hsc.wvu.edu
+O365 Mailbox Index: 126
+Object ID: 6144b96f-4b09-4f18-bf25-2a5165a2656d
+User doesn't have EMS License
+************************
+Current User: ajtylka@hsc.wvu.edu
+UPN: ajtylka@hsc.wvu.edu
+O365 Mailbox Index: 127
+Object ID: a526fc76-05c5-4c31-8a22-0b52ad3e413c
+User doesn't have EMS License
+************************
+Current User: alexander.woomer@hsc.wvu.edu
+UPN: ajw0064@hsc.wvu.edu
+O365 Mailbox Index: 128
+Object ID: 9827b6ff-94f1-4dfe-ac82-ecc4c4582f5d
+User doesn't have EMS License
+************************
+Current User: alexandra.burch@hsc.wvu.edu
+UPN: aburch3@hsc.wvu.edu
+O365 Mailbox Index: 129
+Object ID: 2e8a3a04-5903-4aaa-b468-a1c67b82f86b
+User doesn't have EMS License
+************************
+Current User: alexandra.hardy@hsc.wvu.edu
+UPN: ach00010@hsc.wvu.edu
+O365 Mailbox Index: 130
+Object ID: 1a532865-eb23-427f-8f56-a40793ccb808
+User doesn't have EMS License
+************************
+Current User: alexandra.higginbotham@hsc.wvu.edu
+UPN: ahiggin7@hsc.wvu.edu
+O365 Mailbox Index: 131
+Object ID: a18d5523-dd06-4e7b-bec3-17732a400546
+User doesn't have EMS License
+************************
+Current User: alex.hollo@hsc.wvu.edu
+UPN: aeh0001@hsc.wvu.edu
+O365 Mailbox Index: 132
+Object ID: b591b5e8-a1cf-4838-afbb-40bd79eff084
+User doesn't have EMS License
+************************
+Current User: alexandra.serpairizarry@hsc.wvu.edu
+UPN: ams00043@hsc.wvu.edu
+O365 Mailbox Index: 133
+Object ID: 5cae16bb-8600-4370-be98-a69f4cc7603b
+User doesn't have EMS License
+************************
+Current User: alexandra.timperio@hsc.wvu.edu
+UPN: ant00010@hsc.wvu.edu
+O365 Mailbox Index: 134
+Object ID: 63afa5a2-ff11-427f-b8f0-686bb39ed975
+User doesn't have EMS License
+************************
+Current User: alexandrea.berry@hsc.wvu.edu
+UPN: arb0083@hsc.wvu.edu
+O365 Mailbox Index: 135
+Object ID: 6632af3a-cb64-49d7-9c6d-3823ca5395f1
+User doesn't have EMS License
+************************
+Current User: alantz9@hsc.wvu.edu
+UPN: alarvon@hsc.wvu.edu
+O365 Mailbox Index: 136
+Object ID: c31f8b7c-1096-4101-9143-06715bd5a3af
+User doesn't have EMS License
+************************
+Current User: alexandria.perle@hsc.wvu.edu
+UPN: arp00019@hsc.wvu.edu
+O365 Mailbox Index: 137
+Object ID: badffbfd-f1dd-40d9-8588-a9d28731e6ec
+User doesn't have EMS License
+************************
+Current User: asvolos@hsc.wvu.edu
+UPN: asvolos@hsc.wvu.edu
+O365 Mailbox Index: 138
+Object ID: 8b5724a5-e738-4498-996d-d72c83bd8139
+User doesn't have EMS License
+************************
+Current User: aivanov@hsc.wvu.edu
+UPN: aivanov@hsc.wvu.edu
+O365 Mailbox Index: 139
+Object ID: c63cd5c1-e460-4552-9ccd-49e1164b439c
+User doesn't have EMS License
+************************
+Current User: alexia.bozek@hsc.wvu.edu
+UPN: afernan5@hsc.wvu.edu
+O365 Mailbox Index: 140
+Object ID: 060d6dfe-ae3d-49dc-9dad-c1dae8e90ba4
+User doesn't have EMS License
+************************
+Current User: abramer2@hsc.wvu.edu
+UPN: abramer2@hsc.wvu.edu
+O365 Mailbox Index: 141
+Object ID: 631a16fa-0791-42de-b0f3-4caa0d7c1c47
+User doesn't have EMS License
+************************
+Current User: alexis.drake@hsc.wvu.edu
+UPN: ald0031@hsc.wvu.edu
+O365 Mailbox Index: 142
+Object ID: 585e143c-63a3-406b-85ee-479133240244
+User doesn't have EMS License
+************************
+Current User: amm0009@WVUHSC.onmicrosoft.com
+UPN: amm0009@hsc.wvu.edu
+O365 Mailbox Index: 143
+Object ID: c3d7ad35-b3ff-47f3-8a4d-045dd0ad8f00
+User doesn't have EMS License
+************************
+Current User: alexys.bolden@hsc.wvu.edu
+UPN: amb0081@hsc.wvu.edu
+O365 Mailbox Index: 144
+Object ID: 8fed015b-e7fb-4735-8581-faa0a747d25b
+User doesn't have EMS License
+************************
+Current User: ALKRISTJANSSON@hsc.wvu.edu
+UPN: alkristjansson@hsc.wvu.edu
+O365 Mailbox Index: 145
+Object ID: 02e19a85-8fca-4eea-8d03-f2fdffefc2b6
+User doesn't have EMS License
+************************
+Current User: alfred.balasa@hsc.wvu.edu
+UPN: ab10340@hsc.wvu.edu
+O365 Mailbox Index: 146
+Object ID: e170cf26-b655-41c7-9b7b-fc15a9241421
+User doesn't have EMS License
+************************
+Current User: alfred.gest@hsc.wvu.edu
+UPN: alg0038@hsc.wvu.edu
+O365 Mailbox Index: 147
+Object ID: 6973dd79-b08a-4a92-8e8b-d20ddfbe930f
+User doesn't have EMS License
+************************
+Current User: ali.aburahma@WVUHSC.onmicrosoft.com
+UPN: aaburahma@hsc.wvu.edu
+O365 Mailbox Index: 148
+Object ID: b6f0da02-0cb3-42b0-bdd5-2ac4fc7bbde8
+User doesn't have EMS License
+************************
+Current User: ali.farooq@hsc.wvu.edu
+UPN: auf0001@hsc.wvu.edu
+O365 Mailbox Index: 149
+Object ID: 5369bec7-d435-4c04-81eb-b278b8aad1d4
+User doesn't have EMS License
+************************
+Current User: ahajiran@hsc.wvu.edu
+UPN: AHAJIRAN@hsc.wvu.edu
+O365 Mailbox Index: 150
+Object ID: 72284b90-52be-418a-8c57-2444c7f019d3
+User doesn't have EMS License
+************************
+Current User: alimohammada.alsaud@hsc.wvu.edu
+UPN: aa0015@hsc.wvu.edu
+O365 Mailbox Index: 151
+Object ID: ac03ac69-7fa8-4f94-ab3f-5d032d2597e0
+User doesn't have EMS License
+************************
+Current User: alranjbaran@hsc.wvu.edu
+UPN: alranjbaran@hsc.wvu.edu
+O365 Mailbox Index: 152
+Object ID: 195ac92a-759e-41bf-aa3c-cb396d0f2097
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 1
+************************
+Current User: ali.rezai@hsc.wvu.edu
+UPN: ar0106@hsc.wvu.edu
+O365 Mailbox Index: 153
+Object ID: 42ca6ccb-dfc2-461b-8543-d6f0c490f0d7
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 2
+************************
+Current User: Aliana.Abascal@hsc.wvu.edu
+UPN: ama0083@hsc.wvu.edu
+O365 Mailbox Index: 154
+Object ID: a1b9b6de-fde4-48ec-aa6b-b339f99707d3
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 3
+************************
+Current User: alice.race@hsc.wvu.edu
+UPN: ar10252@hsc.wvu.edu
+O365 Mailbox Index: 155
+Object ID: 33306999-c939-4971-992b-333bb5965876
+User doesn't have EMS License
+************************
+Current User: alice.seifarth@hsc.wvu.edu
+UPN: as10459@hsc.wvu.edu
+O365 Mailbox Index: 156
+Object ID: 3694f091-12b8-442e-94b1-86c4c48c1584
+User doesn't have EMS License
+************************
+Current User: alice.snyder@hsc.wvu.edu
+UPN: ans0100@hsc.wvu.edu
+O365 Mailbox Index: 157
+Object ID: 9ec36d16-8040-45e2-a348-c410a051a63c
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 4
+************************
+Current User: adobrans@hsc.wvu.edu
+UPN: adobrans@hsc.wvu.edu
+O365 Mailbox Index: 158
+Object ID: 283d57f3-a053-46f0-aa77-96a5a71d55ba
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 5
+************************
+Current User: ahinerm2@hsc.wvu.edu
+UPN: ahinerm2@hsc.wvu.edu
+O365 Mailbox Index: 159
+Object ID: 621e6880-267b-44c2-b14d-f86dbf357b07
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 6
+************************
+Current User: alicia.moise@hsc.wvu.edu
+UPN: aam0019@hsc.wvu.edu
+O365 Mailbox Index: 160
+Object ID: 2910b392-ad93-4517-9edc-2cc1d649af05
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 7
+************************
+Current User: alicia.pekar@hsc.wvu.edu
+UPN: pekaral@hsc.wvu.edu
+O365 Mailbox Index: 161
+Object ID: 5d6ed65c-384f-4393-9225-3cd72da2b5f3
+User doesn't have EMS License
+************************
+Current User: ahzomcik@hsc.wvu.edu
+UPN: AHZOMCIK@hsc.wvu.edu
+O365 Mailbox Index: 162
+Object ID: ffe1e44b-60f8-4c7d-ba3a-7ea76f53220e
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 8
+************************
+Current User: albrownfield@hsc.wvu.edu
+UPN: albrownfield@hsc.wvu.edu
+O365 Mailbox Index: 163
+Object ID: d391e03a-5c84-4cee-ab32-d58a106dee44
+User doesn't have EMS License
+************************
+Current User: alison.hixenbaugh@hsc.wvu.edu
+UPN: hixenbaugha@hsc.wvu.edu
+O365 Mailbox Index: 164
+Object ID: b6c5b465-e6e1-4193-b25d-b2617c4d87bd
+User doesn't have EMS License
+************************
+Current User: alison.moran@hsc.wvu.edu
+UPN: ajmoran@hsc.wvu.edu
+O365 Mailbox Index: 165
+Object ID: cdf84fc2-1f11-4ac0-9626-2b7e3536da1c
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 9
+************************
+Current User: awilson@hsc.wvu.edu
+UPN: awilson@hsc.wvu.edu
+O365 Mailbox Index: 166
+Object ID: 57d0fb81-8440-42f6-a6a8-cb61445ae8c1
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 10
+************************
+Current User: aspugh@hsc.wvu.edu
+UPN: aspugh@hsc.wvu.edu
+O365 Mailbox Index: 167
+Object ID: e2931415-fb39-4c44-a8c5-f8dffd8e3240
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 11
+************************
+Current User: allan.fergus@hsc.wvu.edu
+UPN: af10168@hsc.wvu.edu
+O365 Mailbox Index: 168
+Object ID: e78b2b19-5ebc-444f-a047-eadda4f59822
+User doesn't have EMS License
+************************
+Current User: allen.cheng@hsc.wvu.edu
+UPN: ayc00001@hsc.wvu.edu
+O365 Mailbox Index: 169
+Object ID: 3ba9add8-2b90-4754-afa7-59e3f3dcda34
+User doesn't have EMS License
+************************
+Current User: arickard@hsc.wvu.edu
+UPN: arickard@hsc.wvu.edu
+O365 Mailbox Index: 170
+Object ID: 0a7a6894-7fc8-4cd8-b972-f6ac37b17565
+User doesn't have EMS License
+************************
+Current User: ALKARSHENAS@hsc.wvu.edu
+UPN: alkarshenas@hsc.wvu.edu
+O365 Mailbox Index: 171
+Object ID: 9ce6def9-ce09-4a89-8e02-999d79875e94
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 12
+************************
+Current User: allison.bardes@hsc.wvu.edu
+UPN: bardesa@hsc.wvu.edu
+O365 Mailbox Index: 172
+Object ID: b3f58f27-997d-4b92-bd9d-e8ac780f5b2b
+User doesn't have EMS License
+************************
+Current User: allison.fansler@hsc.wvu.edu
+UPN: afansle1@hsc.wvu.edu
+O365 Mailbox Index: 173
+Object ID: 3fa8fe1f-54cd-4ab5-9772-2ef9bdc894a2
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 13
+************************
+Current User: allison.johnston@hsc.wvu.edu
+UPN: adj00004@hsc.wvu.edu
+O365 Mailbox Index: 174
+Object ID: 6a47dba8-d26e-4b57-aa0f-22d537e4f018
+User doesn't have EMS License
+************************
+Current User: alastinger@hsc.wvu.edu
+UPN: alastinger@hsc.wvu.edu
+O365 Mailbox Index: 175
+Object ID: ec245925-64df-41b4-998b-2dc1db63cafc
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 14
+************************
+Current User: alusk3@hsc.wvu.edu
+UPN: alusk3@hsc.wvu.edu
+O365 Mailbox Index: 176
+Object ID: b57c2604-4896-4abc-83bc-1b2c0743dffa
+User doesn't have EMS License
+************************
+Current User: AROLLIN2@hsc.wvu.edu
+UPN: arollin2@hsc.wvu.edu
+O365 Mailbox Index: 177
+Object ID: 17826b11-aba7-4af7-9b10-92298b3d488e
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 15
+************************
+Current User: atadros@hsc.wvu.edu
+UPN: atadros@hsc.wvu.edu
+O365 Mailbox Index: 178
+Object ID: b38dde1f-32e4-4522-9598-fd05994d8199
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 16
+************************
+Current User: sarah.pierce@hsc.wvu.edu
+UPN: sapierce@hsc.wvu.edu
+O365 Mailbox Index: 179
+Object ID: 51ddd2e0-787e-415d-828a-d0eb5e7c65eb
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 17
+************************
+Current User: atrabulsi@hsc.wvu.edu
+UPN: atrabulsi@hsc.wvu.edu
+O365 Mailbox Index: 180
+Object ID: e3a053aa-80fd-48b3-b0c7-088da3f57026
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 18
+************************
+Current User: alton.myers@hsc.wvu.edu
+UPN: amyers@hsc.wvu.edu
+O365 Mailbox Index: 181
+Object ID: 0093c846-2b64-446e-b2e6-97814c963df6
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 19
+************************
+Current User: amoss@hsc.wvu.edu
+UPN: amoss@hsc.wvu.edu
+O365 Mailbox Index: 182
+Object ID: 4dcd7f67-68e2-4a28-8b10-b9882fffa7a2
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 20
+************************
+Current User: anathaniel@hsc.wvu.edu
+UPN: anathaniel@hsc.wvu.edu
+O365 Mailbox Index: 183
+Object ID: 1951257c-1d3f-4a68-a887-4aa24fc7b3a3
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 21
+************************
+Current User: aucarpenter@hsc.wvu.edu
+UPN: AUCARPENTER@hsc.wvu.edu
+O365 Mailbox Index: 184
+Object ID: afc37795-0c30-4a2c-8412-6bd4a873d489
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 22
+************************
+Current User: alyson.fortner@hsc.wvu.edu
+UPN: arf00008@hsc.wvu.edu
+O365 Mailbox Index: 185
+Object ID: bab22e83-97c0-4ac4-b93f-6242315d67cc
+User doesn't have EMS License
+************************
+Current User: alyson.sarsfield1@hsc.wvu.edu
+UPN: afs10020@hsc.wvu.edu
+O365 Mailbox Index: 186
+Object ID: 8d395886-2469-4115-9778-0054598946ae
+User doesn't have EMS License
+************************
+Current User: agchafin@WVUHSC.onmicrosoft.com
+UPN: agchafin@hsc.wvu.edu
+O365 Mailbox Index: 187
+Object ID: 3fe6630a-a02c-4aad-b13d-7f74f42e6760
+User doesn't have EMS License
+************************
+Current User: achase4@hsc.wvu.edu
+UPN: achase4@hsc.wvu.edu
+O365 Mailbox Index: 188
+Object ID: 5094f02b-692f-4084-97c8-2547c08c1f44
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 23
+************************
+Current User: alyssa.engle@hsc.wvu.edu
+UPN: ame00008@hsc.wvu.edu
+O365 Mailbox Index: 189
+Object ID: 9b588c31-008f-4fa3-813c-165272c15cbb
+User doesn't have EMS License
+************************
+Current User: acfazi@hsc.wvu.edu
+UPN: acfazi@hsc.wvu.edu
+O365 Mailbox Index: 190
+Object ID: 6c97085a-6e29-45e2-946f-e83e7c3a3008
+User doesn't have EMS License
+************************
+Current User: alorenz2@hsc.wvu.edu
+UPN: alorenz2@hsc.wvu.edu
+O365 Mailbox Index: 191
+Object ID: f1f861ec-1398-4b41-90aa-bb2f9d8ccb96
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 24
+************************
+Current User: alyssa.tichinel@hsc.wvu.edu
+UPN: amt00022@hsc.wvu.edu
+O365 Mailbox Index: 192
+Object ID: 57d52e59-d81d-4005-8404-2363799688c5
+User doesn't have EMS License
+************************
+Current User: alyssa.wriston@hsc.wvu.edu
+UPN: afrye4@hsc.wvu.edu
+O365 Mailbox Index: 193
+Object ID: 567d74bc-f0f4-4c10-8aa7-629bba9af597
+User has EMS License
+Successfully removed license
+Successfully removed license
+EMS Removed Count: 25
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20210824080119
+**********************

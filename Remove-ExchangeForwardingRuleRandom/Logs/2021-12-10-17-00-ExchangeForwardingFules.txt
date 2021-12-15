@@ -1,0 +1,9 @@
+PrimarySMTPAddress,RuleName,RuleForwardTo
+dianna.criss@wvumedicine.org,UNUM (2),"Criss, Dianna" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9d06ffab0acd467f8e03221925656410-Criss, Dian]
+dianna.criss@wvumedicine.org,UNUM (1),"Demarino, Tamara" [EX:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=trd00189ff_unmapped7875dfc2d5e342e8b56cbfbdd8a65ecd]
+dianna.criss@wvumedicine.org,UNUM,"Demarino, Tamara" [EX:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=trd00189ff_unmappede38302ba312b44ef80dc497645ef8bd7]
+brhenry@hsc.wvu.edu,hsc-hvac,"Hostetler, Joseph" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=579ac6bdd12942af9711ccf94ed91ba0-Joseph Host] "Teets, Marvin" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a909033569c4413f8b7a06f9d81706db-Marvin Teet] "Loyd Mccartney" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=df931301d7ae4b90b10cc9badeb4ccda-Loyd Mccart] "Demastes, Donald" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2101ba1e210b4603bf1a5b5c7554f6b6-Donald Dema]
+brenda.meadows@wvumedicine.org,Sent to 'Meadows, Brenda',"Brenda 2 Meadows" [EX:/O=WVU/OU=rcbhsc/cn=Recipients/cn=Brenda Meadows96030999_unmappedf5dd6fc52996446da3c081c624b7fe54]
+sean.loy@wvumedicine.org,WHL IS-Invoices,"WHL AP-DeptShared" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=094f66101f474db78b65d4081915e8e7-WHL AP-Dept]
+lrihel@wvumedicine.org,Revenue Management Report,"Liu, Xiaoyi" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0bfcc528e006414480d4eb516b8ff774-Liu, Xiaoyi]
+karthikeyan.subramanian@wvumedicine.org,[Apply to all messages],"skarthik@imtech.res.in" [SMTP:skarthik@imtech.res.in]

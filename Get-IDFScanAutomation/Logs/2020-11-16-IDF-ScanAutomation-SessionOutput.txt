@@ -1,0 +1,22 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201116070005
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -command C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1
+Process ID: 8656
+PSVersion: 5.1.14393.3471
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3471
+BuildVersion: 10.0.14393.3471
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Logs\2020-11-16-IDF-ScanAutomation-SessionOutput.txt
+Transcript log file started
+Files will not be deleted.
+No files to remove
+Opening ID Finder Mailbox

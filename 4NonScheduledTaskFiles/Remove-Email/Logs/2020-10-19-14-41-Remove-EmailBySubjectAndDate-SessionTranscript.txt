@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201019144145
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 9016
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-19-14-41-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\
+VERBOSE: File Count: 2
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-19-14-41-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Get-Mailbox : The term 'Get-Mailbox' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Remove-EmailBySubje
+ctAndDate.ps1:3 char:14
++ $Mailboxes = Get-Mailbox -ResultSize Unlimited | where {$_.PrimarySMT ...
++              ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Mailbox:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Get-Mailbox : The term 'Get-Mailbox' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Remove-EmailBySubj
+ectAndDate.ps1:3 char:14
++ $Mailboxes = Get-Mailbox -ResultSize Unlimited | where {$_.PrimarySMT ...
++              ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Mailbox:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Final Error Count: 1
+**********************
+Windows PowerShell transcript end
+End time: 20201019144145
+**********************

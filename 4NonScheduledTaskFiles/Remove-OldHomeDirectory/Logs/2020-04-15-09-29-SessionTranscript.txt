@@ -1,0 +1,478 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200415092925
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.15063.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 27788
+PSVersion: 5.1.15063.1805
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.1805
+BuildVersion: 10.0.15063.1805
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory\Logs\2020-04-15-09-29-SessionTranscript.txt
+
+
+    Directory: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory\Logs
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        4/15/2020   9:29 AM              0 2020-04-15-09-29-NotFoundFile.txt
+File system path exists.
+Generating list of AD users
+Search Base: OU=path,OU=SOM,OU=HSC,DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Username Array:
+The variable '$usernames' cannot be retrieved because it has not been set.
+At 
+C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory\Remove-OldHomeDirectory.ps1:46 
+char:14
++ Write-Output $usernames
++              ~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (usernames:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$usernames' cannot be retrieved because it has not been set.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory\Remove-OldHomeDirectory.ps1
+:46 char:14
++ Write-Output $usernames
++              ~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (usernames:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+
+Current User: aig0005
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Ana Gomez Velazquez,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: bkirby
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Beverly Kirby,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: nm0077
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Nadeem Nazir Malik,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: dtsinclair
+End Access Date: 09/19/2020
+Enabled: False
+Distinguished Name:
+CN=David Sinclair,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: jcoad
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=James Coad,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: pperrotta
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Pete Perrotta,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mjz0005
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Matthew Zdilla,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: pbacaj
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Patrick Bacaj,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: cwinkie
+End Access Date: 08/16/2020
+Enabled: True
+Distinguished Name:
+CN=Colin Winkie,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: amp0057
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Andrew Plata,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: ffranyut
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Cisco Franyutti,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: dco10003
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Dane Olevian,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: tjh00005
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Tara Hajarat,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: ecosborne
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Erin Osborne,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: kgyure
+End Access Date: 12/31/4712
+Enabled: False
+Distinguished Name:
+CN=Kymberly Gyure,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: adt0029
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Andrew Thompson,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: twolfe10
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Trevor Wolfe,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mflanagan
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Melina Flanagan,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: sdp10010
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Stell Patadji,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: jvos
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Jeffrey Vos,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: jshrout3
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Joshua Shrout,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: amm0009
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Alexis Meadows,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: aakinyem
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Ayodele Adelanwa,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: catitus
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Christine Titus,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: db0116
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Deborah Brookover,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: rys0001
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Rosa Santos,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: kmfeaster
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Kimberly Feaster,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: rfw10005
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Rita White,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: ads0058
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Aaron Shmookler,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: 2316mailroom
+End Access Date:
+Enabled: False
+Distinguished Name:
+CN=2316mailroom pathology,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: plasala
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=P. Rocco LaSala,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: jkarakiozis
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Jacqueline Karakiozis,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: kharbert
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Kerry Harbert,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: graye
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Ed Gray,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: MedLabSci
+End Access Date:
+Enabled: True
+Distinguished Name:
+CN=Medtech Pathology,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: dtoothman
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Douglas Toothman,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: dagray
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Dana Gray,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: dreynolds
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Deanna Reynolds,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mfizer
+End Access Date: 12/31/2020
+Enabled: True
+Distinguished Name:
+CN=Mara Fizer,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: cstasiak
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Cheryl Baker-Stasiak,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: bradabaugh
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Rebecca Radabaugh,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: ruckleam
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Amber Ruckle,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: tlu2
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Tina Lu,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mtdownes
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Marianne Downes,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mbsmolkin
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Matthew Smolkin,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: abpetrone
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Ashley Petrone,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mnkumar
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Manish Kumar,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: swrigh11
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Stephanie Wright,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mmb0061
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Michelle Butina,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: rlc0063
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Ryan Cook,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: tk10046
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Temitope Kehinde,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: asmittle
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Anne Smittle,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: jao0015
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=John Ozolek,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: ys0027
+End Access Date: 07/29/2021
+Enabled: False
+Distinguished Name:
+CN=Yahya Shabi,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: mcostas
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Michelle Costas,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: dmburch
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=David Burch,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: rmchurma
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Ryan Churma,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: cls0042
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Charles Schultz,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: rasasi
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Ramakrishnan Sasi,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: ccoffindaffer
+End Access Date: 12/31/2036
+Enabled: True
+Distinguished Name:
+CN=Carie Coffindaffer,OU=PATH,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+**************************
+
+Current User: ma00009
+End Access Date: 12/31/2036
+Enabled: True
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200415093038
+**********************

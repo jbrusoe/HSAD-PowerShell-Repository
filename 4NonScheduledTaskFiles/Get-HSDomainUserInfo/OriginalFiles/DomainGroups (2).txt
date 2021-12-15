@@ -1,0 +1,98 @@
+' BDMP v1.0 2009      Contact Eigen Heald with questions 207-541-2311
+' This is a VBScript to document all groups in Active Directory.
+' Outputs group name, type of group, all members, and type of member.
+' Lists all groups that are members, but does not list the nested group
+' membership.
+'
+' ----------------------------------------------------------------------
+' This script should be run at a command prompt using the Cscript host. 
+'The script should be in the same directory and will return results in that directory.
+'The output can be redirected to a text file. For example:
+' C:\cscript //nologo DocumentGroups.vbs > groups.txt
+
+Option Explicit
+
+Dim objConnection, objCommand, objRootDSE, strDNSDomain, strQuery
+Dim objRecordSet, strDN, objGroup
+
+' Use ADO to search Active Directory.
+Set objConnection = CreateObject("ADODB.Connection")
+Set objCommand = CreateObject("ADODB.Command")
+objConnection.Provider = "ADsDSOObject"
+objConnection.Open "Active Directory Provider"
+Set objCommand.ActiveConnection = objConnection
+
+' Determine the DNS domain from the RootDSE object.
+Set objRootDSE = GetObject("LDAP://RootDSE")
+strDNSDomain = objRootDSE.Get("defaultNamingContext")
+
+' Search for all groups, return the Distinguished Name of each.
+strQuery = "<LDAP://" & strDNSDomain _
+  & ">;(objectClass=group);distinguishedName;subtree"
+objCommand.CommandText = strQuery
+objCommand.Properties("Page Size") = 100
+objCommand.Properties("Timeout") = 30
+objCommand.Properties("Cache Results") = False
+
+Set objRecordSet = objCommand.Execute
+If objRecordSet.EOF Then
+  Wscript.Echo "No groups found"
+  objConnection.Close
+  Set objRootDSE = Nothing
+  Set objConnection = Nothing
+  Set objCommand = Nothing
+  Set objRecordSet = Nothing
+  Wscript.Quit
+End If
+
+' Enumerate all groups, bind to each, and document group members.
+Do Until objRecordSet.EOF
+  strDN = objRecordSet.Fields("distinguishedName")
+  Set objGroup = GetObject("LDAP://" & strDN)
+  Wscript.Echo objGroup.sAMAccountName _
+    & " (" & GetType(objGroup.groupType) & ")"
+  Call GetMembers(objGroup)
+  objRecordSet.MoveNext
+Loop
+
+' Clean up.
+objConnection.Close
+Set objRootDSE = Nothing
+Set objGroup = Nothing
+Set objConnection = Nothing
+Set objCommand = Nothing
+Set objRecordSet = Nothing
+
+Function GetType(intType)
+' Function to determine group type from the GroupType attribute.
+  If (intType And &h01) <> 0 Then
+    GetType = "Built-in"
+  ElseIf (intType And &h02) <> 0 Then
+    GetType = "Global"
+  ElseIf (intType And &h04) <> 0 Then
+    GetType = "Local"
+  ElseIf (intType And &h08) <> 0 Then
+    GetType = "Univeral"
+  End If
+  If (intType And &h80000000) <> 0 Then
+    GetType = GetType & "/Security"
+  Else
+    GetType = GetType & "/Distribution"
+  End If
+End Function
+
+Sub GetMembers(objADObject)
+' Subroutine to document group membership.
+' Members can be users or groups.
+  Dim objMember, strType
+  For Each objMember In objADObject.Members
+    If UCase(Left(objMember.objectCategory, 8)) = "CN=GROUP" Then
+      strType = "Group"
+    Else
+      strType = "User"
+    End If
+    Wscript.Echo "   Member: " & objMember.sAMAccountName _
+      & " (" & strType & ")"
+  Next
+  Set objMember = Nothing
+End Sub

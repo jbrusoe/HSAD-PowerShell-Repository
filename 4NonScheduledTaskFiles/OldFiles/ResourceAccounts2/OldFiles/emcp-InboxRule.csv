@@ -1,0 +1,43 @@
+#TYPE Deserialized.Microsoft.Exchange.Management.Common.InboxRule
+"PSComputerName","RunspaceId","PSShowComputerName","Description","Enabled","Identity","InError","ErrorType","Name","Priority","RuleIdentity","SupportedByTask","Legacy","BodyContainsWords","ExceptIfBodyContainsWords","FlaggedForAction","ExceptIfFlaggedForAction","FromAddressContainsWords","ExceptIfFromAddressContainsWords","From","ExceptIfFrom","HasAttachment","ExceptIfHasAttachment","HasClassification","ExceptIfHasClassification","HeaderContainsWords","ExceptIfHeaderContainsWords","FromSubscription","ExceptIfFromSubscription","MessageTypeMatches","ExceptIfMessageTypeMatches","MyNameInCcBox","ExceptIfMyNameInCcBox","MyNameInToBox","ExceptIfMyNameInToBox","MyNameInToOrCcBox","ExceptIfMyNameInToOrCcBox","MyNameNotInToBox","ExceptIfMyNameNotInToBox","ReceivedAfterDate","ExceptIfReceivedAfterDate","ReceivedBeforeDate","ExceptIfReceivedBeforeDate","RecipientAddressContainsWords","ExceptIfRecipientAddressContainsWords","SentOnlyToMe","ExceptIfSentOnlyToMe","SentTo","ExceptIfSentTo","SubjectContainsWords","ExceptIfSubjectContainsWords","SubjectOrBodyContainsWords","ExceptIfSubjectOrBodyContainsWords","WithImportance","ExceptIfWithImportance","WithinSizeRangeMaximum","ExceptIfWithinSizeRangeMaximum","WithinSizeRangeMinimum","ExceptIfWithinSizeRangeMinimum","WithSensitivity","ExceptIfWithSensitivity","ApplyCategory","ApplySystemCategory","CopyToFolder","DeleteMessage","DeleteSystemCategory","ForwardAsAttachmentTo","ForwardTo","MarkAsRead","MarkImportance","MoveToFolder","PinMessage","RedirectTo","SendTextMessageNotificationTo","StopProcessingRules","MailboxOwnerId","IsValid","ObjectState"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","If the message:
+	the message was received from 'Smith, Carol'
+	and the message was sent to 'All Users'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","emcp\13944015744946667522","False","None","It was received from...","1","13944015744946667522","True",,"","",,,"","","""Smith, Carol"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=707e0f084f29439d9cd5cec861211b43-Carol Smith]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""All Users"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7792ed65ccd94d4c9d70821e95ac7584-All Users]",,"","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","True","emcp","True","Unchanged"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","If the message:
+	the message was received from 'info@twitter.com'
+	and the message was sent to 'emcp'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","emcp\14016073338984595458","False","None","It was received from...","2","14016073338984595458","True",,"","",,,"","","""info@twitter.com"" [SMTP:info@twitter.com]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""emcp"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=197f0a9d25d3445782550977dbb45c3b-emcp]",,"","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","True","emcp","True","Unchanged"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","If the message:
+	the message was received from 'info@twitter.com'
+	and the message was sent to 'emcp'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","emcp\14088130933022523394","False","None","It was received from...","3","14088130933022523394","True",,"","",,,"","","""info@twitter.com"" [SMTP:info@twitter.com]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""emcp"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=197f0a9d25d3445782550977dbb45c3b-emcp]",,"","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","True","emcp","True","Unchanged"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","If the message:
+	the message was received from 'newacct@pocketnurse.com'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","emcp\14160188527060451330","False","None","It was received from...","4","14160188527060451330","True",,"","",,,"","","""newacct@pocketnurse.com"" [SMTP:newacct@pocketnurse.com]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","True","emcp","True","Unchanged"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","If the message:
+	the message was received from 'DeMarco, Marcia'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","emcp\14232246121098379266","False","None","It was received from...","5","14232246121098379266","True",,"","",,,"","","""DeMarco, Marcia"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2c65e8fdde2e402a92fc4aa58ff42b32-Marcia DeMa]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","True","emcp","True","Unchanged"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","If the message:
+	the message was received from 'Inside View'
+	and the message was sent to 'All Users'
+	and the message includes specific words in the subject 'Inside View - August 24, 2015'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","emcp\14304303715136307202","False","None","It was received from...","6","14304303715136307202","True",,"","",,,"","","""Inside View"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5cc39d3c11744e62a769a7a5119d196a-hsCenterEne]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""All Users"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7792ed65ccd94d4c9d70821e95ac7584-All Users]",,"Inside View - August 24, 2015","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","True","emcp","True","Unchanged"

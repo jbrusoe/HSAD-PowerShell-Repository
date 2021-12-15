@@ -1,0 +1,399 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211012100838
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5076
+PSVersion: 5.1.17763.2183
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2183
+BuildVersion: 10.0.17763.2183
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-10-08-Get-PossibleInactiveUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\
+VERBOSE: File Count: 11
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-10-08-Get-PossibleInactiveUser-SessionTranscript.txt
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       10/12/2021  10:08 AM              0 2021-10-12-ADPossibleInactiveUsers.csv
+Getting list of AD org units under:
+DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Current AD Org Unit:
+OU=Domain Controllers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=Systems Servers,OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: 2264conference
+Password Last Set: 03/18/2016 10:16:33
+Password was last set over a year ago
+-------------------------
+Current AD User: backupadmin
+Password Last Set: 11/13/2008 12:53:56
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: hsc911
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: tempadmin
+Password Last Set: 11/13/2008 12:54:11
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: spbackup
+Password Last Set: 03/09/2010 15:12:33
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: testadmin
+Password Last Set: 11/13/2008 12:54:14
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: WVUHPAN
+Password Last Set: 06/21/2018 14:30:43
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+****************************
+Current AD Org Unit:
+OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: hsccopy
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: HSCPasswordManagemen
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: idm
+Password Last Set: 07/20/2011 08:55:15
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: jbbackup
+Password Last Set: 11/13/2008 12:54:02
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: testmid
+Password Last Set: 09/21/2021 12:59:57
+Password has been set within the last year
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposi
+tory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a
+property that corresponds to the following column: extensionAttribute9. To continue with mismatched properties, add
+the -Force parameter, and then retry the command.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+104 char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute9:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvComman
+   d
+
+-------------------------
+Current AD User: upn.test
+Password Last Set: 06/22/2017 10:43:56
+Password was last set over a year ago
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute7. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+Export-Csv : Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Reposit
+ory\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property 
+that corresponds to the following column: extensionAttribute7. To continue with mismatched properties, add the -Force 
+parameter, and then retry the command.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:104 
+char:19
++ ...   $ADUser | Export-Csv -Path $InactiveLogFile -Append -NoTypeInformat ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (extensionAttribute7:String) [Export-Csv], InvalidOperationException
+    + FullyQualifiedErrorId : CannotAppendCsvWithMismatchedPropertyNames,Microsoft.PowerShell.Commands.ExportCsvCommand
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> .\Get-PossibleInactiveUser.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20211012100925
+**********************

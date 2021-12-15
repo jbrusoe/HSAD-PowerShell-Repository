@@ -1,0 +1,7 @@
+smtp:dchurch@hsc.wvu.edu
+SMTP:david.church@hsc.wvu.edu
+smtp:churchd@hsc.wvu.edu
+smtp:dchurch@wvumedicine.org
+X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2f7651a2419d407a9d66001cb197504a-David Churc
+smtp:dchurch@wvuhealthcare.com
+SIP:dchurch@hsc.wvu.edu

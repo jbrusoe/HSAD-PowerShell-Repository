@@ -1,0 +1,142 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\2015 Case #8 (ARN).docx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","2015 Case #8 (ARN).docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\2015 Case #8 (ARN).docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2015 Case #8 (ARN)",,,"2015 Case #8 (ARN).docx","24020","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\2015 Case #8 (ARN).docx",".docx","2/26/2020 1:17:11 PM","2/26/2020 6:17:11 PM","2/26/2020 1:17:11 PM","2/26/2020 6:17:11 PM","2/26/2020 1:14:16 PM","2/26/2020 6:14:16 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\2015 Case #8 AUTOPSY (ARN).docx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","2015 Case #8 AUTOPSY (ARN).docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\2015 Case #8 AUTOPSY (ARN).docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2015 Case #8 AUTOPSY (ARN)",,,"2015 Case #8 AUTOPSY (ARN).docx","31545","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\2015 Case #8 AUTOPSY (ARN).docx",".docx","2/26/2020 1:17:24 PM","2/26/2020 6:17:24 PM","2/26/2020 1:21:29 PM","2/26/2020 6:21:29 PM","2/26/2020 1:21:29 PM","2/26/2020 6:21:29 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\2017 Case #11 (ARN).docx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","2017 Case #11 (ARN).docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\2017 Case #11 (ARN).docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2017 Case #11 (ARN)",,,"2017 Case #11 (ARN).docx","20034","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\2017 Case #11 (ARN).docx",".docx","2/26/2020 1:17:31 PM","2/26/2020 6:17:31 PM","2/26/2020 1:28:44 PM","2/26/2020 6:28:44 PM","2/26/2020 1:28:44 PM","2/26/2020 6:28:44 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\2017 Case #11 AUTOPSY (ARN).docx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","2017 Case #11 AUTOPSY (ARN).docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\2017 Case #11 AUTOPSY (ARN).docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2017 Case #11 AUTOPSY (ARN)",,,"2017 Case #11 AUTOPSY (ARN).docx","18987","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\2017 Case #11 AUTOPSY (ARN).docx",".docx","2/26/2020 1:17:29 PM","2/26/2020 6:17:29 PM","2/26/2020 1:30:07 PM","2/26/2020 6:30:07 PM","2/26/2020 1:30:06 PM","2/26/2020 6:30:06 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\2017 Case #9 (ARN).docx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","2017 Case #9 (ARN).docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\2017 Case #9 (ARN).docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2017 Case #9 (ARN)",,,"2017 Case #9 (ARN).docx","29786","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\2017 Case #9 (ARN).docx",".docx","2/26/2020 1:17:27 PM","2/26/2020 6:17:27 PM","2/26/2020 1:24:49 PM","2/26/2020 6:24:49 PM","2/26/2020 1:24:49 PM","2/26/2020 6:24:49 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\2017 Case #9 AUTOPSY (ARN).docx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","2017 Case #9 AUTOPSY (ARN).docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\2017 Case #9 AUTOPSY (ARN).docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2017 Case #9 AUTOPSY (ARN)",,,"2017 Case #9 AUTOPSY (ARN).docx","31126","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\2017 Case #9 AUTOPSY (ARN).docx",".docx","2/26/2020 1:17:26 PM","2/26/2020 6:17:26 PM","2/26/2020 1:26:40 PM","2/26/2020 6:26:40 PM","2/26/2020 1:26:40 PM","2/26/2020 6:26:40 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\2020 Case #12 (ARN).docx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","2020 Case #12 (ARN).docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\2020 Case #12 (ARN).docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2020 Case #12 (ARN)",,,"2020 Case #12 (ARN).docx","24591","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\2020 Case #12 (ARN).docx",".docx","2/26/2020 1:17:33 PM","2/26/2020 6:17:33 PM","2/26/2020 1:32:08 PM","2/26/2020 6:32:08 PM","2/26/2020 1:32:08 PM","2/26/2020 6:32:08 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\Block drawers.xlsx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","Block drawers.xlsx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\Block drawers.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Block drawers",,,"Block drawers.xlsx","16139","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\Block drawers.xlsx",".xlsx","8/27/2020 12:27:28 PM","8/27/2020 4:27:28 PM","8/31/2020 12:49:07 PM","8/31/2020 4:49:07 PM","8/31/2020 12:49:07 PM","8/31/2020 4:49:07 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\Copy of Dasgupta Tissue Report 03Jun2020.xlsx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","Copy of Dasgupta Tissue Report 03Jun2020.xlsx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\Copy of Dasgupta Tissue Report 03Jun2020.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Copy of Dasgupta Tissue Report 03Jun2020",,,"Copy of Dasgupta Tissue Report 03Jun2020.xlsx","33316","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\Copy of Dasgupta Tissue Report 03Jun2020.xlsx",".xlsx","6/10/2020 5:23:37 PM","6/10/2020 9:23:37 PM","6/11/2020 8:37:56 AM","6/11/2020 12:37:56 PM","6/11/2020 8:37:56 AM","6/11/2020 12:37:56 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\arn0007\Copy of Guo 19Aug2020.xlsx","Microsoft.PowerShell.Core\FileSystem::Y:\arn0007","Copy of Guo 19Aug2020.xlsx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\arn0007\Copy of Guo 19Aug2020.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Copy of Guo 19Aug2020",,,"Copy of Guo 19Aug2020.xlsx","28672","Y:\arn0007","Y:\arn0007","False","True","Y:\arn0007\Copy of Guo 19Aug2020.xlsx",".xlsx","8/23/2020 5:59:31 PM","8/23/2020 9:59:31 PM","8/23/2020 8:55:04 PM","8/24/2020 12:55:04 AM","8/23/2020 8:55:04 PM","8/24/2020 12:55:04 AM","Archive, NotContentIndexed"

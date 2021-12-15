@@ -1,0 +1,74 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201001160234
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 3836
+PSVersion: 5.1.14393.3471
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3471
+BuildVersion: 10.0.14393.3471
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\\2020-10-01-16-02-Update-SharedUserDB-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\
+VERBOSE: File Count: 47
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-23-07-44-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-11-34-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-11-35-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-11-36-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-11-57-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-11-59-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-12-03-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-12-07-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-12-15-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-12-29-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-13-42-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-13-51-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-13-57-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-14-03-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-14-06-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-14-07-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-14-10-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-14-13-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-03-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-04-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-07-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-09-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-13-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-20-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-23-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-39-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-42-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-55-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-15-57-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-16-09-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-16-13-Update-SharedUserDB2-SessionTranscript.txt
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\2020-09-24-16-19-Update-SharedUserDB2-SessionTranscript.txt
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB\Logs\\2020-10-01-16-02-Update-SharedUserDB-SessionTranscript.txt
+VERBOSE: Preparing to decrtypt SQL Connection File
+VERBOSE: SQL Connection File: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\1HSCCustomModules\EncryptedFiles\O365SqlInstance4.txt
+VERBOSE: Connection file exists and is being decrypted
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB> Get-HSCSQLPassword
+ADhsc0404
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB> $pwd = Get-HSCSQLPassword
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB> $cs = Get-HSCConnectionString -SQLPassword $pwd
+Connection string: Data Source=sql01.hsc.wvu.edu;Initial Catalog=BannerData;User Id=itsnetworking;Password=<PasswordRemoved>
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Update-SharedUserDB> cls

@@ -1,0 +1,70 @@
+**********************
+PowerShell transcript start
+Start time: 20210211154759
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 632
+PSVersion: 7.1.1
+PSEdition: Core
+GitCommitId: 7.1.1
+OS: Microsoft Windows 10.0.14393
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.1
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\\2021-02-11-15-47-Create-NewAccountManual-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\
+VERBOSE: File Count: 2
+All input parameters are set to default values.
+
+Start Date:
+Opening Deparment Map File
+SAMAccountName: ahaines4
+
+Step1: Getting SailPoint deparmtents from department map file
+SailPoint Departments:
+HSC Eastern Division
+SOM Anesthesiology L4
+SOM Family Medicine L4
+Family Medicine
+SOM Ophthalmology L4
+SOD Orthodontics L4
+SOD Oral Surgery L4
+SOD Endodontics L4
+SOD Periodontics L4
+SOM Eastern Division L4
+Searching AD NewUsers for matching department names
+
+***********************
+User found in NewUsers Org Unit
+SamAccountName: ahaines4
+Password Last Set: 11/17/2020 18:01:16
+When Created: 11/17/2020 18:01:16
+Distinguished Name:
+CN=Audreanna James,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+
+Step2: Determine destination OU
+Destination OU From File: OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Searching for Org Unit
+AD Target OU:
+OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+One unique destination OU was found. User is being moved there.
+Step 3: Attempting to move user to destination OU
+PS>TerminatingError(): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Directory object not found"
+>> TerminatingError(): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Directory object not found"
+WARNING: Unable to move user to target OU
+
+***********************
+Copying session transcript to logs to save directory

@@ -1,0 +1,1003 @@
+﻿id,entry date,level,termination date,college_name,degree,last GPA,transfer credit hours,transfer quality hours,credit hours earned,GPA credit hours,quality poinrts,major,minor,advisor,exit status,WVU_freshman,RN,Comment,P/F hours
+700100185,1993-08-15 00:00:00.000,undergrad,1998-05-17 00:00:00.000,West Virginia University at Morgantown,BSN,3.55,0,0,159,156,555,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700100668,1994-08-15 00:00:00.000,undergrad,1998-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700100914,1997-08-15 00:00:00.000,assoc.,2000-05-13 00:00:00.000,Fairmont State University,Assoc.,3.12,0,0,64,64,200,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700101079,1994-08-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BSN,3.68,0,0,155,121,446,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700101079,2002-08-15 00:00:00.000,graduate,2004-05-16 00:00:00.000,West Virginia University at Morgantown,MSN,3.9,0,0,44,44,172,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700101289,1995-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.56,0,0,133,142,0,Liberal Arts & Sciences,NULL,NULL,graduated,0,0,NULL,0
+700101406,1993-08-15 00:00:00.000,undergrad,1995-07-15 00:00:00.000,Alderson Broaddus College,NULL,0,0,0,0,0,0,Secondary Education/Biology,NULL,NULL,transferred,0,0,NULL,0
+700101406,1995-08-15 00:00:00.000,undergrad,1997-05-11 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.46,78,0,156,63,218,Secondary Education/Biology,NULL,NULL,graduated,0,0,NULL,0
+700101406,2003-05-20 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.64,78,0,212,106,386,Nursing,NULL,Michele Godwin,graduated,0,1,NULL,0
+700105569,1981-08-15 00:00:00.000,undergrad,1985-05-19 00:00:00.000,West Virginia University at Morgantown,BSN,3.7,0,0,144,117,434,Nursing,NULL,NULL,graduated,0,1,NULL,26
+700105569,1992-08-15 00:00:00.000,graduate,1998-05-17 00:00:00.000,West Virginia University at Morgantown,MSN,3.93,0,0,61,49,193,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700105884,1987-01-15 00:00:00.000,graduate,1989-05-20 00:00:00.000,George Mason University,MSN,3.5,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700106827,1990-08-15 00:00:00.000,undergrad,1994-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.2,0,0,138,105,336,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700106827,1996-08-15 00:00:00.000,graduate,2001-08-17 00:00:00.000,West Virginia University at Morgantown,MSN,3.91,0,0,42,36,141,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700107801,1994-08-15 00:00:00.000,NULL,1996-05-12 00:00:00.000,Davis and Elkins College,NULL,3.375,0,0,120,120,405,NULL,NULL,NULL,NULL,0,0,NULL,0
+700109066,1995-06-15 00:00:00.000,undergrad,1999-12-25 00:00:00.000,Virginia Commonwealth University,BA/BS,2.806,0,0,130,103,289,Business Management,NULL,NULL,graduated,0,0,NULL,0
+700109150,2001-08-15 00:00:00.000,assoc.,2003-05-10 00:00:00.000,J. Sargeant Reynolds Community College,Assoc.,2.5353,0,0,99,99,251,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700112612,1987-08-15 00:00:00.000,undergrad,2001-12-28 00:00:00.000,West Virginia University at Morgantown,BSN,2.88,0,0,196,181,523,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700113426,1996-08-15 00:00:00.000,undergrad,2001-04-15 00:00:00.000,Alderson Broaddus College,NULL,1.56,0,0,35,35,75,NULL,NULL,NULL,unknown,0,0,NULL,0
+700113967,2001-01-15 00:00:00.000,undergrad,NULL,Shepherd College,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700115485,1974-08-15 00:00:00.000,undergrad,1978-12-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.9595,0,0,173,173,512,Business Administration,NULL,NULL,graduated,0,0,NULL,0
+700115485,1998-08-15 00:00:00.000,graduate,2000-05-14 00:00:00.000,Waynesburg College,Other Masters,3.93,0,0,28,28,109.9,Business Administration,NULL,NULL,graduated,0,0,NULL,0
+700115882,1982-01-15 00:00:00.000,undergrad,1983-12-28 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700115882,1985-01-15 00:00:00.000,graduate,1988-12-28 00:00:00.000,West Virginia University at Morgantown,MSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700116308,2000-08-15 00:00:00.000,graduate,2002-05-19 00:00:00.000,West Virginia University at Morgantown,MS,3.43,0,0,53,53,182,Athletic Training,NULL,NULL,graduated,0,0,NULL,0
+700116694,1986-08-15 00:00:00.000,undergrad,1990-05-12 00:00:00.000,Concord College,BA/BS,3.61,0,0,164,164,593,Music Education,NULL,NULL,graduated,0,0,NULL,0
+700116694,1990-07-15 00:00:00.000,graduate,1992-08-21 00:00:00.000,West Virginia University at Morgantown,Other Masters,0,0,0,0,0,0,Music-Piano Pedagogy,NULL,NULL,graduated,0,0,NULL,0
+700116694,1992-08-25 00:00:00.000,graduate,1997-05-11 00:00:00.000,West Virginia University at Morgantown,Doctoral,0,0,0,0,0,0,Musical Arts,NULL,NULL,graduated,0,0,NULL,0
+700116896,1996-08-15 00:00:00.000,graduate,1999-05-16 00:00:00.000,West Virginia University at Morgantown,MSN,3.68,0,0,54,54,199,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700117477,1994-08-15 00:00:00.000,undergrad,1999-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.87,0,0,131,127,365,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700120017,1980-09-01 00:00:00.000,undergrad,1984-05-12 00:00:00.000,Wheeling College,BA/BS,2.909,0,0,231,231,672,Biology,NULL,NULL,graduated,0,0,NULL,0
+700120609,1994-08-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,0,0,0,0,0,0,Athletic Training,NULL,NULL,graduated,0,0,NULL,0
+700120609,2003-01-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.99,0,0,211,205,614,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700120850,2000-08-15 00:00:00.000,graduate,2002-05-15 00:00:00.000,West Liberty State College,BSN,3.37,132,126,207,201,678,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700125160,2002-01-15 00:00:00.000,graduate,2004-07-15 00:00:00.000,Marshall University,MSN,3.5,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700125781,1987-08-15 00:00:00.000,graduate,1998-12-29 00:00:00.000,West Virginia University at Morgantown,MSN,3.91,0,NULL,36,36,141,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700127000,1986-08-15 00:00:00.000,undergrad,1989-05-14 00:00:00.000,West Virginia University at Morgantown,BSN,3.44,0,0,65,0,224,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700127000,1996-08-15 00:00:00.000,graduate,1999-05-16 00:00:00.000,West Virginia University at Morgantown,JD,2.48,0,0,93,91,226,Law,Nursing,NULL,graduated,0,0,graduated with PH.D. in Law. Does not need GRE when applying to the WVU School of Nursing's Master's Program.,0
+700128438,1987-09-15 00:00:00.000,undergrad,1990-05-25 00:00:00.000,St. Cloud State University,BA/BS,3.55,0,0,53,53,167,Biology,NULL,NULL,graduated,0,0,NULL,0
+700129461,1990-08-15 00:00:00.000,undergrad,1996-05-11 00:00:00.000,Glenville State College,BA/BS,3.45,0,0,227,215,743,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700130015,1996-08-15 00:00:00.000,undergrad,2000-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.01,0,0,157,153,462,Exercise Physiology,Nursing,NULL,graduated,0,0,BS in Exercise Physiology,0
+700130019,1993-01-15 00:00:00.000,assoc.,1996-05-15 00:00:00.000,Potomac StateCollege,Assoc.,0,0,0,0,0,0,Biology,NULL,NULL,graduated,0,0,NULL,0
+700130019,1997-01-15 00:00:00.000,undergrad,1998-12-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,0,0,0,0,0,0,Biology,NULL,NULL,graduated,0,0,NULL,0
+700130451,1980-08-15 00:00:00.000,graduate,1983-12-28 00:00:00.000,West Virginia University at Morgantown,MSN,3.68,3,0,85,82,302,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700131194,1993-08-15 00:00:00.000,undergrad,1997-05-11 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.86,0,0,114,116,332,Biology,NULL,NULL,graduated,0,0,Expected to graduate with MS in Biology December 2005,0
+700131728,1995-08-15 00:00:00.000,undergrad,1999-08-20 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.15,58,21,163,96,303,Social Work,Sociology,NULL,graduated,0,0,NULL,0
+700132475,2001-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700132547,2005-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Marshall University,NULL,3.75,0,0,151,151,567,Nursing,NULL,NULL,NULL,0,0,Will graduate May 2007,0
+700132577,1998-05-15 00:00:00.000,undergrad,1999-08-20 00:00:00.000,West Virginia University at Morgantown,BA,2.27,0,0,149,156,0,Liberal Arts,NULL,NULL,graduated,0,0,NULL,354
+700134639,1995-08-15 00:00:00.000,undergrad,1999-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.23,19,24,139,121,392,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700135854,1988-05-15 00:00:00.000,assoc.,1989-05-14 00:00:00.000,Davis and Elkins College,Assoc.,3.83,0,0,71,0,180,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700135854,1994-05-15 00:00:00.000,undergrad,1996-12-17 00:00:00.000,Davis and Elkins College,BSN,3.93,0,0,143,0,452,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700136059,1995-08-15 00:00:00.000,undergrad,1999-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.21,3,0,138,132,425,Wildlife & Fisheries Resources,NULL,NULL,graduated,0,0,NULL,0
+700137569,1993-08-15 00:00:00.000,undergrad,1997-05-11 00:00:00.000,West Virginia University at Morgantown,BSN,3.23,25,0,163,149,481,Nursing,NULL,NULL,graduated,0,1,NULL,2
+700138245,1998-01-15 00:00:00.000,undergrad,2002-12-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.1,42,0,133,66,205,Regents Bachelor of Arts,NULL,NULL,graduated,0,0,NULL,0
+700138245,2003-05-20 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.25,42,0,191,111,361,Nursing,NULL,NULL,graduated,0,0,NULL,13
+700138397,1990-08-27 00:00:00.000,undergrad,1993-05-17 00:00:00.000,Wake Forest University,BA/BS,3.05,0,0,112,112,330,Sociology,NULL,NULL,graduated,0,0,NULL,0
+700138786,1995-08-15 00:00:00.000,undergrad,2005-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.7398,0,0,173,173,474,Communication Studies,NULL,NULL,graduated,0,0,NULL,0
+700139435,2003-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.67,81,144,145,101,371,Human Nutrition & Foods,NULL,NULL,graduated,0,0,NULL,0
+700139635,1992-08-15 00:00:00.000,undergrad,1996-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.45,0,0,0,0,0,Recreation,NULL,NULL,graduated,0,0,NULL,0
+700143338,1996-08-15 00:00:00.000,undergrad,2006-05-14 00:00:00.000,West Virginia University at Morgantown,BSN,3.55,0,0,148,112,398,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700146162,1996-08-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.12,0,0,146,139,434,Biology,NULL,NULL,graduated,0,0,NULL,0
+700146162,2001-08-15 00:00:00.000,graduate,2003-05-18 00:00:00.000,West Virginia University at Morgantown,Other Masters,3.66,0,0,41,36,132,Public Health,NULL,NULL,graduated,0,0,NULL,0
+700149122,1990-08-15 00:00:00.000,graduate,1992-05-17 00:00:00.000,West Virginia University at Morgantown,MSN,3.93,0,0,42,42,165,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700151390,1990-08-15 00:00:00.000,undergrad,1995-05-14 00:00:00.000,West Virginia University at Morgantown,BSN,3.03,0,0,115,115,348,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700151731,1996-08-15 00:00:00.000,undergrad,2002-08-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,0,0,0,0,0,0,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700153131,1993-08-15 00:00:00.000,undergrad,1997-05-11 00:00:00.000,West Virginia University at Morgantown,BSN,3,0,0,82,82,246,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700153517,1996-08-15 00:00:00.000,undergrad,2000-08-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.409,0,0,132,132,450,Geology,NULL,NULL,graduated,0,0,NULL,0
+700153576,1981-09-15 00:00:00.000,undergrad,1988-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.06,0,0,146,146,301,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700155525,1997-08-15 00:00:00.000,undergrad,1999-05-15 00:00:00.000,Shepherd College,Assoc.,2.94,0,0,184,184,541,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700155655,1996-08-15 00:00:00.000,undergrad,2000-05-14 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.06,6,0,131,125,383,Exercie Physiology,NULL,NULL,graduated,0,0,NULL,0
+700157011,1973-08-20 00:00:00.000,assoc.,1976-05-14 00:00:00.000,Ohio Valley General Hospital,Diploma,0,0,0,0,0,0,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700157295,1994-01-15 00:00:00.000,undergrad,1995-12-15 00:00:00.000,Garrett College,NULL,2.62,39,0,74,74,104,NULL,NULL,NULL,NULL,0,0,NULL,0
+700157295,2004-08-15 00:00:00.000,undergrad,2005-12-15 00:00:00.000,Fairmont State University,NULL,3.12,86,113,118,77,241,Pre-Nursing,NULL,NULL,NULL,0,0,NULL,0
+700157832,1996-08-15 00:00:00.000,undergrad,2000-05-14 00:00:00.000,West Virginia University at Morgantown,BSN,3.06,0,0,147,144,442,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700157911,1996-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,2.96,0,0,179,172,510,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700157993,1998-08-15 00:00:00.000,graduate,2000-05-14 00:00:00.000,West Virginia University at Morgantown,MSN,3.7,0,0,48,48,178,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700159466,1979-08-15 00:00:00.000,undergrad,1983-05-15 00:00:00.000,Alderson Broaddus College,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700159466,1991-08-15 00:00:00.000,graduate,1993-05-16 00:00:00.000,West Virginia University at Morgantown,MSN,3.61,0,0,39,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700160586,1996-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BA,3.66,0,0,137,136,498,Biology,NULL,NULL,graduated,0,0,NULL,0
+700160683,1993-08-15 00:00:00.000,undergrad,1995-05-14 00:00:00.000,West Virginia University at Morgantown,BSN,2.87,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700160719,1989-08-15 00:00:00.000,undergrad,1994-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.74,0,0,172,162,607,Political Science,NULL,NULL,graduated,0,0,NULL,0
+700161138,1985-09-15 00:00:00.000,undergrad,1989-06-15 00:00:00.000,Ohio University,BSN,3.556,0,0,133,133,475.02,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700161363,1989-08-15 00:00:00.000,undergrad,1995-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700162584,1991-08-15 00:00:00.000,undergrad,1995-08-21 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.26,0,0,128,110,249,Pscyhology,NULL,NULL,graduated,0,0,NULL,0
+700162584,2000-01-15 00:00:00.000,assoc.,2005-01-30 00:00:00.000,County College of Morris,Assoc.,2.5741,0,0,54,54,139,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700163307,1994-08-15 00:00:00.000,undergrad,1996-06-12 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700165688,1996-08-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.97,0,0,141,122,363,Soc.-Crime & Social Controll,NULL,NULL,graduated,0,0,NULL,0
+700166053,2000-08-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.28,0,0,149,147,483,Visual Art,Nursing,NULL,graduated,0,0,"Bachelor of Fine Arts, Visual Art",0
+700166260,2002-05-15 00:00:00.000,undergrad,2004-08-15 00:00:00.000,Duquesne University,BA/BS,3.4357,0,0,120,42,144,Prof. Communication/Leadership,NULL,NULL,graduated,0,0,NULL,0
+700166385,1993-08-15 00:00:00.000,undergrad,1998-05-17 00:00:00.000,Glenville State College,BSN,3.07,93,0,150,145,446,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700166389,2003-08-15 00:00:00.000,undergrad,2004-12-15 00:00:00.000,Alderson Broaddus College,BSN,3.78,0,0,190,33,125,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700166425,1966-08-15 00:00:00.000,undergrad,2001-05-12 00:00:00.000,Fairmont State University,BA/BS,2.2278,0,0,158,158,352,Biology,NULL,NULL,graduated,0,0,NULL,0
+700166472,1996-08-15 00:00:00.000,graduate,1998-05-17 00:00:00.000,West Virginia University at Morgantown,MSN,3.43,0,0,44,44,151,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700166572,1991-08-15 00:00:00.000,undergrad,2000-05-14 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.95,64,0,130,66,261,Child Development,NULL,NULL,graduated,0,0,NULL,0
+700166627,1996-08-15 00:00:00.000,undergrad,1999-05-20 00:00:00.000,West Virginia University at Charleston,BSN,3.82,116,25,141,50,191,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700169983,2002-01-15 00:00:00.000,undergrad,2004-05-14 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.4238,0,0,0,0,0,Geography,NULL,NULL,graduated,0,0,"Need help with her GPA, etc. sh",0
+800231542,1997-08-15 00:00:00.000,undergrad,2002-05-11 00:00:00.000,Fairmont State University,BA/BS,3.2931,0,0,174,174,573,Biology,NULL,NULL,graduated,0,0,NULL,0
+700170827,1997-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BSN,3.41,0,0,168,160,547,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700170908,1997-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,0,0,0,0,0,0,Sociology & Anthropology,NULL,NULL,graduated,0,0,NULL,0
+700170908,2003-05-20 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.32,0,0,188,175,581,Nursing,NULL,"Godwin, Michele",graduated,0,1,NULL,7
+700171164,1984-08-15 00:00:00.000,undergrad,1987-12-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.7045,0,0,88,88,238,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700171428,1972-09-15 00:00:00.000,assoc.,1975-05-15 00:00:00.000,Northern Kentucky University,Assoc.,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700171428,1996-08-15 00:00:00.000,undergrad,2000-05-14 00:00:00.000,West Virginia University at Morgantown,BSN,3.75,119,0,135,29,109,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700174374,1982-08-15 00:00:00.000,undergrad,1986-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.8432,0,0,134,134,381,Journalism,NULL,NULL,graduated,0,0,NULL,0
+700174623,1982-08-15 00:00:00.000,undergrad,1986-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.8,6,0,131,130,372,Business Administration,NULL,NULL,graduated,0,0,NULL,0
+700175714,1997-07-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BA,3.23,0,0,129,127,410,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700175789,1978-08-15 00:00:00.000,assoc.,1988-12-11 00:00:00.000,University of Charleston,Assoc.,2.925,0,0,145,27,79,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700175789,1920-01-01 00:00:00.000,undergrad,1990-05-12 00:00:00.000,Bethany College,BA/BS,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,Waiting on official transcripts,0
+700175855,1974-08-15 00:00:00.000,undergrad,1978-05-15 00:00:00.000,Salem International University,BA/BS,0,0,0,0,0,0,Oral Communication,NULL,NULL,graduated,0,1,NULL,0
+700175855,1982-08-15 00:00:00.000,assoc.,1984-05-15 00:00:00.000,Columbus Technical Institute,Assoc.,0,0,0,0,0,0,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700175855,1997-08-15 00:00:00.000,undergrad,2000-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700176850,2000-08-15 00:00:00.000,undergrad,2002-05-31 00:00:00.000,Ohio Valley College,BA/BS,3.74,0,0,152,141,527,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700177552,2000-08-21 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.57,0,0,135,135,483,Marketing,NULL,NULL,graduated,0,0,NULL,0
+700178549,1998-08-15 00:00:00.000,undergrad,2002-05-19 00:00:00.000,West Virginia University at Morgantown,BSN,3.37,0,0,137,13500,455,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700178902,2004-08-20 00:00:00.000,undergrad,2005-12-28 00:00:00.000,West Virginia University at Morgantown,BSN,3.75,0,0,0,0,0,NULL,NULL,NULL,NULL,0,1,Waiting on official transcript.,0
+700179277,2000-01-15 00:00:00.000,assoc.,2003-05-17 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.69,0,0,114,114,307,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700180696,1997-08-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.2265,0,0,128,128,413,Animal and Veterinary Sciences,NULL,NULL,graduated,0,0,NULL,0
+700180716,1994-08-15 00:00:00.000,assoc.,2000-05-13 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.8076,0,0,130,130,365,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700182151,1997-05-15 00:00:00.000,undergrad,1999-05-16 00:00:00.000,West Virginia University at Morgantown,BSN,3.24,81,0,151,133,431,Nursing,NULL,NULL,graduated,0,1,NULL,2
+700182200,1999-01-15 00:00:00.000,undergrad,NULL,Mountain State University,NULL,3.7028,0,0,141,138,511,Business Administration,NULL,NULL,NULL,0,0,To Graduate December 2005,0
+700182393,1995-08-15 00:00:00.000,undergrad,1999-05-16 00:00:00.000,Glenville State College,BSN,3.23,141,NULL,141,139,449,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700182411,1997-08-15 00:00:00.000,undergrad,1999-12-15 00:00:00.000,West Virginia Institute of Technology,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700183190,1997-08-15 00:00:00.000,undergrad,2001-05-15 00:00:00.000,Virginia Wesleyan College,BA/BS,2.87,10,0,146,0,378,Biology/Chemistry,NULL,NULL,graduated,0,0,NULL,0
+700183773,2001-08-20 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BSN,3.61,15,NULL,168,155,561,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700184154,2005-02-15 00:00:00.000,undergrad,2006-08-15 00:00:00.000,Mountain State University,BSN,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,expected to graduate in August 2006.,0
+700185165,1996-08-15 00:00:00.000,undergrad,1997-05-15 00:00:00.000,Marshall University,NULL,3.19,31,99,31,31,0,NULL,NULL,NULL,to WVU Nursing,0,0,NULL,0
+700185165,1997-08-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BSN,3.62,117,117,117,117,438,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700185197,1997-08-15 00:00:00.000,undergrad,2000-05-14 00:00:00.000,West Virginia University at Charleston,BSN,3.49,0,0,145,57,199,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700185431,2002-08-15 00:00:00.000,graduate,2005-05-15 00:00:00.000,West Virginia University at Morgantown,MSN,3.84,0,0,50,50,192,Nursing,NULL,"Simoni, Patricia",graduated,0,1,NULL,0
+700185754,2000-01-15 00:00:00.000,graduate,2002-05-19 00:00:00.000,West Virginia University at Morgantown,MA,2.8,0,0,44,44,123,"Agr, Forestry & Consumer Sci",NULL,NULL,graduated,0,0,NULL,0
+700187728,2000-08-15 00:00:00.000,undergrad,2003-07-15 00:00:00.000,Bluefield State College,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,0,NULL,0
+700187830,2004-08-15 00:00:00.000,graduate,NULL,University of Phoenix,MSN,NULL,NULL,NULL,NULL,NULL,NULL,Nursing,NULL,NULL,NULL,0,1,"no transcript, according to application, should graduate 09/2006 with MSN",0
+700188986,1989-08-15 00:00:00.000,assoc.,1995-05-05 00:00:00.000,Manatee Community College,Assoc.,3.21,0,0,90,124,289,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700190211,1998-08-15 00:00:00.000,undergrad,2000-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.77,0,0,93,88,332,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700190750,2000-08-15 00:00:00.000,undergrad,2003-05-15 00:00:00.000,Waynesburg College,BSN,3.68,0,0,75,75,275,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700191985,1998-08-15 00:00:00.000,graduate,2012-05-12 00:00:00.000,West Virginia University at Morgantown,Other Masters,3.3543,0,0,209,206,691,Dental Hygiene,NULL,NULL,graduated,0,0,NULL,0
+700192345,1991-09-15 00:00:00.000,assoc.,1994-05-14 00:00:00.000,West Virginia Institute of Technology,Assoc.,3.0625,0,0,32,32,98,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700192678,1998-08-15 00:00:00.000,undergrad,2003-12-29 00:00:00.000,West Virginia University at Morgantown,BA,NULL,0,0,NULL,0,0,Visual Art,NULL,NULL,graduated,0,0,NULL,0
+700193271,2004-08-15 00:00:00.000,undergrad,2007-05-10 00:00:00.000,Fairmont State University,BA/BS,2.13,0,0,111,110,235,Psychology,NULL,NULL,NULL,0,0,will graduate May 2007,0
+700193405,1992-08-15 00:00:00.000,diploma,1994-06-17 00:00:00.000,Saint Vincent Health Center School of Nursing,Diploma,3.6,0,0,89,3.6,325,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700193407,1920-01-01 00:00:00.000,assoc.,NULL,NULL,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700194137,1994-08-15 00:00:00.000,undergrad,1996-05-15 00:00:00.000,University of Charleston,Assoc.,2.9,0,0,77,77,224,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700195703,2002-08-15 00:00:00.000,undergrad,2003-12-15 00:00:00.000,Waynesburg College,BSN,4,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700195703,2003-12-15 00:00:00.000,graduate,2004-12-15 00:00:00.000,Waynesburg College,MSN,4,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700195856,1998-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,0,0,0,0,0,0,Animal and Veterinary Sciences,NULL,NULL,graduated,0,0,NULL,0
+700195930,2002-08-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,West Virginia University at Morgantown,NULL,2.77,17,27,146,132,366,Exercise Physiology,NULL,NULL,NULL,0,0,graduating 12/28/06 w/BS-Ex. Phys. Degree,0
+700196570,1999-08-15 00:00:00.000,undergrad,2003-08-15 00:00:00.000,Slippery Rock University,BA/BS,2.84,0,0,125,125,355,Community Health,NULL,NULL,graduated,0,0,NULL,0
+700196839,1988-08-15 00:00:00.000,undergrad,1993-05-08 00:00:00.000,Marshall University,BSN,2.55,0,0,139,142,363,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700198337,1998-08-15 00:00:00.000,undergrad,2003-08-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.53,0,0,128,132,334,Multidisciplinary Studies,NULL,NULL,graduated,0,0,NULL,0
+700198851,1998-08-15 00:00:00.000,undergrad,2002-12-27 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.1,0,0,148,146,454,French & Psychology,NULL,NULL,graduated,0,0,NULL,4
+700198851,2003-05-20 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.26,0,0,217,196,639,Nursing,NULL,Michele Godwin,graduated,0,1,NULL,13
+700199632,1998-08-15 00:00:00.000,undergrad,2004-05-22 00:00:00.000,Shepherd College,BSN,3.27,0,0,130,130,426,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700200002,2000-01-02 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,0,0,0,0,0,0,Child Development & Family Studies,NULL,NULL,NULL,0,0,student to graduate in May 2007,0
+700202105,2001-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Virginia Institute of Technology,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700202707,1999-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700203652,1976-08-15 00:00:00.000,undergrad,1979-05-27 00:00:00.000,University of Wisconsin,BA/BS,3.14,0,0,90,3.14,285.5,NULL,NULL,NULL,graduated,0,0," Has BS in Natural Science, May 27, 1979.",0
+700203926,2000-08-15 00:00:00.000,undergrad,NULL,West Virginia Institute of Technology,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,1,Waiting on official transcript.,0
+700204521,1998-05-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BSN,2.59,0,0,173,44,114,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700206872,2000-08-15 00:00:00.000,assoc.,2004-05-08 00:00:00.000,Fairmont State University,Assoc.,3.13,0,0,128,128,401,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700206872,2004-08-15 00:00:00.000,undergrad,NULL,Fairmont State University,NULL,4,0,0,16,16,64,NULL,NULL,NULL,NULL,0,0,NULL,0
+700207038,1983-08-15 00:00:00.000,assoc.,1985-12-20 00:00:00.000,The University of Charleston,Assoc.,2.83,0,0,NULL,112,317,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700207293,2000-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BSN,3.69,7,0,161,146,540,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700207921,1993-08-15 00:00:00.000,assoc.,2001-05-12 00:00:00.000,Fairmont State University,Assoc.,3.477,0,0,111,111,386,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700208003,1998-08-15 00:00:00.000,graduate,2001-05-13 00:00:00.000,West Virginia University at Morgantown,MSN,3.74,0,0,59,59,221,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700208118,1996-01-15 00:00:00.000,undergrad,2001-12-16 00:00:00.000,West Virginia State College,BA/BS,3.59,0,0,0,0,0,Biology,NULL,NULL,graduated,0,0,NULL,0
+700208118,2003-05-20 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,4,0,0,60,47,188,Nursing,NULL,Michele Godwin,graduated,0,0,NULL,0
+700208435,1998-08-15 00:00:00.000,undergrad,2001-05-13 00:00:00.000,West Virginia University at Morgantown,BSN,4,0,0,32,128,128,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700208689,1987-01-15 00:00:00.000,graduate,1991-12-27 00:00:00.000,West Virginia University at Morgantown,Other Masters,3.82,0,0,67,51,195,Rehabilitation Counseling,NULL,NULL,graduated,0,0,NULL,0
+700208983,1997-08-15 00:00:00.000,assoc.,2003-05-17 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.24,0,0,111,120,269,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700209822,2001-08-15 00:00:00.000,undergrad,2002-08-05 00:00:00.000,West Virginia Institute of Technology,BSN,3.43,0,0,144,132,454,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700209945,1998-08-15 00:00:00.000,graduate,2000-05-14 00:00:00.000,West Virginia University at Charleston,MSN,3.77,0,0,44,44,166,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700209983,1999-08-23 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,0,0,0,0,0,0,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700209983,2003-05-20 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.69,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700210259,1999-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.2413,0,0,174,174,564,Human Performance and Health,NULL,NULL,graduated,0,0,NULL,0
+700210427,1999-08-15 00:00:00.000,assoc.,2003-05-10 00:00:00.000,Fairmont State University,Assoc.,3.68,0,0,113,3.589,402,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700210640,1999-08-15 00:00:00.000,undergrad,2005-08-19 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.8072,0,0,166,166,466,Regents Bachelor of Arts,NULL,NULL,graduated,0,0,NULL,0
+700210923,1995-05-15 00:00:00.000,assoc.,1997-05-09 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.45,42,0,104,62,152,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700210932,1996-08-15 00:00:00.000,undergrad,1997-05-15 00:00:00.000,West Virginia Institute of Technology,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700212372,2001-08-15 00:00:00.000,undergrad,2002-05-15 00:00:00.000,Fairmont State University,NULL,2.86,4,0,26,29,83,NULL,NULL,NULL,unknown,0,0,NULL,0
+700212408,2001-08-15 00:00:00.000,undergrad,2004-05-22 00:00:00.000,Shepherd University,BA/BS,2.74,0,0,136,146,401,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700212588,1999-08-15 00:00:00.000,undergrad,2003-05-15 00:00:00.000,Wheeling Jesuit University,BA/BS,0,0,0,0,0,0,Nuclear Medicine Technology,NULL,NULL,graduated,0,0,NULL,0
+700212594,1999-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.27,16,12,132,118,387,Animal & Veterinary Science,NULL,NULL,graduated,0,0,NULL,0
+700212771,2001-05-15 00:00:00.000,undergrad,2004-05-08 00:00:00.000,Fairmont State University,BSN,3.85,0,0,134,130,501,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700212789,2003-08-15 00:00:00.000,undergrad,2004-12-15 00:00:00.000,The Pennsylvania State University,BSN,3.42,0,0,94,139,321.08,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700213428,1989-01-15 00:00:00.000,assoc.,1992-05-16 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,3.33,0,0,77,77,257,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700214460,2000-08-15 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.5,0,0,128,125,438,Social and Anthropology,Nursing,NULL,graduated,0,0,NULL,0
+700217370,2003-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Parkersburg,BSN,3.58,0,0,131,128,459,Nursing,NULL,"Sellers, Alita",graduated,0,1,NULL,NULL
+700217962,2000-08-21 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,0,0,0,0,0,0,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700218183,2004-01-02 00:00:00.000,assoc.,2005-05-14 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.12,94,264,133,130,347,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700218996,1995-08-15 00:00:00.000,undergrad,1999-05-16 00:00:00.000,Waynesburg College,BA/BS,3.61,0,0,129,123,443.9,Sports Medicine,NULL,NULL,graduated,0,0,NULL,0
+700218996,1999-06-15 00:00:00.000,graduate,2000-06-09 00:00:00.000,Ohio University,Other Masters,3.743,0,0,57,66,213.37,Physical Education,NULL,NULL,graduated,0,0,NULL,0
+700219344,2002-08-19 00:00:00.000,undergrad,2004-08-20 00:00:00.000,West Virginia University at Morgantown,BSN,3.15,7,9,143,124,391,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700222047,1999-08-15 00:00:00.000,undergrad,2003-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.8015,0,0,128,131,367,Biology,NULL,NULL,graduated,0,0,NULL,0
+700222123,1999-08-15 00:00:00.000,assoc.,2003-12-19 00:00:00.000,Allegany College of Maryland,Assoc.,2.71,0,0,13,102,96,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700222549,1998-08-15 00:00:00.000,undergrad,2002-05-18 00:00:00.000,Shepherd College,BA,3.49,0,0,129,129,451,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700222927,1999-08-15 00:00:00.000,undergrad,NULL,University of Charleston,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700222927,2000-01-15 00:00:00.000,undergrad,NULL,West Virginia State College,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700223213,2000-08-21 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.63,9,0,129,130,342,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700223583,1999-08-15 00:00:00.000,undergrad,2003-08-15 00:00:00.000,West Virginia University at Morgantown,BS,2.91,0,0,146,134,390,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700224672,2004-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,3.5,0,0,163,30,105,NULL,NULL,NULL,graduated,0,1,NULL,NULL
+700225480,1999-08-15 00:00:00.000,assoc.,2001-05-12 00:00:00.000,West Virginia Northern Community College,Assoc.,2.81,122,0,173,177,499,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700225951,1999-08-15 00:00:00.000,graduate,2002-05-19 00:00:00.000,West Virginia University at Morgantown,MSN,3.7,0,0,55,55,204,Nursing,NULL,"Smith, Mary Jane",graduated,0,0,NULL,0
+700226460,2000-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Virgina University,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700226680,1992-01-15 00:00:00.000,undergrad,1996-05-05 00:00:00.000,University of Charleston,BSN,3.139,0,0,141,129,405,Nursing,NULL,NULL,graduated,0,0,Application incomplete as of 04/26/2006 sh,0
+700226816,1995-08-15 00:00:00.000,undergrad,1999-05-08 00:00:00.000,St. Andrews Presbyterian College,BA/BS,3.2598,0,0,127,127,414,Psychology,Chemistry,NULL,graduated,0,0,NULL,0
+700226816,2000-05-15 00:00:00.000,undergrad,2002-12-27 00:00:00.000,West Virginia University at Morgantown,BSN,3.71,0,0,173,67,249,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700227361,2000-08-15 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.61,0,0,128,127,332,Foreign Language - Spanish,NULL,NULL,graduated,0,0,NULL,0
+700227383,2002-01-02 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.1742,0,0,132,132,419,Biology,NULL,NULL,graduated,0,0,NULL,0
+700227623,1999-08-15 00:00:00.000,undergrad,1999-05-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.23,0,0,157,159,514,Biology,History,NULL,graduated,0,0,NULL,0
+700227795,2003-05-15 00:00:00.000,graduate,2005-05-15 00:00:00.000,University of Phoenix,MSN,3.7,0,0,37,3.7,136.87,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700227854,2000-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,3.88,0,0,157,144,560,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700227955,2000-08-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BSN,3.58,0,0,153,153,552,NULL,NULL,NULL,graduated,0,0,NULL,0
+700229601,2001-08-15 00:00:00.000,undergrad,2006-08-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700229604,2002-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.87,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Expected to graduate in May 2006,0
+700230278,2000-08-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.3571,0,0,154,154,517,Business Administration,NULL,NULL,graduated,0,0,NULL,0
+700230492,2000-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.94,3,12,173,171,674,Advertising AND Pyschology,NULL,NULL,graduated,0,0,Dual Major,0
+700230530,2001-08-15 00:00:00.000,undergrad,2003-03-15 00:00:00.000,Fairmont State University,NULL,3.2,7,0,49,39,125,Pre-Phys. Thearpy,NULL,NULL,NULL,0,0,NULL,0
+700230530,2004-01-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,Mountain State University,NULL,4,0,0,12,12,48,NULL,NULL,NULL,NULL,0,0,NULL,0
+700230530,2005-01-15 00:00:00.000,undergrad,NULL,Davis and Elkins College,NULL,3.47,0,0,98,87,302,Business,NULL,NULL,NULL,0,0,NULL,0
+700230714,2004-08-15 00:00:00.000,undergrad,2006-05-16 00:00:00.000,Fairmont State University,BSN,3.97,0,0,32,32,124,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700230770,2000-08-15 00:00:00.000,undergrad,2004-08-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.04,0,0,154,141,429,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700230819,2000-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.47,0,0,154,153,531,Nurisng,NULL,NULL,NULL,0,0,NULL,0
+700230851,2000-08-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BSN,3.12,0,0,140,123,384,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700230930,2001-08-15 00:00:00.000,undergrad,2001-12-15 00:00:00.000,Fairmont State University,NULL,4,22,0,22,22,0,NULL,NULL,NULL,transferred,0,0,NULL,0
+700231417,2002-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Fairmont State University,NULL,2.57,0,0,49,49,141,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700231417,2004-08-15 00:00:00.000,NULL,2005-02-15 00:00:00.000,Waynesburg College,NULL,2.57,0,0,12,12,29,NULL,NULL,NULL,NULL,0,0,NULL,0
+700231915,2000-08-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.36,0,0,141,132,444,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700231999,2000-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Virginia Institute of Technology,BSN,3.87,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700232014,2002-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,3.38,0,0,160,143,484,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700232258,2000-08-15 00:00:00.000,undergrad,2003-12-29 00:00:00.000,West Virginia University at Morgantown,BS,3.41,0,0,130,124,423,Biology,NULL,NULL,graduated,0,0,NULL,0
+700232591,2003-08-15 00:00:00.000,assoc.,2005-05-15 00:00:00.000,Allegany College of Maryland,Assoc.,2.6822,0,0,107,107,287,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700233190,2001-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,West Virginia University at Morgantown,NULL,3.07,0,0,135,135,415,Child Development & Family Studies,NULL,NULL,NULL,0,0,Expected  to graduate May 2006,0
+700233225,2003-08-15 00:00:00.000,assoc.,2005-05-15 00:00:00.000,Bluefield State College,NULL,3.4,0,0,70,70,238,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700233304,2001-08-15 00:00:00.000,undergrad,NULL,Potomac State College,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700233549,2001-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,3.24,0,0,139,126,409,Nursing,NULL,"Summers, Martha",graduated,0,0,NULL,0
+700233762,1994-08-15 00:00:00.000,undergrad,1996-05-30 00:00:00.000,California State University,BA/BS,3.3403,0,0,191,191,638,Geography,NULL,NULL,graduated,0,0,NULL,0
+700234541,1999-08-15 00:00:00.000,undergrad,2002-05-19 00:00:00.000,West Virginia University at Charleston,BSN,3.82,NULL,0,141,50,191,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700234731,1996-03-25 00:00:00.000,undergrad,NULL,Community College of the Air Force,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700234731,1997-01-15 00:00:00.000,undergrad,NULL,Sinclair College,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700234811,2000-08-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.93,0,0,128,127,373,Biology,NULL,NULL,graduated,0,0,NULL,0
+700234837,2003-08-15 00:00:00.000,assoc.,2005-05-15 00:00:00.000,Bluefield State College,NULL,3.13,0,0,103,103,323,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700234925,2002-01-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,Mountain State University,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700235039,2000-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.8455,0,0,136,136,387,Animal and Veterinary Sciences,NULL,NULL,graduated,0,0,NULL,0
+700235383,2000-08-15 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.25,0,0,0,131,426,MDS,"Communication, Sociology, History",NULL,graduated,0,0,NULL,0
+700235616,1966-09-15 00:00:00.000,undergrad,1976-05-15 00:00:00.000,West Virginia State College,BA/BS,3.18,0,0,145,145,462,Social Work,NULL,NULL,graduated,0,0,NULL,0
+700235616,1985-08-15 00:00:00.000,assoc.,1986-08-14 00:00:00.000,University of Charleston,Assoc.,3.7,0,0,30,0,111,Paralegal,NULL,NULL,graduated,0,0,NULL,0
+700235616,1997-05-15 00:00:00.000,undergrad,1999-05-09 00:00:00.000,Davis and Elkins College,BA/BS,0,0,0,0,0,0,Contract Hlt.&Hum. Serv. Mgt.,NULL,NULL,graduated,0,0,NULL,0
+700235616,2000-08-21 00:00:00.000,undergrad,2002-12-27 00:00:00.000,West Virginia University at Morgantown,BSN,3.83,68,0,86,18,69,Nursing,NULL,NULL,graduated,0,1,Charleston Campus,0
+700235973,1995-08-15 00:00:00.000,assoc.,1999-05-15 00:00:00.000,University of Charleston,Assoc.,3.183,0,0,77,0,0,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700235973,1999-08-23 00:00:00.000,undergrad,2002-05-19 00:00:00.000,West Virginia University at Charleston,BSN,3.64,110,0,138,37,135,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700236006,1986-08-25 00:00:00.000,assoc.,1989-05-13 00:00:00.000,Saint Mary's School of Nursing,Diploma,2,0,0,114,114,228,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700236060,1996-01-15 00:00:00.000,assoc.,1999-06-15 00:00:00.000,Shawnee State University,Assoc.,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700236060,2001-08-15 00:00:00.000,undergrad,2002-12-15 00:00:00.000,West Virginia Institute of Technology,BSN,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700237374,2000-01-15 00:00:00.000,undergrad,2001-05-15 00:00:00.000,Fairmont State University,NULL,3,0,0,11,11,33,NULL,NULL,NULL,NULL,0,0,NULL,0
+700239324,2000-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.0349,0,0,141,143,434,Regents Bachelor of Arts,NULL,NULL,graduated,0,0,NULL,0
+700239971,2000-08-15 00:00:00.000,undergrad,2004-05-16 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.12,NULL,0,152,146,456,Speech Pathology and Audiology,NULL,NULL,graduated,0,0,NULL,0
+700240872,2000-08-15 00:00:00.000,undergrad,2004-08-20 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.69,0,0,173,172,464,Psychology,Nursing,NULL,graduated,0,0,BA in Psychology,0
+700242092,2002-08-15 00:00:00.000,undergrad,2005-08-19 00:00:00.000,West Virginia University at Morgantown,BSN,3.47,0,0,135,121,420,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700242249,2001-08-20 00:00:00.000,undergrad,2003-05-18 00:00:00.000,West Virginia University at Morgantown,BSN,3.83,90,0,144,135,518,Nursing,NULL,NULL,graduated,0,1,NULL,8
+700243305,2001-08-20 00:00:00.000,undergrad,2005-12-28 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.92,6,0,114,102,298,Exercise Physiology,NULL,NULL,NULL,0,0,NULL,0
+700243313,2003-05-15 00:00:00.000,undergrad,2005-08-15 00:00:00.000,West Virginia State College,NULL,4,0,0,9,9,36,NULL,NULL,NULL,NULL,0,0,NULL,0
+700243886,2000-08-15 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BS,3.53,0,0,0,0,0,Rck Parks & Tourism Resources,NULL,NULL,graduated,0,0,NULL,0
+700245207,2001-08-21 00:00:00.000,undergrad,2003-12-29 00:00:00.000,West Virginia University at Morgantown,BSN,3.8,0,0,169,71,270,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700245414,2001-08-20 00:00:00.000,undergrad,2005-08-19 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.15,18,0,128,128,404,History,Intl & Comparative Politics,NULL,graduated,0,0,NULL,0
+700246752,1996-08-15 00:00:00.000,undergrad,2000-05-13 00:00:00.000,Fairmont State University,BA/BS,3.76,0,0,128,127,478,Criminal Justice,NULL,NULL,graduated,0,0,NULL,0
+700247532,2002-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,2.79,40,0,130,117,327,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700247669,2001-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BS,3.51,0,0,138,132,464,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700247882,2003-08-15 00:00:00.000,undergrad,2006-05-13 00:00:00.000,West Liberty State College,BSN,3.24,0,0,150,143,464,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700248010,2003-08-15 00:00:00.000,assoc.,2005-05-07 00:00:00.000,Marshall University,Assoc.,2.81,43,0,109,307,307,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700248181,2005-01-01 00:00:00.000,undergrad,2006-04-29 00:00:00.000,Florida Southern College,BA/BS,3.6,0,0,40,40,144,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700250503,2003-01-01 00:00:00.000,undergrad,2003-05-15 00:00:00.000,Shenandoah University,NULL,3.35,14,0,17,31,57,Pre-Physical Therapy,NULL,NULL,transferred,0,0,NULL,0
+700250503,2003-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Shepherd College,NULL,3.59,32,0,44,44,158,Pres Nursing,NULL,NULL,NULL,0,0,separate enrollments from 08/2003-12/2003 and 01/2005-05/2006
+Graduated in 200805 with BS in Recreation and Leisure Studies,0
+700250830,2002-09-15 00:00:00.000,undergrad,NULL,University of Michigan,NULL,4,0,0,86,109,344,Biopsychology,NULL,NULL,NULL,0,0,Expected to graduate in December 2005,0
+700250955,2002-08-15 00:00:00.000,assoc.,2005-05-14 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.11,0,0,90,188,274,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700250989,2002-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.25,0,0,101,101,329,Animal & Veterinary Sciences,NULL,NULL,NULL,0,0,Expected to graduate May 2006,0
+700251220,2000-08-15 00:00:00.000,undergrad,2002-05-19 00:00:00.000,West Virginia University at Morgantown,BSN,2.77,171,303,195,143,396,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700251821,2002-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,3.97,0,0,133,120,477,Nursing,NULL,"Watson, Joanne",graduated,0,0,RN Licensure still pending,0
+700251827,2001-08-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.8133,0,0,150,150,422,Exercise Physiology,NULL,NULL,NULL,0,0,student to graduate 12/28/2006,NULL
+700252341,2001-08-15 00:00:00.000,undergrad,2002-08-16 00:00:00.000,West Virginia University at Morgantown,BSN,3.87,0,0,139,49,190,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700252621,2001-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BA,3.33,0,0,132,124,414,Psychology,NULL,NULL,graduated,0,0,NULL,0
+700252918,1989-08-15 00:00:00.000,graduate,1992-05-17 00:00:00.000,West Virginia University at Morgantown,MSN,3.75,0,0,36,36,135,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700252994,2000-08-15 00:00:00.000,graduate,2003-05-18 00:00:00.000,West Virginia University at Morgantown,MSN,3.64,0,0,44,44,160,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700253843,2001-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,3.36,0,0,135,122,410,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700256720,1997-09-15 00:00:00.000,undergrad,2001-01-15 00:00:00.000,West Virginia State College,NULL,3.03,0,0,94,97,294,EMA Ed/Physical Education,NULL,NULL,unknown,0,0,NULL,0
+700135858,1997-08-15 00:00:00.000,graduate,2001-05-31 00:00:00.000,West Virginia University at Charleston,MSN,3.5,0,0,42,42,147,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700135858,1995-08-15 00:00:00.000,undergrad,1997-05-11 00:00:00.000,West Virginia University at Charleston,BA/BS,3.29,129,121,154,64,211,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700631673,1999-05-01 00:00:00.000,graduate,2002-05-14 00:00:00.000,Mountain State University,MSN,4,0,0,51,44,176,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700631673,1993-08-15 00:00:00.000,undergrad,1998-05-12 00:00:00.000,Mountain State University,BSN,3.8672,0,0,143,113,437,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700265668,2002-05-21 00:00:00.000,undergrad,2008-08-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.7165,0,0,128,127,345,Multidisciplinary Studies,NULL,NULL,graduated,0,0,NULL,0
+701035934,1992-08-15 00:00:00.000,assoc.,1994-05-14 00:00:00.000,Davis and Elkins College,Assoc.,2.5699,0,0,96.5,96.5,248,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701035934,1994-08-15 00:00:00.000,undergrad,1994-12-29 00:00:00.000,Fairmont State University,NULL,2,0,0,3,3,6,General,NULL,NULL,NULL,0,0,NULL,0
+700294059,2004-08-15 00:00:00.000,assoc.,2006-06-11 00:00:00.000,Sewickley Valley Hospital School of Nursing,NULL,3.09,0,0,80,80,241,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700294059,2002-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Virginia University at Morgantown,NULL,3.14,0,0,57,57,179,Pre-Nursing,NULL,NULL,NULL,0,0,NULL,0
+700294059,2007-08-15 00:00:00.000,undergrad,2007-12-29 00:00:00.000,Wagner College,NULL,4,0,0,4,4,16,General,NULL,NULL,NULL,0,0,NULL,0
+700294059,2004-08-14 00:00:00.000,undergrad,2006-05-16 00:00:00.000,La Roche College,NULL,3.2,0,0,15,15,48,General,NULL,NULL,NULL,0,0,NULL,0
+700290780,2002-01-02 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.8098,15,15,142,142,541,Journalism/Advertising,Bus. Admin.,NULL,graduated,0,0,NULL,0
+700147545,1990-08-15 00:00:00.000,graduate,1993-12-29 00:00:00.000,West Virginia University at Morgantown,Other Masters,3.8852,0,0,81,61,237,Social Work,NULL,NULL,graduated,0,0,NULL,0
+700147545,1983-08-15 00:00:00.000,undergrad,1987-05-08 00:00:00.000,Clarion University of Pennsylvania,BA/BS,3.69,0,0,148,145,535,Habilitative Sciences/Rehab Science,NULL,NULL,graduated,0,0,NULL,0
+701024286,2003-08-15 00:00:00.000,undergrad,2007-05-19 00:00:00.000,Canisius College,BA/BS,2.8506,0,0,154,154,439,Psychology,NULL,NULL,graduated,0,0,NULL,0
+701044950,1985-08-15 00:00:00.000,graduate,1990-05-26 00:00:00.000,University of Akron,MSN,3.648,0,0,40,40,145,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701044950,1975-08-15 00:00:00.000,undergrad,1983-12-17 00:00:00.000,Kent State,BSN,3.03,0,0,66,66,187,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700586806,2005-01-02 00:00:00.000,undergrad,2008-05-31 00:00:00.000,Mountain State University,BSN,3.3157,0,0,76,76,252,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701036098,2004-08-15 00:00:00.000,assoc.,2007-05-20 00:00:00.000,West Virginia State College,Assoc.,2.64,0,0,86,82,217,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700567285,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,BA/BS,3.5408,0,0,98,98,347,Exercise Physiology,NULL,NULL,NULL,0,0,NULL,0
+701048595,2002-08-15 00:00:00.000,undergrad,2007-05-31 00:00:00.000,Pennsylvania State University,BA/BS,3.2529,0,0,170,170,553,Biology & Psychology,NULL,NULL,graduated,0,0,NULL,0
+701048850,2003-05-01 00:00:00.000,graduate,NULL,St. Josephs College of Maine,NULL,3.91,0,0,42,33,129,Nursing,NULL,NULL,NULL,0,1,NULL,0
+701048850,1998-01-01 00:00:00.000,undergrad,2001-12-30 00:00:00.000,ST. Josephs College of Maine,BSN,3.89,0,0,133,44,171.2,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700572350,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.1734,0,0,98,98,311,Psychology,NULL,NULL,NULL,0,0,NULL,0
+701012923,2003-08-15 00:00:00.000,undergrad,2005-05-07 00:00:00.000,Saint Vincent College,BA/BS,3.565,0,0,152,75,267.4,Psychology Education,Elementary Education,NULL,graduated,0,0,NULL,NULL
+701012923,1998-08-15 00:00:00.000,undergrad,2001-05-15 00:00:00.000,University of Charleston,NULL,2.16,0,0,78,78,175,General,NULL,NULL,NULL,0,0,NULL,0
+701012923,2004-01-01 00:00:00.000,undergrad,2008-08-15 00:00:00.000,Westmoreland Co. Community College,NULL,3.33,0,0,27,27,90,General,NULL,NULL,NULL,0,0,NULL,0
+700953573,2000-08-15 00:00:00.000,undergrad,2005-05-07 00:00:00.000,James Madison University,BA/BS,2.932,0,0,143,143,418,Psychology,Biology,NULL,graduated,0,0,NULL,0
+700953573,2002-05-01 00:00:00.000,undergrad,2002-08-15 00:00:00.000,Frostburg University,NULL,4,0,0,4,4,16,General,NULL,NULL,NULL,0,0,NULL,0
+700953573,1999-09-08 00:00:00.000,undergrad,2001-07-26 00:00:00.000,Garrett College,NULL,2.79,0,0,10,10,27,General,NULL,NULL,NULL,0,0,NULL,0
+701052478,2005-09-01 00:00:00.000,undergrad,2007-06-16 00:00:00.000,University of Oregon,BA/BS,3.23,0,0,118,118,381,Human Phsysiology/Psychology,NULL,NULL,graduated,0,0,NULL,0
+701052478,1999-05-01 00:00:00.000,undergrad,2004-12-15 00:00:00.000,Santa Rosa Junior College,NULL,3.875,0,0,25,25,93,General,NULL,NULL,NULL,0,0,NULL,0
+701052478,2003-05-01 00:00:00.000,undergrad,2003-08-15 00:00:00.000,Sonoma State University,NULL,3,0,0,3,3,9,General,NULL,NULL,NULL,0,0,NULL,0
+701052478,2008-01-01 00:00:00.000,NULL,2008-06-15 00:00:00.000,Lane Community College,NULL,4,0,0,18,18,73,General,NULL,NULL,NULL,0,0,NULL,0
+701052478,2005-01-01 00:00:00.000,undergrad,2005-05-16 00:00:00.000,University of Pittsburgh,NULL,3.813,0,0,12,12,45,General,NULL,NULL,NULL,0,0,NULL,0
+701052478,2002-08-15 00:00:00.000,undergrad,2003-12-15 00:00:00.000,University of San Diego,NULL,3.23,0,0,39,39,129,General,NULL,NULL,NULL,0,0,NULL,0
+700159932,1988-08-15 00:00:00.000,undergrad,2002-05-19 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.468,0,0,141,141,489,Regents Bachelor of Arts,NULL,NULL,graduated,0,0,NULL,0
+700811561,2006-08-15 00:00:00.000,graduate,2008-05-18 00:00:00.000,West Virginia University at Morgantown,Other Masters,3.62,0,0,45,45,163,Public Health,NULL,NULL,graduated,0,0,NULL,0
+700811561,2002-08-15 00:00:00.000,undergrad,2006-04-27 00:00:00.000,West Virginia Wesleyan College,BA/BS,3.025,0,0,120,120,363,Biology,Chemistry,NULL,graduated,0,0,NULL,0
+701024286,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,D'Youville College,NULL,3.37,0,0,27,27,91,General,NULL,NULL,transferred,0,0,NULL,0
+700920838,1990-08-15 00:00:00.000,undergrad,1995-05-15 00:00:00.000,University of Ploiesti - Romania,BA/BS,0,0,0,0,0,0,Engineering,NULL,NULL,graduated,0,0,NULL,0
+700472931,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.1869,0,0,107,107,341,Exercise Physiology,NULL,NULL,NULL,0,0,NULL,0
+701012096,2001-05-01 00:00:00.000,assoc.,2008-05-10 00:00:00.000,Mt. Aloysius College,Assoc.,2.0891,0,0,101,101,211,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700166478,1996-08-15 00:00:00.000,graduate,1998-05-17 00:00:00.000,West Virginia University at Charleston,MSN,3.52,0,NULL,44,44,155,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700166478,1991-01-05 00:00:00.000,undergrad,1994-05-08 00:00:00.000,University of Charleston,BSN,2.8181,0,0,77,77,217,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700166478,1979-08-15 00:00:00.000,assoc.,1990-12-09 00:00:00.000,University of Charleston,Assoc.,3.0357,0,0,89,89,170,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700567536,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.6666,3,0,102,102,374,Exercise Physiology,NULL,NULL,NULL,0,0,NULL,0
+700567536,2007-05-01 00:00:00.000,undergrad,2007-08-15 00:00:00.000,Mount Aloysius College,NULL,3,0,0,3,3,9,General,NULL,NULL,NULL,0,0,NULL,0
+701000274,2004-08-15 00:00:00.000,undergrad,2008-08-01 00:00:00.000,Fairmont State University,BA/BS,3.29,6,6,128,124,408,Nutrition,NULL,NULL,graduated,0,0,NULL,0
+701000274,2008-05-01 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,2.66,0,0,6,6,16,Biology,NULL,NULL,NULL,0,0,NULL,0
+700301460,2003-08-15 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.0588,0,0,119,119,364,Journalism,NULL,NULL,graduated,0,0,NULL,0
+701055569,2000-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,Juniata College,BA/BS,3.4203,0,0,157,157,537,Biology,NULL,NULL,graduated,0,0,NULL,0
+701046773,2003-05-15 00:00:00.000,NULL,2005-05-15 00:00:00.000,East Arkansas Community College,Assoc.,3.3932,0,0,89,89,302,NULL,NULL,NULL,NULL,0,0,NULL,NULL
+700255705,2001-08-15 00:00:00.000,undergrad,2004-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.2,59,53,0,182,586,Anthropology,NULL,NULL,graduated,0,0,NULL,183
+700255705,1998-01-01 00:00:00.000,undergrad,2000-05-15 00:00:00.000,Bluefield State College,NULL,2.91,0,0,39,45,131,General,NULL,NULL,NULL,0,0,NULL,0
+700255705,1998-08-15 00:00:00.000,undergrad,2001-05-15 00:00:00.000,Concord University,NULL,3.23,0,0,53,56,181,General,NULL,NULL,NULL,0,0,NULL,0
+701037381,2000-08-15 00:00:00.000,undergrad,2005-07-26 00:00:00.000,Slippery Rock University,BA/BS,3.467,0,0,122,122,423,Community Health,NULL,NULL,graduated,0,0,NULL,0
+701041273,1997-09-01 00:00:00.000,graduate,1999-12-01 00:00:00.000,Cal State Long Beach,MSN,4,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700137133,1997-08-01 00:00:00.000,graduate,2005-05-01 00:00:00.000,West Virginia University at Morgantown,MSN,3.59,0,0,42,42,151,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700165351,1996-06-01 00:00:00.000,graduate,1998-08-01 00:00:00.000,West Virginia University at Morgantown,MSN,3.45,0,0,44,44,152,Nursing,NULL,NULL,NULL,0,0,NULL,0
+701048416,2001-08-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,West Virginia Northern Community College,Assoc.,2.7416,NULL,0,120,120,329,NULL,NULL,NULL,graduated,0,1,NULL,0
+701054632,2006-09-15 00:00:00.000,NULL,2007-12-15 00:00:00.000,Marshall University,Assoc.,3.1083,0,0,120,120,373,NULL,NULL,NULL,graduated,0,1,NULL,0
+701020918,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.9636,0,0,110,110,326,NULL,NULL,NULL,graduated,0,1,NULL,0
+701059210,1987-09-15 00:00:00.000,NULL,1991-08-15 00:00:00.000,University of Pennsylvania,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700430999,2005-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Fairmont State University,Assoc.,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,Will graduate with BSN from Fairmont State May 2009.,0
+700980978,1995-08-15 00:00:00.000,NULL,1997-05-15 00:00:00.000,Pikeville College,Assoc.,2.9151,0,0,224,224,653,NULL,NULL,NULL,graduated,0,1,NULL,0
+700992561,1991-08-15 00:00:00.000,NULL,1993-05-15 00:00:00.000,Bluefield State College,Assoc.,2.27,0,0,121,121,275,NULL,NULL,NULL,graduated,0,1,NULL,0
+701061959,1999-08-01 00:00:00.000,NULL,2003-05-01 00:00:00.000,George Mason University,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700853697,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Appalachian Bible College,NULL,4,0,0,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700908956,2007-01-29 00:00:00.000,undergrad,2007-05-18 00:00:00.000,Carroll Community College,NULL,1.5,NULL,NULL,6,6,9,High School,NULL,NULL,NULL,0,0,NULL,0
+700914187,2006-08-28 00:00:00.000,undergrad,2006-12-15 00:00:00.000,Carroll Community College,NULL,2.87,0,NULL,12,12,34.5,General,NULL,NULL,NULL,0,0,NULL,NULL
+700898708,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Glenville State College,NULL,3,0,0,6,6,18,High School,NULL,NULL,NULL,0,0,NULL,0
+700726117,2004-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Marshall University,NULL,4,0,0,22,22,88,High School,NULL,NULL,NULL,0,0,NULL,0
+700944874,2008-03-01 00:00:00.000,undergrad,2008-08-08 00:00:00.000,Howard Community College,NULL,3,0,0,3,3,9,High School,NULL,NULL,NULL,0,0,NULL,0
+700421067,2006-01-01 00:00:00.000,NULL,2006-08-15 00:00:00.000,Fairmont State University,NULL,2.67,0,0,9,9,24,NULL,NULL,NULL,NULL,0,0,NULL,0
+700726005,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Florida Gulf Coast University,NULL,3.31,0,0,28,28,92.9,Pre-Nursing,NULL,NULL,transferred,0,0,NULL,0
+700868883,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,West Liberty State College,NULL,4,0,NULL,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700868883,2007-08-16 00:00:00.000,undergrad,2008-05-16 00:00:00.000,WV Northern Community College,NULL,4,0,0,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700961170,2008-06-16 00:00:00.000,undergrad,2008-08-31 00:00:00.000,Central Ohio Technical College,NULL,4,0,0,5,5,20,General,NULL,NULL,NULL,0,0,NULL,0
+700899813,2008-05-01 00:00:00.000,undergrad,2008-08-15 00:00:00.000,Westmoreland County Community College,NULL,4,6,0,6,6,24,General,NULL,NULL,NULL,0,0,NULL,0
+700726205,2006-08-15 00:00:00.000,NULL,2006-12-30 00:00:00.000,Southern West Virginia Community and Technical College,NULL,4,0,0,3,3,12,NULL,NULL,NULL,NULL,0,0,NULL,0
+701035495,2005-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Daytona State College,Assoc.,2.675,0,0,104,104,273,NULL,NULL,NULL,graduated,0,1,NULL,0
+700197005,2002-08-15 00:00:00.000,undergrad,2006-05-14 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.0775,0,0,142,129,397,Social Work,NULL,NULL,graduated,0,0,NULL,0
+701035889,2003-01-02 00:00:00.000,undergrad,NULL,Concord University,BA/BS,2.6178,0,0,123,123,322,Biology,NULL,NULL,NULL,0,0,to graduate December 2008,0
+701048856,1991-08-15 00:00:00.000,undergrad,1995-05-06 00:00:00.000,Alderson Broaddus College,BSN,2.88,0,0,128,128,368,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701047484,2004-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,University of Charleston,Assoc.,3.5365,0,0,82,82,290,NULL,NULL,NULL,graduated,0,1,NULL,0
+700271037,1998-08-15 00:00:00.000,NULL,2008-12-12 00:00:00.000,West Virginia University at Parkersburg,NULL,3.1984,0,0,131,131,419,NULL,NULL,NULL,NULL,0,0,"Is due to graduate Dec. 12, 2008.",0
+700545492,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.27,0,0,111,111,363,Exercise Physiology,NULL,NULL,graduated,0,0,to graduate May 2009,0
+701015420,2006-08-15 00:00:00.000,undergrad,2008-12-28 00:00:00.000,Southern West Virginia Community and Technical College,NULL,4,0,0,15,12,0,High School,NULL,NULL,NULL,0,0,NULL,48
+700710552,2006-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,West Virginia University at Parkersburg,NULL,4,0,0,10,10,40,High School,NULL,NULL,NULL,0,0,NULL,0
+700650765,2003-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Marshall University,NULL,3.8,0,0,31,31,118,general,NULL,NULL,NULL,0,0,NULL,0
+700913572,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Fairmont State University,NULL,4,0,0,9,9,36,general,NULL,NULL,NULL,0,0,NULL,0
+700994235,2007-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,The Pennsylvania State University,NULL,2,NULL,NULL,3,3,6,High School,NULL,NULL,NULL,0,0,NULL,0
+700878356,2008-05-15 00:00:00.000,NULL,2008-08-08 00:00:00.000,Fairmont State University,NULL,3,0,0,4,4,12,general,NULL,NULL,NULL,0,0,NULL,0
+700941634,2007-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Liberty State College,NULL,3,0,0,9,9,27,general,NULL,NULL,NULL,0,0,NULL,0
+700867125,2008-05-27 00:00:00.000,NULL,2008-07-15 00:00:00.000,Bucks County Community College,NULL,0,0,4,4,0,0,general,NULL,NULL,NULL,0,0,NULL,0
+700862232,2007-01-01 00:00:00.000,undergrad,2007-08-15 00:00:00.000,Allegany College of Maryland,NULL,3.88,0,0,24,24,93,General,NULL,NULL,NULL,0,0,NULL,0
+700913786,2008-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Fairmont State University,NULL,4,0,0,9,9,36,NULL,NULL,NULL,NULL,0,0,NULL,0
+701062137,2007-08-15 00:00:00.000,undergrad,2008-12-30 00:00:00.000,Allegheny College,NULL,3.14,0,0,53,53,150.8,General,NULL,NULL,NULL,0,0,NULL,0
+700468888,2007-01-01 00:00:00.000,undergrad,2008-05-15 00:00:00.000,University of Charleston,NULL,3.774,0,0,62,62,234,General,NULL,NULL,NULL,0,0,NULL,0
+700468888,2006-01-01 00:00:00.000,undergrad,2006-05-15 00:00:00.000,West Virginia State College,NULL,4,0,0,3,3,12,General,NULL,NULL,NULL,0,0,NULL,0
+700138435,2005-06-01 00:00:00.000,NULL,2009-05-01 00:00:00.000,University of Tennessee,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Will graduate May 2009.,0
+701066815,1993-01-15 00:00:00.000,NULL,1996-05-15 00:00:00.000,University of Charleston,Assoc.,3.4081,0,0,49,49,167,NULL,NULL,NULL,graduated,0,1,NULL,0
+700510268,2006-01-01 00:00:00.000,undergrad,2008-08-08 00:00:00.000,West Virginia Northern Community College,NULL,3.42,0,0,7,7,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700465855,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Morgantown,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Will graduate in May 2009,0
+700879038,2005-08-15 00:00:00.000,undergrad,2008-08-15 00:00:00.000,New River Community & Technical College,NULL,4,0,0,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700857480,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Blue Ridge Cmmty Tech Cllg,NULL,3.67,0,0,9,9,33,High School,NULL,NULL,NULL,0,0,NULL,0
+701005827,2006-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Pennsylvania State University,NULL,2.58,0,0,28,28,72.35,General,NULL,NULL,NULL,0,0,NULL,0
+701005827,2006-08-28 00:00:00.000,undergrad,2007-05-13 00:00:00.000,Luzerne County Community College,NULL,3.5,0,0,6,6,21,General,NULL,NULL,NULL,0,0,NULL,NULL
+700883585,2007-06-25 00:00:00.000,undergrad,2007-08-09 00:00:00.000,Montgomery County Community College,NULL,2,0,0,4,4,8,General,NULL,NULL,NULL,0,0,NULL,0
+700857674,2004-08-15 00:00:00.000,undergrad,2011-08-15 00:00:00.000,West Virginia Northern Community College,NULL,3.763,0,0,127,127,478,General,NULL,NULL,NULL,0,0,Expected to graduate May 2011 with associate degree.,0
+700913495,2008-01-01 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Concord College,NULL,4,0,0,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700912969,2006-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,California University of PA,NULL,2.67,0,0,0,0,0,High School,NULL,NULL,NULL,0,0,NULL,0
+700912969,2008-05-15 00:00:00.000,undergrad,2008-08-08 00:00:00.000,WESTMORELAND COUNTY COMMUNITY COLLEGE,NULL,4,0,0,3,3,12,High School,NULL,NULL,NULL,0,0,NULL,0
+701037700,2006-01-01 00:00:00.000,undergrad,2008-08-08 00:00:00.000,Mountain State University,NULL,4,0,0,50,50,200,General,NULL,NULL,NULL,0,0,NULL,0
+700425149,2004-08-15 00:00:00.000,undergrad,2004-12-30 00:00:00.000,Alderson Broaddus College,NULL,2.7059,0,0,17,17,46,High School,NULL,NULL,NULL,0,0,NULL,0
+700425149,2003-08-15 00:00:00.000,undergrad,2009-05-15 00:00:00.000,Fairmont State University,NULL,1.64,0,0,61,66,108,General,NULL,NULL,NULL,0,0,NULL,0
+700940637,2007-08-15 00:00:00.000,undergrad,2009-08-15 00:00:00.000,Fairmont State University,NULL,4,0,0,17,17,68,General,NULL,NULL,NULL,0,0,NULL,0
+700598445,2004-08-15 00:00:00.000,undergrad,2007-12-30 00:00:00.000,New Rover Cmmty & Tech College,NULL,3.06,0,0,15,15,46,High School,NULL,NULL,NULL,0,0,NULL,0
+700747263,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Marshall University,NULL,2.66,0,0,9,9,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700747263,2007-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Glenville State College,NULL,3.25,0,0,4,4,13,High School,NULL,NULL,NULL,0,0,NULL,0
+701064445,2004-01-01 00:00:00.000,NULL,2005-05-01 00:00:00.000,Case Western Reserve University,MSN,3.43,0,0,47,47,24,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700776082,2006-08-15 00:00:00.000,undergrad,2006-12-30 00:00:00.000,Southern West Virginia Community and Technical College,NULL,3.44,0,0,9,9,31,High School,NULL,NULL,NULL,0,0,NULL,0
+700776082,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Shepherd College,NULL,3.3,0,0,39,39,129,General,NULL,NULL,NULL,0,0,NULL,0
+700193261,2003-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Fairmont State University,Assoc.,2.9022,0,0,174,174,505,NULL,NULL,NULL,graduated,0,1,NULL,0
+700710576,2005-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Southern West Virginia Community and Technical College,NULL,0,0,0,18,18,60,general,NULL,NULL,NULL,0,0,NULL,0
+701037102,2000-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,The University of North Carolina at Chapel Hill,BA/BS,2.097,NULL,0,130,128,268.4,History,NULL,NULL,graduated,0,0,NULL,0
+701037102,1999-08-15 00:00:00.000,undergrad,2008-08-01 00:00:00.000,Maryland Community College,NULL,3.465,0,0,106,106,149,General,NULL,NULL,NULL,0,0,NULL,0
+700598772,2005-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Shepherd College,NULL,3.28,0,0,38,32,105,General,NULL,NULL,NULL,0,0,NULL,0
+700598772,2006-05-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Valley Forge Christian College,NULL,3.6938,0,0,76,49,181,general,NULL,NULL,NULL,0,0,NULL,0
+701054893,2006-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Parkersburg,NULL,3.56,0,0,NULL,105,374,general,NULL,NULL,graduated,0,1,NULL,0
+700516144,2007-05-21 00:00:00.000,undergrad,2007-06-29 00:00:00.000,Community College of Allegheny County,NULL,4,0,0,3,3,12,High School,NULL,NULL,NULL,0,0,NULL,0
+700875612,2008-05-15 00:00:00.000,undergrad,2008-05-05 00:00:00.000,Lehigh Carbon Community College,NULL,3,0,0,3,3,9,High School,NULL,NULL,NULL,0,0,NULL,0
+701068217,2008-08-25 00:00:00.000,undergrad,2008-12-12 00:00:00.000,Keene State College,NULL,3.5,0,0,16,16,56,High School,NULL,NULL,NULL,0,0,NULL,0
+700942724,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Fairmont State University,NULL,3.75,0,0,12,12,45,High School,NULL,NULL,NULL,0,0,NULL,0
+700998678,1992-10-01 00:00:00.000,NULL,1995-12-29 00:00:00.000,"AMA Computer College, Philippines",NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,No translation of courses,0
+700998678,1991-06-01 00:00:00.000,NULL,1991-10-31 00:00:00.000,"Perpetual Help College, Philippines",NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,No translation of courses,0
+700998678,1989-06-01 00:00:00.000,NULL,1991-10-01 00:00:00.000,Lyceum of the Philippines,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,No translation of courses,0
+700888998,2008-06-30 00:00:00.000,undergrad,2008-08-09 00:00:00.000,Community College of Allegheny College,NULL,3.5,0,0,6,6,21,General,NULL,NULL,NULL,0,0,NULL,0
+700923254,2008-08-01 00:00:00.000,undergrad,2008-12-28 00:00:00.000,University of Utah,NULL,2.2727,0,0,11,11,25,General,NULL,NULL,NULL,0,0,NULL,0
+700923254,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Fairmont State University,NULL,4,0,0,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700806815,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Anne Arundel Community College,NULL,3.5,0,0,6,6,21,High School,NULL,NULL,NULL,0,0,NULL,0
+701065653,2007-08-01 00:00:00.000,NULL,2009-05-01 00:00:00.000,California University of PA,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Expected to graduate May 2009 with BSN.,0
+701068126,2003-08-24 00:00:00.000,NULL,2007-05-04 00:00:00.000,High Point University,NULL,2.6803,0,0,122,124,324,NULL,NULL,NULL,NULL,0,0,Bachelor of Science Degree Awarded on 05/07 from High Point University with a GPA of 2.65,0
+701068190,2008-01-01 00:00:00.000,undergrad,2009-05-15 00:00:00.000,George Mason University,NULL,2.97,0,0,60,45,133.65,High School,NULL,NULL,NULL,0,0,NULL,NULL
+701068190,2008-05-15 00:00:00.000,undergrad,2008-08-08 00:00:00.000,University of the District of Columbia,NULL,3.25,0,0,4,4,13,General,NULL,NULL,NULL,0,0,NULL,0
+700888703,2008-01-01 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Westmoreland County CC,NULL,2.93,0,0,14,14,41,General,NULL,NULL,NULL,0,0,NULL,0
+700888703,2007-08-15 00:00:00.000,undergrad,2007-12-28 00:00:00.000,The Pennsylvania State University,NULL,3.81,0,0,14,14,53.35,General,NULL,NULL,NULL,0,0,NULL,0
+701067215,2002-05-01 00:00:00.000,undergrad,2002-08-15 00:00:00.000,Mountain State University,NULL,2.25,0,0,9,9,12,General,NULL,NULL,NULL,0,0,NULL,0
+701067215,2001-05-01 00:00:00.000,undergrad,2002-08-01 00:00:00.000,St. Louis Community College,NULL,4,0,0,6,6,24,General,NULL,NULL,NULL,0,0,NULL,0
+701067215,2008-01-01 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Fairmont State University,NULL,3.27,0,0,11,11,36,General,NULL,NULL,NULL,0,0,NULL,0
+701067215,2000-08-01 00:00:00.000,undergrad,2003-08-15 00:00:00.000,Appalachian Bible College,NULL,2.76,0,0,87,87,243,General,NULL,NULL,NULL,0,0,NULL,0
+700426001,2004-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Morgantown,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Expected to graduate with BSN May 2009.,0
+701007847,1993-06-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Alderson Broaddus College,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701065695,1990-08-15 00:00:00.000,NULL,1994-05-15 00:00:00.000,National Institute Trinidad & Tobago,Assoc.,3.8181,0,0,33,33,126,NULL,NULL,NULL,graduated,0,1,NULL,0
+700999657,2008-05-15 00:00:00.000,undergrad,2008-08-08 00:00:00.000,North Carolina A&T State University,NULL,3.28,0,0,17,14,46,High School,NULL,NULL,NULL,0,0,NULL,0
+700999657,2008-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,West Virginia State College,NULL,3.83,0,0,18,18,69,High School,NULL,NULL,NULL,0,0,NULL,0
+700781260,2006-01-01 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Davis and Elkins College,NULL,1,0,0,6,6,6,General,NULL,NULL,NULL,0,0,NULL,NULL
+700894411,2008-05-28 00:00:00.000,undergrad,2011-06-27 00:00:00.000,Brookdale Community College,NULL,2.36,0,0,14,14,31,General,NULL,NULL,NULL,0,0,NULL,0
+700868772,2006-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Blue Ridge,NULL,3,0,0,6,6,18,NULL,NULL,General,NULL,0,0,NULL,0
+700911425,2007-08-15 00:00:00.000,undergrad,2008-01-01 00:00:00.000,West Virginia Northern Community College,NULL,3,0,0,6,6,18,General,NULL,NULL,NULL,0,0,NULL,0
+700941585,2007-01-01 00:00:00.000,undergrad,2007-12-30 00:00:00.000,Fairmont State University,NULL,3,0,0,9,9,27,General,NULL,NULL,NULL,0,0,NULL,0
+700837158,2006-08-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,West Virginia State College,NULL,4,0,0,3,3,12,High School,NULL,NULL,NULL,0,0,NULL,0
+700235684,2011-05-15 00:00:00.000,NULL,2012-05-15 00:00:00.000,Fairmont State University,Assoc.,2.62,0,0,NULL,459,175,NULL,NULL,NULL,graduated,0,1,NULL,0
+701070301,2004-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Bluefield State College,Assoc.,3.103,0,0,97,97,301,NULL,NULL,NULL,graduated,0,1,NULL,0
+700438179,2004-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.8144,0,0,97,97,273,NULL,NULL,NULL,graduated,0,1,NULL,0
+700238518,2001-08-15 00:00:00.000,NULL,2005-08-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701070896,1997-01-01 00:00:00.000,NULL,NULL,University of Akron,MSN,3.625,0,0,36,36,130.5,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700390148,2004-08-15 00:00:00.000,undergrad,2009-05-17 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.19,0,0,148,147,469,Psychology,Communication Studies,NULL,graduated,0,0,NULL,0
+700433091,2003-08-15 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.1073,33,0,170,140,434,Biology,Bus. Admin.,NULL,graduated,0,0,NULL,0
+700433091,2008-08-15 00:00:00.000,undergrad,2008-12-28 00:00:00.000,Glenville State College,NULL,4,0,0,4,4,16,General,NULL,NULL,NULL,0,0,NULL,0
+700433091,2004-05-01 00:00:00.000,undergrad,2008-12-27 00:00:00.000,Fairmont State University,NULL,4,0,0,10,10,40,General,NULL,NULL,NULL,0,0,NULL,0
+701069829,2001-05-15 00:00:00.000,graduate,2004-12-15 00:00:00.000,Duquense University,MSN,3.36,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700941436,2007-05-01 00:00:00.000,undergrad,NULL,Marshall University,NULL,3.35,0,NULL,18,17,57,General,NULL,NULL,NULL,0,0,NULL,0
+700931128,2008-08-15 00:00:00.000,undergrad,NULL,Shepherd College,NULL,3.53,0,0,15,15,53,Elementary Education,NULL,NULL,NULL,0,0,NULL,0
+700136537,1988-06-01 00:00:00.000,graduate,1990-05-20 00:00:00.000,University of Virginia,MSN,3.66,0,0,29,29,106,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700188943,2002-08-01 00:00:00.000,NULL,2004-05-08 00:00:00.000,Fairmont State University,BSN,3.5,0,0,158,152,532,Nursing,NULL,NULL,NULL,0,1,NULL,0
+701074148,1992-08-01 00:00:00.000,NULL,1995-05-13 00:00:00.000,Marshall University,MSN,3.57,0,0,42,42,150,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700427125,2002-09-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,University of Texas Austin,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701069163,2006-07-15 00:00:00.000,NULL,2008-10-15 00:00:00.000,Walden University,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700166442,1996-08-15 00:00:00.000,NULL,1998-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700156524,1998-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Fairmont State University,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701075440,2001-08-01 00:00:00.000,NULL,2004-05-15 00:00:00.000,saint louis university,MSN,3.68,0,0,36,36,132.5,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700740988,2007-05-15 00:00:00.000,graduate,2009-02-15 00:00:00.000,University of Phoenix,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700178381,2002-09-01 00:00:00.000,NULL,2003-12-01 00:00:00.000,West Virginia University at Morgantown,BSN,3.61,0,0,129,129,466,NULL,NULL,NULL,graduated,0,1,NULL,0
+700869075,2007-08-15 00:00:00.000,NULL,2008-01-15 00:00:00.000,Blue Ridge Community and Technical College,NULL,3.5,0,0,6,6,21,High School,NULL,NULL,NULL,0,0,NULL,0
+701077913,1993-09-15 00:00:00.000,NULL,1996-06-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.298,0,0,171,171,393,NULL,NULL,NULL,graduated,0,1,NULL,0
+701074427,1994-03-15 00:00:00.000,NULL,1995-11-15 00:00:00.000,UBTH School of Nursing Nigeria,Diploma,2.25,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700100317,2002-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Fairmont State University,Assoc.,2.8297,0,0,94,94,266,NULL,NULL,NULL,graduated,0,1,NULL,0
+701077041,2004-01-11 00:00:00.000,NULL,2007-01-02 00:00:00.000,University of Phoenix,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700375094,2004-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Blue Ridge Community College,Assoc.,3.093,0,0,75,75,232,NULL,NULL,NULL,graduated,0,1,NULL,0
+701072492,2000-09-15 00:00:00.000,NULL,2002-05-15 00:00:00.000,University of Charleston,Assoc.,2.9565,0,NULL,69,69,204,NULL,NULL,NULL,graduated,0,1,NULL,0
+701074369,2003-08-20 00:00:00.000,NULL,2008-05-08 00:00:00.000,Marshall University,Assoc.,2.553,0,0,132,132,337,NULL,NULL,NULL,graduated,0,1,NULL,0
+701071660,2008-01-01 00:00:00.000,NULL,2009-02-01 00:00:00.000,Clemson,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701076242,1996-01-01 00:00:00.000,NULL,1999-05-17 00:00:00.000,University of Colorado,MSN,3.48,0,0,29,29,101,Nursing,NULL,NULL,NULL,0,1,NULL,0
+701078080,2004-08-01 00:00:00.000,NULL,2006-05-11 00:00:00.000,Otterbein College,MSN,3.237,0,0,56,54,174.8,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700185273,2006-10-01 00:00:00.000,NULL,2008-03-01 00:00:00.000,Chamberlain College of Nursing,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700256642,2001-08-15 00:00:00.000,NULL,2003-05-15 00:00:00.000,West Virginia Institute of Technology,BSN,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700633054,2007-08-15 00:00:00.000,NULL,2008-08-15 00:00:00.000,West Virginia Institute of Technology,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701081342,2003-08-01 00:00:00.000,graduate,2006-05-01 00:00:00.000,Marshall University,MSN,4,6,0,36,30,120,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701083787,2005-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.437,0,0,96,96,330,NULL,NULL,NULL,graduated,0,0,RN is pending,0
+700920838,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Davis and Elkins College,Assoc.,3.606,0,0,89,89,321,NULL,NULL,NULL,graduated,0,0,NULL,0
+701077039,1999-06-01 00:00:00.000,NULL,2004-05-01 00:00:00.000,Georgia College & State University,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700510381,2006-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Blue Ridge Community & Technical College,Assoc.,3.2716,0,0,81,81,265,NULL,NULL,NULL,graduated,0,0,NULL,0
+701086003,2006-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Fairmont State University,Assoc.,3.4406,0,0,103,103,355,NULL,NULL,NULL,graduated,0,0,Taking NCLEX June 2009.,0
+700151467,1999-08-15 00:00:00.000,NULL,2001-05-15 00:00:00.000,Davis and Elkins College,Assoc.,2.905,0,0,127,127,369,NULL,NULL,NULL,graduated,0,1,NULL,0
+701072869,2008-01-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.965,0,0,88,88,261,NULL,NULL,NULL,graduated,0,1,NULL,0
+701082363,1985-09-15 00:00:00.000,NULL,1988-07-15 00:00:00.000,Training School for Health Professionals,Diploma,2.7042,0,0,71,71,192,NULL,NULL,NULL,graduated,0,1,Nsg training school GPA = 3.75-4.0
+OA is listed above.,0
+701078917,2006-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,22.9014,0,0,142,142,412,NULL,NULL,NULL,graduated,0,1,NULL,0
+700425997,2006-08-15 00:00:00.000,NULL,2008-12-15 00:00:00.000,Trinity School of Nursing,Diploma,2.841,0,0,151,151,429,NULL,NULL,NULL,graduated,0,1,NULL,0
+701086539,2006-12-15 00:00:00.000,NULL,2008-11-15 00:00:00.000,Excelsior,Assoc.,3.0877,0,0,57,57,176,NULL,NULL,NULL,graduated,0,1,NULL,0
+700287972,2005-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.93,0,0,150,231,678,NULL,NULL,NULL,graduated,0,1,NULL,0
+700117346,2001-01-15 00:00:00.000,NULL,2001-05-15 00:00:00.000,Shenandoah University,Assoc.,2.6289,0,0,159,159,418,NULL,NULL,NULL,graduated,0,1,NULL,0
+700937859,2007-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Fairmont State University,NULL,3.5,0,0,6,6,21,general,NULL,NULL,NULL,0,0,NULL,0
+700906035,2006-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Garrett College,NULL,2.38,0,0,15,15,35.7,High School,NULL,NULL,NULL,0,0,NULL,0
+700710367,2006-08-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,Southern West Virginia Community and Technical College,NULL,3,0,0,6,6,18,High School,NULL,NULL,NULL,0,0,NULL,0
+700867673,2007-08-27 00:00:00.000,undergrad,2008-05-14 00:00:00.000,College of Southern MD,NULL,2.692,0,0,6,6,13,High Shcool,NULL,NULL,NULL,0,0,NULL,0
+700857305,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,West Virginia Northern Community College,NULL,3.33,0,0,9,9,30,High School,NULL,NULL,NULL,0,0,NULL,0
+700157219,1998-08-01 00:00:00.000,NULL,2000-05-09 00:00:00.000,Mountain State University,MSN,4,0,0,43,43,112,NULL,NULL,NULL,NULL,0,0,NULL,0
+700934267,2006-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Virginia Western Community College,NULL,3,0,0,12,12,36,High School,NULL,NULL,NULL,0,0,NULL,0
+700240087,2002-05-15 00:00:00.000,undergrad,2002-08-08 00:00:00.000,West Virginia University at Parkersburg,NULL,2,0,0,3,3,6,General,NULL,NULL,NULL,0,0,NULL,0
+700898342,2007-01-01 00:00:00.000,undergrad,2007-12-30 00:00:00.000,Fairmont State University,NULL,2.67,0,0,9,9,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700931026,2007-01-01 00:00:00.000,undergrad,2007-12-28 00:00:00.000,Fairmont State University,NULL,3,0,0,9,9,27,High School,NULL,NULL,NULL,0,0,NULL,0
+700771752,2006-08-15 00:00:00.000,undergrad,2006-12-30 00:00:00.000,The University of Tampa,NULL,2.86,0,0,16,15,43,NULL,NULL,High School,NULL,0,0,NULL,0
+700771752,2006-05-15 00:00:00.000,undergrad,2006-08-08 00:00:00.000,Miami University,NULL,3.9,0,0,13,13,15.8,General,NULL,NULL,NULL,0,0,NULL,0
+700771752,2007-01-01 00:00:00.000,undergrad,2008-05-15 00:00:00.000,"The University of Tennessee, Knoxville",NULL,3.23,0,0,28,35,90.5,General,NULL,NULL,NULL,0,0,NULL,NULL
+700892165,2006-01-01 00:00:00.000,undergrad,2006-05-05 00:00:00.000,University of Pittsburgh,NULL,4,0,0,7,7,28,General,NULL,NULL,NULL,0,0,NULL,0
+700892165,2008-06-02 00:00:00.000,undergrad,2008-07-26 00:00:00.000,Community College of Allegheny County,NULL,4,0,0,4,4,16,General,NULL,NULL,NULL,0,0,NULL,0
+700892165,2007-08-08 00:00:00.000,UG,2009-05-15 00:00:00.000,Duquese University,NULL,3.86,0,0,55,43,166,General,NULL,NULL,NULL,0,0,NULL,0
+701070283,2002-08-01 00:00:00.000,graduate,2004-05-01 00:00:00.000,Radford University,MSN,3.411,0,0,51,51,174,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701070283,2000-08-01 00:00:00.000,undergrad,2002-05-01 00:00:00.000,Bluefield State College,BSN,3.09,0,0,134,111,344,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700510399,2006-01-01 00:00:00.000,undergrad,2008-08-15 00:00:00.000,WV Northern Community College,NULL,4,0,0,16,16,64,General,NULL,NULL,NULL,0,0,NULL,0
+700630613,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Bluefield State College,Assoc.,3.427,0,0,186,186,637.5,NULL,NULL,NULL,graduated,0,1,NULL,0
+700291359,2005-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia State College,Assoc.,2.7767,0,0,112,112,311,NULL,NULL,NULL,graduated,0,1,NULL,0
+701086066,2005-06-15 00:00:00.000,NULL,2007-06-15 00:00:00.000,Central Ohio Technical,Assoc.,3.2187,0,0,96,96,309,NULL,NULL,NULL,graduated,0,1,NULL,0
+701073427,2008-01-01 00:00:00.000,assoc.,2009-05-09 00:00:00.000,Marshall University,Assoc.,2.8,67,179,101,101,283,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700742070,2006-01-01 00:00:00.000,graduate,NULL,Mountain State University,NULL,0,0,0,0,0,0,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700546887,2006-01-01 00:00:00.000,graduate,2008-05-10 00:00:00.000,Marshall University,MSN,3.57,0,0,42,42,150,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700151286,2006-05-01 00:00:00.000,NULL,NULL,Mountain State University,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+701083626,2006-05-16 00:00:00.000,graduate,2008-11-14 00:00:00.000,The Frontier School of Midwifery and Family Nursing,MSN,3.65,5,0,52,57,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701088501,1978-08-15 00:00:00.000,NULL,1981-05-15 00:00:00.000,Saint Mary's,Diploma,2.25,0,0,152,152,342,NULL,NULL,NULL,graduated,0,1,NULL,0
+701078021,2006-05-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.7727,0,0,88,113,313,NULL,NULL,NULL,graduated,0,1,NULL,0
+701061911,2002-01-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Meridian Community College,Assoc.,4,0,0,74,74,296,NULL,NULL,NULL,graduated,0,1,NULL,0
+701088502,2005-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Fairmont State University,Assoc.,3.1313,0,0,99,99,310,NULL,NULL,NULL,graduated,0,1,NULL,0
+701083898,2006-08-15 00:00:00.000,NULL,2008-12-15 00:00:00.000,West Virginia State College,Assoc.,3.69,0,0,139,139,513,NULL,NULL,NULL,graduated,0,1,NULL,0
+701082271,2001-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Marshall University,Assoc.,2.8461,0,0,104,104,296,NULL,NULL,NULL,graduated,0,1,NULL,0
+700190142,1995-09-15 00:00:00.000,NULL,1997-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,3.076,0,0,92,92,283,NULL,NULL,NULL,graduated,0,1,NULL,0
+701083891,2005-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.5725,0,0,124,124,443,NULL,NULL,NULL,graduated,0,1,NULL,0
+700425742,2006-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Fairmont State University,Assoc.,3.193,0,0,150,150,479,NULL,NULL,NULL,graduated,0,1,NULL,0
+701084218,2006-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Dabney Lancaster,Assoc.,2.8476,0,0,210,210,598,NULL,NULL,NULL,graduated,0,0,NULL,0
+701083092,2004-06-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Northern WV Community College,Assoc.,3.15,0,0,80,80,252,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089493,1999-09-15 00:00:00.000,NULL,2001-05-15 00:00:00.000,Bluefield State College,Assoc.,2.388,0,0,166,166,396.5,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089146,2006-01-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.9024,0,0,82,82,238,NULL,NULL,NULL,graduated,0,1,NULL,0
+700160792,2005-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Fairmont State University,Assoc.,3.094,0,0,180,180,557,NULL,NULL,NULL,graduated,0,1,NULL,0
+700537647,1980-08-15 00:00:00.000,NULL,1984-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.957,0,0,141,141,417,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089294,2004-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Marshall University,Assoc.,2.9315,0,0,73,73,214,NULL,NULL,NULL,graduated,0,1,NULL,0
+700741816,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Marshall University,NULL,3.66,0,0,9,9,33,General,NULL,NULL,NULL,0,0,NULL,0
+700950007,2008-05-01 00:00:00.000,undergrad,2008-08-15 00:00:00.000,Butler County Community College,NULL,4,0,0,3,3,12,General,NULL,NULL,NULL,0,0,NULL,0
+700856976,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,West Virginia State College,NULL,3.66,0,0,9,9,33,High School,NULL,NULL,NULL,0,0,NULL,0
+700923445,2007-08-27 00:00:00.000,undergrad,2007-12-15 00:00:00.000,Wheeling Jesuit University,NULL,4,0,0,6,6,12,High School,NULL,NULL,NULL,0,0,NULL,0
+700912789,2008-08-18 00:00:00.000,undergrad,2009-05-04 00:00:00.000,Community College of Allegheny County,NULL,3.3846,0,0,13,13,44,High School,NULL,NULL,NULL,0,0,NULL,0
+700912789,2007-09-03 00:00:00.000,undergrad,2008-05-13 00:00:00.000,Washington & Jefferson College,NULL,0,0,0,0,0,0,High School,NULL,NULL,NULL,0,0,NULL,0
+700747263,2007-08-15 00:00:00.000,undergrad,2008-12-30 00:00:00.000,West Virginia Wesleyan College,NULL,2.229,0,0,25,32,45,General,NULL,NULL,NULL,0,0,NULL,0
+700100421,1988-08-01 00:00:00.000,NULL,1998-05-17 00:00:00.000,West Virginia University at Morgantown,MSN,3.68,0,0,47,47,173,NULL,NULL,NULL,NULL,0,0,NULL,0
+701068235,2006-08-21 00:00:00.000,undergrad,2009-05-05 00:00:00.000,Polk Community College,NULL,3.109,0,0,55,55,171,General,NULL,NULL,NULL,0,0,Will graduate December 2009. rlw,0
+700896659,2008-05-15 00:00:00.000,undergrad,2008-08-08 00:00:00.000,Raritan Valley Community College,NULL,2,0,0,3,3,6,General,NULL,NULL,NULL,0,0,NULL,0
+701082074,1999-08-15 00:00:00.000,NULL,2001-05-15 00:00:00.000,Bluefield State College,Assoc.,3.46,0,0,120,120,415.5,NULL,NULL,NULL,graduated,0,1,NULL,0
+700554764,2006-08-15 00:00:00.000,NULL,2008-12-15 00:00:00.000,Wheeling Jesuit University,MSN,3.69,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700119969,1999-08-15 00:00:00.000,NULL,2001-05-15 00:00:00.000,Davis and Elkins College,Assoc.,3.0676,0,0,207,207,635,NULL,NULL,NULL,graduated,0,1,NULL,0
+700882115,2000-08-01 00:00:00.000,graduate,2004-05-01 00:00:00.000,Mountain State University,MSN,3.8775,0,0,68,68,190,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700547420,2004-08-01 00:00:00.000,graduate,2006-05-14 00:00:00.000,West Virginia University at Morgantown,MSN,3.86,0,0,44,44,170,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701088937,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Lord Fairfax VA Community College,Assoc.,3.1803,0,0,183,183,582,NULL,NULL,NULL,graduated,0,1,NULL,0
+701086911,1994-09-15 00:00:00.000,NULL,1998-05-15 00:00:00.000,Pikeville College - Kentucky,Assoc.,3.4148,0,0,94,94,321,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089360,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Marshall University,Assoc.,3.1787,0,0,179,179,569,NULL,NULL,NULL,graduated,0,1,NULL,0
+700539991,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Fairmont State University,Assoc.,3.1515,0,0,132,132,416,NULL,NULL,NULL,graduated,0,0,RN Pending.,0
+701089491,2002-08-15 00:00:00.000,NULL,2005-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,3,0,0,88,88,264,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089847,2006-08-15 00:00:00.000,assoc.,2009-05-15 00:00:00.000,West Virginia Northern Community College,Assoc.,2.6804,0,0,194,194,520,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700987119,2001-08-15 00:00:00.000,assoc.,2004-05-15 00:00:00.000,Bluefield State College,Assoc.,2.9354,0,0,93,93,273,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701089289,2003-01-01 00:00:00.000,assoc.,2009-05-16 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.468,NULL,0,94,94,232,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700189296,2000-05-01 00:00:00.000,assoc.,2004-05-08 00:00:00.000,West Virginia Northern Community College,Assoc.,3.341,0,0,129,129,431,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701085919,2001-09-10 00:00:00.000,assoc.,2006-06-09 00:00:00.000,Washington State Community College,Assoc.,3.0909,0,0,121,121,374,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700975677,1992-08-15 00:00:00.000,assoc.,1993-05-02 00:00:00.000,University of Charleston,Assoc.,2.92,0,0,51,69,202,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701086903,1997-01-01 00:00:00.000,assoc.,1998-05-10 00:00:00.000,Davis and Elkins College,Assoc.,2.6496,0,0,78.5,78.5,208,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701088341,1991-12-15 00:00:00.000,NULL,1995-05-15 00:00:00.000,University of Charleston,Assoc.,3.634,0,0,63,63,229,NULL,NULL,NULL,graduated,0,1,NULL,0
+700559235,2004-09-15 00:00:00.000,NULL,2008-06-15 00:00:00.000,Washington State Community College,Assoc.,2.5679,0,0,81,81,208,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089494,1993-08-15 00:00:00.000,NULL,1995-05-15 00:00:00.000,University of Charleston,Assoc.,2.73,0,0,52,52,142,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089845,1987-01-15 00:00:00.000,NULL,1989-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.2912,0,0,103,103,236,NULL,NULL,NULL,graduated,0,1,NULL,0
+701089848,2005-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia Northern Community College,Assoc.,2.512,0,0,125,125,314,NULL,NULL,NULL,graduated,0,1,NULL,0
+700465736,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Davis and Elkins College,Assoc.,3.76,0,0,0,86,324,NULL,NULL,NULL,graduated,0,1,NULL,0
+701093062,1994-08-15 00:00:00.000,NULL,1997-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,3.6153,0,0,0,91,329,NULL,NULL,NULL,graduated,0,1,NULL,0
+701084631,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Marshall University,Assoc.,3.2065,0,0,0,92,295,NULL,NULL,NULL,graduated,0,0,NULL,0
+700991840,2002-01-15 00:00:00.000,NULL,2006-06-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.7377,0,0,0,122,334,NULL,NULL,NULL,graduated,0,1,NULL,0
+700425599,2004-09-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia Northern Community College,Assoc.,2.797,0,0,0,138,386,NULL,NULL,NULL,graduated,0,1,NULL,0
+701085904,2008-01-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Marshall University,Assoc.,2.768,0,0,0,82,227,NULL,NULL,NULL,graduated,0,1,NULL,0
+701094813,1997-08-25 00:00:00.000,NULL,2001-05-04 00:00:00.000,University of Charleston,Assoc.,2.8192,0,0,0,83,234,NULL,NULL,NULL,graduated,0,1,NULL,0
+700242574,2005-01-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Fairmont State University,Assoc.,3.5,0,0,0,156,546,NULL,NULL,NULL,graduated,0,1,NULL,0
+700507747,2005-08-15 00:00:00.000,undergrad,2010-05-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.7132,0,0,143,143,531,Exercise Physiology,NULL,NULL,NULL,0,0,to graduate May 2010,0
+700726571,2007-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Southern West Virginia Community and Technical College,NULL,3,0,0,3,3,9,High School,NULL,NULL,NULL,0,0,NULL,0
+700871404,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Fairmont State University,NULL,4,0,0,9,9,36,High School,NULL,NULL,NULL,0,0,NULL,0
+701067543,2002-09-01 00:00:00.000,undergrad,2005-06-22 00:00:00.000,The Public Authority for Applied Education & Training - Kuwait,Diploma,NULL,0,0,0,0,0,General Nursing,NULL,NULL,graduated,0,0,No translation or definite GPA for this school,0
+701071549,1995-08-15 00:00:00.000,NULL,1997-12-15 00:00:00.000,Trinity Health System SON,Diploma,2.902,0,0,162,162,475,NULL,NULL,NULL,graduated,0,1,NULL,0
+701062315,1995-08-01 00:00:00.000,NULL,1997-05-01 00:00:00.000,Shepherd College,Assoc.,3.4382,0,0,162,162,557,NULL,NULL,NULL,graduated,0,1,NULL,0
+700395600,2004-08-15 00:00:00.000,NULL,2008-08-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700217751,2000-05-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,3.57,0,0,121,121,432,NULL,NULL,NULL,graduated,0,1,NULL,0
+701077736,1998-08-15 00:00:00.000,NULL,2001-05-15 00:00:00.000,Hagerstown Community College,Assoc.,3.7156,0,0,102,102,379,NULL,NULL,NULL,graduated,0,1,NULL,0
+700345230,2005-01-15 00:00:00.000,NULL,2006-12-15 00:00:00.000,Allegany College,Assoc.,3.1166,0,0,120,120,374,NULL,NULL,NULL,graduated,0,1,NULL,0
+700190503,2002-08-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,0,NULL,0
+700818554,2005-06-01 00:00:00.000,undergrad,NULL,West Virginia University at Parkersburg,NULL,3.5246,0,0,162,162,571,Business Admin/Acctg.,NULL,NULL,NULL,0,0,expected grad date 05/2010,0
+701096051,2004-01-01 00:00:00.000,undergrad,2006-08-12 00:00:00.000,SUNY at Cortland,BA/BS,2.6041,0,0,144,144,375,Health Science,NULL,NULL,graduated,0,0,NULL,0
+700248008,2002-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Allegany College of Maryland,Assoc.,2.944,0,0,0,125,368,NULL,NULL,NULL,graduated,0,1,NULL,0
+701096267,2008-05-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Marshall University,Assoc.,2.737,0,0,0,118,323,NULL,NULL,NULL,graduated,0,1,NULL,0
+700185622,1987-08-15 00:00:00.000,NULL,1990-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.2277,0,0,0,101,326,NULL,NULL,NULL,graduated,0,1,NULL,0
+700344004,2003-08-01 00:00:00.000,NULL,2007-12-01 00:00:00.000,West Virginia University at Morgantown,BSN,3.41,0,0,0,131,448,NULL,NULL,NULL,graduated,0,0,NULL,0
+700589464,2003-09-01 00:00:00.000,NULL,2006-11-01 00:00:00.000,Graceland College,MSN,3.93,0,0,0,0,0,NULL,NULL,NULL,graduated,0,0,NULL,0
+701096269,1985-09-15 00:00:00.000,NULL,1986-05-15 00:00:00.000,Davis and Elkins College,Assoc.,2.9137,0,0,58,58,169,NULL,NULL,NULL,graduated,0,1,NULL,0
+700199467,2006-08-15 00:00:00.000,NULL,2008-12-15 00:00:00.000,University of Phoenix,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,Need proof of MSN.  Tricia is sending transcript 10.22.09,0
+700277388,2002-08-15 00:00:00.000,undergrad,2003-05-15 00:00:00.000,Cape Fear Community College,NULL,3.667,0,0,31,31,77,Genereal,NULL,NULL,NULL,0,0,NULL,0
+700277388,1999-08-15 00:00:00.000,undergrad,2002-05-15 00:00:00.000,University of Utah,NULL,2.63,0,0,50,50,133,General,NULL,NULL,NULL,0,0,NULL,0
+700277388,2009-08-15 00:00:00.000,undergrad,NULL,Portland Community College,NULL,4,0,0,8,8,32,General,NULL,NULL,NULL,0,0,NULL,0
+700277388,2003-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,Western Carolina University,NULL,3.03,0,0,30,30,89,General,NULL,NULL,NULL,0,0,NULL,0
+701073380,2008-01-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Marshall University,Assoc.,3.039,0,0,0,102,310,NULL,NULL,NULL,graduated,0,1,NULL,0
+700979209,1996-08-15 00:00:00.000,NULL,1998-05-15 00:00:00.000,West Virginia Institute of Technology,Assoc.,2.5119,0,0,0,84,211,NULL,NULL,NULL,graduated,0,1,NULL,0
+700474731,2005-05-01 00:00:00.000,undergrad,2009-12-28 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.4676,0,0,139,139,482,Exercise Physiology,NULL,NULL,NULL,0,0,to graduate 12/2009,0
+700355503,2003-08-15 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.2187,0,0,128,128,412,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700355503,2009-02-09 00:00:00.000,undergrad,2009-06-08 00:00:00.000,Los Angeles Community College District,NULL,3,0,0,4,4,12,General,NULL,NULL,NULL,0,0,NULL,0
+700355503,2004-05-17 00:00:00.000,undergrad,2006-06-22 00:00:00.000,Community College of Allegheny County,NULL,4,0,0,6,6,24,General,NULL,NULL,NULL,0,0,NULL,0
+700558956,2005-08-15 00:00:00.000,undergrad,2009-05-17 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.09,0,0,141,128,396,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700558956,2006-05-01 00:00:00.000,undergrad,2006-08-15 00:00:00.000,Pennsylvania State University,NULL,3,0,0,7,7,21,General,NULL,NULL,NULL,0,0,NULL,0
+700558956,2008-05-01 00:00:00.000,undergrad,2008-08-15 00:00:00.000,Mount Aloysius College,NULL,4,0,0,4,4,16,General,NULL,NULL,NULL,0,0,NULL,0
+700251181,1999-08-15 00:00:00.000,undergrad,2005-05-07 00:00:00.000,Marshall University,BA/BS,3.11,0,0,185,184,573,Biological Science,Chemistry,NULL,graduated,0,0,NULL,0
+700251181,1998-08-15 00:00:00.000,undergrad,1999-05-15 00:00:00.000,Fairmont State University,NULL,4,0,0,6,6,24,General,NULL,NULL,NULL,0,0,NULL,0
+700251181,2004-01-01 00:00:00.000,undergrad,2004-05-01 00:00:00.000,Ashland Community and Technical College,NULL,3,0,0,3,3,9,General,NULL,NULL,NULL,0,0,NULL,0
+701096777,2005-08-15 00:00:00.000,undergrad,2007-05-12 00:00:00.000,University of the District of Columbia,BA/BS,3.0869,0,0,138,138,426,Biology,NULL,NULL,graduated,0,0,NULL,0
+701098837,1987-08-15 00:00:00.000,NULL,1991-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.304,0,0,0,92,212,NULL,NULL,NULL,graduated,0,1,NULL,0
+700534138,2006-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.1625,0,0,80,80,253,Foreign Language - Spanish,NULL,NULL,NULL,0,0,to graduate May 2010,0
+701099076,1999-09-01 00:00:00.000,undergrad,1998-05-24 00:00:00.000,St. Catherine University,BA/BS,3.451,0,0,133,133,459,BA-Biology,NULL,NULL,graduated,0,0,NULL,0
+700242484,2001-05-01 00:00:00.000,undergrad,2006-12-28 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.8205,0,0,156,156,440,Communication Studies,NULL,NULL,graduated,0,0,Attending WVU from 200901 to present for Nursing Pre-reqs,0
+700589201,2005-08-22 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.4149,0,0,135,135,461,Medical Technology,NULL,NULL,NULL,0,0,Should graduate May 2008,0
+700194376,2000-08-15 00:00:00.000,undergrad,2002-05-11 00:00:00.000,West Liberty State College,BA/BS,3.6524,0,0,141,141,515,Biology,NULL,NULL,graduated,0,0,NULL,0
+700346530,2004-08-23 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.4752,0,0,101,101,351,Animal & Nutritional Sciences,NULL,NULL,NULL,0,0,NULL,0
+700572101,2006-08-16 00:00:00.000,undergrad,2007-08-15 00:00:00.000,Georgia College & State University,NULL,3.909,0,0,33,33,129,Pre-Nursing,NULL,NULL,transferred,0,0,NULL,0
+700572101,2007-06-25 00:00:00.000,undergrad,2008-05-17 00:00:00.000,County College of Morris,NULL,4,0,0,3,3,12,Pre-Nursing,NULL,NULL,NULL,0,0,NULL,0
+700215732,1989-01-15 00:00:00.000,NULL,1992-06-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700897653,2007-08-20 00:00:00.000,undergrad,NULL,Potomac State College,NULL,4,3,0,17,14,56,Pre Nursing,NULL,NULL,NULL,0,0,NULL,0
+700270791,2005-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Fairmont State University,Assoc.,3.4574,0,0,94,94,325,NULL,NULL,NULL,graduated,0,1,NULL,0
+700963762,1995-09-15 00:00:00.000,undergrad,1997-05-15 00:00:00.000,Fairmont State University,Assoc.,3.3473,0,0,95,95,318,NULL,NULL,NULL,graduated,0,1,NULL,0
+700929225,2004-05-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Marshall University,Assoc.,2.8529,0,0,136,136,388,NULL,NULL,NULL,graduated,0,1,NULL,0
+700462202,2005-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Fairmont State University,Assoc.,3.5,0,0,90,90,315,NULL,NULL,NULL,graduated,0,1,NULL,0
+700967759,2001-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,James Madison University,BSN,3.128,0,0,123,123,384.8,NULL,NULL,NULL,graduated,0,1,NULL,0
+700956837,2001-08-15 00:00:00.000,NULL,2003-05-15 00:00:00.000,University of Charleston,Assoc.,3.4,0,0,160,160,544,NULL,NULL,NULL,graduated,0,1,NULL,0
+700275479,2006-05-01 00:00:00.000,undergrad,2006-08-15 00:00:00.000,Shepard University,NULL,3,0,0,4,4,12,High School,NULL,NULL,NULL,0,0,NULL,0
+700921631,2005-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Southern West Virginia Community and Technical College,NULL,3.16,0,0,32,31,98,High School,NULL,NULL,NULL,0,0,NULL,0
+700857726,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,West Virginia Northern Community College,NULL,3.33,0,0,9,9,30,NULL,NULL,NULL,NULL,0,0,NULL,0
+700425459,2006-01-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,New River Community and Technical College,NULL,3.29,0,0,65,65,214,General Education,NULL,NULL,NULL,0,0,NULL,0
+700566693,2005-08-15 00:00:00.000,undergrad,2009-12-29 00:00:00.000,West Virginia University at Parkersburg,BSN,3.34,0,0,138,125,418,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700972319,2005-08-15 00:00:00.000,undergrad,NULL,Northern Virginia Community College,NULL,3.5937,0,0,32,32,115,NULL,NULL,NULL,NULL,0,0,NULL,0
+700870815,1995-08-15 00:00:00.000,NULL,1998-05-15 00:00:00.000,Marshall University,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700396482,2004-08-01 00:00:00.000,NULL,2008-05-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.97,0,0,111,441,441,NULL,NULL,NULL,NULL,0,0,Student anticipates graduation with BSN May 2008,0
+700963090,1977-09-01 00:00:00.000,NULL,1981-05-01 00:00:00.000,Carlow College Pittsburgh,BSN,2.8292,0,0,30.75,30.75,87,NULL,NULL,NULL,graduated,0,0,NULL,0
+700548393,2005-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia University at Parkersburg,NULL,3.2473,0,0,113,113,367,NULL,NULL,NULL,graduated,0,1,Will graduate May 2008 with Associates.,0
+700994227,2006-08-15 00:00:00.000,undergrad,NULL,Fairmont State University,NULL,3.36,0,0,44,44,148,Pre Nursing,NULL,NULL,NULL,0,0,NULL,0
+700966297,2006-09-15 00:00:00.000,undergrad,2006-12-29 00:00:00.000,William Paterson University,NULL,2.97,0,0,16.5,16.5,49.05,English,NULL,NULL,transferred,0,0,NULL,0
+700966297,2005-08-15 00:00:00.000,undergrad,2005-12-29 00:00:00.000,Fairleigh Dickinson Unvirsity,NULL,3,0,0,3,3,9,NULL,NULL,NULL,transferred,0,0,NULL,0
+700966297,2007-01-01 00:00:00.000,undergrad,NULL,Sussex County Community College,NULL,2.94,0,0,29,29,79,Liberal Arts,NULL,NULL,NULL,0,0,NULL,0
+700945601,2006-08-15 00:00:00.000,undergrad,2006-12-29 00:00:00.000,James Madison University,NULL,3.325,0,0,16,16,55,Nursing,NULL,NULL,transferred,0,0,NULL,0
+700945601,2005-08-15 00:00:00.000,undergrad,2007-12-29 00:00:00.000,Lord Fairfax Community College,NULL,4,0,0,36,36,144,Nursing,NULL,NULL,transferred,0,0,NULL,0
+700219832,2000-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Marshall University,BSN,3.37,0,0,166,166,561,NULL,NULL,NULL,graduated,0,0,NULL,0
+700296502,2000-06-15 00:00:00.000,undergrad,2002-05-15 00:00:00.000,Pennsylvania State University,BSN,4,0,0,162,46,184,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700998235,2006-06-01 00:00:00.000,undergrad,NULL,Montgomery College,NULL,3.1111,0,0,45,45,140,General,NULL,NULL,NULL,0,0,NULL,0
+700188634,2003-05-01 00:00:00.000,undergrad,2003-07-15 00:00:00.000,Waynesburg College,NULL,2,0,0,3,3,6,Transfer,NULL,NULL,NULL,0,0,NULL,0
+700425984,2007-08-15 00:00:00.000,undergrad,2007-12-28 00:00:00.000,Australian Catholic University,NULL,NULL,0,0,NULL,0,0,Study Abroad,NULL,NULL,NULL,0,0,NULL,0
+700425984,2002-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Virginia State University,NULL,3,0,0,12,12,36,General,NULL,NULL,NULL,0,0,NULL,0
+700702970,2004-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Glenville State College,NULL,4,0,0,15,15,60,High School,NULL,NULL,NULL,0,0,NULL,0
+700793046,2006-08-15 00:00:00.000,undergrad,2007-08-15 00:00:00.000,Fairmont State University,NULL,4,0,0,14,14,56,High School,NULL,NULL,NULL,0,0,NULL,0
+700781324,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,New River Community and Technical College,NULL,4,0,0,9,9,36,High School,NULL,NULL,NULL,0,0,NULL,0
+700781324,2007-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Glenville State College,NULL,4,0,0,3,3,12,High School,NULL,NULL,NULL,0,0,NULL,NULL
+700541312,2000-08-15 00:00:00.000,undergrad,2003-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.7441,0,0,86,86,236,NULL,NULL,NULL,graduated,0,1,NULL,0
+700958767,2001-06-15 00:00:00.000,NULL,2005-05-15 00:00:00.000,Bluefield State College,Assoc.,3.0238,0,0,84,84,254,NULL,NULL,NULL,graduated,0,1,NULL,0
+700775104,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,West Virginia University at Parkersburg,NULL,4,0,0,9,9,36,High School,NULL,NULL,NULL,0,0,NULL,0
+700963123,2004-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Bluefield State College,Assoc.,3.4209,0,0,272,272,930.5,NULL,NULL,NULL,graduated,0,1,NULL,0
+700979419,2007-08-15 00:00:00.000,undergrad,NULL,West Virginia Institute of Technology,NULL,3.8,0,0,20,20,76,NULL,NULL,NULL,NULL,0,0,NULL,0
+700971596,2006-08-15 00:00:00.000,undergrad,2007-12-28 00:00:00.000,Ohio Valley University,NULL,3.15,0,0,47,46,145,NULL,NULL,NULL,NULL,0,0,NULL,0
+700282902,1992-09-01 00:00:00.000,undergrad,1996-12-30 00:00:00.000,University of Nairobi,BA/BS,0,0,0,0,0,0,Sociology,NULL,NULL,graduated,0,0,NULL,0
+700534102,2006-08-30 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Washington & Jefferson College,NULL,2.16,0,0,24,24,52,NULL,NULL,NULL,NULL,0,0,NULL,0
+700534102,2005-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,West Virginia University at Parkersburg,NULL,3,0,0,6,6,18,high school,NULL,NULL,NULL,0,0,NULL,0
+700998248,2002-05-15 00:00:00.000,NULL,2007-02-15 00:00:00.000,Mountain State University,BSN,3.119,0,0,84,84,262,NULL,NULL,NULL,graduated,0,1,NULL,0
+700999529,2006-08-15 00:00:00.000,undergrad,NULL,University of Iowa,NULL,2.8666,0,0,30,30,86,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700642563,2005-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Carlow University,NULL,3,0,0,8,8,24,High school,NULL,NULL,NULL,0,0,NULL,0
+700998978,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,West Virginia Northern Community College,NULL,3.16,0,0,18,18,57,General,NULL,NULL,NULL,0,0,NULL,0
+700998978,2006-08-14 00:00:00.000,undergrad,NULL,Fairmont State University,NULL,3.41,24,57,37,31,106,Pre Nursing,NULL,NULL,NULL,0,0,NULL,0
+700954280,1997-01-01 00:00:00.000,undergrad,1997-05-15 00:00:00.000,Salt Lake Community College,NULL,2.39,0,0,3,3,6,General,NULL,NULL,NULL,0,0,NULL,0
+700954280,2000-08-15 00:00:00.000,undergrad,2001-05-15 00:00:00.000,Western New England College,NULL,2.54,0,0,12,12,39,General,NULL,NULL,NULL,0,0,NULL,0
+700920583,2006-01-01 00:00:00.000,undergrad,NULL,Fairmont State University,NULL,3.64,0,0,28,28,102,Pre Nursing,NULL,NULL,NULL,0,0,NULL,0
+700910461,2006-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,California University of Pennsylvania,NULL,3.5,0,0,6,6,21,High School,NULL,NULL,NULL,0,0,NULL,0
+700853202,2004-06-28 00:00:00.000,undergrad,2006-12-23 00:00:00.000,County College of Morris,NULL,2.338,0,0,62,62,152,General,NULL,NULL,NULL,0,0,NULL,0
+700959521,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,University of Charleston,NULL,3.2414,0,0,29,29,94,General,NULL,NULL,NULL,0,0,NULL,0
+700710352,2005-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,West Virginia State College,NULL,3.5,0,0,8,8,28,High School,NULL,NULL,NULL,0,0,NULL,0
+700462339,2004-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Shepherd College,NULL,3.01,4,0,60,60,181,High School,NULL,NULL,NULL,0,0,NULL,0
+700462339,2004-08-16 00:00:00.000,undergrad,2007-05-16 00:00:00.000,Blue Ridge Community & Technical College,NULL,3.37,0,0,16,16,54,High School,NULL,NULL,NULL,0,0,NULL,0
+700915026,2003-01-01 00:00:00.000,undergrad,2007-08-15 00:00:00.000,Southern West Virginia Community and Technical College,NULL,2.84,0,0,73,73,208,General,NULL,NULL,NULL,0,0,NULL,0
+700915026,2006-01-01 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Marshall University,NULL,3.58,53,0,67,58,208,Nursing,NULL,NULL,NULL,0,0,NULL,0
+700943964,2005-08-15 00:00:00.000,undergrad,2007-07-15 00:00:00.000,LaSalle University,NULL,2.88,3,0,64,61,176,Pre-Nursing,NULL,NULL,NULL,0,0,NULL,0
+700968975,2007-08-15 00:00:00.000,undergrad,NULL,Shepherd College,NULL,2.79,56,0,68,68,190,Pre-Nursing,NULL,NULL,NULL,0,0,NULL,0
+700393127,2005-09-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,University of Rio Grande Ohio,Assoc.,2.409,0,0,308,308,742,NULL,NULL,NULL,graduated,0,1,NULL,0
+701011881,2003-05-15 00:00:00.000,NULL,2005-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.9387,0,0,98,98,288,NULL,NULL,NULL,graduated,0,1,NULL,0
+700752607,1992-05-15 00:00:00.000,NULL,1998-11-06 00:00:00.000,Central Carolina Technical College,Assoc.,2.8602,0,0,93,93,266,NULL,NULL,NULL,graduated,0,1,NULL,0
+700949015,1992-08-15 00:00:00.000,NULL,1994-05-15 00:00:00.000,Davis and Elkins College,Assoc.,3.1069,0,0,107.5,107.5,334,NULL,NULL,NULL,graduated,0,1,NULL,0
+700170024,1999-08-15 00:00:00.000,NULL,2003-05-15 00:00:00.000,Bluefield State College,Assoc.,2.5752,0,0,113,113,291,NULL,NULL,NULL,graduated,0,1,NULL,0
+701023459,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Marshall University/St. Mary's,Assoc.,3.3373,0,0,83,83,277,NULL,NULL,NULL,graduated,0,0,NULL,0
+700129816,2002-08-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,Penn State Univerisity Uniontown,Assoc.,2.6228,0,0,114,114,299,NULL,NULL,NULL,graduated,0,1,NULL,0
+700139369,1999-01-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.9197,0,0,162,162,473,NULL,NULL,NULL,graduated,0,1,NULL,0
+700943489,2004-08-15 00:00:00.000,undergrad,2006-05-06 00:00:00.000,Marshall University,Assoc.,2.53,4,4,116,112,284,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700955432,2004-08-15 00:00:00.000,undergrad,2006-05-06 00:00:00.000,Marshall University,Assoc.,2.7,12,12,120,113,306,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701009716,2002-08-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,Davis and Elkins College,Assoc.,2.3743,0,0,101.5,101.5,241,NULL,NULL,NULL,graduated,0,1,NULL,0
+700138997,2001-05-15 00:00:00.000,graduate,2004-05-11 00:00:00.000,Mountain State University,MSN,3.8484,0,0,46,33,127,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700992591,1997-08-15 00:00:00.000,undergrad,2000-04-30 00:00:00.000,University of Charleston,Assoc.,3.3,0,0,67,67,165,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700978332,1995-05-15 00:00:00.000,assoc.,1995-05-08 00:00:00.000,Bluefield State College,Assoc.,2.93,0,0,93,93,273,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701030309,1983-08-15 00:00:00.000,NULL,1985-05-15 00:00:00.000,University of State of New York,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,Also has a Masters in Education.,0
+701026491,1989-08-15 00:00:00.000,NULL,1992-12-15 00:00:00.000,Community College of Baltimore County,Assoc.,2.3068,0,0,88,88,203,NULL,NULL,NULL,graduated,0,1,NULL,0
+701035271,2003-01-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Fairmont State University,Assoc.,3.1443,0,0,97,97,305,NULL,NULL,NULL,graduated,0,1,NULL,0
+700788622,1999-08-15 00:00:00.000,undergrad,2008-12-30 00:00:00.000,West Virginia University at Parkersburg,NULL,2.5,0,0,6,6,15,None,NULL,NULL,n/a,0,0,NULL,0
+700845796,2007-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Allegany College of Maryland,NULL,4,0,0,6,6,24,High school,NULL,NULL,NULL,0,0,NULL,0
+700845796,2007-01-02 00:00:00.000,undergrad,2007-05-16 00:00:00.000,California University of Pennsylvania,NULL,4,0,0,4,4,16,High school,NULL,NULL,NULL,0,0,NULL,0
+700901293,2006-08-15 00:00:00.000,undergrad,NULL,Fairmont State University,NULL,3.38,0,0,13,13,44,High school,NULL,NULL,NULL,0,0,NULL,0
+700954280,2007-08-15 00:00:00.000,NULL,NULL,Indiana University,NULL,3.315,0,0,13,13,41,NULL,NULL,NULL,NULL,0,0,NULL,0
+700533827,2007-05-01 00:00:00.000,undergrad,2007-08-15 00:00:00.000,Shepherd College,NULL,2.75,0,0,8,8,22,General,NULL,NULL,NULL,0,0,NULL,NULL
+700533827,2006-08-15 00:00:00.000,undergrad,NULL,Marshall University,NULL,3.12,0,0,56,56,175,General,NULL,NULL,NULL,0,0,NULL,0
+700732648,2006-08-15 00:00:00.000,undergrad,2006-12-27 00:00:00.000,New River Community and Technical College,NULL,3,0,0,6,6,18,High School,NULL,NULL,NULL,0,0,NULL,0
+700539048,2006-05-19 00:00:00.000,undergrad,2006-06-30 00:00:00.000,College of Southern Maryland,NULL,4,0,0,3,3,12,General,NULL,NULL,NULL,0,0,NULL,0
+700179768,2002-01-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,Fairmont State University,Assoc.,2.6,0,0,140,140,364,NULL,NULL,NULL,graduated,0,1,NULL,0
+700376270,2004-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Alderson Broaddus College,BSN,3.135,0,0,111,111,348,NULL,NULL,NULL,NULL,0,1,Student will graduate from AB with a BSN May 2008.,0
+701007360,2005-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Mountain State University,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Will graduate May 2008.,0
+701009356,2007-06-01 00:00:00.000,NULL,2008-03-01 00:00:00.000,University of Phoenix,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701010886,2005-09-15 00:00:00.000,NULL,2007-06-15 00:00:00.000,Washington State Marietta,Assoc.,3.7083,0,0,168,168,623,NULL,NULL,NULL,graduated,0,1,NULL,0
+700992640,1991-05-15 00:00:00.000,NULL,1992-06-15 00:00:00.000,University of Charleston,Assoc.,2.4873,0,0,158,158,393,NULL,NULL,NULL,graduated,0,1,NULL,0
+701010775,2004-06-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Alderson Broaddus College,BSN,3.468,0,0,143,143,496,NULL,NULL,NULL,graduated,0,1,NULL,0
+701009430,2004-09-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Bluefield State College,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Will graduate May 08 with a BSN.,0
+700854128,2006-09-20 00:00:00.000,NULL,2007-02-15 00:00:00.000,Excelsior,Assoc.,2.6797,0,0,97,97,258,NULL,NULL,NULL,graduated,0,1,NULL,0
+700421185,1991-09-01 00:00:00.000,NULL,1993-05-01 00:00:00.000,Marshall University,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700967361,2005-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,Marshall University,Assoc.,2.2356,0,0,174,174,389,NULL,NULL,NULL,graduated,0,1,NULL,0
+700204419,1996-08-15 00:00:00.000,NULL,1997-05-15 00:00:00.000,Shenandoah University,Assoc.,2.4329,0,0,145.5,145.5,354,NULL,NULL,NULL,graduated,0,1,NULL,0
+701019807,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.8044,0,0,225,225,856,NULL,NULL,NULL,graduated,0,0,NULL,0
+701024006,2001-05-15 00:00:00.000,NULL,2002-05-15 00:00:00.000,St. Petersburg College - Florida,Assoc.,2.9623,0,0,1860,186,551,NULL,NULL,NULL,graduated,0,1,NULL,0
+700190874,2001-08-15 00:00:00.000,NULL,2003-05-15 00:00:00.000,Bluefield State College,Assoc.,3.8706,0,0,116,116,449,NULL,NULL,NULL,graduated,0,1,NULL,0
+700967851,2004-08-16 00:00:00.000,NULL,2008-06-05 00:00:00.000,Bluefield State College,Assoc.,3.2937,0,0,80,100,329.5,NULL,NULL,NULL,graduated,0,1,Has Temp. RN lic.,0
+701024854,1990-08-15 00:00:00.000,NULL,1993-05-15 00:00:00.000,University of Charleston,Assoc.,3.34,0,0,50,50,167,NULL,NULL,NULL,graduated,0,1,NULL,0
+700250478,2005-08-15 00:00:00.000,undergrad,2007-05-05 00:00:00.000,Marshall University,Assoc.,2.7,0,0,133,129,349,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701026005,2002-06-17 00:00:00.000,undergrad,2003-11-21 00:00:00.000,Excelsior College,Assoc.,2.38,0,0,50,50,119,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700425926,2007-01-15 00:00:00.000,NULL,2007-12-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.9333,0,0,120,120,352,NULL,NULL,NULL,graduated,0,1,NULL,0
+700943586,1979-08-15 00:00:00.000,NULL,1982-05-15 00:00:00.000,Fairmont State University,Assoc.,3.2293,0,0,109,109,352,NULL,NULL,NULL,graduated,0,1,NULL,0
+701026210,1989-08-15 00:00:00.000,NULL,1991-05-15 00:00:00.000,University of Charleston,Assoc.,2.9456,0,0,92,92,271,NULL,NULL,NULL,graduated,0,1,NULL,0
+700740173,2000-08-15 00:00:00.000,graduate,2002-04-17 00:00:00.000,University of Phoenix,MSN,3.76,0,0,39,39,146.61,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700780639,2005-06-15 00:00:00.000,graduate,2007-08-30 00:00:00.000,University of Cincinnati,MSN,3.891,0,0,67,67,260.6674,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700180803,2005-06-15 00:00:00.000,graduate,2007-08-30 00:00:00.000,University of Cincinnati,MSN,3.891,0,0,67,67,260.6674,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700131356,1998-08-15 00:00:00.000,graduate,2000-05-14 00:00:00.000,West Virginia University at Morgantown,MSN,3.93,0,0,47,47,185,Nursing,NULL,NULL,graduated,0,1,NULL,NULL
+700955834,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Fairmont State University,Assoc.,3.4285,0,0,147,147,504,NULL,NULL,NULL,graduated,0,1,NULL,0
+700212373,1999-08-15 00:00:00.000,assoc.,2005-05-07 00:00:00.000,Marshall University,Assoc.,2.99,0,0,124,136,407,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700986468,1996-08-15 00:00:00.000,assoc.,1998-05-09 00:00:00.000,West Virginia Institute of Technology,Assoc.,2.5106,0,0,141,141,354,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700943652,2006-08-15 00:00:00.000,graduate,2007-05-15 00:00:00.000,Waynesburg University,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700170349,1998-08-15 00:00:00.000,undergrad,2000-05-14 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.97,76,76,130,130,517,History,Law & Legal Studies,NULL,graduated,0,0,NULL,0
+700170349,2003-05-01 00:00:00.000,graduate,2005-09-01 00:00:00.000,Duke University,MA,3.923,0,0,39,39,153,Teaching,NULL,NULL,graduated,0,0,NULL,0
+701038066,2005-08-15 00:00:00.000,undergrad,NULL,University of Pittsburgh,NULL,3.2473,0,0,93,93,302,Rehabilitation Science,NULL,NULL,NULL,0,0,NULL,0
+700969876,2003-08-01 00:00:00.000,NULL,2008-05-01 00:00:00.000,West Virginia Institute of Technology,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,0,NULL,0
+700151224,1994-08-15 00:00:00.000,NULL,1996-05-15 00:00:00.000,WVU,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701038740,1983-08-15 00:00:00.000,assoc.,1987-05-16 00:00:00.000,Shepherd College,Assoc.,2.8,0,0,141,141,395,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700885836,2005-01-02 00:00:00.000,undergrad,2006-05-15 00:00:00.000,University of Charleston,NULL,3.5,0,0,6,6,21,High School,NULL,NULL,NULL,0,0,NULL,0
+700885836,2005-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,West Virginia State University,NULL,3.42,NULL,0,14,14,48,High School,NULL,NULL,NULL,0,0,NULL,0
+700727448,2007-01-01 00:00:00.000,undergrad,2007-05-15 00:00:00.000,Fairmont State University,NULL,4,0,0,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700782306,2005-08-15 00:00:00.000,undergrad,2005-12-28 00:00:00.000,West Virginia State College,NULL,4,0,NULL,3,3,12,High School,NULL,NULL,NULL,0,0,NULL,0
+701002544,1982-01-15 00:00:00.000,NULL,1984-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.6818,0,0,88,88,236,NULL,NULL,NULL,graduated,0,1,NULL,0
+700963764,1988-08-15 00:00:00.000,undergrad,1988-12-28 00:00:00.000,Kentucky Community & Technical College,NULL,2.6,0,0,5,5,43,General,NULL,NULL,unknown,0,0,NULL,0
+700963764,1989-08-15 00:00:00.000,undergrad,1989-12-28 00:00:00.000,Delgado Community College,NULL,2.765,0,0,17,14,47,General,NULL,NULL,unknown,0,0,NULL,0
+700963764,1992-08-15 00:00:00.000,undergrad,1994-05-15 00:00:00.000,St. Johns River Community College,NULL,2.83,0,0,12,12,34,General,NULL,NULL,unknown,0,0,NULL,0
+700963764,1982-01-01 00:00:00.000,undergrad,1982-05-15 00:00:00.000,Kent State University,NULL,1.621,0,0,29,29,47,General,NULL,NULL,unknown,0,0,NULL,0
+700963764,1989-01-01 00:00:00.000,undergrad,1991-08-16 00:00:00.000,University of Louisville,BA/BS,3.417,0,0,84,84,287,Physical Education,NULL,NULL,graduated,0,0,NULL,0
+700890360,2004-08-28 00:00:00.000,undergrad,2006-12-16 00:00:00.000,Frederick Community College,NULL,2.963,0,0,54,54,160,General Studies,NULL,NULL,transferred,0,0,NULL,0
+700590467,2000-08-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,Shepherd College,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700236335,2000-05-15 00:00:00.000,NULL,2002-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700203018,2001-01-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,West Liberty State College,BSN,3.24,0,0,257,257,832.75,NULL,NULL,NULL,graduated,0,1,NULL,0
+700947304,2000-08-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,Bowling Green State University,BSN,3.77,0,0,126,126,476,NULL,NULL,NULL,graduated,0,1,NULL,0
+700967468,1994-08-15 00:00:00.000,NULL,1996-05-15 00:00:00.000,Davis and Elkins College,Assoc.,2.7525,0,0,97,97,267,NULL,NULL,NULL,graduated,0,1,NULL,0
+700998513,2004-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Wheeling Jesuit University,NULL,2.676,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Will graduate with BSN May 2008.,0
+700214602,1970-09-15 00:00:00.000,NULL,1974-05-15 00:00:00.000,Alderson Broaddus College,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701009636,1992-08-15 00:00:00.000,NULL,1994-05-15 00:00:00.000,Wright State,MSN,3.45,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700164195,1994-08-15 00:00:00.000,NULL,1998-09-15 00:00:00.000,West Virginia University at Morgantown,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700575462,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Bluefield State College,NULL,3,0,0,73,73,219,NULL,NULL,NULL,NULL,0,0,Will graduate with BSN May 2008,0
+700195024,2003-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Marshall University,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701004407,1998-12-15 00:00:00.000,NULL,2001-05-15 00:00:00.000,University of Phoenix at Hawaii,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701011012,2002-08-01 00:00:00.000,NULL,2007-07-01 00:00:00.000,Mountain State University,BSN,3.67,0,0,99,99,364,NULL,NULL,NULL,graduated,0,1,NULL,0
+701013974,2005-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.047,0,0,85,85,259,NULL,NULL,NULL,graduated,0,1,Will graduate May 2008 with an associates degree.,0
+701012987,2006-01-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,west virginia northern community college,Assoc.,2.873,0,0,126,126,362,NULL,NULL,NULL,graduated,0,1,NULL,0
+700943185,1989-08-15 00:00:00.000,NULL,1991-05-15 00:00:00.000,Fairmont State University,Assoc.,3.0574,0,0,87,87,266,NULL,NULL,NULL,graduated,0,1,NULL,0
+700387382,2006-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.9212,0,0,127,127,498,NULL,NULL,NULL,graduated,0,0,NULL,0
+701020407,2002-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,2.7538,0,0,130,130,358,NULL,NULL,NULL,graduated,0,1,NULL,0
+700548902,2006-01-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Fairmont State University,Assoc.,3.4482,0,0,116,116,400,NULL,NULL,NULL,graduated,0,1,Has temp. lic.,0
+700235649,2005-08-15 00:00:00.000,NULL,2007-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,207610,0,0,226,226,624,NULL,NULL,NULL,graduated,0,1,NULL,0
+701024326,2004-01-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.6521,0,0,92,92,336,NULL,NULL,NULL,graduated,0,1,NULL,0
+700427512,1997-08-15 00:00:00.000,NULL,2000-05-15 00:00:00.000,Bluefield State College,BSN,3.28,0,0,128,128,420,NULL,NULL,NULL,graduated,0,1,NULL,0
+700240189,2002-08-15 00:00:00.000,undergrad,2005-05-14 00:00:00.000,Fairmont State University,Assoc.,3.82,16,0,103,102,390,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700240189,2000-08-15 00:00:00.000,undergrad,2002-06-30 00:00:00.000,Florida Community College,NULL,3.25,0,0,24,24,78,Radiography,NULL,NULL,transferred,0,0,NULL,0
+700215395,1992-09-01 00:00:00.000,undergrad,1996-07-01 00:00:00.000,East China University,BA/BS,0,0,0,0,0,0,Chemistry,NULL,NULL,graduated,0,0,NULL,0
+700215395,2004-08-15 00:00:00.000,undergrad,2006-05-13 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.84,0,0,57,57,219,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700204922,1999-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,Bluefield State College,Assoc.,2.9,4,0,86,85,246.5,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700470070,2001-08-15 00:00:00.000,undergrad,2006-05-06 00:00:00.000,Marshall University,Assoc.,3,0,0,136,135,406,Nursing,Biology/Chemistry,NULL,graduated,0,0,NULL,0
+701025325,2006-08-15 00:00:00.000,undergrad,2008-05-10 00:00:00.000,Marshall University,Assoc.,3.13,0,0,117,115,360,Nursing,NULL,NULL,graduated,0,0,NULL,0
+700177243,2001-08-15 00:00:00.000,NULL,2003-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.3924,0,0,158,158,378,NULL,NULL,NULL,graduated,0,1,NULL,0
+701025864,2003-08-15 00:00:00.000,undergrad,2005-05-08 00:00:00.000,Davis and Elkins College,Assoc.,3.578,0,0,190,185,662,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701025864,1997-08-15 00:00:00.000,undergrad,2001-12-15 00:00:00.000,Fairmont State University,BA/BS,3.46,0,0,141,138,478,Criminal Justice,NULL,NULL,graduated,0,0,NULL,0
+701023902,2001-08-15 00:00:00.000,undergrad,2006-05-13 00:00:00.000,Fairmont State University,Assoc.,3.59,0,0,91,81,291,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701025244,2005-05-15 00:00:00.000,undergrad,2008-05-17 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.52,0,0,74,74,261,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701026208,2005-08-15 00:00:00.000,undergrad,2007-05-12 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,3.41,141,135,193,187,639,Nursing,NULL,NULL,graduated,0,0,NULL,0
+701026208,1991-08-15 00:00:00.000,undergrad,1995-05-15 00:00:00.000,Marshall University,BA/BS,3.39,5,5,129,123,417,Communication Disorders,NULL,NULL,graduated,0,0,NULL,0
+701026208,1999-05-01 00:00:00.000,undergrad,1999-12-28 00:00:00.000,University of Charleston,NULL,4,NULL,0,12,12,48,General,NULL,NULL,transferred,0,0,NULL,0
+701026006,1988-08-15 00:00:00.000,NULL,1990-05-15 00:00:00.000,St. Mary's,Assoc.,3.1486,0,0,74,74,233,NULL,NULL,NULL,graduated,0,1,NULL,0
+701026213,1988-06-15 00:00:00.000,NULL,2008-06-15 00:00:00.000,Marshall University,Assoc.,2.8703,0,0,108,108,310,NULL,NULL,NULL,graduated,0,1,NULL,0
+701021787,1995-08-15 00:00:00.000,graduate,1997-05-03 00:00:00.000,Carlow University,MSN,3.979,0,0,38,38,139.25,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701026535,2001-08-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.2051,0,0,78,78,250,NULL,NULL,NULL,graduated,0,1,NULL,0
+700116975,1990-01-15 00:00:00.000,assoc.,2000-05-06 00:00:00.000,Chamberlin College of Nursing,Assoc.,3.04,0,0,199,199,606,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700989620,1997-08-15 00:00:00.000,assoc.,2003-05-04 00:00:00.000,University of Charleston,Assoc.,2.8307,0,0,65,65,184,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700985071,2000-05-15 00:00:00.000,assoc.,2005-05-14 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.87,0,0,98,86,247,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700211696,1998-08-15 00:00:00.000,NULL,2001-05-13 00:00:00.000,West Virginia University at Morgantown,MSN,3.25,0,0,44,44,143,Nursing,NULL,NULL,NULL,0,0,NULL,0
+701029535,2005-07-01 00:00:00.000,NULL,2008-01-01 00:00:00.000,Mountain State University,BSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,0,NULL,0
+700535114,2006-08-15 00:00:00.000,undergrad,2009-05-15 00:00:00.000,Bloomsburg University,NULL,3.855,0,0,69,69,266,Psychology,NULL,NULL,NULL,0,0,NULL,0
+700535114,2004-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,aAllegany College of Maryland,NULL,4,0,0,3,3,0,General,NULL,NULL,transferred,0,0,NULL,12
+700535114,2005-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Shippensburg University,NULL,3.642,0,0,33,33,122,Pre-Nursing,NULL,NULL,transferred,0,0,NULL,0
+700208641,1992-01-01 00:00:00.000,undergrad,1996-12-18 00:00:00.000,Glenville State College,BA/BS,3.41,63,62,132,131,448,Interdisciplinary Studies,NULL,NULL,graduated,0,0,NULL,0
+701035974,2004-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.9255,0,0,94,94,275,NULL,NULL,NULL,graduated,0,1,NULL,0
+700590138,2005-02-15 00:00:00.000,undergrad,2008-05-31 00:00:00.000,Mountain State University,BSN,4,0,0,102,79,316,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701038740,1997-08-15 00:00:00.000,undergrad,2002-12-13 00:00:00.000,Marshall University,BA/BS,3.71,0,0,21,21,78,Regents,NULL,NULL,graduated,0,0,NULL,0
+700438470,2004-07-01 00:00:00.000,undergrad,2008-12-29 00:00:00.000,University of Florida,NULL,3.7259,0,0,135,135,503,Physiology & Kinesiology,NULL,NULL,NULL,0,0,NULL,0
+701039761,1982-08-15 00:00:00.000,undergrad,1986-06-14 00:00:00.000,Wittenburg University,BA/BS,2.3333,0,0,36,36,84,English,NULL,NULL,graduated,0,0,NULL,0
+701039761,1991-08-15 00:00:00.000,graduate,1992-12-29 00:00:00.000,West Virginia University at Morgantown,Other Masters,3.7,0,0,30,30,111,Rehab Counseling,NULL,NULL,graduated,0,0,NULL,0
+701035647,2006-08-15 00:00:00.000,undergrad,2009-05-15 00:00:00.000,Howard University,NULL,3.0338,0,0,118,118,358,Health Science,NULL,NULL,NULL,0,0,NULL,0
+701035647,2004-05-01 00:00:00.000,undergrad,2006-05-13 00:00:00.000,Bloomsburg University,NULL,NULL,0,0,59,59,164,General,NULL,NULL,NULL,0,0,NULL,0
+701042937,2005-08-15 00:00:00.000,undergrad,NULL,Pennsylvania State University,NULL,3.4432,0,0,97,97,334,Behavioral Health,NULL,NULL,NULL,0,0,NULL,0
+701042148,1991-08-15 00:00:00.000,graduate,1996-04-27 00:00:00.000,University of Pittsburgh,MSN,3.796,0,0,51,51,186,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701042148,1977-08-29 00:00:00.000,undergrad,1981-05-10 00:00:00.000,Barry University,BA/BS,0,0,0,0,0,0,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701054347,2001-01-02 00:00:00.000,undergrad,2004-01-10 00:00:00.000,University of Delaware,BA/BS,2.791,0,0,80,80,239,Psychology,NULL,NULL,graduated,0,0,NULL,0
+701054347,2006-04-11 00:00:00.000,undergrad,2008-05-15 00:00:00.000,University of Massachusetts Boston,NULL,3.3777,0,0,59,59,177,Exercise and Health Science,NULL,NULL,NULL,0,0,NULL,0
+701054347,1999-08-15 00:00:00.000,undergrad,2000-12-28 00:00:00.000,The Ohio State University,NULL,2.83,0,0,47,47,132,General,NULL,NULL,NULL,0,0,NULL,0
+700974592,2008-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,0,0,0,0,0,0,Regents Bachelor of Arts,NULL,NULL,NULL,0,0,to graduate May 2009 w/RBA,0
+700974592,1982-08-15 00:00:00.000,undergrad,1987-12-28 00:00:00.000,Mayville State University,NULL,3.0977,0,0,174,174,539,Physical Education,NULL,NULL,unknown,0,0,NULL,0
+700382806,2004-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.69,9,9,141,140,517,Biology,NULL,NULL,NULL,0,0,to graduate May 2009 w/BS-Biology,0
+700382806,2003-01-01 00:00:00.000,undergrad,2003-12-28 00:00:00.000,Fairmont State University,NULL,4,0,NULL,9,9,36,General,NULL,NULL,NULL,0,0,NULL,0
+700924683,2007-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,4,0,0,40,34,136,Biology,NULL,NULL,NULL,0,0,NULL,0
+700788622,1999-08-01 00:00:00.000,undergrad,2001-05-30 00:00:00.000,Glenville State College,NULL,3.5,0,0,6,6,21,high school,NULL,NULL,n/a,0,0,NULL,0
+700788622,2004-08-15 00:00:00.000,undergrad,2004-12-30 00:00:00.000,West Virginia State College,NULL,3,0,0,3,3,9,General,NULL,NULL,n/a,0,0,NULL,0
+700788622,2006-08-15 00:00:00.000,undergrad,2008-05-30 00:00:00.000,West Virginia School of Osteoppathic Medicine,NULL,0,0,0,0,0,0,System Based Learning,NULL,NULL,n/a,0,0,NULL,0
+700344395,2004-08-15 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.29,33,126,143,134,441,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700344395,2003-08-15 00:00:00.000,undergrad,2004-05-15 00:00:00.000,West Liberty State College,NULL,3.81,0,NULL,37,33,126,Pre-Physical Therapy,NULL,NULL,NULL,0,0,NULL,0
+700365223,2003-08-15 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.2857,0,0,139,140,460,Sports Management,NULL,NULL,graduated,0,0,NULL,0
+700365223,2007-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.85,0,0,21,21,81,Special Education,NULL,NULL,NULL,0,0,NULL,0
+701025486,2005-06-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,3.18,0,0,153,153,487,NULL,NULL,NULL,graduated,0,1,NULL,0
+701035975,1994-08-15 00:00:00.000,assoc.,2003-05-09 00:00:00.000,University of Rio Grande,Assoc.,3.1538,NULL,0,52,52,164,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700285407,2002-08-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.5102,0,0,147,147,516,Fine Arts/Visual Arts,NULL,NULL,graduated,0,0,NULL,NULL
+701052327,2003-08-15 00:00:00.000,undergrad,2007-12-13 00:00:00.000,West Virginia Wesleyan College,BA/BS,2.99,0,0,132,132,389,Biology,NULL,NULL,graduated,0,0,NULL,0
+701052327,2006-05-01 00:00:00.000,undergrad,2006-08-01 00:00:00.000,West Virginia State College,NULL,4,0,0,6,6,24,General,NULL,NULL,NULL,0,0,NULL,0
+700425456,2004-08-15 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.3852,0,0,122,122,413,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+701045679,1996-08-15 00:00:00.000,NULL,1999-05-15 00:00:00.000,Pikeville College,Assoc.,3.1592,0,0,113,113,357,NULL,NULL,NULL,graduated,0,1,NULL,0
+701054393,2003-08-15 00:00:00.000,NULL,2005-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,3.0943,0,0,106,106,328,NULL,NULL,NULL,graduated,0,1,NULL,0
+700218004,1972-09-15 00:00:00.000,NULL,1978-05-15 00:00:00.000,Fairmont State University,Assoc.,3.57,0,0,173,173,618,NULL,NULL,NULL,graduated,0,1,NULL,0
+700423507,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.2929,0,0,99,99,326,Biology,NULL,NULL,NULL,0,0,to graduate May 2009,0
+700558416,2005-08-15 00:00:00.000,undergrad,NULL,The Pennsylvania State University,BA/BS,2.9117,0,0,102,102,297,Health Policy & Administration,NULL,NULL,NULL,0,0,to graduate May 2009,0
+700137726,1997-08-15 00:00:00.000,NULL,2001-05-13 00:00:00.000,West Virginia University at Charleston,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700132292,1999-08-15 00:00:00.000,NULL,2003-05-15 00:00:00.000,West Virginia University at Morgantown,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701055565,2005-09-01 00:00:00.000,undergrad,NULL,University of Minnesota,NULL,3.3333,0,0,93,93,310,Kinesiology/Exercise Science,NULL,NULL,NULL,0,0,to graduate May 2009,0
+700454006,2004-08-15 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.1578,0,0,133,133,420,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+701056508,2004-08-15 00:00:00.000,undergrad,2008-05-10 00:00:00.000,East Carolina University,BA/BS,3.3059,0,0,134,134,443,Health Education,NULL,NULL,graduated,0,0,NULL,0
+700188634,1998-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,BA/BS,3,0,0,139,136,409,Regents Bachelor of Arts,NULL,NULL,NULL,0,0,to graduate May 2009,0
+700549504,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,BA/BS,3.1923,0,0,104,104,332,Multidisciplinary Studies,NULL,NULL,NULL,0,0,NULL,0
+700458088,2005-08-15 00:00:00.000,undergrad,2009-05-17 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.35,68,NULL,166,166,557,Biology,NULL,NULL,graduated,0,0,to graduate May 2009,0
+700458088,2004-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,Marshall University,NULL,3.43,40,0,72,71,244,Science,NULL,NULL,transferred,0,0,NULL,0
+700458088,2002-08-15 00:00:00.000,undergrad,2003-05-15 00:00:00.000,Southern West Virginia Community and Technical College,NULL,4,0,0,6,6,24,General,NULL,NULL,transferred,0,0,NULL,0
+700458088,2002-08-20 00:00:00.000,undergrad,2004-05-15 00:00:00.000,Shepherd College,NULL,3.67,0,0,28,28,103,High School,NULL,NULL,NULL,0,0,NULL,0
+700190475,2000-08-15 00:00:00.000,undergrad,2005-12-17 00:00:00.000,Fairmont State University,BA/BS,3.35,50,0,162,161,539,Business Administration,NULL,NULL,graduated,0,0,NULL,0
+700190475,1998-08-15 00:00:00.000,undergrad,2000-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,2.26,0,0,53,56,127,General,NULL,NULL,NULL,0,0,NULL,0
+700235086,2000-08-15 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.85,6,0,147,154,440,Regents Bachelor of Arts,NULL,NULL,graduated,0,0,NULL,0
+700235086,1999-08-15 00:00:00.000,undergrad,2000-05-15 00:00:00.000,West Virginia University Institute of Technology,NULL,3,0,0,6,6,18,General,NULL,NULL,NULL,0,0,NULL,0
+701052727,1991-09-15 00:00:00.000,NULL,1997-05-15 00:00:00.000,Villa Marra College,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+700396105,2005-08-15 00:00:00.000,undergrad,NULL,West Liberty State College,NULL,3.52,0,0,151,150,528,Business Administration & Psychology,NULL,NULL,NULL,0,0,to graduate May 2009,0
+700396105,2004-08-15 00:00:00.000,undergrad,2004-12-29 00:00:00.000,Quinnipiac University,NULL,3.8,0,0,15,15,57,General,NULL,NULL,NULL,0,0,NULL,0
+701035975,1995-09-09 00:00:00.000,undergrad,2000-06-10 00:00:00.000,Ohio University,BA/BS,3.1058,0,0,189,189,587,Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700396105,2005-01-01 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia University at Morgantown,NULL,3,0,0,39,21,0,General,NULL,NULL,NULL,0,0,NULL,63
+700990779,2006-08-15 00:00:00.000,undergrad,NULL,Concord College,NULL,3.08,0,0,113,113,349,Biology,NULL,NULL,NULL,0,0,to graduate December 2008,0
+700990779,2004-08-15 00:00:00.000,undergrad,2005-05-15 00:00:00.000,West Virginia Institute of Technology,NULL,4,0,0,6,6,24,General,NULL,NULL,NULL,0,0,NULL,0
+700742513,2005-05-01 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.31,31,0,150,119,395,Sport & Exercise Psychology,NULL,NULL,graduated,0,0,NULL,0
+700742513,2004-07-06 00:00:00.000,undergrad,2005-08-18 00:00:00.000,Michigan State University,NULL,2.37,NULL,0,32,32,76,General,NULL,NULL,NULL,0,0,NULL,0
+700458759,2004-08-15 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.23,0,0,143,143,462,Psychology,Communication Studies,NULL,graduated,0,0,NULL,0
+700458759,2003-01-01 00:00:00.000,undergrad,2006-08-15 00:00:00.000,Marshall University,NULL,3,0,0,12,12,36,General,NULL,NULL,NULL,0,0,NULL,0
+700642563,2008-05-01 00:00:00.000,undergrad,2008-08-15 00:00:00.000,Fairmont State University,NULL,3.39,55,0,59,59,200,General,NULL,NULL,NULL,0,0,NULL,0
+700686563,2006-08-15 00:00:00.000,undergrad,2007-05-15 00:00:00.000,West Virginia University at Parkersburg,NULL,4,0,0,6,6,24,High School,NULL,NULL,NULL,0,0,NULL,0
+700860045,2007-01-01 00:00:00.000,undergrad,2008-05-18 00:00:00.000,Southern West Virginia Community and Technical College,NULL,3.78,0,0,19,19,72,High School,NULL,NULL,NULL,0,0,NULL,0
+700957289,2006-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Ulster County Community College,NULL,2.92,0,0,13,13,38.01,NULL,NULL,NULL,NULL,0,0,NULL,0
+700957289,2006-05-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,University at Albany,NULL,3.3,0,0,4,4,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700544860,2005-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,New River Community and Tech Gollege,NULL,3,0,0,12,12,36,High School,NULL,NULL,NULL,0,0,NULL,0
+701068213,2007-08-15 00:00:00.000,undergrad,2008-12-30 00:00:00.000,Rutgers,NULL,3,0,0,2.962,2.962,39,High School,NULL,NULL,NULL,0,0,NULL,0
+700936866,2007-01-24 00:00:00.000,undergrad,2008-05-13 00:00:00.000,Chesapeake College,NULL,3,0,0,12,12,36,High School,NULL,NULL,NULL,0,0,NULL,0
+700210086,2005-05-15 00:00:00.000,diploma,2007-12-15 00:00:00.000,Trinity School of Nursing,Diploma,2.5927,0,0,194,194,503,NULL,NULL,NULL,graduated,0,1,NULL,0
+700389718,2005-05-15 00:00:00.000,undergrad,2006-12-15 00:00:00.000,Ashland Community & Technical,Assoc.,3.09,0,0,99,99,306,NULL,NULL,NULL,NULL,0,1,NULL,0
+700902454,2008-05-15 00:00:00.000,undergrad,2008-08-08 00:00:00.000,Cuyahoga Community College,NULL,3,0,0,3,3,9,General,NULL,NULL,NULL,0,0,NULL,0
+700543194,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Morgantown,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,Expected graduation from WVU May 2009 with BSN.,0
+701024355,2007-08-15 00:00:00.000,undergrad,2008-05-15 00:00:00.000,Alderson Broaddus College,NULL,2.941,0,0,34,34,100,General,NULL,NULL,NULL,0,0,NULL,0
+701024355,2006-01-10 00:00:00.000,undergrad,2006-12-30 00:00:00.000,Fairmont State University,NULL,3.3,0,0,10,10,33,High School,NULL,NULL,NULL,0,0,NULL,0
+701024355,2006-08-15 00:00:00.000,undergrad,2006-12-30 00:00:00.000,Marshall University,NULL,3,0,0,4,4,12,High School,NULL,NULL,NULL,0,0,NULL,0
+701083978,2005-08-15 00:00:00.000,undergrad,2010-05-15 00:00:00.000,West Virginia University at Parkersburg,BA/BS,3.7733,0,0,150,150,566,Accounting/Finance Mgmt,NULL,NULL,NULL,0,0,to graduate May 2010,0
+701098672,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Northern WV Community College,Assoc.,2.73,0,0,0,216,590,NULL,NULL,NULL,graduated,0,1,NULL,0
+701092059,2007-01-01 00:00:00.000,undergrad,2009-05-20 00:00:00.000,Towson University,BA/BS,3.584,0,0,87,156,258,Health Sciences/Community Health Edu.,NULL,NULL,graduated,0,0,NULL,0
+701092059,2004-08-15 00:00:00.000,undergrad,2006-05-15 00:00:00.000,Salisbury University,NULL,2.695,0,0,66,65,159,Pre-Nursing,NULL,NULL,NULL,0,0,NULL,0
+701092059,2006-08-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,Community College of Baltimore County,NULL,2.33,30,0,12,12,28,Pre-Nursing,NULL,NULL,NULL,0,0,NULL,0
+700627191,1975-09-15 00:00:00.000,undergrad,1979-08-24 00:00:00.000,University of Cincinnati,BA/BS,3.2368,0,0,152,152,492,Medical Tech,NULL,NULL,graduated,0,0,NULL,0
+700231849,2002-01-01 00:00:00.000,undergrad,2005-08-01 00:00:00.000,Fairmont State University,BA/BS,3.25,44,35,154,145,471,Regents Bachelor of Arts,NULL,NULL,graduated,0,0,NULL,NULL
+700231849,2000-09-05 00:00:00.000,undergrad,2002-03-26 00:00:00.000,Ohio University,NULL,2.959,0,0,64,66,189,General,NULL,NULL,NULL,0,0,NULL,0
+700237633,2003-08-15 00:00:00.000,undergrad,2005-12-29 00:00:00.000,West Virginia University at Morgantown,BA/BS,2.89,0,0,132,132,382,Sport & Exercise Physiology,NULL,NULL,graduated,0,0,NULL,0
+700237633,2001-08-15 00:00:00.000,undergrad,2003-05-15 00:00:00.000,Marshall University,NULL,2.51,0,0,56,54,136,General,NULL,NULL,NULL,0,0,NULL,0
+700237633,2006-08-21 00:00:00.000,undergrad,2008-07-26 00:00:00.000,Community College of Allegheny County,NULL,2.6923,0,0,26,26,70,General,NULL,NULL,NULL,0,0,NULL,0
+701099352,2003-08-15 00:00:00.000,undergrad,2007-12-28 00:00:00.000,University of Arizona,BA/BS,3.341,0,0,142,129,431,Molecular & Cellular Biology,Chemistry,NULL,graduated,0,0,NULL,0
+701099352,2001-05-01 00:00:00.000,undergrad,2009-08-15 00:00:00.000,San Jose City College,NULL,3,0,0,10,10,30,General,NULL,NULL,NULL,0,0,NULL,0
+701099352,2006-05-01 00:00:00.000,undergrad,2008-12-15 00:00:00.000,Pima Community College,NULL,3.8,0,0,20,20,76,Basic Emergency Medical Tech.,NULL,NULL,NULL,0,0,NULL,0
+701099352,2005-05-01 00:00:00.000,undergrad,2009-08-01 00:00:00.000,Gavilan College,NULL,3.56,0,0,26,18,64.2,General,NULL,NULL,NULL,0,0,NULL,0
+701112784,2005-08-15 00:00:00.000,undergrad,2006-12-28 00:00:00.000,North Greenville University,NULL,3.548,0,0,55,46.5,165,General,NULL,NULL,NULL,0,0,NULL,0
+701112784,2008-03-14 00:00:00.000,undergrad,2009-05-01 00:00:00.000,Central Virginia Community College,NULL,3.5,0,NULL,8,8,28,General,NULL,NULL,NULL,0,0,NULL,0
+700513305,2006-08-21 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,BA/BS,3.7473,0,0,95,95,356,Psychology,NULL,NULL,NULL,0,0,to graduate May 2010,0
+700536950,2002-08-15 00:00:00.000,graduate,2006-05-20 00:00:00.000,The University of Texas at Austin,MSN,3.8333,0,0,42,36,138,Nursing,NULL,NULL,graduated,0,1,NULL,0
+700536950,1997-08-15 00:00:00.000,undergrad,2001-05-12 00:00:00.000,University of Mary Hardin-Baylor,BA/BS,3.192,0,0,148,109,348,Nursing,Psychology,NULL,graduated,0,1,NULL,0
+700476950,2005-08-15 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,BA/BS,3.6826,0,0,104,104,383,Psychology,NULL,NULL,NULL,0,0,graduating 05/2009,0
+701055392,2001-08-15 00:00:00.000,undergrad,2005-08-06 00:00:00.000,University of Georgai,BA/BS,3.2666,0,0,120,120,392,Exercise & Sport Science,NULL,NULL,graduated,0,0,NULL,0
+701019213,2005-01-05 00:00:00.000,NULL,2007-05-15 00:00:00.000,Marshall University,Assoc.,3,0,0,99,297,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701049893,2002-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Edison,Assoc.,3.1791,0,0,134,134,426,NULL,NULL,NULL,graduated,0,1,NULL,0
+701054346,1993-08-15 00:00:00.000,NULL,1996-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.1824,0,0,137,137,436,NULL,NULL,NULL,graduated,0,1,NULL,0
+700456397,2004-08-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Marshall University,Assoc.,2.631,0,0,103,103,271,NULL,NULL,NULL,graduated,0,1,NULL,0
+700426017,2004-08-15 00:00:00.000,undergrad,2008-05-18 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.36,6,0,139,133,488,Exercise Physiology/Aquatic Therapy,NULL,NULL,graduated,0,0,NULL,0
+700426017,2005-05-01 00:00:00.000,undergrad,2005-08-01 00:00:00.000,WV Northern Community College,NULL,3.5,0,0,6,6,21,General,NULL,NULL,NULL,0,0,NULL,0
+700382841,2004-08-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Bluefield State College,Assoc.,2.909,0,0,110,110,320,NULL,NULL,NULL,graduated,0,1,NULL,0
+701074315,2004-06-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Marshall University,Assoc.,3.5238,0,0,84,84,296,NULL,NULL,NULL,graduated,0,1,NULL,0
+700904767,2004-01-12 00:00:00.000,NULL,2006-12-16 00:00:00.000,Wheeling Jesuit University,MSN,3.75,0,0,48,48,180,Nursing,NULL,NULL,NULL,0,1,NULL,0
+700120528,1987-08-15 00:00:00.000,NULL,1997-05-15 00:00:00.000,West Virginia University at Morgantown,BSN,2.84,0,0,127,127,361,NULL,NULL,NULL,graduated,0,1,NULL,0
+701076916,1978-09-15 00:00:00.000,NULL,2007-06-15 00:00:00.000,University of California San Francisco,MSN,0,0,0,0,0,0,NULL,NULL,NULL,graduated,0,1,NULL,0
+701077032,1987-05-15 00:00:00.000,NULL,1989-05-15 00:00:00.000,University of Charleston,Assoc.,3.666,0,0,54,54,198,NULL,NULL,NULL,graduated,0,1,NULL,0
+701083357,2005-01-15 00:00:00.000,NULL,2008-08-15 00:00:00.000,Fairmont State University,Assoc.,3.6271,0,0,118,118,428,NULL,NULL,NULL,graduated,0,1,NULL,0
+701011882,1996-08-15 00:00:00.000,NULL,2000-05-15 00:00:00.000,Our Lady of Fatima College - Phillipines,BSN,2.8274,0,0,225,225,721,NULL,NULL,NULL,graduated,0,1,NULL,0
+701069946,2006-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia University at Parkersburg,Assoc.,3.101,0,0,207,207,642,NULL,NULL,NULL,graduated,0,0,NULL,0
+701083484,2007-09-15 00:00:00.000,NULL,2009-06-15 00:00:00.000,Washington State Community College,NULL,3.434,0,0,129,129,443,NULL,NULL,NULL,NULL,0,0,Student expected to graduate with Associate Degree June 2009.,0
+701079952,2006-06-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,West Virginia Northern Community College,Assoc.,3.1957,0,0,82,82,262,NULL,NULL,NULL,graduated,0,0,No RN license.  Taking test in July 2009.  rlw.,NULL
+701083177,2006-01-03 00:00:00.000,graduate,2008-06-22 00:00:00.000,Walden University,MSN,4,0,0,41,41,164,Nursing,NULL,NULL,graduated,0,0,NULL,NULL
+701083899,2003-01-01 00:00:00.000,graduate,2005-07-15 00:00:00.000,Coppin State University,MSN,3.708,0,0,48,48,178,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701087555,1997-09-15 00:00:00.000,NULL,2000-05-15 00:00:00.000,University of Charleston,Assoc.,3.156,0,0,51,51,161,NULL,NULL,NULL,graduated,0,1,NULL,0
+700586192,2005-05-15 00:00:00.000,NULL,2008-05-15 00:00:00.000,Northern VA Community College,Assoc.,2.26,0,0,112,112,254,NULL,NULL,NULL,graduated,0,1,NULL,0
+700540220,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Fairmont State University,Assoc.,3.5076,0,0,130,130,456,NULL,NULL,NULL,graduated,0,1,NULL,0
+701073521,2007-08-15 00:00:00.000,NULL,2009-05-15 00:00:00.000,Marshall University,Assoc.,3.2435,0,0,193,193,626,NULL,NULL,NULL,graduated,0,1,NULL,0
+700978774,1994-08-15 00:00:00.000,assoc.,1997-05-09 00:00:00.000,Bluefield State College,Assoc.,3.24,0,0,136,140,454,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701096290,2001-04-15 00:00:00.000,NULL,2006-05-15 00:00:00.000,Lord Fairfax Community College,Assoc.,3.2439,0,0,0,82,266,NULL,NULL,NULL,graduated,0,1,NULL,0
+701104068,1990-09-15 00:00:00.000,NULL,1994-05-15 00:00:00.000,Southern West Virginia Community and Technical College,Assoc.,2.896,0,0,0,77,223,NULL,NULL,NULL,graduated,0,1,NULL,0
+701108675,2002-07-15 00:00:00.000,NULL,2004-05-15 00:00:00.000,Davis and Elkins College,Assoc.,3.786,0,0,0,112.5,426,NULL,NULL,NULL,graduated,0,1,NULL,0
+701112685,2007-08-15 00:00:00.000,undergrad,NULL,Frostburg State University,BA/BS,3.3823,0,0,68,68,230,Spanish,NULL,NULL,NULL,0,0,will graduate May 2010,0
+701110360,2003-05-15 00:00:00.000,NULL,2005-05-15 00:00:00.000,Davis and Elkins College,Assoc.,2.8767,0,0,73,73,210,NULL,NULL,NULL,graduated,0,1,NULL,0
+700200953,1999-01-01 00:00:00.000,undergrad,2002-05-11 00:00:00.000,Fairmont State University,BA/BS,2.8,0,0,153,147,412,Business Administration Finance,NULL,NULL,graduated,0,0,NULL,0
+700200953,2008-05-01 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,NULL,3.23,0,0,13,13,42,General,NULL,NULL,NULL,0,0,NULL,0
+700772422,2006-08-21 00:00:00.000,undergrad,NULL,West Virginia University at Morgantown,BA/BS,3.37,0,0,118,118,398,Exercise Physiology,NULL,NULL,NULL,0,0,to graduate May 2010,0
+700600197,2005-08-15 00:00:00.000,undergrad,2007-05-13 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.85,0,0,68,64,0,Criminology & Investigations,Military Science,NULL,graduated,0,0,NULL,247
+700441291,2004-08-15 00:00:00.000,undergrad,2008-08-15 00:00:00.000,West Virginia University at Morgantown,BA/BS,3.08,0,0,125,125,385,Communications Studies,NULL,NULL,graduated,0,0,NULL,0
+700441291,2009-08-01 00:00:00.000,NULL,NULL,Fairmont State University,NULL,0,0,0,0,0,0,General,NULL,NULL,NULL,0,0,NULL,0
+701112722,2006-08-15 00:00:00.000,undergrad,2009-05-15 00:00:00.000,University of Charleston,BA/BS,3.163,NULL,0,106,104,329,Biology,NULL,NULL,graduated,0,0,NULL,0
+701635105,2012-09-04 00:00:00.000,graduate,2014-08-17 00:00:00.000,Walden University,MSN,4,0,0,0,0,0,Nursing Leadership & Management,NULL,NULL,graduated,0,1,NULL,0
+701635105,2008-05-15 00:00:00.000,undergrad,2009-05-15 00:00:00.000,University of Southern Maine,NULL,3.876,0,0,10,8,31.01,Non-Degree UG Prep,NULL,NULL,unknown,0,0,NULL,0
+701635105,2000-08-30 00:00:00.000,undergrad,2002-06-08 00:00:00.000,Albright College,BA/BS,3.024,0,0,14,14,42.33,Organizational Behavior Applied Psych,NULL,NULL,graduated,0,0,NULL,4
+701635105,1992-08-15 00:00:00.000,undergrad,1992-12-15 00:00:00.000,Millersville University,NULL,3.5,71,0,77,6,21,General Education,NULL,NULL,NULL,0,0,NULL,0
+701635105,2010-01-15 00:00:00.000,undergrad,2011-08-13 00:00:00.000,Kent State University,BSN,4,187,0,217,30,120,Nursing,NULL,NULL,graduated,0,1,NULL,0
+701635105,1977-01-15 00:00:00.000,undergrad,1988-12-15 00:00:00.000,Pennsylvania State University,NULL,1.86,0,0,7,7,13,General Education,NULL,NULL,NULL,0,0,NULL,0
+800286044,2018-05-05 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,4,4,16,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+800286044,2018-08-05 00:00:00.000,NULL,2019-05-05 00:00:00.000,New River Community and Technical College,NULL,4,9,36,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+800286044,2019-08-09 00:00:00.000,NULL,NULL,West Virginia Institute of Technology,NULL,0,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+701157133,2011-11-16 00:00:00.000,NULL,2013-11-15 00:00:00.000,Salem International University,Assoc.,2.48,0,0,0,93,237,NULL,NULL,NULL,graduated,0,1,NULL,0
+701449201,2017-01-15 00:00:00.000,NULL,2019-05-15 00:00:00.000,Bluefield State College,Assoc.,3.28,0,0,0,74,243,NULL,NULL,NULL,graduated,0,1,NULL,0
+701647861,2009-01-15 00:00:00.000,NULL,2018-05-15 00:00:00.000,Dutchess Community College,Assoc.,2.66,0,0,0,92,245,NULL,NULL,NULL,graduated,0,1,NULL,0
+800249957,2018-08-01 00:00:00.000,NULL,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.5957,0,0,0,47,169,NULL,NULL,NULL,NULL,0,0,NULL,0
+800301663,2019-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.42,0,0,0,14,48,NULL,NULL,NULL,NULL,0,0,NULL,0
+800301663,2018-08-01 00:00:00.000,undergrad,2019-05-01 00:00:00.000,Blue Ridge Community and Technical College,NULL,6,0,0,0,0,24,NULL,NULL,NULL,NULL,0,0,NULL,0
+800299286,2019-05-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.17,0,0,0,17,54,NULL,NULL,NULL,NULL,0,0,NULL,0
+800294930,2018-01-01 00:00:00.000,undergrad,2019-05-01 00:00:00.000,La Roche College,NULL,4,0,0,0,12,48,NULL,NULL,NULL,NULL,0,0,NULL,0
+800294930,2019-01-01 00:00:00.000,undergrad,2019-05-01 00:00:00.000,Seton Hill University,NULL,4,0,0,0,6,24,NULL,NULL,NULL,NULL,0,0,NULL,0
+800294930,2019-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.73,0,0,0,15,56,NULL,NULL,NULL,NULL,0,0,NULL,0
+800278222,2019-01-01 00:00:00.000,undergrad,2019-05-01 00:00:00.000,West Virginia Institute of Technology,NULL,3.76,0,0,0,17,64,NULL,NULL,NULL,NULL,0,0,NULL,0
+800278222,2018-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.8,0,0,0,30,114,NULL,NULL,NULL,NULL,0,0,NULL,0
+701647772,2015-01-01 00:00:00.000,undergrad,2015-08-01 00:00:00.000,Tidewater Community College,NULL,2.842,0,0,0,19,54,NULL,NULL,NULL,NULL,0,0,NULL,0
+800288466,2019-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,Potomac State College,NULL,3,0,0,0,15,45,NULL,NULL,NULL,NULL,0,0,NULL,0
+800292956,2019-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,4,0,0,0,15,60,NULL,NULL,NULL,NULL,0,0,NULL,0
+800305544,2017-08-01 00:00:00.000,undergrad,2019-05-01 00:00:00.000,Frederick Community College,NULL,4,0,0,0,30,120,NULL,NULL,NULL,NULL,0,0,NULL,0
+800305544,2019-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,4,0,0,0,14,56,NULL,NULL,NULL,NULL,0,0,NULL,0
+800299565,2019-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.71,0,0,0,14,52,NULL,NULL,NULL,NULL,0,0,NULL,0
+800297218,2019-08-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.71,0,0,0,14,52,NULL,NULL,NULL,NULL,0,0,NULL,0
+800246207,2018-08-01 00:00:00.000,undergrad,2019-05-01 00:00:00.000,Marshall University,NULL,3,0,0,0,8,24,NULL,NULL,NULL,NULL,0,0,NULL,0
+800281343,2019-01-05 00:00:00.000,NULL,2019-05-10 00:00:00.000,New River Community and Technical College,NULL,3.66,9,33,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0
+700433880,1991-08-15 00:00:00.000,NULL,1994-05-15 00:00:00.000,Shepherd College,Assoc.,3.29,0,0,0,124,409,NULL,NULL,NULL,graduated,0,1,NULL,0
+800133757,2017-09-15 00:00:00.000,NULL,2019-04-15 00:00:00.000,WV Jr College,Assoc.,3.31,0,0,0,0,0,NULL,NULL,NULL,graduated,0,0,No licensure as of 2.18.2020 rlw,0
+701650055,1995-01-15 00:00:00.000,NULL,1998-05-15 00:00:00.000,Fairmont State University,Assoc.,3.18,0,0,0,132,421,NULL,NULL,NULL,graduated,0,1,NULL,0
+701619246,1997-09-15 00:00:00.000,NULL,1999-06-15 00:00:00.000,Westmoreland County Community College,Assoc.,2.56,0,0,0,188,482,NULL,NULL,NULL,graduated,0,1,NULL,0
+701652481,2015-08-15 00:00:00.000,NULL,2017-07-15 00:00:00.000,Trinity Health System School of Nursing,Diploma,3.6,0,0,0,0,3.6,NULL,NULL,NULL,graduated,0,1,NULL,0
+800289630,2015-08-15 00:00:00.000,NULL,2017-05-15 00:00:00.000,Lord Fairfax Community College,NULL,3.12,0,0,0,25,78,NULL,NULL,NULL,NULL,0,0,NULL,0
+800297375,2019-01-15 00:00:00.000,NULL,NULL,Frederick Community College,NULL,3,0,0,0,3,9,NULL,NULL,NULL,NULL,0,0,NULL,0
+800270537,2018-05-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3.11,0,0,0,62,193,NULL,NULL,NULL,NULL,0,0,NULL,0
+800293812,2018-08-15 00:00:00.000,NULL,NULL,West Virginia State College,NULL,4,0,0,0,12,24,NULL,NULL,NULL,NULL,0,0,NULL,0
+800293812,2019-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,4,0,0,0,14,56,NULL,NULL,NULL,NULL,0,0,NULL,0
+800294522,5201-08-01 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3.4,0,0,0,15,51,NULL,NULL,NULL,NULL,0,0,NULL,0
+800295795,2019-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3.64,0,0,0,13,49,NULL,NULL,NULL,NULL,0,0,NULL,0
+800297413,2018-08-27 00:00:00.000,NULL,2019-05-18 00:00:00.000,Frederick Community College,NULL,2.7,0,0,0,10,27,NULL,NULL,NULL,NULL,0,0,NULL,0
+800297413,2019-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3.28,0,0,0,14,46,NULL,NULL,NULL,NULL,0,0,NULL,0
+800289310,2018-08-15 00:00:00.000,NULL,NULL,Pierpont C & TC,NULL,4,0,0,0,6,24,NULL,NULL,NULL,NULL,0,0,NULL,0
+800289310,2019-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3.95,0,0,0,23,91,NULL,NULL,NULL,NULL,0,0,NULL,0
+800305679,2019-05-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,4,0,0,0,18,72,NULL,NULL,NULL,NULL,0,0,NULL,0
+800288319,2018-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,4,0,0,0,30,120,NULL,NULL,NULL,NULL,0,0,NULL,0
+800302005,2019-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3,0,0,0,14,42,NULL,NULL,NULL,NULL,0,0,NULL,0
+800312595,2019-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3.78,0,0,0,14,53,NULL,NULL,NULL,NULL,0,0,NULL,0
+800245500,2017-08-15 00:00:00.000,NULL,NULL,New River Community Technical College,NULL,4,0,0,0,10,40,NULL,NULL,NULL,NULL,0,0,NULL,0
+800245500,2018-08-15 00:00:00.000,NULL,NULL,West Virginia University at Morgantown,NULL,3.8,0,0,0,47,179,NULL,NULL,NULL,NULL,0,0,NULL,0
+800299602,2019-05-01 00:00:00.000,undergrad,2019-12-01 00:00:00.000,West Virginia University at Morgantown,NULL,3.2941,0,0,0,0,0,NULL,NULL,NULL,NULL,0,0,NULL,0

@@ -1,0 +1,45 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210303132919
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT2 (Microsoft Windows NT 6.3.9600.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7732
+PSVersion: 5.1.14409.1018
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14409.1018
+BuildVersion: 10.0.14409.1018
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-02-18-FacultySessionTranscript.txt
+HSC Email: ?
+Searching for HSC AD User
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\SharedUserMigration> Get-ADUser sba00001
+
+
+DistinguishedName : CN=Sara Anastas,OU=OPTHA,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Enabled           : True
+GivenName         : Sara
+Name              : Sara Anastas
+ObjectClass       : user
+ObjectGUID        : 88d2efe4-a589-4162-9b88-0940e0735105
+SamAccountName    : sba00001
+SID               : S-1-5-21-865322659-4255640127-3857865232-145832
+Surname           : Deacon
+UserPrincipalName : sba00001@hsc.wvu.edu
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\SharedUserMigration> Get-ADUser sba00001 -Properties * | select proxyaddresses -ExpandProperty proxyaddresses
+smtp:sba00001@wvumedicine.org
+smtp:sba00001@wvuhsc.onmicrosoft.com
+SMTP:sara.anastas@hsc.wvu.edu
+smtp:sba00001@hsc.wvu.edu
+SIP:sba00001@hsc.wvu.edu

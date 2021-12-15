@@ -1,0 +1,75 @@
+SOD-PD-10
+Unable to retrieve current ACL
+**********************************
+SOD-LC-GP4
+Unable to retrieve current ACL
+**********************************
+SOD-EN-044
+Unable to retrieve current ACL
+**********************************
+SOD-CS-1041C-5
+Unable to retrieve current ACL
+**********************************
+SOD-DG-4
+Unable to retrieve current ACL
+**********************************
+SOD-EN-07
+Unable to retrieve current ACL
+**********************************
+SOD-1042B
+Unable to retrieve current ACL
+**********************************
+SOD-SURGERY2
+Unable to retrieve current ACL
+**********************************
+SOD-DG-7
+Unable to retrieve current ACL
+**********************************
+SOD-201612B
+Unable to retrieve current ACL
+**********************************
+SOD-PD-07
+Unable to retrieve current ACL
+**********************************
+SOD-4K
+Unable to retrieve current ACL
+**********************************
+SOD-EN-06
+Unable to retrieve current ACL
+**********************************
+SOD-LC-GP2
+Unable to retrieve current ACL
+**********************************
+SOD-201701B
+Unable to retrieve current ACL
+**********************************
+SOD-RD-EMRG01
+Unable to retrieve current ACL
+**********************************
+SOD-201612A
+Unable to retrieve current ACL
+**********************************
+SOD-RD-EMRG02
+Unable to retrieve current ACL
+**********************************
+SOD-DG-3
+Unable to retrieve current ACL
+**********************************
+SOD-DG-1
+Unable to retrieve current ACL
+**********************************
+SOD-EN-05
+Unable to retrieve current ACL
+**********************************
+SOD-EN-16
+Unable to retrieve current ACL
+**********************************
+SOD-PD-03
+Unable to retrieve current ACL
+**********************************
+SOD-PD-02
+Unable to retrieve current ACL
+**********************************
+SOD-LC-GP3
+Unable to retrieve current ACL
+**********************************

@@ -1,0 +1,338 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211013092410
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6080
+PSVersion: 5.1.17763.2183
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2183
+BuildVersion: 10.0.17763.2183
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ADObjectCount\Logs\\2021-10-13-09-24-Get-ADObjectCount-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ADObjectCount\Logs\
+VERBOSE: File Count: 7
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ADObjectCount\Logs\2021-10-07-20-30-Get-ADObjectCount-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+1
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ADObjectCount\Logs\\2021-10-13-09-24-Get-ADObjectCount-SessionTranscript.txt
+Getting list of all AD Objects
+Generating list of AD object types
+Unique AD Object Types:
+
+objectClass
+-----------
+domainDNS
+organizationalUnit
+msTPM-InformationObjectsContainer
+msTPM-InformationObject
+computer
+serviceConnectionPoint
+msFVE-RecoveryInformation
+msDFSR-LocalSettings
+group
+intellimirrorSCP
+printQueue
+msDFSR-Subscriber
+msDFSR-Subscription
+user
+volume
+rIDSet
+container
+trustedDomain
+msWMI-Som
+msDS-PasswordSettingsContainer
+msDS-PasswordSettings
+rIDManager
+rpcContainer
+fileLinkTracking
+linkTrackVolumeTable
+linkTrackObjectMoveTable
+domainPolicy
+classStore
+categoryRegistration
+groupPolicyContainer
+msPrint-ConnectionPolicy
+ms-net-ieee-8023-GroupPolicy
+packageRegistration
+ms-net-ieee-80211-GroupPolicy
+nTFRSSettings
+nTFRSReplicaSet
+dfsConfiguration
+msDFS-NamespaceAnchor
+msDFS-Namespacev2
+msDFS-Linkv2
+fTDfs
+ipsecPolicy
+ipsecISAKMPPolicy
+ipsecNFA
+ipsecNegotiationPolicy
+ipsecFilter
+dnsZone
+dnsNode
+msDFSR-GlobalSettings
+msDFSR-ReplicationGroup
+msDFSR-Content
+msDFSR-ContentSet
+msDFSR-Topology
+msDFSR-Member
+msDFSR-Connection
+mSSMSRoamingBoundaryRange
+mSSMSManagementPoint
+mSSMSSite
+secret
+samServer
+msImaging-PSPs
+lostAndFound
+infrastructureUpdate
+foreignSecurityPrincipal
+contact
+msDS-QuotaContainer
+msExchSystemObjectsContainer
+msExchSystemMailbox
+rRASAdministrationConnectionPoint
+mSMQConfiguration
+serviceAdministrationPoint
+builtinDomain
+Current AD Object Type: domainDNS
+Object Type Count: 1
+*********************************
+Current AD Object Type: organizationalUnit
+Object Type Count: 703
+*********************************
+Current AD Object Type: msTPM-InformationObjectsContainer
+Object Type Count: 1
+*********************************
+Current AD Object Type: msTPM-InformationObject
+Object Type Count: 1913
+*********************************
+Current AD Object Type: computer
+Object Type Count: 10845
+*********************************
+Current AD Object Type: serviceConnectionPoint
+Object Type Count: 266
+*********************************
+Current AD Object Type: msFVE-RecoveryInformation
+Object Type Count: 85615
+*********************************
+Current AD Object Type: msDFSR-LocalSettings
+Object Type Count: 24
+*********************************
+Current AD Object Type: group
+Object Type Count: 4224
+*********************************
+Current AD Object Type: intellimirrorSCP
+Object Type Count: 2
+*********************************
+Current AD Object Type: printQueue
+Object Type Count: 352
+*********************************
+Current AD Object Type: msDFSR-Subscriber
+Object Type Count: 28
+*********************************
+Current AD Object Type: msDFSR-Subscription
+Object Type Count: 28
+*********************************
+Current AD Object Type: user
+Object Type Count: 17311
+*********************************
+Current AD Object Type: volume
+Object Type Count: 1
+*********************************
+Current AD Object Type: rIDSet
+Object Type Count: 9
+*********************************
+Current AD Object Type: container
+Object Type Count: 3693
+*********************************
+Current AD Object Type: trustedDomain
+Object Type Count: 6
+*********************************
+Current AD Object Type: msWMI-Som
+Object Type Count: 18
+*********************************
+Current AD Object Type: msDS-PasswordSettingsContainer
+Object Type Count: 1
+*********************************
+Current AD Object Type: msDS-PasswordSettings
+Object Type Count: 2
+*********************************
+Current AD Object Type: rIDManager
+Object Type Count: 1
+*********************************
+Current AD Object Type: rpcContainer
+Object Type Count: 1
+*********************************
+Current AD Object Type: fileLinkTracking
+Object Type Count: 1
+*********************************
+Current AD Object Type: linkTrackVolumeTable
+Object Type Count: 1
+*********************************
+Current AD Object Type: linkTrackObjectMoveTable
+Object Type Count: 1
+*********************************
+Current AD Object Type: domainPolicy
+Object Type Count: 1
+*********************************
+Current AD Object Type: classStore
+Object Type Count: 27
+*********************************
+Current AD Object Type: categoryRegistration
+Object Type Count: 1
+*********************************
+Current AD Object Type: groupPolicyContainer
+Object Type Count: 1402
+*********************************
+Current AD Object Type: msPrint-ConnectionPolicy
+Object Type Count: 546
+*********************************
+Current AD Object Type: ms-net-ieee-8023-GroupPolicy
+Object Type Count: 2
+*********************************
+Current AD Object Type: packageRegistration
+Object Type Count: 17
+*********************************
+Current AD Object Type: ms-net-ieee-80211-GroupPolicy
+Object Type Count: 1
+*********************************
+Current AD Object Type: nTFRSSettings
+Object Type Count: 1
+*********************************
+Current AD Object Type: nTFRSReplicaSet
+Object Type Count: 1
+*********************************
+Current AD Object Type: dfsConfiguration
+Object Type Count: 1
+*********************************
+Current AD Object Type: msDFS-NamespaceAnchor
+Object Type Count: 6
+*********************************
+Current AD Object Type: msDFS-Namespacev2
+Object Type Count: 6
+*********************************
+Current AD Object Type: msDFS-Linkv2
+Object Type Count: 85
+*********************************
+Current AD Object Type: fTDfs
+Object Type Count: 2
+*********************************
+Current AD Object Type: ipsecPolicy
+Object Type Count: 3
+*********************************
+Current AD Object Type: ipsecISAKMPPolicy
+Object Type Count: 3
+*********************************
+Current AD Object Type: ipsecNFA
+Object Type Count: 8
+*********************************
+Current AD Object Type: ipsecNegotiationPolicy
+Object Type Count: 6
+*********************************
+Current AD Object Type: ipsecFilter
+Object Type Count: 2
+*********************************
+Current AD Object Type: dnsZone
+Object Type Count: 1
+*********************************
+Current AD Object Type: dnsNode
+Object Type Count: 7
+*********************************
+Current AD Object Type: msDFSR-GlobalSettings
+Object Type Count: 1
+*********************************
+Current AD Object Type: msDFSR-ReplicationGroup
+Object Type Count: 13
+*********************************
+Current AD Object Type: msDFSR-Content
+Object Type Count: 13
+*********************************
+Current AD Object Type: msDFSR-ContentSet
+Object Type Count: 13
+*********************************
+Current AD Object Type: msDFSR-Topology
+Object Type Count: 13
+*********************************
+Current AD Object Type: msDFSR-Member
+Object Type Count: 34
+*********************************
+Current AD Object Type: msDFSR-Connection
+Object Type Count: 40
+*********************************
+Current AD Object Type: mSSMSRoamingBoundaryRange
+Object Type Count: 22
+*********************************
+Current AD Object Type: mSSMSManagementPoint
+Object Type Count: 2
+*********************************
+Current AD Object Type: mSSMSSite
+Object Type Count: 1
+*********************************
+Current AD Object Type: secret
+Object Type Count: 5
+*********************************
+Current AD Object Type: samServer
+Object Type Count: 1
+*********************************
+Current AD Object Type: msImaging-PSPs
+Object Type Count: 1
+*********************************
+Current AD Object Type: lostAndFound
+Object Type Count: 1
+*********************************
+Current AD Object Type: infrastructureUpdate
+Object Type Count: 1
+*********************************
+Current AD Object Type: foreignSecurityPrincipal
+Object Type Count: 539
+*********************************
+Current AD Object Type: contact
+Object Type Count: 10
+*********************************
+Current AD Object Type: msDS-QuotaContainer
+Object Type Count: 1
+*********************************
+Current AD Object Type: msExchSystemObjectsContainer
+Object Type Count: 1
+*********************************
+Current AD Object Type: msExchSystemMailbox
+Object Type Count: 2
+*********************************
+Current AD Object Type: rRASAdministrationConnectionPoint
+Object Type Count: 12
+*********************************
+Current AD Object Type: mSMQConfiguration
+Object Type Count: 20
+*********************************
+Current AD Object Type: serviceAdministrationPoint
+Object Type Count: 1
+*********************************
+Current AD Object Type: builtinDomain
+Object Type Count: 1
+*********************************
+
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20211013093025
+**********************

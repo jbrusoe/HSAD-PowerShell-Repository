@@ -1,0 +1,173 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210621070004
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -command C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1
+Process ID: 23428
+PSVersion: 5.1.14393.4467
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4467
+BuildVersion: 10.0.14393.4467
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Logs\2021-06-21-IDF-ScanAutomation-SessionOutput.txt
+Transcript log file started
+Files will not be deleted.
+No files to remove
+Outlook is running!
+Exception calling "GetActiveObject" with "1" argument(s): "Operation unavailable (Exception from HRESULT: 0x800401E3 
+(MK_E_UNAVAILABLE))"
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:129 
+char:2
++     $outlook = [Runtime.Interopservices.Marshal]::GetActiveObject('Ou ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : COMException
+Exception calling "GetActiveObject" with "1" argument(s): "Operation unavailable (Exception from HRESULT: 0x800401E3
+(MK_E_UNAVAILABLE))"
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:129
+char:2
++     $outlook = [Runtime.Interopservices.Marshal]::GetActiveObject('Ou ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : COMException
+
+You cannot call a method on a null-valued expression.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:135 
+char:1
++ $namespace = $outlook.GetNameSpace("MAPI")
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+You cannot call a method on a null-valued expression.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:135
+char:1
++ $namespace = $outlook.GetNameSpace("MAPI")
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+Opening ID Finder Mailbox
+You cannot call a method on a null-valued expression.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:137 
+char:1
++ $sourceFolder = $namespace.Folders.Item("ID Finder").Folders.Item("In ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+You cannot call a method on a null-valued expression.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:137
+char:1
++ $sourceFolder = $namespace.Folders.Item("ID Finder").Folders.Item("In ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+Processing Emails...
+Found File:
+You cannot call a method on a null-valued expression.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:160 
+char:10
++     If ( ($a.Contains("csv")) -AND ($a -notlike "*count*") -AND ($a.C ...
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+You cannot call a method on a null-valued expression.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:160
+char:10
++     If ( ($a.Contains("csv")) -AND ($a -notlike "*count*") -AND ($a.C ...
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+
+Number of attachments saved: 4
+***************************
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\20210621_IDF2_HSC_CCs.csv
+Excel Workbook created
+PS>TerminatingError(Set-Content): "The process cannot access the file '\\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\20210621_IDF2_HSC_CCs.csv' because it is being used by another process."
+Set-Content : The process cannot access the file '\\hs\public\ITS\security services\ID Finder Scan 
+Files\2021-06-21\20210621_IDF2_HSC_CCs.csv' because it is being used by another process.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:226 
+char:57
++ ... tent $csvFile) | Select-Object -Skip 1 | Set-Content $csvFile #remove ...
++                                              ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Set-Content], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.SetContentCommand
+Set-Content : The process cannot access the file '\\hs\public\ITS\security services\ID Finder Scan
+Files\2021-06-21\20210621_IDF2_HSC_CCs.csv' because it is being used by another process.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:226
+char:57
++ ... tent $csvFile) | Select-Object -Skip 1 | Set-Content $csvFile #remove ...
++                                              ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Set-Content], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.SetContentCommand
+
+>> TerminatingError(Import-Csv): "The process cannot access the file '\\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\20210621_IDF2_HSC_CCs.csv' because it is being used by another process."
+Import-Csv : The process cannot access the file '\\hs\public\ITS\security services\ID Finder Scan 
+Files\2021-06-21\20210621_IDF2_HSC_CCs.csv' because it is being used by another process.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 
+char:25
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : The process cannot access the file '\\hs\public\ITS\security services\ID Finder Scan
+Files\2021-06-21\20210621_IDF2_HSC_CCs.csv' because it is being used by another process.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229
+char:25
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Import-Csv], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.ImportCsvCommand
+
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+
+
+    Directory: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/21/2021   7:00 AM                Processed
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\Processed\20210621_IDF2_HSC_CCs.xlsx
+
+Report created for the CCs file
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\20210621_IDF2_HSC_SSNs.csv
+Excel Workbook created
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\Processed\20210621_IDF2_HSC_SSNs.xlsx
+
+Report created for the SSNs file
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\20210621_IDF2_HSC_ePHI.csv
+Excel Workbook created
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\Processed\20210621_IDF2_HSC_ePHI.xlsx
+
+Report created for the ePHI file
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\20210621_IDF2_HSC_TAXES.csv
+Excel Workbook created
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2021-06-21\Processed\20210621_IDF2_HSC_TAXES.xlsx
+
+Report created for the TAXES file
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20210621073221
+**********************

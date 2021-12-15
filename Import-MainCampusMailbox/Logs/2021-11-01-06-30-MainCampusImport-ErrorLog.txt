@@ -1,0 +1,9 @@
+*-------------- 11/1/2021 6:30:18 AM --------------*
+
+File: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Import-MainCampusMailbox\Logs\2021-11-01-06-30-MainCampusImport-ErrorLog.txt
+
+cjw0070@mail.wvu.edu
+ethan.powers@mail.wvu.edu
+giuliana.leoncarrillo@mail.wvu.edu
+james.weber2@mail.wvu.edu
+jessica.mcgee1@mail.wvu.edu

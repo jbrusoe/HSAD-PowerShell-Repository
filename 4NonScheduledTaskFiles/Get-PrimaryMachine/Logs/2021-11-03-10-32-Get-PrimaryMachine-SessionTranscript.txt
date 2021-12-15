@@ -1,0 +1,63 @@
+**********************
+PowerShell transcript start
+Start time: 20211103103252
+Username: HS\krussell
+RunAs User: HS\krussell
+Configuration Name: 
+Machine: HSKEVINTEST (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 37564
+PSVersion: 7.1.5
+PSEdition: Core
+GitCommitId: 7.1.5
+OS: Microsoft Windows 10.0.19042
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.5
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\\2021-11-03-10-32-Get-PrimaryMachine-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\
+VERBOSE: File Count: 2
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\Logs\\2021-11-03-10-32-Get-PrimaryMachine-SessionTranscript.txt
+
+UserName        : krussell
+PrimaryMachine  : {HS-ITDSS-CB3A, HSITSCC81, HSPRINT1, HSPRINT3?}
+PrimaryMachine0 : HS-ITDSS-CB3A
+PrimaryMachine1 : HSITSCC81
+PrimaryMachine2 : HSPRINT1
+PrimaryMachine3 : HSPRINT3
+PrimaryMachine4 : HSKEVINTEST
+PrimaryMachine5 : HSITSEB00
+
+
+PS HS1:\> cd ..
+PS HS1:\> sl c:\
+PS C:\> .\Get-PrimaryMachine.ps1 -UserName "mfisher"
+
+.\Get-PrimaryMachine.ps1: The term '.\Get-PrimaryMachine.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+[91m.\Get-PrimaryMachine.ps1: [91mThe term '.\Get-PrimaryMachine.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+PS C:\> sl C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine\
+PS C:\Users\krussell\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-PrimaryMachine> .\Get-PrimaryMachine.ps1 -UserName "mfisher"
+**********************
+PowerShell transcript end
+End time: 20211103111444
+**********************

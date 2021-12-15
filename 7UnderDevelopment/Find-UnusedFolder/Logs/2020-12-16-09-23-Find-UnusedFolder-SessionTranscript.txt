@@ -1,0 +1,46 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201216092323
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Configuration Name: 
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 3120
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-16-09-23-Find-UnusedFolder-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\
+VERBOSE: File Count: 4
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-16-09-23-Find-UnusedFolder-SessionTranscript.txt
+
+
+Path to Search: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin
+Getting directory list
+Current Directory: \\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aalkire
+In if statement - aalkire
+In exclude list - BUILTIN\Administrators
+Potential Orphaned Folder
+PS C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder> .\Find-UnusedFolder.ps1
+Configuring Environment
+**********************
+Windows PowerShell transcript end
+End time: 20201216103124
+**********************

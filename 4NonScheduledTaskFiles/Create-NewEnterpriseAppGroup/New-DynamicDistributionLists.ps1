@@ -1,0 +1,3 @@
+﻿new-dynamicdistributiongroup -Name HSCMainStaff -conditionalCustomAttribute5 HSC-MAIN -IncludedRecipients MailboxUsers -primarysmtpaddress HSCMainStaff@hsc.wvu.edu -displayname 'HSC Main Staff' -ModeratedBy kadmin@hsc.wvu.edu
+new-dynamicdistributiongroup -Name HSCEastStaff -conditionalCustomAttribute5 HSC-EASTERN -IncludedRecipients MailboxUsers -primarysmtpaddress HSCEastStaff@hsc.wvu.edu -displayname 'HSC East Staff' 
+new-dynamicdistributiongroup -Name CHSCStaff -conditionalCustomAttribute5 HSC-CHARLESTON -IncludedRecipients MailboxUsers -primarysmtpaddress CHSCStaff@hsc.wvu.edu -displayname 'CHSC Staff'

@@ -1,0 +1,72 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210506153830
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 5868
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-05-06-15-38RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> TerminatingError(Invoke-Command): "Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' because it does not exist."
+Invoke-Command : Cannot find path 
+'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' 
+because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles.
+ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+Invoke-Command : Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles
+\Remove-SODFiles\RemoveRemove.ps1' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles
+.ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], ItemNotFoun
+   dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+
+************************
+Current Computer: SDW16141
+LDAPFilter: (name=*SDW16141*)
+Computer Name: SDW16141
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> TerminatingError(Invoke-Command): "Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' because it does not exist."
+Invoke-Command : Cannot find path 
+'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' 
+because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles.
+ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+Invoke-Command : Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles
+\Remove-SODFiles\RemoveRemove.ps1' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles
+.ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], ItemNotFoun
+   dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+
+************************
+**********************
+Windows PowerShell transcript end
+End time: 20210506153831
+**********************

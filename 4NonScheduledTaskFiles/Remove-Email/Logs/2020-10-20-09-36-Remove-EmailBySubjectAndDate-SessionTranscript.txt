@@ -1,0 +1,2950 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201020093617
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Configuration Name: 
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1972
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-20-09-36-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\
+VERBOSE: File Count: 8
+All input parameters are set to default values.
+
+C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-20-09-36-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Count: 1
+Mailbox: WVURNI5043
+
+
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI5043
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 2
+Mailbox: WVURNI7017
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI7017
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 3
+Mailbox: jbs0022
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Jeremy Soule
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 4
+Mailbox: WVURNI8445
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI8445
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 5
+Mailbox: rni.3876
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.3876
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 6
+Mailbox: tiona.kapnicky
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : tlk0024
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 7
+Mailbox: mara.negley
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mbn0011
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 8
+Mailbox: rni.3242
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.3242
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 9
+Mailbox: tina.thomas
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Thomas, Tina
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 10
+Mailbox: sandra.chapman
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Chapman, Sandra Rene
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 11
+Mailbox: Marissa.Saltis
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Saltis, Marissa
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 12
+Mailbox: rni.7151
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7151
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 13
+Mailbox: rni.7582
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7582
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 14
+Mailbox: emily.alt
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : ealt
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 15
+Mailbox: kirmanj.faraj
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Kirmanj Faraj
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 16
+Mailbox: jennifer.silk
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Jennifer Silk
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 17
+Mailbox: rni.6090
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6090
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 18
+Mailbox: walter.schultz
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Schultz, Walter
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 19
+Mailbox: tammy.mason
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Mason, Tammy
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 20
+Mailbox: WVURNI5003
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI5003
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 21
+Mailbox: Shawna.Spencer.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Shawna Spencer
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 22
+Mailbox: katherine.koller
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : kpk0006
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 23
+Mailbox: Sierra.Smith.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : scs10045
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 24
+Mailbox: savannah.stowers
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : sls10137
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 25
+Mailbox: tammy.currier
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : tlc0063
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 26
+Mailbox: Kourtney.Self.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : kds10066
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 27
+Mailbox: karen.waddell
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Waddell, Karen S
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 28
+Mailbox: HITT0018
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : HITT0018
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 29
+Mailbox: rni.8587
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8587
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 30
+Mailbox: melissa.biagini
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Biagini, Melissa May
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 31
+Mailbox: rni.0607
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0607
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 32
+Mailbox: rni.6961
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6961
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 33
+Mailbox: rni.7225
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7225
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 34
+Mailbox: victoria.burgess
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Burgess, Victoria
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 35
+Mailbox: sherry.metts
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Metts, Sherry
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 36
+Mailbox: william.mccuddy
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : William McCuddy
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 37
+Mailbox: patrick.trejo
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : pjt0015
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 38
+Mailbox: rni.7275
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7275
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 39
+Mailbox: rni.7478
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7478
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 40
+Mailbox: rni.8079
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8079
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 41
+Mailbox: WVURNI8694
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI8694
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 42
+Mailbox: rni.0790
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0790
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 43
+Mailbox: rni.6350
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6350
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 44
+Mailbox: melinda.benshoff
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Benshoff, Melinda
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 45
+Mailbox: molly.eifert
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Eifert, Molly
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 46
+Mailbox: WVURNI9096
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI9096
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 47
+Mailbox: rni.0095
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0095
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 48
+Mailbox: tiroberts
+The operation couldn't be performed because 'tiroberts' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=7fbf5c96-f714-4a13-8c0f-6f967b208ef1,TimeStamp=10/20/2020 
+1:40:35 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+8CBBF39C,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'tiroberts' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=7fbf5c96-f714-4a13-8c0f-6f967b208ef1,TimeStamp=10/20/202
+   0 1:40:35 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 8CBBF39C,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 49
+Mailbox: cynthia.persad
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : cmp0066
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 50
+Mailbox: rni.0702
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0702
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 51
+Mailbox: rni.4716
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.4716
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 52
+Mailbox: rni.9465
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.9465
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 53
+Mailbox: ernest.butler
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : egb0013
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 54
+Mailbox: NANCY.VARNEY.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : nsv10001
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 55
+Mailbox: rni.1266
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1266
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 56
+Mailbox: lolitta.webb
+The operation couldn't be performed because 'lolitta.webb' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=09fe082a-c969-4d7d-9e5f-47dc5adcfb12,TimeStamp=10/20/2020 
+1:41:16 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+21C16CBD,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'lolitta.webb' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=09fe082a-c969-4d7d-9e5f-47dc5adcfb12,TimeStamp=10/20/202
+   0 1:41:16 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 21C16CBD,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 57
+Mailbox: wendyO365
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : wendyO365
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 58
+Mailbox: rni.0089
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0089
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 59
+Mailbox: rni.8600
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8600
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 60
+Mailbox: hcp00001
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Haley Pressley
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 61
+Mailbox: palak.shah
+The operation couldn't be performed because 'palak.shah' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=d85fd577-f054-4b22-9b77-41015e1d8b2e,TimeStamp=10/20/2020 
+1:41:36 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+31A7B491,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'palak.shah' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=d85fd577-f054-4b22-9b77-41015e1d8b2e,TimeStamp=10/20/202
+   0 1:41:36 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 31A7B491,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 62
+Mailbox: Melissa.Kirby.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mlk10038
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 63
+Mailbox: rni.9134
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.9134
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 64
+Mailbox: julie.mckenzie
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Mckenzie, Julie
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 65
+Mailbox: ethan.westbrook
+The operation couldn't be performed because 'ethan.westbrook' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=93319745-425b-41cf-9d90-eae2ef15ab60,TimeStamp=10/20/2020 
+1:41:57 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+2A1BF0B8,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'ethan.westbrook' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=93319745-425b-41cf-9d90-eae2ef15ab60,TimeStamp=10/20/202
+   0 1:41:57 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 2A1BF0B8,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 66
+Mailbox: rni.6784
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6784
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 67
+Mailbox: david.davis2
+The operation couldn't be performed because 'david.davis2' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=70edc61d-464f-4f87-9680-3850c5937d66,TimeStamp=10/20/2020 
+1:41:59 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+23CF1369,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'david.davis2' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=70edc61d-464f-4f87-9680-3850c5937d66,TimeStamp=10/20/202
+   0 1:41:59 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 23CF1369,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 68
+Mailbox: rni.1608
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1608
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 69
+Mailbox: rni.6498
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6498
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 70
+Mailbox: rncropper
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Cropper, Rachel Nicole
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 71
+Mailbox: vanessa.gouge
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Gouge, Vanessa L
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 72
+Mailbox: zoe.farrellwelty
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : zmf0003
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 73
+Mailbox: Timothy.Tosh.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Tosh, Timothy
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 74
+Mailbox: rni.1081
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1081
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 75
+Mailbox: rni.4356
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.4356
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 76
+Mailbox: rni.8892
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8892
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 77
+Mailbox: rni.8971
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8971
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 78
+Mailbox: shyam.thakkar
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Shyam Thakkar
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 79
+Mailbox: jnaim
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : John Naim
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 80
+Mailbox: apeasley
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Amy Guido
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 81
+Mailbox: Debbie.Clark.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : dlc10049
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 82
+Mailbox: rni.1924
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1924
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 83
+Mailbox: rni.9679
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.9679
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 84
+Mailbox: crc1_88
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : crc1_88
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 85
+Mailbox: Hayley.Jones.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : hmjones
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 86
+Mailbox: braden.mancini
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : bmancini
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 87
+Mailbox: michael.milko
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : msm0034
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 88
+Mailbox: amy.butts
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Butts, Amy
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 89
+Mailbox: WVURNI2073
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI2073
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 90
+Mailbox: rni.3185
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.3185
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 91
+Mailbox: rni.4778
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.4778
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 92
+Mailbox: rni.8984
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8984
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 93
+Mailbox: sierra.frederick1
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : slf10036
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 94
+Mailbox: millertamm
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Miller, Tammy Jean
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 95
+Mailbox: alyssa.aranagarcia
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Arana-Garcia, Alyssa
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 96
+Mailbox: daniel.shank
+The operation couldn't be performed because 'daniel.shank' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=d89bff03-0268-41f3-8b8b-2cea790007d6,TimeStamp=10/20/2020 
+1:44:49 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+87BCCDDC,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'daniel.shank' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=d89bff03-0268-41f3-8b8b-2cea790007d6,TimeStamp=10/20/202
+   0 1:44:49 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 87BCCDDC,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 97
+Mailbox: laureen.burris
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Burris, Laureen
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 98
+Mailbox: heather.hubbard2
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Heather Hubbard
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 99
+Mailbox: rni.0901
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0901
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 100
+Mailbox: rni.4059
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.4059
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 101
+Mailbox: rni.7027
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7027
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 102
+Mailbox: emily.hostetler
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : ech10013
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 103
+Mailbox: zachary.corley
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Corley, Zachary
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 104
+Mailbox: tori.bragg
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : tmb0002
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 105
+Mailbox: lvrover
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Lauren Rover
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 106
+Mailbox: Sicole.Setal.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : scs10044
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 107
+Mailbox: carruth27
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : carruth27
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 108
+Mailbox: tonya.snodgrass
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Snodgrass, Tonya
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 109
+Mailbox: gina.morgan
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Morgan, Gina M.
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 110
+Mailbox: dcsaporito
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Dominique Saporito
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 111
+Mailbox: rni.1880
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1880
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 112
+Mailbox: rni.6474
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6474
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 113
+Mailbox: rni.8130
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8130
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 114
+Mailbox: rni.4902
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.4902
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 115
+Mailbox: alice.rosanski
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Rosanski, Alice M.
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 116
+Mailbox: jsnider7
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Coffman, Jessica
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 117
+Mailbox: tiffany.murray
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Murray, Tiffany Renee
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 118
+Mailbox: barbara.walls
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : bjw0029
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 119
+Mailbox: wvurni4037
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : wvurni4037
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 120
+Mailbox: mom.pho
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mp00004
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 121
+Mailbox: Victoria.Boldman.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Victoria Boldman
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 122
+Mailbox: Alexis.Henderson.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : ash10030
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 123
+Mailbox: Danielle.Brumfield.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : dnb10013
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 124
+Mailbox: rni.1787
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1787
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 125
+Mailbox: rni.3025
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.3025
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 126
+Mailbox: rni.9425
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.9425
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 127
+Mailbox: Madison.Kerr.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mlk10039
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 128
+Mailbox: lantzrproxywvuh
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : lantzrproxywvuh
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 129
+Mailbox: SOMbusinessoffice
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : SOMbusinessoffice
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 130
+Mailbox: Whitney.Drummond.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : wnd10001
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 131
+Mailbox: rni.2869
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.2869
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 132
+Mailbox: rni.6273
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6273
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 133
+Mailbox: rni.8332
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8332
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 134
+Mailbox: rni.8835
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.8835
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 135
+Mailbox: stephanie.lemasters
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Willis, Stephanie Ann
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 136
+Mailbox: Jacalyn.Denemark
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : jdenemar
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 137
+Mailbox: Merci.Martin.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mam10167
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 138
+Mailbox: WVURNI8687
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI8687
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 139
+Mailbox: rni.1957
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1957
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 140
+Mailbox: rni.3625
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.3625
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 141
+Mailbox: rni.4450
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.4450
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 142
+Mailbox: rni.7760
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7760
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 143
+Mailbox: cmatthe1
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Krupa, Christina Michelle
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 144
+Mailbox: danielle.williams2
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Williams, Danielle
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 145
+Mailbox: allison.yommer
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Yommer, Allison
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 146
+Mailbox: Abdul.Abbasi
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : aa10452
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 147
+Mailbox: WVURNI8524
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI8524
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 148
+Mailbox: jennifer.knoble
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : jk10174
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 149
+Mailbox: teddy.grose
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Grose, Teddy
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 150
+Mailbox: Jennifer.Matheny.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Jennifer Matheny
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 151
+Mailbox: rni.0695
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0695
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 152
+Mailbox: rni.1712
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.1712
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 153
+Mailbox: rni.2314
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.2314
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 154
+Mailbox: rni.2761
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.2761
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 155
+Mailbox: rni.2835
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.2835
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 156
+Mailbox: thomas.leckrone
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Leckrone, Thomas
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 157
+Mailbox: wvurni4012
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : wvurni4012
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 158
+Mailbox: Matthew.Bucceri.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mrb10088
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 159
+Mailbox: rni.5537
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.5537
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 160
+Mailbox: rni.3669
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.3669
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 161
+Mailbox: rni.5900
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.5900
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 162
+Mailbox: rni.5928
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.5928
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 163
+Mailbox: rni.7831
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7831
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 164
+Mailbox: alisyn.henry
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Deloso, Alisyn
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 165
+Mailbox: michelle.turner1
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mnt0016
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 166
+Mailbox: brett.tomlin
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : bat0018
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 167
+Mailbox: rni.2774
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.2774
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 168
+Mailbox: rni.9151
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.9151
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 169
+Mailbox: csheaves
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Crystal Sheaves
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 170
+Mailbox: Shannon.Casto.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Shannon Casto
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 171
+Mailbox: Charity.Schrader.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : cas10129
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 172
+Mailbox: rni.6989
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6989
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 173
+Mailbox: rni.7573
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.7573
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 174
+Mailbox: jessica.mccoy1
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : jrm10119
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 175
+Mailbox: mamurray
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Zimcosky-Murray, Marcelle
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 176
+Mailbox: rni.0227
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0227
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 177
+Mailbox: rni.2948
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.2948
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 178
+Mailbox: rni.5990
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.5990
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 179
+Mailbox: rni.6112
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6112
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 180
+Mailbox: sarah.almasri
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Sarah Almasri
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 181
+Mailbox: WVURNI8008
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI8008
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 182
+Mailbox: rni.5604
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.5604
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 183
+Mailbox: Lisa.Rine.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : lmr10039
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 184
+Mailbox: sarah.lambka
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : salambka
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 185
+Mailbox: steven.sagun
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Steven Sagun
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 186
+Mailbox: hmlayman
+The operation couldn't be performed because 'hmlayman' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=c4d41f2b-a04b-42b5-b084-6a6c207c919c,TimeStamp=10/20/2020 
+1:53:16 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+F7E85DED,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'hmlayman' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=c4d41f2b-a04b-42b5-b084-6a6c207c919c,TimeStamp=10/20/202
+   0 1:53:16 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] F7E85DED,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 187
+Mailbox: WVURNI8020
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI8020
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 188
+Mailbox: hayley.johnson
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : hljohnson1
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 189
+Mailbox: Morgan.Bishop.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : mrb10090
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 190
+Mailbox: rni.6342
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.6342
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 191
+Mailbox: WVURNI7029
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI7029
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 192
+Mailbox: rni.0828
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.0828
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 193
+Mailbox: rni.5012
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.5012
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 194
+Mailbox: rni.5111
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.5111
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 195
+Mailbox: Breann.Rogers.m
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : birogers
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 196
+Mailbox: sunny.brumage
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Brumage, Sunny Ann
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 197
+Mailbox: tmr10045
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Tina Roscoe
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 198
+Mailbox: WVURNI8450
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : WVURNI8450
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 199
+Mailbox: rni.9879
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.9879
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 200
+Mailbox: david.harvey
+The operation couldn't be performed because 'david.harvey' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=8aef7385-6b6e-455f-b3f7-ba2f2652805d,TimeStamp=10/20/2020 
+1:54:24 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+7233204B,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'david.harvey' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=DM6PR05MB6971,RequestId=8aef7385-6b6e-455f-b3f7-ba2f2652805d,TimeStamp=10/20/202
+   0 1:54:24 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 7233204B,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 201
+Mailbox: jecastano
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Johnathan Castano
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 202
+Mailbox: aksha.memon
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Aksha Memon
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 203
+Mailbox: uc00001
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Ucheor Choi
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 204
+Mailbox: rni.4719
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : rni.4719
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 205
+Mailbox: derek.macdonald
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Macdonald, Derek J
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 206
+Mailbox: megan.hall1
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : Fowler, Megan Christine
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 207
+Mailbox: carol.thomas1
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : cmt0034
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 208
+Mailbox: jeffrey.stratton
+RunspaceId       : 04048d64-804f-466a-afc7-343ef123d8ed
+Identity         : jls0142
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 209
+Mailbox: Jazmin.LopezHernandez.m
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 210
+Mailbox: rni.3786
+Starting a command on the remote server failed with the following error message : �㪘ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : �㪘ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 211
+Mailbox: rni.6994
+Starting a command on the remote server failed with the following error message : �㪘ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : �㪘ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 212
+Mailbox: rni.8064
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 213
+Mailbox: rni.9277
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 214
+Mailbox: rni.9395
+Starting a command on the remote server failed with the following error message : 洰㪘ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 洰㪘ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 215
+Mailbox: rni.9757
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 216
+Mailbox: ella.yarber
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 217
+Mailbox: shelly.heath
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : �㨰ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 218
+Mailbox: Kevin.Hill.m
+Starting a command on the remote server failed with the following error message : ䷠㧳ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : ䷠㧳ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 219
+Mailbox: rni.0612
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 220
+Mailbox: rni.3071
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 221
+Mailbox: rni.7239
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 222
+Mailbox: rni.8140
+Starting a command on the remote server failed with the following error message : 獀㪘ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 獀㪘ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 223
+Mailbox: tiffany.cox
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 224
+Mailbox: Robin.Hughes.m
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 225
+Mailbox: rni.1628
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : ⧰㪡ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 226
+Mailbox: citrina.alam
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 227
+Mailbox: joeverly
+Starting a command on the remote server failed with the following error message : 獀㪘ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 獀㪘ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 228
+Mailbox: eva.lapinskyrogers
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 229
+Mailbox: harvey.enfinger
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 230
+Mailbox: regina.bell
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 231
+Mailbox: brandy.talpas
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 232
+Mailbox: geraldine.spinks
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 233
+Mailbox: rni.6502
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+Starting a command on the remote server failed with the following error message : 㪬ɓ For more information, see the
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OperationStopped: (outlook.office365.com:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : JobFailure
+    + PSComputerName        : outlook.office365.com
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> .\Remove-EmailBySubjectAndDate.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20201020101658
+**********************

@@ -1,0 +1,876 @@
+Network Configuration Operators
+Performance Monitor Users
+Cryptographic Operators
+Allowed RODC Password Replication Group
+Performance Log Users
+IIS_IUSRS
+RAS and IAS Servers
+Users
+Certificate Service DCOM Access
+RDS Remote Access Servers
+RDS Endpoint Servers
+RDS Management Servers
+Hyper-V Administrators
+Cloneable Domain Controllers
+Access Control Assistance Operators
+Remote Management Users
+Protected Users
+Print Operators
+Replicator
+Domain Controllers
+Read-only Domain Controllers
+Terminal Server License Servers
+Telephone TS Users
+$RESIDENTS
+HelpServicesGroup
+$OMAN
+$2006
+Mathers Lab Group
+HSC CoumaCare Users
+SOM MED Employee List
+HSC UHS
+Spirou Lab Group
+CRC
+ESign
+NHLBI
+obesity
+PA
+ccmd 712
+$RCB
+$FELLOWS
+$LIB
+$WORKSTUDY
+$BMT
+mpulse
+WVUTEST
+$Students
+$CommunityService
+FOKDATA
+FOK
+GM
+ODAIS
+Executive
+BCSP
+WW
+StudentSrv
+BOOKS
+$MSO
+RCB
+Fellows
+$Public
+LIB
+workstudy
+biomed_db
+DATASYS
+imed_db
+FacultyTeachingAssignments
+WorkloadAssignments
+PO
+CENTREC
+BMT
+secretaries
+InformTech
+Budget Read
+Fellow
+IDX
+mac
+$Ruby
+OSEAHR
+datasets
+Staff
+$BIOSAF
+$GYNEONC
+HSC CBLC Staff
+$GUEST
+$SURGONC
+$SECUR
+$REEDPLAN
+$SERVERS
+$ISOComputers
+$MedEducation
+$HSTASrvcs
+$ExtendedLearning
+residents
+$HSC AD Groups
+$Roles
+BE_ESI_GROUP0
+$hsc
+$PRINTING
+$Guest Accounts
+BIOSAF
+GYNEONC
+SHARED
+admin
+acndata
+ADMIN
+$WCHOSP
+$Server
+database
+BRNIaccounting
+Guest
+SONEOL
+Graphics
+Administration
+WVU_Center_Shared_Folder
+SBI
+sbi_shared
+Alpha4
+SURGONC
+SECUR
+Novell_Admins
+NT_Admins
+$PharmLab
+REEDPLAN
+$CONSULT
+$Visitors
+$CONSULTANT
+PHE
+$SODComputers
+$HPR
+$SOCIAL
+$CHSCPO
+$PROD
+$HEALTHCARE
+$IRAC
+$NTSERVERS
+$Linux
+HMR
+$No Inheritance
+CommunityService
+SGD-Velos
+HPRR shared folder
+8722-HP3210 Group
+LC Front Desk Users
+LC Front Desk PC's
+5304-HPLJ3330 Group
+3603a-hp4250 Group
+1122-hp4200 Group
+2033-hpljp2035n Group
+2163e-hp4240 Group
+3011-hplj-m451dn Group
+2350g-hpcp2025d
+SPH Roaming
+Mipac Servers
+2184-hplj2015dn Group
+Grant A Group
+Grant B Group
+SPH Students My Doc
+CERTSVC_DCOM_ACCESS
+4001-samsung2850 Group
+6600-minolta501 Group
+Center of Excellence in Womens Health
+HS WVU-AD User Support Group
+g281-hp2840
+HSC SPSS
+HS Systems Servers
+DPMRADCOMTrustedMachines$hsdc1
+DPMRADmTrustedMachines$hsdc2
+DPMRADCOMTrustedMachines$HSCA
+DPMRADmTrustedMachines$HSCA
+DPMRADCOMTrustedMachines$hsdc2
+2280-HP2300 Group
+HSC MBRCC SharePoint Users
+DPMRADmTrustedMachines$hsdc1
+2350-hp3500
+Bey Lab
+B040-HP5000 Group
+HSC Eastern Division CSC
+HSC SPH SPSS
+g129-hp2055dn Group
+erma-321-hp4014 Group
+4500_hplj4m Group
+g281-bizhubc25 Group
+j_Screening_Supervisor
+j_Drug_Study_Unit_Supervisor
+j_Community_Outreach_Manager
+j_Research_Nurse
+j_Drug_Study_Unit_Manager
+j_Resource_Coordinator
+6500-minolta501
+b59-hp2575 Group
+TelnetClients
+DnsAdmins
+DnsUpdateProxy
+HS Testing
+4094-Xerox Group
+102Annex_APPLE Group
+102-LEX-C510 Group
+2082-HP3500 Group
+3013-HPLJ5 Group
+4623-hp2015 Group
+b106-hp1320n Group
+b128-hp4100 Group
+g139-hplj5 Group
+HP-3005 Group
+Toshiba Group
+supervisor-office-1714c-hp4200 Group
+resgrad-hpclj4600 Group
+UHSTest Group
+RICOH Aficio 3260C RPCS Group
+Migrated Users
+HS Admin Budget 2004 Group
+SGD
+Secure PC's
+b14-hp2025n Group
+4506-star800 Group
+4514_peds_hplj4050 Group
+4612-hplj2500n Group
+4621-hplj4 Group
+4716-lex-c510 Group
+4718-hp2200 Group
+hp1320-2350L Group
+1001-hpoj7210 Group
+Film Library
+CRH Residents
+DHCP Users
+WINS Users
+G111-hpoj8500 Group
+G111-hplj4050 Group
+g252f-bizhub200 Group
+Bypass Traverse Checking Group
+DHCP Administrators
+Resource Account Domain Admins
+erma370-lex-c760 Group
+ITSOpsManagement_HSvcSCP_SG
+1622-hp2055dn Group
+1055-minolta161f Group
+emmed-canon Group
+g190-hp2430 Group
+g190a-peds-hp4050
+4621-tsp800 Group
+g214-hp4100 Group
+b128-hplj2605dn Group
+2013
+3100-hp710 Group
+erma2-270-hp4550 Group
+g135-lex-e120 Group
+sgraber-printer Group
+HS Sharepoint Site Admins
+HSRS RO Group
+Global Citrix Office
+ADUC-RG
+Emergency Response Plan Members
+TS Web Access Computers
+b59-hp2575
+SON Staff
+eram2-brother-7600
+2280-gestetner3502p Group
+HS Office 2013
+TestDLGroup
+CME Share Group
+HSC WebServers
+HSC VNC Software
+HSC Urology
+HSC Student Printing
+HSC SOM PC
+HSC Neurology Restricted
+Grant Manager
+HSCE CSC
+Testing WVUH
+HSC MS Web Expressions
+Dentistry Front Desk Group
+Exchange Install Domain Servers
+ISO My Docs Redirect
+Dentistry Reception
+Dentistry Staff
+SON Toshiba Printing Group
+GAdministration
+GAhec
+GSurgery
+GPrinter
+GPoisonCtr
+GPed's
+GOBGyn
+GNursing
+GMedicine
+GLibrary
+GBuilding
+GBmed
+Testing Global Security Group
+Cyr Lab Group
+HSC Surgery Transplant Group
+HS Dbase
+FIMSyncOperators
+FIMSyncJoiners
+FIMSyncBrowse
+FIMSyncPasswordSet
+WVUH Coding Chares Backlog Group
+Orthopaedics Student Employees
+WVUH Share Users
+HSC CED NNCIS Group
+HSC CED Clinic Database Group
+HSC Anatomy Research RO
+HSC Anatomy Research WO
+SCCM Read Only
+HSC Lynx Client Group
+MBRCC Idle Time Session Timeout
+SCCM Read-Only Admin
+HSC CED Receiving Inventory Group
+Eras-ObGyn
+Security log archiving
+NewServer
+KLAdmins
+KLOperators
+cprc-145-intermecpc41 printer group
+KAVWSEE Administrators
+SecureTest Users
+HSS Server Policies
+Members testing
+HSC Citrix Grantman
+HS EFS Users
+sodorthoresidents
+SOD Test Machines
+Physio Grant RO Group
+j_Clinical_DB_Manager
+HSC IOEH PC Resident
+SOD Computers
+3506-hp7600 Group
+b40-hp680 Group
+HSRS-MBRCC-RO
+prete-hp8550 Group
+1820-hp1022n Group
+j_Administrative_Assistant
+j_Screening_Manager
+j_Training_Manager
+g301-hplj4250dn Group
+4096-hp2015 Group
+5540-lex-t630 Group
+HSC SON HR Share
+CHSC SON Database Access
+Simulation Requests Group
+Access-Denied Assistance Users
+XIV RO Storage Admins
+lc-color Group
+2814-hp2055dn Group
+HSC SON BarrLab Group
+Phe Lab Users
+prete-minolta420
+Prete-moh-hp4200 Group
+Prete-3338c-xerox Group
+G350-brother-9340cdw Group
+HumanaRO
+MCBSRO
+HCUPRO
+2244-MinoltaC364 Group
+HSC Citrix SAS
+j_Lead_CRT
+SPH OCCMED Faculty
+SPH OCCMED Staff
+WVUH Test migration
+Shang Lab Group
+HSC IOEH PC Student
+HSC IOEH PC Faculty
+SOD Axium Prescript.rpt file update
+SEERRO
+SPH Workstations
+SPH OccMed RW
+HSC SPH Students
+3940-brotherhl-2270dw
+6500-brother-MFC-L8850CDW
+Allergy Patient Master List Group
+HSC SCCM Systems
+SON Share Traverse Group
+HSC CM2012 DP Servers
+HSC CM2012 IIS Servers
+HSC WVCTSI CSC
+HSC BEHADPH CSC
+HSC Citrix RDP Group
+G290-HPLJ5SIMX Group
+Unused Folder Share
+8707-hpcm1415 Group
+Server Firewall Group
+EMMED Conference Room PC Group
+Surgery Conference Room PC Group
+Managed Host File Computer Group
+ced-hp-Z5200
+3603-lext630 Group
+3603-minolta Group
+MBRCC Research Share
+SPH Database Admins
+b112-hp1320n
+ggismondi Group
+HSC SGD Computer Group
+HSC EMMED PC BILLERS
+3601-hp3005n Group
+DMSmithLab RO
+AMIF RO
+AMIF RW
+CTSA WVSOM
+CTSA MARSHALL
+erma2-204-bro-9440 Group
+CTSA CAMC
+HSC Imaging Facility and Labs Power Management
+FOIA
+Subject Information RW Group
+John Barnett Shared Files Group
+Pharmacy Lab Printing
+LC Admins
+Dentistry Faculty
+Dentistry Resource Room
+$IRAP
+IRAP
+Dentistry Endo Residents
+Dentistry Residents
+DPM Misra Share Group
+brother-4096 Group
+4028-hp4014n Group
+g174-hp3600 Group
+WVUH UV Card Advanced
+TestCHSC
+TestCPRC
+TestHSC
+TestRDTP
+MIF Lab PC
+ENT Grant Mgr Share
+SCCM CSC Application Deployment
+$GRADS
+$Support Services Group
+HSC Citrix SPSS
+cprc-infoblox
+HSC MobileIron Group
+Pathology FTP Group
+g281b-lex-c510 Group
+Worldox Computers
+shared
+HSC EMMED ERAS
+HR WVUH data share group
+DisabledRDPFolders
+Dentistry Supply Store
+Windows Updates Exceptions Computer Group
+HS Protected Data Users Screensaver Group
+HSC Casper Enrollment
+HSC SOD Proxy Group
+HSC Surgery PC Billers
+HSRS-MBRCC-RW
+3143-hp3505 Group
+DentistryAll
+MBAM Special Exceptions Group
+ced-208-hplj2491a Group
+ced-228-brother9460 Group
+STC Dental Group Practice Group
+LDS Consultants Group
+3145a-BrotherHL-2170W Group
+lawyer moves
+HS CTSI 1611351417_EMR_Decrease_CT Group
+HS CTSI rosend_epidural_201708 Group
+HS CTSI Post Operative Narcotic Prescriptions
+HS CTSI mattes_prostate_cancer_20170907 Group
+HS CTSI 1606146493_immune_stat_Ischemic_stroke Group
+SOD Front Desk Computers
+1144-hp5000 Group
+3152-minolta-c224e Group
+2914-hpljp2035n Group
+HS CTSI 1603060897_MCARR_PATIENT Group
+Web Library Group
+WVCTSI Business Office Share
+SCCM Windows Update Group
+SOD Surgery computers exempt from Screen Saver
+WVU HR SOD
+Huseynova-Long-Zhang Group
+MBRCC CTSI Regulatory
+MBRCC PEDS Regulatory
+United Bank IE Settings
+SOD Managed Host File Computer Group
+g280a-minoltac25 Group
+HSC SPH Share on WVU
+Wellness Vendor Group
+HS Mipacs Users
+HSC SOM Surgery IE Settings
+HSC SOD Browser Setttings
+ROLE_LEM_CONTACTS
+HS CTSI duckworth_rinovum_SSU00043581 Group
+HS CTSI petrone_tia_1606146493 Group
+agmon-lab-test
+H-HSC1-UROLOGY-LB Group
+SophosDomainUser
+SophosDomainPowerUser
+SophosDomainAdministrator
+SophosOnAccess
+SophosPowerUser
+SophosUser
+icrc-22-minolta-c3100p Group
+BPS Ryan Share
+HS CTSI taylor_fammed_1801934426 Group
+HS CTSI welch_omalizumab_1708732365 Group
+RetireeGroupTest2
+RetireeGroupTest1
+g166-ricoh-mp-c407 Printer Group
+SOD SIMPLANT Group
+HSC RDTP MTM Others
+4742-hpcp3525
+CRH1-CommunityRelations Group
+C8 Research Share Group
+3618-hpljc4600 Group
+brni-hpcp4025 Group
+SPHSecure Share
+7318-cognitive-label-printer Group
+hsc3-ortho-lb Group
+7502-cognitive-label-printer Group
+7400a-ricoh Default Printer Group
+1632-hp2055dn Group
+$VA
+erma108-hplj-m252dw Group
+Encrypt USB drives Group
+HSC Cloud Storage General Exceptions
+HS CTSI mattes_mrn Group
+HSC Admins
+VP Executive Recruitment Folder RW Group
+RDSH Systems Servers
+Software-MModal10.0.547-F
+Software-7Zip19.00-A
+Software-Office2016_X64-A
+Software-Office2016_X64-F
+Software-RStudio-A
+Software-VisioPro2016_X86-F
+Software-VisioPro2016_x64-A
+Software-VisioPro2016_X86-A
+HSC MBAM Compliance and Audit Group RO
+Software-R-A
+Software-R-F
+HS CTSI peasak_mastectomy_1809277420
+Software-Firefox_52.0ESR_(x86)-A
+Software-RStudio-F
+RDSH Noah Test
+RDSH Notepad
+RDSH Calculator
+crh-137-brother2270dw
+HS CTSI nguyen_1809264568 Group
+ced-231-brother-mfc-9460cdn Group
+Software-MModal10.0.547-A
+Software-Panopto-A
+Software-Panopto-F
+residents-file
+allen-801a-minolta Group
+allen-801c-minolta Group
+percival-350c-minolta Group
+Large Clinic Computer Group
+Software-EstimateCopy-F
+Software-MicrosoftOffice2016(X86)_DentistryBuild-F
+Software-MicrosoftOffice2016(X86)_DentistryBuild-A
+Software-MiPacs Plugin-Carestream Viewer-A
+Software-MiPacs Plugin-Carestream Viewer-F
+Software-MiPacs Plugin-Imaging Link-F
+Software-MiPacs Plugin-Imaging Link-A
+Software-MiPacs Plugin-Manual Import-F
+Software-MiPacs Plugin-Manual Import-A
+Software-MiPacs Plugin-SoPro-F
+Software-MiPacs Plugin-SoPro-A
+Software-MiPacs Plugin-Video Plugin-F
+Software-MiPacs Plugin-Video Plugin-A
+HSC Surgery ERAS
+2259-hp4350 Group
+MBRCC CTRU IRB View Only
+RDSH servers
+Software-Sophos-F
+Software-ClassroomSupport-F
+Default Start Page Computers
+1097-Bizhub227 Computer Printer Group
+1055-RX Computer Printer Group
+Software-NetFramework3.5-A
+Software-Office2019_X64-A
+Extend Service Timeout Computer Group
+HS VDI OpioidUseTraumaPatientexperienceLongBoneFrac Student Grou
+HS VDI RelationBarrierstoCaretoComplicationsHPB Student
+0232 Clinic Secure Share
+LeftoverRDPFolders
+HSC Citrix Axium Group
+SPH Inventory RW
+HS CTSI wagner_mews Group
+Software-VisioPro2016_x64-F
+WVUH Wordpress Admins
+Pathology hscfp share
+Pathology Apps-Standrd
+Pathology WVUH share
+Software-Office2019-A
+WVUH App-CareWare
+HS CTSI Pseudomonas Group
+Software-VisioO365-F
+Software-ProjectO365-F
+HSC SNRCData
+HS VDI Epithelial Ovarian Cancer Risk for VTE Faculty
+HS VDI Endocarditis AATS Refresh Student
+HS VDI ASD BMI Grandparents Student
+1065-epson-workforce845 Group
+HS VDI Endocarditis AATS Refresh Faculty
+HS VDI SchmidtOncOutcomesGISTIncidentallyRemoved Student
+HS VDI AbunnajaEfficacySafetyEarlyAdjuvantWeightLoss Student
+HS VDI Pain Med Prescrip Patterns Student
+ced-hp-cp2025dn Group
+Software-AdobeAcrobatReaderDC-A
+SIM Control Room Printer Group
+HS VDI Brode REDCap Projects Student
+HS VDI Making Healthy Decisions Student
+HS VDI Gerry Hobbs Student
+HS VDI ENT skills for the ED Provider Faculty
+HS VDI HSTA Student
+CHSC Labs MBAM Exceptions
+HS Print Servers
+HS VDI Sraj Shafic - Narcotic_Free_1390 Student
+HS VDI Hysteropexy Vs Con transvaginal prolapse Student
+HS VDI Sraj Shafic - No_Shows_6981 Student
+HS VDI Daffner Scott - Dysphagia_single_7978 Student
+HS VDI DOACs and BMI Student
+HS VDI RJN_CVICU_CABG Student
+HS VDI Silicosis screening Student
+HS VDI Bianco AFib Student
+RDSH HearForm Servers
+RNI Screen Saver Exceptions Group
+HS VDI Risankizumab Crohns Student
+HS VDI M15-991 Student
+HS VDI M15-991 and M16-006 TriNetX Query_10May2019 Student
+WVUH LWS Editor
+Software-DellCCTK-A
+Software-DellCCTK-F
+HS VDI WalterRetrospectiveEMRHeadacheStudy Student
+Software-TurningPointCloud-A
+Software-TurningPointCloud-F
+Software-TurningPoint8-A
+Software-TurningPoint8-F
+SCCM Application Testers
+All Microbiology Computers
+All Biochemistry Computers
+Software-Java8MAP-A
+Software-Java8MAP-F
+Software-7Zip19.00-F
+HS VDI WV EHR TRINETX PROSCA Student
+HS VDI Heart Failure Preliminary Data Student
+HS VDI WVU HeartVascularInstitute Primary Research Faculty
+HS VDI Diabetes and Periodontal Disease Student
+Software-LogMeIn-A
+HS VDI Alzheimer’s Disease Patients Student
+Software-CCleaner5.57-A
+Software-LogMeIn-F
+Software-CCleaner5.57-F
+HS VDI DemographicsCarpalandcubitaltunnelrelease Student
+Software-AdobeAcrobatReaderDC-F
+HSC SOM CSC
+HSC Opthalmology CSC
+HSC AVP CSC
+HS VDI Grant Daniel - Peds Narcotics _7731 Student
+HS VDI Frontal Sinus Repair Student
+Horizon Cloud Users
+Software-LenovoSystemUpdate-F
+Software-LenovoSystemUpdate-A
+SCCM OS Deployment Admin
+Software-GoToMeeting-F
+Software-GoToMeeting-A
+HS VDI Salivary Function Study Student
+ced-205-minolta-c3110 Group
+Software-NotePad++-F
+Software-NotePad++-A
+HS VDI BMed in the Emergency Dept Student
+Storage Replica Administrators
+Key Admins
+System Managed Accounts Group
+HS VDI Sraj Shafic-CMC_and_Pregnancy_1930 Student
+CharGroup1
+CharGroup2
+Office 365 Base Licensing Group
+HS VDI AddHealth Student
+HS VDI ENDPAC Pancreatic Cancer Student
+HS VDI LSIC-ALH Review Student
+1008-Minolta-C3110 Group
+HS VDI FamilyMedicineAbstractData Student
+HS VDI 1810330706A001 Student
+HS VDI Poly-substance Use Student
+Software-AdobeCCSharedLicense-A
+Software-AdobeCCSharedLicense-F
+UrologyDept
+Software-Zoom-A
+SophosFimDataReaders
+HS VDI Tony Fang Projects Student
+HS VDI Christa Lilly Projects Student
+HS VDI Sijin Wen Projects Student
+HS VDI NAS Protocols Student
+HS VDI bladder injury cystotomy Student
+HS VDI DELIVER EHR Student
+Another test group
+HS VDI Ocrevus study Student
+HS VDI Pleural Effusion IDU Student
+HS VDI MOTOR Claims Group
+WVU-AD Default Workstation Domain
+HS VDI Lab QA and QC Student
+HS VDI Endocrine Surgery Registries Student
+psych-dell-1135n Group
+psych-samsung-clp-680nd Group
+psych-brother-mfc-j895dw Group
+Software-MicrosoftTeams-A
+CED SSL Decryption Group
+Path Anat SSL Decryption Group
+SON SSL Decryption Group
+SOP SSL Decryption Group
+HS VDI Medial Pivot Survivorship Student
+HS VDI QI PROJECT SBT Student
+HS VDI Checkpoint Inhibitors Study Student
+HS VDI DeptMedicine Student
+HS VDI Endocarditis WV Student
+HS VDI Amiodarone and obesity Student
+HS VDI Entresto dose and outcomes Student
+HS VDI Entresto and Peripartum CM Student
+Software-MakeMeAdmin2.3-A
+Software-MakeMeAdmin2.3-F
+Make Me Admin Computer Group
+Software-GraphpadPrism-A
+HS VDI France John- Thoracolumbar _1881 Student
+HS VDI Pharmacy Naloxone Distribution Student
+HS VDI QuantitativeAnalysisEndocarditisHospitalizations Student
+HS VDI Oral and Cardiac Health Student
+HS Computers Extended Screensaver Timeout Group
+SOD 3D Workstation Login Restrictions
+SOD 3D Workstation Login Accounts
+Software-Office2019_X64-F
+Software-MicrosoftTeams-F
+OLAR Lab 201A
+HS VDI Daffner Scott - Plavix _0558 Student
+HS VDI Cutaneous Adnexal Tumors and Demographics Student
+Software-Lansweeper-F
+Software-Lansweeper-A
+HS VDI Endo ECHO Evaluation - New River Health Student
+Software-Skype2019-A
+Software-Skype2019-F
+HS VDI Stout Research Student
+Software-Powershell7-A
+Software-Powershell7-F
+HS VDI Pediatric Oncology Geolocation Student
+Software-EpicWarpDrive-A
+Software-EpicWarpDrive-F
+Software-CRDataIgloo-A
+Software-CRDataIgloo-F
+HS VDI Convalescent plasma donor COVID19 Student
+HS VDI SARS-CoV-2 Neurological Manifestation Student
+HS VDI PML multiple sclerosis systemic review Student
+HS VDI WV COVID-19 ACE ARB Student
+Software-PatchCleaner-A
+Software-PatchCleaner-F
+HS VDI COVID 19 WVUM AI Student
+HS VDI Urgent Care Data Student
+HS VDI Drug Free Moms and Babies Project Student
+HS VDI COVID-19 registry Student
+HS VDI Randomized Data for Biofire Student
+BEHM VPN Group
+HS$$$
+HS VDI Covid Airway Mangement Faculty
+HS VDI WVCTSI Budgets Student
+HS VDI TriNetX Validation BIOLOGICS Student
+HS VDI Fibrosis Student
+HS VDI Chronic Subdural Hematoma Study Student
+HS VDI WVU COVID-19 Testing Student
+HS VDI UCSF Work and RA study Student
+HS VDI Severity pulmonary infection COVID ML Student
+HS VDI Athlete COVID-19 Testing Student
+HS VDI Rudisill MAT Group
+ITS Intune Test Group
+Pathology Covid Lab Computers
+HS VDI COVID-19 External Validation Dataset Student
+Software-Zoom-F
+g280b-hp2430 Group
+HS VDI Predicting Cardiotoxicity Student
+Software-UniferIcons-A
+Software-UniferIcons-F
+HS VDI immune biomarkers for differential Student
+Software-RemoveSophosReboot-F
+HS VDI COVID-19 Appalachian Cohort Fellows Student
+$Urology
+HS VDI ligasure device for vaginal hysterectomies Student
+HS VDI Tumor Related Epilepsy Student
+Tecan_2156 PC Group
+H-HSC1-PHARM-1617-PRT Computer Printer Group
+HSCB-MRI-Front Computer Printer Group
+HS VDI WVU-COVID-19 Student
+HS VDI Single center experience of COVID-19 outcomes Student
+HS VDI Cancer Patients with SARS CoV-2 Student
+SSH External Approved Group
+CDC SFTP Users Group
+HS VDI Patient id for heart failure and dementia Student
+HS VDI COVID and Cardio-oncology Student
+HS VDI cataract eye pressure Student
+HS VDI COVID-19 and AKI Student
+HS-Enroll Web Server Certificates
+HS VDI PCSK9 and cholesterol Student
+HS VDI AKI after cardiac surgery Student
+H-CRH1-MAILRM Printer Computer Group
+H-CRH1-RM133 Group
+H-CRH1-RM133 Printer Computer Group
+CRH1-BehavMain-Copy Computer Printer Group
+CRH1-BusiOffice Computer Print Group
+CRH1-INTERVIEW Computer Print Group
+CRH1-NeuroPsyTest Computer Print Group
+CRH1-Resident Computer Print Group
+SFTP CDC GOV Group
+HS VDI 2021 Transitioning Veterans Student
+BEHM Intune users
+Intune for International Travel
+HS VDI RE-COVID19 Student
+Bitlocker Encryption Exceptions Group
+HS VDI U drive for Brijesh Patel Student
+HS VDI OUD Research Studies Student
+HS VDI DBS-OUD Student
+Software-GlobalProtect-F
+HS VDI Vascular Inflammation in Cancer Patients Student
+HS VDI Occ Med Data Student
+HS VDI SOR Group
+Software-Jabber-A
+Software-Jabber-F
+HS VDI ECHO Stenosis Student
+HS VDI Grant _Disposal Study Student
+HS VDI Guiding prehospital transport Student
+HS VDI BMC ED Data Faculty
+HS VDI Spinal Cord Stimulator Chart Review Student
+HS VDI Family Teamwork in Asthma Student
+HS VDI COVID-19 and vaccination Student
+HS VDI eSyM data extracts Student
+HS VDI RADX-UP PART  3 Enrollment Student
+Securing Server RDP Group
+HS VDI ET-005 Student
+HS VDI AMHI_Informed_Consents Student
+HS VDI Prevalence of TBI in WV Student
+Software-DellCommandUpdate-F
+Software-DellCommandUpdate-A
+HS VDI Inpatient CPR Survival Rates Student
+HS VDI COVID19Occupation Group
+HS VDI Noncompliant Labeling by Departments Student
+HS VDI Pain Wearables Student
+Communications Sciences and Disorders
+$Communications Sciences and Disorders
+HS VDI Pediatric COVID clinical characteristics Student
+Software-DisplayLinkGraphics-A
+Software-DisplayLinkGraphics-F
+Software-Filezilla-A
+HS VDI VA 3C Student
+Software-LockdownLab-F
+Software-LockdownLab-A
+MICB Lab Computers for WU Reboot Exception
+BIOCHEM lab computers for WU reboot exception
+Lab Computers for WU Reboot exceptoin
+HS VDI Stroke Alert List Pre-hospital Student
+HS VDI Mamun
+HS VDI cool_CRRT Student
+HS VDI PICU DKA Protocol Data Student
+HS VDI Cataract IOP Data Student
+HS VDI SOURCE Student
+Software-Atlasti9-F
+Software-Atlasti9-A
+Disable Weak Hashing Exceptions
+HS VDI Pre-Exposure Prophylaxis to Prevent HIV Student
+HS VDI Critilytics Student
+HS VDI Osteoporosis GCA PMR Student
+HS VDI MARPE Faculty
+HS VDI MARPE Student
+Student Comm Room
+1026-Minolta-C3100P Group
+HS Fluency Flex Computer Group
+1026-Minolta-C3100P Computer Printer Group
+HS VDI ANSYS MARPE 2021 Faculty
+HS VDI SetPoint RA Study Student
+Migration Domain Local Group with WVUH Users
+Migration Universal Group with WVUH Users
+Software-CRHAudio-A
+Software-CRHAudio-F
+Software-PuTTY-A
+Software-PuTTY-F
+Path Em-data share group
+Server Schannel Policy Group
+CEREC Drive Mapping Computers
+PC Notification Group
+HS VDI Patadji - 2107369087 Cyst fluid Student
+Client Cipher Suite Group

@@ -1,0 +1,68 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211027143048
+Username: HS\kevinadmin
+RunAs User: HS\kevinadmin
+Configuration Name: 
+Machine: HSKEVINTEST (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 61596
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\\2021-10-27-14-30-Move-HSCStaleComputerObject-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\
+VERBOSE: File Count: 8
+VERBOSE: Removing: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\10-13-21.csv
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\10-14-2021-MovedPC.csv
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\2021-10-07-09-37-Move-HSCOldComputerObjects-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\2021-10-07-09-43-Move-HSCOldComputerObjects-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\2021-10-07-09-49-Move-HSCOldComputerObjects-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\2021-10-07-10-09-Move-HSCOldComputerObjects-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+VERBOSE: Removing: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\2021-10-07-10-13-Move-HSCOldComputerObjects-SessionTranscript.txt
+VERBOSE: Performing the operation "Remove-HSCOldLogFile" on target "Removing files".
+All input parameters are set to default values.
+
+-625
+There where 128 objects found
+The variable '$NullOrEmpty' cannot be retrieved because it has not been set.
+At C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Move-HSCStaleComputerObject.
+ps1:133 char:15
++ if($OldPC -eq $NullOrEmpty) {
++               ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (NullOrEmpty:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$NullOrEmpty' cannot be retrieved because it has not been set.
+At C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Move-HSCStaleComputerObject.ps1:133 char:15
++ if($OldPC -eq $NullOrEmpty) {
++               ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (NullOrEmpty:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+PS C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject> .\Move-HSCStaleComputerObject.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20211027143643
+**********************

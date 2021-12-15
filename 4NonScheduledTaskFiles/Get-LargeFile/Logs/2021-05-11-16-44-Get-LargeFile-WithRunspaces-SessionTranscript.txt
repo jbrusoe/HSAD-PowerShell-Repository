@@ -1,0 +1,65 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210511164443
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Configuration Name: 
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 25536
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Logs\\2021-05-11-16-44-Get-LargeFile-WithRunspaces-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Logs\
+VERBOSE: File Count: 6
+0
+All input parameters are set to default values.
+
+C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Logs\\2021-05-11-16-44-Get-LargeFile-WithRunspaces-SessionTranscript.txt
+Path: \\hs.wvu-ad.wvu.edu\public\bioc\
+Method invocation failed because [System.Management.Automation.PSObject] does not contain a method named 'op_Addition'.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Get-LargeFile-WithRunspaces.ps1:45 
+char:5
++     $Threads += $RunspaceObject
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+Method invocation failed because [System.Management.Automation.PSObject] does not contain a method named 'op_Addition'.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Get-LargeFile-WithRunspaces.ps1:45
+char:5
++     $Threads += $RunspaceObject
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+
+Method invocation failed because [System.Management.Automation.PSObject] does not contain a method named 'op_Addition'.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Get-LargeFile-WithRunspaces.ps1:45 
+char:5
++     $Threads += $RunspaceObject
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+Method invocation failed because [System.Management.Automation.PSObject] does not contain a method named 'op_Addition'.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Get-LargeFile\Get-LargeFile-WithRunspaces.ps1:45
+char:5
++     $Threads += $RunspaceObject
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."

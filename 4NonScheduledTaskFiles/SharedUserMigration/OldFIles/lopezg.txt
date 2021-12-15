@@ -1,0 +1,6 @@
+smtp:lopezg@wvumedicine.org
+X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1e27754bdafd44148c06d60945c482a8-Gerardo Lop
+SMTP:lopezg@hsc.wvu.edu
+SIP:lopezg@hsc.wvu.edu
+smtp:docgeewvu@wvuhealthcare.com
+smtp:lopezg@WVUHSC.mail.onmicrosoft.com

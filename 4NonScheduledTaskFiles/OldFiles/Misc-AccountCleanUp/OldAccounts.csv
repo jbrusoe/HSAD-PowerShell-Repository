@@ -1,0 +1,10 @@
+#TYPE Selected.Quest.ActiveRoles.ArsPowerShellSnapIn.Data.ArsUserObject
+"SamAccountName","AccountIsDisabled","PasswordLastSet","DN"
+"infoblox","False","6/2/2016 7:42:49 AM","CN=Infoblox,OU=HS Resource Accounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"hssccmcp","False","7/14/2016 2:20:20 PM","CN=hssccm cp,OU=HS Resource Accounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"craigz","False","9/14/2016 4:07:36 PM","CN=Zachary Craig,OU=WVUH,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"wvupanldap","False","4/28/2016 10:42:13 AM","CN=WVUPan LDAP,OU=WVUH,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"mipacvendor","False","9/1/2016 9:54:28 AM","CN=Mipac Vendor,OU=Vendors,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"mipylypiak","True","2/12/2016 7:45:22 AM","CN=michael pylypiak,OU=Vendors,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"exanvendor","False","9/14/2016 7:46:08 AM","CN=EXAN Vendor,OU=Vendors,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"trazungu","False","9/10/2016 12:35:06 PM","CN=Trust Razunguzwa,OU=Vendors,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"

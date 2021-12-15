@@ -1,0 +1,409 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211012092029
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10912
+PSVersion: 5.1.17763.2183
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2183
+BuildVersion: 10.0.17763.2183
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Logs\\2021-10-12-09-20-Get-PossibleDisabledUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Logs\
+VERBOSE: File Count: 2
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Logs\\2021-10-12-09-20-Get-PossibleDisabledUser-SessionTranscript.txt
+Getting list of AD org units under:
+DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Current AD Org Unit:
+OU=Domain Controllers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=Systems Servers,OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=Resource Accounts,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=Resource Accounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=Network Systems,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=HS Resource Accounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=SharePoint2010New,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=SharePoint2010,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=COMPSERV,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+****************************
+Current AD Org Unit:
+OU=Support Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+The variable '$ADUsers' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser\Get-PossibleDisabledUser.ps1:68 
+char:25
++     foreach ($ADUser in $ADUsers)
++                         ~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ADUsers:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleDisabledUser> .\Get-PossibleDisabledUser.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20211012092139
+**********************

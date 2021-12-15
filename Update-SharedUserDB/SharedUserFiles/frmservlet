@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: forms_jnlp.tmp 120.0.12010000.7 2018/09/28 05:32:22 lmanda noship $  -->
+<!--
+# +======================================================================+
+# |    Copyright (c) 2005, 2017 Oracle and/or its affiliates.            |
+# |                         All rights reserved.                         |
+# |                           Version 12.0.0                             |
+# +======================================================================+
+# 
+-->
+<jnlp spec="1.0"
+ xmlns:jfx="http://javafx.com"
+  codebase="https://mapprod.wvu.edu:443/OA_JAVA/">
+ <information>
+ <title>Oracle Applications R12</title>
+ <vendor>Oracle Corporation</vendor>
+ <homepage href="http://www.oracle.com"/>
+ <description>Oracle Forms Java Webstart</description>
+ <description kind="short">Oracle Forms Applet</description>
+ </information>
+ <security>
+ <all-permissions/>
+ </security>
+ <update check="always" policy="prompt-run"/>
+ <resources>
+ <!-- Application Resources -->
+ <property name="jnlp.secure.parameter.*" value="true" />
+ <property name="jnlp.sis.session" value="chrome_0"/>
+ <property name="jnlp.delete.jnlp.file" value="true"/>
+ <j2se version="1.8+" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"/>
+ <jfx:javafx-runtime version="2.2+"/>
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndforms.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndformsi18n.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndewt.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndswing.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndbalishare.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndaol.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndctx.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndutil.jar" download="eager" />
+                <jar href="/OA_JAVA/oracle/apps/fnd/jar/fndlist.jar" download="eager" />
+                <!-- <jar href="UNCOMMENT,ADD CUSTOM JARS HERE - ONLY ONE JAR PER ENTRY"/> -->
+                <!-- <jar href="" download="eager"/> -->
+ </resources>
+ <applet-desc
+ name="Oracle Forms"
+ main-class="oracle.apps.fnd.formsClient.jnlp.FndFormsEngine"
+ height="1"
+ width="1">
+        <param name="serverURL" value="/forms/lservlet?ifcfs=/forms/frmservlet?lang=US&#38;lookAndFeel=ORACLE&#38;serverApp=OracleApplications3&#38;digitSubstitution=CONTEXT&#38;env=NLS_LANG=%27AMERICAN_AMERICA%27+FORMS_USER_DATE_FORMAT=%27DD-MON-RRRR%27+FORMS_USER_DATETIME_FORMAT=%27DD-MON-RRRR+HH24%3AMI%3ASS%27+NLS_DATE_LANGUAGE=%27AMERICAN%27+NLS_SORT=%27BINARY%27+NLS_NUMERIC_CHARACTERS=%27.,%27&#38;browserName=chrome&#38;gp16=http_ticket&#38;gv16=WEoPBIQHlWX2nQgn8QcMNA..&#38;jnlp_sis_session_id=chrome_0&#38;form_params=+config=%27ebsdb%27+icx_ticket=%27.Tj4GggE8l5yYrLjsPa9eEg..%27+resp=%27PER%2FWVU_HRMS_EBO_VIEW_I%27+secgrp=%27STANDARD%27+start_func=%27WVUEBO_PERWSHRG%27+other_params=%27%27&#38;encoding=UTF-8&#38;fsst=yJ1VMUVU1y6-I9f0HjlHZA..&#38;acceptLanguage=en-US,en-US,en;q=0.9"/>
+        <param name="height" value="600"/>
+        <param name="width" value="750"/>
+        <param name="registryPath" value="/OA_JAVA/oracle/apps/fnd/formsClient"/>
+        <param name="serverApp" value="OracleApplications3"/>
+        <param name="networkRetries" value="30"/>
+        <param name="disableValidateClipboard" value="true"/>
+        <param name="serverUserParams" value="NLS_LANG=&#39;AMERICAN_AMERICA&#39; FORMS_USER_DATE_FORMAT=&#39;DD-MON-RRRR&#39; FORMS_USER_DATETIME_FORMAT=&#39;DD-MON-RRRR HH24:MI:SS&#39; NLS_DATE_LANGUAGE=&#39;AMERICAN&#39; NLS_SORT=&#39;BINARY&#39; NLS_NUMERIC_CHARACTERS=&#39;.,&#39;"/>
+        <param name="colorScheme" value="swan"/>
+        <param name="lookAndFeel" value="ORACLE"/>
+        <param name="digitSubstitution" value="CONTEXT"/>
+        <param name="separateFrame" value="false"/>
+        <param name="splashScreen" value="oracle/apps/media/splash.gif"/>
+        <param name="darkLook" value="true"/>
+        <param name="readOnlyBackground" value="automatic"/>
+        <param name="background" value="no"/>
+        <param name="dontTruncateTabs" value="true"/>
+        <param name="imageBase" value="CodeBase"/>
+        <param name="networkStats" value="false"/>
+        <param name="heartBeat" value="2"/>
+        <param name="nlsLang" value="true"/>
+        <param name="WebstartRequest" value="true"/>
+        <param name="isResizable" value="true"/>
+        <param name="clientDPI" value=""/>
+        <param name="clientBrowser" value="chrome"/>
+        <param name="ORBdisableLocator" value="true"/>
+        <param name="tabstop" value="4"/>
+        <param name="nparam1" value=""/>
+        <param name="nparam2" value=""/>
+        <param name="nparam3" value=""/>
+        <param name="nparam4" value=""/>
+   <param name="servlet_agent" value="https://mapprod.wvu.edu:443/OA_HTML"/>
+   <param name="gp1" value=""/>
+   <param name="gp2" value=""/>
+   <param name="gp3" value=""/>
+   <param name="gp4" value=""/>
+   <param name="gp5" value=""/>
+   <param name="gp6" value=""/>
+   <param name="gp7" value=""/>
+   <param name="gp8" value=""/>
+   <param name="gp9" value=""/>
+   <param name="gp10" value=""/>
+   <param name="gp11" value=""/>
+   <param name="gp12" value=""/>
+   <param name="gp13" value=""/>
+   <param name="gp14" value=""/>
+   <param name="gp15" value=""/>
+   <param name="http_ticket" value="WEoPBIQHlWX2nQgn8QcMNA.."/>
+ </applet-desc>
+</jnlp>

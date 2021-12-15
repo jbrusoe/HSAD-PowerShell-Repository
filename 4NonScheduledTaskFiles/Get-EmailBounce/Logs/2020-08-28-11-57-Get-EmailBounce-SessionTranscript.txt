@@ -1,0 +1,201 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200828115736
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5724
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\\2020-08-28-11-57-Get-EmailBounce-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\
+VERBOSE: File Count: 11
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\\2020-08-28-11-57-Get-EmailBounce-SessionTranscript.txt
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        8/28/2020  11:57 AM              0 2020-08-28-11-57-36-ADUserOutput.csv
+Email from file: jacquesc@hsc.wvu.edu
+Employee Number from file: 700140606
+User found
+WARNING: User not found by 700 number
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+***************************
+Email from file: kim.ice@hsc.wvu.edu
+Employee Number from file: 700630333
+User found
+WARNING: User not found by 700 number
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+***************************
+Email from file: martha.mullett@hsc.wvu.edu
+Employee Number from file: 700124544
+User found
+WARNING: User not found by 700 number
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+***************************
+Email from file: shofer@hsc.wvu.edu
+Employee Number from file: 700149622
+User found
+WARNING: User not found by 700 number
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$DistinguishedName' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:55 char:80
++ ...  -type NoteProperty -Name DistinguishedName -Value $DistinguishedName
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (DistinguishedName:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+***************************
+Email from file: spamfili@hsc.wvu.edu
+Employee Number from file: 700140660
+User found
+WARNING: User not found by 700 number
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:54 char:78
++ ... mber -type NoteProperty -Name PasswordLastSet -Value $PasswordLastSet
++                                                          ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> get-aduser jbrusoe -properties * | select password*\
+
+password*\
+----------
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> get-aduser jbrusoe -properties * | select password*
+
+PasswordExpired PasswordLastSet     PasswordNeverExpires PasswordNotRequired
+--------------- ---------------     -------------------- -------------------
+          False 7/1/2020 6:43:56 PM                False               False
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> get-aduser jbrusoe -properties * | select password*
+
+PasswordExpired PasswordLastSet     PasswordNeverExpires PasswordNotRequired
+--------------- ---------------     -------------------- -------------------
+          False 7/1/2020 6:43:56 PM                False               False
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> .\Get-EmailBounce.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20200828115930
+**********************

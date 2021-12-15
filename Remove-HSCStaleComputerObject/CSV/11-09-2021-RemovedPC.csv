@@ -1,0 +1,2 @@
+"PCName","DateOfRemoval","Enabled","LastLogonDate","Location","LAPs","BitLocker","Groups","OS","Description","dN"
+"ASUS2017-PC","11/9/2021 11:11:51 PM","False","8/27/2017 6:04:07 PM",,,"","Domain Computers;Securing RDP (SWEET32) Clients","Windows 7 Enterprise","  , CN=ASUS2017-PC,OU=Other Computers,OU=HS Computers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu","CN=ASUS2017-PC,OU=10-13-2021,OU=Inactive Computers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"

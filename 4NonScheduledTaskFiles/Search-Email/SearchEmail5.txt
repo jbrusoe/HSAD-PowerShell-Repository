@@ -1,0 +1,740 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201226154154
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 6952
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is SearchEmail5.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Search-Email> .\Search-Email3.ps1
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Search-Email\Search-Email3.ps1:16 
+char:42
++     "`n***********************************`n"
++                                             ~
+The string is missing the terminator: ".
+    + CategoryInfo          : ParserError: (:) [], ParseException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Search-Email\Search-Email3.ps1:16
+char:42
++     "`n***********************************`n"
++                                             ~
+The string is missing the terminator: ".
+    + CategoryInfo          : ParserError: (:) [], ParseException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Search-Email> .\Search-Email3.ps1
+Count: 1
+Mailbox: gustafsonr@wvumedicine.org
+
+***********************************
+Count: 2
+Mailbox: amoyers1@wvumedicine.org
+
+***********************************
+Count: 3
+Mailbox: kim.ice@wvumedicine.org
+
+
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Kim Ice
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Ice, Kim-12/26/2020 8:44:08 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 4
+Mailbox: harold.roberts@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Harold Roberts
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Roberts, Harold-12/26/2020 8:44:22 PM
+ResultItemsCount : 2
+ResultItemsSize  : 290 KB (296,997 bytes)
+
+
+***********************************
+Count: 5
+Mailbox: marco.caccamo@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Marco Caccamo
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Caccamo, Marco-12/26/2020 8:44:32 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 6
+Mailbox: azim.saquib@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Azim Saquib
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Saquib, Azim-12/26/2020 8:44:36 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 7
+Mailbox: christopher.bianco@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Christopher Bianco
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Bianco, Christopher-12/26/2020 8:44:41 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 8
+Mailbox: douglas.powell@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Douglas Powell
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Powell, Douglas-12/26/2020 8:44:47 PM
+ResultItemsCount : 1
+ResultItemsSize  : 149.3 KB (152,870 bytes)
+
+
+***********************************
+Count: 9
+Mailbox: angela.smolarz@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Angela Smolarz
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Smolarz, Angela-12/26/2020 8:44:52 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 10
+Mailbox: deepak.hooda@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Deepak Hooda
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Hooda, Deepak-12/26/2020 8:44:55 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 11
+Mailbox: paul.mccarthy@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Paul McCarthy
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\McCarthy, Paul-12/26/2020 8:45:00 PM
+ResultItemsCount : 1
+ResultItemsSize  : 150.5 KB (154,159 bytes)
+
+
+***********************************
+Count: 12
+Mailbox: kalee.cooksey@wvumedicine.org
+The operation couldn't be performed because 'kalee.cooksey@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=cd930740-4da8-4c0e-b804-07e07f277993,TimeStamp=12/26/2020 
+8:45:05 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+7DAC16E0,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'kalee.cooksey@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=cd930740-4da8-4c0e-b804-07e07f277993,TimeStamp=12/26/202
+   0 8:45:05 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 7DAC16E0,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 13
+Mailbox: dean.wolz@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Dean Wolz
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Wolz, Dean-12/26/2020 8:45:06 PM
+ResultItemsCount : 1
+ResultItemsSize  : 147.8 KB (151,337 bytes)
+
+
+***********************************
+Count: 14
+Mailbox: steven.turley@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Steven Turley
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Turley, Steven-12/26/2020 8:45:11 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 15
+Mailbox: ganga.prabhakar@wvumedicine.org
+The operation couldn't be performed because 'ganga.prabhakar@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=63e8ad9b-af2e-47f6-998a-65df42720029,TimeStamp=12/26/2020 
+8:45:14 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+511ECAED,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'ganga.prabhakar@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=63e8ad9b-af2e-47f6-998a-65df42720029,TimeStamp=12/26/202
+   0 8:45:14 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 511ECAED,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 16
+Mailbox: christopher.allen2@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Christopher Allen
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Allen, Christopher-12/26/2020 8:45:17 PM
+ResultItemsCount : 1
+ResultItemsSize  : 99.2 KB (101,580 bytes)
+
+
+***********************************
+Count: 17
+Mailbox: patricia.ross1@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Soft Deleted Objects\Patricia Ross
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Ross, Patricia-12/26/2020 8:45:22 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 18
+Mailbox: david.campsey@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : David Campsey
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Campsey, David-12/26/2020 8:45:28 PM
+ResultItemsCount : 1
+ResultItemsSize  : 147.9 KB (151,408 bytes)
+
+
+***********************************
+Count: 19
+Mailbox: Samantha.Minc@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Samantha Minc
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Minc, Samantha-12/26/2020 8:45:36 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 20
+Mailbox: yasmin.hamirani@wvumedicine.org
+The operation couldn't be performed because 'yasmin.hamirani@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=d1ea275c-8fc0-461e-b62f-a13adac5d6cb,TimeStamp=12/26/2020 
+8:45:39 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+6C03D2D9,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'yasmin.hamirani@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=d1ea275c-8fc0-461e-b62f-a13adac5d6cb,TimeStamp=12/26/202
+   0 8:45:39 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 6C03D2D9,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 21
+Mailbox: brijesh.patel@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Brijesh Patel
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Patel, Brijesh-12/26/2020 8:45:40 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 22
+Mailbox: jude.guess@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Jude Guess
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Guess, Jude-12/26/2020 8:45:43 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 23
+Mailbox: lisa.fornaresio@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Fornaresio, Lisa
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Fornaresio, Lisa M.-12/26/2020 8:45:48 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 24
+Mailbox: khola.tahir.m@wvumedicine.org
+
+***********************************
+Count: 25
+Mailbox: kassandra.olgers@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Kassandra Olgers
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Olgers, Kassandra-12/26/2020 8:45:56 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 26
+Mailbox: bryan.raybuck@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Bryan Raybuck
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Raybuck, Bryan-12/26/2020 8:46:00 PM
+ResultItemsCount : 2
+ResultItemsSize  : 290.1 KB (297,033 bytes)
+
+
+***********************************
+Count: 27
+Mailbox: sabatinoh@wvumedicine.org
+
+***********************************
+Count: 28
+Mailbox: francis.ergina@wvumedicine.org
+The operation couldn't be performed because 'francis.ergina@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=3856166d-5cf3-48a3-b6de-5ad1a61aeebd,TimeStamp=12/26/2020 
+8:46:10 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+18E5B67D,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'francis.ergina@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=3856166d-5cf3-48a3-b6de-5ad1a61aeebd,TimeStamp=12/26/202
+   0 8:46:10 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 18E5B67D,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 29
+Mailbox: suzanne.brown1@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Suzanne Brown
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Brown, Suzanne-12/26/2020 8:46:12 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 30
+Mailbox: george.sokos@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : George Sokos
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Sokos, George-12/26/2020 8:46:15 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 31
+Mailbox: stephen.hoffmann@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Stephen Hoffmann
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Hoffmann, Stephen-12/26/2020 8:46:19 PM
+ResultItemsCount : 1
+ResultItemsSize  : 150.4 KB (154,039 bytes)
+
+
+***********************************
+Count: 32
+Mailbox: vinay.badhwar@wvumedicine.org
+
+***********************************
+Count: 33
+Mailbox: klestitian@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Katherine Lestitian
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Lestitian, Katherine-12/26/2020 8:46:28 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 34
+Mailbox: lawrence.wei@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Lawrence Wei
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Wei, Lawrence-12/26/2020 8:46:32 PM
+ResultItemsCount : 1
+ResultItemsSize  : 150.2 KB (153,831 bytes)
+
+
+***********************************
+Count: 35
+Mailbox: james.rankin1@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : James Rankin
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Rankin, James-12/26/2020 8:46:36 PM
+ResultItemsCount : 2
+ResultItemsSize  : 285.8 KB (292,666 bytes)
+
+
+***********************************
+Count: 36
+Mailbox: jeff.procopio1@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Jeff Procopio
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Procopio, Jeff-12/26/2020 8:46:44 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 37
+Mailbox: HospitalHIPAA@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Caitlin Walker
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Walker, Caitlin-12/26/2020 8:46:47 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 38
+Mailbox: Sherica.Shapaka@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Sherica Shapaka
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Shapaka, Sherica-12/26/2020 8:46:52 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 39
+Mailbox: jmday@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Jayme Day
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Day, Jayme-12/26/2020 8:46:55 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 40
+Mailbox: luke.marone@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Luke Marone
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Marone, Luke-12/26/2020 8:46:59 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 41
+Mailbox: rirwin@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Rebecca Irwin
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Irwin, Rebecca-12/26/2020 8:47:03 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 42
+Mailbox: maxwell.almenoff@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Maxwell Almenoff
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Almenoff, Maxwell-12/26/2020 8:47:07 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 43
+Mailbox: chris.cook@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Chris Cook
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Cook, Chris-12/26/2020 8:47:10 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 44
+Mailbox: jeremiah.hayanga@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Jeremiah Hayanga
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Hayanga, Jeremiah-12/26/2020 8:47:13 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 45
+Mailbox: alper.toker@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Seyfi Toker
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Toker, Alper-12/26/2020 8:47:17 PM
+ResultItemsCount : 1
+ResultItemsSize  : 148.6 KB (152,186 bytes)
+
+
+***********************************
+Count: 46
+Mailbox: lorraine.choi@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Lorraine Choi
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Choi, Lorraine-12/26/2020 8:47:21 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 47
+Mailbox: robert.herron@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Robert Herron
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Herron, Robert-12/26/2020 8:47:26 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 48
+Mailbox: adam.hansen@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Adam Hansen
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Hansen, Adam-12/26/2020 8:47:30 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 49
+Mailbox: critchfieldc@wvumedicine.org
+The operation couldn't be performed because 'critchfieldc@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=9e45e9bc-56b7-441e-b00d-88390b734576,TimeStamp=12/26/2020 
+8:47:32 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+5306C943,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'critchfieldc@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=9e45e9bc-56b7-441e-b00d-88390b734576,TimeStamp=12/26/202
+   0 8:47:32 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 5306C943,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 50
+Mailbox: lekha.hota@wvumedicine.org
+RunspaceId       : 70026ed8-ae5a-4838-8e55-196c27d18219
+Identity         : Lekha Hota
+TargetMailbox    : microsoft_b4c947b414
+Success          : True
+TargetFolder     : \Inbox\Hota, Lekha-12/26/2020 8:47:34 PM
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 51
+Mailbox: jwatso24@wvumedicine.org
+The operation couldn't be performed because object 'jwatso24@wvumedicine.org' couldn't be found on 
+'DM5PR05A04DC001.NAMPR05A004.prod.outlook.com'.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=f67112bf-522b-4746-bd01-c69cba9e79e7,TimeStamp=12/26/2020 
+8:47:39 PM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+C2037ADC,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because object 'jwatso24@wvumedicine.org' couldn't be found on
+'DM5PR05A04DC001.NAMPR05A004.prod.outlook.com'.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=f67112bf-522b-4746-bd01-c69cba9e79e7,TimeStamp=12/26/202
+   0 8:47:39 PM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] C2037ADC,Microsoft.Exchange.Management.Ta
+  sks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 52
+Mailbox: kguffey@wvumedicine.org
+
+***********************************
+Count: 53
+Mailbox: jbaker32@wvumedicine.org
+
+***********************************
+Count: 54
+Mailbox: mcnoonan@wvumedicine.org
+
+***********************************
+Count: 55
+Mailbox: tvanek@wvumedicine.org
+
+***********************************
+Count: 56
+Mailbox: arickard@wvumedicine.org
+
+***********************************
+Count: 57
+Mailbox: ekline1@wvumedicine.org
+The operation couldn't be performed because object 'ekline1@wvumedicine.org' couldn't be found on 
+'DM5PR05A04DC001.NAMPR05A004.prod.outlook.com'.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=42dba9f7-1938-4c4b-85e1-ec652e13ddbb,TimeStamp=12/26/2020 
+8:47:46 PM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+6509683D,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because object 'ekline1@wvumedicine.org' couldn't be found on
+'DM5PR05A04DC001.NAMPR05A004.prod.outlook.com'.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=42dba9f7-1938-4c4b-85e1-ec652e13ddbb,TimeStamp=12/26/202
+   0 8:47:46 PM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 6509683D,Microsoft.Exchange.Management.Ta
+  sks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 58
+Mailbox: lah0058@wvumedicine.org
+
+***********************************
+Count: 59
+Mailbox: dqbrubaker@wvumedicine.org
+The operation couldn't be performed because object 'dqbrubaker@wvumedicine.org' couldn't be found on 
+'DM5PR05A04DC001.NAMPR05A004.prod.outlook.com'.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=a701a70c-23cf-46c8-af69-e9bdcc5c195d,TimeStamp=12/26/2020 
+8:47:49 PM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] 
+E4751DC7,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because object 'dqbrubaker@wvumedicine.org' couldn't be found on
+'DM5PR05A04DC001.NAMPR05A004.prod.outlook.com'.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectNotFoundException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=a701a70c-23cf-46c8-af69-e9bdcc5c195d,TimeStamp=12/26/202
+   0 8:47:49 PM] [FailureCategory=Cmdlet-ManagementObjectNotFoundException] E4751DC7,Microsoft.Exchange.Management.Ta
+  sks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+Count: 60
+Mailbox: chajiran@wvumedicine.org
+
+***********************************
+Count: 61
+Mailbox: smnovobilsky@wvumedicine.org
+
+***********************************
+Count: 62
+Mailbox: sahaupt@wvumedicine.org
+
+***********************************
+Count: 63
+Mailbox: kdmiller1@wvumedicine.org
+
+***********************************
+Count: 64
+Mailbox: cstennant@wvumedicine.org
+The operation couldn't be performed because 'cstennant@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=fef3e0d4-353f-44f3-a05e-98179ed5b6ba,TimeStamp=12/26/2020 
+8:47:55 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 
+18C109DF,Microsoft.Exchange.Management.Tasks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+The operation couldn't be performed because 'cstennant@wvumedicine.org' matches multiple entries.
+    + CategoryInfo          : InvalidArgument: (0:Int32) [Search-Mailbox], ManagementObjectAmbiguousException
+    + FullyQualifiedErrorId : [Server=MN2PR05MB6078,RequestId=fef3e0d4-353f-44f3-a05e-98179ed5b6ba,TimeStamp=12/26/202
+   0 8:47:55 PM] [FailureCategory=Cmdlet-ManagementObjectAmbiguousException] 18C109DF,Microsoft.Exchange.Management.T
+  asks.SearchMailbox
+    + PSComputerName        : outlook.office365.com
+
+
+***********************************
+
+

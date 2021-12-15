@@ -1,0 +1,128 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200821152516
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 4372
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\\2020-08-21-15-25-Test-ValidUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\
+VERBOSE: File Count: 5
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\\2020-08-21-15-25-Test-ValidUser-SessionTranscript.txt
+Current User: wjbarlow
+**********************
+Current User: bchandler
+PS>TerminatingError(Get-ADUser): "Cannot find an object with identity: 'bchandler' under: 'DC=HS,DC=wvu-ad,DC=wvu,DC=edu'."
+**********************
+Current User: tcool
+**********************
+Current User: kdibacco
+**********************
+Current User: jander38
+**********************
+Current User: ctw0011
+**********************
+Current User: smc0002
+**********************
+Current User: jlemon2
+**********************
+Current User: etlacy
+**********************
+Current User: clw002
+PS>TerminatingError(Get-ADUser): "Cannot find an object with identity: 'clw002' under: 'DC=HS,DC=wvu-ad,DC=wvu,DC=edu'."
+**********************
+Current User: jab0142
+**********************
+Current User: bdcook
+**********************
+Current User: shanna2
+**********************
+Current User: anp00007
+**********************
+Current User: wfdorsey
+**********************
+Current User: dsh0014
+**********************
+Current User: alancian
+**********************
+Current User: tveazey
+**********************
+Current User: maa00010
+**********************
+Current User: sopicklesimer
+**********************
+Current User: tmr00002
+**********************
+Current User: kmtotten
+**********************
+Current User: clburkett
+**********************
+Current User: edevans
+**********************
+Current User: stford
+**********************
+Current User: ajm00003
+**********************
+Current User: asfreeman
+**********************
+Current User: bah00004
+**********************
+Current User: tlroberts
+PS>TerminatingError(Get-ADUser): "Cannot find an object with identity: 'tlroberts' under: 'DC=HS,DC=wvu-ad,DC=wvu,DC=edu'."
+**********************
+Current User: trobert1
+**********************
+Current User: rheise
+**********************
+Current User: mas0005
+**********************
+Current User: jpb0045
+**********************
+Current User: kclark3
+**********************
+Current User: dcox10
+**********************
+Current User: rhmiller1
+**********************
+Current User: hfrazie3
+**********************
+Current User: ksemery
+**********************
+Current User: mdphilogene
+**********************
+Current User: err00001
+**********************
+Current User: pkt0005
+**********************
+Current User: bdw0024
+**********************
+Current User: merichards
+**********************
+Current User: khcalhoun
+PS>TerminatingError(Get-ADUser): "Cannot find an object with identity: 'khcalhoun' under: 'DC=HS,DC=wvu-ad,DC=wvu,DC=edu'."
+**********************
+Final Error Count: 4
+**********************
+Windows PowerShell transcript end
+End time: 20200821152517
+**********************

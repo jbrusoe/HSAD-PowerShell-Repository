@@ -1,0 +1,69 @@
+Search Path: OU=path,OU=SOM,OU=HSC,DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Home directories with no corresponding users:
+ab0106
+ACGME
+Andreas Resident Files
+Billing
+Carie-Trevor
+cboykin
+Cheryl-Andrea
+Cheryl-Erin
+Chief-Resident-Andrea
+clarient-data
+Cytopathology-Fellowship
+derm-DIF
+dgray
+dgray-7-7-2016
+dh0001
+Division Newsletter
+Drivers
+eel0006
+EM-data
+eosborne
+flanagan-Scholl
+Grossing Manual
+Heme Path Fellowship
+Hemepath Director-Coordinator
+HTL Program
+image1
+INBRE
+ja0071
+kfeaster
+kmolchanoff
+Koneman
+Kym-Andrea
+Marty-Erin
+Medical Examiner
+Medtech
+MLS-Admissions
+MLS-Curriculum Task Force
+MLS-Files
+MLS-Handbook-Taskforce
+MLS-Recruitment
+MLS-Website-Taskforce
+MS2 Pathology Course
+nhm0006
+Old-Accounts
+Overdue Reports VOS
+PA program
+PA-Admissions
+Path-Chair
+PathAdmin
+PLTM-GrossRoom-Pictures
+QAU
+QB-Kieffer
+QB-PLTM
+Question-Bank
+Research-Lab
+Residency-Program
+Resident-Admin
+RMT-websites
+Robinson Data Extraction (LaSala - Auten - Kehinde)
+Saved Gross Specimens
+shared
+SurgPathFellowship
+Tissue-Bank Database
+TPL work
+Translational Pathology Archive
+WVAP
+wvupath1

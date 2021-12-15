@@ -1,0 +1,1398 @@
+Get-Process EXCEL | Stop-Process
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:475 char:1
++ Get-Process EXCEL | Stop-Process
++ ~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:469 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workbook) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:468 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workb ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:467 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:466 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $Excel.Quit()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:461 char:6
++         $Excel.Quit()
++         ~~~~~~~~~~~~~
+******************************
+	    $Excel.Workbooks.Close()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:460 char:6
++         $Excel.Workbooks.Close()
++         ~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.activate()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:455 char:5
++     $workbook.activate()
++     ~~~~~~~~~~~~~~~~~~~~
+******************************
+	$ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:440 char:2
++     $ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.PivotTables("Tables1").HasAutoFormat = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:439 char:5
++     $ws3.PivotTables("Tables1").HasAutoFormat = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.columns.item(1).columnWidth = 60
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:438 char:5
++     $ws3.columns.item(1).columnWidth = 60
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium10" 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:436 char:6
++         $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium10 ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item($row,$column)= 'Units'
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:421 char:5
++     $ws3.Cells.Item($row,$column)= 'Units'
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:408 char:29
++ ...  Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:405 char:5
++     $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Caption = "Sum of Unprotected Quantities"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:401 char:6
++         $PivotFields4.Caption = "Sum of Unprotected Quantities"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Function = $xlSum
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:400 char:6
++         $PivotFields4.Function = $xlSum
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:399 char:6
++         $PivotFields4.Orientation = $xlDataField
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unprotected Quantity")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:398 char:6
++         $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unpr ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields3.Name = "Files with Unprotected Quantities"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:370 char:6
++         $PivotFields3.Name = "Files with Unprotected Quantities"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:354 char:5
++     $PivotFields3.Orientation = $xlDataField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:353 char:5
++     $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:351 char:5
++     $PivotFields5.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:350 char:5
++     $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:348 char:5
++     $PivotFields2.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:347 char:5
++     $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Caption = "Units"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:345 char:5
++     $PivotFields1.Caption = "Units"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:344 char:5
++     $PivotFields1.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:343 char:5
++     $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.ShowPivotTableFieldList = $false  
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:340 char:5
++     $workbook.ShowPivotTableFieldList = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item(1,1).Select() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:338 char:5
++     $ws3.Cells.Item(1,1).Select() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [void]$ws3.Select();
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:337 char:5
++     [void]$ws3.Select();
++     ~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out-Null 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:336 char:5
++     $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.name + "!R1C1:R"+ $finalrow +"C4", $xlPivotTableVersion15)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:335 char:5
++     $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.na ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:332 char:5
++     $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,4) = "Unprotected Quantity"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:238 char:3
++         $dataSheet.cells.item(1,4) = "Unprotected Quantity"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,3) = "Location"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:237 char:3
++         $dataSheet.cells.item(1,3) = "Location"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,2) = "Tag Name"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:236 char:3
++         $dataSheet.cells.item(1,2) = "Tag Name"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,1) = "Endpoint"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:235 char:3
++         $dataSheet.cells.item(1,1) = "Endpoint"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $dataSheet.Name = "DataDump"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:221 char:5
++     $dataSheet.Name = "DataDump"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet = $workbook.Worksheets.Item(2)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:220 char:5
++     $dataSheet = $workbook.Worksheets.Item(2)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Activate() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:219 char:5
++     $dataSheet2.Activate() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Name = "PivotTable"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:218 char:5
++     $dataSheet2.Name = "PivotTable"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2 = $workbook.Worksheets.Item(1)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:217 char:5
++     $dataSheet2 = $workbook.Worksheets.Item(1)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws1 = $workbook.Worksheets.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:213 char:5
++     $ws1 = $workbook.Worksheets.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook = $excel.Workbooks.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:212 char:5
++     $workbook = $excel.Workbooks.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.DisplayAlerts = $FALSE
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:208 char:5
++     $excel.DisplayAlerts = $FALSE
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Caption = "IDFinder_HSC_"+$filetype
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:206 char:5
++     $excel.Caption = "IDFinder_HSC_"+$filetype
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Visible = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:205 char:5
++     $excel.Visible = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel = New-Object -ComObject excel.application
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:202 char:14
++     $excel = New-Object -ComObject excel.application
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:469 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workbook) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:468 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workb ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:467 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:466 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $Excel.Quit()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:461 char:6
++         $Excel.Quit()
++         ~~~~~~~~~~~~~
+******************************
+	    $Excel.Workbooks.Close()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:460 char:6
++         $Excel.Workbooks.Close()
++         ~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.activate()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:455 char:5
++     $workbook.activate()
++     ~~~~~~~~~~~~~~~~~~~~
+******************************
+	$ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:440 char:2
++     $ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.PivotTables("Tables1").HasAutoFormat = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:439 char:5
++     $ws3.PivotTables("Tables1").HasAutoFormat = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.columns.item(1).columnWidth = 60
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:438 char:5
++     $ws3.columns.item(1).columnWidth = 60
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium13" 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:432 char:6
++         $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium13 ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item($row,$column)= 'Units'
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:421 char:5
++     $ws3.Cells.Item($row,$column)= 'Units'
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:408 char:29
++ ...  Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:405 char:5
++     $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Caption = "Sum of Unprotected Quantities"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:394 char:6
++         $PivotFields4.Caption = "Sum of Unprotected Quantities"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Function = $xlSum
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:393 char:6
++         $PivotFields4.Function = $xlSum
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:392 char:6
++         $PivotFields4.Orientation = $xlDataField
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unprotected Quantity")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:391 char:6
++         $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unpr ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields3.Name = "Files with Unprotected Quantities"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:366 char:6
++         $PivotFields3.Name = "Files with Unprotected Quantities"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:354 char:5
++     $PivotFields3.Orientation = $xlDataField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:353 char:5
++     $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:351 char:5
++     $PivotFields5.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:350 char:5
++     $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:348 char:5
++     $PivotFields2.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:347 char:5
++     $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Caption = "Units"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:345 char:5
++     $PivotFields1.Caption = "Units"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:344 char:5
++     $PivotFields1.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:343 char:5
++     $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.ShowPivotTableFieldList = $false  
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:340 char:5
++     $workbook.ShowPivotTableFieldList = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item(1,1).Select() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:338 char:5
++     $ws3.Cells.Item(1,1).Select() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [void]$ws3.Select();
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:337 char:5
++     [void]$ws3.Select();
++     ~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out-Null 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:336 char:5
++     $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.name + "!R1C1:R"+ $finalrow +"C4", $xlPivotTableVersion15)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:335 char:5
++     $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.na ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:332 char:5
++     $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,4) = "Location"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:257 char:3
++         $dataSheet.cells.item(1,4) = "Location"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+			$dataSheet.cells.item(1,3) = "Unprotected Quantity"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:254 char:4
++             $dataSheet.cells.item(1,3) = "Unprotected Quantity"
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,2) = "Endpoint"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:243 char:3
++         $dataSheet.cells.item(1,2) = "Endpoint"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,1) = "Tag Name"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:242 char:3
++         $dataSheet.cells.item(1,1) = "Tag Name"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $dataSheet.Name = "DataDump"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:221 char:5
++     $dataSheet.Name = "DataDump"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet = $workbook.Worksheets.Item(2)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:220 char:5
++     $dataSheet = $workbook.Worksheets.Item(2)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Activate() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:219 char:5
++     $dataSheet2.Activate() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Name = "PivotTable"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:218 char:5
++     $dataSheet2.Name = "PivotTable"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2 = $workbook.Worksheets.Item(1)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:217 char:5
++     $dataSheet2 = $workbook.Worksheets.Item(1)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws1 = $workbook.Worksheets.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:213 char:5
++     $ws1 = $workbook.Worksheets.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook = $excel.Workbooks.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:212 char:5
++     $workbook = $excel.Workbooks.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.DisplayAlerts = $FALSE
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:208 char:5
++     $excel.DisplayAlerts = $FALSE
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Caption = "IDFinder_HSC_"+$filetype
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:206 char:5
++     $excel.Caption = "IDFinder_HSC_"+$filetype
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Visible = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:205 char:5
++     $excel.Visible = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel = New-Object -ComObject excel.application
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:202 char:14
++     $excel = New-Object -ComObject excel.application
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:469 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workbook) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:468 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workb ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:467 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:466 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $Excel.Quit()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:461 char:6
++         $Excel.Quit()
++         ~~~~~~~~~~~~~
+******************************
+	    $Excel.Workbooks.Close()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:460 char:6
++         $Excel.Workbooks.Close()
++         ~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.activate()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:455 char:5
++     $workbook.activate()
++     ~~~~~~~~~~~~~~~~~~~~
+******************************
+	$ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:440 char:2
++     $ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.PivotTables("Tables1").HasAutoFormat = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:439 char:5
++     $ws3.PivotTables("Tables1").HasAutoFormat = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.columns.item(1).columnWidth = 60
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:438 char:5
++     $ws3.columns.item(1).columnWidth = 60
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium12" 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:428 char:6
++         $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium12 ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item($row,$column)= 'Units'
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:421 char:5
++     $ws3.Cells.Item($row,$column)= 'Units'
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:408 char:29
++ ...  Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:405 char:5
++     $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Caption = "Sum of Unprotected SSNs"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:387 char:6
++         $PivotFields4.Caption = "Sum of Unprotected SSNs"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Function = $xlSum
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:386 char:6
++         $PivotFields4.Function = $xlSum
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:385 char:6
++         $PivotFields4.Orientation = $xlDataField
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unprotected SSNs")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:384 char:6
++         $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unpr ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields3.Name = "Files with Unprotected SSNs"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:362 char:6
++         $PivotFields3.Name = "Files with Unprotected SSNs"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:354 char:5
++     $PivotFields3.Orientation = $xlDataField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:353 char:5
++     $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:351 char:5
++     $PivotFields5.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:350 char:5
++     $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:348 char:5
++     $PivotFields2.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:347 char:5
++     $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Caption = "Units"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:345 char:5
++     $PivotFields1.Caption = "Units"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:344 char:5
++     $PivotFields1.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:343 char:5
++     $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.ShowPivotTableFieldList = $false  
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:340 char:5
++     $workbook.ShowPivotTableFieldList = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item(1,1).Select() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:338 char:5
++     $ws3.Cells.Item(1,1).Select() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [void]$ws3.Select();
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:337 char:5
++     [void]$ws3.Select();
++     ~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out-Null 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:336 char:5
++     $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.name + "!R1C1:R"+ $finalrow +"C4", $xlPivotTableVersion15)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:335 char:5
++     $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.na ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:332 char:5
++     $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,4) = "Location"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:257 char:3
++         $dataSheet.cells.item(1,4) = "Location"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+			$dataSheet.cells.item(1,3) = "Unprotected SSNs"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:250 char:4
++             $dataSheet.cells.item(1,3) = "Unprotected SSNs"
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,2) = "Endpoint"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:243 char:3
++         $dataSheet.cells.item(1,2) = "Endpoint"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,1) = "Tag Name"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:242 char:3
++         $dataSheet.cells.item(1,1) = "Tag Name"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $dataSheet.Name = "DataDump"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:221 char:5
++     $dataSheet.Name = "DataDump"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet = $workbook.Worksheets.Item(2)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:220 char:5
++     $dataSheet = $workbook.Worksheets.Item(2)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Activate() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:219 char:5
++     $dataSheet2.Activate() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Name = "PivotTable"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:218 char:5
++     $dataSheet2.Name = "PivotTable"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2 = $workbook.Worksheets.Item(1)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:217 char:5
++     $dataSheet2 = $workbook.Worksheets.Item(1)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws1 = $workbook.Worksheets.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:213 char:5
++     $ws1 = $workbook.Worksheets.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook = $excel.Workbooks.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:212 char:5
++     $workbook = $excel.Workbooks.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.DisplayAlerts = $FALSE
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:208 char:5
++     $excel.DisplayAlerts = $FALSE
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Caption = "IDFinder_HSC_"+$filetype
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:206 char:5
++     $excel.Caption = "IDFinder_HSC_"+$filetype
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Visible = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:205 char:5
++     $excel.Visible = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel = New-Object -ComObject excel.application
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:202 char:14
++     $excel = New-Object -ComObject excel.application
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:469 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workbook) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:468 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($workb ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:467 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws3)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1) | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:466 char:5
++     [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ws1)  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $Excel.Quit()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:461 char:6
++         $Excel.Quit()
++         ~~~~~~~~~~~~~
+******************************
+	    $Excel.Workbooks.Close()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:460 char:6
++         $Excel.Workbooks.Close()
++         ~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.activate()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:455 char:5
++     $workbook.activate()
++     ~~~~~~~~~~~~~~~~~~~~
+******************************
+	$ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:440 char:2
++     $ws3.PivotTables("Tables1").ShowTableStyleRowStripes = $true
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.PivotTables("Tables1").HasAutoFormat = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:439 char:5
++     $ws3.PivotTables("Tables1").HasAutoFormat = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.columns.item(1).columnWidth = 60
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:438 char:5
++     $ws3.columns.item(1).columnWidth = 60
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium14" 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:424 char:6
++         $ws3.PivotTables("Tables1").TableStyle2 = "PivotStyleMedium14 ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item($row,$column)= 'Units'
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:421 char:5
++     $ws3.Cells.Item($row,$column)= 'Units'
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:408 char:29
++ ...  Foreach ($PivotField in $ws3.PivotTables("Tables1").PivotFields()) {
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:405 char:5
++     $PivotFields1.AutoSort($xlDescending, $PivotFields4.Name)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Caption = "Sum of Unprotected CreditCards"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:379 char:6
++         $PivotFields4.Caption = "Sum of Unprotected CreditCards"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Function = $xlSum
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:378 char:6
++         $PivotFields4.Function = $xlSum
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:377 char:6
++         $PivotFields4.Orientation = $xlDataField
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unprotected CreditCards")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:376 char:6
++         $PivotFields4 = $ws3.PivotTables("Tables1").PivotFields("Unpr ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+	    $PivotFields3.Name = "Files with Unprotected CreditCards"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:358 char:6
++         $PivotFields3.Name = "Files with Unprotected CreditCards"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3.Orientation = $xlDataField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:354 char:5
++     $PivotFields3.Orientation = $xlDataField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:353 char:5
++     $PivotFields3 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:351 char:5
++     $PivotFields5.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:350 char:5
++     $PivotFields5 = $ws3.PivotTables("Tables1").PivotFields("Location ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:348 char:5
++     $PivotFields2.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:347 char:5
++     $PivotFields2 = $ws3.PivotTables("Tables1").PivotFields("Endpoint ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Caption = "Units"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:345 char:5
++     $PivotFields1.Caption = "Units"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1.Orientation = $xlRowField
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:344 char:5
++     $PivotFields1.Orientation = $xlRowField
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:343 char:5
++     $PivotFields1 = $ws3.PivotTables("Tables1").PivotFields("Tag Name ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.ShowPivotTableFieldList = $false  
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:340 char:5
++     $workbook.ShowPivotTableFieldList = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws3.Cells.Item(1,1).Select() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:338 char:5
++     $ws3.Cells.Item(1,1).Select() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    [void]$ws3.Select();
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:337 char:5
++     [void]$ws3.Select();
++     ~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out-Null 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:336 char:5
++     $PivotTable.CreatePivotTable($ws3.name + "!R1C1","Tables1") | Out ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.name + "!R1C1:R"+ $finalrow +"C4", $xlPivotTableVersion15)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:335 char:5
++     $PivotTable = $workbook.PivotCaches().Create($xlDatabase, $ws1.na ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:332 char:5
++     $finalrow=$ws1.Cells.End($xlDirection::xlDown).Row
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,4) = "Location"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:257 char:3
++         $dataSheet.cells.item(1,4) = "Location"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+			$dataSheet.cells.item(1,3) = "Unprotected CreditCards"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:246 char:4
++             $dataSheet.cells.item(1,3) = "Unprotected CreditCards"
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,2) = "Endpoint"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:243 char:3
++         $dataSheet.cells.item(1,2) = "Endpoint"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+		$dataSheet.cells.item(1,1) = "Tag Name"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:242 char:3
++         $dataSheet.cells.item(1,1) = "Tag Name"
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $dataSheet.Name = "DataDump"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:221 char:5
++     $dataSheet.Name = "DataDump"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet = $workbook.Worksheets.Item(2)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:220 char:5
++     $dataSheet = $workbook.Worksheets.Item(2)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Activate() | Out-Null
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:219 char:5
++     $dataSheet2.Activate() | Out-Null
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2.Name = "PivotTable"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:218 char:5
++     $dataSheet2.Name = "PivotTable"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $dataSheet2 = $workbook.Worksheets.Item(1)
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:217 char:5
++     $dataSheet2 = $workbook.Worksheets.Item(1)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $ws1 = $workbook.Worksheets.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:213 char:5
++     $ws1 = $workbook.Worksheets.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook = $excel.Workbooks.Add()
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:212 char:5
++     $workbook = $excel.Workbooks.Add()
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.DisplayAlerts = $FALSE
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:208 char:5
++     $excel.DisplayAlerts = $FALSE
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Caption = "IDFinder_HSC_"+$filetype
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:206 char:5
++     $excel.Caption = "IDFinder_HSC_"+$filetype
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel.Visible = $false
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:205 char:5
++     $excel.Visible = $false
++     ~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $excel = New-Object -ComObject excel.application
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:202 char:14
++     $excel = New-Object -ComObject excel.application
++              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+Write-Output "Number of attachments saved: $((Get-ChildItem $folderpath | Where-Object{!($_.PSIsContainer)}).count)"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:168 char:47
++ ... ut "Number of attachments saved: $((Get-ChildItem $folderpath | Where ...
++                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+Write-Output "Number of attachments saved: $((Get-ChildItem $folderpath | Where-Object{!($_.PSIsContainer)}).count)"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:168 char:47
++ ... ut "Number of attachments saved: $((Get-ChildItem $folderpath | Where ...
++                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    If ( ($a.Contains("csv")) -AND ($a -notlike "*count*") -AND ($a.Contains("IDF2")) )
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:160 char:10
++     If ( ($a.Contains("csv")) -AND ($a -notlike "*count*") -AND ($a.C ...
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    New-Item -Path $folderpath -ItemType Directory -Force
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:148 char:5
++     New-Item -Path $folderpath -ItemType Directory -Force
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    New-Item -Path $folderpath -ItemType Directory -Force
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:148 char:5
++     New-Item -Path $folderpath -ItemType Directory -Force
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    New-Item -Path $folderpath -ItemType Directory -Force
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:148 char:5
++     New-Item -Path $folderpath -ItemType Directory -Force
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+if (!(Test-Path -Path $folderpath))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:146 char:7
++ if (!(Test-Path -Path $folderpath))
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+$sourceFolder = $namespace.Folders.Item("ID Finder").Folders.Item("Inbox")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:137 char:1
++ $sourceFolder = $namespace.Folders.Item("ID Finder").Folders.Item("In ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************

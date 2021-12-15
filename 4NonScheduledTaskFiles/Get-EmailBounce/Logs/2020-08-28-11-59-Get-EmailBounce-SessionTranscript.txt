@@ -1,0 +1,2006 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200828115930
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5724
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\\2020-08-28-11-59-Get-EmailBounce-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\
+VERBOSE: File Count: 13
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\\2020-08-28-11-59-Get-EmailBounce-SessionTranscript.txt
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        8/28/2020  11:59 AM              0 2020-08-28-11-59-30-ADUserOutput.csv
+Email from file: jacquesc@hsc.wvu.edu
+Employee Number from file: 700140606
+User found
+***************************
+Email from file: kim.ice@hsc.wvu.edu
+Employee Number from file: 700630333
+User found
+***************************
+Email from file: martha.mullett@hsc.wvu.edu
+Employee Number from file: 700124544
+User found
+***************************
+Email from file: shofer@hsc.wvu.edu
+Employee Number from file: 700149622
+User found
+***************************
+Email from file: spamfili@hsc.wvu.edu
+Employee Number from file: 700140660
+User found
+***************************
+Email from file: sholcomb@hsc.wvu.edu
+Employee Number from file: 700101283
+User found
+***************************
+Email from file: klf0017@hsc.wvu.edu
+Employee Number from file: 700154445
+User found
+***************************
+Email from file: derrick.latos@hsc.wvu.edu
+Employee Number from file: 700141269
+User found
+***************************
+Email from file: mkilcoll@hsc.wvu.edu
+Employee Number from file: 700141268
+User found
+***************************
+Email from file: jstemple@hsc.wvu.edu
+Employee Number from file: 700181937
+User found
+***************************
+Email from file: ramakrishnan.iyer@hsc.wvu.edu
+Employee Number from file: 700141804
+User found
+***************************
+Email from file: debra.parsons@hsc.wvu.edu
+Employee Number from file: 700624578
+User found
+***************************
+Email from file: james.bryant@hsc.wvu.edu
+Employee Number from file: 700127975
+User found
+***************************
+Email from file: ik0004@hsc.wvu.edu
+Employee Number from file: 700626193
+User found
+***************************
+Email from file: kgifford@hsc.wvu.edu
+Employee Number from file: 700226053
+User found
+***************************
+Email from file: maggie.bostic@hsc.wvu.edu
+Employee Number from file: 700181080
+User found
+***************************
+Email from file: derek.grimm@hsc.wvu.edu
+Employee Number from file: 700210401
+User found
+***************************
+Email from file: michael.wilson@hsc.wvu.edu
+Employee Number from file: 700236959
+User found
+***************************
+Email from file: findacoc@hsc.wvu.edu
+Employee Number from file: 700140084
+User found
+***************************
+Email from file: james.cahill@hsc.wvu.edu
+Employee Number from file: 700140105
+User found
+***************************
+Email from file: krishna.urval@hsc.wvu.edu
+Employee Number from file: 700140111
+User found
+***************************
+Email from file: heidi.specht@hsc.wvu.edu
+Employee Number from file: 700167280
+User found
+***************************
+Email from file: lawrence.corob@hsc.wvu.edu
+Employee Number from file: 700620455
+User found
+***************************
+Email from file: david.tuel@hsc.wvu.edu
+Employee Number from file: 700140922
+User found
+***************************
+Email from file: brenda.rappold@hsc.wvu.edu
+Employee Number from file: 700140923
+User found
+***************************
+Email from file: stephen.toompas@hsc.wvu.edu
+Employee Number from file: 700141334
+User found
+***************************
+Email from file: luis.flores@hsc.wvu.edu
+Employee Number from file: 700628901
+User found
+***************************
+Email from file: liden@hsc.wvu.edu
+Employee Number from file: 700202475
+User found
+***************************
+Email from file: nasheikh@hsc.wvu.edu
+Employee Number from file: 700627487
+User found
+***************************
+Email from file: ehynes@hsc.wvu.edu
+Employee Number from file: 700140507
+User found
+***************************
+Email from file: pmp0003@hsc.wvu.edu
+Employee Number from file: 700620847
+User found
+***************************
+Email from file: lboyles@hsc.wvu.edu
+Employee Number from file: 700557091
+User found
+***************************
+Email from file: jbyers6@hsc.wvu.edu
+Employee Number from file: 700140765
+User found
+***************************
+Email from file: nicholas.scrivo@hsc.wvu.edu
+Employee Number from file: 700141130
+User found
+***************************
+Email from file: fred.kerns@hsc.wvu.edu
+Employee Number from file: 700141139
+User found
+***************************
+Email from file: mspiker2@hsc.wvu.edu
+Employee Number from file: 700141141
+User found
+***************************
+Email from file: nzervos@hsc.wvu.edu
+Employee Number from file: 700622785
+User found
+***************************
+Email from file: kathy.mcneill@hsc.wvu.edu
+Employee Number from file: 700141353
+User found
+***************************
+Email from file: kskaff@hsc.wvu.edu
+Employee Number from file: 700141356
+User found
+***************************
+Email from file: jgjohnson@hsc.wvu.edu
+Employee Number from file: 700142391
+User found
+***************************
+Email from file: iullrich@hsc.wvu.edu
+Employee Number from file: 700142373
+User found
+***************************
+Email from file: bharman-hsc@hsc.wvu.edu
+Employee Number from file: 700625699
+User found
+***************************
+Email from file: lerhodes@hsc.wvu.edu
+Employee Number from file: 700629642
+User found
+***************************
+Email from file: rahaynes@hsc.wvu.edu
+Employee Number from file: 700631012
+User found
+***************************
+Email from file: aajohnston@hsc.wvu.edu
+Employee Number from file: 700630988
+User found
+***************************
+Email from file: jamshid.bakhtiar@hsc.wvu.edu
+Employee Number from file: 700626352
+User found
+***************************
+Email from file: ajones4@hsc.wvu.edu
+Employee Number from file: 700200846
+User found
+***************************
+Email from file: lflemin1@hsc.wvu.edu
+Employee Number from file: 700141364
+User found
+***************************
+Email from file: henryc@hsc.wvu.edu
+Employee Number from file: 700626956
+User found
+***************************
+Email from file: thomas.mcfadden@hsc.wvu.edu
+Employee Number from file: 700141561
+User found
+***************************
+Email from file: karen.reed@hsc.wvu.edu
+Employee Number from file: 700141554
+User found
+***************************
+Email from file: david.wise@hsc.wvu.edu
+Employee Number from file: 700624701
+User not found
+***************************
+Email from file: gerald.wedemeyer@hsc.wvu.edu
+Employee Number from file: 700142404
+User found
+***************************
+Email from file: shschliesser@hsc.wvu.edu
+Employee Number from file: 700629943
+User found
+***************************
+Email from file: nicole.mcnamee@hsc.wvu.edu
+Employee Number from file: 700631086
+User found
+***************************
+Email from file: dorothy.smith@hsc.wvu.edu
+Employee Number from file: 700625735
+User found
+***************************
+Email from file: beastman@hsc.wvu.edu
+Employee Number from file: 700260344
+User found
+***************************
+Email from file: guttas@hsc.wvu.edu
+Employee Number from file: 700191882
+User found
+***************************
+Email from file: jja0007@hsc.wvu.edu
+Employee Number from file: 700626391
+User found
+***************************
+Email from file: stephen.elksnis@hsc.wvu.edu
+Employee Number from file: 700629004
+User found
+***************************
+Email from file: msmith53@hsc.wvu.edu
+Employee Number from file: 700363234
+User found
+***************************
+Email from file: kstoops@hsc.wvu.edu
+Employee Number from file: 700231958
+User found
+***************************
+Email from file: lynn.gilbert@hsc.wvu.edu
+Employee Number from file: 700625634
+User found
+***************************
+Email from file: paul.siegel@hsc.wvu.edu
+Employee Number from file: 700624726
+User found
+***************************
+Email from file: rmullin@hsc.wvu.edu
+Employee Number from file: 700179615
+User found
+***************************
+Email from file: nqueen@hsc.wvu.edu
+Employee Number from file: 700193658
+User found
+***************************
+Email from file: dthistle@hsc.wvu.edu
+Employee Number from file: 700140785
+User found
+***************************
+Email from file: jlowery1@hsc.wvu.edu
+Employee Number from file: 700140786
+User found
+***************************
+Email from file: cmurray@hsc.wvu.edu
+Employee Number from file: 700141957
+User found
+***************************
+Email from file: brian.policano@hsc.wvu.edu
+Employee Number from file: 700100325
+User found
+***************************
+Email from file: lori.gochenour@hsc.wvu.edu
+Employee Number from file: 700101492
+User found
+***************************
+Email from file: nm0028@hsc.wvu.edu
+Employee Number from file: 700628971
+User found
+***************************
+Email from file: asperkins@hsc.wvu.edu
+Employee Number from file: 700119745
+User found
+***************************
+Email from file: lwood@hsc.wvu.edu
+Employee Number from file: 700128813
+User found
+***************************
+Email from file: lance.mccoy@hsc.wvu.edu
+Employee Number from file: 700625599
+User found
+***************************
+Email from file: rlewis@hsc.wvu.edu
+Employee Number from file: 700100586
+User found
+***************************
+Email from file: acrist@hsc.wvu.edu
+Employee Number from file: 700192097
+User found
+***************************
+Email from file: jeisenho@hsc.wvu.edu
+Employee Number from file: 700105269
+User found
+***************************
+Email from file: stacey.waller@hsc.wvu.edu
+Employee Number from file: 700158465
+User found
+***************************
+Email from file: james.weinstein@hsc.wvu.edu
+Employee Number from file: 700140303
+User found
+***************************
+Email from file: kkirsch@hsc.wvu.edu
+Employee Number from file: 700620505
+User found
+***************************
+Email from file: jma@hsc.wvu.edu
+Employee Number from file: 700182015
+User found
+***************************
+Email from file: ocarmstrong@hsc.wvu.edu
+Employee Number from file: 700148313
+User found
+***************************
+Email from file: joseph.bartolo@hsc.wvu.edu
+Employee Number from file: 700100428
+User found
+***************************
+Email from file: mscollins@hsc.wvu.edu
+Employee Number from file: 700628876
+User found
+***************************
+Email from file: steven.jubelirer@hsc.wvu.edu
+Employee Number from file: 700141856
+User found
+***************************
+Email from file: trimblek@hsc.wvu.edu
+Employee Number from file: 700137332
+User found
+***************************
+Email from file: mieddy@hsc.wvu.edu
+Employee Number from file: 700220419
+User found
+***************************
+Email from file: jrobert5@hsc.wvu.edu
+Employee Number from file: 700255743
+User found
+***************************
+Email from file: ddalton1@hsc.wvu.edu
+Employee Number from file: 700213167
+User found
+***************************
+Email from file: rwedwards@hsc.wvu.edu
+Employee Number from file: 700110046
+User found
+***************************
+Email from file: patricia.costa@hsc.wvu.edu
+Employee Number from file: 700151457
+User found
+***************************
+Email from file: fatomblin@hsc.wvu.edu
+Employee Number from file: 700129476
+User found
+***************************
+Email from file: prasad.devabhaktuni@hsc.wvu.edu
+Employee Number from file: 700142067
+User found
+***************************
+Email from file: paul.hunter@hsc.wvu.edu
+Employee Number from file: 700156186
+User found
+***************************
+Email from file: rcshah@hsc.wvu.edu
+Employee Number from file: 700625995
+User found
+***************************
+Email from file: eugene.demchuk@hsc.wvu.edu
+Employee Number from file: 700626007
+User found
+***************************
+Email from file: jack.clohan@hsc.wvu.edu
+Employee Number from file: 700626008
+User found
+***************************
+Email from file: james.kaplan@hsc.wvu.edu
+Employee Number from file: 700626009
+User found
+***************************
+Email from file: jmquedado@hsc.wvu.edu
+Employee Number from file: 700626015
+User found
+***************************
+Email from file: marcos.cid@hsc.wvu.edu
+Employee Number from file: 700100975
+User found
+***************************
+Email from file: edwin.morgan@hsc.wvu.edu
+Employee Number from file: 700620600
+User found
+***************************
+Email from file: ppowell@hsc.wvu.edu
+Employee Number from file: 700155861
+User found
+***************************
+Email from file: robin.darnell@hsc.wvu.edu
+Employee Number from file: 700160323
+User found
+***************************
+Email from file: fpollock@hsc.wvu.edu
+Employee Number from file: 700142098
+User found
+***************************
+Email from file: jespirit@hsc.wvu.edu
+Employee Number from file: 700142625
+User found
+***************************
+Email from file: kraymond@hsc.wvu.edu
+Employee Number from file: 700104883
+User found
+***************************
+Email from file: mmccorm1@hsc.wvu.edu
+Employee Number from file: 700238203
+User found
+***************************
+Email from file: brtabott@hsc.wvu.edu
+Employee Number from file: 700877341
+User found
+***************************
+Email from file: rabowers@hsc.wvu.edu
+Employee Number from file: 700943200
+User found
+***************************
+Email from file: ruth.bartenslager@hsc.wvu.edu
+Employee Number from file: 700943198
+User found
+***************************
+Email from file: natalie.elliott@hsc.wvu.edu
+Employee Number from file: 700158294
+User found
+***************************
+Email from file: ali.robinson@hsc.wvu.edu
+Employee Number from file: 700857029
+User found
+***************************
+Email from file: katie.kilcollin@hsc.wvu.edu
+Employee Number from file: 700468437
+User found
+***************************
+Email from file: mkoul@hsc.wvu.edu
+Employee Number from file: 700957473
+User found
+***************************
+Email from file: deepthi.buddha@hsc.wvu.edu
+Employee Number from file: 701222373
+User found
+***************************
+Email from file: patrick.cobb@hsc.wvu.edu
+Employee Number from file: 700130526
+User found
+***************************
+Email from file: rfletche@hsc.wvu.edu
+Employee Number from file: 700135223
+User found
+***************************
+Email from file: oliverioho@hsc.wvu.edu
+Employee Number from file: 701223539
+User found
+***************************
+Email from file: ecline@hsc.wvu.edu
+Employee Number from file: 701224051
+User found
+***************************
+Email from file: bridget.stevens@hsc.wvu.edu
+Employee Number from file: 701223986
+User found
+***************************
+Email from file: mlmartinmarietta@hsc.wvu.edu
+Employee Number from file: 701224987
+User found
+***************************
+Email from file: nicole.mccart@hsc.wvu.edu
+Employee Number from file: 701224732
+User found
+***************************
+Email from file: melissa.marhefka@hsc.wvu.edu
+Employee Number from file: 701224720
+User found
+***************************
+Email from file: lisa.mcmorrow@hsc.wvu.edu
+Employee Number from file: 700159913
+User found
+***************************
+Email from file: leslie.stone@hsc.wvu.edu
+Employee Number from file: 700157543
+User found
+***************************
+Email from file: justin.vance@hsc.wvu.edu
+Employee Number from file: 700287911
+User found
+***************************
+Email from file: kristin.harper@hsc.wvu.edu
+Employee Number from file: 700212531
+User found
+***************************
+Email from file: james.makricostas@hsc.wvu.edu
+Employee Number from file: 701224986
+User found
+***************************
+Email from file: sjsenita@hsc.wvu.edu
+Employee Number from file: 701228935
+User found
+***************************
+Email from file: miannett@hsc.wvu.edu
+Employee Number from file: 700214170
+User found
+***************************
+Email from file: eileen.storey@hsc.wvu.edu
+Employee Number from file: 701075696
+User found
+***************************
+Email from file: derek.kaznoski@hsc.wvu.edu
+Employee Number from file: 700114245
+User found
+***************************
+Email from file: nancy.cutright@hsc.wvu.edu
+Employee Number from file: 701217531
+User found
+***************************
+Email from file: ebusby@hsc.wvu.edu
+Employee Number from file: 701224317
+User found
+***************************
+Email from file: mona.lett@hsc.wvu.edu
+Employee Number from file: 701224333
+User found
+***************************
+Email from file: daryl.schott@hsc.wvu.edu
+Employee Number from file: 701225240
+User found
+***************************
+Email from file: troischtm@hsc.wvu.edu
+Employee Number from file: 700630949
+User found
+***************************
+Email from file: jturner@hsc.wvu.edu
+Employee Number from file: 700142814
+User found
+***************************
+Email from file: jmbeaver@hsc.wvu.edu
+Employee Number from file: 700159860
+User found
+***************************
+Email from file: amy.lizza@hsc.wvu.edu
+Employee Number from file: 700631018
+User found
+***************************
+Email from file: jwilli50@hsc.wvu.edu
+Employee Number from file: 700268216
+User found
+***************************
+Email from file: krista.harrison@hsc.wvu.edu
+Employee Number from file: 700100110
+User found
+***************************
+Email from file: keith.broome@hsc.wvu.edu
+Employee Number from file: 700767211
+User found
+***************************
+Email from file: troy.foster@hsc.wvu.edu
+Employee Number from file: 700791726
+User found
+***************************
+Email from file: shthompson@hsc.wvu.edu
+Employee Number from file: 700791729
+User found
+***************************
+Email from file: jeanne.zirilli@hsc.wvu.edu
+Employee Number from file: 700786234
+User found
+***************************
+Email from file: paul.brager1@hsc.wvu.edu
+Employee Number from file: 701078852
+User found
+***************************
+Email from file: matthew.genin@hsc.wvu.edu
+Employee Number from file: 700100521
+User found
+***************************
+Email from file: ansayre@hsc.wvu.edu
+Employee Number from file: 701224344
+User found
+***************************
+Email from file: jelswick@hsc.wvu.edu
+Employee Number from file: 701224716
+User found
+***************************
+Email from file: jestep@hsc.wvu.edu
+Employee Number from file: 700988093
+User found
+***************************
+Email from file: lisa.schatz@hsc.wvu.edu
+Employee Number from file: 701225396
+User found
+***************************
+Email from file: jayson.ziolkowski@hsc.wvu.edu
+Employee Number from file: 700102585
+User found
+***************************
+Email from file: jaime.guatteri@hsc.wvu.edu
+Employee Number from file: 700137877
+User found
+***************************
+Email from file: nnicholson@hsc.wvu.edu
+Employee Number from file: 700247862
+User found
+***************************
+Email from file: bruce.adkins@hsc.wvu.edu
+Employee Number from file: 701226451
+User found
+***************************
+Email from file: lweaver@hsc.wvu.edu
+Employee Number from file: 700174448
+User found
+***************************
+Email from file: edouble@hsc.wvu.edu
+Employee Number from file: 700232654
+User found
+***************************
+Email from file: sofleming@hsc.wvu.edu
+Employee Number from file: 800058904
+User found
+***************************
+Email from file: kacramer@hsc.wvu.edu
+Employee Number from file: 800066232
+User found
+***************************
+Email from file: mslondner@hsc.wvu.edu
+Employee Number from file: 800066323
+User found
+***************************
+Email from file: gtparikh@hsc.wvu.edu
+Employee Number from file: 800066325
+User found
+***************************
+Email from file: demeyer@hsc.wvu.edu
+Employee Number from file: 800067583
+User found
+***************************
+Email from file: rohoward@hsc.wvu.edu
+Employee Number from file: 800067724
+User found
+***************************
+Email from file: dlayman@hsc.wvu.edu
+Employee Number from file: 700248065
+User found
+***************************
+Email from file: jdnoti@hsc.wvu.edu
+Employee Number from file: 800046677
+User found
+***************************
+Email from file: mvtsapenko@hsc.wvu.edu
+Employee Number from file: 800046684
+User found
+***************************
+Email from file: madeline.philogene@hsc.wvu.edu
+Employee Number from file: 700629649
+User found
+***************************
+Email from file: rmorabito@hsc.wvu.edu
+Employee Number from file: 700192025
+User found
+***************************
+Email from file: mary.doersch@hsc.wvu.edu
+Employee Number from file: 700122468
+User found
+***************************
+Email from file: susan.nicholson@hsc.wvu.edu
+Employee Number from file: 700631083
+User found
+***************************
+Email from file: michael.priolette@hsc.wvu.edu
+Employee Number from file: 700181175
+User found
+***************************
+Email from file: michael.wagoner@hsc.wvu.edu
+Employee Number from file: 700767212
+User found
+***************************
+Email from file: sokosl@hsc.wvu.edu
+Employee Number from file: 700188906
+User found
+***************************
+Email from file: leah.bolyard@hsc.wvu.edu
+Employee Number from file: 800072555
+User found
+***************************
+Email from file: kdobson@hsc.wvu.edu
+Employee Number from file: 700236774
+User found
+***************************
+Email from file: juddson.lindley@hsc.wvu.edu
+Employee Number from file: 700159756
+User found
+***************************
+Email from file: aksmith2@hsc.wvu.edu
+Employee Number from file: 701171366
+User found
+***************************
+Email from file: amber.mayfield@hsc.wvu.edu
+Employee Number from file: 700363896
+User found
+***************************
+Email from file: sivamurthy.kyathari@hsc.wvu.edu
+Employee Number from file: 800080455
+User found
+***************************
+Email from file: kibushuy@hsc.wvu.edu
+Employee Number from file: 800080513
+User found
+***************************
+Email from file: lesakhai@hsc.wvu.edu
+Employee Number from file: 800080558
+User found
+***************************
+Email from file: gabor.altdorfer@hsc.wvu.edu
+Employee Number from file: 800080559
+User found
+***************************
+Email from file: jishaffer@hsc.wvu.edu
+Employee Number from file: 800085572
+User found
+***************************
+Email from file: maclark@hsc.wvu.edu
+Employee Number from file: 800085571
+User found
+***************************
+Email from file: jmccorm7@hsc.wvu.edu
+Employee Number from file: 700791931
+User found
+***************************
+Email from file: mischifano@hsc.wvu.edu
+Employee Number from file: 800053588
+User found
+***************************
+Email from file: lhschoonover@hsc.wvu.edu
+Employee Number from file: 800052882
+User found
+***************************
+Email from file: sadoshi@hsc.wvu.edu
+Employee Number from file: 800052889
+User found
+***************************
+Email from file: jldunlevy@hsc.wvu.edu
+Employee Number from file: 800052897
+User found
+***************************
+Email from file: pjgood@hsc.wvu.edu
+Employee Number from file: 800052898
+User found
+***************************
+Email from file: jclott@hsc.wvu.edu
+Employee Number from file: 800052908
+User found
+***************************
+Email from file: jmccourt@hsc.wvu.edu
+Employee Number from file: 700268202
+User found
+***************************
+Email from file: nmmichaels@hsc.wvu.edu
+Employee Number from file: 800052912
+User found
+***************************
+Email from file: dcforeman@hsc.wvu.edu
+Employee Number from file: 700158247
+User found
+***************************
+Email from file: barry.mcdougle@hsc.wvu.edu
+Employee Number from file: 700631005
+User found
+***************************
+Email from file: doanderson@hsc.wvu.edu
+Employee Number from file: 700155051
+User not found
+***************************
+Email from file: susan.meredith@hsc.wvu.edu
+Employee Number from file: 700629721
+User found
+***************************
+Email from file: dara.aliff@hsc.wvu.edu
+Employee Number from file: 700631203
+User found
+***************************
+Email from file: jennifer.howell@hsc.wvu.edu
+Employee Number from file: 700135734
+User found
+***************************
+Email from file: aamick@hsc.wvu.edu
+Employee Number from file: 700129462
+User found
+***************************
+Email from file: mnmoore1@hsc.wvu.edu
+Employee Number from file: 700948994
+User found
+***************************
+Email from file: kevin.shafer@hsc.wvu.edu
+Employee Number from file: 700110756
+User found
+***************************
+Email from file: james.zawacki@hsc.wvu.edu
+Employee Number from file: 700949232
+User found
+***************************
+Email from file: michelle.starcher@hsc.wvu.edu
+Employee Number from file: 700135563
+User found
+***************************
+Email from file: briana.warner@hsc.wvu.edu
+Employee Number from file: 700759949
+User found
+***************************
+Email from file: jtkreitzer@hsc.wvu.edu
+Employee Number from file: 700100178
+User found
+***************************
+Email from file: brett.green@hsc.wvu.edu
+Employee Number from file: 701086726
+User found
+***************************
+Email from file: ravi.viradia@hsc.wvu.edu
+Employee Number from file: 700534143
+User found
+***************************
+Email from file: aaelgamal@hsc.wvu.edu
+Employee Number from file: 701146391
+User found
+***************************
+Email from file: paul.hewett@hsc.wvu.edu
+Employee Number from file: 700142436
+User found
+***************************
+Email from file: suwalkermatthews@hsc.wvu.edu
+Employee Number from file: 700629723
+User found
+***************************
+Email from file: margaret.kitt@hsc.wvu.edu
+Employee Number from file: 700629736
+User found
+***************************
+Email from file: hobanc@hsc.wvu.edu
+Employee Number from file: 700223888
+User found
+***************************
+Email from file: merrymank@hsc.wvu.edu
+Employee Number from file: 700836813
+User found
+***************************
+Email from file: john.hahn@hsc.wvu.edu
+Employee Number from file: 700842650
+User found
+***************************
+Email from file: j.seegar@hsc.wvu.edu
+Employee Number from file: 700843544
+User found
+***************************
+Email from file: lnamsupak@hsc.wvu.edu
+Employee Number from file: 700351751
+User found
+***************************
+Email from file: john.blanco@hsc.wvu.edu
+Employee Number from file: 700954077
+User found
+***************************
+Email from file: eric.glass@hsc.wvu.edu
+Employee Number from file: 700954078
+User found
+***************************
+Email from file: sanjay.saluja@hsc.wvu.edu
+Employee Number from file: 700954082
+User found
+***************************
+Email from file: nfdrescher@hsc.wvu.edu
+Employee Number from file: 700956336
+User found
+***************************
+Email from file: elaine.loizos@hsc.wvu.edu
+Employee Number from file: 700160127
+User found
+***************************
+Email from file: nicholas.cicci@hsc.wvu.edu
+Employee Number from file: 700259583
+User found
+***************************
+Email from file: kathleen.fitzpatrick@hsc.wvu.edu
+Employee Number from file: 701196431
+User found
+***************************
+Email from file: robert.gruber@hsc.wvu.edu
+Employee Number from file: 701196432
+User found
+***************************
+Email from file: hamrickn@hsc.wvu.edu
+Employee Number from file: 701218067
+User found
+***************************
+Email from file: helmickp@hsc.wvu.edu
+Employee Number from file: 701218160
+User found
+***************************
+Email from file: stacie.hester@hsc.wvu.edu
+Employee Number from file: 700157427
+User found
+***************************
+Email from file: michael.lao@hsc.wvu.edu
+Employee Number from file: 700915022
+User found
+***************************
+Email from file: kcline1@hsc.wvu.edu
+Employee Number from file: 700763026
+User found
+***************************
+Email from file: paula.butterfield@hsc.wvu.edu
+Employee Number from file: 700631479
+User found
+***************************
+Email from file: kenneth.banks@hsc.wvu.edu
+Employee Number from file: 701093281
+User found
+***************************
+Email from file: russell.degroote@hsc.wvu.edu
+Employee Number from file: 701205244
+User found
+***************************
+Email from file: eparker@hsc.wvu.edu
+Employee Number from file: 800013418
+User found
+***************************
+Email from file: lboling2@hsc.wvu.edu
+Employee Number from file: 800013420
+User found
+***************************
+Email from file: kbanks2@hsc.wvu.edu
+Employee Number from file: 700202704
+User found
+***************************
+Email from file: petrosk@hsc.wvu.edu
+Employee Number from file: 700629973
+User found
+***************************
+Email from file: robert.mercer@hsc.wvu.edu
+Employee Number from file: 700278767
+User found
+***************************
+Email from file: james.allman@hsc.wvu.edu
+Employee Number from file: 700119836
+User found
+***************************
+Email from file: jodonnell@hsc.wvu.edu
+Employee Number from file: 700747517
+User found
+***************************
+Email from file: mblanken@hsc.wvu.edu
+Employee Number from file: 700300964
+User found
+***************************
+Email from file: bphilli7@hsc.wvu.edu
+Employee Number from file: 700535645
+User found
+***************************
+Email from file: michaela.kessler@hsc.wvu.edu
+Employee Number from file: 701033429
+User found
+***************************
+Email from file: staci.peluso@hsc.wvu.edu
+Employee Number from file: 700132443
+User found
+***************************
+Email from file: ruth.lamp@hsc.wvu.edu
+Employee Number from file: 701002761
+User found
+***************************
+Email from file: lzatezal@hsc.wvu.edu
+Employee Number from file: 700371818
+User found
+***************************
+Email from file: ron.biswas@hsc.wvu.edu
+Employee Number from file: 700214745
+User found
+***************************
+Email from file: sashams@hsc.wvu.edu
+Employee Number from file: 701207955
+User found
+***************************
+Email from file: jrpayne@hsc.wvu.edu
+Employee Number from file: 701218934
+User not found
+***************************
+Email from file: lisa.perkins@hsc.wvu.edu
+Employee Number from file: 701218935
+User found
+***************************
+Email from file: pociuss@hsc.wvu.edu
+Employee Number from file: 701218936
+User found
+***************************
+Email from file: mporco@hsc.wvu.edu
+Employee Number from file: 700260132
+User found
+***************************
+Email from file: amjean@hsc.wvu.edu
+Employee Number from file: 800021097
+User found
+***************************
+Email from file: abrown32@hsc.wvu.edu
+Employee Number from file: 700352389
+User found
+***************************
+Email from file: james.becker@hsc.wvu.edu
+Employee Number from file: 700632536
+User found
+***************************
+Email from file: daniel.taylor@hsc.wvu.edu
+Employee Number from file: 700630156
+User found
+***************************
+Email from file: miromeo@hsc.wvu.edu
+Employee Number from file: 700630152
+User found
+***************************
+Email from file: rbharris@hsc.wvu.edu
+Employee Number from file: 700632892
+User found
+***************************
+Email from file: edward.metheny@hsc.wvu.edu
+Employee Number from file: 701007884
+User found
+***************************
+Email from file: daryl.cruse@hsc.wvu.edu
+Employee Number from file: 700710659
+User found
+***************************
+Email from file: amy.stephens@hsc.wvu.edu
+Employee Number from file: 701218967
+User found
+***************************
+Email from file: melissa.swearingen@hsc.wvu.edu
+Employee Number from file: 701219166
+User found
+***************************
+Email from file: vancer@hsc.wvu.edu
+Employee Number from file: 700150880
+User found
+***************************
+Email from file: jlwalker@hsc.wvu.edu
+Employee Number from file: 701219159
+User found
+***************************
+Email from file: smilem@hsc.wvu.edu
+Employee Number from file: 700392993
+User found
+***************************
+Email from file: jeffrey.coffman@hsc.wvu.edu
+Employee Number from file: 700203370
+User found
+***************************
+Email from file: david.bowlin2@hsc.wvu.edu
+Employee Number from file: 701220355
+User found
+***************************
+Email from file: mark.gemas@hsc.wvu.edu
+Employee Number from file: 701220356
+User found
+***************************
+Email from file: larry.pugh1@hsc.wvu.edu
+Employee Number from file: 700202014
+User found
+***************************
+Email from file: lori.sine@hsc.wvu.edu
+Employee Number from file: 700227071
+User found
+***************************
+Email from file: clspiker@hsc.wvu.edu
+Employee Number from file: 700729607
+User found
+***************************
+Email from file: derek.banyard@hsc.wvu.edu
+Employee Number from file: 701220739
+User found
+***************************
+Email from file: jeff.procopio1@hsc.wvu.edu
+Employee Number from file: 700193868
+User found
+***************************
+Email from file: michael.hackman@hsc.wvu.edu
+Employee Number from file: 800056046
+User found
+***************************
+Email from file: ioapostolis@hsc.wvu.edu
+Employee Number from file: 800076877
+User found
+***************************
+Email from file: keminnes@hsc.wvu.edu
+Employee Number from file: 800077470
+User found
+***************************
+Email from file: kaf0008@hsc.wvu.edu
+Employee Number from file: 700629258
+User found
+***************************
+Email from file: michael.lowery@hsc.wvu.edu
+Employee Number from file: 700632415
+User found
+***************************
+Email from file: mdmaran@hsc.wvu.edu
+Employee Number from file: 700633064
+User found
+***************************
+Email from file: kevin.parker@hsc.wvu.edu
+Employee Number from file: 700156231
+User found
+***************************
+Email from file: kenneth.reed@hsc.wvu.edu
+Employee Number from file: 700632438
+User found
+***************************
+Email from file: rabraham2@hsc.wvu.edu
+Employee Number from file: 700630500
+User found
+***************************
+Email from file: jbnobiletti@hsc.wvu.edu
+Employee Number from file: 700630503
+User found
+***************************
+Email from file: bridgette.weaver@hsc.wvu.edu
+Employee Number from file: 700154033
+User found
+***************************
+Email from file: michael.mastrantoni@hsc.wvu.edu
+Employee Number from file: 700242974
+User found
+***************************
+Email from file: perry.barr@hsc.wvu.edu
+Employee Number from file: 700810681
+User found
+***************************
+Email from file: aspiker2@hsc.wvu.edu
+Employee Number from file: 700352185
+User found
+***************************
+Email from file: jeffrey.kimble@hsc.wvu.edu
+Employee Number from file: 700100610
+User found
+***************************
+Email from file: mshea@hsc.wvu.edu
+Employee Number from file: 700254304
+User found
+***************************
+Email from file: gtrecord@hsc.wvu.edu
+Employee Number from file: 800087460
+User found
+***************************
+Email from file: gatolia@hsc.wvu.edu
+Employee Number from file: 800087946
+User found
+***************************
+Email from file: jconfer@hsc.wvu.edu
+Employee Number from file: 701026407
+User found
+***************************
+Email from file: jmglassford@hsc.wvu.edu
+Employee Number from file: 700230807
+User found
+***************************
+Email from file: jbaile30@hsc.wvu.edu
+Employee Number from file: 700367274
+User found
+***************************
+Email from file: eugene.benjamin@hsc.wvu.edu
+Employee Number from file: 700630704
+User found
+***************************
+Email from file: abalhalak@hsc.wvu.edu
+Employee Number from file: 800138335
+User found
+***************************
+Email from file: ptoneill@hsc.wvu.edu
+Employee Number from file: 800156229
+User found
+***************************
+Email from file: dedeem@hsc.wvu.edu
+Employee Number from file: 800105917
+User found
+***************************
+Email from file: michael.cheshire@hsc.wvu.edu
+Employee Number from file: 700256332
+User found
+***************************
+Email from file: jacqueline.sippel@hsc.wvu.edu
+Employee Number from file: 800353031
+User found
+***************************
+Email from file: rbgonzalez@hsc.wvu.edu
+Employee Number from file: 800096840
+User found
+***************************
+Email from file: kdposton@hsc.wvu.edu
+Employee Number from file: 800116327
+User found
+***************************
+Email from file: mmshah@hsc.wvu.edu
+Employee Number from file: 800110195
+User found
+***************************
+Email from file: nhuff1@hsc.wvu.edu
+Employee Number from file: 700951477
+User found
+***************************
+Email from file: mark.chaney@hsc.wvu.edu
+Employee Number from file: 800192286
+User found
+***************************
+Email from file: jkelly9@hsc.wvu.edu
+Employee Number from file: 700431454
+User found
+***************************
+Email from file: ehowell@hsc.wvu.edu
+Employee Number from file: 700533735
+User found
+***************************
+Email from file: ralph.cooper@hsc.wvu.edu
+Employee Number from file: 800262999
+User found
+***************************
+Email from file: mamatyi@hsc.wvu.edu
+Employee Number from file: 800156293
+User found
+***************************
+Email from file: dldabdub@hsc.wvu.edu
+Employee Number from file: 800112614
+User found
+***************************
+Email from file: jmmoore@hsc.wvu.edu
+Employee Number from file: 800114066
+User found
+***************************
+Email from file: jecapito@hsc.wvu.edu
+Employee Number from file: 800113189
+User found
+***************************
+Email from file: kkacmari@hsc.wvu.edu
+Employee Number from file: 700422499
+User found
+***************************
+Email from file: batool.elatoum@hsc.wvu.edu
+Employee Number from file: 800220179
+User found
+***************************
+Email from file: amy.malphrus@hsc.wvu.edu
+Employee Number from file: 800263723
+User found
+***************************
+Email from file: mark.choueiri@hsc.wvu.edu
+Employee Number from file: 800288727
+User found
+***************************
+Email from file: frank.muto@hsc.wvu.edu
+Employee Number from file: 800288730
+User found
+***************************
+Email from file: sharmila.jones@hsc.wvu.edu
+Employee Number from file: 800288776
+User found
+***************************
+Email from file: matthew.morris@hsc.wvu.edu
+Employee Number from file: 800288777
+User found
+***************************
+Email from file: amber.russo@hsc.wvu.edu
+Employee Number from file: 800218023
+User found
+***************************
+Email from file: pooja.sahni@hsc.wvu.edu
+Employee Number from file: 800325019
+User not found
+***************************
+Email from file: danielle.donahue@hsc.wvu.edu
+Employee Number from file: 701147564
+User found
+***************************
+Email from file: lshumiloff@hsc.wvu.edu
+Employee Number from file: 701228926
+User found
+***************************
+Email from file: muhammad.yasin@hsc.wvu.edu
+Employee Number from file: 800220229
+User found
+***************************
+Email from file: prasannalaxmi.palabindela@hsc.wvu.edu
+Employee Number from file: 800220235
+User found
+***************************
+Email from file: lsander3@hsc.wvu.edu
+Employee Number from file: 700857735
+User found
+***************************
+Email from file: melanie.winnings@hsc.wvu.edu
+Employee Number from file: 800288798
+User found
+***************************
+Email from file: jberens@hsc.wvu.edu
+Employee Number from file: 700269011
+User found
+***************************
+Email from file: susan.coyle@hsc.wvu.edu
+Employee Number from file: 700436739
+User found
+***************************
+Email from file: shiv.someshwar@hsc.wvu.edu
+Employee Number from file: 700628179
+User found
+***************************
+Email from file: mgaluf@hsc.wvu.edu
+Employee Number from file: 800117768
+User found
+***************************
+Email from file: jbkovalcik@hsc.wvu.edu
+Employee Number from file: 800151907
+User found
+***************************
+Email from file: kimberley.scott@hsc.wvu.edu
+Employee Number from file: 800151909
+User found
+***************************
+Email from file: lancasterv@hsc.wvu.edu
+Employee Number from file: 700425918
+User found
+***************************
+Email from file: jwb0021@hsc.wvu.edu
+Employee Number from file: 701132339
+User found
+***************************
+Email from file: dsarnold2@hsc.wvu.edu
+Employee Number from file: 700466476
+User found
+***************************
+Email from file: peter.filozof@hsc.wvu.edu
+Employee Number from file: 800251427
+User found
+***************************
+Email from file: abiy.kelil@hsc.wvu.edu
+Employee Number from file: 800172543
+User found
+***************************
+Email from file: nangus1@hsc.wvu.edu
+Employee Number from file: 700811698
+User found
+***************************
+Email from file: michael.shullo@hsc.wvu.edu
+Employee Number from file: 800272873
+User found
+***************************
+Email from file: sowmini.medavaram@hsc.wvu.edu
+Employee Number from file: 800321114
+User found
+***************************
+Email from file: ammefford@hsc.wvu.edu
+Employee Number from file: 800150423
+User found
+***************************
+Email from file: jdcohen@hsc.wvu.edu
+Employee Number from file: 700627135
+User found
+***************************
+Email from file: tammi.hackworth@hsc.wvu.edu
+Employee Number from file: 700986683
+User found
+***************************
+Email from file: mputnam@hsc.wvu.edu
+Employee Number from file: 701220913
+User found
+***************************
+Email from file: pqazi@hsc.wvu.edu
+Employee Number from file: 700128266
+User found
+***************************
+Email from file: james.craig@hsc.wvu.edu
+Employee Number from file: 701217523
+User found
+***************************
+Email from file: tlmckinney@hsc.wvu.edu
+Employee Number from file: 800139801
+User found
+***************************
+Email from file: madhusudan.dharawat1@hsc.wvu.edu
+Employee Number from file: 800121744
+User found
+***************************
+Email from file: jfpeters@hsc.wvu.edu
+Employee Number from file: 800131011
+User found
+***************************
+Email from file: lepirilla@hsc.wvu.edu
+Employee Number from file: 800145081
+User found
+***************************
+Email from file: jeanne.bailey@hsc.wvu.edu
+Employee Number from file: 800153901
+User found
+***************************
+Email from file: michael.bledsoe@hsc.wvu.edu
+Employee Number from file: 800160616
+User found
+***************************
+Email from file: nsladen@hsc.wvu.edu
+Employee Number from file: 800137742
+User found
+***************************
+Email from file: edzamora@hsc.wvu.edu
+Employee Number from file: 800066322
+User found
+***************************
+Email from file: shkafka@hsc.wvu.edu
+Employee Number from file: 800082497
+User found
+***************************
+Email from file: melanie.moccaldi@hsc.wvu.edu
+Employee Number from file: 800161239
+User found
+***************************
+Email from file: kathy.young@hsc.wvu.edu
+Employee Number from file: 701219433
+User found
+***************************
+Email from file: akincell@hsc.wvu.edu
+Employee Number from file: 701218779
+User found
+***************************
+Email from file: lmgonzales@hsc.wvu.edu
+Employee Number from file: 800124091
+User found
+***************************
+Email from file: yrtomago@hsc.wvu.edu
+Employee Number from file: 800086329
+User found
+***************************
+Email from file: rehardin@hsc.wvu.edu
+Employee Number from file: 800123221
+User found
+***************************
+Email from file: lmsargent@hsc.wvu.edu
+Employee Number from file: 800131112
+User found
+***************************
+Email from file: luchapman@hsc.wvu.edu
+Employee Number from file: 800154281
+User found
+***************************
+Email from file: james.reynolds@hsc.wvu.edu
+Employee Number from file: 800160680
+User found
+***************************
+Email from file: ericard@hsc.wvu.edu
+Employee Number from file: 800117248
+User found
+***************************
+Email from file: mtrabert@hsc.wvu.edu
+Employee Number from file: 700258557
+User found
+***************************
+Email from file: shailendra.singh@hsc.wvu.edu
+Employee Number from file: 800292064
+User found
+***************************
+Email from file: susan.ellor@hsc.wvu.edu
+Employee Number from file: 800292065
+User found
+***************************
+Email from file: cherish.crawford@hsc.wvu.edu
+Employee Number from file: 700584608
+User found
+***************************
+Email from file: michael.zapor@hsc.wvu.edu
+Employee Number from file: 800292071
+User found
+***************************
+Email from file: pchen3@hsc.wvu.edu
+Employee Number from file: 701220459
+User found
+***************************
+Email from file: ssbrown@hsc.wvu.edu
+Employee Number from file: 800013548
+User found
+***************************
+Email from file: pfagan@hsc.wvu.edu
+Employee Number from file: 700142119
+User found
+***************************
+Email from file: abeafore@hsc.wvu.edu
+Employee Number from file: 700188943
+User found
+***************************
+Email from file: rjeffries@hsc.wvu.edu
+Employee Number from file: 701218767
+User found
+***************************
+Email from file: rkennedy@hsc.wvu.edu
+Employee Number from file: 700627216
+User found
+***************************
+Email from file: gldadisman@hsc.wvu.edu
+Employee Number from file: 800131206
+User found
+***************************
+Email from file: eferrari@hsc.wvu.edu
+Employee Number from file: 700274341
+User found
+***************************
+Email from file: jan.flowers@hsc.wvu.edu
+Employee Number from file: 700164402
+User found
+***************************
+Email from file: mnkessler@hsc.wvu.edu
+Employee Number from file: 800087377
+User found
+***************************
+Email from file: pumcdonald@hsc.wvu.edu
+Employee Number from file: 800131250
+User found
+***************************
+Email from file: rtrentini@hsc.wvu.edu
+Employee Number from file: 700626468
+User found
+***************************
+Email from file: swallace@hsc.wvu.edu
+Employee Number from file: 700241362
+User found
+***************************
+Email from file: khbailey@hsc.wvu.edu
+Employee Number from file: 800124376
+User found
+***************************
+Email from file: kaneel@hsc.wvu.edu
+Employee Number from file: 800124418
+User found
+***************************
+Email from file: jrstapleton@hsc.wvu.edu
+Employee Number from file: 800124743
+User found
+***************************
+Email from file: deng.zhang@hsc.wvu.edu
+Employee Number from file: 800242863
+User found
+***************************
+Email from file: jennifer.leavitt@hsc.wvu.edu
+Employee Number from file: 800222335
+User found
+***************************
+Email from file: kirstin.humphrey@hsc.wvu.edu
+Employee Number from file: 800235662
+User found
+***************************
+Email from file: lisa.britton@hsc.wvu.edu
+Employee Number from file: 800165455
+User found
+***************************
+Email from file: laura.blake@hsc.wvu.edu
+Employee Number from file: 700131966
+User found
+***************************
+Email from file: kbarnett@hsc.wvu.edu
+Employee Number from file: 700299932
+User found
+***************************
+Email from file: kyow@hsc.wvu.edu
+Employee Number from file: 701219434
+User found
+***************************
+Email from file: mlbutcho@hsc.wvu.edu
+Employee Number from file: 800081852
+User found
+***************************
+Email from file: sasine@hsc.wvu.edu
+Employee Number from file: 701218959
+User found
+***************************
+Email from file: mlgraviola@hsc.wvu.edu
+Employee Number from file: 800096849
+User found
+***************************
+Email from file: brightm@hsc.wvu.edu
+Employee Number from file: 700969658
+User found
+***************************
+Email from file: mcalcauskas@hsc.wvu.edu
+Employee Number from file: 800132664
+User found
+***************************
+Email from file: stansburyr@hsc.wvu.edu
+Employee Number from file: 700251972
+User found
+***************************
+Email from file: jasoriano@hsc.wvu.edu
+Employee Number from file: 800132671
+User found
+***************************
+Email from file: ldaquila@hsc.wvu.edu
+Employee Number from file: 700548906
+User found
+***************************
+Email from file: mazen.elali1@hsc.wvu.edu
+Employee Number from file: 800155250
+User found
+***************************
+Email from file: benjamin.levi@hsc.wvu.edu
+Employee Number from file: 701152225
+User found
+***************************
+Email from file: lee.haikal@hsc.wvu.edu
+Employee Number from file: 800161467
+User found
+***************************
+Email from file: leah.gryboski@hsc.wvu.edu
+Employee Number from file: 800221383
+User found
+***************************
+Email from file: gabrielle.debold@hsc.wvu.edu
+Employee Number from file: 800221385
+User found
+***************************
+Email from file: tedd.taylor@hsc.wvu.edu
+Employee Number from file: 800168247
+User found
+***************************
+Email from file: hannah.may@hsc.wvu.edu
+Employee Number from file: 800309553
+User found
+***************************
+Email from file: ricky.mason@hsc.wvu.edu
+Employee Number from file: 800351749
+User found
+***************************
+Email from file: rasargent@hsc.wvu.edu
+Employee Number from file: 800074050
+User found
+***************************
+Email from file: loay.alasadi@hsc.wvu.edu
+Employee Number from file: 800193831
+User found
+***************************
+Email from file: kyle.robinson@hsc.wvu.edu
+Employee Number from file: 800193892
+User found
+***************************
+Email from file: gira.borad@hsc.wvu.edu
+Employee Number from file: 800196036
+User found
+***************************
+Email from file: jenni.barenz@hsc.wvu.edu
+Employee Number from file: 800214634
+User found
+***************************
+Email from file: brandon.waskey@hsc.wvu.edu
+Employee Number from file: 800217440
+User found
+***************************
+Email from file: elizabeth.colliersizemore@hsc.wvu.edu
+Employee Number from file: 800212413
+User found
+***************************
+Email from file: lhall3@hsc.wvu.edu
+Employee Number from file: 700187682
+User found
+***************************
+Email from file: rekuntz@hsc.wvu.edu
+Employee Number from file: 800096796
+User found
+***************************
+Email from file: safarooki@hsc.wvu.edu
+Employee Number from file: 800096870
+User found
+***************************
+Email from file: erin.naber@hsc.wvu.edu
+Employee Number from file: 800134603
+User found
+***************************
+Email from file: kelsey.pursley@hsc.wvu.edu
+Employee Number from file: 800134628
+User found
+***************************
+Email from file: malabuz@hsc.wvu.edu
+Employee Number from file: 800134647
+User found
+***************************
+Email from file: esprice@hsc.wvu.edu
+Employee Number from file: 800134649
+User found
+***************************
+Email from file: rgoodma1@hsc.wvu.edu
+Employee Number from file: 700422321
+User found
+***************************
+Email from file: kaoliver@hsc.wvu.edu
+Employee Number from file: 800134665
+User found
+***************************
+Email from file: mgthorn@hsc.wvu.edu
+Employee Number from file: 800155787
+User found
+***************************
+Email from file: maria.pecka@hsc.wvu.edu
+Employee Number from file: 700381203
+User found
+***************************
+Email from file: ashaver3@hsc.wvu.edu
+Employee Number from file: 700562013
+User found
+***************************
+Email from file: catessa.howard@hsc.wvu.edu
+Employee Number from file: 800086888
+User found
+***************************
+Email from file: mark.vecchio@hsc.wvu.edu
+Employee Number from file: 800176627
+User found
+***************************
+Email from file: marie.najib@hsc.wvu.edu
+Employee Number from file: 800176628
+User found
+***************************
+Email from file: kathleen.heaney@hsc.wvu.edu
+Employee Number from file: 800320444
+User found
+***************************
+Email from file: drew.schauble1@hsc.wvu.edu
+Employee Number from file: 800352536
+User found
+***************************
+Email from file: leah.key@hsc.wvu.edu
+Employee Number from file: 800128280
+User found
+***************************
+Email from file: hbrady@hsc.wvu.edu
+Employee Number from file: 800151116
+User found
+***************************
+Email from file: melissa.terry@hsc.wvu.edu
+Employee Number from file: 800212426
+User found
+***************************
+Email from file: easbury@hsc.wvu.edu
+Employee Number from file: 700250960
+User found
+***************************
+Email from file: melissa.lambert@hsc.wvu.edu
+Employee Number from file: 800222483
+User found
+***************************
+Email from file: benjamin.parker@hsc.wvu.edu
+Employee Number from file: 800169133
+User found
+***************************
+Email from file: kelley.call@hsc.wvu.edu
+Employee Number from file: 800270522
+User found
+***************************
+Email from file: yunus.ahmed1@hsc.wvu.edu
+Employee Number from file: 800352783
+User found
+***************************
+Email from file: sameera.wickramasinghe@hsc.wvu.edu
+Employee Number from file: 800356338
+User found
+***************************
+Email from file: dmpauley@hsc.wvu.edu
+Employee Number from file: 800101922
+User found
+***************************
+Email from file: kvbrown1@hsc.wvu.edu
+Employee Number from file: 800126970
+User found
+***************************
+Email from file: melissa.ashman@hsc.wvu.edu
+Employee Number from file: 800054879
+User found
+***************************
+Email from file: sisharma@hsc.wvu.edu
+Employee Number from file: 800156831
+User found
+***************************
+Email from file: mcshaneb@hsc.wvu.edu
+Employee Number from file: 800156840
+User found
+***************************
+Email from file: brobins2@hsc.wvu.edu
+Employee Number from file: 700230886
+User found
+***************************
+Email from file: rebecca.schnatz@hsc.wvu.edu
+Employee Number from file: 800181966
+User found
+***************************
+Email from file: anne.roslonski@hsc.wvu.edu
+Employee Number from file: 800212409
+User found
+***************************
+Email from file: mahowerton@hsc.wvu.edu
+Employee Number from file: 800026636
+User found
+***************************
+Email from file: colleen.heffner@hsc.wvu.edu
+Employee Number from file: 800224137
+User found
+***************************
+Email from file: gabrielle.cozzi@hsc.wvu.edu
+Employee Number from file: 800289581
+User found
+***************************
+Email from file: jessica.kim@hsc.wvu.edu
+Employee Number from file: 800289590
+User found
+***************************
+Email from file: cooperre@hsc.wvu.edu
+Employee Number from file: 701217520
+User found
+***************************
+Email from file: mihutzel@hsc.wvu.edu
+Employee Number from file: 800016321
+User found
+***************************
+Email from file: mcsarsfield@hsc.wvu.edu
+Employee Number from file: 700116582
+User found
+***************************
+Email from file: jaltemus@hsc.wvu.edu
+Employee Number from file: 700162154
+User not found
+***************************
+Email from file: mlstephenson@hsc.wvu.edu
+Employee Number from file: 800127425
+User found
+***************************
+Email from file: kclucky@hsc.wvu.edu
+Employee Number from file: 800127673
+User found
+***************************
+Email from file: mrdelligatti@hsc.wvu.edu
+Employee Number from file: 800143039
+User found
+***************************
+Email from file: lynn.lybrand@hsc.wvu.edu
+Employee Number from file: 800162354
+User found
+***************************
+Email from file: lellars@hsc.wvu.edu
+Employee Number from file: 700476450
+User found
+***************************
+Email from file: holly.mullaney@hsc.wvu.edu
+Employee Number from file: 800175318
+User found
+***************************
+Email from file: meredith.high@hsc.wvu.edu
+Employee Number from file: 800188170
+User found
+***************************
+Email from file: shannon.gooden@hsc.wvu.edu
+Employee Number from file: 800198318
+User found
+***************************
+Email from file: minhphuong.nguyen@hsc.wvu.edu
+Employee Number from file: 800198387
+User found
+***************************
+Email from file: j.gregory.moore@hsc.wvu.edu
+Employee Number from file: 800198962
+User found
+***************************
+Email from file: sigao@hsc.wvu.edu
+Employee Number from file: 800154043
+User found
+***************************
+Email from file: jill.sturges@hsc.wvu.edu
+Employee Number from file: 800314485
+User found
+***************************
+Email from file: katrina.szentes@hsc.wvu.edu
+Employee Number from file: 800145131
+User found
+***************************
+Email from file: breanne.barone@hsc.wvu.edu
+Employee Number from file: 800156559
+User found
+***************************
+Email from file: brianne.fairchild@hsc.wvu.edu
+Employee Number from file: 700169818
+User found
+***************************
+Email from file: mdkuhn@hsc.wvu.edu
+Employee Number from file: 800151925
+User found
+***************************
+Email from file: christina.richardson@hsc.wvu.edu
+Employee Number from file: 800103002
+User found
+***************************
+Email from file: dmacaula@hsc.wvu.edu
+Employee Number from file: 700223845
+User found
+***************************
+Email from file: grcline@hsc.wvu.edu
+Employee Number from file: 800128026
+User found
+***************************
+Email from file: michelle.rotenberry@hsc.wvu.edu
+Employee Number from file: 800189503
+User found
+***************************
+Email from file: fahd.mousa@hsc.wvu.edu
+Employee Number from file: 800212418
+User found
+***************************
+Email from file: blake.thompson@hsc.wvu.edu
+Employee Number from file: 800212412
+User found
+***************************
+Email from file: mary.hendrix@hsc.wvu.edu
+Employee Number from file: 800224684
+User found
+***************************
+Email from file: allison.chesslo@hsc.wvu.edu
+Employee Number from file: 800167111
+User found
+***************************
+Email from file: magid.amer@hsc.wvu.edu
+Employee Number from file: 800299268
+User found
+***************************
+Email from file: leslie.foster1@hsc.wvu.edu
+Employee Number from file: 800315061
+User found
+***************************
+Email from file: john.mcelroy@hsc.wvu.edu
+Employee Number from file: 800251438
+User found
+***************************
+Email from file: gage.hurlburt@hsc.wvu.edu
+Employee Number from file: 800066823
+User found
+***************************
+Email from file: llamm@hsc.wvu.edu
+Employee Number from file: 700965874
+User found
+***************************
+Found Count: 485
+Not Found Count: 5
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20200828115947
+**********************

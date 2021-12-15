@@ -1,0 +1,41 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210106080002
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -command .\Set-CorrectEmailAddress.ps1
+Process ID: 4548
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Set-CorrectEmailAddress\Logs\\2021-01-06-08-00-Set-CorrectEmailAddress-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Set-CorrectEmailAddress\Logs\
+VERBOSE: File Count: 7
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Set-CorrectEmailAddress\Logs\2020-12-31-08-00-Set-CorrectEmailAddress-SessionTranscript.txt
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Set-CorrectEmailAddress\Logs\\2021-01-06-08-00-Set-CorrectEmailAddress-SessionTranscript.txt
+Generating array of AD users
+
+
+No users found.
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20210106080003
+**********************

@@ -1,0 +1,72 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::Y:\cr10124\CaraRandall Digital ID.pfx","Microsoft.PowerShell.Core\FileSystem::Y:\cr10124","CaraRandall Digital ID.pfx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\cr10124\CaraRandall Digital ID.pfx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","CaraRandall Digital ID",,,"CaraRandall Digital ID.pfx","2473","Y:\cr10124","Y:\cr10124","False","True","Y:\cr10124\CaraRandall Digital ID.pfx",".pfx","8/18/2020 9:11:38 AM","8/18/2020 1:11:38 PM","8/18/2020 9:11:38 AM","8/18/2020 1:11:38 PM","8/18/2020 9:11:38 AM","8/18/2020 1:11:38 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\cr10124\HIPAA Certificate of Completion.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\cr10124","HIPAA Certificate of Completion.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\cr10124\HIPAA Certificate of Completion.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","HIPAA Certificate of Completion",,,"HIPAA Certificate of Completion.pdf","542942","Y:\cr10124","Y:\cr10124","False","True","Y:\cr10124\HIPAA Certificate of Completion.pdf",".pdf","7/31/2020 9:30:16 AM","7/31/2020 1:30:16 PM","7/31/2020 9:30:16 AM","7/31/2020 1:30:16 PM","7/31/2020 9:29:41 AM","7/31/2020 1:29:41 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\cr10124\Randall Approval 07-01-2020.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\cr10124","Randall Approval 07-01-2020.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\cr10124\Randall Approval 07-01-2020.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Randall Approval 07-01-2020",,,"Randall Approval 07-01-2020.pdf","38742","Y:\cr10124","Y:\cr10124","False","True","Y:\cr10124\Randall Approval 07-01-2020.pdf",".pdf","8/11/2020 8:02:57 AM","8/11/2020 12:02:57 PM","8/11/2020 8:02:58 AM","8/11/2020 12:02:58 PM","7/1/2020 5:30:41 PM","7/1/2020 9:30:41 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\cr10124\Randall C Path Priv 2020.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\cr10124","Randall C Path Priv 2020.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\cr10124\Randall C Path Priv 2020.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Randall C Path Priv 2020",,,"Randall C Path Priv 2020.pdf","348109","Y:\cr10124","Y:\cr10124","False","True","Y:\cr10124\Randall C Path Priv 2020.pdf",".pdf","8/11/2020 8:03:01 AM","8/11/2020 12:03:01 PM","8/11/2020 8:03:01 AM","8/11/2020 12:03:01 PM","8/10/2020 6:10:23 PM","8/10/2020 10:10:23 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\cr10124\SOLE profile Cara Randall.docx","Microsoft.PowerShell.Core\FileSystem::Y:\cr10124","SOLE profile Cara Randall.docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\cr10124\SOLE profile Cara Randall.docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","SOLE profile Cara Randall",,,"SOLE profile Cara Randall.docx","12360","Y:\cr10124","Y:\cr10124","False","True","Y:\cr10124\SOLE profile Cara Randall.docx",".docx","8/17/2020 9:04:41 AM","8/17/2020 1:04:41 PM","8/17/2020 9:04:41 AM","8/17/2020 1:04:41 PM","8/13/2020 1:06:04 PM","8/13/2020 5:06:04 PM","Archive, NotContentIndexed"

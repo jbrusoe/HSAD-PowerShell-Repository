@@ -1,0 +1,10 @@
+* Set-ManagerField.ps1
+* Get-ExchangeForwardingRule.ps1
+* Get-WVUMExt13.ps1
+* Import-WVUMExt13.ps1
+* Get-MainCampusMailbox.ps1
+* Export-ToSole.ps1
+* Get-SANEncryptionKey.ps1
+* Set-MailContactCompanyField-MSOL.ps1
+* Set-ADMailAttribute.ps1
+* Compare-Ext15WithPrimarySMTPAddress.ps1

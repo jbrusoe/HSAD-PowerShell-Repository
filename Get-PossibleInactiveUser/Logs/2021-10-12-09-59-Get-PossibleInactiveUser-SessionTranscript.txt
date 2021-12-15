@@ -1,0 +1,422 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211012095951
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5076
+PSVersion: 5.1.17763.2183
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2183
+BuildVersion: 10.0.17763.2183
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-09-59-Get-PossibleInactiveUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\
+VERBOSE: File Count: 5
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-09-59-Get-PossibleInactiveUser-SessionTranscript.txt
+Getting list of AD org units under:
+DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Current AD Org Unit:
+OU=Domain Controllers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=Systems Servers,OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+****************************
+Current AD Org Unit:
+OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: pharmkiosk
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92 
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94 
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Export-Csv): "A parameter cannot be found that matches parameter name 'NotTypeInformation'."
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:101 
+char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+101 char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+-------------------------
+Current AD User: WVUSOPPR
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92 
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94 
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Export-Csv): "A parameter cannot be found that matches parameter name 'NotTypeInformation'."
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:101 
+char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+101 char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+-------------------------
+Current AD User: SOPStudentServicesCo
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92 
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94 
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Export-Csv): "A parameter cannot be found that matches parameter name 'NotTypeInformation'."
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:101 
+char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+101 char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+-------------------------
+Current AD User: pharmacyconference
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92 
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94 
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Export-Csv): "A parameter cannot be found that matches parameter name 'NotTypeInformation'."
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:101 
+char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+101 char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+-------------------------
+Current AD User: harshbargerd
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92 
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94 
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Export-Csv): "A parameter cannot be found that matches parameter name 'NotTypeInformation'."
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:101 
+char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+101 char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+-------------------------
+Current AD User: sopwebform
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92 
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94 
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Export-Csv): "A parameter cannot be found that matches parameter name 'NotTypeInformation'."
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:101 
+char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+101 char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+
+-------------------------
+Current AD User: sopresearch
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92 
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:92
+char:48
++         Write-Output $("Password Last Set: " + $PasswordLastSet)
++                                                ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94 
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$PasswordLastSet' cannot be retrieved because it has not been set.
+At
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:94
+char:13
++         if ($PasswordLastSet -lt (Get-Date).AddYears(-1)) {
++             ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (PasswordLastSet:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Export-Csv): "A parameter cannot be found that matches parameter name 'NotTypeInformation'."
+Export-Csv : A parameter cannot be found that matches parameter name 'NotTypeInformation'.
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:101 
+char:61
++ ... DUser | Export-Csv -Path $InactiveLogFile -Append -NotTypeInformation
++                                                       ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Export-Csv], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.ExportCsvCommand
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> .\Get-PossibleInactiveUser.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20211012100150
+**********************

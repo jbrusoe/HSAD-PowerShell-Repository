@@ -1,0 +1,65 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200923000424
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2620
+PSVersion: 5.1.17763.1432
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1432
+BuildVersion: 10.0.17763.1432
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-LargeFile\Logs\\2020-09-23-00-04-Get-LargeFile-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-LargeFile\Logs\
+VERBOSE: File Count: 1
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-LargeFile\Logs\\2020-09-23-00-04-Get-LargeFile-SessionTranscript.txt
+Path: \\hs.wvu-ad.wvu.edu\Public\SOD\
+Getting file list
+Files Count: 4272199
+Selecting files
+
+FullName                                                                                                                                                                           LastWriteTime         SizeI
+                                                                                                                                                                                                           nGB
+--------                                                                                                                                                                           -------------         -----
+\\hs.wvu-ad.wvu.edu\Public\SOD\perio\hreed\Backup.bkf                                                                                                                              5/5/2011 5:11:01 AM   53.75
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\aborgia\20200702 PROFILE BACKUP\Documents\Outlook Files.zip                                                                                    2/14/2020 2:14:16 PM   12.5
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Downloads\SAS94M5 (2018_07_16 11_53_23 UTC).zip                                 7/13/2018 2:14:31 PM   10.3
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Downloads\SAS94M5 (2020_08_18 13_45_51 UTC).zip                                 7/13/2018 2:14:31 PM   10.3
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Downloads\SAS94M5 (2020_03_11 12_54_47 UTC).zip                                 7/13/2018 2:14:31 PM   10.3
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Downloads\SAS94M5 (2020_09_08 14_57_35 UTC).zip                                 7/13/2018 2:14:31 PM   10.3
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Downloads\SAS94M5 (2020_09_02 05_43_36 UTC).zip                                 7/13/2018 2:14:31 PM   10.3
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Downloads\SAS94M5 (2020_09_22 18_37_22 UTC).zip                                 7/13/2018 2:14:31 PM   10.3
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\aborgia\20200702 PROFILE BACKUP\Documents\Outlook Files\backup.pst                                                                             2/14/2020 1:45:43 PM    9.7
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\aborgia\20200702 PROFILE BACKUP\Documents\Outlook Files\backup2.pst                                                                            2/14/2020 1:45:43 PM   9.56
+\\hs.wvu-ad.wvu.edu\Public\SOD\ortho\PNGAN\20170804\Documents\Outlook Files\archive.pst                                                                                            3/10/2015 5:21:31 PM   6.33
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\ljrudy\Outlook Archive\ljrudy@hsc.wvu.edu.ost                                                                                             11/21/2016 5:06:40 PM  5.93
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\MBAGBY\Documents\DENTMAT\Lectures\04_Gypsum\Alton Brown Fudge\crystals.camrec                                                             8/27/2015 11:48:37 AM  5.59
+\\hs.wvu-ad.wvu.edu\Public\SOD\ortho\PNGAN\20170804\Documents\Outlook Files\migrated.pst                                                                                           3/10/2015 5:21:30 PM    5.4
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\ricep\RChristopher\backup.pst                                                                                                             4/2/2015 3:46:25 PM    5.12
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\preed\PFREED 20190708\AppData\Local\Microsoft\Outlook\pfreed@hsc.wvu.edu.ost                                                              7/3/2019 4:01:33 PM    4.94
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Desktop\Birth\Nat2017PublicUS.c20180516.r20180808 (2020_02_27 21_59_54 UTC).txt 2/27/2020 3:33:38 PM   4.85
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Desktop\Birth\Nat2017PublicUS.c20180516.r20180808 (2020_08_18 02_52_23 UTC).txt 2/27/2020 3:33:38 PM   4.85
+\\hs.wvu-ad.wvu.edu\Public\SOD\ortho\PNGAN\50th Anniversary\GMT20200911-171610_50th-Anniv_gallery_3840x2160 (1).mp4                                                                9/14/2020 10:35:47 AM  4.59
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\cwisser\cwisser@hsc.wvu.edu\SOD-CWISSER\Data\C\Users\cwisser\Downloads\Adobe CC - Video Bundle (2017_08_28 19_18_56 UTC).zip              8/28/2017 3:02:01 PM   4.51
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20200923003503
+**********************

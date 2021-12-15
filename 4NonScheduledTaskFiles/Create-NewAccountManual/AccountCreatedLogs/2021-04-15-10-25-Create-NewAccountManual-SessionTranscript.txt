@@ -1,0 +1,101 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210415102503
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 8332
+PSVersion: 5.1.14393.3471
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3471
+BuildVersion: 10.0.14393.3471
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\\2021-04-15-10-25-Create-NewAccountManual-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Create-NewAccountManual\Logs\
+VERBOSE: File Count: 8
+All input parameters are set to default values.
+
+Start Date:
+Opening Deparment Map File
+SAMAccountName: as10459
+
+Step1: Getting SailPoint deparmtents from department map file
+SailPoint Departments:
+HSC Eastern Division
+SOM Anesthesiology L4
+SOM Family Medicine L4
+Family Medicine
+SOM Ophthalmology L4
+SOD Orthodontics L4
+SOD Oral Surgery L4
+SOD Endodontics L4
+SOD Periodontics L4
+SOM Eastern Division L4
+Searching AD NewUsers for matching department names
+
+***********************
+User found in NewUsers Org Unit
+SamAccountName: as10459
+Password Last Set: 12/08/2020 11:25:16
+When Created: 09/08/2020 16:12:10
+Distinguished Name:
+CN=Alice Seifarth,OU=FromNewUsers,OU=DeletedAccounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+
+Step2: Determine destination OU
+Destination OU From File: OU=Anest,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Searching for Org Unit
+AD Target OU:
+OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+One unique destination OU was found. User is being moved there.
+Step 3: Attempting to move user to destination OU
+Successfully moved user
+
+Step 4: Generating new user object after move
+
+Step5: Creating home directory
+Home Directory Path: NoHomeDirectory
+Home Directory Path: NoHomeDirectory
+Not creating a home directory
+
+Adding ProxyAddresses
+
+Step 6: Adding Primary SMTP Address
+Setting Primary SMTP Address: alice.seifarth@hsc.wvu.edu
+Successfully set primary smtp address
+
+Step 7a: Adding Proxy Address: as10459@hsc.wvu.edu
+Succesfully set samaccountname@hsc proxy address
+
+Step 7b: Adding onmicrosoft.com proxy: as10459@WVUHSC.onmicrosoft.com
+Successfully set onmicrosoft.com proxy address
+
+Step 8: Adding SIP address: SIP:as10459@hsc.wvu.edu
+
+Step 9: Adding user to groups
+User DN:
+CN=Alice Seifarth,OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+User DN: CN=Alice Seifarth,OU=ANEST,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+True
+
+Step10: Setting extensionAttribute7
+Setting ext7 to Yes365
+
+Step 11: Setting name and display name
+Display Name: Seifarth, Alice
+
+Step 12: Enabling AD Account: as10459
+Successfully enabled account
+*************************
+Copying session transcript to logs to save directory

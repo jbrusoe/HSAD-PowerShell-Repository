@@ -1,0 +1,140 @@
+Search Path: OU=path,OU=SOM,OU=HSC,DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Home directories with no corresponding users:
+aakinyem
+ab0106
+abpetrone
+ACGME
+aclemmer
+ads0058
+adt0029
+ag10198
+aha0012
+amm0009
+amp0057
+Andreas Resident Files
+arg0048
+arn0007
+ars0049
+asmittle
+battistellal
+Billing
+bjhickey
+bmccormick
+bradabaugh
+Carie-Trevor
+catitus
+cboykin
+Cheryl-Andrea
+Cheryl-Erin
+Chief-Resident-Andrea
+clarient-data
+cls0042
+Cytopathology-Fellowship
+dagray
+dcastrodale
+dco10003
+derm-DIF
+dgray
+dgray-7-7-2016
+dh0001
+dhowell
+Division Newsletter
+dmburch
+dreynolds
+Drivers
+dtacker
+eel0006
+EM-data
+eosborne
+ffranyut
+flanagan-Scholl
+Grossing Manual
+Heme Path Fellowship
+Hemepath Director-Coordinator
+hho00001
+hjwilliams
+HTL Program
+image1
+INBRE
+ja0071
+jag0046
+jao0015
+jawade
+jcoad
+jfalcon1
+jkarakiozis
+jrh0036
+jvevans
+jvos
+kfeaster
+kharbert
+kk00001
+kmolchanoff
+Koneman
+Kym-Andrea
+ltrout
+ma00009
+ma0268
+Marty-Erin
+mbsmolkin
+mcostas
+Medical Examiner
+Medtech
+mflanagan
+mgb0002
+mjz0005
+MLS-Admissions
+MLS-Curriculum Task Force
+MLS-Files
+MLS-Handbook-Taskforce
+MLS-Recruitment
+MLS-Website-Taskforce
+mmb0061
+mnkumar
+MS2 Pathology Course
+mtdownes
+mwa0006
+nhm0006
+nm0077
+Old-Accounts
+Overdue Reports VOS
+PA program
+PA-Admissions
+Path-Chair
+PathAdmin
+pbacaj
+plasala
+PLTM-GrossRoom-Pictures
+pperrotta
+QAU
+QB-Kieffer
+QB-PLTM
+Question-Bank
+rasasi
+Research-Lab
+Residency-Program
+Resident-Admin
+rfw10005
+rjc0031
+rlc0063
+rmchurma
+RMT-websites
+Robinson Data Extraction (LaSala - Auten - Kehinde)
+rys0001
+Saved Gross Specimens
+sdp10010
+shared
+sjk0013
+sss00001
+SurgPathFellowship
+swrigh11
+Tissue-Bank Database
+tjh00005
+tk10046
+TPL work
+Translational Pathology Archive
+tst0015
+twk0003
+twolfe10
+WVAP
+wvupath1

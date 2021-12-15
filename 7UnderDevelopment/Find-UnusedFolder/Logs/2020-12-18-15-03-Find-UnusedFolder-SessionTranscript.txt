@@ -1,0 +1,70 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201218150335
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 4756
+PSVersion: 5.1.17763.1490
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1490
+BuildVersion: 10.0.17763.1490
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-18-15-03-Find-UnusedFolder-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\
+VERBOSE: File Count: 18
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs\\2020-12-18-15-03-Find-UnusedFolder-SessionTranscript.txt
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Logs
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       12/18/2020   3:03 PM              0 2020-12-18-15-03-OrphanedFolders.txt
+
+
+Path to Search: \\hs.wvu-ad.wvu.edu\public\sod\
+Getting directory list
+PS>TerminatingError(Get-ChildItem): "Cannot bind parameter 'ErrorAction'. Cannot convert value "Silently Continue" to type "System.Management.Automation.ActionPreference". Error: "Unable to match the identifier name Silently Continue to a valid enumerator name. Specify one of the following enumerator names and try again:
+SilentlyContinue, Stop, Continue, Inquire, Ignore, Suspend""
+Get-ChildItem : Cannot bind parameter 'ErrorAction'. Cannot convert value "Silently Continue" to type 
+"System.Management.Automation.ActionPreference". Error: "Unable to match the identifier name Silently Continue to a 
+valid enumerator name. Specify one of the following enumerator names and try again:
+SilentlyContinue, Stop, Continue, Inquire, Ignore, Suspend"
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Find-UnusedFolder.ps1:99 char:30
++ $Directories = Get-ChildItem @GetChildItemParams
++                              ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot bind parameter 'ErrorAction'. Cannot convert value "Silently Continue" to type
+"System.Management.Automation.ActionPreference". Error: "Unable to match the identifier name Silently Continue to a
+valid enumerator name. Specify one of the following enumerator names and try again:
+SilentlyContinue, Stop, Continue, Inquire, Ignore, Suspend"
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Find-UnusedFolder\Find-UnusedFolder.ps1:99 char:30
++ $Directories = Get-ChildItem @GetChildItemParams
++                              ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+Final Error Count: 1
+**********************
+Windows PowerShell transcript end
+End time: 20201218150336
+**********************

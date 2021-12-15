@@ -1,0 +1,177 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210823102207
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 163608
+PSVersion: 5.1.14393.4583
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4583
+BuildVersion: 10.0.14393.4583
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-EMSLicense\Logs\\2021-08-23-10-22-Remove-EMSLicense-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-EMSLicense\Logs\
+VERBOSE: File Count: 3
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-EMSLicense\Logs\\2021-08-23-10-22-Remove-EMSLicense-SessionTranscript.txt
+Connection Account: microsoft1@hsc.wvu.edu
+Encrypted File Path: C:\users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\2CommonFiles\EncryptedFiles\microsoft-SYSSCRIPT3.txt
+Connecting to HSC Exchange Online with V2 cmdlets...
+
+----------------------------------------------------------------------------
+The module allows access to all existing remote PowerShell (V1) cmdlets in addition to the 9 new, faster, and more reliable cmdlets.
+
+|--------------------------------------------------------------------------|
+|    Old Cmdlets                    |    New/Reliable/Faster Cmdlets       |
+|--------------------------------------------------------------------------|
+|    Get-CASMailbox                 |    Get-EXOCASMailbox                 |
+|    Get-Mailbox                    |    Get-EXOMailbox                    |
+|    Get-MailboxFolderPermission    |    Get-EXOMailboxFolderPermission    |
+|    Get-MailboxFolderStatistics    |    Get-EXOMailboxFolderStatistics    |
+|    Get-MailboxPermission          |    Get-EXOMailboxPermission          |
+|    Get-MailboxStatistics          |    Get-EXOMailboxStatistics          |
+|    Get-MobileDeviceStatistics     |    Get-EXOMobileDeviceStatistics     |
+|    Get-Recipient                  |    Get-EXORecipient                  |
+|    Get-RecipientPermission        |    Get-EXORecipientPermission        |
+|--------------------------------------------------------------------------|
+
+To get additional information, run: Get-Help Connect-ExchangeOnline or check https://aka.ms/exops-docs
+
+Send your product improvement suggestions and feedback to exocmdletpreview@service.microsoft.com. For issues related to the module, contact Microsoft support. Don't use the feedback alias for problems or support issues.
+----------------------------------------------------------------------------
+
+Removed the PSSession ExchangeOnlineInternalSession_1 connected to outlook.office365.com
+
+Successfully authenticated to Exchange Online with V2 cmdlets
+True
+Attempting to Connect to Office 365...
+
+Account                Environment TenantId                             TenantDomain           AccountType
+-------                ----------- --------                             ------------           -----------
+microsoft4@hsc.wvu.edu AzureCloud  a2d1f95f-8510-4424-8ae1-5c596bdbd578 WVUHSC.onmicrosoft.com User
+Authenticated to Office 365
+Successfully configured environment
+O365 Mailbox Count: 5733
+Current User: 1040xerox@wvuhsc.onmicrosoft.com
+UPN: 1040xerox@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 0
+Object ID: 90b3d3f0-a2a9-47e3-bd11-4b8adf782958
+User doesn't have EMS License
+************************
+Current User: 1147xerox@hsc.wvu.edu
+UPN: 1147xerox@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 1
+Object ID: 450c58d5-af95-4be9-af95-c38ca8c0863e
+User doesn't have EMS License
+************************
+Current User: 1168xerox@hsc.wvu.edu
+UPN: 1168xerox@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 2
+Object ID: 18f873cf-6359-4e61-8819-94e6cef7b90b
+User doesn't have EMS License
+************************
+Current User: 118annexconference@hsc.wvu.edu
+UPN: 118annexconference@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 3
+Object ID: 71f96d36-afec-499e-915c-7aa1d98708cf
+User doesn't have EMS License
+************************
+Current User: 1195-minolta363@hsc.wvu.edu
+UPN: 1195-minolta363@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 4
+Object ID: e6e55fe6-114b-434b-8e55-02e4f284d6ce
+User doesn't have EMS License
+************************
+Current User: 2172-minolta363@hsc.wvu.edu
+UPN: 2172-minolta363@hsc.wvu.edu
+O365 Mailbox Index: 5
+Object ID: f64ac540-1254-4eb7-ac54-602fce679294
+User doesn't have EMS License
+************************
+Current User: 2264conference@hsc.wvu.edu
+UPN: 2264conference@WVUHSC.onmicrosoft.com
+O365 Mailbox Index: 6
+Object ID: c53343c3-4041-476b-aafc-d83dfd6c52dd
+User doesn't have EMS License
+************************
+Current User: 2316mailroom@hsc.wvu.edu
+UPN: 2316mailroom@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 7
+Object ID: 72cfd7cc-5bd5-43b3-83cf-d0d078ad2aac
+User doesn't have EMS License
+************************
+Current User: chsc3009@hsc.wvu.edu
+UPN: chsc3009@WVUHSC.onmicrosoft.com
+O365 Mailbox Index: 8
+Object ID: 76507cd6-3eb6-44ba-bdcb-51ee2e91d441
+User doesn't have EMS License
+************************
+Current User: 3tresearch@hsc.wvu.edu
+UPN: 3tresearch@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 9
+Object ID: e18664eb-5d3d-45ae-96d8-33350831e1f9
+User doesn't have EMS License
+************************
+Current User: chsc4000@hsc.wvu.edu
+UPN: chsc4000@WVUHSC.onmicrosoft.com
+O365 Mailbox Index: 10
+Object ID: 471fd98f-6ef5-4f0d-87db-f8ab7e725d8b
+User doesn't have EMS License
+************************
+Current User: 4720ConferenceRoom@hsc.wvu.edu
+UPN: 4632ConferenceRoom@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 11
+Object ID: e44b933e-a40e-473e-a307-bd1cd0a06583
+User doesn't have EMS License
+************************
+Current User: 6400-minoltac552@hsc.wvu.edu
+UPN: 6400-minoltac552@wvuhsc.onmicrosoft.com
+O365 Mailbox Index: 12
+Object ID: dfd0b102-b30d-452d-a694-3e9036d0812c
+User doesn't have EMS License
+************************
+Current User: aarika.willis@hsc.wvu.edu
+UPN: ahende12@hsc.wvu.edu
+O365 Mailbox Index: 13
+Object ID: da2b5543-afe6-4881-a4f6-179cd749fa42
+User doesn't have EMS License
+************************
+Current User: aaron.casto@hsc.wvu.edu
+UPN: acasto@hsc.wvu.edu
+O365 Mailbox Index: 14
+Object ID: 87d51894-6014-48d0-ba9b-7117efcd6258
+User has EMS License
+Successfully removed license
+EMS Removed Count: 1
+************************
+Current User: amhudnall@hsc.wvu.edu
+UPN: amhudnall@hsc.wvu.edu
+O365 Mailbox Index: 15
+Object ID: 20104c8f-c57d-4d85-8e7e-88cb3e63c98a
+User has EMS License
+Successfully removed license
+EMS Removed Count: 2
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20210823102338
+**********************

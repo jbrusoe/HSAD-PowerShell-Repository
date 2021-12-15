@@ -1,0 +1,37 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200929074502
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -command C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Create-NewAccount\Create-NewAccount.ps1
+Process ID: 9124
+PSVersion: 5.1.14393.3471
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3471
+BuildVersion: 10.0.14393.3471
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Create-NewAccount\Logs\\2020-09-29-07-45-Create-NewAccount-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Create-NewAccount\Logs\
+VERBOSE: File Count: 458
+VERBOSE: Removing: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Create-NewAccount\Logs\2020-09-24-07-30-Create-NewAccount-SessionTranscript.txt
+All input parameters are set to default values.
+
+Step 1: Parse up new account email
+PS>TerminatingError(New-Object): "Retrieving the COM class factory for component with CLSID {0006F03A-0000-0000-C000-000000000046} failed due to the following error: 80080005 Server execution failed (Exception from HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE))."
+WARNING: There was an error accessing the microsoft@hsc.wvu.edu account with Outlook. Program is exiting.
+**********************
+Windows PowerShell transcript end
+End time: 20200929074533
+**********************

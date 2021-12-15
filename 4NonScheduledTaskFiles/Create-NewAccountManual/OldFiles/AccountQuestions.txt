@@ -1,0 +1,8 @@
+Shane Jafri - sjafri - Account has an expired end access date
+Sergiy Larin - sl0051 - Account is currently enabled and in the surgery OU
+Violet Shackleford - bps0004 - Account is currently enabled and in the surgery OU
+Jeremy Hensley - hensleyj/jhensl10 - User appears to have two different accounts
+Sywlvia Brooks - smrowka - Fam Med resident but is active in the BRNI OU
+Mitchell Hoyson - mchoyson - Fam Med resident but is active in the ENT OU
+Caroline Osborne - cso00001 - Fam Med resident but is active in the MGP OU
+

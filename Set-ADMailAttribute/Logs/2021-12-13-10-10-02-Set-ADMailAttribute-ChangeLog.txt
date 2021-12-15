@@ -1,0 +1,12 @@
+Original Mail Attribute: 
+New Mail Attribute: heather.livengood@hsc.wvu.edu
+Successfully changed attribute
+************************
+Original Mail Attribute: 
+New Mail Attribute: joy.okonkwo@hsc.wvu.edu
+Successfully changed attribute
+************************
+Original Mail Attribute: 
+New Mail Attribute: donna.hadrych@hsc.wvu.edu
+Successfully changed attribute
+************************

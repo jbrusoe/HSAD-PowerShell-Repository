@@ -1,0 +1,1 @@
+﻿Publish-Module -Path 'C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\1HSCCustomModules\HSC-Office365Module' -Repository HSCPSRepo -NuGetApiKey 'AnyStringWillDo' -Force

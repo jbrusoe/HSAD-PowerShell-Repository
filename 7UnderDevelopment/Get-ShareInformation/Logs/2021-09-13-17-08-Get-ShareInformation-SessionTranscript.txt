@@ -1,0 +1,61 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210913170833
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 470368
+PSVersion: 5.1.14393.4583
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4583
+BuildVersion: 10.0.14393.4583
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\\2021-09-13-17-08-Get-ShareInformation-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\
+VERBOSE: File Count: 3
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\\2021-09-13-17-08-Get-ShareInformation-SessionTranscript.txt
+Generating SQL Connection String
+VERBOSE: Preparing to decrtypt SQL Connection File
+VERBOSE: SQL Connection File: C:\users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\2CommonFiles\EncryptedFiles\O365SqlInstance3.txt
+VERBOSE: Connection file exists and is being decrypted
+Connection string: Data Source=hscpowershell.database.windows.net;Initial Catalog=HSCPowerShell;User Id=HSCPowerShell;Password=<PasswordRemoved>
+Search Path: C:\Users\Jeff\Documents\GitHub\
+Getting groups for: cls00001
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'cls00001'
+Adding: HSC Citrix IE-HSC;HS Citrix Users;HSC Citrix File Explorer;SAS 9.3 Research Application;HSC VDI Research Projects Parent Group;FTP Users;R Studio;HS VDI abaus_medicaid_claims Group;SPH VPN Group;HS VDI Embedded analyst Group;sph-oha-hp-m479fdw Group;VDI Chrome and PDF;VDI SAS;VDI Office;VDI RStudio;$HAFFS;HAFFS;Intune VPN Access Group;Software-GlobalProtect-A;HS VDI BMS COVID Eval;HS VDI Health Affairs Share;HS VDI Stocks exploratory COVID;WVD Project Groups;HAFFS WVD Pilot;HS VDI OHA Data Reviewers;HS VDI Dai Endocarditis Group;HS VDI Match Group
+Getting groups for: sjm00019
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'sjm00019'
+Adding: SAS 9.3 Research Application;HSC VDI Research Projects Parent Group;FTP Users;R Studio;HS VDI Embedded analyst Group;HS VDI MOTOR Claims Group;VDI Stata 16-SE;sph-oha-hp-m479fdw Group;VDI Chrome and PDF;VDI SAS;VDI Office;HS VDI Moran Support Grant Group;VDI RStudio;HS VDI Allen 115 Waiver Group;$HAFFS;HAFFS;HS VDI Medical Training;HS VDI Health Affairs Share;HS VDI Stocks exploratory COVID;WVD Project Groups;HAFFS WVD Pilot;HS VDI HMA Training Datasets;HS VDI Collaborate;HS VDI OHA Data Reviewers;HS VDI Dai Endocarditis Group;HS VDI Match Group
+Getting groups for: drg0025
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'drg0025'
+Adding: $SOMMGMT;MGMT;WVUOHSR;SPH Upload Group;3858-hallway-minoltac364e Group;HS CTSI VDI Research Group;Adobe Acrobat XI;SAS 9.3 Research Application;HSC VDI Research Projects Parent Group;FTP Users;R Studio;HS VDI abaus_medicaid_claims Group;RDSH RDP;HS-Research Drive Mapping;HS VDI RDSH Faculty Secure Parent;RDSH Secure Excel;HS VDI WVU Office of Health Services Research;SPH VPN Group;RDSH Secure Citrix Receiver;HS DHHR Honest Broker;HS DHHR Project 1;HS DHHR Project 2;HS VDI Embedded analyst Group;HS VDI Allen NAS Audit;HS VDI EED Research Project Group;HS VDI Data Governance Directory Group;HS VDI MFP Project;HS VDI Moran SUD Dashboard Group;HS VDI MOTOR Claims Group;HS VDI Pollini OUD Group;HS VDI Allen Methadone Group;HS VDI Gupta Antibiotics Group;HS VDI MODRN Project;sph-oha-hp-m479fdw Group;HS VDI Rudisill MVC Group;VDI Chrome and PDF;VDI SAS;VDI Office;HS VDI Moran Support Grant Group;HS VDI Allen SNAP Work Requirements Group;HS VDI Pauly NEP Group;VDI RStudio;HS VDI Allen 115 Waiver Group;$HAFFS;HAFFS;HS VDI Hendricks Heart Failure Group;HS VDI Allen Opioid Duration Limit Group;Intune VPN Access Group;Software-GlobalProtect-A;HS VDI Adcock Stroke;HS VDI Grossman Diabetes;RDSH Users VPN group;VDI ArcGIS SPH;HS VDI COVID-19 Testing Results Group;HS VDI WVU COVID-19 Testing Faculty;HS VDI Medical Training;HS VDI Stansbury OSA;HS VDI Rudisill MAT Group;HS VDI Grossman birth control;HSC VDI Medicaid Research Parent Group;HS VDI Pauly PO Box;HS VDI BMS COVID Eval;HS VDI Health Affairs Share;HS VDI Pauly endocarditis;HS VDI Davis Telehealth;HS VDI Baus Chronic Disease;HS VDI Dai OD Mortality;HS VDI Stocks exploratory COVID;HS VDI Hendricks pregnant telehealth;HS VDI SOR Group;HS VDI Adcock Stroke Combined Faculty;HS VDI HMA Training Datasets;HS VDI Collaborate;HS VDI Dai Endocarditis Group;HS VDI Match Group
+Getting groups for: aadyer
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'aadyer'
+Adding: $HRC;SPH SAS Users;HRC;SPH Upload Group;HSC Citrix IE-HSC;3812-hallway-minoltac364e Group;HS CTSI VDI Research Group;Adobe Acrobat XI;SAS 9.3 Research Application;HSC VDI Research Projects Parent Group;FTP Users;HS-Research Drive Mapping;RedCap Students and External Users Group;RDSH Secure File Explorer;RDSH File Explorer;sph-oha-hp-m479fdw Group;VDI Chrome and PDF;VDI SAS;VDI Office;VDI RStudio;$HAFFS;HAFFS;HS VDI SOR Group
+Getting groups for: smdaily
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'smdaily'
+Adding: 3858-hallway-minoltac364e Group;3812-hallway-minoltac364e Group;SPH Student Worker;icrc-28--minoltac3110 Group;HS CTSI VDI Research Group;Adobe Acrobat XI;SAS 9.3 Research Application;HSC VDI Research Projects Parent Group;FTP Users;RDSH RDP;HS-Research Drive Mapping;RDSH File Explorer;3810e-minoltac224e Group;RDSH Chrome;sph-oha-hp-m479fdw Group;VDI Chrome and PDF;VDI SAS;VDI Office;VDI RStudio;$HAFFS;HAFFS;HS VDI Health Affairs Share;HS VDI Stocks exploratory COVID;HS VDI SOR Group
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation> .\Get-ShareInformation.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20210913171405
+**********************

@@ -1,0 +1,6 @@
+x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=46f560b2c9724c0a89cedb5b5d917321-Dean Wolz
+SMTP:dean.wolz@wvumedicine.org
+smtp:dean.wolz@hsc.wvu.edu
+SIP:dew0018@hsc.wvu.edu
+
+

@@ -1,0 +1,137 @@
+HSCDepartmentName,SailPointDepartmentName,CSCEmail,CreateEmail,Groups,OUPath,HomeDirectoryPath
+Charleston AVP Accounting and Budgeting,CMD Accounting and Budgeting L4,mdarnell@hsc.wvu.edu,Yes,$CHSCAVP,"OU=AVP,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\ADMIN\AVP
+Charleston AVP Compliance,CMD Compliance L4,mdarnell@hsc.wvu.edu,Yes,$CHSCAVP,"OU=AVP,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\ADMIN\AVP
+Charleston Facilities,CMD Facilities L4,mdarnell@hsc.wvu.edu,Yes,$BLDGSERV,"OU=BLDGSERV,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+Charleston Health Information Management,CMD Health Information Management L4,mdarnell@hsc.wvu.edu,Yes,$COMPPSERV,"OU=COMPSERV,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+Charleston Information Technology,CMD Information Technology L4,mdarnell@hsc.wvu.edu;ekampsnider@hsc.wvu.edu;kmnewcomb@hsc.wvu.edu;rrecco@hsc.wvu.edu;cerogan@hsc.wvu.edu,Yes,$COMPSERV,"OU=COMPSERV,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=WVU,DC=edu",NoHomeDirectory
+Charleston Patient Financial Services,CMD Patient Financial Services L4,mdarnell@hsc.wvu.edu,Yes,$BUSAFF,"OU=BUSAFF,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+Charleston School of Pharmacy,SOP Charleston L5,mdarnell@hsc.wvu.edu,Yes,$CHSCSOP,"OU=SOP,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOP
+Charleston SOM Behavioral Medicine,CMD Behavioral Medicine L4,mdarnell@hsc.wvu.edu,Yes,$CHSCBEHM,"OU=BEHM,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\BEHM
+Charleston SOM Behavioral Medicine,Behavioral Medicine::8020,mdarnell@hsc.wvu.edu,Yes,$CHSCBEHM,"OU=BEHM,OU=SOM,OU=Char_Div,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\BEHM
+Charleston SOM Family Medicine,CMD Family Medicine L4,mdarnell@hsc.wvu.edu,Yes,$CHSCFAMMED,"OU=FAMMED,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\FAMMED
+Charleston SOM Gastroenterology,Gastroenterology::8082,mdarnell@hsc.wvu.edu,Yes,$CHSCMED,"OU=INTMED,OU=SOM,OU=Char_Div,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\INTMED
+Charleston SOM Internal Medicine,CMD Internal Medicine Electrophysiology L5,mdarnell@hsc.wvu.edu,Yes,$INTMED,"OU=INTMED,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\INTMED
+Charleston SOM Internal Medicine,CMD Internal Medicine L4,mdarnell@hsc.wvu.edu,Yes,$INTMED,"OU=INTMED,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\INTMED
+Charleston SOM OBGYN,CMD Obstetrics and Gyneocology Call L5,mdarnell@hsc.wvu.edu,Yes,$CHSCOBGYN,"OU=OBGYN,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\OBGYN
+Charleston SOM OBGYN,CMD Obstetrics and Gyneocology L4,mdarnell@hsc.wvu.edu,Yes,$CHSCOBGYN,"OU=OBGYN,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\OBGYN
+Charleston SOM Pediatrics,CMD Pediatrics L4,mdarnell@hsc.wvu.edu,Yes,$CHSCPEDS,"OU=PEDS,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\PEDS
+Charleston SOM Pediatrics,Peds IP Based Svcs-CH,mdarnell@hsc.wvu.edu,Yes,$CHSCPEDS,"OU=PEDS,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\PEDS
+Charleston SOM Pediatrics,CMD Poison Control L4,mdarnell@hsc.wvu.edu,Yes,$POISON,"OU=POISON,OU=SOP,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOP\POISON
+Charleston SOM Surgery,CMD Surgery L4,mdarnell@hsc.wvu.edu,Yes,$CHSCSURG,"OU=SURG,OU=SOM,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\SOM\SURG
+Charleston Student Services,CMD Student Services L5,mdarnell@hsc.wvu.edu,Yes,$CHSCSSERVICES,"OU=SSERVICES,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+Charleston Talent and Culture,CMD Talent and Culture L4,mdarnell@hsc.wvu.edu,Yes,$CHSCHR,"OU=HR,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Char_Div\ADMIN\HR
+HSC Alumni Affairs,HSC Alumni Affairs,bjimmie@hsc.wvu.edu,Yes,$ALUMNI;ALUMNI,"OU=ALUMNI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\alumni
+HSC Business Office,HSC Business Office,almurphy@hsc.wvu.edu,Yes,$IEC;IEC,"OU=IEC,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\iec
+HSC CED Paths for Parents,CED Paths for Parents L4,luphold@hsc.wvu.edu,Yes,$UACDD,"OU=CED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\ced\
+HSC CED Specialized Family Care,CED Specialized Family Care,luphold@hsc.wvu.edu,Yes,$UACDD,"OU=CED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\ced\
+HSC CED Traumatic Brain Injury,CED Traumatic Brain Injury L4,luphold@hsc.wvu.edu,Yes,$UACDD,"OU=CED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\ced\
+HSC Clinical & Translational Science,HSC Clinical and Translational Science L3,ashley.mayerich@hsc.wvu.edu;emorgan4@hsc.wvu.edu,Yes,$WVCTSI;WVCTSI,"OU=WVCTSI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\WVCTSI\
+HSC Eastern Division,HSC Eastern Division,michael.webber1@wvumedicine.org,Yes,$East_Div,"OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC Eastern Division,SOM Eastern Division L4,michael.webber1@wvumedicine.org,Yes,$East_Div,"OU=EAST_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC Ethics,HSC Ethics L3,lmcmillen@hsc.wvu.edu,Yes,$ETHICS;ETHICS,"OU=ETHICS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\ethics
+HSC Excellence in Disabilities,Excellence in Disabilities L3,luphold@hsc.wvu.edu,Yes,$UACDD,"OU=CED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\ced\
+HSC Excellence in Disabilities,CED Modify L4,luphold@hsc.wvu.edu,Yes,$UACDD,"OU=CED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\ced\
+HSC Excellence in Disabilities,Excellence in Disabilities CED L3,luphold@hsc.wvu.edu,Yes,$UACDD,"OU=CED,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\ced\
+HSC Facilities,AUX Health Sciences Center L6,cpatterson@hsc.wvu.edu,Yes,$FACIL;FACIL,"OU=FACILTEMP,OU=FACIL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\facil\
+HSC Faculty Development,HSC SOM Faculty Development L3,gmarshall@hsc.wvu.edu,Yes,$FACDEVEL;FACDEVEL,"OU=FACDEVEL,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\facdevel
+HSC Global Engagement,HSC Global Engagement L3,almurphy@hsc.wvu.edu,Yes,$VP;VP,"OU=VP,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\vp
+HSC Health Sciences Communications,UR Health Sciences Communications L3,tdscatterday@hsc.wvu.edu,Yes,$PSI;PSI,"OU=PSI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\psi\
+HSC HSTA,HSC Technology Academy L3,mcottrell@hsc.wvu.edu,Yes,$HSTA;HSTA,"OU=HSTA,OU=ADMIN,OU=CHAR_DIV,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\hsta
+HSC Lab Animal Resources,HSC Lab Animal Resources L3,rocook@hsc.wvu.edu,Yes,$ANIMQ;ANIMQ,"OU=ANIMQ,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\animq
+HSC MBRCC Admin,Cancer Institute CI L3,mzimmer4@hsc.wvu.edu,Yes,HSC MBRCC,"OU=MGMT,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\MGMT
+HSC MBRCC Clinical Sciences,CI Clinical Sciences L4,mzimmer4@hsc.wvu.edu,Yes,$CCC;CCC,"OU=CCC,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\CCC
+HSC MBRCC Clinical Trails Research Unity,SOM Clinical Research Trials L4,mzimmer4@hsc.wvu.edu,Yes,$CTRU;CTRU,"OU=CTRU,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\mbrcc\ctru
+HSC MBRCC Development,CI Development L4,mzimmer4@hsc.wvu.edu,Yes,$MBRCCMGMT;MBRCC MGMT,"OU=MGMT,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\MGMT
+HSC MBRCC Education and Prevention,CI Education and Prevention L4,mzimmer4@hsc.wvu.edu,Yes,$CEI;CEI;CEI ALL,"OU=CEI,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\CEI
+HSC MBRCC Radiation Oncology,SOM Radiation Oncology L4,mzimmer4@hsc.wvu.edu,Yes,$RADONC;RADONC,"OU=RADONC,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\RADONC
+HSC MBRCC Research Lab,HSC MBRCC Research Lab,mzimmer4@hsc.wvu.edu,Yes,$RESLAB;Reslab,"OU=RESLAB,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\RESLAB
+HSC Office of Philanthropy,WVU Foundation,kkent@wvuf.org,Yes,$DEVEL,"OU=DEVEL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\DEVEL\
+HSC Office of Philanthropy,HSC Development L3,kkent@wvuf.org,Yes,$DEVEL,"OU=DEVEL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\DEVEL\
+HSC Office of Philanthropy,HSC Office of Philanthropy,kkent@wvuf.org,Yes,$DEVEL,"OU=DEVEL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\DEVEL\
+HSC Radiation Safety,HSC Radiation Safety L3,lbrownlee@hsc.wvu.edu,Yes,$RADSAF;RADSAF,"OU=RADSAF,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\radsaf
+HSC Research & Graduate Education,HSC Research and Graduate Education L3,jaturpen@hsc.wvu.edu;aberrebi@hsc.wvu.edu,Yes,$RESGRAD;RESGRAD,"OU=RESGRAD,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\resgrad
+HSC Risk Management,HSC Risk Management L3,almurphy@hsc.wvu.edu,Yes,$LEGAL;LEGAL,"OU=LEGAL,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\legal
+HSC Rockefeller Neurosciences Institute,HSC Blanchette Rockefeller Neurosciences Institute,justin.roberts1@hsc.wvu.edu;elstewart@hsc.wvu.edu;matthew.scott@hsc.wvu.edu,Yes,$BRNI;$BRNI Group,"OU=BRNI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\brni
+HSC Rockefeller Neurosciences Institute,HSC BRNI Restructure L3,justin.roberts1@hsc.wvu.edu;elstewart@hsc.wvu.edu;matthew.scott@hsc.wvu.edu,Yes,$BRNI;$BRNI Group,"OU=BRNI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\brni
+HSC Rockefeller Neurosciences Institute,SOM Neuroscience RNI L4,justin.roberts1@hsc.wvu.edu;elstewart@hsc.wvu.edu;matthew.scott@hsc.wvu.edu,Yes,$BRNI;$BRNI Group,"OU=BRNI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\brni
+HSC Rockefeller Neurosciences Institute,SOM Neuroscience Basic Science L4,justin.roberts1@hsc.wvu.edu;elstewart@hsc.wvu.edu;matthew.scott@hsc.wvu.edu,Yes,$BRNI;$BRNI Group,"OU=BRNI,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\Admin\brni
+HSC Rural Health,HSC Rural Health L3,gerardo.patron@hsc.wvu.edu,Yes,$RURHEA,"OU=RURHEA,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\rurhea\
+HSC Shared Services,HSC Shared Services L3,madamsmichenko@hsc.wvu.edu;almurphy@hsc.wvu.edu,Yes,$AVP;AVP,"OU=AVP,OU=ADMIN,OU=HSC,DC=hs,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\avp\
+HSC SOD Dental Practice and Rural Health,Dental Practice and Rural Health,sodits@hsc.wvu.edu,Yes,$DPRH;DPRH,"OU=DPRH,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\dprh
+HSC SOD Dental Practice and Rural Health,SOD Dental Practice and Rural Health L4,sodits@hsc.wvu.edu,Yes,$DPRH;DPRH,"OU=DPRH,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\dprh
+HSC SOD Dental Practice and Rural Health,SOD DPRH,sodits@hsc.wvu.edu,Yes,$DPRH;DPRH,"OU=DPRH,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\dprh
+HSC SOD Diagnostic Services,SOD Diagnostic Services L4,sodits@hsc.wvu.edu,Yes,DS;$DS,"OU=DS,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\ds
+HSC SOD Endodontics,SOD Endodontics L4,sodits@hsc.wvu.edu,Yes,$SODENDO;ENDO,"OU=ENDO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\endo
+HSC SOD Dentadmin,Dentistry SOD L3,sodits@hsc.wvu.edu,Yes,$Dentadmin;Dentadmin,"OU=DentAdmin,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\DentAdmin
+HSC SOD Graduate Prosthodontics,Graduate Prosthodontics::8756,sodits@hsc.wvu.edu,Yes,$Dentadmin;Dentadmin,"OU=DentAdmin,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\DentAdmin
+HSC SOD Oral Surgery,SOD Oral Surgery L4,sodits@hsc.wvu.edu,Yes,$OS;OS,"OU=OS,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\os
+HSC SOD Orthodontics,SOD Orthodontics L4,sodits@hsc.wvu.edu,Yes,$SODORTHO;ORTHO,"OU=ORTHO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\ortho
+HSC SOD Periodontics,SOD Periodontics L4,sodits@hsc.wvu.edu,Yes,$PERIO;PERIO,"OU=PERIO,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\perio
+HSC SOD Restorative Dentistry,SOD Restorative L4,sodits@hsc.wvu.edu,Yes,$RD;RD,"OU=RD,OU=SOD,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOD\rd
+HSC SOM Anesthesiology,SOM Anesthesiology L4,microsoft@hsc.wvu.edu,Yes,$Anest;Anest,"OU=Anest,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Behavioral Medicine,SOM Behavioral Medicine and Psychiatry L4,david.grose@hsc.wvu.edu,Yes,$BEHM;BEHM,"OU=BEHM,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\behm
+HSC SOM Biochemistry,SOM Biochemistry L4,shrice@hsc.wvu.edu,Yes,$BIOCHEM;BIOC,"OU=BIOCHEM,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\bioc
+HSC SOM Camden Clark Residents,SOM Camden Clark L4, taroush@hsc.wvu.edu,Yes,$CAMDENCLARKRESIDENTS;CAMDENCLARKRESIDENTS,"OU=CAMDENCLARKRESIDENTS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Cardiovascular & Thoracic Surgery,SOM Cardiovascular and Thoracic Surgery L4,hncampbell@hsc.wvu.edu,Yes,$SURG;SURG,"OU=HVI,OU=SURG,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Surg\
+HSC SOM Cardiovascular & Thoracic Surgery,HVI - Cardiology::126,hncampbell@hsc.wvu.edu,Yes,$SURG;SURG,"OU=HVI,OU=SURG,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Surg\
+HSC SOM Community Practice,SOM Community Practice L4,microsoft@hsc.wvu.edu,Yes,$Community Practice;Community Practice,"OU=Community Practice,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\Public\SOM\Community Practice
+HSC SOM Department of Medicine,SOM Medicine L4,jcross@hsc.wvu.edu,Yes,None,"OU=Holding,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Department of Medicine/Gastroenterology,MED - DIGESTIVE DISEASES (8062)::8062,brandy.shroyer@hsc.wvu.edu,Yes,$GI;Gastroenterology,"OU=GI,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU",\\hs.wvu-ad.wvu.edu\public\SOM\Med\GI
+HSC SOM Department of Medicine/Infectious Disease,Med - Infectious Diseases,brandy.shroyer@hsc.wvu.edu,Yes,$INFDIS;Infectious Disease,"OU=INFDIS,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Med\Infdis
+HSC SOM Dermatology,SOM Dermatology L4,jcross@hsc.wvu.edu;dhamilton@hsc.wvu.edu,Yes,$DERM;Dermatology,"OU=DERM,OU=MED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\med\derm
+HSC SOM Emergency Medicine,SOM Emergency Medicine L4,pslates@hsc.wvu.edu,Yes,$EMMED;EMMED,"OU=EMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\emmed\
+HSC SOM Family Medicine,SOM Family Medicine L4,baylesc@wvumedicine.org,Yes,$FAMMED;FAMMED,"OU=FAMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Family Medicine,Family Medicine,baylesc@wvumedicine.org,Yes,$FAMMED;FAMMED,"OU=FAMMED,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Human Performance,SOM Human Performance L4,jpeasak@hsc.wvu.edu,Yes,$HumanPerf;HumanPerf,"OU=HumanPerf,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\humanperf
+HSC SOM MD/PHD Graduate Research,SOM MD PHD Graduate Research L4,vlemasters@hsc.wvu.edu,No,None,"OU=Students,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Medical Education,SOM Medical Education L4,amy.drvar@hsc.wvu.edu;kim.helmick@hsc.wvu.edu;bakirby@hsc.wvu.edu;klanham@hsc.wvu.edu,Yes,$SSERVICES;SSERVICES,"OU=SSERVICES,OU=ADMIN,OU=hsc,dc=hs,dc=wvu-ad,dc=wvu,dc=edu",\\hs.wvu-ad.wvu.edu\public\admin\sservices
+"HSC SOM Microbiology, Immunology & Cell Biology",SOM Microbiology Immunology and Cell Biology L4,jbarnett@hsc.wvu.edu;tclark8@hsc.wvu.edu,Yes,$MICRO;MICRO,"OU=MICRO,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\bassci\micro
+"HSC SOM Microbiology, Immunology & Cell Biology",HSC Microbiology,jbarnett@hsc.wvu.edu;tclark8@hsc.wvu.edu,Yes,$MICRO;MICRO,"OU=MICRO,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\bassci\micro
+HSC SOM Neurology,Neurology::8080,lgearde@hsc.wvu.edu,Yes,$NEURO;NEURO,"OU=Neuro,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Neuro
+HSC SOM Neurology,SOM Neurology L4,lgearde@hsc.wvu.edu,Yes,$NEURO;NEURO,"OU=Neuro,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Neuro
+HSC SOM Neuroradiology,SOM Neuroradiology L4,zachary.cummins@hsc.wvu.edu,Yes,$Neuroradiology;Neuroradiology,"OU=Neuroradiology,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Neuroradiology
+HSC SOM Neurosurgery,SOM Neurosurgery L4,phumberson@hsc.wvu.edu;bekessler@hsc.wvu.edu,Yes,$NEUSUR;NEUSUR,"OU=NEUSUR,OU=SOM,OU=hsc,dc=hs,dc=wvu-ad,dc=wvu,dc=edu",\\hs.wvu-ad.wvu.edu\public\SOM\NEUSUR\
+HSC SOM Obstetrics & Gynecology,SOM Obstetrics Gynecology L4,jdefelice@hsc.wvu.edu,Yes,$OBGYN;OBGYN,"OU=OBGYN,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\obgyn
+HSC SOM Ophthalmology,SOM Ophthalmology L4,tmiller@wvumedicine.org,Yes,$Optha;Optha,"OU=Optha,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Ophthalmology,Ophthalmology::8140,tmiller@wvumedicine.org,Yes,$Optha;Optha,"OU=Optha,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",NoHomeDirectory
+HSC SOM Orthopedic Surgery,SOM Orthopaedics L4,pslates@hsc.wvu.edu,Yes,$Ortho;Orthopedics,"OU=ORTHO,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\ortho\
+HSC SOM Orthopedics,Orthopaedics::8160,pslates@hsc.wvu.edu,Yes,$Ortho;Orthopedics,"OU=ORTHO,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\ortho\
+HSC SOM Otolaryngology,SOM Otolaryngology L4,jpeasak@hsc.wvu.edu;elstewart@hsc.wvu.edu;kturner@hsc.wvu.edu;ddalton@hsc.wvu.edu;mpscott@hsc.wvu.edu,Yes,$ENT;Otolaryngology,"OU=ENT,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\otol
+"HSC SOM Pathology, Anatomy & Laboratory Medicine",SOM Pathology Anatomy and Laboratory Medicine L4,bpalmer@hsc.wvu.edu;ceddy2@hsc.wvu.edu,Yes,$PATH,"OU=Path,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\path\
+"HSC SOM Pathology, Anatomy & Laboratory Medicine",PATHOLOGY (38)::38,bpalmer@hsc.wvu.edu;ceddy2@hsc.wvu.edu,Yes,$PATH,"OU=Path,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\path\
+HSC SOM Pediatrics,SOM Pediatrics L4,wcbailey@hsc.wvu.edu,Yes,$PEDS;PEDS,"OU=PEDS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\PEDS
+HSC SOM Pediatrics,Pediatrics::8220,wcbailey@hsc.wvu.edu,Yes,$PEDS;PEDS,"OU=PEDS,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\peds
+HSC SOM Physiology,SOM Physiology and Pharmacology L4,cvandyke@hsc.wvu.edu,Yes,$PHYSIO;Physiology,"OU=PHYSIO,OU=BASSCI,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\bassci\physio
+HSC SOM Radiation Oncology,SOM Radiation Oncology L4,mzimmer4@hsc.wvu.edu,Yes,$RADONC;RADONC,"OU=RADONC,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\RADONC
+HSC SOM Radiation Oncology,SOM Radiation Oncology L4,mzimmer4@hsc.wvu.edu,Yes,$RADONC;RADONC,"OU=RADONC,OU=MBRCC,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\MBRCC\RADONC
+HSC SOM Radiology,SOM Radiology L4,kmercer@hsc.wvu.edu;zachary.cummins@hsc.wvu.edu,Yes,$RAD;Radiology,"OU=RAD,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\rad\
+HSC SOM Surgery,General Surgery::86,pslates@hsc.wvu.edu,Yes,$SURG;SURG,"OU=Surg,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Surg
+HSC SOM Surgery,SOM Surgery L4,pslates@hsc.wvu.edu,Yes,$SURG;SURG,"OU=Surg,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\Surg
+HSC SOM Transitional Year Program,SOM Transitional Year Program L4,khelmick@hsc.wvu.edu,Yes,SOMDEAN,"OU=DEAN,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOM\dean
+HSC SOM Urology,SOM Urology L4,pslates@hsc.wvu.edu,Yes,UrologyDept;$Urology,"OU=Urology,OU=SOM,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\som\Urology
+HSC SOM WVSTEPS,SOM STEPS L4,rhuff@hsc.wvu.edu,Yes,$WVSTEPS,"OU=WVSTEPS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\admin\WVSTEPS
+HSC SON Academic Affairs,SON Academics L4,ghcarver@hsc.wvu.edu,Yes,$ACAF;ACAF,"OU=ACAF,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SON\ACAF
+HSC SON Adult Health,SON Adult Health L4,ghcarver@hsc.wvu.edu,Yes,$HPRR;HPRR,"OU=HPRR,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SON\HPRR
+HSC SON Dean's Office,SON Business and Administration L4,ghcarver@hsc.wvu.edu,Yes,$SONDEAN;SONDEAN,"OU=DEAN,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SON\STUALUM
+HSC SON Family and Community Health,SON Family and Community Health L4,ghcarver@hsc.wvu.edu,Yes,$HEALSYS;HEALSYS,"OU=HEALSYS,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SON\HEALSYS
+HSC SON Keyser,SON Keyser L4,ghcarver@hsc.wvu.edu,Yes,KEYSER,"OU=KEYSER,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SON\KEYSER
+HSC SON Student Affairs,SON Student Affairs L4,ghcarver@hsc.wvu.edu;btoothman@hsc.wvu.edu,Yes,$STUALUM;STUALUM,"OU=STUALUM,OU=SON,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SON\STUALUM
+HSC SOP Basic Pharmceutical Science,SOP Basic Pharmaceutical Science L4,mphill24@hsc.wvu.edu,Yes,$BPS;BPS,"OU=BPS,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\sop\bps\
+HSC SOP Clinical Pharmacy ,SOP Clinical Department L4,michelle.shockley@hsc.wvu.edu,Yes,$CLIN;CLIN,"OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\sop\clin\
+HSC SOP Clinical Pharmacy ,Pharmacy SOP L3,michelle.shockley@hsc.wvu.edu,Yes,$CLIN;CLIN,"OU=CLIN,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\sop\clin\
+HSC SOP Pharmaceutical Systems and Policy,SOP Pharmaceutical Systems and Policy L4,dkuis@hsc.wvu.edu,Yes,$BEHADPH,"OU=BEHADPH,OU=SOP,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SOP\BEHADPH
+HSC SPH Academic Affairs,SOPH Academic Affairs L4,jewhite@hsc.wvu.edu,Yes,$CMEDMGMT;MGMT,"OU=MGMT,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\MGMT
+HSC SPH Biostatistics,SOPH Biostatistics L4,jewhite@hsc.wvu.edu,Yes,$BIOSTAT;BIOSTAT,"OU=BIOSTAT,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\BIOSTAT
+HSC SPH Central Administration,Public Health SOPH L3,jewhite@hsc.wvu.edu,Yes,$CMEDMGMT;MGMT,"OU=MGMT,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\MGMT
+HSC SPH Epidemiology,SOPH Epidemiology L4,jewhite@hsc.wvu.edu,Yes,$EPIDEM;EPIDEM,"OU=EPIDEM,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\EPIDEM
+HSC SPH Health Affairs,HSC Health Affairs L3,jewhite@hsc.wvu.edu,Yes,$HAFFS;HAFFS,"OU=HAFFS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\HAFFS
+HSC SPH Health Policy Management & Leadership,SOPH Health Policy Management and Leadership L4,jewhite@hsc.wvu.edu,Yes,$HPML;HPML,"OU=HPML,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\HPML
+HSC SPH Health Services Research,SOPH Health Services Research L5,jewhite@hsc.wvu.edu,Yes,$HRC;HRC,"OU=HRC,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\HRC
+HSC SPH Injury Control Research enter,HSC Injury Control Research L3,jewhite@hsc.wvu.edu,Yes,$CREM;CREM,"OU=ICRC,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\ICRC
+HSC SPH Lifelong Learning Institute,SOPH Lifelong Learning Institute L5,jewhite@hsc.wvu.edu,Yes,$COA;COA,"OU=COA,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\coa
+HSC SPH Occupational and Environmental Health,SOPH Occupational and Environmental Health L4,jewhite@hsc.wvu.edu,Yes,$OEHS;OEHS,"OU=OEHS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\OEHS
+HSC SPH Occupational Medicine,SOPH Occupational Medicine L5,jewhite@hsc.wvu.edu,Yes,$IOEH;IOEH,"OU=OCCMED,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\occmed
+HSC SPH Office of Health Services Research,SOPH Health Services Research L5,jewhite@hsc.wvu.edu,Yes,$OHSR;OHSR,"OU=OHSR,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\OHSR
+HSC SPH Prevention Research Center,SOPH Prevention Research Center L5,jewhite@hsc.wvu.edu,Yes,$PRC;PRC,"OU=PRC,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\PRC
+HSC SPH Social and Behavioral Health,SOPH Social and Behavioral Health L4,jewhite@hsc.wvu.edu,Yes,$SBHS;SBHS,"OU=SBHS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\SBHS
+HSC SPH Wellness Program,HSC Wellness Program L3,jewhite@hsc.wvu.edu,Yes,$WELLNESS;WELLNESS,"OU=WELLNESS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu",\\hs.wvu-ad.wvu.edu\public\SPH\WELLNESS

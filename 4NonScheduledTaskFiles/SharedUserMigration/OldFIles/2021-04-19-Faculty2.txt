@@ -1,0 +1,42 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210416113450
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 4656
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-04-19-Faculty2.txt
+HSC Email: jmersin1@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=wvu/ou=exchange administrative group (fydibohf23spdlt)/cn=recipients/cn=jbm10031913
+************************
+HSC Email: jmersin1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a76b331c4def4341b6bf76cabf146858-jbm10031
+************************
+HSC Email: jmersin1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:james.mersing.m@wvumedicine.org
+************************
+HSC Email: jmersin1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a76b331c4def4341b6bf76cabf146858-jbm10031
+************************
+**********************
+Windows PowerShell transcript end
+End time: 20210416113459
+**********************

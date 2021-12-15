@@ -1,0 +1,8 @@
+[11/21/2021 07:30:07] - Exception calling "ExecuteQuery" with "0" argument(s): "The underlying connection was closed: An unexpected error occurred on a receive."in uploading File!: 
+[11/21/2021 07:30:07] - 1: 20211108_IDF2_HSC_CCs.xlsx
+[11/21/2021 07:30:07] - Exception calling "ExecuteQuery" with "0" argument(s): "The underlying connection was closed: An unexpected error occurred on a receive."in uploading File!: 
+[11/21/2021 07:30:07] - 2: 20211108_IDF2_HSC_ePHI.xlsx
+[11/21/2021 07:30:07] - Exception calling "ExecuteQuery" with "0" argument(s): "The underlying connection was closed: An unexpected error occurred on a receive."in uploading File!: 
+[11/21/2021 07:30:07] - 3: 20211108_IDF2_HSC_SSNs.xlsx
+[11/21/2021 07:30:08] - Exception calling "ExecuteQuery" with "0" argument(s): "The underlying connection was closed: An unexpected error occurred on a receive."in uploading File!: 
+[11/21/2021 07:30:08] - 4: 20211108_IDF2_HSC_TAXES.xlsx

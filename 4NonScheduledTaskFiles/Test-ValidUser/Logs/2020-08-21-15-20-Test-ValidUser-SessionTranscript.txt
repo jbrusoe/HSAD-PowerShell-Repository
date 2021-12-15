@@ -1,0 +1,84 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200821152023
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7160
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\\2020-08-21-15-20-Test-ValidUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\
+VERBOSE: File Count: 3
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\\2020-08-21-15-20-Test-ValidUser-SessionTranscript.txt
+Current User: jsb0054
+**********************
+Current User: tlb0065
+**********************
+Current User: kgb0010
+**********************
+Current User: etc0008
+**********************
+Current User: klc0080
+**********************
+Current User: kkc0008
+**********************
+Current User: jnc0031
+**********************
+Current User: kac0065
+**********************
+Current User: jad0054
+**********************
+Current User: hbd0005
+**********************
+Current User: hbd0006
+**********************
+Current User: jld0063
+**********************
+Current User: gbh0004
+**********************
+Current User: rnj0003
+**********************
+Current User: spl0008
+**********************
+Current User: hml0013
+**********************
+Current User: arl0053
+**********************
+Current User: srmcswain
+**********************
+Current User: mam0143
+**********************
+Current User: han0007
+**********************
+Current User: mmp0042
+**********************
+Current User: als0112
+**********************
+Current User: kjs00002
+**********************
+Current User: dpt0005
+**********************
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20200821152024
+**********************

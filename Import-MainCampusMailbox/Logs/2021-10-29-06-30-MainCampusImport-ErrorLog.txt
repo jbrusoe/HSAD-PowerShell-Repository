@@ -1,0 +1,16 @@
+*-------------- 10/29/2021 6:30:15 AM --------------*
+
+File: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Import-MainCampusMailbox\Logs\2021-10-29-06-30-MainCampusImport-ErrorLog.txt
+
+akina.kondoh@mail.wvu.edu
+amy.pridemore@mail.wvu.edu
+ann.pancake@mail.wvu.edu
+corey.williams1@mail.wvu.edu
+ejsands@mail.wvu.edu
+faythe.thurman@mail.wvu.edu
+james.weber2@mail.wvu.edu
+melissa.oneal@mail.wvu.edu
+rajesh.medatati@mail.wvu.edu
+rebecca.friend@mail.wvu.edu
+steven.uryasz@mail.wvu.edu
+tgrimes@mail.wvu.edu

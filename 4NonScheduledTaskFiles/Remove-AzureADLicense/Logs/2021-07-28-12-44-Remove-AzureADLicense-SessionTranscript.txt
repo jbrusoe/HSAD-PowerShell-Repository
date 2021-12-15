@@ -1,0 +1,154 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210728124427
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 652
+PSVersion: 5.1.14393.4530
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4530
+BuildVersion: 10.0.14393.4530
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-AzureADLicense\Logs\\2021-07-28-12-44-Remove-AzureADLicense-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-AzureADLicense\Logs\
+VERBOSE: File Count: 2
+0
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-AzureADLicense\Logs\\2021-07-28-12-44-Remove-AzureADLicense-SessionTranscript.txt
+Current User: acollin6@hsc.wvu.edu
+User Count: 1
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: acollin6@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: acosta@hsc.wvu.edu
+User Count: 2
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: acosta@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: adanko@hsc.wvu.edu
+User Count: 3
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: adanko@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: adpugh@hsc.wvu.edu
+User Count: 4
+AzureAD User
+Not in Base Licensing Group or not licensed for A3
+*******************************
+Current User: zac0013@hsc.wvu.edu
+User Count: 5
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: zac0013@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: zbs0005@hsc.wvu.edu
+User Count: 6
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: zbs0005@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: zd0010@hsc.wvu.edu
+User Count: 7
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: zd0010@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: zm0018@hsc.wvu.edu
+User Count: 8
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: zm0018@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: zmw0008@hsc.wvu.edu
+User Count: 9
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: zmw0008@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: zta0002@hsc.wvu.edu
+User Count: 10
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: zta0002@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: zte00001@hsc.wvu.edu
+User Count: 11
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: zte00001@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Current User: ztp0006@hsc.wvu.edu
+User Count: 12
+AzureAD User
+In O365 Base Licensing Group
+VERBOSE: Attempting to find Azure AD User
+VERBOSE: Successfully found AzureADUser
+VERBOSE: UPN: ztp0006@hsc.wvu.edu
+Successfully removed license
+VERBOSE: *******************************
+*******************************
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20210728124451
+**********************

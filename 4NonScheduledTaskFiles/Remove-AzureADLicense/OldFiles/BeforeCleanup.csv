@@ -1,0 +1,8 @@
+#TYPE Microsoft.Open.AzureAD.Model.SubscribedSku
+"CapabilityStatus","ConsumedUnits","ObjectId","PrepaidUnits","ServicePlans","SkuId","SkuPartNumber","AppliesTo"
+"Enabled","3090","a2d1f95f-8510-4424-8ae1-5c596bdbd578_e578b273-6db4-4691-bba0-8d691f4da603","class LicenseUnitsDetail {
+  Enabled: 0
+  Suspended: 0
+  Warning: 4500
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","e578b273-6db4-4691-bba0-8d691f4da603","ENTERPRISEPACKPLUS_FACULTY","User"

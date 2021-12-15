@@ -1,0 +1,508 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211012120557
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11628
+PSVersion: 5.1.17763.2183
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2183
+BuildVersion: 10.0.17763.2183
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-12-05-Get-PossibleInactiveUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\
+VERBOSE: File Count: 13
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\\2021-10-12-12-05-Get-PossibleInactiveUser-SessionTranscript.txt
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       10/12/2021  12:05 PM              0 2021-10-12-ADPossibleInactiveUsers.csv
+Getting list of AD org units under:
+DC=hs,DC=wvu-ad,DC=wvu,DC=edu
+Current AD Org Unit:
+OU=Domain Controllers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+****************************
+Current AD Org Unit:
+OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+****************************
+Current AD Org Unit:
+OU=Systems Servers,OU=HS Servers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+****************************
+Current AD Org Unit:
+OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+WARNING: Unable to generate list of AD users
+Current AD User: 2264conference
+Password Last Set: 03/18/2016 10:16:33
+Password was last set over a year ago
+-------------------------
+Current AD User: backupadmin
+Password Last Set: 11/13/2008 12:53:56
+Password was last set over a year ago
+-------------------------
+Current AD User: hsc911
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: tempadmin
+Password Last Set: 11/13/2008 12:54:11
+Password was last set over a year ago
+-------------------------
+Current AD User: spbackup
+Password Last Set: 03/09/2010 15:12:33
+Password was last set over a year ago
+-------------------------
+Current AD User: testadmin
+Password Last Set: 11/13/2008 12:54:14
+Password was last set over a year ago
+-------------------------
+Current AD User: WVUHPAN
+Password Last Set: 06/21/2018 14:30:43
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: hsccopy
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: HSCPasswordManagemen
+Password Last Set: 11/13/2008 12:54:01
+Password was last set over a year ago
+-------------------------
+Current AD User: idm
+Password Last Set: 07/20/2011 08:55:15
+Password was last set over a year ago
+-------------------------
+Current AD User: jbbackup
+Password Last Set: 11/13/2008 12:54:02
+Password was last set over a year ago
+-------------------------
+Current AD User: testmid
+Password Last Set: 09/21/2021 12:59:57
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: upn.test
+Password Last Set: 06/22/2017 10:43:56
+Password was last set over a year ago
+-------------------------
+Current AD User: wvuhexport
+Password Last Set: 08/13/2009 14:44:18
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: bizhubtest
+Password Last Set: 03/22/2010 15:47:34
+Password was last set over a year ago
+-------------------------
+Current AD User: its
+Password Last Set: 04/15/2011 12:38:25
+Password was last set over a year ago
+-------------------------
+Current AD User: TestMcafee
+Password Last Set: 04/17/2012 07:37:24
+Password was last set over a year ago
+-------------------------
+Current AD User: resolved
+Password Last Set: 03/18/2010 08:37:27
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: wifitest
+Password Last Set: 01/28/2019 08:26:03
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Resource Accounts,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+PS>TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute7. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+WARNING: Unable to generate list of AD users
+Current AD User: abuse
+Password Last Set: 11/13/2008 12:53:55
+Password was last set over a year ago
+-------------------------
+Current AD User: MSAIP
+Password Last Set: 03/26/2018 13:45:16
+Password was last set over a year ago
+-------------------------
+Current AD User: CM_JD
+Password Last Set: 09/15/2017 08:15:09
+Password was last set over a year ago
+-------------------------
+Current AD User: ctsiarcgis
+Password Last Set: 03/22/2021 10:50:49
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: hsbackup
+Password Last Set: 03/16/2016 09:58:05
+Password was last set over a year ago
+-------------------------
+Current AD User: hscmbamdb
+Password Last Set: 02/29/2016 11:16:21
+Password was last set over a year ago
+-------------------------
+Current AD User: hscxiv
+Password Last Set: 03/12/2013 15:29:23
+Password was last set over a year ago
+-------------------------
+Current AD User: hscadconnect
+Password Last Set: 08/22/2016 11:20:37
+Password was last set over a year ago
+-------------------------
+Current AD User: maincampusldap
+Password Last Set: 01/08/2018 15:09:45
+Password was last set over a year ago
+-------------------------
+Current AD User: masonnesselrodt-test
+Password Last Set: 07/15/2021 15:29:55
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: MBAMAppPool
+Password Last Set: 02/29/2016 10:55:41
+Password was last set over a year ago
+-------------------------
+Current AD User: MBAMROUser
+Password Last Set: 02/29/2016 11:01:08
+Password was last set over a year ago
+-------------------------
+Current AD User: O365Maintenance
+Password Last Set: 03/05/2014 08:40:02
+Password was last set over a year ago
+-------------------------
+Current AD User: paloaltomgmt
+Password Last Set: 02/18/2014 09:10:53
+Password was last set over a year ago
+-------------------------
+Current AD User: radiuscheck
+Password Last Set: 05/18/2020 10:35:32
+Password was last set over a year ago
+-------------------------
+Current AD User: rdtpsftp
+Password Last Set: 02/17/2016 14:47:22
+Password was last set over a year ago
+-------------------------
+Current AD User: replication
+Password Last Set: 03/10/2008 10:36:27
+Password was last set over a year ago
+-------------------------
+Current AD User: sccmsvc
+Password Last Set: 01/28/2014 13:57:45
+Password was last set over a year ago
+-------------------------
+Current AD User: sgdresource
+Password Last Set: 11/15/2016 09:15:46
+Password was last set over a year ago
+-------------------------
+Current AD User: sopmodeling
+Password Last Set: 12/09/2014 15:47:51
+Password was last set over a year ago
+-------------------------
+Current AD User: srodney-test
+Password Last Set: 09/10/2019 08:18:32
+Password was last set over a year ago
+-------------------------
+Current AD User: viewtestuser1
+Password Last Set: 06/19/2020 11:32:13
+Password was last set over a year ago
+-------------------------
+Current AD User: viewtestuser2
+Password Last Set: 03/06/2020 10:52:32
+Password was last set over a year ago
+-------------------------
+Current AD User: wvdjoin
+Password Last Set: 01/02/2020 16:26:59
+Password was last set over a year ago
+-------------------------
+Current AD User: wvuhpalo
+Password Last Set: 04/27/2016 09:56:57
+Password was last set over a year ago
+-------------------------
+Current AD User: wvumtestemail
+Password Last Set: 03/25/2021 09:22:42
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Resource Accounts,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+Current AD User: casperro
+Password Last Set: 06/05/2015 13:34:22
+Password was last set over a year ago
+-------------------------
+Current AD User: casperrw
+Password Last Set: 06/05/2015 13:35:21
+Password was last set over a year ago
+-------------------------
+Current AD User: firealarm
+Password Last Set: 04/13/2021 12:48:07
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: hssrm
+Password Last Set: 06/10/2014 12:04:22
+Password was last set over a year ago
+-------------------------
+Current AD User: hscvcenterssodr
+Password Last Set: 12/03/2014 10:25:20
+Password was last set over a year ago
+-------------------------
+Current AD User: netvuln-internal
+Password Last Set: 08/11/2016 14:34:13
+Password was last set over a year ago
+-------------------------
+Current AD User: regrow
+Password Last Set: 11/30/2020 10:37:16
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: sqlagent
+Password Last Set: 07/20/2010 16:21:29
+Password was last set over a year ago
+-------------------------
+Current AD User: vmware
+Password Last Set: 12/12/2014 15:49:23
+Password was last set over a year ago
+-------------------------
+Current AD User: hsvdisvc
+Password Last Set: 05/11/2015 11:40:14
+Password was last set over a year ago
+-------------------------
+Current AD User: hsvdisvc1
+Password Last Set: 06/17/2019 13:01:44
+Password was last set over a year ago
+-------------------------
+Current AD User: wvuhf5
+Password Last Set: 03/28/2014 14:34:59
+Password was last set over a year ago
+-------------------------
+****************************
+Current AD Org Unit:
+OU=Network Systems,OU=Network and Voice Services,OU=ITS,OU=ADMIN,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+Getting AD Users in Org Unit
+PS>TerminatingError(Export-Csv): "Cannot append CSV content to the following file: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Logs\2021-10-12-ADPossibleInactiveUsers.csv. The appended object does not have a property that corresponds to the following column: extensionAttribute7. To continue with mismatched properties, add the -Force parameter, and then retry the command."
+WARNING: Unable to generate list of AD users
+Current AD User: mailboxtest
+Password Last Set: 12/06/2016 09:07:50
+Password was last set over a year ago
+-------------------------
+Current AD User: j.nesselrodt
+Password Last Set: 06/24/2020 10:37:32
+Password was last set over a year ago
+-------------------------
+Current AD User: jnesselrodt
+Password Last Set: 06/30/2021 08:06:41
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: jbrusoeadmin
+Password Last Set: 10/31/2019 08:39:37
+Password was last set over a year ago
+-------------------------
+Current AD User: jbrusoe
+Password Last Set: 06/28/2021 09:28:10
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: kevinadmin
+Password Last Set: 09/07/2021 14:29:13
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: krussell
+Password Last Set: 09/11/2021 07:55:23
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: krodney
+Password Last Set: 06/21/2021 08:02:31
+Password has been set within the last year
+Valid User
+-------------------------
+Current AD User: kadmin
+Password Last Set: 10/27/2020 12:07:04
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+Cannot convert null to type "System.DateTime".
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:
+111 char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+
+-------------------------
+Current AD User: mattadmin
+Password Last Set: 11/30/2020 15:11:56
+Password has been set within the last year
+Cannot convert null to type "System.DateTime".
+At 
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser\Get-PossibleInactiveUser.ps1:111 
+char:17
++ ...          if (($ADUser.LastLogonDate -gt (Get-Date).AddYears(-1)) -AND
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : nullToObjectInvalidCast
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> cls
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-PossibleInactiveUser> .\Get-PossibleInactiveUser.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20211012120811
+**********************

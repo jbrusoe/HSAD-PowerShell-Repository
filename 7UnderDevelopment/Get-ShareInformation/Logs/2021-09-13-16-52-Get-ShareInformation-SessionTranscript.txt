@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210913165245
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 470368
+PSVersion: 5.1.14393.4583
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4583
+BuildVersion: 10.0.14393.4583
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\\2021-09-13-16-52-Get-ShareInformation-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\
+VERBOSE: File Count: 2
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\\2021-09-13-16-52-Get-ShareInformation-SessionTranscript.txt
+Generating SQL Connection String
+VERBOSE: Preparing to decrtypt SQL Connection File
+VERBOSE: SQL Connection File: C:\users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\2CommonFiles\EncryptedFiles\O365SqlInstance3.txt
+VERBOSE: Connection file exists and is being decrypted
+Connection string: Data Source=hscpowershell.database.windows.net;Initial Catalog=HSCPowerShell;User Id=HSCPowerShell;Password=<PasswordRemoved>
+Search Path: C:\Users\Jeff\Documents\GitHub\
+Getting groups for: cls00001
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'cls00001'
+
+SamAccountName DistinguishedName                                                          Groups
+-------------- -----------------                                                          ------
+cls00001       CN=Carol Stocks,OU=HAFFS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu       HSC Citrix IE-HSC;HS Citri...
+Getting groups for: sjm00019
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'sjm00019'
+sjm00019       CN=Shyama Mahakalanda,OU=HAFFS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu SAS 9.3 Research Applicati...
+Getting groups for: drg0025
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'drg0025'
+drg0025        CN=Divya Gadde,OU=HAFFS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu        $SOMMGMT;MGMT;WVUOHSR;SPH ...
+Getting groups for: aadyer
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'aadyer'
+aadyer         CN=Angela Dyer,OU=HAFFS,OU=SPH,OU=HSC,DC=HS,DC=wvu-ad,DC=wvu,DC=edu        $HRC;SPH SAS Users;HRC;SPH...
+Getting groups for: smdaily
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'smdaily'
+smdaily        CN=Shay Michael Daily,OU=HSC,OU=Main,DC=wvu-ad,DC=wvu,DC=edu               3858-hallway-minoltac364e ...
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation> .\Get-ShareInformation.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20210913170833
+**********************

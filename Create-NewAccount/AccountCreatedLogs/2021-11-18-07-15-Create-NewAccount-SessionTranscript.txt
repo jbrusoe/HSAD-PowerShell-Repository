@@ -1,0 +1,721 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211118071503
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -command C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Create-NewAccount\Create-NewAccount.ps1
+Process ID: 46552
+PSVersion: 5.1.14393.4583
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4583
+BuildVersion: 10.0.14393.4583
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Create-NewAccount\Logs\\2021-11-18-07-15-Create-NewAccount-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Create-NewAccount\Logs\
+VERBOSE: File Count: 93
+All input parameters are set to default values.
+
+Opening Deparment Map File
+Department Mapping File: C:\users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\2CommonFiles\MappingFiles\DepartmentMap.csv
+
+
+Step 1: Search NewUsers for matching department names
+`nGetting SailPoint deparmtents from department map file
+SailPoint Departments:
+CMD Accounting and Budgeting L4
+CMD Compliance L4
+CMD Facilities L4
+CMD Health Information Management L4
+CMD Information Technology L4
+CMD Patient Financial Services L4
+SOP Charleston L5
+CMD Behavioral Medicine L4
+Behavioral Medicine::8020
+CMD Family Medicine L4
+Gastroenterology::8082
+CMD Internal Medicine Electrophysiology L5
+CMD Internal Medicine L4
+CMD Obstetrics and Gyneocology Call L5
+CMD Obstetrics and Gyneocology L4
+CMD Pediatrics L4
+Peds IP Based Svcs-CH
+CMD Poison Control L4
+CMD Surgery L4
+CMD Student Services L5
+CMD Talent and Culture L4
+HSC Alumni Affairs
+HSC Business Office
+CED Paths for Parents L4
+CED Specialized Family Care
+CED Traumatic Brain Injury L4
+HSC Clinical and Translational Science L3
+HSC Eastern Division
+SOM Eastern Division L4
+HSC Ethics L3
+Excellence in Disabilities L3
+CED Modify L4
+Excellence in Disabilities CED L3
+AUX Health Sciences Center L6
+HSC SOM Faculty Development L3
+HSC Global Engagement L3
+UR Health Sciences Communications L3
+HSC Technology Academy L3
+HSC Lab Animal Resources L3
+Cancer Institute CI L3
+CI Clinical Sciences L4
+SOM Clinical Research Trials L4
+CI Development L4
+CI Education and Prevention L4
+SOM Radiation Oncology L4
+HSC MBRCC Research Lab
+WVU Foundation
+HSC Development L3
+HSC Office of Philanthropy
+HSC Radiation Safety L3
+HSC Research and Graduate Education L3
+HSC Risk Management L3
+HSC Blanchette Rockefeller Neurosciences Institute
+HSC BRNI Restructure L3
+SOM Neuroscience RNI L4
+SOM Neuroscience Basic Science L4
+HSC Rural Health L3
+HSC Shared Services L3
+Dental Practice and Rural Health
+SOD Dental Practice and Rural Health L4
+SOD DPRH
+SOD Diagnostic Services L4
+SOD Endodontics L4
+Graduate Prosthodontics::8756
+SOD Oral Surgery L4
+SOD Orthodontics L4
+SOD Periodontics L4
+SOD Restorative L4
+SOM Anesthesiology L4
+SOM Behavioral Medicine and Psychiatry L4
+SOM Biochemistry L4
+SOM Camden Clark L4
+SOM Cardiovascular and Thoracic Surgery L4
+HVI - Cardiology::126
+SOM Community Practice L4
+SOM Medicine L4
+MED - DIGESTIVE DISEASES (8062)::8062
+Med - Infectious Diseases
+SOM Dermatology L4
+SOM Emergency Medicine L4
+SOM Family Medicine L4
+Family Medicine
+SOM Human Performance L4
+SOM MD PHD Graduate Research L4
+SOM Medical Education L4
+SOM Microbiology Immunology and Cell Biology L4
+HSC Microbiology
+Neurology::8080
+SOM Neurology L4
+SOM Neuroradiology L4
+SOM Neurosurgery L4
+SOM Obstetrics Gynecology L4
+SOM Ophthalmology L4
+Ophthalmology::8140
+SOM Orthopaedics L4
+Orthopaedics::8160
+SOM Otolaryngology L4
+SOM Pathology Anatomy and Laboratory Medicine L4
+PATHOLOGY (38)::38
+SOM Pediatrics L4
+Pediatrics::8220
+SOM Physiology and Pharmacology L4
+SOM Radiation Oncology L4
+SOM Radiation Oncology L4
+SOM Radiology L4
+General Surgery::86
+SOM Surgery L4
+SOM Transitional Year Program L4
+SOM Urology L4
+SOM STEPS L4
+SON Academics L4
+SON Adult Health L4
+SON Business and Administration L4
+SON Family and Community Health L4
+SON Keyser L4
+SON Student Affairs L4
+SOP Basic Pharmaceutical Science L4
+SOP Clinical Department L4
+Pharmacy SOP L3
+SOP Pharmaceutical Systems and Policy L4
+SOPH Academic Affairs L4
+SOPH Biostatistics L4
+Public Health SOPH L3
+SOPH Epidemiology L4
+HSC Health Affairs L3
+SOPH Health Policy Management and Leadership L4
+SOPH Health Services Research L5
+HSC Injury Control Research L3
+SOPH Lifelong Learning Institute L5
+SOPH Occupational and Environmental Health L4
+SOPH Occupational Medicine L5
+SOPH Health Services Research L5
+SOPH Prevention Research Center L5
+SOPH Social and Behavioral Health L4
+HSC Wellness Program L3
+
+
+Searching AD NewUsers for matching department names
+
+***********************
+User found in NewUsers Org Unit
+SamAccountName: aws00014
+Password Last Set: 10/01/2021 08:32:45
+When Created: 10/01/2021 08:32:45
+Distinguished Name:
+CN=Allison Suttle1,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 1
+User was found in NewUsers org unit
+Password Last Set: 10/01/2021 08:32:45
+When Created: 10/01/2021 08:32:45
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: anb00023
+Password Last Set: 11/11/2021 03:12:24
+When Created: 11/11/2021 03:12:24
+Distinguished Name:
+CN=Amanda Blevins,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 2
+User was found in NewUsers org unit
+Password Last Set: 11/11/2021 03:12:24
+When Created: 11/11/2021 03:12:24
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: amcartwright
+Password Last Set: 10/29/2021 16:12:16
+When Created: 10/29/2021 16:12:16
+Distinguished Name:
+CN=Amy Cartwright,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 3
+User was found in NewUsers org unit
+Password Last Set: 10/29/2021 16:12:16
+When Created: 10/29/2021 16:12:16
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: cpm00010
+Password Last Set: 09/20/2021 10:32:54
+When Created: 09/20/2021 10:32:54
+Distinguished Name:
+CN=Carol Milam,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 4
+User was found in NewUsers org unit
+Password Last Set: 09/20/2021 10:32:54
+When Created: 09/20/2021 10:32:54
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: caschwinabart
+Password Last Set: 10/01/2021 16:20:26
+When Created: 10/01/2021 16:20:26
+Distinguished Name:
+CN=Cassi Schwinabart,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 5
+User was found in NewUsers org unit
+Password Last Set: 10/01/2021 16:20:26
+When Created: 10/01/2021 16:20:26
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: dp10054
+Password Last Set: 10/25/2021 10:38:02
+When Created: 10/25/2021 10:38:02
+Distinguished Name:
+CN=Daniel Pustay,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 6
+User was found in NewUsers org unit
+Password Last Set: 10/25/2021 10:38:02
+When Created: 10/25/2021 10:38:02
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: ds00067
+Password Last Set: 11/02/2021 04:16:44
+When Created: 11/02/2021 04:16:43
+Distinguished Name:
+CN=David Skibbie,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 7
+User was found in NewUsers org unit
+Password Last Set: 11/02/2021 04:16:44
+When Created: 11/02/2021 04:16:43
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: dak00011
+Password Last Set: 11/08/2021 15:09:49
+When Created: 11/08/2021 15:09:49
+Distinguished Name:
+CN=Denise Kamer-Faith,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 8
+User was found in NewUsers org unit
+Password Last Set: 11/08/2021 15:09:49
+When Created: 11/08/2021 15:09:49
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: dh10181
+Password Last Set: 11/15/2021 15:10:14
+When Created: 11/15/2021 15:10:13
+Distinguished Name:
+CN=Dustin Holmes,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 9
+User was found in NewUsers org unit
+Password Last Set: 11/15/2021 15:10:14
+When Created: 11/15/2021 15:10:13
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: ebb00010
+Password Last Set: 10/15/2021 05:45:28
+When Created: 10/15/2021 05:45:28
+Distinguished Name:
+CN=Erica Bennett,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 10
+User was found in NewUsers org unit
+Password Last Set: 10/15/2021 05:45:28
+When Created: 10/15/2021 05:45:28
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: fek00001
+Password Last Set: 11/15/2021 15:13:42
+When Created: 11/15/2021 15:13:42
+Distinguished Name:
+CN=Florence Kurtz,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 11
+User was found in NewUsers org unit
+Password Last Set: 11/15/2021 15:13:42
+When Created: 11/15/2021 15:13:42
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: hkb0003
+Password Last Set: 09/22/2021 10:33:09
+When Created: 09/22/2021 10:33:09
+Distinguished Name:
+CN=Hannah Byxbee,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 12
+User was found in NewUsers org unit
+Password Last Set: 09/22/2021 10:33:09
+When Created: 09/22/2021 10:33:09
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jps00031
+Password Last Set: 11/11/2021 03:14:09
+When Created: 11/11/2021 03:14:09
+Distinguished Name:
+CN=Janae Sargent,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 13
+User was found in NewUsers org unit
+Password Last Set: 11/11/2021 03:14:09
+When Created: 11/11/2021 03:14:09
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jg10263
+Password Last Set: 11/09/2021 21:19:12
+When Created: 11/09/2021 21:19:12
+Distinguished Name:
+CN=Jill Greenwood,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 14
+User was found in NewUsers org unit
+Password Last Set: 11/09/2021 21:19:12
+When Created: 11/09/2021 21:19:12
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jw00072
+Password Last Set: 10/04/2021 11:01:05
+When Created: 10/04/2021 11:01:05
+Distinguished Name:
+CN=Jodi Walton,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 15
+User was found in NewUsers org unit
+Password Last Set: 10/04/2021 11:01:05
+When Created: 10/04/2021 11:01:05
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jwb00025
+Password Last Set: 11/08/2021 15:09:49
+When Created: 11/08/2021 15:09:49
+Distinguished Name:
+CN=John Biery,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 16
+User was found in NewUsers org unit
+Password Last Set: 11/08/2021 15:09:49
+When Created: 11/08/2021 15:09:49
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jepling1
+Password Last Set: 11/01/2021 04:14:49
+When Created: 11/01/2021 04:14:49
+Distinguished Name:
+CN=John Epling,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 17
+User was found in NewUsers org unit
+Password Last Set: 11/01/2021 04:14:49
+When Created: 11/01/2021 04:14:49
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jjc00005
+Password Last Set: 11/01/2021 04:12:54
+When Created: 11/01/2021 04:12:54
+Distinguished Name:
+CN=Joseph Cicchirillo,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 18
+User was found in NewUsers org unit
+Password Last Set: 11/01/2021 04:12:54
+When Created: 11/01/2021 04:12:54
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jchapma3
+Password Last Set: 11/17/2021 15:10:52
+When Created: 11/17/2021 15:10:52
+Distinguished Name:
+CN=Joshua Chapman,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 19
+User was found in NewUsers org unit
+Password Last Set: 11/17/2021 15:10:52
+When Created: 11/17/2021 15:10:52
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: jmg00053
+Password Last Set: 10/29/2021 04:18:14
+When Created: 10/29/2021 04:18:14
+Distinguished Name:
+CN=Justin Grow,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 20
+User was found in NewUsers org unit
+Password Last Set: 10/29/2021 04:18:14
+When Created: 10/29/2021 04:18:14
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: kzaniews
+Password Last Set: 10/29/2021 04:19:15
+When Created: 10/29/2021 04:19:14
+Distinguished Name:
+CN=Krista Soderholm,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 21
+User was found in NewUsers org unit
+Password Last Set: 10/29/2021 04:19:15
+When Created: 10/29/2021 04:19:14
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: kdc00005
+Password Last Set: 10/23/2021 04:48:24
+When Created: 10/23/2021 04:48:24
+Distinguished Name:
+CN=Kristi Crook,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 22
+User was found in NewUsers org unit
+Password Last Set: 10/23/2021 04:48:24
+When Created: 10/23/2021 04:48:24
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: lbw00010
+Password Last Set: 09/21/2021 05:06:03
+When Created: 09/21/2021 05:06:03
+Distinguished Name:
+CN=Lacey Wood,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 23
+User was found in NewUsers org unit
+Password Last Set: 09/21/2021 05:06:03
+When Created: 09/21/2021 05:06:03
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: lawilliams
+Password Last Set: 10/18/2021 04:40:19
+When Created: 10/18/2021 04:40:18
+Distinguished Name:
+CN=LaRue Williams,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 24
+User was found in NewUsers org unit
+Password Last Set: 10/18/2021 04:40:19
+When Created: 10/18/2021 04:40:18
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: ld0025
+Password Last Set: 10/31/2021 10:11:08
+When Created: 10/31/2021 10:11:08
+Distinguished Name:
+CN=Lindsay DiDio,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 25
+User was found in NewUsers org unit
+Password Last Set: 10/31/2021 10:11:08
+When Created: 10/31/2021 10:11:08
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: lff0002
+Password Last Set: 10/19/2021 05:05:39
+When Created: 10/19/2021 05:05:39
+Distinguished Name:
+CN=Lindsey Ford,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 26
+User was found in NewUsers org unit
+Password Last Set: 10/19/2021 05:05:39
+When Created: 10/19/2021 05:05:39
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: mk00062
+Password Last Set: 10/22/2021 16:17:19
+When Created: 10/22/2021 16:17:19
+Distinguished Name:
+CN=Michelle Kapp,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 27
+User was found in NewUsers org unit
+Password Last Set: 10/22/2021 16:17:19
+When Created: 10/22/2021 16:17:19
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: mthoma36
+Password Last Set: 11/01/2021 16:14:35
+When Created: 11/01/2021 16:14:35
+Distinguished Name:
+CN=Molly White,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 28
+User was found in NewUsers org unit
+Password Last Set: 11/01/2021 16:14:35
+When Created: 11/01/2021 16:14:35
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: oer00001
+Password Last Set: 10/11/2021 04:46:58
+When Created: 10/11/2021 04:46:58
+Distinguished Name:
+CN=Olivia Riley,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 29
+User was found in NewUsers org unit
+Password Last Set: 10/11/2021 04:46:58
+When Created: 10/11/2021 04:46:58
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: oim00001
+Password Last Set: 11/08/2021 15:09:26
+When Created: 11/08/2021 15:09:26
+Distinguished Name:
+CN=Omar Massoud,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 30
+User was found in NewUsers org unit
+Password Last Set: 11/08/2021 15:09:26
+When Created: 11/08/2021 15:09:26
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: plr00004
+Password Last Set: 10/20/2021 16:24:20
+When Created: 10/20/2021 16:24:20
+Distinguished Name:
+CN=Paul Reardon,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 31
+User was found in NewUsers org unit
+Password Last Set: 10/20/2021 16:24:20
+When Created: 10/20/2021 16:24:20
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: rwaybrig
+Password Last Set: 10/18/2021 22:29:52
+When Created: 10/18/2021 22:29:52
+Distinguished Name:
+CN=Rachel Waybright Tignor,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 32
+User was found in NewUsers org unit
+Password Last Set: 10/18/2021 22:29:52
+When Created: 10/18/2021 22:29:52
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: rb00062
+Password Last Set: 09/20/2021 10:26:49
+When Created: 09/20/2021 10:26:49
+Distinguished Name:
+CN=Rebecca Burnheimer,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 33
+User was found in NewUsers org unit
+Password Last Set: 09/20/2021 10:26:49
+When Created: 09/20/2021 10:26:49
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: rsf00004
+Password Last Set: 11/08/2021 15:10:25
+When Created: 11/08/2021 15:10:25
+Distinguished Name:
+CN=Regina Figg,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 34
+User was found in NewUsers org unit
+Password Last Set: 11/08/2021 15:10:25
+When Created: 11/08/2021 15:10:25
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: rburklan
+Password Last Set: 11/16/2021 03:13:21
+When Created: 11/16/2021 03:13:21
+Distinguished Name:
+CN=Rex Burkland,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 35
+User was found in NewUsers org unit
+Password Last Set: 11/16/2021 03:13:21
+When Created: 11/16/2021 03:13:21
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: rmchilders
+Password Last Set: 11/09/2021 09:16:43
+When Created: 11/09/2021 09:16:43
+Distinguished Name:
+CN=Ryan Childers,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 36
+User was found in NewUsers org unit
+Password Last Set: 11/09/2021 09:16:43
+When Created: 11/09/2021 09:16:43
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: sms00063
+Password Last Set: 10/14/2021 05:44:10
+When Created: 10/14/2021 05:44:10
+Distinguished Name:
+CN=Sarah Spencer,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 37
+User was found in NewUsers org unit
+Password Last Set: 10/14/2021 05:44:10
+When Created: 10/14/2021 05:44:10
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: sb00102
+Password Last Set: 10/14/2021 05:47:20
+When Created: 10/14/2021 05:47:20
+Distinguished Name:
+CN=Shakira Bowman,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 38
+User was found in NewUsers org unit
+Password Last Set: 10/14/2021 05:47:20
+When Created: 10/14/2021 05:47:20
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: sdc00010
+Password Last Set: 11/08/2021 15:10:31
+When Created: 11/08/2021 15:10:31
+Distinguished Name:
+CN=Shanon Clark,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 39
+User was found in NewUsers org unit
+Password Last Set: 11/08/2021 15:10:31
+When Created: 11/08/2021 15:10:31
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: slh00037
+Password Last Set: 11/05/2021 04:12:16
+When Created: 11/05/2021 04:12:15
+Distinguished Name:
+CN=Sherry Hamilton,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 40
+User was found in NewUsers org unit
+Password Last Set: 11/05/2021 04:12:16
+When Created: 11/05/2021 04:12:15
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: sshaw2
+Password Last Set: 10/18/2021 16:21:14
+When Created: 10/18/2021 16:21:14
+Distinguished Name:
+CN=Stephanie Shaw,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 41
+User was found in NewUsers org unit
+Password Last Set: 10/18/2021 16:21:14
+When Created: 10/18/2021 16:21:14
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: sc00062
+Password Last Set: 10/29/2021 10:10:54
+When Created: 10/29/2021 10:10:54
+Distinguished Name:
+CN=Suzanne Crandall,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 42
+User was found in NewUsers org unit
+Password Last Set: 10/29/2021 10:10:54
+When Created: 10/29/2021 10:10:54
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: te00009
+Password Last Set: 10/14/2021 05:46:32
+When Created: 10/14/2021 05:46:32
+Distinguished Name:
+CN=Tammy Eary,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 43
+User was found in NewUsers org unit
+Password Last Set: 10/14/2021 05:46:32
+When Created: 10/14/2021 05:46:32
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: tt10095
+Password Last Set: 11/09/2021 15:11:15
+When Created: 11/09/2021 15:11:15
+Distinguished Name:
+CN=Tina Tucker,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 44
+User was found in NewUsers org unit
+Password Last Set: 11/09/2021 15:11:15
+When Created: 11/09/2021 15:11:15
+Account is unclaimed. CSC request will not be processed
+*************************
+User found in NewUsers Org Unit
+SamAccountName: wcb00009
+Password Last Set: 09/20/2021 17:39:13
+When Created: 09/20/2021 17:39:13
+Distinguished Name:
+CN=Wilmot Burch,OU=NewUsers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu
+New AD User Count: 45
+User was found in NewUsers org unit
+Password Last Set: 09/20/2021 17:39:13
+When Created: 09/20/2021 17:39:13
+Account is unclaimed. CSC request will not be processed
+*************************
+
+Step 16:Copying session transcript to logs to save directory

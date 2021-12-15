@@ -1,0 +1,919 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200414125922
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.15063.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 41936
+PSVersion: 5.1.15063.1805
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.1805
+BuildVersion: 10.0.15063.1805
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\Remove-OldHomeDirectory\Logs\2020-04-14-12-59-SessionTranscript.txt
+File system path exists.
+aakinyem
+ab0106
+abpetrone
+ACGME
+aclemmer
+ads0058
+adt0029
+ag10198
+aha0012
+amm0009
+amp0057
+Andreas Resident Files
+arg0048
+arn0007
+ars0049
+asmittle
+battistellal
+Billing
+bjhickey
+bmccormick
+bradabaugh
+Carie-Trevor
+catitus
+cboykin
+Cheryl-Andrea
+Cheryl-Erin
+Chief-Resident-Andrea
+clarient-data
+cls0042
+Cytopathology-Fellowship
+dagray
+dcastrodale
+dco10003
+derm-DIF
+dgray
+dgray-7-7-2016
+dh0001
+dhowell
+Division Newsletter
+dmburch
+dreynolds
+Drivers
+dtacker
+eel0006
+EM-data
+eosborne
+ffranyut
+flanagan-Scholl
+Grossing Manual
+Heme Path Fellowship
+Hemepath Director-Coordinator
+hho00001
+hjwilliams
+HTL Program
+image1
+INBRE
+ja0071
+jag0046
+jao0015
+jawade
+jcoad
+jfalcon1
+jkarakiozis
+jrh0036
+jvevans
+jvos
+kfeaster
+kharbert
+kk00001
+kmolchanoff
+Koneman
+Kym-Andrea
+ltrout
+ma00009
+ma0268
+Marty-Erin
+mbsmolkin
+mcostas
+Medical Examiner
+Medtech
+mflanagan
+mgb0002
+mjz0005
+MLS-Admissions
+MLS-Curriculum Task Force
+MLS-Files
+MLS-Handbook-Taskforce
+MLS-Recruitment
+MLS-Website-Taskforce
+mmb0061
+mnkumar
+MS2 Pathology Course
+mtdownes
+mwa0006
+nhm0006
+nm0077
+Old-Accounts
+Overdue Reports VOS
+PA program
+PA-Admissions
+Path-Chair
+PathAdmin
+pbacaj
+plasala
+PLTM-GrossRoom-Pictures
+pperrotta
+QAU
+QB-Kieffer
+QB-PLTM
+Question-Bank
+rasasi
+Research-Lab
+Residency-Program
+Resident-Admin
+rfw10005
+rjc0031
+rlc0063
+rmchurma
+RMT-websites
+Robinson Data Extraction (LaSala - Auten - Kehinde)
+rys0001
+Saved Gross Specimens
+sdp10010
+shared
+sjk0013
+sss00001
+SurgPathFellowship
+swrigh11
+Tissue-Bank Database
+tjh00005
+tk10046
+TPL work
+Translational Pathology Archive
+tst0015
+twk0003
+twolfe10
+WVAP
+wvupath1
+Current Directory: aakinyem
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\aakinyem
+Directory Permissions:
+*********************
+Current Directory: ab0106
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ab0106
+Directory Permissions:
+*********************
+Current Directory: abpetrone
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\abpetrone
+Directory Permissions:
+*********************
+Current Directory: ACGME
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ACGME
+Directory Permissions:
+*********************
+Current Directory: aclemmer
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\aclemmer
+Directory Permissions:
+*********************
+Current Directory: ads0058
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ads0058
+Directory Permissions:
+*********************
+Current Directory: adt0029
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\adt0029
+Directory Permissions:
+*********************
+Current Directory: ag10198
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ag10198
+Directory Permissions:
+*********************
+Current Directory: aha0012
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\aha0012
+Directory Permissions:
+*********************
+Current Directory: amm0009
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\amm0009
+Directory Permissions:
+*********************
+Current Directory: amp0057
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\amp0057
+Directory Permissions:
+*********************
+Current Directory: Andreas Resident Files
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Andreas Resident Files
+Directory Permissions:
+*********************
+Current Directory: arg0048
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\arg0048
+Directory Permissions:
+*********************
+Current Directory: arn0007
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\arn0007
+Directory Permissions:
+*********************
+Current Directory: ars0049
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ars0049
+Directory Permissions:
+*********************
+Current Directory: asmittle
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\asmittle
+Directory Permissions:
+*********************
+Current Directory: battistellal
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\battistellal
+Directory Permissions:
+*********************
+Current Directory: Billing
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Billing
+Directory Permissions:
+*********************
+Current Directory: bjhickey
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\bjhickey
+Directory Permissions:
+*********************
+Current Directory: bmccormick
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\bmccormick
+Directory Permissions:
+*********************
+Current Directory: bradabaugh
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\bradabaugh
+Directory Permissions:
+*********************
+Current Directory: Carie-Trevor
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Carie-Trevor
+Directory Permissions:
+*********************
+Current Directory: catitus
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\catitus
+Directory Permissions:
+*********************
+Current Directory: cboykin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\cboykin
+Directory Permissions:
+*********************
+Current Directory: Cheryl-Andrea
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Cheryl-Andrea
+Directory Permissions:
+*********************
+Current Directory: Cheryl-Erin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Cheryl-Erin
+Directory Permissions:
+*********************
+Current Directory: Chief-Resident-Andrea
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Chief-Resident-Andrea
+Directory Permissions:
+*********************
+Current Directory: clarient-data
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\clarient-data
+Directory Permissions:
+*********************
+Current Directory: cls0042
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\cls0042
+Directory Permissions:
+*********************
+Current Directory: Cytopathology-Fellowship
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Cytopathology-Fellowship
+Directory Permissions:
+*********************
+Current Directory: dagray
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dagray
+Directory Permissions:
+*********************
+Current Directory: dcastrodale
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dcastrodale
+Directory Permissions:
+*********************
+Current Directory: dco10003
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dco10003
+Directory Permissions:
+*********************
+Current Directory: derm-DIF
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\derm-DIF
+Directory Permissions:
+*********************
+Current Directory: dgray
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dgray
+Directory Permissions:
+*********************
+Current Directory: dgray-7-7-2016
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dgray-7-7-2016
+Directory Permissions:
+*********************
+Current Directory: dh0001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dh0001
+Directory Permissions:
+*********************
+Current Directory: dhowell
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dhowell
+Directory Permissions:
+*********************
+Current Directory: Division Newsletter
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Division Newsletter
+Directory Permissions:
+*********************
+Current Directory: dmburch
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dmburch
+Directory Permissions:
+*********************
+Current Directory: dreynolds
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dreynolds
+Directory Permissions:
+*********************
+Current Directory: Drivers
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Drivers
+Directory Permissions:
+*********************
+Current Directory: dtacker
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\dtacker
+Directory Permissions:
+*********************
+Current Directory: eel0006
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\eel0006
+Directory Permissions:
+*********************
+Current Directory: EM-data
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\EM-data
+Directory Permissions:
+*********************
+Current Directory: eosborne
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\eosborne
+Directory Permissions:
+*********************
+Current Directory: ffranyut
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ffranyut
+Directory Permissions:
+*********************
+Current Directory: flanagan-Scholl
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\flanagan-Scholl
+Directory Permissions:
+*********************
+Current Directory: Grossing Manual
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Grossing Manual
+Directory Permissions:
+*********************
+Current Directory: Heme Path Fellowship
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Heme Path Fellowship
+Directory Permissions:
+*********************
+Current Directory: Hemepath Director-Coordinator
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Hemepath Director-Coordinator
+Directory Permissions:
+*********************
+Current Directory: hho00001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\hho00001
+Directory Permissions:
+*********************
+Current Directory: hjwilliams
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\hjwilliams
+Directory Permissions:
+*********************
+Current Directory: HTL Program
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\HTL Program
+Directory Permissions:
+*********************
+Current Directory: image1
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\image1
+Directory Permissions:
+*********************
+Current Directory: INBRE
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\INBRE
+Directory Permissions:
+*********************
+Current Directory: ja0071
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ja0071
+Directory Permissions:
+*********************
+Current Directory: jag0046
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jag0046
+Directory Permissions:
+*********************
+Current Directory: jao0015
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jao0015
+Directory Permissions:
+*********************
+Current Directory: jawade
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jawade
+Directory Permissions:
+*********************
+Current Directory: jcoad
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jcoad
+Directory Permissions:
+*********************
+Current Directory: jfalcon1
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jfalcon1
+Directory Permissions:
+*********************
+Current Directory: jkarakiozis
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jkarakiozis
+Directory Permissions:
+*********************
+Current Directory: jrh0036
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jrh0036
+Directory Permissions:
+*********************
+Current Directory: jvevans
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jvevans
+Directory Permissions:
+*********************
+Current Directory: jvos
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\jvos
+Directory Permissions:
+*********************
+Current Directory: kfeaster
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kfeaster
+Directory Permissions:
+*********************
+Current Directory: kharbert
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kharbert
+Directory Permissions:
+*********************
+Current Directory: kk00001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kk00001
+Directory Permissions:
+*********************
+Current Directory: kmolchanoff
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\kmolchanoff
+Directory Permissions:
+*********************
+Current Directory: Koneman
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Koneman
+Directory Permissions:
+*********************
+Current Directory: Kym-Andrea
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Kym-Andrea
+Directory Permissions:
+*********************
+Current Directory: ltrout
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ltrout
+Directory Permissions:
+*********************
+Current Directory: ma00009
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ma00009
+Directory Permissions:
+*********************
+Current Directory: ma0268
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\ma0268
+Directory Permissions:
+*********************
+Current Directory: Marty-Erin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Marty-Erin
+Directory Permissions:
+*********************
+Current Directory: mbsmolkin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mbsmolkin
+Directory Permissions:
+*********************
+Current Directory: mcostas
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mcostas
+Directory Permissions:
+*********************
+Current Directory: Medical Examiner
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Medical Examiner
+Directory Permissions:
+*********************
+Current Directory: Medtech
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Medtech
+Directory Permissions:
+*********************
+Current Directory: mflanagan
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mflanagan
+Directory Permissions:
+*********************
+Current Directory: mgb0002
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mgb0002
+Directory Permissions:
+*********************
+Current Directory: mjz0005
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mjz0005
+Directory Permissions:
+*********************
+Current Directory: MLS-Admissions
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Admissions
+Directory Permissions:
+*********************
+Current Directory: MLS-Curriculum Task Force
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Curriculum Task Force
+Directory Permissions:
+*********************
+Current Directory: MLS-Files
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Files
+Directory Permissions:
+*********************
+Current Directory: MLS-Handbook-Taskforce
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Handbook-Taskforce
+Directory Permissions:
+*********************
+Current Directory: MLS-Recruitment
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Recruitment
+Directory Permissions:
+*********************
+Current Directory: MLS-Website-Taskforce
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MLS-Website-Taskforce
+Directory Permissions:
+*********************
+Current Directory: mmb0061
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mmb0061
+Directory Permissions:
+*********************
+Current Directory: mnkumar
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mnkumar
+Directory Permissions:
+*********************
+Current Directory: MS2 Pathology Course
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\MS2 Pathology Course
+Directory Permissions:
+*********************
+Current Directory: mtdownes
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mtdownes
+Directory Permissions:
+*********************
+Current Directory: mwa0006
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\mwa0006
+Directory Permissions:
+*********************
+Current Directory: nhm0006
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\nhm0006
+Directory Permissions:
+*********************
+Current Directory: nm0077
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\nm0077
+Directory Permissions:
+*********************
+Current Directory: Old-Accounts
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Old-Accounts
+Directory Permissions:
+*********************
+Current Directory: Overdue Reports VOS
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Overdue Reports VOS
+Directory Permissions:
+*********************
+Current Directory: PA program
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PA program
+Directory Permissions:
+*********************
+Current Directory: PA-Admissions
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PA-Admissions
+Directory Permissions:
+*********************
+Current Directory: Path-Chair
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Path-Chair
+Directory Permissions:
+*********************
+Current Directory: PathAdmin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PathAdmin
+Directory Permissions:
+*********************
+Current Directory: pbacaj
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\pbacaj
+Directory Permissions:
+*********************
+Current Directory: plasala
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\plasala
+Directory Permissions:
+*********************
+Current Directory: PLTM-GrossRoom-Pictures
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\PLTM-GrossRoom-Pictures
+Directory Permissions:
+*********************
+Current Directory: pperrotta
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\pperrotta
+Directory Permissions:
+*********************
+Current Directory: QAU
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\QAU
+Directory Permissions:
+*********************
+Current Directory: QB-Kieffer
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\QB-Kieffer
+Directory Permissions:
+*********************
+Current Directory: QB-PLTM
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\QB-PLTM
+Directory Permissions:
+*********************
+Current Directory: Question-Bank
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Question-Bank
+Directory Permissions:
+*********************
+Current Directory: rasasi
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rasasi
+Directory Permissions:
+*********************
+Current Directory: Research-Lab
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Research-Lab
+Directory Permissions:
+*********************
+Current Directory: Residency-Program
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Residency-Program
+Directory Permissions:
+*********************
+Current Directory: Resident-Admin
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Resident-Admin
+Directory Permissions:
+*********************
+Current Directory: rfw10005
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rfw10005
+Directory Permissions:
+*********************
+Current Directory: rjc0031
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rjc0031
+Directory Permissions:
+*********************
+Current Directory: rlc0063
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rlc0063
+Directory Permissions:
+*********************
+Current Directory: rmchurma
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rmchurma
+Directory Permissions:
+*********************
+Current Directory: RMT-websites
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\RMT-websites
+Directory Permissions:
+*********************
+Current Directory: Robinson Data Extraction (LaSala - Auten - Kehinde)
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Robinson Data Extraction (LaSala - Auten - Kehinde)
+Directory Permissions:
+*********************
+Current Directory: rys0001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\rys0001
+Directory Permissions:
+*********************
+Current Directory: Saved Gross Specimens
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Saved Gross Specimens
+Directory Permissions:
+*********************
+Current Directory: sdp10010
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\sdp10010
+Directory Permissions:
+*********************
+Current Directory: shared
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\shared
+Directory Permissions:
+*********************
+Current Directory: sjk0013
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\sjk0013
+Directory Permissions:
+*********************
+Current Directory: sss00001
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\sss00001
+Directory Permissions:
+*********************
+Current Directory: SurgPathFellowship
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\SurgPathFellowship
+Directory Permissions:
+*********************
+Current Directory: swrigh11
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\swrigh11
+Directory Permissions:
+*********************
+Current Directory: Tissue-Bank Database
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Tissue-Bank Database
+Directory Permissions:
+*********************
+Current Directory: tjh00005
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\tjh00005
+Directory Permissions:
+*********************
+Current Directory: tk10046
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\tk10046
+Directory Permissions:
+*********************
+Current Directory: TPL work
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\TPL work
+Directory Permissions:
+*********************
+Current Directory: Translational Pathology Archive
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\Translational Pathology Archive
+Directory Permissions:
+*********************
+Current Directory: tst0015
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\tst0015
+Directory Permissions:
+*********************
+Current Directory: twk0003
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\twk0003
+Directory Permissions:
+*********************
+Current Directory: twolfe10
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\twolfe10
+Directory Permissions:
+*********************
+Current Directory: WVAP
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\WVAP
+Directory Permissions:
+*********************
+Current Directory: wvupath1
+Full path:\\hs.wvu-ad.wvu.edu\Public\Path\wvupath1
+Directory Permissions:
+*********************
+Current User: aig0005
+**************************
+Current User: bkirby
+**************************
+Current User: nm0077
+**************************
+Current User: dtsinclair
+**************************
+Current User: jcoad
+**************************
+Current User: pperrotta
+**************************
+Current User: mjz0005
+**************************
+Current User: pbacaj
+**************************
+Current User: cwinkie
+**************************
+Current User: amp0057
+**************************
+Current User: ffranyut
+**************************
+Current User: dco10003
+**************************
+Current User: tjh00005
+**************************
+Current User: ecosborne
+**************************
+Current User: kgyure
+**************************
+Current User: adt0029
+**************************
+Current User: twolfe10
+**************************
+Current User: mflanagan
+**************************
+Current User: sdp10010
+**************************
+Current User: jvos
+**************************
+Current User: jshrout3
+**************************
+Current User: amm0009
+**************************
+Current User: aakinyem
+**************************
+Current User: catitus
+**************************
+Current User: db0116
+**************************
+Current User: rys0001
+**************************
+Current User: kmfeaster
+**************************
+Current User: rfw10005
+**************************
+Current User: ads0058
+**************************
+Current User: 2316mailroom
+**************************
+Current User: plasala
+**************************
+Current User: jkarakiozis
+**************************
+Current User: kharbert
+**************************
+Current User: graye
+**************************
+Current User: MedLabSci
+**************************
+Current User: dtoothman
+**************************
+Current User: dagray
+**************************
+Current User: dreynolds
+**************************
+Current User: mfizer
+**************************
+Current User: cstasiak
+**************************
+Current User: bradabaugh
+**************************
+Current User: ruckleam
+**************************
+Current User: tlu2
+**************************
+Current User: mtdownes
+**************************
+Current User: mbsmolkin
+**************************
+Current User: abpetrone
+**************************
+Current User: mnkumar
+**************************
+Current User: swrigh11
+**************************
+Current User: mmb0061
+**************************
+Current User: rlc0063
+**************************
+Current User: tk10046
+**************************
+Current User: asmittle
+**************************
+Current User: jao0015
+**************************
+Current User: ys0027
+**************************
+Current User: mcostas
+**************************
+Current User: dmburch
+**************************
+Current User: rmchurma
+**************************
+Current User: cls0042
+**************************
+Current User: rasasi
+**************************
+Current User: ccoffindaffer
+**************************
+Current User: ma00009
+**************************
+Current User: hebennett
+**************************
+Current User: jvevans
+**************************
+Current User: HSC_PATH_STUDENT_LAB
+**************************
+Current User: PATH_CONFERENCE_A
+**************************
+Current User: PATH_CONFERENCE_C
+**************************
+Current User: PATH_CONFERENCE_D
+**************************
+Current User: dhowell
+**************************
+Current User: wvhealthywomen
+**************************
+Current User: pa-info
+**************************
+Current User: mwa0006
+**************************
+Current User: hho00001
+**************************
+Current User: jag0046
+**************************
+Current User: arn0007
+**************************
+Current User: bmccormick
+**************************
+Current User: ag10198
+**************************
+Current User: jrh0036
+**************************
+Current User: dtacker
+**************************
+Current User: dcastrodale
+**************************
+Current User: sss00001
+**************************
+Current User: aclemmer
+**************************
+Current User: jfalcon1
+**************************
+Current User: rr0047
+**************************
+Current User: tomago-chesneym
+**************************
+Current User: bjhickey
+**************************
+Current User: ltrout
+**************************
+Current User: battistellal
+**************************
+Current User: ars0049
+**************************
+Current User: sjk0013
+**************************
+Current User: jhfugett
+**************************
+Current User: ma0268
+**************************
+Current User: jm00012
+**************************
+Current User: aha0012
+**************************
+Current User: jawade
+**************************
+Current User: twk0003
+**************************
+Current User: rjc0031
+**************************
+Current User: mgb0002
+**************************
+Current User: bbertus
+**************************
+Current User: arg0048
+**************************
+Current User: kk00001
+**************************
+Current User: tst0015
+**************************
+Current User: bducatman
+**************************
+Current User: hjwilliams
+**************************
+**********************
+Windows PowerShell transcript end
+End time: 20200414125934
+**********************

@@ -1,0 +1,37 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210507152218
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2424
+PSVersion: 5.1.17763.1852
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1852
+BuildVersion: 10.0.17763.1852
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-05-07-15-22RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter:  (&(objectCategory=Computer)(name=SDW16060*))
+Computer Name: SDW16060
+Computer is up
+Current File Location: c:\windows\DBUtil_2_3.sys
+File doesn't exist
+************************
+Current Computer: SDW16141
+LDAPFilter:  (&(objectCategory=Computer)(name=SDW16141*))
+Computer Name: SDW16141
+Computer is up
+Current File Location: c:\windows\DBUtil_2_3.sys
+File doesn't exist
+************************
+**********************
+Windows PowerShell transcript end
+End time: 20210507152230
+**********************

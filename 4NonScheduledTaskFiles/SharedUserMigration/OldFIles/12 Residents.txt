@@ -1,0 +1,428 @@
+
+
+DisplayName : Ain, Quratul
+
+
+
+
+
+SmtpAddress        : quratul.ain@wvumedicine.org
+AddressString      : quratul.ain@wvumedicine.org
+ProxyAddressString : SMTP:quratul.ain@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=41feb2a16f774c92b3d1bbdf554c0f7a-qa0004
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=41feb2a16f774c92b3d1bbdf554c0f7a-qa0004
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=qa0004101
+
+
+
+-------
+
+
+DisplayName : Alam, Rayhan
+
+
+
+
+
+SmtpAddress        : rayhan.alam@wvumedicine.org
+AddressString      : rayhan.alam@wvumedicine.org
+ProxyAddressString : SMTP:rayhan.alam@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=87a6fdf01b3342d49052187222e0f0f6-ra0080
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=87a6fdf01b3342d49052187222e0f0f6-ra0080
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ra00805a4
+
+
+
+-------
+
+
+DisplayName : Barr, Breona
+
+
+
+
+
+SmtpAddress        : Breona.Barr@wvumedicine.org
+AddressString      : Breona.Barr@wvumedicine.org
+ProxyAddressString : SMTP:Breona.Barr@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+SmtpAddress        : Breonna.Barr.m@wvumedicine.org
+AddressString      : Breonna.Barr.m@wvumedicine.org
+ProxyAddressString : smtp:Breonna.Barr.m@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : False
+PrefixString       : smtp
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=de3e8f9f1a9f464ca49928be1465089a-bcb00011
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=de3e8f9f1a9f464ca49928be1465089a-bcb00011
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bcb00011738
+
+
+
+-------
+
+
+DisplayName : Byers, Nadine
+
+
+
+
+
+SmtpAddress        : nadine.byers1@wvumedicine.org
+AddressString      : nadine.byers1@wvumedicine.org
+ProxyAddressString : SMTP:nadine.byers1@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f2e86ba139904d8bbdc4425386dd6e41-nrb00003
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=f2e86ba139904d8bbdc4425386dd6e41-nrb00003
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=nrb00003201
+
+
+
+-------
+
+
+DisplayName : Galante, Morgan
+
+
+
+
+
+SmtpAddress        : morgan.galante@wvumedicine.org
+AddressString      : morgan.galante@wvumedicine.org
+ProxyAddressString : SMTP:morgan.galante@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d4a8c5a62592441a9f01623607768f14-mg10183
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=d4a8c5a62592441a9f01623607768f14-mg10183
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=mg10183aba
+
+
+
+-------
+
+
+DisplayName : James, Alec D.
+
+
+
+
+
+SmtpAddress        : Alec.James.m@wvumedicine.org
+AddressString      : Alec.James.m@wvumedicine.org
+ProxyAddressString : SMTP:Alec.James.m@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a03954434eae4786a94f019136c18602-James, 
+                     Alec
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=a03954434eae4786a94f019136c18602-James, Alec
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=James, Alec739
+
+
+
+-------
+
+
+DisplayName : Kane, Gregory
+
+
+
+
+
+SmtpAddress        : gregory.kane1@wvumedicine.org
+AddressString      : gregory.kane1@wvumedicine.org
+ProxyAddressString : SMTP:gregory.kane1@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2f6290622787478fb3b9f5e61501d0ac-gjk00004
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=2f6290622787478fb3b9f5e61501d0ac-gjk00004
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=gjk000048c3
+
+
+
+-------
+
+
+DisplayName : Khan, Afra
+
+
+
+
+
+SmtpAddress        : Afra.Khan.m@wvumedicine.org
+AddressString      : Afra.Khan.m@wvumedicine.org
+ProxyAddressString : SMTP:Afra.Khan.m@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=efde728b870546e79e9761873b47cae8-ak00024
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=efde728b870546e79e9761873b47cae8-ak00024
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ak00024d7e
+
+
+
+-------
+
+
+DisplayName : Munevar, Andrea M.
+
+
+
+
+
+SmtpAddress        : andrea.munevar@wvumedicine.org
+AddressString      : andrea.munevar@wvumedicine.org
+ProxyAddressString : SMTP:andrea.munevar@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e0ab894267cf43a1ac6fc41e71e16076-amm0145
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=e0ab894267cf43a1ac6fc41e71e16076-amm0145
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=amm0145ec3
+
+
+
+-------
+
+
+DisplayName : Shadid, Mahmethan
+
+
+
+
+
+SmtpAddress        : Mahmethan.Shadid.m@wvumedicine.org
+AddressString      : Mahmethan.Shadid.m@wvumedicine.org
+ProxyAddressString : SMTP:Mahmethan.Shadid.m@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3b092ae8d36149ada653adc151d9ee2d-mms00015
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=3b092ae8d36149ada653adc151d9ee2d-mms00015
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=mms00015762
+
+
+
+-------
+
+
+DisplayName : Pearlman, Adam
+
+
+
+
+
+SmtpAddress        : adam.pearlman.m@wvumedicine.org
+AddressString      : adam.pearlman.m@wvumedicine.org
+ProxyAddressString : SMTP:adam.pearlman.m@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b11b2f5f54bc4fec828bbd0e080f3fa5-ahp00002
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=b11b2f5f54bc4fec828bbd0e080f3fa5-ahp00002
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ahp00002540
+
+
+
+-------
+
+
+DisplayName : Pumariega, Nicole M.
+
+
+
+
+
+SmtpAddress        : nmp0020@wvumedicine.org
+AddressString      : nmp0020@wvumedicine.org
+ProxyAddressString : SMTP:nmp0020@wvumedicine.org
+Prefix             : SMTP
+IsPrimaryAddress   : True
+PrefixString       : SMTP
+
+
+
+
+
+AddressString      : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=36a9012e37d24b06b629b5b64ab1ca28-nmp0020
+ProxyAddressString : x500:/o=ExchangeLabs/ou=Exchange Administrative Group 
+                     (FYDIBOHF23SPDLT)/cn=Recipients/cn=36a9012e37d24b06b629b5b64ab1ca28-nmp0020
+Prefix             : X500
+IsPrimaryAddress   : False
+PrefixString       : x500
+
+
+
+
+
+LegacyExchangeDN : /o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=nmp0020777
+
+
+
+-------

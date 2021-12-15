@@ -1,0 +1,227 @@
+#TYPE System.Management.Automation.PSCustomObject
+"Status","wvu_id","uid","firstname","lastname","email","cost_center_name","job_title","WVU userid","wvuid","first","mid","Last"
+"Accepted","700141063","schwabl","Larry","Schwab",,"Ophthalmology::8140","M.D.::101802","schwabl","700141063","Larry","Tidd","Schwab"
+"Accepted","700154445","klf0017","Karyn","Molinari-Fryer",,"Community Pract FGC::8334","M.D.::101802","klf0017","700154445","Karyn","Lynette","Fryer"
+"Accepted","700243917","sshaw2","Stephanie","Rellick",,"PATHOLOGY (38)::38","PATHOLOGIST'S ASSISTANT (TISSUE BANK) (N655)::N655","sshaw2","700243917","Stephanie","M","Shaw"
+"Accepted","700251554","mprzybys","Mary","Przybysz",,"ANESTHESIOLOGY (8000)::8000","RESIDENT (N494)::N494","mprzybys","700251554","Mary","Elizabeth","Przybysz"
+"R: uid mismatch","700621459",,"Janet","Anderson","janderson@hsc.wvu.edu","Surgery::8240","Administrative Assistant::7","janderson","700621459","Janet","M","Anderson"
+"Accepted","700709974","tjones28","Trevor","Jones",,"NEUROLOGY (8080)::8080","PHYSICAL THERAPIST (89)::89","tjones28","700709974","Trevor","Michael","Jones"
+"Accepted","700876671","ckisamor","Courtney","Kisamore",,"BEHAVIORAL MEDICINE (8020)::8020","CRC INTERN / NON LICENSED THERAPIST (N573)::N573","ckisamor","700876671","Courtney","Danielle","Kisamore"
+"Accepted","700878612","ssisson","Sidney","Sisson",,"FAMILY MEDICINE (8040)::8040, Family Medicine::8040","M.D. (133)::133, M.D.::101802","ssisson","700878612","Sidney","Marie","Sisson"
+"Accepted","700923102","msakkal","Mouhammed","Sakkal",,"Internal Medicine::8060","Resident (N494)::N494","msakkal","700923102","Mouhammed","Aiman","Sakkal"
+"Accepted","700923746","kwhite40","Katherine","White",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","kwhite40","700923746","Katherine","Elaine","White"
+"Accepted","701013064","jaddicks","Justin","Addicks",,"Radiology ::44","Resident (N494)::N494","jaddicks","701013064","Justin","David","Addicks"
+"Accepted","701040625","gdarnell","Gregory","Darnell",,"FAMILY MEDICINE (8040)::8040","RESIDENT (N494)::N494","gdarnell","701040625","Gregory","Alexander","Darnell"
+"Accepted","701142191","jthorne3","Joshua","Thorne",,"Dentistry::10004","Resident (N494)::N494","jthorne3","701142191","Joshua","Garrett","Thorne"
+"Accepted","701158902","hhollan2","Heather","Hollandsworth",,"OB-GYN (8120)::8120","RESIDENT (N494)::N494","hhollan2","701158902","Heather","James","Hollandsworth"
+"Accepted","701171005","jallen23","Jordan","Allen",,"EMERGENCY MEDICINE - WVUH (8280)::8280","RESIDENT (N494)::N494","jallen23","701171005","Jordan","Thomas","Allen"
+"Accepted","701224333","mlett","Mona","Lett",,"Surgery::8240","Administrative Assistant::7","mlett","701224333","Mona","S","Lett"
+"Accepted","800011433","ceheatherly","Carly","McCranie",,"FAMILY MEDICINE::402","Resident - 2::100707","ceheatherly","800011433","Carly","Elizabeth","Heatherly"
+"R: uid mismatch","800029087","mas00068","Michelle","Scribner",,"Med - Hospitalist Service::8066","D.O.::101810","mlnaymick","800029087","Michelle","Lynne","Naymick"
+"Accepted","800054463","jutomanguillochumbe","Julton","Tomanguillo Chumbe",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","jutomanguillochumbe","800054463","Julton",,"Tomanguillo Chumbe"
+"R: uid mismatch","800057327",,"Jessica","Allen",,"Ob/Gyn::8120","Resident (N494)::N494","jrblack","800057327","Jessica","Rae","Allen"
+"R: uid mismatch","800057327",,"Jessica","Allen",,"Ob/Gyn::8120","Resident (N494)::N494","jrblack","800057327","Jessica","Rae","Allen"
+"Accepted","800074286","lrgoodwin","Lucas","Goodwin",,"Family Medicine::8040","Resident (N494)::N494","lrgoodwin","800074286","Lucas","Reed","Goodwin"
+"Accepted","800074542","csshrevedavis","Christopher","Shreve Davis",,"Family Medicine::8040","Resident (N494)::N494","csshrevedavis","800074542","Christopher","Shane","Davis"
+"R: uid mismatch","800092056","stmcgraw","Stephanie","McGraw",,"Psychology::480","Ph.D.::101806","snmcgraw","800092056","Stephanie","Nicole Turner","McGraw"
+"Accepted","800134600","vahamadesaid","Vanessa","Hamade",,"BEHAVIORAL MEDICINE (8020)::8020","CRC INTERN / NON LICENSED THERAPIST (N573)::N573","vahamadesaid","800134600","Vanessa",,"Hamade Said"
+"R: uid mismatch","800149963",,"Jenna","Mosely Lohnes","jenna.moselylohnes@wvumedicine.org","Behavioral Medicine::8020","Clinical Therapist::26166","jrmoselylohnes","800149963","Jenna",,"Mosely Lohnes"
+"Accepted","800177008","hansenada","Adam","Hansen",,"HVI - Bridgeport::121","M.D.::101802","hansenada","800177008","Adam","J","Hansen"
+"WVU Add","800185765","srm0007","Stacy","Marolt","stacy.marolt@wvumedicine.org","Orthopaedics::8160","Surg Sched-Admin Asst::89865",,,,,
+"WVU Add","800185765","srm0007","Stacy","Marolt","stacy.marolt@wvumedicine.org","Orthopaedics::8160","Surg Sched-Admin Asst::89865",,,,,
+"WVU Add","800185765","srm0007","Stacy","Marolt","stacy.marolt@wvumedicine.org","Orthopaedics::8160","Surg Sched-Admin Asst::89865",,,,,
+"WVU Add","800185765","srm0007","Stacy","Marolt","stacy.marolt@wvumedicine.org","Orthopaedics::8160","Surg Sched-Admin Asst::89865",,,,,
+"Accepted","800218142","rk0036","Ren-Shuoh","Kuo",,"Int Med - Critical Care::8084","D.O.::82","rk0036","800218142","Ren Shuoh",,"Kuo"
+"Accepted","800225052","age0002","Amanda","Ervin",,"BEHAVIORAL MEDICINE (8020)::8020","CRC INTERN / NON LICENSED THERAPIST (N573)::N573","age0002","800225052","Amanda","Grace","Ervin"
+"Accepted","800234603","sk0083","Shefali","Khanna",,"Surgery::8240","Resident (N494)::N494","sk0083","800234603","Shefali",,"Khanna"
+"Accepted","800247524","ah0090","Atlee","Houser",,"BEHAVIORAL MEDICINE (8020)::8020","CRC INTERN / NON LICENSED THERAPIST (N573)::N573","ah0090","800247524","Atlee",,"Houser"
+"R: wvuid mismatch: uid mismatch","800257033","kaw0047","Kristen","Whitmore",,"Psychology::480","PsyD::101807","kaw00011","800358020","Kristen","Ann","Whitmore"
+"Accepted","800258658","lk0027","Lindsey","Kent",,"PEDIATRICS (41)::8220","RESIDENT (N494)::N494","lk0027","800258658","Lindsey",,"Kent"
+"Accepted","800258715","am0174","Adil","Memon",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","am0174","800258715","Adil",,"Memon"
+"Accepted","800281836","kme0028","Kalynn","Spaid",,"BEHAVIORAL MEDICINE (8020)::8020","CRC INTERN / NON LICENSED THERAPIST (N573)::N573","kme0028","800281836","Kalynn","Maschelle","Spaid"
+"Accepted","800288662","jn0048","Jeffrey","Niles",,"BEHAVIORAL MEDICINE (8020)::8020","RESIDENT (N494)::N494","jn0048","800288662","Jeffrey",,"Niles"
+"Accepted","800288667","ss0243","Shikha","Sharma",,"PEDIATRICS (41)::8220","RESIDENT (N494)::N494","ss0243","800288667","Shikha",,"Sharma"
+"Accepted","800288669","gs0069","Gurmaninder","Singh",,"EMERGENCY MEDICINE - WVUH (8280)::8280","RESIDENT (N494)::N494","gs0069","800288669","Gurmaninder",,"Singh"
+"Accepted","800296190","sr0110","Sasha","Rihter",,"Emergency Services::51","D.O.::101810","sr0110","800296190","Sasha",,"Rihter"
+"Accepted","800313133","jnp0015","Jessica","Poling",,"BEHAVIORAL MEDICINE (8020)::8020","CRC INTERN / NON LICENSED THERAPIST (N573)::N573","jnp0015","800313133","Jessica","Nicole","Poling"
+"Accepted","800318720","er0918","Emily","Rider",,"Family Medicine::8040","Resident (N494)::N494","er0918","800318720","Emily",,"Rider"
+"Accepted","800318721","ab0330","Alexander","Ball",,"Internal Medicine::8060","Resident (N494)::N494","ab0330","800318721","Alexander",,"Ball"
+"Accepted","800318729","lt0069","Lydia","Tambasis",,"Internal Medicine::8060","Resident (N494)::N494","lt0069","800318729","Lydia",,"Tambasis"
+"Accepted","800318874","ema0024","Elham","Alqudah",,"PEDIATRICS (41)::8220","RESIDENT (N494)::N494","ema0024","800318874","Elham","Mahmoud Mohammad","Alqudah"
+"Accepted","800319518","msc00001","Michael","Cavender",,"Endodontics::8775","D.D.S.::80","msc00001","800319518","Michael","S","Cavender"
+"Accepted","800319916","nac00001","Nathan","Cozman",,"FAMILY MEDICINE (8040)::8040","RESIDENT (N494)::N494","nac00001","800319916","Nathan","A","Cozman"
+"Accepted","800320390","rb10132","Ramandeep","Bolla",,"FAMILY MEDICINE (8040)::8040","RESIDENT (N494)::N494","rb10132","800320390","Ramandeep",,"Bolla"
+"Accepted","800320391","kg10108","Kwasi","Gambrah",,"FAMILY MEDICINE (8040)::8040","RESIDENT (N494)::N494","kg10108","800320391","Kwasi",,"Gambrah"
+"Accepted","800320392","sl10111","Sean","Losier",,"FAMILY MEDICINE (8040)::8040","RESIDENT (N494)::N494","sl10111","800320392","Sean",,"Losier"
+"Accepted","800329179","fa00003","Firas","Solaiman",,"HVI - Martinsburg::7920","M.D.::101802","fa00003","800329179","Firas",,"Al Solaiman"
+"Accepted","800348902","mkg00002","Mark","Greathouse",,"HVI - Cardiology::126, HVI - Cardiology::126","M.D.::101802, M.D.::101802","mkg00002","800348902","Mark","Kevin","Greathouse"
+"Accepted","800351446","acb00016","Annalise","Brockner",,"BEHAVIORAL MEDICINE (8020)::8020","CRC INTERN / NON LICENSED THERAPIST (N573)::N573","acb00016","800351446","Annalise","Colleen","Brockner"
+"Accepted","800354095","ca10090","Christopher","Allen",,"HVI Wheeling::7919","M.D.::101802","ca10090","800354095","Christopher",,"Allen"
+"Accepted","800354096","js10369","Joseph","Sinclair",,"Ophthalmology::8140","M.D.::101802","js10369","800354096","Joseph",,"Sinclair"
+"Accepted","800355404","ad11094","Anthony","Del Zotto",,"EMERGENCY MEDICINE - WVUH (8280)::8280","RESIDENT (N494)::N494","ad11094","800355404","Anthony",,"Del Zotto"
+"Accepted","800355406","ah10228","Adrian","Hackney",,"Family Medicine::8040::8040","RESIDENT (N494)::N494","ah10228","800355406","Adrian",,"Hackney"
+"Accepted","800355409","ab10371","Alexander","Boreham",,"EMERGENCY MEDICINE - WVUH (8280)::8280","RESIDENT (N494)::N494","ab10371","800355409","Alexander",,"Boreham"
+"Accepted","800355421","jd10177","Joseph","Del Zotto",,"EMERGENCY MEDICINE - WVUH (8280)::8280","RESIDENT (N494)::N494","jd10177","800355421","Joseph",,"Del Zotto"
+"Accepted","800355424","ls10205","Lauren","Searls",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","ls10205","800355424","Lauren",,"Searls"
+"Accepted","800355433","sw10144","Seth","Williams",,"SURGERY (46)::46","RESIDENT (N494)::N494","sw10144","800355433","Seth",,"Williams"
+"Accepted","800355724","km10040","Katharine","MacMillan",,"FAMILY MEDICINE::402","Resident - 2::100707","km10040","800355724","Katharine",,"MacMillan"
+"Accepted","800356461","um00001","Umer","Muhammad",,"PEDIATRICS (41)::8220","RESIDENT (N494)::N494","um00001","800356461","Umer",,"Muhammad"
+"Accepted","800356576","sn00010","S Tahira","Naqvi",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","sn00010","800356576","S Tahira Shaheera Shah",,"Naqvi"
+"Accepted","800356577","as00066","Ayesha","Shameem",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","as00066","800356577","Ayesha",,"Shameem"
+"Accepted","800356578","prb00007","Parameshwara","Bolla",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","prb00007","800356578","Parameshwara","Rao","Bolla"
+"Accepted","800356579","br00011","Balachandran","Rishinaradamangalam Vaidyanathan",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","br00011","800356579","Balachandran",,"Rishinaradamangalam Vaidyanathan"
+"Accepted","800357199","ljw00007","Ling Jie","Wang",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","ljw00007","800357199","Ling","Jie","Wang"
+"Accepted","800370952","ap10219","Andrew","Parsons",,"Orthopaedics::8160","M.D.::101802","ap10219","800370952","Andrew","William","Parsons"
+"Accepted","800371657","ts12114","Terry","Sanders",,"Emergency Medicine - WVUH::8280","M.D.::101802","ts12114","800371657","Terry",,"Sanders"
+"Accepted","800376335","pj10022","Praveen","Jeyaseelan",,"OPHTHALMOLOGY (8140)::8140, Ophthalmology::8140","M.D.::101802, M.D.::101802","pj10022","800376335","Praveen",,"Jeyaseelan"
+"Accepted","800376989","bl10102","Bianca","LoVerde",,"Peds IP Based Svcs-CH::8238, Peds IP Based Svcs-CH::8238","D.O.::101810, D.O.::101810","bl10102","800376989","Bianca",,"LoVerde"
+"Accepted","800377167","cjd00034","Christine","Del Prado-Rico",,"Medicine-Pulmonary::8073","Resident (N494)::N494","cjd00034","800377167","Christine","Joanne C","Del Prado Rico"
+"Accepted","800377347","mam00069","Margaret","MacGibeny",,"Medical Education::407","Resident (N494)::N494","mam00069","800377347","Margaret","Anne","MacGibeny"
+"Accepted","800377590","amr00050","Ambika","Ramesh",,"Medicine::30","Resident (N494)::N494","amr00050","800377590","Ambika","Makum","Ramesh"
+"Accepted","800377627","bps00012","Brett","Simmons",,"Anesthesiology::8000","Resident (N494)::N494","bps00012","800377627","Brett","Patrick","Simmons"
+"Accepted","800377628","cae00011","Charles","Edwards",,"Emergency Medicine-WVUH::8280","Resident (N494)::N494","cae00011","800377628","Charles","Anderson","Edwards"
+"Accepted","800377708","bam00036","Brittany","McLay",,"Anesthesiology::8000","Resident (N494)::N494","bam00036","800377708","Brittany","Alyssa","McLay"
+"Accepted","800377715","nsp00005","Nicole","Pavlatos",,"Emergency Medicine-WVUH::8280","Resident (N494)::N494","nsp00005","800377715","Nicole","Sophia","Pavlatos"
+"Accepted","800377967","ks00068","Kamel","Sadat",,"Medicine::30","Resident (N494)::N494","ks00068","800377967","Kamel",,"Sadat"
+"Accepted","800378060","mpm00012","Miles","McNeir",,"Anesthesiology::8000","Resident (N494)::N494","mpm00012","800378060","Miles","Patrick","McNeir"
+"Accepted","800378062","rkr00005","Ryan","Ratchford",,"Medicine::30","Resident (N494)::N494","rkr00005","800378062","Ryan","Kight","Ratchford"
+"Accepted","800378098","mej00006","Mary","Johanson",,"Medicine::30","Resident (N494)::N494","mej00006","800378098","Mary","Elizabeth","Johanson"
+"Accepted","800378100","nmh00006","Nisha","Hollingsworth",,"Neurology::8080","Resident (N494)::N494","nmh00006","800378100","Nisha","Maria","Hollingsworth"
+"Accepted","800378190","bgy00001","Brian","Yonish",,"Anesthesiology::8000","Resident (N494)::N494","bgy00001","800378190","Brian","George","Yonish"
+"Accepted","800378197","mar00029","Michael","Reynolds",,"Emergency Medicine-WVUH::8020","Resident (N494)::N494","mar00029","800378197","Michael","Antonio","Reynolds"
+"Accepted","800378205","ehd00004","Eugene","Dao",,"Radiology ::44","Resident (N494)::N494","ehd00004","800378205","Eugene","Han","Dao"
+"Accepted","800378215","wer00002","Winnie","Roy",,"Medical Education::407","Resident (N494)::N494","wer00002","800378215","Winnie","E","Roy"
+"Accepted","800378248","jas00062","Jacob","Scribner",,"MED-Infectious Diseases::8067","Resident (N494)::N494","jas00062","800378248","Jacob","Allen","Scribner"
+"Accepted","800378282","apb00016","Andrew","Beiter",,"Medical Education::407","Resident (N494)::N494","apb00016","800378282","Andrew","Paul","Beiter"
+"Accepted","800378424","eeh00014","Emilee","Handyside",,"Anesthesiology::8000","Resident (N494)::N494","eeh00014","800378424","Emilee","Erna","Handyside"
+"Accepted","800378453","sm00071","Safa","Moursy",,"Medicine-Nephrology::8069","Resident (N494)::N494","sm00071","800378453","Safa",,"Moursy"
+"Accepted","800378913","gl10033","Grace","Levy-Clarke",,"OPHTHALMOLOGY (8140)::8140, Ophthalmology::8140","M.D.::101802, M.D.::101802","gl10033","800378913","Grace","Angella","Levy Clarke"
+"Accepted","800379611","ksh00013","Keyane","Haile",,"Family Medicine::8040","Resident (N494)::N494","ksh00013","800379611","Keyane","Simerett","Haile"
+"Accepted","800380096","moz00001","Mohamed","Zitun",,"Med-Digestive Diseases::8062","Resident (N494)::N494","moz00001","800380096","Mohamed","O","Zitun"
+"Accepted","800380292","wdt00006","Wondwosen","Tadesse",,"Neurology::8080","Resident (N494)::N494","wdt00006","800380292","Wondwosen","Demissie","Tadesse"
+"Accepted","800380451","pm00036","Prasanna","Manjini Sengodan",,"Medicine::30","Resident (N494)::N494","pm00036","800380451","Prasanna",,"Manjini Sengodan"
+"Accepted","800380520","sdr00016","Smailen","Rodriguez Cueto",,"Neurology::8080","Resident (N494)::N494","sdr00016","800380520","Smailen","Diranny","Rodriguez Cueto"
+"Accepted","800380532","aa00102","Ayman","Almousa",,"Surgery::46","Resident (N494)::N494","aa00102","800380532","Ayman",,"Almousa"
+"Accepted","800380534","mc00100","Muchi Ditah","Chobufo",,"Medicine::30","Resident (N494)::N494","mc00100","800380534","Muchi Ditah",,"Chobufo"
+"Accepted","800380569","mbk00009","Muhammad","Khan",,"Neurosurgery::8100","Resident (N494)::N494","mbk00009","800380569","Muhammad","Babar","Khan"
+"Accepted","800380588","hs00042","Hanife","Saglam",,"Neurology::8080","Resident (N494)::N494","hs00042","800380588","Hanife",,"Saglam"
+"Accepted","800380745","rwp00007","Robert","Powers",,"Family Medicine::8040","Resident (N494)::N494","rwp00007","800380745","Robert","Weiss","Powers"
+"Accepted","800380828","cca00006","Cameron","Anderson",,"FAMILY MEDICINE (8040)::8040","RESIDENT (N494)::N494","cca00006","800380828","Cameron","C","Anderson"
+"Accepted","800380869","rn00019","Roma","Nagin",,"Internal Medicine::8060","Resident (N494)::N494","rn00019","800380869","Roma",,"Nagin"
+"Accepted","800380879","zjs00004","Zahra","Sarfaraz",,"PEDIATRICS (8220)::8220","RESIDENT (N494)::N494","zjs00004","800380879","Zahra","Jabeen","Sarfaraz"
+"Accepted","800380907","ba00042","Borna","Amir-Kabirian",,"Internal Medicine::8060","Resident (N494)::N494","ba00042","800380907","Borna",,"Amir-Kabirian"
+"Accepted","800380933","zza00001","Zeina","Almajthoub",,"Pediatrics::8220","Resident (N494)::N494","zza00001","800380933","Zeina","Zainalabdeen A","Almajthoub"
+"Accepted","800380934","afw00003","Adam","Whiteley",,"Pediatrics::8220","Resident (N494)::N494","afw00003","800380934","Adam","Frederick","Whiteley"
+"Accepted","800380935","cjn00004","Courtney","Nail",,"Ob/Gyn::8120","Resident (N494)::N494","cjn00004","800380935","Courtney","Jean","Nail"
+"Accepted","800380936","mea00021","Mark","Ayoub",,"Internal Medicine::8060","Resident (N494)::N494","mea00021","800380936","Mark","Esmat Shohdy","Ayoub"
+"Accepted","800380937","mmb00034","Muhammad","Bhinder",,"Internal Medicine::8060","Resident (N494)::N494","mmb00034","800380937","Muhammad","Mujtaba","Bhinder"
+"Accepted","800380938","bch00008","Brandon","Howe",,"Internal Medicine::8060","Resident (N494)::N494","bch00008","800380938","Brandon","Curtis","Howe"
+"Accepted","800380939","jik00002","Joshua","Kepfinger",,"Internal Medicine::8060","Resident (N494)::N494","jik00002","800380939","Joshua","Ian","Kepfinger"
+"Accepted","800380940","sel00020","Sarah","Lago",,"Internal Medicine::8060","Resident (N494)::N494","sel00020","800380940","Sarah","Elizabeth","Lago"
+"R: uid mismatch","800380941",,"Maria","Rana",,"Internal Medicine::8060","Resident (N494)::N494","mar00032","800380941","Maria","Anjum","Rana"
+"R: uid mismatch","800380941",,"Maria","Rana",,"Internal Medicine::8060","Resident (N494)::N494","mar00032","800380941","Maria","Anjum","Rana"
+"Accepted","800380942","jas00065","James","Straley",,"MEDICINE (8060)::8060","RESIDENT (N494)::N494","jas00065","800380942","James","Austin","Straley"
+"Accepted","800380943","bab00041","Benjamin","Bale",,"Pulmonary Critical Care::8060","Resident (N494)::N494","bab00041","800380943","Benjamin","Allen","Bale"
+"Accepted","800380944","lvb00003","Lyudmila","Burkart",,"Pulmonary Critical Care::8060","Resident (N494)::N494","lvb00003","800380944","Lyudmila","Viktorovna","Burkart"
+"Accepted","800380945","ds00061","Divyakshi","Solanki",,"BEHAVIORAL MEDICINE (8020)::8020, Behavioral Medicine::8020","RESIDENT CHARLESTON::N922, Resident (N494)::N494","ds00061","800380945","Divyakshi",,"Solanki"
+"Accepted","800380946","arb00036","Angeline","Bottera",,"Psychology Internship::8020","Resident (N494)::N494","arb00036","800380946","Angeline","Rose","Bottera"
+"Accepted","800380947","cjc00040","Casey","Cottrill",,"Psychology Internship::8020","Resident (N494)::N494","cjc00040","800380947","Casey","Jo","Cottrill"
+"Accepted","800380948","pth00004","Phoebe","Hitson",,"Psychology Internship::8020","Resident (N494)::N494","pth00004","800380948","Phoebe","Tabb","Hitson"
+"Accepted","800380949","pdc00007","Patrick","Christopher",,"Oral & Maxillofacial::8240","Resident (N494)::N494","pdc00007","800380949","Patrick","Dumba","Christopher"
+"Accepted","800380951","eeo00003","Erin","Oberg",,"Family Medicine::8040","Resident (N494)::N494","eeo00003","800380951","Erin","Elizabeth","Oberg"
+"Accepted","800380952","nxd00001","Noah","Dargy",,"Vascular Surgery::8240","Resident (N494)::N494","nxd00001","800380952","Noah","Xavier","Dargy"
+"Accepted","800380953","eld00010","Erica","Dobbs",,"Surgery::8240","Resident (N494)::N494","eld00010","800380953","Erica","Lynn","Dobbs"
+"Accepted","800380955","ggw00002","George","Wilson",,"Surgery::8240","Resident (N494)::N494","ggw00002","800380955","George","Geoffrey","Wilson"
+"Accepted","800380967","imk00007","Ilham","Kashgarian",,"Internal Medicine::8060","Resident (N494)::N494","imk00007","800380967","Ilham","M","Kashgarian"
+"Accepted","800381128","ab00110","Ahmed","Badran",,"PEDIATRICS (8220)::8220","RESIDENT (N494)::N494","ab00110","800381128","Ahmed",,"Badran"
+"Accepted","800381187","cp10172","Christina","Phalen",,"Oral & Maxillofacial::8240","Resident (N494)::N494","cp10172","800381187","Christina",,"Phalen"
+"Accepted","800381434","hp10025","Heather","Phillips",,"Health Information Mgmt::546","Release of Info Spec::96","hp10025","800381434","Heather",,"Phillips"
+"Accepted","800381441","ss10460","Sushant","Sharma",,"HVI-Wheeling Hospital::7929","M.D.::101802","ss10460","800381441","Sushant",,"Sharma"
+"Accepted","800381442","tb10203","Teresa","Bell",,"Health Information Mgmt::546","Release of Info Spec::96","tb10203","800381442","Teresa",,"Bell"
+"Accepted","800381673","kbm10021","Kayleigh","Macleery",,"Surgery::8240","Medical Assistant::164","kbm10021","800381673","Kayleigh",,"Macleery"
+"Accepted","800381748","ecn00006","Edward","Nemergut II",,"Anesthesiology::8000, Anesthesiology::8000","M.D.::101802, M.D.::101802","ecn00006","800381748","Edward","C","Nemergut"
+"Accepted","800381854","ap10250","Andrea","Pizzini",,"Periodontics::8740","D.D.S.::80","ap10250","800381854","Andrea",,"Pizzini"
+"Accepted","800382053","an10094","Amir","Nasir",,"General Surgery::86","Physician::101059","an10094","800382053","Amir",,"Nasir"
+"Accepted","800382055","nm10137","Naji","Madi",,"Orthopaedics::8160","M.D.::101802","nm10137","800382055","Naji",,"Madi"
+"Accepted","800382056","te10015","Tony","El Jabbour",,"Pathology::8200","M.D.::101802","te10015","800382056","Tony",,"El Jabbour"
+"Accepted","800382230","ep10065","Edgar","Petras",,"WVU Childrens Peds EM::8291, Emergency Medicine - WVUH::8280","M.D.::101802, M.D.::101802","ep10065","800382230","Edgar",,"Petras"
+"Accepted","800382311","hp10026","Holly","Phelps",,"BEHAVIORAL MEDICINE (8020)::8020","RESIDENT (N494)::N494","hp10026","800382311","Holly",,"Phelps"
+"Accepted","800382589","dh10177","Daniel","Hurley",,"Emergency Services::51, Emergency Services::51","D.O.::101810, D.O.::101810","dh10177","800382589","Daniel",,"Hurley"
+"Accepted","800382609","drc00012","Dharmista","Chaudhary",,"HVI - Cardiology::126","Resident (N494)::N494","drc00012","800382609","Dharmista","R","Chaudhary"
+"Accepted","800382638","mna00006","Mohamed","AlHajji",,"HVI - Cardiology::126","Resident (N494)::N494","mna00006","800382638","Mohamed","NA","Alhajji"
+"Accepted","800383118","da00032","Diego","Accorsi",,"MEDICINE (30)::30","RESIDENT (N494)::N494","da00032","800383118","Diego",,"Accorsi"
+"Accepted","800384923","nbf00004","Najiha","Farooqi",,"HVI - Cardiology::126","Resident (N494)::N494","nbf00004","800384923","Najiha","B","Farooqi"
+"Accepted","800385617","lg00031","Lakshmi","Garladinne",,"Diagnostic Sciences::8720","D.D.S.::80","lg00031","800385617","Lakshmi",,"Garladinne"
+"Accepted","800390866","dh10181","Dustin","Holmes",,"Behavioral Medicine::8020","CLINICAL DIETITIAN::39","dh10181","800390866","Dustin",,"Holmes"
+"R: wvuid missing: uid mismatch: dob mismatch",,,"Test","Dummy","t.t@wvumedicine.org","Behavioral Medicine::8020","CLINICAL DIETITIAN::39","sjr10039","800392206","Syrell","J","Rodriguez Carreras"
+"R: wvuid missing: uid mismatch: dob mismatch",,,"Test","Dummy","t.t@wvumedicine.org","Behavioral Medicine::8020","CLINICAL DIETITIAN::39","sjr10039","800392206","Syrell","J","Rodriguez Carreras"
+"R: not a real user",,,"Test","Dummy",,"HVI - Cardiology::126","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"HVI - Cardiology::126","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"HVI - Cardiology::126","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"HVI - Cardiology::126","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"HVI - Cardiology::126","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"HVI - Cardiology::126","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"HVI - Cardiology::126","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Anesthesiology::8000","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Neurology::8080","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Otolaryngology::8180","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","M.D.::101802",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","D.O.::101810",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","APP::85001",,,,,
+"R: not a real user",,,"Test","Dummy",,"Surgery::8240","APP::85001",,,,,

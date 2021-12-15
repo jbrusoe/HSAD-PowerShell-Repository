@@ -1,0 +1,10 @@
+PrimarySMTPAddress,RuleName,RuleForwardTo
+klbowling@wvumedicine.org,KronosPROD@wvuh.kronos.net [*] (1),"Mullens, Pamela" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f7fcbd6e394a4da996731204b5a79f52-plm0022] "Marshall, Melissa" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7cad3f63897f4220ada77f8694ac6193-mcm0071]
+microsoft@hsc.wvu.edu,Retiree,"Brusoe, Jeff" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=aa2621d035b24600bc5d34d5f62f4ed6-Jeffrey Bru]
+sph@hsc.wvu.edu,CDC ORISE to Audra,"Hamrick, Audra" [SMTP:ahamric3@hsc.wvu.edu]
+jill.johnston@wvumedicine.org,UNUM,"Mclaughlin, Virginia" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=077c4f1973cc42d197d3baf341af4103-McLaughlin,]
+dawn.berkshire@wvumedicine.org,Received from 'DoverEditors@e.doverpublishing.com',"Jaward, Aruna" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7bbbe31fe2554184b40c3fd359651d73-Jaward, Aru]
+michael.kowalok@hsc.wvu.edu,Forward billing audits to Hamid,"Panahandeh, Hamid Reza" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e636a9fc30884da594be15453b754bfb-Panahandeh,]
+rcassim@hsc.wvu.edu,Marsh Email,"Cordero, Lisa" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f8d15b76d00946f59f7aba4b201ac51d-Lisa Corder]
+willie.glusica@wvumedicine.org,AppCentral@CACTUSSoftware.com,"Abraham, Jennifer L." [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=034269ef488747b1a6351a8992505099-ja10174] "McClead, Darla R." [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9fe17197babd42b689b36af0c1066511-dm10205]
+epaletta@hsc.wvu.edu,Erin's Voicemail Messages,"Pirlo, Kent" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4001bcd630314d5692e32aa99f17313b-Kent Pirlo]

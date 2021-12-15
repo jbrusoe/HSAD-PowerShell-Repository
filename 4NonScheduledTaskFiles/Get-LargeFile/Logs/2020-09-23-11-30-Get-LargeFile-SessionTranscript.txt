@@ -1,0 +1,64 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200923113015
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7968
+PSVersion: 5.1.17763.1432
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1432
+BuildVersion: 10.0.17763.1432
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-LargeFile\Logs\\2020-09-23-11-30-Get-LargeFile-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-LargeFile\Logs\
+VERBOSE: File Count: 4
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Get-LargeFile\Logs\\2020-09-23-11-30-Get-LargeFile-SessionTranscript.txt
+Path: \\hs.wvu-ad.wvu.edu\Public\SOD\
+Getting file list
+Files Count: 4269451
+Selecting files
+
+FullName
+--------
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\aborgia\20200702 PROFILE BACKUP\Documents\Outlook Files.zip
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\ljrudy\Outlook Archive\ljrudy@hsc.wvu.edu.ost
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\MBAGBY\Documents\DENTMAT\Lectures\04_Gypsum\Alton Brown Fudge\crystals.camrec
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\ricep\RChristopher\backup.pst
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\preed\PFREED 20190708\AppData\Local\Microsoft\Outlook\pfreed@hsc.wvu.edu.ost
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Desktop\Birth\Nat...
+\\hs.wvu-ad.wvu.edu\Public\SOD\dprh\rwiener2\rwiener2@hsc.wvu.edu\HSDENTA1EC\Data\C\Users\rwiener2\Desktop\Birth\Nat...
+\\hs.wvu-ad.wvu.edu\Public\SOD\ortho\PNGAN\50th Anniversary\GMT20200911-171610_50th-Anniv_gallery_3840x2160 (1).mp4
+\\hs.wvu-ad.wvu.edu\Public\SOD\perio\dlanderson\archive.pst
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\MSTURMS\archive.pst
+\\hs.wvu-ad.wvu.edu\Public\SOD\dentadmin\MBAGBY\AppData\Local\Microsoft\Outlook\outlook.ost
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\Residents-Shared\STUDENT VIDEOS\INSTRUMENTATION.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\mls0001\721 Lectures 2018\Videos\INSTRUMENTATION.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\mls0001\Desktop\721 Course 2017\Videos\INSTRUMENTATION.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\mls0001\Backup\Old Desktop\721 Course 2017\Videos\INSTRUMENTATION.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\mls0001\721 Lectures 2018\Videos\ACCESS.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\mls0001\Desktop\721 Course 2017\Videos\ACCESS.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\Residents-Shared\STUDENT VIDEOS\ACCESS.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\mls0001\Backup\Old Desktop\721 Course 2017\Videos\ACCESS.MP4
+\\hs.wvu-ad.wvu.edu\Public\SOD\endo\Residents-Shared\Poulos GoPro\GP031720.MP4
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20200923115118
+**********************

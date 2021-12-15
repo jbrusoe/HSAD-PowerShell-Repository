@@ -1,0 +1,9 @@
+"State","Flags","Type","Path","TimeToLiveSec","Description","NamespacePath","TimeToLive","GrantAdminAccess","PSComputerName"
+"Online","Target Failback Site Costing","Domain V2","\\HS.wvu-ad.wvu.edu\Backups","300","","\\HS.wvu-ad.wvu.edu\Backups","300","System.String[]",
+"Online","Target Failback","Domain V2","\\HS.wvu-ad.wvu.edu\chsc","300","","\\HS.wvu-ad.wvu.edu\chsc","300","System.String[]",
+"Online","Target Failback Site Costing","Domain V2","\\HS.wvu-ad.wvu.edu\Clinic","300","","\\HS.wvu-ad.wvu.edu\Clinic","300","System.String[]",
+"Online","Target Failback Site Costing","Domain V2","\\HS.wvu-ad.wvu.edu\itsweb","300","","\\HS.wvu-ad.wvu.edu\itsweb","300","System.String[]",
+"Online","Target Failback Site Costing","Domain V1","\\HS.wvu-ad.wvu.edu\ITSWeb-Storage","300","","\\HS.wvu-ad.wvu.edu\ITSWeb-Storage","300","System.String[]",
+"Online","Target Failback Site Costing","Domain V1","\\HS.wvu-ad.wvu.edu\Public","300","","\\HS.wvu-ad.wvu.edu\Public","300","System.String[]",
+"Online","Target Failback Site Costing","Domain V2","\\HS.wvu-ad.wvu.edu\Research","300","","\\HS.wvu-ad.wvu.edu\Research","300","System.String[]",
+"Online","Target Failback Site Costing","Domain V2","\\HS.wvu-ad.wvu.edu\VDIResearch","300","","\\HS.wvu-ad.wvu.edu\VDIResearch","300","System.String[]",

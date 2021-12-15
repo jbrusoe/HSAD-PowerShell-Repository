@@ -1,0 +1,1 @@
+## HSC PowerShell Function Standards

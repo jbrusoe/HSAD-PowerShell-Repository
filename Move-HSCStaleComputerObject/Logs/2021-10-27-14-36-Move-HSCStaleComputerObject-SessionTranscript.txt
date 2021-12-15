@@ -1,0 +1,289 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211027143643
+Username: HS\kevinadmin
+RunAs User: HS\kevinadmin
+Configuration Name: 
+Machine: HSKEVINTEST (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 61596
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\\2021-10-27-14-36-Move-HSCStaleComputerObject-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\users\krussell\Documents\GitHub\HSC-PowerShell-Repository\Move-HSCStaleComputerObject\Logs\
+VERBOSE: File Count: 2
+All input parameters are set to default values.
+
+-625
+There where 128 objects found
+APOGEE11
+APOGEE5
+BGC8ND2 was successfully disabled
+BGC8ND2 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CBARNESDESKTOP was successfully disabled
+CBARNESDESKTOP was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU05YBWE was successfully disabled
+CWVU05YBWE was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU2FKYDX1 was successfully disabled
+CWVU2FKYDX1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU2HL3V12 was successfully disabled
+CWVU2HL3V12 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU2NCZZQ1 was successfully disabled
+CWVU2NCZZQ1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU2WRJDP1 was successfully disabled
+CWVU2WRJDP1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU6D28PL1 was successfully disabled
+CWVU6D28PL1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU6RHDV52 was successfully disabled
+CWVU6RHDV52 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU6ZXWZ12 was successfully disabled
+CWVU6ZXWZ12 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU7GT8N22 was successfully disabled
+CWVU7GT8N22 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU8ZGBCK1 was successfully disabled
+CWVU8ZGBCK1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVU9R12WH1 was successfully disabled
+CWVU9R12WH1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUB349LN1 was successfully disabled
+CWVUB349LN1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUB34BLN1 was successfully disabled
+CWVUB34BLN1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUD6YCLS1 was successfully disabled
+CWVUD6YCLS1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUD71GLS1 was successfully disabled
+CWVUD71GLS1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUD78FLS1 was successfully disabled
+CWVUD78FLS1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUD78GLS1 was successfully disabled
+CWVUD78GLS1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUF7J6M02 was successfully disabled
+CWVUF7J6M02 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUFZWV52 was successfully disabled
+CWVUFZWV52 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUG3M0B03 was successfully disabled
+CWVUG3M0B03 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+CWVUH044T52 was successfully disabled
+CWVUH044T52 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+EXPHYS-RGMILLER was successfully disabled
+EXPHYS-RGMILLER was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+H52325 was successfully disabled
+H52325 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+H53455 was successfully disabled
+H53455 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+H53457 was successfully disabled
+H53457 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+H56945 was successfully disabled
+H56945 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+H73310 was successfully disabled
+H73310 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+H74664 was successfully disabled
+H74664 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HEALTHSCIENCEPC was successfully disabled
+HEALTHSCIENCEPC was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSBEHMDA8F was successfully disabled
+HSBEHMDA8F was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSBMEDLPC9B6 was successfully disabled
+HSBMEDLPC9B6 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSBMEDSURF2 was successfully disabled
+HSBMEDSURF2 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSBPS0FCD was successfully disabled
+HSBPS0FCD was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSBPS153D was successfully disabled
+HSBPS153D was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSBRNIDDC0 was successfully disabled
+HSBRNIDDC0 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSCED87C9 was successfully disabled
+HSCED87C9 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSCEDAAC1 was successfully disabled
+HSCEDAAC1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSCORTHO9E49 was successfully disabled
+HSCORTHO9E49 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSC-SOP-18D9 was successfully disabled
+HSC-SOP-18D9 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSC-SOP-25DD was successfully disabled
+HSC-SOP-25DD was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSCSOP96A9 was successfully disabled
+HSCSOP96A9 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSDEVELB7EC was successfully disabled
+HSDEVELB7EC was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSE62E was successfully disabled
+HSE62E was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSFACF4A2 was successfully disabled
+HSFACF4A2 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSFACIL615D was successfully disabled
+HSFACIL615D was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSFME568 was successfully disabled
+HSFME568 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSHCOP33EB was successfully disabled
+HSHCOP33EB was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSHUMANPERFBA12 was successfully disabled
+HSHUMANPERFBA12 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINT028C was successfully disabled
+HSMAINT028C was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINT043A was successfully disabled
+HSMAINT043A was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINTA7FE was successfully disabled
+HSMAINTA7FE was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINTCF94 was successfully disabled
+HSMAINTCF94 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINTD806 was successfully disabled
+HSMAINTD806 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINTE86B was successfully disabled
+HSMAINTE86B was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINTF827 was successfully disabled
+HSMAINTF827 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMAINTFA2A was successfully disabled
+HSMAINTFA2A was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMBRCC76FD was successfully disabled
+HSMBRCC76FD was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMBRCCF591 was successfully disabled
+HSMBRCCF591 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMED31EB was successfully disabled
+HSMED31EB was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMED7ADB was successfully disabled
+HSMED7ADB was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMEDAA6E was successfully disabled
+HSMEDAA6E was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMEDEDE28 was successfully disabled
+HSMEDEDE28 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSMICROE6540 was successfully disabled
+HSMICROE6540 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSNEUSUR4AF6 was successfully disabled
+HSNEUSUR4AF6 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSOBGYN03426 was successfully disabled
+HSOBGYN03426 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPALM49B6E was successfully disabled
+HSPALM49B6E was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPALM5477D was successfully disabled
+HSPALM5477D was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPED19C7 was successfully disabled
+HSPED19C7 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HS-PEDS-3FD5 was successfully disabled
+HS-PEDS-3FD5 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPEDS62BB was successfully disabled
+HSPEDS62BB was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPEDS8782 was successfully disabled
+HSPEDS8782 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPEDS9EC2 was successfully disabled
+HSPEDS9EC2 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPEDSC5A5 was successfully disabled
+HSPEDSC5A5 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPHYSIOA158 was successfully disabled
+HSPHYSIOA158 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSPSP729C was successfully disabled
+HSPSP729C was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSRNI6B7D was successfully disabled
+HSRNI6B7D was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSRNIF9B8 was successfully disabled
+HSRNIF9B8 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSOP67FE was successfully disabled
+HSSOP67FE was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSOPEC74 was successfully disabled
+HSSOPEC74 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000032 was successfully disabled
+HSSPH0000032 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000139 was successfully disabled
+HSSPH0000139 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000223 was successfully disabled
+HSSPH0000223 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000316 was successfully disabled
+HSSPH0000316 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000338 was successfully disabled
+HSSPH0000338 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000535 was successfully disabled
+HSSPH0000535 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000704 was successfully disabled
+HSSPH0000704 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0000819 was successfully disabled
+HSSPH0000819 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSSPH0001012 was successfully disabled
+HSSPH0001012 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSTCEBE36 was successfully disabled
+HSTCEBE36 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HS-WELL-9F56 was successfully disabled
+HS-WELL-9F56 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HS-WELL-B98A was successfully disabled
+HS-WELL-B98A was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+HSWVD-Test-0 was successfully disabled
+HSWVD-Test-0 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+MBRCCPCR3 was successfully disabled
+MBRCCPCR3 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+MININT-1CEEQN9 was successfully disabled
+MININT-1CEEQN9 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+PALMLAPTOP5 was successfully disabled
+PALMLAPTOP5 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+PATHLAPTOP1 was successfully disabled
+PATHLAPTOP1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+PATHLAPTOP51 was successfully disabled
+PATHLAPTOP51 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+PEDS5 was successfully disabled
+PEDS5 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+PEDS5F69 was successfully disabled
+PEDS5F69 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+PHYSIOEAE8 was successfully disabled
+PHYSIOEAE8 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+PSTOILOV-HP was successfully disabled
+PSTOILOV-HP was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SCANPEDS01 was successfully disabled
+SCANPEDS01 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SDA19206 was successfully disabled
+SDA19206 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SDL16042-OS was successfully disabled
+SDL16042-OS was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-AMSECRET was successfully disabled
+SOD-AMSECRET was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-EMH0006 was successfully disabled
+SOD-EMH0006 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-ETGOMPERS was successfully disabled
+SOD-ETGOMPERS was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-LNBAKOS was successfully disabled
+SOD-LNBAKOS was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-MCONDE was successfully disabled
+SOD-MCONDE was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-MDRAKE was successfully disabled
+SOD-MDRAKE was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-MHYPES4 was successfully disabled
+SOD-MHYPES4 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-MJJONES1 was successfully disabled
+SOD-MJJONES1 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-MJKIMBLE was successfully disabled
+SOD-MJKIMBLE was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-MPOPP was successfully disabled
+SOD-MPOPP was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-SMMICHAELS was successfully disabled
+SOD-SMMICHAELS was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SOD-YKASSAR was successfully disabled
+SOD-YKASSAR was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+sph-cmontgo2 was successfully disabled
+sph-cmontgo2 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SP-MCCAWLEY was successfully disabled
+SP-MCCAWLEY was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+STEVEPRINCE was successfully disabled
+STEVEPRINCE was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+SYOKOTA was successfully disabled
+SYOKOTA was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+VEVO2100 was successfully disabled
+VEVO2100 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+WILLIAMS-LAPTOP was successfully disabled
+WILLIAMS-LAPTOP was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+WVUCICPC7F64 was successfully disabled
+WVUCICPC7F64 was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU
+YA-LAB2-PC was successfully disabled
+YA-LAB2-PC was moved to:  OU=10-27-2021,OU=Inactive Computers,DC=HS,DC=WVU-AD,DC=WVU,DC=EDU

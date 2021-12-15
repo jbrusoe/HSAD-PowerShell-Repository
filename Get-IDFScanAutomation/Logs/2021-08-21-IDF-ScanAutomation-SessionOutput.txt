@@ -1,0 +1,582 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210821070012
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -command C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1
+Process ID: 44168
+PSVersion: 5.1.14393.4583
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4583
+BuildVersion: 10.0.14393.4583
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Logs\2021-08-21-IDF-ScanAutomation-SessionOutput.txt
+Transcript log file started
+Files will not be deleted.
+No files to remove
+Opening ID Finder Mailbox
+Processing Emails...
+
+
+    Directory: \\hs\public\ITS\security services\ID Finder Scan Files
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        8/21/2021   7:01 AM                2021-08-21
+Found File: HSC_ePHI.csv
+Found File: HSC_CC.csv
+Found File: HSC_SSN.csv
+Found File: HSC_TAXES.csv
+Found File: HSC_Unit_Inventory.csv
+Found File: IDF Daily HSC ePHI.csv
+Found File: HSC_CC_Count.csv
+Found File: IDF Daily HSC SSNs.csv
+Found File: HSC_ePHI.csv
+Found File: HSC_CC.csv
+Found File: HSC_SSN.csv
+Found File: HSC_TAXES.csv
+Found File: HSC_Unit_Inventory.csv
+Found File: IDF Daily HSC ePHI.csv
+Found File: HSC_CC_Count.csv
+Found File: IDF Daily HSC SSNs.csv
+Found File: HSC_ePHI.csv
+Found File: HSC_CC.csv
+Found File: HSC_SSN.csv
+Found File: HSC_TAXES.csv
+Found File: HSC_Unit_Inventory.csv
+Found File: IDF Daily HSC ePHI.csv
+Found File: HSC_CC_Count.csv
+Found File: IDF Daily HSC SSNs.csv
+Found File: HSC_ePHI.csv
+Number of attachments saved: 0
+***************************
+No CSV Found called 20210821_IDF2_HSC_CCs.csv
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan 
+Files\2021-08-21\20210821_IDF2_HSC_CCs.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...DF2_HSC_CCs.csv:String) [Get-ChildItem], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan
+Files\2021-08-21\20210821_IDF2_HSC_CCs.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...DF2_HSC_CCs.csv:String) [Get-ChildItem], ItemNotFound
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS>TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+>> TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+File Found: \
+Excel Workbook created
+PS>TerminatingError(Get-Content): "Cannot bind argument to parameter 'Path' because it is null."
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentC
+   ommand
+
+>> TerminatingError(Import-Csv): "Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is 
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+Report created:
+
+Report created for the CCs file
+No CSV Found called 20210821_IDF2_HSC_SSNs.csv
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan 
+Files\2021-08-21\20210821_IDF2_HSC_SSNs.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...F2_HSC_SSNs.csv:String) [Get-ChildItem], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan
+Files\2021-08-21\20210821_IDF2_HSC_SSNs.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...F2_HSC_SSNs.csv:String) [Get-ChildItem], ItemNotFound
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS>TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+>> TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+File Found: \
+Excel Workbook created
+PS>TerminatingError(Get-Content): "Cannot bind argument to parameter 'Path' because it is null."
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentC
+   ommand
+
+>> TerminatingError(Import-Csv): "Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is 
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+Report created:
+
+Report created for the SSNs file
+No CSV Found called 20210821_IDF2_HSC_ePHI.csv
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan 
+Files\2021-08-21\20210821_IDF2_HSC_ePHI.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...F2_HSC_ePHI.csv:String) [Get-ChildItem], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan
+Files\2021-08-21\20210821_IDF2_HSC_ePHI.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...F2_HSC_ePHI.csv:String) [Get-ChildItem], ItemNotFound
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS>TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+>> TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+File Found: \
+Excel Workbook created
+PS>TerminatingError(Get-Content): "Cannot bind argument to parameter 'Path' because it is null."
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentC
+   ommand
+
+>> TerminatingError(Import-Csv): "Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is 
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+Report created:
+
+Report created for the ePHI file
+No CSV Found called 20210821_IDF2_HSC_TAXES.csv
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan 
+Files\2021-08-21\20210821_IDF2_HSC_TAXES.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...2_HSC_TAXES.csv:String) [Get-ChildItem], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path '\\hs\public\ITS\security services\ID Finder Scan
+Files\2021-08-21\20210821_IDF2_HSC_TAXES.csv' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195
+char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\hs\public\ITS...2_HSC_TAXES.csv:String) [Get-ChildItem], ItemNotFound
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS>TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196
+char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+>> TerminatingError(Split-Path): "Cannot bind argument to parameter 'Path' because it is null."
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+Split-Path : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197
+char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCo
+   mmand
+
+File Found: \
+Excel Workbook created
+PS>TerminatingError(Get-Content): "Cannot bind argument to parameter 'Path' because it is null."
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : Cannot bind argument to parameter 'Path' because it is null.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224
+char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-Content], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.GetContentC
+   ommand
+
+>> TerminatingError(Import-Csv): "Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again."
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is 
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+Import-Csv : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that is
+not null or empty, and then try the command again.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229
+char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Import-Csv], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ImportCsvCommand
+
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+Unable to get the SaveAs property of the Workbook class
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456
+char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path 'C:\Processed\.xlsx' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463
+char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Processed\.xlsx:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+Report created:
+
+Report created for the TAXES file
+
+
+PS>$global:?
+True

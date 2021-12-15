@@ -1,0 +1,132 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200821151154
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5396
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\\2020-08-21-15-11-Test-ValidUser-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\
+VERBOSE: File Count: 1
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Test-ValidUser\Logs\\2020-08-21-15-11-Test-ValidUser-SessionTranscript.txt
+Current User: kba00002
+**********************
+Current User: aa0132
+**********************
+Current User: maanbari
+**********************
+Current User: brb00005
+**********************
+Current User: kgb00004
+**********************
+Current User: llb00002
+**********************
+Current User: ngcook
+**********************
+Current User: pmc00006
+**********************
+Current User: kac0005
+**********************
+Current User: tbc00003
+**********************
+Current User: ord0001
+**********************
+Current User: sgd0001
+**********************
+Current User: dldillonseeger
+**********************
+Current User: abf0021
+**********************
+Current User: rgilber1
+**********************
+Current User: sngroves
+**********************
+Current User: hbhainer
+**********************
+Current User: erh0002
+**********************
+Current User: bch0001
+**********************
+Current User: abk00002
+**********************
+Current User: zalynn
+**********************
+Current User: smahava1
+**********************
+Current User: bgm0001
+**********************
+Current User: tcmckinney
+**********************
+Current User: mam0002
+**********************
+Current User: azmoore
+**********************
+Current User: ajm00024
+**********************
+Current User: emmueller
+**********************
+Current User: kamullins
+**********************
+Current User: sdm0031
+**********************
+Current User: zaransom
+**********************
+Current User: acroop
+**********************
+Current User: jhr0001
+**********************
+Current User: sbr00006
+**********************
+Current User: crs00018
+**********************
+Current User: bas00020
+**********************
+Current User: sispencer
+**********************
+Current User: bss0002
+**********************
+Current User: crt00006
+**********************
+Current User: elu00001
+**********************
+Current User: whv00001
+**********************
+Current User: emwalters
+**********************
+Current User: pew00002
+**********************
+Current User: ajw0064
+**********************
+Current User: cworkma6
+**********************
+Current User: hmw0013
+**********************
+Current User: dbyoakum
+**********************
+Current User: esz00002
+**********************
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20200821151155
+**********************

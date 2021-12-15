@@ -1,0 +1,246 @@
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $fileCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:463 char:20
++ ... leCreated = Get-ChildItem ($filedirectory+"\Processed\"+$finalfilenam ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xlsx")
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:456 char:5
++     $workbook.SaveAs($filedirectory+"\Processed\"+$finalfilename+".xl ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $PivotField.ShowDetail = $False
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:410 char:9
++         $PivotField.ShowDetail = $False
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+    $csvFileProcessed = Import-Csv -Path $csvFile
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:229 char:42
++     $csvFileProcessed = Import-Csv -Path $csvFile
++                                          ~~~~~~~~
+******************************
+    if ((Get-Content $csvFile).Contains("sep=,"))
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:224 char:22
++     if ((Get-Content $csvFile).Contains("sep=,"))
++                      ~~~~~~~~
+******************************
+    $csvfilename = Split-Path -Path $csvFile -leaf
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:197 char:37
++     $csvfilename = Split-Path -Path $csvFile -leaf
++                                     ~~~~~~~~
+******************************
+    $filedirectory = Split-Path -Path $csvFile -Parent
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:196 char:39
++     $filedirectory = Split-Path -Path $csvFile -Parent
++                                       ~~~~~~~~
+******************************
+    $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWriteTime | select -last 1
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:195 char:17
++     $csvFile = (Get-ChildItem "$folderpath\$filename") #| sort LastWr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+Write-Output "Number of attachments saved: $((Get-ChildItem $folderpath | Where-Object{!($_.PSIsContainer)}).count)"
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:168 char:47
++ ... ut "Number of attachments saved: $((Get-ChildItem $folderpath | Where ...
++                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $_.saveasfile((Join-Path $folderpath $fileName)) 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:163 char:9
++         $_.saveasfile((Join-Path $folderpath $fileName))
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $_.saveasfile((Join-Path $folderpath $fileName)) 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:163 char:9
++         $_.saveasfile((Join-Path $folderpath $fileName))
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $_.saveasfile((Join-Path $folderpath $fileName)) 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:163 char:9
++         $_.saveasfile((Join-Path $folderpath $fileName))
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************
+        $_.saveasfile((Join-Path $folderpath $fileName)) 
+
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1:163 char:9
++         $_.saveasfile((Join-Path $folderpath $fileName))
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+******************************

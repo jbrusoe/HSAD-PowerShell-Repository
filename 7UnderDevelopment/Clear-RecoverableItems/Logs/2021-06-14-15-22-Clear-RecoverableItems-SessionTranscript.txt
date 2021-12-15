@@ -1,0 +1,55 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210614152236
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 157720
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Clear-RecoverableItems\Logs\\2021-06-14-15-22-Clear-RecoverableItems-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Clear-RecoverableItems\Logs\
+VERBOSE: File Count: 3
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Clear-RecoverableItems\Logs\\2021-06-14-15-22-Clear-RecoverableItems-SessionTranscript.txt
+VERBOSE: Running Get-ExoMailbox
+VERBOSE: Service warnings are disabled. Not printing them.
+VERBOSE: /a2d1f95f-8510-4424-8ae1-5c596bdbd578/Mailbox('amJydXNvZQ==')?isEncoded=true&$select=SingleItemRecoveryEnabled&PropertySet=Hold, 2021-06-14-19:22:36.606, 150, 7eabe011-56c6-4aab-ad8d-a2697319b55f, 200, application/json;odata.metadata=full;charset=utf-8, , Failed, 1055, IPR=0;SIN=FE:[BL1PR13CA0232];CFE:;FEPI:;BE:;CBE:MN2PR05MB6078.namprd05.prod.outlook.com
+VERBOSE: Using AuthStrategy : Default
+ThreadID: #
+VERBOSE: Updating User Info based on token
+ThreadID: #
+VERBOSE: Valid token is found in the cache.
+ThreadID: #
+VERBOSE: Using AuthStrategy : Default
+ThreadID: #
+VERBOSE: Updating User Info based on token
+ThreadID: #
+VERBOSE: Valid token is found in the cache.
+ThreadID: #
+VERBOSE: Total number of objects returned: 1
+VERBOSE: Successfully pulled mailbox information
+VERBOSE: Litigation Hold Enabled: False
+VERBOSE: Compliance Tag Hold Applied: False
+VERBOSE: SingleItemREcoveryEnabled: False

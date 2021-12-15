@@ -1,0 +1,3 @@
+"PCName","Enabled","LastLogonDate","Location","LAPs","BitLocker","Groups","OS","Description","dN"
+"ADFS3","False","9/16/2019 7:39:40 PM",,,"","Domain Computers","Windows Server 2012 R2 Standard",,"CN=ADFS3,OU=DisabledSystemsServers,OU=Inactive Computers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"
+"AMCAS","False","1/2/2021 4:39:28 AM",,,"","Domain Computers","Windows Server® 2008 Enterprise","AMCAS Server - Admissions and Records","CN=AMCAS,OU=DisabledSystemsServers,OU=Inactive Computers,DC=HS,DC=wvu-ad,DC=wvu,DC=edu"

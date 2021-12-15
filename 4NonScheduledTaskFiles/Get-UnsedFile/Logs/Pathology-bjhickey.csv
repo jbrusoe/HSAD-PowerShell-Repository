@@ -1,0 +1,408 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\04_24_2020 Pay Statement.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","04_24_2020 Pay Statement.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\04_24_2020 Pay Statement.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","04_24_2020 Pay Statement",,,"04_24_2020 Pay Statement.pdf","106332","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\04_24_2020 Pay Statement.pdf",".pdf","5/19/2020 12:32:59 PM","5/19/2020 4:32:59 PM","5/19/2020 12:32:59 PM","5/19/2020 4:32:59 PM","5/19/2020 12:32:59 PM","5/19/2020 4:32:59 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\05_08_2020 Pay Statement.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","05_08_2020 Pay Statement.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\05_08_2020 Pay Statement.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","05_08_2020 Pay Statement",,,"05_08_2020 Pay Statement.pdf","106347","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\05_08_2020 Pay Statement.pdf",".pdf","5/19/2020 12:32:33 PM","5/19/2020 4:32:33 PM","5/19/2020 12:32:33 PM","5/19/2020 4:32:33 PM","5/19/2020 12:32:33 PM","5/19/2020 4:32:33 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\05_22_2020 Pay Statement.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","05_22_2020 Pay Statement.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\05_22_2020 Pay Statement.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","05_22_2020 Pay Statement",,,"05_22_2020 Pay Statement.pdf","106346","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\05_22_2020 Pay Statement.pdf",".pdf","5/19/2020 12:32:03 PM","5/19/2020 4:32:03 PM","5/19/2020 12:32:03 PM","5/19/2020 4:32:03 PM","5/19/2020 12:32:03 PM","5/19/2020 4:32:03 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Academic Transcript Brice Hickey JHU Graduate School.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Academic Transcript Brice Hickey JHU Graduate School.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Academic Transcript Brice Hickey JHU Graduate School.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Academic Transcript Brice Hickey JHU Graduate School",,,"Academic Transcript Brice Hickey JHU Graduate School.pdf","390984","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Academic Transcript Brice Hickey JHU Graduate School.pdf",".pdf","6/16/2020 7:52:58 AM","6/16/2020 11:52:58 AM","6/16/2020 7:52:58 AM","6/16/2020 11:52:58 AM","6/16/2020 7:52:58 AM","6/16/2020 11:52:58 AM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Academic Transcript Brice Hickey WVU.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Academic Transcript Brice Hickey WVU.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Academic Transcript Brice Hickey WVU.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Academic Transcript Brice Hickey WVU",,,"Academic Transcript Brice Hickey WVU.pdf","109553","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Academic Transcript Brice Hickey WVU.pdf",".pdf","6/16/2020 7:52:00 AM","6/16/2020 11:52:00 AM","6/16/2020 7:52:00 AM","6/16/2020 11:52:00 AM","6/16/2020 7:52:00 AM","6/16/2020 11:52:00 AM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Addendum to Purchase Agreement - Closing Extension.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Addendum to Purchase Agreement - Closing Extension.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Addendum to Purchase Agreement - Closing Extension.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Addendum to Purchase Agreement - Closing Extension",,,"Addendum to Purchase Agreement - Closing Extension.pdf","108443","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Addendum to Purchase Agreement - Closing Extension.pdf",".pdf","6/25/2020 9:12:29 AM","6/25/2020 1:12:29 PM","6/25/2020 9:12:29 AM","6/25/2020 1:12:29 PM","6/25/2020 9:12:29 AM","6/25/2020 1:12:29 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Allstate Quote.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Allstate Quote.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Allstate Quote.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Allstate Quote",,,"Allstate Quote.pdf","17344","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Allstate Quote.pdf",".pdf","6/4/2020 2:03:17 PM","6/4/2020 6:03:17 PM","6/4/2020 2:03:17 PM","6/4/2020 6:03:17 PM","6/4/2020 2:03:18 PM","6/4/2020 6:03:18 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\APOE Genotyping Project.docx","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","APOE Genotyping Project.docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\APOE Genotyping Project.docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","APOE Genotyping Project",,,"APOE Genotyping Project.docx","18092","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\APOE Genotyping Project.docx",".docx","9/5/2019 1:46:40 PM","9/5/2019 5:46:40 PM","9/10/2019 3:18:13 PM","9/10/2019 7:18:13 PM","9/10/2019 3:18:13 PM","9/10/2019 7:18:13 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\BitLocker Recovery Key 8405FDF1-8341-4C93-8F43-D304640F2DB6 Jacquie.TXT","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","BitLocker Recovery Key 8405FDF1-8341-4C93-8F43-D304640F2DB6 Jacquie.TXT","Y","Microsoft.PowerShell.Core\FileSystem","False","-ar---","File:             Y:\bjhickey\BitLocker Recovery Key 8405FDF1-8341-4C93-8F43-D304640F2DB6 Jacquie.TXT
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","BitLocker Recovery Key 8405FDF1-8341-4C93-8F43-D304640F2DB6 Jacquie",,,"BitLocker Recovery Key 8405FDF1-8341-4C93-8F43-D304640F2DB6 Jacquie.TXT","1348","Y:\bjhickey","Y:\bjhickey","True","True","Y:\bjhickey\BitLocker Recovery Key 8405FDF1-8341-4C93-8F43-D304640F2DB6 Jacquie.TXT",".TXT","8/7/2020 2:44:26 PM","8/7/2020 6:44:26 PM","8/7/2020 2:44:26 PM","8/7/2020 6:44:26 PM","8/7/2020 2:44:26 PM","8/7/2020 6:44:26 PM","ReadOnly, Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Certificate of Completion.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Certificate of Completion.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Certificate of Completion.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Certificate of Completion",,,"Certificate of Completion.pdf","540135","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Certificate of Completion.pdf",".pdf","8/27/2019 8:34:31 AM","8/27/2019 12:34:31 PM","8/27/2019 8:34:31 AM","8/27/2019 12:34:31 PM","8/27/2019 8:33:17 AM","8/27/2019 12:33:17 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Copy of Metastatic Good.xlsx","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Copy of Metastatic Good.xlsx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Copy of Metastatic Good.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Copy of Metastatic Good",,,"Copy of Metastatic Good.xlsx","12060","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Copy of Metastatic Good.xlsx",".xlsx","2/21/2020 2:49:11 PM","2/21/2020 7:49:11 PM","2/21/2020 2:49:11 PM","2/21/2020 7:49:11 PM","2/21/2020 2:49:11 PM","2/21/2020 7:49:11 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Creo 8-NP1-541 Longissimus Muscle.xlsx","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Creo 8-NP1-541 Longissimus Muscle.xlsx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Creo 8-NP1-541 Longissimus Muscle.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Creo 8-NP1-541 Longissimus Muscle",,,"Creo 8-NP1-541 Longissimus Muscle.xlsx","62259","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Creo 8-NP1-541 Longissimus Muscle.xlsx",".xlsx","9/25/2019 9:18:29 AM","9/25/2019 1:18:29 PM","9/26/2019 1:40:27 PM","9/26/2019 5:40:27 PM","9/26/2019 1:40:27 PM","9/26/2019 5:40:27 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Isopentane SDS.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Isopentane SDS.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Isopentane SDS.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Isopentane SDS",,,"Isopentane SDS.pdf","127500","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Isopentane SDS.pdf",".pdf","2/19/2020 12:45:38 PM","2/19/2020 5:45:38 PM","2/19/2020 12:45:50 PM","2/19/2020 5:45:50 PM","2/19/2020 12:45:51 PM","2/19/2020 5:45:51 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\J. Lipid Res.-1990-Hixson-545-8.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","J. Lipid Res.-1990-Hixson-545-8.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\J. Lipid Res.-1990-Hixson-545-8.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","J. Lipid Res.-1990-Hixson-545-8",,,"J. Lipid Res.-1990-Hixson-545-8.pdf","1290200","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\J. Lipid Res.-1990-Hixson-545-8.pdf",".pdf","9/6/2019 2:53:15 PM","9/6/2019 6:53:15 PM","9/6/2019 2:53:22 PM","9/6/2019 6:53:22 PM","9/6/2019 2:53:23 PM","9/6/2019 6:53:23 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Job Description.docx","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Job Description.docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Job Description.docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Job Description",,,"Job Description.docx","12098","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Job Description.docx",".docx","12/12/2019 12:45:14 PM","12/12/2019 5:45:14 PM","12/12/2019 12:45:14 PM","12/12/2019 5:45:14 PM","12/12/2019 12:45:14 PM","12/12/2019 5:45:14 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Leave Request 23 Dec.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Leave Request 23 Dec.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Leave Request 23 Dec.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Leave Request 23 Dec",,,"Leave Request 23 Dec.pdf","22440","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Leave Request 23 Dec.pdf",".pdf","12/3/2019 2:27:55 PM","12/3/2019 7:27:55 PM","12/3/2019 2:27:55 PM","12/3/2019 7:27:55 PM","12/3/2019 2:27:55 PM","12/3/2019 7:27:55 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Microsoft Word - Trainee Application-2019.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Microsoft Word - Trainee Application-2019.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Microsoft Word - Trainee Application-2019.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Microsoft Word - Trainee Application-2019",,,"Microsoft Word - Trainee Application-2019.pdf","33947","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Microsoft Word - Trainee Application-2019.pdf",".pdf","8/11/2020 2:05:32 PM","8/11/2020 6:05:32 PM","8/11/2020 2:05:32 PM","8/11/2020 6:05:32 PM","8/11/2020 2:05:32 PM","8/11/2020 6:05:32 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\nyu-expath-freezing-and-embedding-tissue.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","nyu-expath-freezing-and-embedding-tissue.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\nyu-expath-freezing-and-embedding-tissue.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","nyu-expath-freezing-and-embedding-tissue",,,"nyu-expath-freezing-and-embedding-tissue.pdf","948018","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\nyu-expath-freezing-and-embedding-tissue.pdf",".pdf","2/20/2020 2:34:02 PM","2/20/2020 7:34:02 PM","2/20/2020 2:34:09 PM","2/20/2020 7:34:09 PM","2/20/2020 2:34:10 PM","2/20/2020 7:34:10 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Official Transcript Brice Hickey Johns Hopkins University.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Official Transcript Brice Hickey Johns Hopkins University.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Official Transcript Brice Hickey Johns Hopkins University.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Official Transcript Brice Hickey Johns Hopkins University",,,"Official Transcript Brice Hickey Johns Hopkins University.pdf","379792","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Official Transcript Brice Hickey Johns Hopkins University.pdf",".pdf","6/29/2020 3:03:14 PM","6/29/2020 7:03:14 PM","6/29/2020 3:03:14 PM","6/29/2020 7:03:14 PM","6/29/2020 3:03:15 PM","6/29/2020 7:03:15 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Phone List.xlsx","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Phone List.xlsx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Phone List.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Phone List",,,"Phone List.xlsx","11293","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Phone List.xlsx",".xlsx","1/9/2020 12:44:10 PM","1/9/2020 5:44:10 PM","1/9/2020 12:44:10 PM","1/9/2020 5:44:10 PM","1/9/2020 12:44:09 PM","1/9/2020 5:44:09 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Resume 21July2020.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Resume 21July2020.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Resume 21July2020.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Resume 21July2020",,,"Resume 21July2020.pdf","343681","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Resume 21July2020.pdf",".pdf","7/21/2020 8:54:52 AM","7/21/2020 12:54:52 PM","7/21/2020 8:54:52 AM","7/21/2020 12:54:52 PM","7/21/2020 8:20:14 AM","7/21/2020 12:20:14 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\RESUME.docx","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","RESUME.docx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\RESUME.docx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","RESUME",,,"RESUME.docx","18609","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\RESUME.docx",".docx","8/27/2019 1:08:04 PM","8/27/2019 5:08:04 PM","8/18/2020 7:01:56 AM","8/18/2020 11:01:56 AM","8/18/2020 7:01:56 AM","8/18/2020 11:01:56 AM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Security Awareness Training Completion Certificate.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Security Awareness Training Completion Certificate.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Security Awareness Training Completion Certificate.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Security Awareness Training Completion Certificate",,,"Security Awareness Training Completion Certificate.pdf","515534","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Security Awareness Training Completion Certificate.pdf",".pdf","8/27/2019 9:01:22 AM","8/27/2019 1:01:22 PM","8/27/2019 9:01:22 AM","8/27/2019 1:01:22 PM","8/27/2019 9:01:10 AM","8/27/2019 1:01:10 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Trainee License Application Brice Hickey.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Trainee License Application Brice Hickey.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Trainee License Application Brice Hickey.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Trainee License Application Brice Hickey",,,"Trainee License Application Brice Hickey.pdf","637982","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Trainee License Application Brice Hickey.pdf",".pdf","8/13/2020 7:35:33 AM","8/13/2020 11:35:33 AM","8/13/2020 7:35:33 AM","8/13/2020 11:35:33 AM","8/13/2020 7:35:33 AM","8/13/2020 11:35:33 AM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Updated Trainee License Application Brice Hickey.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Updated Trainee License Application Brice Hickey.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Updated Trainee License Application Brice Hickey.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Updated Trainee License Application Brice Hickey",,,"Updated Trainee License Application Brice Hickey.pdf","450189","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Updated Trainee License Application Brice Hickey.pdf",".pdf","8/14/2020 8:35:40 AM","8/14/2020 12:35:40 PM","8/14/2020 8:35:40 AM","8/14/2020 12:35:40 PM","8/14/2020 8:35:40 AM","8/14/2020 12:35:40 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\W2 2019","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","W2 2019","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\W2 2019
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","W2 2019",,,"W2 2019","0","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\W2 2019","","1/21/2020 12:42:10 PM","1/21/2020 5:42:10 PM","1/21/2020 12:42:32 PM","1/21/2020 5:42:32 PM","1/21/2020 12:42:33 PM","1/21/2020 5:42:33 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\W2 Form 2019","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","W2 Form 2019","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\W2 Form 2019
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","W2 Form 2019",,,"W2 Form 2019","0","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\W2 Form 2019","","1/21/2020 2:24:01 PM","1/21/2020 7:24:01 PM","1/21/2020 2:24:20 PM","1/21/2020 7:24:20 PM","1/21/2020 2:24:20 PM","1/21/2020 7:24:20 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\W2 Form 2019 PDF.pdf","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","W2 Form 2019 PDF.pdf","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\W2 Form 2019 PDF.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","W2 Form 2019 PDF",,,"W2 Form 2019 PDF.pdf","10907","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\W2 Form 2019 PDF.pdf",".pdf","1/21/2020 2:25:02 PM","1/21/2020 7:25:02 PM","1/21/2020 2:25:02 PM","1/21/2020 7:25:02 PM","1/21/2020 2:25:02 PM","1/21/2020 7:25:02 PM","Archive, NotContentIndexed"
+"Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey\Work From Home Spreadsheet.xlsx","Microsoft.PowerShell.Core\FileSystem::Y:\bjhickey","Work From Home Spreadsheet.xlsx","Y","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             Y:\bjhickey\Work From Home Spreadsheet.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Work From Home Spreadsheet",,,"Work From Home Spreadsheet.xlsx","10656","Y:\bjhickey","Y:\bjhickey","False","True","Y:\bjhickey\Work From Home Spreadsheet.xlsx",".xlsx","3/20/2020 1:49:01 PM","3/20/2020 5:49:01 PM","3/20/2020 1:49:01 PM","3/20/2020 5:49:01 PM","3/20/2020 1:49:01 PM","3/20/2020 5:49:01 PM","Archive, NotContentIndexed"

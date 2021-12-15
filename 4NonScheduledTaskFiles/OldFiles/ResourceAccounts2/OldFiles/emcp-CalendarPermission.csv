@@ -1,0 +1,7 @@
+#TYPE Deserialized.Microsoft.Exchange.Management.StoreTasks.MailboxFolderPermission
+"PSComputerName","RunspaceId","PSShowComputerName","Identity","FolderName","User","AccessRights","SharingPermissionFlags","IsValid","ObjectState"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","emcp:\Calendar","Calendar","Default","AvailabilityOnly",,"True","New"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","emcp:\Calendar","Calendar","Anonymous","None",,"True","New"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","emcp:\Calendar","Calendar","NT:S-1-5-21-940185649-386838758-2297829749-6939","Editor",,"True","New"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","emcp:\Calendar","Calendar","NT:S-1-5-21-940185649-386838758-2297829749-5390","Editor",,"True","New"
+"ps.outlook.com","be60350d-a852-4249-af1a-eaa3bcc74f1b","False","emcp:\Calendar","Calendar","NT:S-1-5-21-940185649-386838758-2297829749-4671","Editor",,"True","New"

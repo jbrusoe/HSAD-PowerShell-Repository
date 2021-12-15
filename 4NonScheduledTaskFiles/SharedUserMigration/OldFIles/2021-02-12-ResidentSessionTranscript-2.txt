@@ -1,0 +1,68 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210211152539
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 9096
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-02-12-ResidentSessionTranscript-2.txt
+HSC Email: raja.sunkavalli@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=30f50634831d473a9201aecd4defd8da
+************************
+HSC Email: raja.sunkavalli@hsc.wvu.edu
+Same email - Previous AD user will be used
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=57f5cfab69cb4d489ff461146275146e-Sunkavalli,
+************************
+HSC Email: raja.sunkavalli@hsc.wvu.edu
+Same email - Previous AD user will be used
+Address to Apply: x500:SIP:raja.sunkavalli@wvumedicine.org
+************************
+HSC Email: raja.sunkavalli@hsc.wvu.edu
+Same email - Previous AD user will be used
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=30f50634831d473a9201aecd4defd8da
+************************
+HSC Email: raja.sunkavalli@hsc.wvu.edu
+Same email - Previous AD user will be used
+SMTP/X500 Address to Apply: smtp:rsunkavall@wvumedicine.org
+************************
+HSC Email: raja.sunkavalli@hsc.wvu.edu
+Same email - Previous AD user will be used
+SMTP/X500 Address to Apply: smtp:raja.sunkavalli@wvumedicine.org
+************************
+HSC Email: raja.sunkavalli@hsc.wvu.edu
+Same email - Previous AD user will be used
+SMTP/X500 Address to Apply: X500:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=Sunkavalli, Raja107
+************************
+HSC Email: urooj.khan1@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=uk00036de
+************************
+HSC Email: urooj.khan1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3215d575bbda48918c6aeab6d7386bed-uk0003
+************************
+HSC Email: urooj.khan1@hsc.wvu.edu
+Same email - Previous AD user will be used
+SMTP/X500 Address to Apply: X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3215d575bbda48918c6aeab6d7386bed-uk0003
+************************
+HSC Email: urooj.khan1@hsc.wvu.edu
+Same email - Previous AD user will be used
+SMTP/X500 Address to Apply: smtp:urooj.khan1@wvumedicine.org
+************************
+**********************
+Windows PowerShell transcript end
+End time: 20210211152559
+**********************

@@ -1,0 +1,249 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200828121021
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Configuration Name: 
+Machine: SYSSCRIPT5 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5724
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\\2020-08-28-12-10-Get-EmailBounce-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\
+VERBOSE: File Count: 15
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Logs\\2020-08-28-12-10-Get-EmailBounce-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> TerminatingError(New-Item): "A positional parameter cannot be found that accepts argument '2020-08-28-12-10-21-ADUserOutput.csv'."
+New-Item : A positional parameter cannot be found that accepts argument '2020-08-28-12-10-21-ADUserOutput.csv'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:9 char:1
++ New-Item $OutputFile -type File -Path "$PSScriptRoot\Logs\" -Force
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : A positional parameter cannot be found that accepts argument '2020-08-28-12-10-21-ADUserOutput.csv'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:9 char:1
++ New-Item $OutputFile -type File -Path "$PSScriptRoot\Logs\" -Force
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> TerminatingError(New-Item): "A positional parameter cannot be found that accepts argument '2020-08-28-12-10-21-ValidAccountOutput.csv'."
+New-Item : A positional parameter cannot be found that accepts argument '2020-08-28-12-10-21-ValidAccountOutput.csv'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:12 char:1
++ New-Item $ValidAccountFile -type File -Path "$PSScriptRoot\Logs\" -Fo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : A positional parameter cannot be found that accepts argument '2020-08-28-12-10-21-ValidAccountOutput.csv'.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce\Get-EmailBounce.ps1:12 char:1
++ New-Item $ValidAccountFile -type File -Path "$PSScriptRoot\Logs\" -Fo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.NewItemCommand
+
+Email from file: jacquesc@hsc.wvu.edu
+Employee Number from file: 700140606
+User found
+***************************
+Email from file: kim.ice@hsc.wvu.edu
+Employee Number from file: 700630333
+User found
+***************************
+Email from file: martha.mullett@hsc.wvu.edu
+Employee Number from file: 700124544
+User found
+***************************
+Email from file: shofer@hsc.wvu.edu
+Employee Number from file: 700149622
+User found
+***************************
+Email from file: spamfili@hsc.wvu.edu
+Employee Number from file: 700140660
+User found
+***************************
+Email from file: sholcomb@hsc.wvu.edu
+Employee Number from file: 700101283
+User found
+***************************
+Email from file: klf0017@hsc.wvu.edu
+Employee Number from file: 700154445
+User found
+***************************
+Email from file: derrick.latos@hsc.wvu.edu
+Employee Number from file: 700141269
+User found
+***************************
+Email from file: mkilcoll@hsc.wvu.edu
+Employee Number from file: 700141268
+User found
+***************************
+Email from file: jstemple@hsc.wvu.edu
+Employee Number from file: 700181937
+User found
+***************************
+Email from file: ramakrishnan.iyer@hsc.wvu.edu
+Employee Number from file: 700141804
+User found
+***************************
+Email from file: debra.parsons@hsc.wvu.edu
+Employee Number from file: 700624578
+User found
+***************************
+Email from file: james.bryant@hsc.wvu.edu
+Employee Number from file: 700127975
+User found
+***************************
+Email from file: ik0004@hsc.wvu.edu
+Employee Number from file: 700626193
+User found
+***************************
+Email from file: kgifford@hsc.wvu.edu
+Employee Number from file: 700226053
+User found
+***************************
+Email from file: maggie.bostic@hsc.wvu.edu
+Employee Number from file: 700181080
+User found
+***************************
+Email from file: derek.grimm@hsc.wvu.edu
+Employee Number from file: 700210401
+User found
+***************************
+Email from file: michael.wilson@hsc.wvu.edu
+Employee Number from file: 700236959
+User found
+***************************
+Email from file: findacoc@hsc.wvu.edu
+Employee Number from file: 700140084
+User found
+***************************
+Email from file: james.cahill@hsc.wvu.edu
+Employee Number from file: 700140105
+User found
+***************************
+Email from file: krishna.urval@hsc.wvu.edu
+Employee Number from file: 700140111
+User found
+***************************
+Email from file: heidi.specht@hsc.wvu.edu
+Employee Number from file: 700167280
+User found
+***************************
+Email from file: lawrence.corob@hsc.wvu.edu
+Employee Number from file: 700620455
+User found
+***************************
+Email from file: david.tuel@hsc.wvu.edu
+Employee Number from file: 700140922
+User found
+***************************
+Email from file: brenda.rappold@hsc.wvu.edu
+Employee Number from file: 700140923
+User found
+***************************
+Email from file: stephen.toompas@hsc.wvu.edu
+Employee Number from file: 700141334
+User found
+***************************
+Email from file: luis.flores@hsc.wvu.edu
+Employee Number from file: 700628901
+User found
+***************************
+Email from file: liden@hsc.wvu.edu
+Employee Number from file: 700202475
+User found
+***************************
+Email from file: nasheikh@hsc.wvu.edu
+Employee Number from file: 700627487
+User found
+***************************
+Email from file: ehynes@hsc.wvu.edu
+Employee Number from file: 700140507
+User found
+***************************
+Email from file: pmp0003@hsc.wvu.edu
+Employee Number from file: 700620847
+User found
+***************************
+Email from file: lboyles@hsc.wvu.edu
+Employee Number from file: 700557091
+User found
+***************************
+Email from file: jbyers6@hsc.wvu.edu
+Employee Number from file: 700140765
+User found
+***************************
+Email from file: nicholas.scrivo@hsc.wvu.edu
+Employee Number from file: 700141130
+User found
+***************************
+Email from file: fred.kerns@hsc.wvu.edu
+Employee Number from file: 700141139
+User found
+***************************
+Email from file: mspiker2@hsc.wvu.edu
+Employee Number from file: 700141141
+User found
+***************************
+Email from file: nzervos@hsc.wvu.edu
+Employee Number from file: 700622785
+User found
+***************************
+Email from file: kathy.mcneill@hsc.wvu.edu
+Employee Number from file: 700141353
+User found
+***************************
+Email from file: kskaff@hsc.wvu.edu
+Employee Number from file: 700141356
+User found
+***************************
+Email from file: jgjohnson@hsc.wvu.edu
+Employee Number from file: 700142391
+User found
+***************************
+Email from file: iullrich@hsc.wvu.edu
+Employee Number from file: 700142373
+User found
+***************************
+Email from file: bharman-hsc@hsc.wvu.edu
+Employee Number from file: 700625699
+User found
+***************************
+Email from file: lerhodes@hsc.wvu.edu
+Employee Number from file: 700629642
+User found
+***************************
+Email from file: rahaynes@hsc.wvu.edu
+Employee Number from file: 700631012
+User found
+***************************
+Email from file: aajohnston@hsc.wvu.edu
+Employee Number from file: 700630988
+User found
+***************************
+Email from file: jamshid.bakhtiar@hsc.wvu.edu
+Employee Number from file: 700626352
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-EmailBounce> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200828121200
+**********************

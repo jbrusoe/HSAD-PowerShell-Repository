@@ -1,0 +1,391 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210914091501
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 8236
+PSVersion: 5.1.14393.4583
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4583
+BuildVersion: 10.0.14393.4583
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\\2021-09-14-09-15-Get-ShareInformation-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+VERBOSE: Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Path exists
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString:
+VERBOSE: *.csv
+VERBOSE: *.txt
+VERBOSE: Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\
+VERBOSE: File Count: 7
+0
+The following parameters have nondefault values:
+key: ErrorAction
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation\Logs\\2021-09-14-09-15-Get-ShareInformation-SessionTranscript.txt
+Generating SQL Connection String
+VERBOSE: Preparing to decrtypt SQL Connection File
+VERBOSE: SQL Connection File: C:\users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\2CommonFiles\EncryptedFiles\O365SqlInstance3.txt
+VERBOSE: Connection file exists and is being decrypted
+Connection string: Data Source=hscpowershell.database.windows.net;Initial Catalog=HSCPowerShell;User Id=HSCPowerShell;Password=<PasswordRemoved>
+Search Path: C:\Users\Jeff\Documents\GitHub\
+Getting groups for: cls00001
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'cls00001'
+Getting groups for: sjm00019
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'sjm00019'
+Getting groups for: drg0025
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'drg0025'
+Getting groups for: aadyer
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'aadyer'
+Getting groups for: smdaily
+SQL Query: Select * from ADGroupMembershipByUser where SamAccountName = 'smdaily'
+175
+93
+$HAFFS
+$HRC
+$SOMMGMT
+3810e-minoltac224e Group
+3812-hallway-minoltac364e Group
+3858-hallway-minoltac364e Group
+Adobe Acrobat XI
+FTP Users
+HAFFS
+HAFFS WVD Pilot
+HRC
+HS Citrix Users
+HS CTSI VDI Research Group
+HS DHHR Honest Broker
+HS DHHR Project 1
+HS DHHR Project 2
+HS VDI abaus_medicaid_claims Group
+HS VDI Adcock Stroke
+HS VDI Adcock Stroke Combined Faculty
+HS VDI Allen 115 Waiver Group
+HS VDI Allen Methadone Group
+HS VDI Allen NAS Audit
+HS VDI Allen Opioid Duration Limit Group
+HS VDI Allen SNAP Work Requirements Group
+HS VDI Baus Chronic Disease
+HS VDI BMS COVID Eval
+HS VDI Collaborate
+HS VDI COVID-19 Testing Results Group
+HS VDI Dai Endocarditis Group
+HS VDI Dai OD Mortality
+HS VDI Data Governance Directory Group
+HS VDI Davis Telehealth
+HS VDI EED Research Project Group
+HS VDI Embedded analyst Group
+HS VDI Grossman birth control
+HS VDI Grossman Diabetes
+HS VDI Gupta Antibiotics Group
+HS VDI Health Affairs Share
+HS VDI Hendricks Heart Failure Group
+HS VDI Hendricks pregnant telehealth
+HS VDI HMA Training Datasets
+HS VDI Match Group
+HS VDI Medical Training
+HS VDI MFP Project
+HS VDI MODRN Project
+HS VDI Moran SUD Dashboard Group
+HS VDI Moran Support Grant Group
+HS VDI MOTOR Claims Group
+HS VDI OHA Data Reviewers
+HS VDI Pauly endocarditis
+HS VDI Pauly NEP Group
+HS VDI Pauly PO Box
+HS VDI Pollini OUD Group
+HS VDI RDSH Faculty Secure Parent
+HS VDI Rudisill MAT Group
+HS VDI Rudisill MVC Group
+HS VDI SOR Group
+HS VDI Stansbury OSA
+HS VDI Stocks exploratory COVID
+HS VDI WVU COVID-19 Testing Faculty
+HS VDI WVU Office of Health Services Research
+HSC Citrix File Explorer
+HSC Citrix IE-HSC
+HSC VDI Medicaid Research Parent Group
+HSC VDI Research Projects Parent Group
+HS-Research Drive Mapping
+icrc-28--minoltac3110 Group
+Intune VPN Access Group
+MGMT
+R Studio
+RDSH Chrome
+RDSH File Explorer
+RDSH RDP
+RDSH Secure Citrix Receiver
+RDSH Secure Excel
+RDSH Secure File Explorer
+RDSH Users VPN group
+RedCap Students and External Users Group
+SAS 9.3 Research Application
+Software-GlobalProtect-A
+SPH SAS Users
+SPH Student Worker
+SPH Upload Group
+SPH VPN Group
+sph-oha-hp-m479fdw Group
+VDI ArcGIS SPH
+VDI Chrome and PDF
+VDI Office
+VDI RStudio
+VDI SAS
+VDI Stata 16-SE
+WVD Project Groups
+WVUOHSR
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation> get-acl
+
+
+    Directory: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository
+
+
+Path                 Owner        Access
+----                 -----        ------
+Get-ShareInformation HS\microsoft NT AUTHORITY\SYSTEM Allow  FullControl...
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation> get-acl | fl
+
+
+Path   : Microsoft.PowerShell.Core\FileSystem::C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareI
+         nformation
+Owner  : HS\microsoft
+Group  : HS\Domain Users
+Access : NT AUTHORITY\SYSTEM Allow  FullControl
+         BUILTIN\Administrators Allow  FullControl
+         HS\microsoft Allow  FullControl
+         HS\kevinadmin Allow  FullControl
+Audit  :
+Sddl   : O:S-1-5-21-865322659-4255640127-3857865232-2227G:DUD:AI(A;OICIID;FA;;;SY)(A;OICIID;FA;;;BA)(A;OICIID;FA;;;S-1-
+         5-21-865322659-4255640127-3857865232-2227)(A;OICIID;FA;;;S-1-5-21-865322659-4255640127-3857865232-70608)
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation> get-acl | select access -ExpandProperty Access
+
+
+Access            : {System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule}
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : NT AUTHORITY\SYSTEM
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+Access            : {System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule}
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : BUILTIN\Administrators
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+Access            : {System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule}
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : HS\microsoft
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+Access            : {System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule,
+                    System.Security.AccessControl.FileSystemAccessRule}
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : HS\kevinadmin
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-ShareInformation> h:
+PS H:\> dir
+
+
+    Directory: H:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         2/6/2021   9:23 AM                btolka
+d-----        2/25/2021  12:20 PM                ccscott
+d-----        10/5/2020   2:18 PM                Disaster Recovery Documents
+d-----         5/4/2021   3:34 PM                jbrusoe
+d-----        8/13/2019   3:41 PM                jefftestnewuser
+d-----         9/2/2021   3:35 PM                jnesselrodt
+d-----        6/23/2021   3:17 PM                kadmin
+d-r---        4/13/2021   1:20 PM                krodney
+d-----        3/28/2019   1:28 PM                legal holds
+d-----        12/8/2019   1:20 PM                microsoft
+d-----         9/3/2021   1:00 PM                mkondrla
+d-----       10/23/2020  11:27 AM                mlogue
+d-----        7/19/2013   2:32 PM                MSOnline
+d-----        7/19/2013   2:32 PM                MSOnlineExtended
+d-----       10/24/2011  11:19 PM                nferrari
+d-----        2/27/2020   1:49 PM                PFiles
+d-----         9/3/2021   3:36 PM                public
+d-----       10/21/2020   9:18 AM                rnichols
+d-----        6/11/2021   8:59 PM                sreyes
+d-----         4/8/2021   6:35 PM                tgreaser
+-a---l        7/19/2013   2:32 PM         425984 AdministrationConfig-en.msi
+-a----        2/20/2017   8:31 AM            624 applications (hssccmpackages) (S) - Shortcut.lnk
+-a----        3/14/2019   7:44 AM            424 CD Drive - Shortcut.lnk
+-a---l         6/4/2009   4:31 PM          48900 cmed-revoked.xml
+-a---l        6/24/2014   4:20 PM         264440 ComputerInfo2.xlsx
+-a---l        6/24/2014   4:22 PM         944105 ComputerInfo3.csv
+-a----        8/29/2008   8:42 AM          20480 crem.xls
+-a---l         6/4/2009   2:31 PM         348160 EmptyFolderNuker.exe
+-a----        5/16/2012   9:32 AM             22 export
+-a----         8/1/2018   8:43 AM          11384 ForcePoint DLP Test.docx
+-a---l        6/23/2009   3:20 PM          40722 med-trustees.xml
+-a---l         9/5/2008  10:27 AM         384318 NetSetup.log
+-a----         9/6/2019   8:30 AM           7746 older outlook clients.txt
+-a----         1/6/2020   7:50 AM          23290 OldOSdevices12419.xlsx
+-a----         4/6/2009   2:10 PM            303 ot-exerphys.txt
+-a----        1/11/2012   1:54 PM          21978 rights.csv
+-a----        2/26/2016  11:36 AM            594 Tools (T) - Shortcut.lnk
+-a----       10/21/2010  11:27 AM            422 VolumeInfo.xml
+
+
+PS H:\> get-acl jbrusoe
+
+
+    Directory: H:\
+
+
+Path    Owner                  Access
+----    -----                  ------
+jbrusoe BUILTIN\Administrators CREATOR OWNER Allow  FullControl...
+
+
+PS H:\> get-acl jbrusoe | select access
+
+Access
+------
+{System.Security.AccessControl.FileSystemAccessRule, System.Security.AccessControl.FileSystemAccessRule, System.Secu...
+
+
+PS H:\> get-acl jbrusoe | select -expandproperty access
+
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : CREATOR OWNER
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : InheritOnly
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : NT AUTHORITY\SYSTEM
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : BUILTIN\Administrators
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : HS\jbrusoe
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+
+
+PS H:\> get-acl public | select -expandproperty access
+
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : BUILTIN\Administrators
+IsInherited       : False
+InheritanceFlags  : None
+PropagationFlags  : None
+
+FileSystemRights  : Modify, Synchronize
+AccessControlType : Allow
+IdentityReference : HS\Networking
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+FileSystemRights  : Modify, ChangePermissions, Synchronize
+AccessControlType : Allow
+IdentityReference : HS\$NS
+IsInherited       : False
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+FileSystemRights  : ReadAndExecute, Synchronize
+AccessControlType : Allow
+IdentityReference : HS\wdumire
+IsInherited       : False
+InheritanceFlags  : None
+PropagationFlags  : None
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : BUILTIN\Administrators
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : CREATOR OWNER
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : InheritOnly
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : NT AUTHORITY\SYSTEM
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : HS\ITS Systems Server Admins
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+FileSystemRights  : FullControl
+AccessControlType : Allow
+IdentityReference : HS\r.nichols
+IsInherited       : True
+InheritanceFlags  : ContainerInherit, ObjectInherit
+PropagationFlags  : None
+
+
+

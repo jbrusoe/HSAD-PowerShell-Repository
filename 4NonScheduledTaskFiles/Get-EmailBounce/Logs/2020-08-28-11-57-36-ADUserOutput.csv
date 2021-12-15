@@ -1,0 +1,6 @@
+#TYPE System.Management.Automation.PSCustomObject
+"EmailFromFile","EmployeeNumberFromFile","Enabled"
+"jacquesc@hsc.wvu.edu","700140606","False"
+"kim.ice@hsc.wvu.edu","700630333","False"
+"martha.mullett@hsc.wvu.edu","700124544","False"
+"shofer@hsc.wvu.edu","700149622","True"

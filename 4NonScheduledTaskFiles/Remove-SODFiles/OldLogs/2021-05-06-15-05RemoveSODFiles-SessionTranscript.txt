@@ -1,0 +1,2421 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210506150510
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 5868
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-05-06-15-05RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDL16005
+LDAPFilter: (name=*SDL16005*)
+Computer Name: SDL16005-EN
+************************
+Current Computer: SDL16004
+LDAPFilter: (name=*SDL16004*)
+Computer Name: SDL16004-EN
+************************
+Current Computer: SDW13026
+LDAPFilter: (name=*SDW13026*)
+Computer Name: SDW13026-EN
+************************
+Current Computer: SDW13003
+LDAPFilter: (name=*SDW13003*)
+Computer Name: SDW13003
+************************
+Current Computer: SDW20001
+LDAPFilter: (name=*SDW20001*)
+Computer Name: SDW20001
+************************
+Current Computer: SDW16001
+LDAPFilter: (name=*SDW16001*)
+Computer Name: SDW16001-CA
+************************
+Current Computer: SOD-AD-1178
+LDAPFilter: (name=*SOD-AD-1178*)
+Computer Name: SOD-AD-1178
+************************
+Current Computer: SDW13101
+LDAPFilter: (name=*SDW13101*)
+Computer Name: SDW13101
+************************
+Current Computer: SDW13004
+LDAPFilter: (name=*SDW13004*)
+Computer Name: SDW13004
+************************
+Current Computer: SDW13098
+LDAPFilter: (name=*SDW13098*)
+Computer Name: SDW13098-DG
+************************
+Current Computer: SDW16002
+LDAPFilter: (name=*SDW16002*)
+Computer Name: SDW16002
+************************
+Current Computer: SDW16058
+LDAPFilter: (name=*SDW16058*)
+Computer Name: SDW16058
+************************
+Current Computer: SDA17010
+LDAPFilter: (name=*SDA17010*)
+Computer Name: SDA17010-PD
+************************
+Current Computer: SDA19150
+LDAPFilter: (name=*SDA19150*)
+Computer Name: SDA19150
+************************
+Current Computer: SDA19199
+LDAPFilter: (name=*SDA19199*)
+Computer Name: SDA19199
+************************
+Current Computer: SDA19200
+LDAPFilter: (name=*SDA19200*)
+Computer Name: SDA19200
+************************
+Current Computer: SDA19201
+LDAPFilter: (name=*SDA19201*)
+Computer Name: SDA19201
+************************
+Current Computer: SDA19202
+LDAPFilter: (name=*SDA19202*)
+Computer Name: SDA19202
+************************
+Current Computer: SDA19203
+LDAPFilter: (name=*SDA19203*)
+Computer Name: SDA19203
+************************
+Current Computer: SDA19204
+LDAPFilter: (name=*SDA19204*)
+Computer Name: SDA19204
+************************
+Current Computer: SDA19206
+LDAPFilter: (name=*SDA19206*)
+Computer Name: SDA19206
+************************
+Current Computer: SDA19208
+LDAPFilter: (name=*SDA19208*)
+Computer Name: SDA19208
+************************
+Current Computer: SDW13099
+LDAPFilter: (name=*SDW13099*)
+Computer Name: SDW13099
+************************
+Current Computer: SDW13039
+LDAPFilter: (name=*SDW13039*)
+Computer Name: SDW13039-OR
+************************
+Current Computer: SDW13043
+LDAPFilter: (name=*SDW13043*)
+Computer Name: SDW13043
+************************
+Current Computer: SDW2013004
+LDAPFilter: (name=*SDW2013004*)
+Computer Name: SDW2013004
+************************
+Current Computer: SDW13041
+LDAPFilter: (name=*SDW13041*)
+Computer Name: SDW13041-OR
+************************
+Current Computer: SDW2013003
+LDAPFilter: (name=*SDW2013003*)
+Computer Name: SDW2013003
+************************
+Current Computer: SDW2013002
+LDAPFilter: (name=*SDW2013002*)
+Computer Name: SDW2013002
+************************
+Current Computer: SDW13042
+LDAPFilter: (name=*SDW13042*)
+Computer Name: SDW13042-OR
+************************
+Current Computer: SDW2013008
+LDAPFilter: (name=*SDW2013008*)
+Computer Name: SDW2013008
+************************
+Current Computer: SDW13035
+LDAPFilter: (name=*SDW13035*)
+Computer Name: SDW13035-OR
+************************
+Current Computer: SDW13064
+LDAPFilter: (name=*SDW13064*)
+Computer Name: SDW13064-CA
+************************
+Current Computer: SDW13040
+LDAPFilter: (name=*SDW13040*)
+Computer Name: SDW13040-OR
+************************
+Current Computer: SDW13005
+LDAPFilter: (name=*SDW13005*)
+Computer Name: SDW13005-OR
+************************
+Current Computer: SDW16042
+LDAPFilter: (name=*SDW16042*)
+Computer Name: SDW16042
+************************
+Current Computer: SDW15013
+LDAPFilter: (name=*SDW15013*)
+Computer Name: SDW15013
+************************
+Current Computer: SDW15060
+LDAPFilter: (name=*SDW15060*)
+Computer Name: SDW15060
+************************
+Current Computer: SDW15025
+LDAPFilter: (name=*SDW15025*)
+Computer Name: SDW15025
+************************
+Current Computer: SDW15058
+LDAPFilter: (name=*SDW15058*)
+Computer Name: SDW15058-LC
+************************
+Current Computer: SDW15011
+LDAPFilter: (name=*SDW15011*)
+Computer Name: SDW15011
+************************
+Current Computer: SDW15041
+LDAPFilter: (name=*SDW15041*)
+Computer Name: SDW15041
+************************
+Current Computer: SDL18007
+LDAPFilter: (name=*SDL18007*)
+Computer Name: SDL18007
+************************
+Current Computer: SDL18008
+LDAPFilter: (name=*SDL18008*)
+Computer Name: SDL18008
+************************
+Current Computer: SDL18009
+LDAPFilter: (name=*SDL18009*)
+Computer Name: SDL18009
+************************
+Current Computer: SDL18010
+LDAPFilter: (name=*SDL18010*)
+Computer Name: SDL18010
+************************
+Current Computer: SDL18011
+LDAPFilter: (name=*SDL18011*)
+Computer Name: SDL18011
+************************
+Current Computer: SDW13022
+LDAPFilter: (name=*SDW13022*)
+Computer Name: SDW13022
+************************
+Current Computer: SDL14001
+LDAPFilter: (name=*SDL14001*)
+Computer Name: SDL14001
+************************
+Current Computer: SDW18006
+LDAPFilter: (name=*SDW18006*)
+Computer Name: SDW18006
+************************
+Current Computer: SDW13121
+LDAPFilter: (name=*SDW13121*)
+Computer Name: SDW13121-PR
+************************
+Current Computer: SDW13032
+LDAPFilter: (name=*SDW13032*)
+Computer Name: SDW13032-PD
+************************
+Current Computer: SDW13047
+LDAPFilter: (name=*SDW13047*)
+Computer Name: SDW13047-DG
+************************
+Current Computer: SDW2013001
+LDAPFilter: (name=*SDW2013001*)
+Computer Name: SDW2013001
+************************
+Current Computer: SDW13143
+LDAPFilter: (name=*SDW13143*)
+Computer Name: SDW13143
+************************
+Current Computer: SDW13069
+LDAPFilter: (name=*SDW13069*)
+Computer Name: SDW13069-DG
+************************
+Current Computer: SDW13078
+LDAPFilter: (name=*SDW13078*)
+Computer Name: SDW13078-CA
+************************
+Current Computer: SOD-STC-4513-05
+LDAPFilter: (name=*SOD-STC-4513-05*)
+Computer Name: SOD-STC-4513-05
+************************
+Current Computer: SDW13049
+LDAPFilter: (name=*SDW13049*)
+Computer Name: SDW13049-EN
+************************
+Current Computer: SDW13113
+LDAPFilter: (name=*SDW13113*)
+Computer Name: SDW13113-DG
+************************
+Current Computer: SDW13061
+LDAPFilter: (name=*SDW13061*)
+Computer Name: SDW13061-DG
+************************
+Current Computer: SDW13020
+LDAPFilter: (name=*SDW13020*)
+Computer Name: SDW13020-PR
+************************
+Current Computer: SDW13131
+LDAPFilter: (name=*SDW13131*)
+Computer Name: SDW13131
+************************
+Current Computer: SDW13057
+LDAPFilter: (name=*SDW13057*)
+Computer Name: SDW13057-DG
+************************
+Current Computer: SDW13031
+LDAPFilter: (name=*SDW13031*)
+Computer Name: SDW13031
+************************
+Current Computer: SDW13074
+LDAPFilter: (name=*SDW13074*)
+Computer Name: SDW13074
+************************
+Current Computer: SDW13058
+LDAPFilter: (name=*SDW13058*)
+Computer Name: SDW13058-DG
+************************
+Current Computer: SDW13142
+LDAPFilter: (name=*SDW13142*)
+Computer Name: SDW13142
+************************
+Current Computer: SDW13103
+LDAPFilter: (name=*SDW13103*)
+Computer Name: SDW13103-PR
+************************
+Current Computer: SDW13029
+LDAPFilter: (name=*SDW13029*)
+Computer Name: SDW13029
+************************
+Current Computer: SDW13140
+LDAPFilter: (name=*SDW13140*)
+Computer Name: SDW13140
+************************
+Current Computer: SDW13014
+LDAPFilter: (name=*SDW13014*)
+Computer Name: SDW13014-CA
+************************
+Current Computer: SDW13120
+LDAPFilter: (name=*SDW13120*)
+Computer Name: SDW13120
+************************
+Current Computer: SDW15035
+LDAPFilter: (name=*SDW15035*)
+Computer Name: SDW15035
+************************
+Current Computer: SDW16035
+LDAPFilter: (name=*SDW16035*)
+Computer Name: SDW16035
+************************
+Current Computer: HS-SOD-DECC
+LDAPFilter: (name=*HS-SOD-DECC*)
+************************
+Current Computer: SDW16139
+LDAPFilter: (name=*SDW16139*)
+Computer Name: SDW16139
+************************
+Current Computer: SDW16084
+LDAPFilter: (name=*SDW16084*)
+Computer Name: SDW16084
+************************
+Current Computer: SDL15000
+LDAPFilter: (name=*SDL15000*)
+************************
+Current Computer: SDT16001
+LDAPFilter: (name=*SDT16001*)
+************************
+Current Computer: SDL16055
+LDAPFilter: (name=*SDL16055*)
+Computer Name: SDL16055
+************************
+Current Computer: SDL16013
+LDAPFilter: (name=*SDL16013*)
+Computer Name: SDL16013-EN
+************************
+Current Computer: SDL14002
+LDAPFilter: (name=*SDL14002*)
+************************
+Current Computer: SDL12005
+LDAPFilter: (name=*SDL12005*)
+************************
+Current Computer: HS-SODLOAN2
+LDAPFilter: (name=*HS-SODLOAN2*)
+************************
+Current Computer: SDL2016001
+LDAPFilter: (name=*SDL2016001*)
+************************
+Current Computer: SDA17001
+LDAPFilter: (name=*SDA17001*)
+Computer Name: SDA17001-CA
+************************
+Current Computer: SDA17002
+LDAPFilter: (name=*SDA17002*)
+Computer Name: SDA17002-CA
+************************
+Current Computer: SDA17003
+LDAPFilter: (name=*SDA17003*)
+Computer Name: SDA17003-CA
+************************
+Current Computer: SDW16039
+LDAPFilter: (name=*SDW16039*)
+Computer Name: SDW16039-PD
+************************
+Current Computer: SDA17018
+LDAPFilter: (name=*SDA17018*)
+Computer Name: SDA17018-AD
+************************
+Current Computer: SDA19202
+LDAPFilter: (name=*SDA19202*)
+Computer Name: SDA19202
+************************
+Current Computer: SDW16142
+LDAPFilter: (name=*SDW16142*)
+Computer Name: SDW16142
+************************
+Current Computer: SDA17017
+LDAPFilter: (name=*SDA17017*)
+Computer Name: SDA17017-CA
+************************
+Current Computer: SDW13092
+LDAPFilter: (name=*SDW13092*)
+Computer Name: SDW13092-DS
+************************
+Current Computer: SDW16065
+LDAPFilter: (name=*SDW16065*)
+Computer Name: SDW16065
+************************
+Current Computer: SDW16066
+LDAPFilter: (name=*SDW16066*)
+Computer Name: SDW16066
+************************
+Current Computer: SDW16067
+LDAPFilter: (name=*SDW16067*)
+Computer Name: SDW16067
+************************
+Current Computer: SDW18007
+LDAPFilter: (name=*SDW18007*)
+Computer Name: SDW18007-DS
+************************
+Current Computer: SDL16031
+LDAPFilter: (name=*SDL16031*)
+Computer Name: SDL16031
+************************
+Current Computer: SDL16030
+LDAPFilter: (name=*SDL16030*)
+Computer Name: SDL16030
+************************
+Current Computer: SDW13087
+LDAPFilter: (name=*SDW13087*)
+Computer Name: SDW13087-CA
+************************
+Current Computer: SDW13021
+LDAPFilter: (name=*SDW13021*)
+Computer Name: SDW13021-CA
+************************
+Current Computer: SDA17004
+LDAPFilter: (name=*SDA17004*)
+Computer Name: SDA17004-DS
+************************
+Current Computer: SDW16063
+LDAPFilter: (name=*SDW16063*)
+Computer Name: SDW16063-DS
+************************
+Current Computer: SDA17005
+LDAPFilter: (name=*SDA17005*)
+Computer Name: SDA17005-DS
+************************
+Current Computer: SDA17006
+LDAPFilter: (name=*SDA17006*)
+Computer Name: SDA17006-DS
+************************
+Current Computer: SDW12008
+LDAPFilter: (name=*SDW12008*)
+Computer Name: SDW12008-DS
+************************
+Current Computer: SDW12009
+LDAPFilter: (name=*SDW12009*)
+Computer Name: SDW12009-DS
+************************
+Current Computer: SDW12014
+LDAPFilter: (name=*SDW12014*)
+Computer Name: SDW12014-DS
+************************
+Current Computer: SDW18004
+LDAPFilter: (name=*SDW18004*)
+Computer Name: SDW18004
+************************
+Current Computer: SDL16023
+LDAPFilter: (name=*SDL16023*)
+Computer Name: SDL16023
+************************
+Current Computer: SDL16022
+LDAPFilter: (name=*SDL16022*)
+Computer Name: SDL16022
+************************
+Current Computer: SDL16021
+LDAPFilter: (name=*SDL16021*)
+Computer Name: SDL16021-DS
+************************
+Current Computer: SDW19212
+LDAPFilter: (name=*SDW19212*)
+Computer Name: SDW19212
+************************
+Current Computer: TBN2193468
+LDAPFilter: (name=*TBN2193468*)
+************************
+Current Computer: SDL16020
+LDAPFilter: (name=*SDL16020*)
+Computer Name: SDL16020-DS
+************************
+Current Computer: SDL16017
+LDAPFilter: (name=*SDL16017*)
+Computer Name: SDL16017-DS
+************************
+Current Computer: SDW18003
+LDAPFilter: (name=*SDW18003*)
+Computer Name: SDW18003-DS
+************************
+Current Computer: SDL16016
+LDAPFilter: (name=*SDL16016*)
+Computer Name: SDL16016-DS
+************************
+Current Computer: SDL16015
+LDAPFilter: (name=*SDL16015*)
+Computer Name: SDL16015-DS
+************************
+Current Computer: SDW16021
+LDAPFilter: (name=*SDW16021*)
+Computer Name: SDW16021-PD
+************************
+Current Computer: SDW13093
+LDAPFilter: (name=*SDW13093*)
+Computer Name: SDW13093-AD
+************************
+Current Computer: SDW16016
+LDAPFilter: (name=*SDW16016*)
+Computer Name: SDW16016
+************************
+Current Computer: SDW15007
+LDAPFilter: (name=*SDW15007*)
+Computer Name: SDW15007-RD
+************************
+Current Computer: SDA19151
+LDAPFilter: (name=*SDA19151*)
+Computer Name: SDA19151
+************************
+Current Computer: SDA19152
+LDAPFilter: (name=*SDA19152*)
+Computer Name: SDA19152
+************************
+Current Computer: SDA19155
+LDAPFilter: (name=*SDA19155*)
+Computer Name: SDA19155
+************************
+Current Computer: SDA19153
+LDAPFilter: (name=*SDA19153*)
+Computer Name: SDA19153
+************************
+Current Computer: SDA19156
+LDAPFilter: (name=*SDA19156*)
+Computer Name: SDA19156
+************************
+Current Computer: SDA19157
+LDAPFilter: (name=*SDA19157*)
+Computer Name: SDA19157
+************************
+Current Computer: SDA19158
+LDAPFilter: (name=*SDA19158*)
+Computer Name: SDA19158
+************************
+Current Computer: SDA19162
+LDAPFilter: (name=*SDA19162*)
+Computer Name: SDA19162
+************************
+Current Computer: SDA19161
+LDAPFilter: (name=*SDA19161*)
+Computer Name: SDA19161
+************************
+Current Computer: SDA19160
+LDAPFilter: (name=*SDA19160*)
+Computer Name: SDA19160
+************************
+Current Computer: SDA19159
+LDAPFilter: (name=*SDA19159*)
+Computer Name: SDA19159
+************************
+Current Computer: SDA19172
+LDAPFilter: (name=*SDA19172*)
+Computer Name: SDA19172
+************************
+Current Computer: SDA19166
+LDAPFilter: (name=*SDA19166*)
+Computer Name: SDA19166
+************************
+Current Computer: SDW15018
+LDAPFilter: (name=*SDW15018*)
+Computer Name: SDW15018
+************************
+Current Computer: SDA19177
+LDAPFilter: (name=*SDA19177*)
+Computer Name: SDA19177
+************************
+Current Computer: SDA19184
+LDAPFilter: (name=*SDA19184*)
+Computer Name: SDA19184
+************************
+Current Computer: SDA19167
+LDAPFilter: (name=*SDA19167*)
+Computer Name: SDA19167
+************************
+Current Computer: SDA19174
+LDAPFilter: (name=*SDA19174*)
+Computer Name: SDA19174
+************************
+Current Computer: SDA19170
+LDAPFilter: (name=*SDA19170*)
+Computer Name: SDA19170
+************************
+Current Computer: SDA19165
+LDAPFilter: (name=*SDA19165*)
+Computer Name: SDA19165
+************************
+Current Computer: SDA19173
+LDAPFilter: (name=*SDA19173*)
+Computer Name: SDA19173
+************************
+Current Computer: SDA19168
+LDAPFilter: (name=*SDA19168*)
+Computer Name: SDA19168
+************************
+Current Computer: SDA19164
+LDAPFilter: (name=*SDA19164*)
+Computer Name: SDA19164
+************************
+Current Computer: SDA19154
+LDAPFilter: (name=*SDA19154*)
+Computer Name: SDA19154
+************************
+Current Computer: SDA19163
+LDAPFilter: (name=*SDA19163*)
+Computer Name: SDA19163
+************************
+Current Computer: SDA19169
+LDAPFilter: (name=*SDA19169*)
+Computer Name: SDA19169
+************************
+Current Computer: SDW15019
+LDAPFilter: (name=*SDW15019*)
+Computer Name: SDW15019
+************************
+Current Computer: SDW15020
+LDAPFilter: (name=*SDW15020*)
+Computer Name: SDW15020
+************************
+Current Computer: SDA19181
+LDAPFilter: (name=*SDA19181*)
+Computer Name: SDA19181
+************************
+Current Computer: SDA19179
+LDAPFilter: (name=*SDA19179*)
+Computer Name: SDA19179
+************************
+Current Computer: SDA19176
+LDAPFilter: (name=*SDA19176*)
+Computer Name: SDA19176
+************************
+Current Computer: SDA19182
+LDAPFilter: (name=*SDA19182*)
+Computer Name: SDA19182
+************************
+Current Computer: SDA19171
+LDAPFilter: (name=*SDA19171*)
+Computer Name: SDA19171
+************************
+Current Computer: SDA19188
+LDAPFilter: (name=*SDA19188*)
+Computer Name: SDA19188
+************************
+Current Computer: SDA19175
+LDAPFilter: (name=*SDA19175*)
+Computer Name: SDA19175
+************************
+Current Computer: SDA19180
+LDAPFilter: (name=*SDA19180*)
+Computer Name: SDA19180
+************************
+Current Computer: SDA19178
+LDAPFilter: (name=*SDA19178*)
+Computer Name: SDA19178
+************************
+Current Computer: SDA19186
+LDAPFilter: (name=*SDA19186*)
+Computer Name: SDA19186
+************************
+Current Computer: SDA19183
+LDAPFilter: (name=*SDA19183*)
+Computer Name: SDA19183
+************************
+Current Computer: SDW15021
+LDAPFilter: (name=*SDW15021*)
+Computer Name: SDW15021
+************************
+Current Computer: SDW15022
+LDAPFilter: (name=*SDW15022*)
+Computer Name: SDW15022
+************************
+Current Computer: SDA19198
+LDAPFilter: (name=*SDA19198*)
+Computer Name: SDA19198
+************************
+Current Computer: SDA19189
+LDAPFilter: (name=*SDA19189*)
+Computer Name: SDA19189
+************************
+Current Computer: SDA19190
+LDAPFilter: (name=*SDA19190*)
+Computer Name: SDA19190
+************************
+Current Computer: SDA19197
+LDAPFilter: (name=*SDA19197*)
+Computer Name: SDA19197
+************************
+Current Computer: SDA19185
+LDAPFilter: (name=*SDA19185*)
+Computer Name: SDA19185
+************************
+Current Computer: SDA19193
+LDAPFilter: (name=*SDA19193*)
+Computer Name: SDA19193
+************************
+Current Computer: SDA19192
+LDAPFilter: (name=*SDA19192*)
+Computer Name: SDA19192
+************************
+Current Computer: SDA19195
+LDAPFilter: (name=*SDA19195*)
+Computer Name: SDA19195
+************************
+Current Computer: SDA19187
+LDAPFilter: (name=*SDA19187*)
+Computer Name: SDA19187
+************************
+Current Computer: SDA19191
+LDAPFilter: (name=*SDA19191*)
+Computer Name: SDA19191
+************************
+Current Computer: SDA19194
+LDAPFilter: (name=*SDA19194*)
+Computer Name: SDA19194
+************************
+Current Computer: SDA19196
+LDAPFilter: (name=*SDA19196*)
+Computer Name: SDA19196
+************************
+Current Computer: SDW15023
+LDAPFilter: (name=*SDW15023*)
+Computer Name: SDW15023
+************************
+Current Computer: SDL16024
+LDAPFilter: (name=*SDL16024*)
+Computer Name: SDL16024-LC
+************************
+Current Computer: SDL16025
+LDAPFilter: (name=*SDL16025*)
+Computer Name: SDL16025-LC
+************************
+Current Computer: SDL16026
+LDAPFilter: (name=*SDL16026*)
+Computer Name: SDL16026-LC
+************************
+Current Computer: SDL16027
+LDAPFilter: (name=*SDL16027*)
+Computer Name: SDL16027-LC
+************************
+Current Computer: SDL16028
+LDAPFilter: (name=*SDL16028*)
+Computer Name: SDL16028-LC
+************************
+Current Computer: SDL16029
+LDAPFilter: (name=*SDL16029*)
+Computer Name: SDL16029-LC
+************************
+Current Computer: SDA18024
+LDAPFilter: (name=*SDA18024*)
+Computer Name: SDA18024-CP
+************************
+Current Computer: SDA18023
+LDAPFilter: (name=*SDA18023*)
+Computer Name: SDA18023-CP
+************************
+Current Computer: SDA18028
+LDAPFilter: (name=*SDA18028*)
+Computer Name: SDA18028
+************************
+Current Computer: SDA18026
+LDAPFilter: (name=*SDA18026*)
+Computer Name: SDA18026
+************************
+Current Computer: SDA18027
+LDAPFilter: (name=*SDA18027*)
+Computer Name: SDA18027
+************************
+Current Computer: SDA18022
+LDAPFilter: (name=*SDA18022*)
+Computer Name: SDA18022-CP
+************************
+Current Computer: SDW19211
+LDAPFilter: (name=*SDW19211*)
+Computer Name: SDW19211
+************************
+Current Computer: SDW13023
+LDAPFilter: (name=*SDW13023*)
+Computer Name: SDW13023-EN
+************************
+Current Computer: SDA19209
+LDAPFilter: (name=*SDA19209*)
+Computer Name: SDA19209
+************************
+Current Computer: SDW13123
+LDAPFilter: (name=*SDW13123*)
+Computer Name: SDW13123-EN
+************************
+Current Computer: SDW13025
+LDAPFilter: (name=*SDW13025*)
+Computer Name: SDW13025-EN
+************************
+Current Computer: SDW13033
+LDAPFilter: (name=*SDW13033*)
+Computer Name: SDW13033-EN
+************************
+Current Computer: SDW13117
+LDAPFilter: (name=*SDW13117*)
+Computer Name: SDW13117
+************************
+Current Computer: SDW13096
+LDAPFilter: (name=*SDW13096*)
+Computer Name: SDW13096
+************************
+Current Computer: SDW13097
+LDAPFilter: (name=*SDW13097*)
+Computer Name: SDW13097
+************************
+Current Computer: SDW13090
+LDAPFilter: (name=*SDW13090*)
+Computer Name: SDW13090-CA
+************************
+Current Computer: SDA18025
+LDAPFilter: (name=*SDA18025*)
+Computer Name: SDA18025-CP
+************************
+Current Computer: SDA18021
+LDAPFilter: (name=*SDA18021*)
+Computer Name: SDA18021-CP
+************************
+Current Computer: SDW16030
+LDAPFilter: (name=*SDW16030*)
+Computer Name: SDW16030
+************************
+Current Computer: SDA18013
+LDAPFilter: (name=*SDA18013*)
+Computer Name: SDA18013
+************************
+Current Computer: SDA18014
+LDAPFilter: (name=*SDA18014*)
+Computer Name: SDA18014
+************************
+Current Computer: SDW15079
+LDAPFilter: (name=*SDW15079*)
+Computer Name: SDW15079-CA
+************************
+Current Computer: SOD-PD-1058
+LDAPFilter: (name=*SOD-PD-1058*)
+Computer Name: SOD-PD-1058
+************************
+Current Computer: SDW13136
+LDAPFilter: (name=*SDW13136*)
+Computer Name: SDW13136
+************************
+Current Computer: SDL16014
+LDAPFilter: (name=*SDL16014*)
+Computer Name: SDL16014-PD
+************************
+Current Computer: SDW13094
+LDAPFilter: (name=*SDW13094*)
+Computer Name: SDW13094-PD
+************************
+Current Computer: SDW13095
+LDAPFilter: (name=*SDW13095*)
+Computer Name: SDW13095-PD
+************************
+Current Computer: SDW16047
+LDAPFilter: (name=*SDW16047*)
+Computer Name: SDW16047
+************************
+Current Computer: SDW13100
+LDAPFilter: (name=*SDW13100*)
+Computer Name: SDW13100
+************************
+Current Computer: SDW16006
+LDAPFilter: (name=*SDW16006*)
+Computer Name: SDW16006-RD
+************************
+Current Computer: SDA19207
+LDAPFilter: (name=*SDA19207*)
+Computer Name: SDA19207
+************************
+Current Computer: SDA17011
+LDAPFilter: (name=*SDA17011*)
+Computer Name: SDA17011-PD
+************************
+Current Computer: SDW16024
+LDAPFilter: (name=*SDW16024*)
+Computer Name: SDW16024
+************************
+Current Computer: SDW13085
+LDAPFilter: (name=*SDW13085*)
+Computer Name: SDW13085-EN
+************************
+Current Computer: SDW15068
+LDAPFilter: (name=*SDW15068*)
+Computer Name: SDW15068-EN
+************************
+Current Computer: SDW15067
+LDAPFilter: (name=*SDW15067*)
+Computer Name: SDW15067-EN
+************************
+Current Computer: SDW15066
+LDAPFilter: (name=*SDW15066*)
+Computer Name: SDW15066-EN
+************************
+Current Computer: SDW15070
+LDAPFilter: (name=*SDW15070*)
+Computer Name: SDW15070-EN
+************************
+Current Computer: SDW16075
+LDAPFilter: (name=*SDW16075*)
+Computer Name: SDW16075
+************************
+Current Computer: SDW16031
+LDAPFilter: (name=*SDW16031*)
+Computer Name: SDW16031-PE
+************************
+Current Computer: SDW16074
+LDAPFilter: (name=*SDW16074*)
+Computer Name: SDW16074
+************************
+Current Computer: SDW16048
+LDAPFilter: (name=*SDW16048*)
+Computer Name: SDW16048-EN
+************************
+Current Computer: SOD-4K
+LDAPFilter: (name=*SOD-4K*)
+Computer Name: SOD-4K
+************************
+Current Computer: SDW15085
+LDAPFilter: (name=*SDW15085*)
+Computer Name: SDW15085
+************************
+Current Computer: SDA19203
+LDAPFilter: (name=*SDA19203*)
+Computer Name: SDA19203
+************************
+Current Computer: SDA18017
+LDAPFilter: (name=*SDA18017*)
+Computer Name: SDA18017-RD
+************************
+Current Computer: SDA18018
+LDAPFilter: (name=*SDA18018*)
+Computer Name: SDA18018-RD
+************************
+Current Computer: SDA18019
+LDAPFilter: (name=*SDA18019*)
+Computer Name: SDA18019-RD
+************************
+Current Computer: SDA18020
+LDAPFilter: (name=*SDA18020*)
+Computer Name: SDA18020-RD
+************************
+Current Computer: SDW18001
+LDAPFilter: (name=*SDW18001*)
+Computer Name: SDW18001-DS
+************************
+Current Computer: SDW13128
+LDAPFilter: (name=*SDW13128*)
+Computer Name: SDW13128
+************************
+Current Computer: SDW13127
+LDAPFilter: (name=*SDW13127*)
+Computer Name: SDW13127
+************************
+Current Computer: SDW13084
+LDAPFilter: (name=*SDW13084*)
+Computer Name: SDW13084
+************************
+Current Computer: SDW13024
+LDAPFilter: (name=*SDW13024*)
+Computer Name: SDW13024
+************************
+Current Computer: SDW13125
+LDAPFilter: (name=*SDW13125*)
+Computer Name: SDW13125
+************************
+Current Computer: SDW13067
+LDAPFilter: (name=*SDW13067*)
+Computer Name: SDW13067
+************************
+Current Computer: SDW13122
+LDAPFilter: (name=*SDW13122*)
+Computer Name: SDW13122
+************************
+Current Computer: SDW13081
+LDAPFilter: (name=*SDW13081*)
+Computer Name: SDW13081
+************************
+Current Computer: SDW13088
+LDAPFilter: (name=*SDW13088*)
+Computer Name: SDW13088
+************************
+Current Computer: SDW13124
+LDAPFilter: (name=*SDW13124*)
+Computer Name: SDW13124
+************************
+Current Computer: SDW13138
+LDAPFilter: (name=*SDW13138*)
+Computer Name: SDW13138
+************************
+Current Computer: SDW16052
+LDAPFilter: (name=*SDW16052*)
+Computer Name: SDW16052
+************************
+Current Computer: SDW16046
+LDAPFilter: (name=*SDW16046*)
+Computer Name: SDW16046-OS
+************************
+Current Computer: SDW13079
+LDAPFilter: (name=*SDW13079*)
+Computer Name: SDW13079-OR
+************************
+Current Computer: SDW15065
+LDAPFilter: (name=*SDW15065*)
+Computer Name: SDW15065-EN
+************************
+Current Computer: SDW19210
+LDAPFilter: (name=*SDW19210*)
+Computer Name: SDW19210
+************************
+Current Computer: SDW16009
+LDAPFilter: (name=*SDW16009*)
+Computer Name: SDW16009
+************************
+Current Computer: SDW13027
+LDAPFilter: (name=*SDW13027*)
+Computer Name: SDW13027-EN
+************************
+Current Computer: SDW13028
+LDAPFilter: (name=*SDW13028*)
+Computer Name: SDW13028-EN
+************************
+Current Computer: SDW13052
+LDAPFilter: (name=*SDW13052*)
+Computer Name: SDW13052-EN
+************************
+Current Computer: SDW13116
+LDAPFilter: (name=*SDW13116*)
+Computer Name: SDW13116
+************************
+Current Computer: SDW13050
+LDAPFilter: (name=*SDW13050*)
+Computer Name: SDW13050-EN
+************************
+Current Computer: SDL16006
+LDAPFilter: (name=*SDL16006*)
+Computer Name: SDL16006
+************************
+Current Computer: SDL16009
+LDAPFilter: (name=*SDL16009*)
+Computer Name: SDL16009
+************************
+Current Computer: SDL16010
+LDAPFilter: (name=*SDL16010*)
+Computer Name: SDL16010
+************************
+Current Computer: SDL16012
+LDAPFilter: (name=*SDL16012*)
+Computer Name: SDL16012-EN
+Computer Name: SDL16012
+************************
+Current Computer: SDL16011
+LDAPFilter: (name=*SDL16011*)
+Computer Name: SDL16011
+************************
+Current Computer: SDW13053
+LDAPFilter: (name=*SDW13053*)
+Computer Name: SDW13053-EN
+************************
+Current Computer: SDL16018
+LDAPFilter: (name=*SDL16018*)
+Computer Name: SDL16018
+************************
+Current Computer: SDL16019
+LDAPFilter: (name=*SDL16019*)
+Computer Name: SDL16019
+************************
+Current Computer: SDW13006
+LDAPFilter: (name=*SDW13006*)
+Computer Name: SDW13006-PD
+************************
+Current Computer: SDW13082
+LDAPFilter: (name=*SDW13082*)
+Computer Name: SDW13082-PD
+************************
+Current Computer: SDW13083
+LDAPFilter: (name=*SDW13083*)
+Computer Name: SDW13083-PD
+************************
+Current Computer: SDL16034
+LDAPFilter: (name=*SDL16034*)
+Computer Name: SDL16034-PD
+************************
+Current Computer: SDL16033
+LDAPFilter: (name=*SDL16033*)
+Computer Name: SDL16033
+************************
+Current Computer: SDL16032
+LDAPFilter: (name=*SDL16032*)
+Computer Name: SDL16032-PD
+************************
+Current Computer: SDW13013
+LDAPFilter: (name=*SDW13013*)
+Computer Name: SDW13013-PD
+************************
+Current Computer: SDW13071
+LDAPFilter: (name=*SDW13071*)
+Computer Name: SDW13071
+************************
+Current Computer: SDW13054
+LDAPFilter: (name=*SDW13054*)
+Computer Name: SDW13054-PD
+************************
+Current Computer: SDW13055
+LDAPFilter: (name=*SDW13055*)
+Computer Name: SDW13055-PD
+************************
+Current Computer: SOD-SURGERY-A
+LDAPFilter: (name=*SOD-SURGERY-A*)
+Computer Name: SOD-SURGERY-A
+************************
+Current Computer: SOD-SURGERY-B
+LDAPFilter: (name=*SOD-SURGERY-B*)
+Computer Name: SOD-SURGERY-B
+************************
+Current Computer: SOD-SURGERY-C
+LDAPFilter: (name=*SOD-SURGERY-C*)
+Computer Name: SOD-SURGERY-C
+************************
+Current Computer: SDL16046
+LDAPFilter: (name=*SDL16046*)
+Computer Name: SDL16046-PD
+************************
+Current Computer: SDA18001
+LDAPFilter: (name=*SDA18001*)
+Computer Name: SDA18001-LC
+************************
+Current Computer: SDA18002
+LDAPFilter: (name=*SDA18002*)
+Computer Name: SDA18002-LC
+************************
+Current Computer: SDA18003
+LDAPFilter: (name=*SDA18003*)
+Computer Name: SDA18003-LC
+************************
+Current Computer: SDA18004
+LDAPFilter: (name=*SDA18004*)
+Computer Name: SDA18004-LC
+************************
+Current Computer: SDA18005
+LDAPFilter: (name=*SDA18005*)
+Computer Name: SDA18005-LC
+************************
+Current Computer: SDA18006
+LDAPFilter: (name=*SDA18006*)
+Computer Name: SDA18006-LC
+************************
+Current Computer: SDA18007
+LDAPFilter: (name=*SDA18007*)
+Computer Name: SDA18007-LC
+************************
+Current Computer: SDA18008
+LDAPFilter: (name=*SDA18008*)
+Computer Name: SDA18008-LC
+************************
+Current Computer: SDA18009
+LDAPFilter: (name=*SDA18009*)
+Computer Name: SDA18009-LC
+************************
+Current Computer: SDA18010
+LDAPFilter: (name=*SDA18010*)
+Computer Name: SDA18010-LC
+************************
+Current Computer: SDA18011
+LDAPFilter: (name=*SDA18011*)
+Computer Name: SDA18011-LC
+************************
+Current Computer: SDA18012
+LDAPFilter: (name=*SDA18012*)
+Computer Name: SDA18012-LC
+************************
+Current Computer: SDW13075
+LDAPFilter: (name=*SDW13075*)
+Computer Name: SDW13075
+************************
+Current Computer: SDW16012
+LDAPFilter: (name=*SDW16012*)
+Computer Name: SDW16012-PE
+************************
+Current Computer: SOD-LAB-1103
+LDAPFilter: (name=*SOD-LAB-1103*)
+Computer Name: SOD-LAB-1103
+************************
+Current Computer: ITS-1106
+LDAPFilter: (name=*ITS-1106*)
+Computer Name: ITS-1106
+************************
+Current Computer: ITS-1107
+LDAPFilter: (name=*ITS-1107*)
+Computer Name: ITS-1107
+************************
+Current Computer: SDW16083
+LDAPFilter: (name=*SDW16083*)
+Computer Name: SDW16083
+************************
+Current Computer: SDL16049
+LDAPFilter: (name=*SDL16049*)
+Computer Name: SDL16049-EN
+************************
+Current Computer: SDW13056
+LDAPFilter: (name=*SDW13056*)
+Computer Name: SDW13056
+************************
+Current Computer: SDW13134
+LDAPFilter: (name=*SDW13134*)
+Computer Name: SDW13134
+************************
+Current Computer: SDW16041
+LDAPFilter: (name=*SDW16041*)
+Computer Name: SDW16041-RD
+************************
+Current Computer: SDW16018
+LDAPFilter: (name=*SDW16018*)
+Computer Name: SDW16018
+************************
+Current Computer: SDA19204
+LDAPFilter: (name=*SDA19204*)
+Computer Name: SDA19204
+************************
+Current Computer: SDW13101
+LDAPFilter: (name=*SDW13101*)
+Computer Name: SDW13101
+************************
+Current Computer: SDW13015
+LDAPFilter: (name=*SDW13015*)
+Computer Name: SDW13015
+************************
+Current Computer: SDW15008
+LDAPFilter: (name=*SDW15008*)
+Computer Name: SDW15008-RD
+************************
+Current Computer: SDW13001
+LDAPFilter: (name=*SDW13001*)
+Computer Name: SDW13001
+************************
+Current Computer: SDW16049
+LDAPFilter: (name=*SDW16049*)
+Computer Name: SDW16049
+************************
+Current Computer: SDW16081
+LDAPFilter: (name=*SDW16081*)
+Computer Name: SDW16081
+************************
+Current Computer: SOD-DHAID
+LDAPFilter: (name=*SOD-DHAID*)
+Computer Name: SOD-DHAID
+************************
+Current Computer: SDL14001
+LDAPFilter: (name=*SDL14001*)
+Computer Name: SDL14001
+************************
+Current Computer: SDL16036
+LDAPFilter: (name=*SDL16036*)
+Computer Name: SDL16036-OS
+************************
+Current Computer: SDL16047
+LDAPFilter: (name=*SDL16047*)
+Computer Name: SDL16047-OS
+************************
+Current Computer: SDL16008
+LDAPFilter: (name=*SDL16008*)
+Computer Name: SDL16008-OS
+************************
+Current Computer: SDL16041
+LDAPFilter: (name=*SDL16041*)
+Computer Name: SDL16041
+************************
+Current Computer: SDW16008
+LDAPFilter: (name=*SDW16008*)
+Computer Name: SDW16008-OS
+************************
+Current Computer: SDL16042
+LDAPFilter: (name=*SDL16042*)
+Computer Name: SDL16042-OS
+************************
+Current Computer: SDW15071
+LDAPFilter: (name=*SDW15071*)
+Computer Name: SDW15071-OS
+************************
+Current Computer: SDW15072
+LDAPFilter: (name=*SDW15072*)
+Computer Name: SDW15072-OS
+************************
+Current Computer: SDW15074
+LDAPFilter: (name=*SDW15074*)
+Computer Name: SDW15074-OS
+************************
+Current Computer: SDW15075
+LDAPFilter: (name=*SDW15075*)
+Computer Name: SDW15075-OS
+************************
+Current Computer: SDW15076
+LDAPFilter: (name=*SDW15076*)
+Computer Name: SDW15076-OS
+************************
+Current Computer: SDW16027
+LDAPFilter: (name=*SDW16027*)
+Computer Name: SDW16027-OS
+************************
+Current Computer: SDW13038
+LDAPFilter: (name=*SDW13038*)
+Computer Name: SDW13038
+************************
+Current Computer: SDL16052
+LDAPFilter: (name=*SDL16052*)
+Computer Name: SDL16052-OS
+************************
+Current Computer: SDW13135
+LDAPFilter: (name=*SDW13135*)
+Computer Name: SDW13135
+************************
+Current Computer: SDL16003
+LDAPFilter: (name=*SDL16003*)
+Computer Name: SDL16003-AL
+************************
+Current Computer: SDW15086
+LDAPFilter: (name=*SDW15086*)
+Computer Name: SDW15086-OS
+************************
+Current Computer: SDW16007
+LDAPFilter: (name=*SDW16007*)
+Computer Name: SDW16007
+************************
+Current Computer: SDW13118
+LDAPFilter: (name=*SDW13118*)
+Computer Name: SDW13118
+************************
+Current Computer: SDW13126
+LDAPFilter: (name=*SDW13126*)
+Computer Name: SDW13126-PE
+************************
+Current Computer: SDW16045
+LDAPFilter: (name=*SDW16045*)
+Computer Name: SDW16045
+************************
+Current Computer: SDA18015
+LDAPFilter: (name=*SDA18015*)
+Computer Name: SDA18015-RE
+************************
+Current Computer: SDA18016
+LDAPFilter: (name=*SDA18016*)
+Computer Name: SDA18016-RE
+************************
+Current Computer: SDW16015
+LDAPFilter: (name=*SDW16015*)
+Computer Name: SDW16015
+************************
+Current Computer: SDW12025
+LDAPFilter: (name=*SDW12025*)
+Computer Name: SDW12025
+************************
+Current Computer: SDL2012001
+LDAPFilter: (name=*SDL2012001*)
+Computer Name: SDL2012001
+************************
+Current Computer: SDW16017
+LDAPFilter: (name=*SDW16017*)
+Computer Name: SDW16017
+************************
+Current Computer: SDW15088
+LDAPFilter: (name=*SDW15088*)
+Computer Name: SDW15088
+************************
+Current Computer: SDL20008
+LDAPFilter: (name=*SDL20008*)
+Computer Name: SDL20008
+************************
+Current Computer: SDW15082
+LDAPFilter: (name=*SDW15082*)
+Computer Name: SDW15082-HY
+************************
+Current Computer: SDL20009
+LDAPFilter: (name=*SDL20009*)
+Computer Name: SDL20009
+************************
+Current Computer: SDL16040
+LDAPFilter: (name=*SDL16040*)
+Computer Name: SDL16040-HY
+************************
+Current Computer: SDW15077
+LDAPFilter: (name=*SDW15077*)
+Computer Name: SDW15077
+************************
+Current Computer: SDW15089
+LDAPFilter: (name=*SDW15089*)
+Computer Name: SDW15089
+************************
+Current Computer: SDW16050
+LDAPFilter: (name=*SDW16050*)
+Computer Name: SDW16050-HY
+************************
+Current Computer: SDW16040
+LDAPFilter: (name=*SDW16040*)
+Computer Name: SDW16040-HY
+************************
+Current Computer: SDL20005
+LDAPFilter: (name=*SDL20005*)
+Computer Name: SDL20005
+************************
+Current Computer: SDW16022
+LDAPFilter: (name=*SDW16022*)
+Computer Name: SDW16022-HY
+************************
+Current Computer: SDL20003
+LDAPFilter: (name=*SDL20003*)
+Computer Name: SDL20003
+************************
+Current Computer: SDW13130
+LDAPFilter: (name=*SDW13130*)
+Computer Name: SDW13130
+************************
+Current Computer: SDW16011
+LDAPFilter: (name=*SDW16011*)
+Computer Name: SDW16011
+************************
+Current Computer: SDL20006
+LDAPFilter: (name=*SDL20006*)
+Computer Name: SDL20006
+************************
+Current Computer: SDW16005
+LDAPFilter: (name=*SDW16005*)
+Computer Name: SDW16005
+************************
+Current Computer: SDW16059
+LDAPFilter: (name=*SDW16059*)
+Computer Name: SDW16059
+************************
+Current Computer: SDW16037
+LDAPFilter: (name=*SDW16037*)
+Computer Name: SDW16037-RE
+************************
+Current Computer: SDW16070
+LDAPFilter: (name=*SDW16070*)
+Computer Name: SDW16070
+************************
+Current Computer: SDA17007
+LDAPFilter: (name=*SDA17007*)
+Computer Name: SDA17007-OS
+************************
+Current Computer: SDA17008
+LDAPFilter: (name=*SDA17008*)
+Computer Name: SDA17008-OS
+************************
+Current Computer: SDA17009
+LDAPFilter: (name=*SDA17009*)
+Computer Name: SDA17009-OS
+************************
+Current Computer: SDL16045
+LDAPFilter: (name=*SDL16045*)
+Computer Name: SDL16045-OS
+************************
+Current Computer: SDL16035
+LDAPFilter: (name=*SDL16035*)
+Computer Name: SDL16035-OS
+************************
+Current Computer: SDL16044
+LDAPFilter: (name=*SDL16044*)
+Computer Name: SDL16044-OS
+************************
+Current Computer: SDL16054
+LDAPFilter: (name=*SDL16054*)
+Computer Name: SDL16054-OS
+************************
+Current Computer: SDL16037
+LDAPFilter: (name=*SDL16037*)
+Computer Name: SDL16037-OS
+************************
+Current Computer: SDL16043
+LDAPFilter: (name=*SDL16043*)
+Computer Name: SDL16043-OS
+************************
+Current Computer: SDL16038
+LDAPFilter: (name=*SDL16038*)
+Computer Name: SDL16038-OS
+************************
+Current Computer: SDW15096
+LDAPFilter: (name=*SDW15096*)
+Computer Name: SDW15096
+************************
+Current Computer: SDA17012
+LDAPFilter: (name=*SDA17012*)
+Computer Name: SDA17012-OS
+************************
+Current Computer: SDW16076
+LDAPFilter: (name=*SDW16076*)
+Computer Name: SDW16076
+************************
+Current Computer: SDW16032
+LDAPFilter: (name=*SDW16032*)
+Computer Name: SDW16032-DO
+************************
+Current Computer: SDL20001
+LDAPFilter: (name=*SDL20001*)
+************************
+Current Computer: SDL16053
+LDAPFilter: (name=*SDL16053*)
+Computer Name: SDL16053-DO
+************************
+Current Computer: SDW16054
+LDAPFilter: (name=*SDW16054*)
+Computer Name: SDW16054-CA
+************************
+Current Computer: SDL18005
+LDAPFilter: (name=*SDL18005*)
+Computer Name: SDL18005-DO
+************************
+Current Computer: SDW16073
+LDAPFilter: (name=*SDW16073*)
+Computer Name: SDW16073
+************************
+Current Computer: SDW16033
+LDAPFilter: (name=*SDW16033*)
+Computer Name: SDW16033-DO
+************************
+Current Computer: SDW15084
+LDAPFilter: (name=*SDW15084*)
+Computer Name: SDW15084
+************************
+Current Computer: SDW16068
+LDAPFilter: (name=*SDW16068*)
+Computer Name: SDW16068
+************************
+Current Computer: SDL16039
+LDAPFilter: (name=*SDL16039*)
+Computer Name: SDL16039-AA
+************************
+Current Computer: SDW16014
+LDAPFilter: (name=*SDW16014*)
+Computer Name: SDW16014
+************************
+Current Computer: SDW15006
+LDAPFilter: (name=*SDW15006*)
+Computer Name: SDW15006-AA
+************************
+Current Computer: SDW16026
+LDAPFilter: (name=*SDW16026*)
+Computer Name: SDW16026
+************************
+Current Computer: SDW16020
+LDAPFilter: (name=*SDW16020*)
+Computer Name: SDW16020
+************************
+Current Computer: SDW19213
+LDAPFilter: (name=*SDW19213*)
+Computer Name: SDW19213
+************************
+Current Computer: SDW16141
+LDAPFilter: (name=*SDW16141*)
+Computer Name: SDW16141
+************************
+Current Computer: SDT18002
+LDAPFilter: (name=*SDT18002*)
+Computer Name: SDT18002
+************************
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+************************
+Current Computer: SDT18001
+LDAPFilter: (name=*SDT18001*)
+Computer Name: SDT18001
+************************
+Current Computer: SOD-KEYSERVER
+LDAPFilter: (name=*SOD-KEYSERVER*)
+Computer Name: SOD-KEYSERVER
+************************
+Current Computer: SDW13034
+LDAPFilter: (name=*SDW13034*)
+Computer Name: SDW13034
+************************
+Current Computer: SDL2013001
+LDAPFilter: (name=*SDL2013001*)
+Computer Name: SDL2013001
+************************
+Current Computer: SOD-RH-RW
+LDAPFilter: (name=*SOD-RH-RW*)
+Computer Name: SOD-RH-RW
+************************
+Current Computer: SDW16029
+LDAPFilter: (name=*SDW16029*)
+Computer Name: SDW16029-RS
+************************
+Current Computer: SOD-DS-LAB1
+LDAPFilter: (name=*SOD-DS-LAB1*)
+Computer Name: SOD-DS-LAB1
+************************
+Current Computer: SOD-DS-LAB2
+LDAPFilter: (name=*SOD-DS-LAB2*)
+Computer Name: SOD-DS-LAB2
+************************
+Current Computer: SDW13072
+LDAPFilter: (name=*SDW13072*)
+Computer Name: SDW13072
+************************
+Current Computer: SDL18012
+LDAPFilter: (name=*SDL18012*)
+Computer Name: sdl18012
+************************
+Current Computer: SDW16080
+LDAPFilter: (name=*SDW16080*)
+Computer Name: SDW16080
+************************
+Current Computer: SDW16019
+LDAPFilter: (name=*SDW16019*)
+Computer Name: SDW16019-AD
+************************
+Current Computer: SDW15083
+LDAPFilter: (name=*SDW15083*)
+Computer Name: SDW15083
+************************
+Current Computer: SDL17001
+LDAPFilter: (name=*SDL17001*)
+Computer Name: SDL17001-AD
+************************
+Current Computer: SDW16143
+LDAPFilter: (name=*SDW16143*)
+Computer Name: SDW16143
+************************
+Current Computer: SDW16077
+LDAPFilter: (name=*SDW16077*)
+Computer Name: SDW16077
+************************
+Current Computer: SDW16038
+LDAPFilter: (name=*SDW16038*)
+Computer Name: SDW16038-RE
+************************
+Current Computer: SDW16078
+LDAPFilter: (name=*SDW16078*)
+Computer Name: SDW16078
+************************
+Current Computer: SDW16003
+LDAPFilter: (name=*SDW16003*)
+Computer Name: SDW16003-PE
+************************
+Current Computer: SDW15081
+LDAPFilter: (name=*SDW15081*)
+Computer Name: SDW15081-RS
+************************
+Current Computer: SDW16028
+LDAPFilter: (name=*SDW16028*)
+Computer Name: SDW16028
+************************
+Current Computer: SDL16051
+LDAPFilter: (name=*SDL16051*)
+Computer Name: SDL16051-AM
+************************
+Current Computer: SDW15080
+LDAPFilter: (name=*SDW15080*)
+Computer Name: SDW15080-RH
+************************
+Current Computer: SDL16050
+LDAPFilter: (name=*SDL16050*)
+Computer Name: SDL16050-RH
+************************
+Current Computer: SDW16044
+LDAPFilter: (name=*SDW16044*)
+Computer Name: SDW16044-DP
+************************
+Current Computer: SDL16048
+LDAPFilter: (name=*SDL16048*)
+Computer Name: SDL16048
+************************
+Current Computer: SOD-MLAW
+LDAPFilter: (name=*SOD-MLAW*)
+Computer Name: SOD-MLAW
+************************
+Current Computer: SDL18003
+LDAPFilter: (name=*SDL18003*)
+Computer Name: SDL18003-RH
+************************
+Current Computer: SDL17005
+LDAPFilter: (name=*SDL17005*)
+Computer Name: SDL17005
+************************
+Current Computer: SDL17002
+LDAPFilter: (name=*SDL17002*)
+Computer Name: SDL17002
+************************
+Current Computer: SDL18002
+LDAPFilter: (name=*SDL18002*)
+Computer Name: SDL18002
+************************
+Current Computer: SDW16023
+LDAPFilter: (name=*SDW16023*)
+Computer Name: SDW16023
+************************
+Current Computer: SOD-DP-03
+LDAPFilter: (name=*SOD-DP-03*)
+Computer Name: SOD-DP-03
+************************
+Current Computer: SDL18001
+LDAPFilter: (name=*SDL18001*)
+Computer Name: SDL18001-DP
+************************
+Current Computer: SDL17006
+LDAPFilter: (name=*SDL17006*)
+Computer Name: SDL17006
+************************
+Current Computer: SDL18004
+LDAPFilter: (name=*SDL18004*)
+Computer Name: SDL18004-RH
+************************
+Current Computer: SDW13044
+LDAPFilter: (name=*SDW13044*)
+Computer Name: SDW13044
+************************
+Current Computer: SDW13063
+LDAPFilter: (name=*SDW13063*)
+Computer Name: SDW13063-CA
+************************
+Current Computer: SDW16053
+LDAPFilter: (name=*SDW16053*)
+Computer Name: SDW16053
+************************
+Current Computer: SOD-DP-02
+LDAPFilter: (name=*SOD-DP-02*)
+Computer Name: SOD-DP-02
+************************
+Current Computer: SDA17015
+LDAPFilter: (name=*SDA17015*)
+Computer Name: SDA17015
+************************
+Current Computer: SDW13030
+LDAPFilter: (name=*SDW13030*)
+Computer Name: SDW13030-CA
+************************
+Current Computer: SDW13068
+LDAPFilter: (name=*SDW13068*)
+Computer Name: SDW13068-CA
+************************
+Current Computer: SDW15051
+LDAPFilter: (name=*SDW15051*)
+Computer Name: SDW15051
+************************
+Current Computer: SDW13129
+LDAPFilter: (name=*SDW13129*)
+Computer Name: SDW13129
+************************
+Current Computer: SDW13036
+LDAPFilter: (name=*SDW13036*)
+Computer Name: SDW13036-CA
+************************
+Current Computer: SDA17014
+LDAPFilter: (name=*SDA17014*)
+Computer Name: SDA17014
+************************
+Current Computer: SDA17013
+LDAPFilter: (name=*SDA17013*)
+Computer Name: SDA17013
+************************
+Current Computer: SDW16051
+LDAPFilter: (name=*SDW16051*)
+Computer Name: SDW16051-OR
+************************
+Current Computer: SDW18002
+LDAPFilter: (name=*SDW18002*)
+Computer Name: SDW18002-DS
+************************
+Current Computer: SDW13017
+LDAPFilter: (name=*SDW13017*)
+Computer Name: SDW13017
+************************
+Current Computer: SDW2013018
+LDAPFilter: (name=*SDW2013018*)
+Computer Name: SDW2013018
+************************
+Current Computer: SDW15087
+LDAPFilter: (name=*SDW15087*)
+Computer Name: SDW15087-OR
+************************
+Current Computer: SDW13070
+LDAPFilter: (name=*SDW13070*)
+Computer Name: SDW13070-OR
+************************
+Current Computer: SDL17007
+LDAPFilter: (name=*SDL17007*)
+Computer Name: SDL17007
+************************
+Current Computer: SDW15045
+LDAPFilter: (name=*SDW15045*)
+Computer Name: SDW15045
+************************
+Current Computer: SDW15061
+LDAPFilter: (name=*SDW15061*)
+Computer Name: SDW15061
+************************
+Current Computer: SDW15038
+LDAPFilter: (name=*SDW15038*)
+Computer Name: SDW15038
+************************
+Current Computer: SDW15014
+LDAPFilter: (name=*SDW15014*)
+Computer Name: SDW15014
+************************
+Current Computer: SDW15028
+LDAPFilter: (name=*SDW15028*)
+Computer Name: SDW15028
+************************
+Current Computer: SDW15063
+LDAPFilter: (name=*SDW15063*)
+Computer Name: SDW15063
+************************
+Current Computer: SDW15029
+LDAPFilter: (name=*SDW15029*)
+Computer Name: SDW15029
+************************
+Current Computer: SDW15016
+LDAPFilter: (name=*SDW15016*)
+Computer Name: SDW15016
+************************
+Current Computer: SDW15057
+LDAPFilter: (name=*SDW15057*)
+Computer Name: SDW15057
+************************
+Current Computer: SDW15026
+LDAPFilter: (name=*SDW15026*)
+Computer Name: SDW15026
+************************
+Current Computer: SDW15027
+LDAPFilter: (name=*SDW15027*)
+Computer Name: SDW15027
+************************
+Current Computer: SDW15024
+LDAPFilter: (name=*SDW15024*)
+Computer Name: SDW15024
+************************
+Current Computer: SDW15059
+LDAPFilter: (name=*SDW15059*)
+Computer Name: SDW15059
+************************
+Current Computer: SDW13137
+LDAPFilter: (name=*SDW13137*)
+Computer Name: SDW13137
+************************
+Current Computer: SDA17019
+LDAPFilter: (name=*SDA17019*)
+Computer Name: SDA17019-IC
+************************
+Current Computer: SDW16079
+LDAPFilter: (name=*SDW16079*)
+Computer Name: SDW16079
+************************
+Current Computer: SDL16007
+LDAPFilter: (name=*SDL16007*)
+Computer Name: SDL16007-IC
+************************
+Current Computer: SDLCARESTREAM
+LDAPFilter: (name=*SDLCARESTREAM*)
+Computer Name: SDLCARESTREAM
+************************
+Current Computer: SDW13045
+LDAPFilter: (name=*SDW13045*)
+Computer Name: SDW13045-IC
+************************
+Current Computer: SDL16056
+LDAPFilter: (name=*SDL16056*)
+Computer Name: SDL16056-PR
+************************
+Current Computer: SDW13108
+LDAPFilter: (name=*SDW13108*)
+Computer Name: SDW13108-PR
+************************
+Current Computer: SDW13119
+LDAPFilter: (name=*SDW13119*)
+Computer Name: SDW13119-PR
+************************
+Current Computer: SDW13110
+LDAPFilter: (name=*SDW13110*)
+Computer Name: SDW13110-PE
+************************
+Current Computer: SDW13107
+LDAPFilter: (name=*SDW13107*)
+Computer Name: SDW13107-PR
+************************
+Current Computer: SDW13106
+LDAPFilter: (name=*SDW13106*)
+Computer Name: SDW13106-PR
+************************
+Current Computer: SDW13102
+LDAPFilter: (name=*SDW13102*)
+Computer Name: SDW13102-PR
+************************
+Current Computer: SDW13062
+LDAPFilter: (name=*SDW13062*)
+Computer Name: SDW13062-RE
+************************
+Current Computer: SDW13073
+LDAPFilter: (name=*SDW13073*)
+Computer Name: SDW13073-PR
+************************
+Current Computer: SDW13115
+LDAPFilter: (name=*SDW13115*)
+Computer Name: SDW13115-OR
+************************
+Current Computer: SDW13114
+LDAPFilter: (name=*SDW13114*)
+Computer Name: SDW13114-OR
+************************
+Current Computer: SDW13132
+LDAPFilter: (name=*SDW13132*)
+Computer Name: SDW13132
+************************
+Current Computer: SDW13104
+LDAPFilter: (name=*SDW13104*)
+Computer Name: SDW13104-OR
+************************
+Current Computer: SDW13112
+LDAPFilter: (name=*SDW13112*)
+Computer Name: SDW13112-OR
+************************
+Current Computer: SDW13111
+LDAPFilter: (name=*SDW13111*)
+Computer Name: SDW13111-OR
+************************
+Current Computer: SDW13109
+LDAPFilter: (name=*SDW13109*)
+Computer Name: SDW13109-OR
+************************
+Current Computer: SDW13051
+LDAPFilter: (name=*SDW13051*)
+Computer Name: SDW13051
+************************
+Current Computer: SDW13133
+LDAPFilter: (name=*SDW13133*)
+Computer Name: SDW13133
+************************
+Current Computer: SDW13046
+LDAPFilter: (name=*SDW13046*)
+Computer Name: SDW13046
+************************
+Current Computer: SDW13105
+LDAPFilter: (name=*SDW13105*)
+Computer Name: SDW13105-OR
+************************
+Current Computer: SDW16013
+LDAPFilter: (name=*SDW16013*)
+Computer Name: SDW16013-KAVO
+************************
+Current Computer: SDW17005
+LDAPFilter: (name=*SDW17005*)
+Computer Name: SDW17005-IC
+************************
+Current Computer: SDW17004
+LDAPFilter: (name=*SDW17004*)
+Computer Name: SDW17004-IC
+************************
+Current Computer: SDW17003
+LDAPFilter: (name=*SDW17003*)
+Computer Name: SDW17003-IC
+************************
+Current Computer: SDW17002
+LDAPFilter: (name=*SDW17002*)
+Computer Name: SDW17002-IC
+************************
+Current Computer: SDW17001
+LDAPFilter: (name=*SDW17001*)
+Computer Name: SDW17001-IC
+************************
+Current Computer: SDA19205
+LDAPFilter: (name=*SDA19205*)
+Computer Name: SDA19205
+************************
+Current Computer: SDW17006
+LDAPFilter: (name=*SDW17006*)
+Computer Name: SDW17006-PE
+************************
+Current Computer: SDW16064
+LDAPFilter: (name=*SDW16064*)
+Computer Name: SDW16064
+************************
+Current Computer: SDW15047
+LDAPFilter: (name=*SDW15047*)
+Computer Name: SDW15047
+************************
+Current Computer: SDW15049
+LDAPFilter: (name=*SDW15049*)
+Computer Name: SDW15049
+************************
+Current Computer: SDW13016
+LDAPFilter: (name=*SDW13016*)
+Computer Name: SDW13016-CA
+************************
+Current Computer: SDW16082
+LDAPFilter: (name=*SDW16082*)
+Computer Name: SDW16082
+************************
+Current Computer: SDW16036
+LDAPFilter: (name=*SDW16036*)
+Computer Name: SDW16036-RD
+************************
+Current Computer: SDW15039
+LDAPFilter: (name=*SDW15039*)
+Computer Name: SDW15039
+************************
+Current Computer: SDW15043
+LDAPFilter: (name=*SDW15043*)
+Computer Name: SDW15043
+************************
+Current Computer: SDW15044
+LDAPFilter: (name=*SDW15044*)
+Computer Name: SDW15044
+************************
+Current Computer: SDW15048
+LDAPFilter: (name=*SDW15048*)
+Computer Name: SDW15048
+************************
+Current Computer: SDW15052
+LDAPFilter: (name=*SDW15052*)
+Computer Name: SDW15052
+************************
+Current Computer: SDW15050
+LDAPFilter: (name=*SDW15050*)
+Computer Name: SDW15050
+************************
+Current Computer: SDW15031
+LDAPFilter: (name=*SDW15031*)
+Computer Name: SDW15031
+************************
+Current Computer: SDW15064
+LDAPFilter: (name=*SDW15064*)
+Computer Name: SDW15064
+************************
+Current Computer: SDW15046
+LDAPFilter: (name=*SDW15046*)
+Computer Name: SDW15046
+************************
+Current Computer: SDW15040
+LDAPFilter: (name=*SDW15040*)
+Computer Name: SDW15040
+************************
+Current Computer: SDW15062
+LDAPFilter: (name=*SDW15062*)
+Computer Name: SDW15062
+************************
+Current Computer: SDA17016
+LDAPFilter: (name=*SDA17016*)
+Computer Name: SDA17016-CA
+************************
+Current Computer: SDW13066
+LDAPFilter: (name=*SDW13066*)
+Computer Name: SDW13066-DG
+************************
+Current Computer: SOD-STC-4531-04
+LDAPFilter: (name=*SOD-STC-4531-04*)
+Computer Name: SOD-STC-4531-04
+************************
+Current Computer: SDW13065
+LDAPFilter: (name=*SDW13065*)
+Computer Name: SDW13065-DG
+************************
+Current Computer: SDW18005
+LDAPFilter: (name=*SDW18005*)
+Computer Name: SDW18005
+************************
+Current Computer: SOD-STC-CONE
+LDAPFilter: (name=*SOD-STC-CONE*)
+Computer Name: SOD-STC-CONE
+************************
+Current Computer: SDW13091
+LDAPFilter: (name=*SDW13091*)
+Computer Name: SDW13091-DG
+************************
+Current Computer: SDW13059
+LDAPFilter: (name=*SDW13059*)
+Computer Name: SDW13059-DG
+************************
+Current Computer: SDW15034
+LDAPFilter: (name=*SDW15034*)
+Computer Name: SDW15034
+************************
+Current Computer: SDW15030
+LDAPFilter: (name=*SDW15030*)
+Computer Name: SDW15030
+************************
+Current Computer: SDW2016004
+LDAPFilter: (name=*SDW2016004*)
+Computer Name: SDW2016004
+************************
+Current Computer: SDW13018
+LDAPFilter: (name=*SDW13018*)
+Computer Name: SDW13018-DG
+************************
+Current Computer: SDW15036
+LDAPFilter: (name=*SDW15036*)
+Computer Name: SDW15036
+************************
+Current Computer: SDW15056
+LDAPFilter: (name=*SDW15056*)
+Computer Name: SDW15056
+************************
+Current Computer: SDW15032
+LDAPFilter: (name=*SDW15032*)
+Computer Name: SDW15032
+************************
+Current Computer: SDW15055
+LDAPFilter: (name=*SDW15055*)
+Computer Name: SDW15055
+************************
+Current Computer: SDW15017
+LDAPFilter: (name=*SDW15017*)
+Computer Name: SDW15017
+************************
+Current Computer: SDW15012
+LDAPFilter: (name=*SDW15012*)
+Computer Name: SDW15012
+************************
+Current Computer: SDW15054
+LDAPFilter: (name=*SDW15054*)
+Computer Name: SDW15054
+************************
+Current Computer: SDW15042
+LDAPFilter: (name=*SDW15042*)
+Computer Name: SDW15042
+************************
+Current Computer: SDW15053
+LDAPFilter: (name=*SDW15053*)
+Computer Name: SDW15053
+************************
+Current Computer: SDW15037
+LDAPFilter: (name=*SDW15037*)
+Computer Name: SDW15037
+************************
+Current Computer: SDW15033
+LDAPFilter: (name=*SDW15033*)
+Computer Name: SDW15033
+************************
+Current Computer: SDW15015
+LDAPFilter: (name=*SDW15015*)
+Computer Name: SDW15015
+************************
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-20RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Cannot bind argument to parameter 'Path' because it is null.
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+Cannot bind argument to parameter 'Path' because it is null.
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemC
+   ommand
+    + PSComputerName        : SDW16060
+
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-20RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-22RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Cannot bind argument to parameter 'Path' because it is null.
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+Cannot bind argument to parameter 'Path' because it is null.
+    + CategoryInfo          : InvalidData: (:) [Remove-Item], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.RemoveItemC
+   ommand
+    + PSComputerName        : SDW16060
+
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-22RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-24RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-24RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-29RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Cannot find path 'C:\windows\DBUtil_2_3.sys' because it does not exist.
+    + CategoryInfo          : ObjectNotFound: (C:\windows\DBUtil_2_3.sys:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+Cannot find path 'C:\windows\DBUtil_2_3.sys' because it does not exist.
+    + CategoryInfo          : ObjectNotFound: (C:\windows\DBUtil_2_3.sys:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-29RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-30RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Cannot find path 'C:\windows\DBUtil_2_3.sys' because it does not exist.
+    + CategoryInfo          : ObjectNotFound: (C:\windows\DBUtil_2_3.sys:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+Cannot find path 'C:\windows\DBUtil_2_3.sys' because it does not exist.
+    + CategoryInfo          : ObjectNotFound: (C:\windows\DBUtil_2_3.sys:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-30RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-32RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Cannot find path 'C:\windows\DBUtil_2_3.sys' because it does not exist.
+    + CategoryInfo          : ObjectNotFound: (C:\windows\DBUtil_2_3.sys:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+Cannot find path 'C:\windows\DBUtil_2_3.sys' because it does not exist.
+    + CategoryInfo          : ObjectNotFound: (C:\windows\DBUtil_2_3.sys:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+    + PSComputerName        : SDW16060
+
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-32RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> cls
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-38RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> TerminatingError(Invoke-Command): "Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' because it does not exist."
+Invoke-Command : Cannot find path 
+'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' 
+because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles.
+ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+Invoke-Command : Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles
+\Remove-SODFiles\RemoveRemove.ps1' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles
+.ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], ItemNotFoun
+   dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+
+************************
+Current Computer: SDW16141
+LDAPFilter: (name=*SDW16141*)
+Computer Name: SDW16141
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> TerminatingError(Invoke-Command): "Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' because it does not exist."
+Invoke-Command : Cannot find path 
+'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\RemoveRemove.ps1' 
+because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles.
+ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+Invoke-Command : Cannot find path 'C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles
+\Remove-SODFiles\RemoveRemove.ps1' because it does not exist.
+At C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\Remove-SODFiles
+.ps1:31 char:9
++         Invoke-Command -ComputerName $ComputerName -FilePath ".\Remov ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\micros...emoveRemove.ps1:String) [Invoke-Command], ItemNotFoun
+   dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.InvokeCommandCommand
+
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-38RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> cls
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-39RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Current File Location: c:\windows\DBUtil_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\windows\temp\DBUTIL_2_3.sys
+******************
+Current File Location: C:\Users\MICROS~1\AppData\Local\Temp\location\DBUtil_2_3.sys
+File doesn't exist
+******************
+************************
+Current Computer: SDW16141
+LDAPFilter: (name=*SDW16141*)
+Computer Name: SDW16141
+Current File Location: c:\windows\DBUtil_2_3.sys
+******************
+Current File Location: c:\windows\temp\DBUTIL_2_3.sys
+******************
+Current File Location: C:\Users\MICROS~1\AppData\Local\Temp\location\DBUtil_2_3.sys
+File doesn't exist
+******************
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-39RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> get-childitem c:\users\ -Directory
+
+
+    Directory: C:\users
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        11/4/2016   1:17 PM                hscadmin
+d-----        12/1/2016   9:36 AM                jbrusoe
+d-----       11/30/2018   8:00 AM                jbrusoeadmin
+d-----        3/16/2017   1:27 PM                jlga
+d-----        5/21/2018   9:07 AM                kadmin
+d-----        4/29/2021   9:47 AM                kevinadmin
+d-----        5/12/2020   3:14 PM                mattadmin
+d-----         6/5/2020  12:32 PM                microsoft
+d-----        5/10/2019   7:54 AM                microsoft1
+d-r---        2/22/2017   3:35 PM                Public
+d-----        3/24/2017  10:42 AM                tridentadmin
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-54RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Current File Location: c:\windows\DBUtil_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\windows\temp\DBUTIL_2_3.sys
+******************
+Current File Location: c:\users\cbrahamAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\helpdeskAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\microsoftAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\PublicAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+************************
+Current Computer: SDW16141
+LDAPFilter: (name=*SDW16141*)
+Computer Name: SDW16141
+Current File Location: c:\windows\DBUtil_2_3.sys
+******************
+Current File Location: c:\windows\temp\DBUTIL_2_3.sys
+******************
+Current File Location: c:\users\cbrahamAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\cwisserAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\microsoftAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\PublicAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\TestAppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-54RemoveSODFiles-SessionTranscript.txt
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles> .\Remove-SODFiles.ps1
+Transcript started, output file is 2021-05-06-15-58RemoveSODFiles-SessionTranscript.txt
+Current Computer: SDW16060
+LDAPFilter: (name=*SDW16060*)
+Computer Name: SDW16060
+Current File Location: c:\windows\DBUtil_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\windows\temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\cbraham\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\helpdesk\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\microsoft\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\Public\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+************************
+Current Computer: SDW16141
+LDAPFilter: (name=*SDW16141*)
+Computer Name: SDW16141
+Current File Location: c:\windows\DBUtil_2_3.sys
+******************
+Current File Location: c:\windows\temp\DBUTIL_2_3.sys
+******************
+Current File Location: c:\users\cbraham\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\cwisser\AppData\Local\Temp\DBUTIL_2_3.sys
+******************
+Current File Location: c:\users\microsoft\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\Public\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+Current File Location: c:\users\Test\AppData\Local\Temp\DBUTIL_2_3.sys
+File doesn't exist
+******************
+************************
+Transcript stopped, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-SODFiles\2021-05-06-15-58RemoveSODFiles-SessionTranscript.txt

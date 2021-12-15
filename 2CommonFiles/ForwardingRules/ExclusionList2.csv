@@ -1,0 +1,38 @@
+Alias,PrimarySmtpAddress,ForwardingAddress,ForwardingSmtpAddress
+cedcontact,cedcontact@hsc.wvu.edu,,smtp:mdanko@hsc.wvu.edu
+sphit,sphit@WVUHSC.onmicrosoft.com,,smtp:jewhite@hsc.wvu.edu
+emcp,emcp@hsc.wvu.edu,,smtp:arcurry@hsc.wvu.edu
+chmaynard,chmaynard@hsc.wvu.edu,,smtp:rcosby@hsc.wvu.edu
+sodits,sodits@hsc.wvu.edu,"Create, TeamDynamix",smtp:HSCHELPDESK@hsc.wvu.edu
+reno-rocook,reno-rocook@hsc.wvu.edu,sms-rocook,
+reno-shift,reno-shift@hsc.wvu.edu,sms-llewis,
+sphit,sphit@WVUHSC.onmicrosoft.com,,smtp:jewhite@hsc.wvu.edu
+hsc-login,hsc-login@hsc.wvu.edu,Laura Roth,
+reno-ralph,reno-ralph@hsc.wvu.edu,sms-ralphreno,
+reno-alan,reno-alan@hsc.wvu.edu,Alan Reno,
+helpdesk,helpdesk@hsc.wvu.edu,HSCHELPDESK,
+cmsdesk,cmsdesk@hsc.wvu.edu,"Create, TeamDynamix",
+reno-frali,reno-frali@hsc.wvu.edu,sms-frali,
+itorderhdemail,itorderhdemail@hsc.wvu.edu,IT Order Fulfillment,
+solesupport,solesupport@hsc.wvu.edu,"Create, TeamDynamix",
+hscsystemstickets,hscsystemstickets@hsc.wvu.edu,"Create, TeamDynamix",
+reno-dean,reno-dean@hsc.wvu.edu,sms-deanreno,
+itpurchasingemail,itpurchasingemail@hsc.wvu.edu,IT Purchasing,
+reno-brhenry,reno-brhenry@hsc.wvu.edu,sms-brhenry,
+reno-trend,reno-trend@hsc.wvu.edu,sms-trendreno,
+sphsupport,sphsupport@hsc.wvu.edu,"Create, TeamDynamix",
+CancerGala,cancergala@hsc.wvu.edu,heretohelp,
+wvupc_picos,wvupc_picos@hsc.wvu.edu,Travis Crouse,
+sodits,sodits@hsc.wvu.edu,"Create, TeamDynamix",smtp:HSCHELPDESK@hsc.wvu.edu
+mmcdilda,mmcdilda@hsc.wvu.edu,researchgrad@hsc.wvu.edu
+knbrewer,knbrewer@hsc.wvu.edu,Kbrewer@wvuf.org
+cdchambers,cdchambers@hsc.wvu.edu,Cchambers@wvuf.org
+kac0029,karen.coombs@hsc.wvu.edu,kcoombs@wvuf.org
+cmflanagan,cmflanagan@hsc.wvu.edu,cflanagan@wvuf.org
+ekgregory,erin.gregory@hsc.wvu.edu,Egregory@wvuf.org
+kkent,kkent@hsc.wvu.edu,kkent@wvuf.org
+pml0004,patricia.lonsbary@hsc.wvu.edu,Plonsbary@wvuf.org
+lmmcall,laura.mccall@hsc.wvu.edu,Lmccall@wvuf.org
+tdsamuels,tdsamuels@hsc.wvu.edu,tsamuels@wvuf.org
+jas0176,Jeffrey.schoenherr@hsc.wvu.edu,Jschoenherr@wvuf.org
+krt0010,kevin.tephabock@hsc.wvu.edu,Ktephabock@wvuf.org

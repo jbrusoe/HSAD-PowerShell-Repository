@@ -1,0 +1,75 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201117082933
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 6968
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Set-AllUserDL\Logs\\2020-11-17-08-29-Set-AllUserDL-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Set-AllUserDL\Logs\
+VERBOSE: File Count: 1
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Set-AllUserDL\Logs\\2020-11-17-08-29-Set-AllUserDL-SessionTranscript.txt
+NewAllUsersFilter: ((CustomAttribute7 -eq 'Yes365') -and (RecipientType -eq 'UserMailbox')) -OR (PrimarySMTPAddress -eq 'WVUMSharedUsersGroup@hsc.wvu.edu') -OR (PrimarySMTPAddress -eq 'WVUF-AU@hsc.wvu.edu') -OR (PrimarySMTPAddress -eq 'MiscUsers@hsc.wvu.edu')
+Getting All Users Group
+Current Recipient Filter
+
+
+RecipientFilter : ((((((((((((((((((((((((((((((((((((((((((((CustomAttribute7 -eq 'Yes365') -and (RecipientType -eq 'UserMailbox'))) -and
+                  (-not(RecipientTypeDetailsValue -eq 'SharedMailbox')))) -and (-not(RecipientTypeDetailsValue -eq 'RoomMailbox')))) -and
+                  (-not(Name -like 'SystemMailbox{*')))) -and (-not(Name -like 'CAS_{*')))) -and (-not(RecipientTypeDetailsValue -eq
+                  'MailboxPlan')))) -and (-not(RecipientTypeDetailsValue -eq 'DiscoveryMailbox')))) -and (-not(RecipientTypeDetailsValue
+                  -eq 'PublicFolderMailbox')))) -and (-not(RecipientTypeDetailsValue -eq 'ArbitrationMailbox')))) -and
+                  (-not(RecipientTypeDetailsValue -eq 'AuditLogMailbox')))) -and (-not(RecipientTypeDetailsValue -eq
+                  'AuxAuditLogMailbox')))) -and (-not(RecipientTypeDetailsValue -eq 'SupervisoryReviewPolicyMailbox')))) -and (-not(Name
+                  -like 'SystemMailbox{*')))) -and (-not(Name -like 'CAS_{*')))) -and (-not(RecipientTypeDetailsValue -eq 'MailboxPlan'))))
+                  -and (-not(RecipientTypeDetailsValue -eq 'DiscoveryMailbox')))) -and (-not(RecipientTypeDetailsValue -eq
+                  'PublicFolderMailbox')))) -and (-not(RecipientTypeDetailsValue -eq 'ArbitrationMailbox')))) -and
+                  (-not(RecipientTypeDetailsValue -eq 'AuditLogMailbox')))) -and (-not(RecipientTypeDetailsValue -eq
+                  'AuxAuditLogMailbox')))) -and (-not(RecipientTypeDetailsValue -eq 'SupervisoryReviewPolicyMailbox')))) -and (-not(Name
+                  -like 'SystemMailbox{*')) -and (-not(Name -like 'CAS_{*')) -and (-not(RecipientTypeDetailsValue -eq 'MailboxPlan')) -and
+                  (-not(RecipientTypeDetailsValue -eq 'DiscoveryMailbox')) -and (-not(RecipientTypeDetailsValue -eq 'PublicFolderMailbox'))
+                  -and (-not(RecipientTypeDetailsValue -eq 'ArbitrationMailbox')) -and (-not(RecipientTypeDetailsValue -eq
+                  'AuditLogMailbox')) -and (-not(RecipientTypeDetailsValue -eq 'AuxAuditLogMailbox')) -and (-not(RecipientTypeDetailsValue
+                  -eq 'SupervisoryReviewPolicyMailbox')))
+
+
+
+Setting Recipient Filter
+Successfully set all users recipient filter
+Getting All Users Recipient Filter
+
+
+RecipientFilter : ((((((((((CustomAttribute7 -eq 'Yes365') -and (RecipientType -eq 'UserMailbox'))) -or (PrimarySmtpAddress -eq
+                  'WVUMSharedUsersGroup@hsc.wvu.edu'))) -or (PrimarySmtpAddress -eq 'WVUF-AU@hsc.wvu.edu'))) -or (PrimarySmtpAddress -eq
+                  'MiscUsers@hsc.wvu.edu'))) -and (-not(Name -like 'SystemMailbox{*')) -and (-not(Name -like 'CAS_{*')) -and
+                  (-not(RecipientTypeDetailsValue -eq 'MailboxPlan')) -and (-not(RecipientTypeDetailsValue -eq 'DiscoveryMailbox')) -and
+                  (-not(RecipientTypeDetailsValue -eq 'PublicFolderMailbox')) -and (-not(RecipientTypeDetailsValue -eq
+                  'ArbitrationMailbox')) -and (-not(RecipientTypeDetailsValue -eq 'AuditLogMailbox')) -and (-not(RecipientTypeDetailsValue
+                  -eq 'AuxAuditLogMailbox')) -and (-not(RecipientTypeDetailsValue -eq 'SupervisoryReviewPolicyMailbox')))
+
+
+
+Final Error Count: 0
+**********************
+Windows PowerShell transcript end
+End time: 20201117082940
+**********************

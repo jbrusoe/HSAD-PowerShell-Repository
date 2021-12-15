@@ -1,0 +1,192 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210528092750
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 11416
+PSVersion: 5.1.14393.4402
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.4402
+BuildVersion: 10.0.14393.4402
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 2021-06-01-Faculty.txt
+HSC Email: erin.hamilton@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=cb5e0ac2beb44acf82a991326832d1e7
+************************
+HSC Email: erin.hamilton@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4f7ec19d7d524668972da114fecb8bfe-Hamilton, E
+************************
+HSC Email: erin.hamilton@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: SIP:erin.hamilton@wvumedicine.org
+************************
+HSC Email: erin.hamilton@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=cb5e0ac2beb44acf82a991326832d1e7
+************************
+HSC Email: erin.hamilton@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:erin.hamilton@wvumedicine.org
+************************
+HSC Email: erin.hamilton@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3b0abd71b4e34059bc60c6212b301c27-Hamilton, E
+************************
+HSC Email: erin.hamilton@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=Hamilton, Erin609
+************************
+HSC Email: robert.stough@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=rcs0011b25
+************************
+HSC Email: robert.stough@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8941dd7c99af46b4b405c85cb2f22daa-rcs0011
+************************
+HSC Email: robert.stough@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8941dd7c99af46b4b405c85cb2f22daa-rcs0011
+************************
+HSC Email: robert.stough@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:robert.stough@wvumedicine.org
+************************
+HSC Email: ersechrest@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=702f1f92727d44d1a90e1b604076dee6
+************************
+HSC Email: ersechrest@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1c02bd9425554de49709cfebcd5eac96-ersechrest
+************************
+HSC Email: ersechrest@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: SIP:ersechrest@wvumedicine.org
+************************
+HSC Email: ersechrest@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=702f1f92727d44d1a90e1b604076dee6
+************************
+HSC Email: ersechrest@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:ersechrest@wvumedicine.org
+************************
+HSC Email: ersechrest@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ersechrest13c
+************************
+HSC Email: yosaf.zeyed@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=yfz0001a23
+************************
+HSC Email: yosaf.zeyed@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=216397ea58634e98a601cc270273b6c4-yfz0001
+************************
+HSC Email: yosaf.zeyed@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=216397ea58634e98a601cc270273b6c4-yfz0001
+************************
+HSC Email: yosaf.zeyed@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:yosaf.zeyed@wvumedicine.org
+************************
+HSC Email: sohrab.shahab@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=9a531896ba584d9a891a6e70c9fc710b
+************************
+HSC Email: sohrab.shahab@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ee188f5564cd4b909ccedfc24a60e41e-Shahab, Soh
+************************
+HSC Email: sohrab.shahab@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: SIP:sshahab@wvumedicine.org
+************************
+HSC Email: sohrab.shahab@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b52a5594d0b84c8ea1aa9c6bf4bc9ae7-SShahab2
+************************
+HSC Email: sohrab.shahab@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=CHI/cn=Recipients/cn=sshahab
+************************
+HSC Email: sohrab.shahab@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=9a531896ba584d9a891a6e70c9fc710b
+************************
+HSC Email: sohrab.shahab@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:sshahab@wvumedicine.org
+************************
+HSC Email: selliso1@hsc.wvu.edu
+Searching for HSC AD User
+Unhiding user from address book
+Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=059d5798bb474f5395244a893dad818a
+************************
+HSC Email: selliso1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+Address to Apply: x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d9059efcec8743fbbe6231ee529491c2-selliso1
+************************
+HSC Email: selliso1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: SIP:sarah.campbell1@wvumedicine.org
+************************
+HSC Email: selliso1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=External (FYDIBOHF25SPDLT)/cn=Recipients/cn=059d5798bb474f5395244a893dad818a
+************************
+HSC Email: selliso1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: x500:/o=WVU/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=selliso1f41
+************************
+HSC Email: selliso1@hsc.wvu.edu
+Same email - Previous AD user will be used
+Unhiding user from address book
+SMTP/X500 Address to Apply: smtp:sarah.campbell1@wvumedicine.org
+************************
+**********************
+Windows PowerShell transcript end
+End time: 20210528092923
+**********************

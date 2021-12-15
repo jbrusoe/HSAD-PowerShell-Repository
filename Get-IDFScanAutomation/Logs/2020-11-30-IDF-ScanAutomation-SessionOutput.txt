@@ -1,0 +1,109 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201130070003
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT4 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -command C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Get-IDFScanAutomation.ps1
+Process ID: 4100
+PSVersion: 5.1.14393.3471
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3471
+BuildVersion: 10.0.14393.3471
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\Get-IDFScanAutomation\Logs\2020-11-30-IDF-ScanAutomation-SessionOutput.txt
+Transcript log file started
+Files will not be deleted.
+No files to remove
+Opening ID Finder Mailbox
+Processing Emails...
+
+
+    Directory: \\hs\public\ITS\security services\ID Finder Scan Files
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       11/30/2020   7:00 AM                2020-11-30
+Found File: IDF2_HSC_TAXES.csv
+Attachment Saved: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_TAXES.csv
+Found File: IDF2_HSC_ePHI.csv
+Attachment Saved: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_ePHI.csv
+Found File: IDF2_HSC_SSNs.csv
+Attachment Saved: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_SSNs.csv
+Found File: IDF2_HSC_CCs.csv
+Attachment Saved: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_CCs.csv
+Found File: IDF Daily HSC ePHI.csv
+Found File: HSC_CC_Count.csv
+Found File: IDF Daily HSC SSNs.csv
+Found File: HSC_ePHI.csv
+Found File: HSC_CC.csv
+Found File: HSC_SSN.csv
+Found File: HSC_TAXES.csv
+Found File: HSC_Unit_Inventory.csv
+Found File: IDF Daily HSC ePHI.csv
+Found File: HSC_CC_Count.csv
+Found File: IDF Daily HSC SSNs.csv
+Found File: HSC_ePHI.csv
+Found File: HSC_CC.csv
+Found File: HSC_SSN.csv
+Found File: HSC_TAXES.csv
+Found File: HSC_Unit_Inventory.csv
+Found File: IDF Daily HSC ePHI.csv
+Found File: HSC_CC_Count.csv
+Found File: IDF Daily HSC SSNs.csv
+Found File: HSC_ePHI.csv
+Number of attachments saved: 4
+***************************
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_CCs.csv
+Excel Workbook created
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+
+
+    Directory: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       11/30/2020   7:01 AM                Processed
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\Processed\20201130_IDF2_HSC_CCs.xlsx
+
+Report created for the CCs file
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_SSNs.csv
+Excel Workbook created
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\Processed\20201130_IDF2_HSC_SSNs.xlsx
+
+Report created for the SSNs file
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_ePHI.csv
+Excel Workbook created
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\Processed\20201130_IDF2_HSC_ePHI.xlsx
+
+Report created for the ePHI file
+File Found: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\20201130_IDF2_HSC_TAXES.csv
+Excel Workbook created
+Importing Raw data to DataDump Worksheet...
+Created PivotTable
+PivotTable Formatted
+Report created: \\hs\public\ITS\security services\ID Finder Scan Files\2020-11-30\Processed\20201130_IDF2_HSC_TAXES.xlsx
+
+Report created for the TAXES file
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20201130071501
+**********************

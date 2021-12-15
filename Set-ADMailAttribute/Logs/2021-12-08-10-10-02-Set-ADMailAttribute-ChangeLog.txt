@@ -1,0 +1,16 @@
+Original Mail Attribute: 
+New Mail Attribute: visakha.turner@hsc.wvu.edu
+Successfully changed attribute
+************************
+Original Mail Attribute: daniel.davis1@wvumedicine.org
+New Mail Attribute: daniel.davis@hsc.wvu.edu
+Successfully changed attribute
+************************
+Original Mail Attribute: 
+New Mail Attribute: adel.aziz@hsc.wvu.edu
+Successfully changed attribute
+************************
+Original Mail Attribute: 
+New Mail Attribute: emanuela.defalco@hsc.wvu.edu
+Successfully changed attribute
+************************

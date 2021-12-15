@@ -1,0 +1,117 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201019145419
+Username: HS\microsoft
+RunAs User: HS\microsoft
+Machine: SYSSCRIPT3 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command Import-Module MSOnline
+Process ID: 3424
+PSVersion: 5.1.14393.3866
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3866
+BuildVersion: 10.0.14393.3866
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-19-14-54-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\
+VERBOSE: File Count: 4
+All input parameters are set to default values.
+
+C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-19-14-54-Remove-EmailBySubjectAndDate-SessionTranscript.txt
+Count: 1
+Mailbox: Jeremy.Soule@hsc.wvu.edu
+
+
+RunspaceId       : 79af3dd5-14d6-4761-9842-f1e6ffb2a8e9
+Identity         : Jeremy Soule
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 2
+Mailbox: tiona.kapnicky@wvumedicine.org
+RunspaceId       : 79af3dd5-14d6-4761-9842-f1e6ffb2a8e9
+Identity         : tlk0024
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 3
+Mailbox: mara.negley@wvumedicine.org
+RunspaceId       : 79af3dd5-14d6-4761-9842-f1e6ffb2a8e9
+Identity         : mbn0011
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 4
+Mailbox: tina.thomas@wvumedicine.org
+RunspaceId       : 79af3dd5-14d6-4761-9842-f1e6ffb2a8e9
+Identity         : Thomas, Tina
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 0
+ResultItemsSize  : 0 B (0 bytes)
+
+
+***********************************
+Count: 5
+Mailbox: sandra.chapman@wvumedicine.org
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> Search-Mailbox -identity "Jbrusoe@hsc.wvu.edu" -SearchQuery 'Subject:"Re: Important Medical and Dependent Care Flexible Spending Accounts (FSA) Information" AND received:10/19/2020' -DeleteContent -Force
+
+
+RunspaceId       : 79af3dd5-14d6-4761-9842-f1e6ffb2a8e9
+Identity         : Jeff Brusoe
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 2
+ResultItemsSize  : 310.9 KB (318,401 bytes)
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> Search-Mailbox -identity "krodney@hsc.wvu.edu" -SearchQuery 'Subject:"Re: Important Medical and Dependent Care Flexible Spending Accounts (FSA) Information" AND received:10/19/2020' -DeleteContent -Force
+
+
+RunspaceId       : 79af3dd5-14d6-4761-9842-f1e6ffb2a8e9
+Identity         : Kim Rodney
+TargetMailbox    :
+Success          : True
+TargetFolder     :
+ResultItemsCount : 2
+ResultItemsSize  : 368.7 KB (377,558 bytes)
+
+
+
+PS C:\Users\microsoft\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20201019150454
+**********************

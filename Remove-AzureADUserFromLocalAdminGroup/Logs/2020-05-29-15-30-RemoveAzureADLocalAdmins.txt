@@ -1,0 +1,44 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200529153030
+Username: DESKTOP-1MQ9DJO\jbrus
+RunAs User: DESKTOP-1MQ9DJO\jbrus
+Configuration Name: 
+Machine: DESKTOP-1MQ9DJO (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6304
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\HSCGitHub\HSC-PowerShell-Repository\Remove-AzureADUserFromLocalAdminGroup\Logs\2020-05-29-15-30-RemoveAzureADLocalAdmins.txt
+
+Excluded Users:
+jbrus
+PowerShell is running as administrator
+Removing users from Administrators group...
+The variable '$ExclusionList' cannot be retrieved because it has not been set.
+At C:\HSCGitHub\HSC-PowerShell-Repository\Remove-AzureADUserFromLocalAdminGroup\Remove-AzureADUserFromLocalAdminGroup.ps
+1:65 char:26
++         foreach ($Exclusion in $ExclusionList)
++                                ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ExclusionList:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+The variable '$ExclusionList' cannot be retrieved because it has not been set.
+At C:\HSCGitHub\HSC-PowerShell-Repository\Remove-AzureADUserFromLocalAdminGroup\Remove-AzureADUserFromLocalAdminGroup.p
+s1:65 char:26
++         foreach ($Exclusion in $ExclusionList)
++                                ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ExclusionList:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+Removing Account: jbrus
+**********************
+Windows PowerShell transcript end
+End time: 20200529153030
+**********************

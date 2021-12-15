@@ -1,0 +1,123 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20201020102126
+Username: HS\jbrusoeadmin
+RunAs User: HS\jbrusoeadmin
+Configuration Name: 
+Machine: HSVDIWIN10JB (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11684
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-20-10-21-Remove-EmailBySubjectAndDate2-SessionTranscript.txt
+Removing old log files
+VERBOSE: Days to keep log files: 5
+Files will be deleted.
+VERBOSE: Removing old log files
+VERBOSE: Adding csv files to remove string.
+VERBOSE: Adding txt files to remove string
+VERBOSE: RemoveString: *.csv *.txt
+Path: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\
+VERBOSE: File Count: 11
+All input parameters are set to default values.
+
+C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Logs\\2020-10-20-10-21-Remove-EmailBySubjectAndDate2-SessionTranscript.txt
+Count: 1
+Mailbox: carlo.guappone
+Search-Mailbox : The term 'Search-Mailbox' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Remove-EmailBySu
+bjectAndDate2.ps1:15 char:2
++     Search-Mailbox -identity $Mailbox.Alias -SearchQuery 'Subject:"Re ...
++     ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Search-Mailbox:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Search-Mailbox : The term 'Search-Mailbox' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Remove-EmailByS
+ubjectAndDate2.ps1:15 char:2
++     Search-Mailbox -identity $Mailbox.Alias -SearchQuery 'Subject:"Re ...
++     ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Search-Mailbox:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+***********************************
+Count: 2
+Mailbox: Jordan.Hutchinson.m
+Search-Mailbox : The term 'Search-Mailbox' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Remove-EmailBySu
+bjectAndDate2.ps1:15 char:2
++     Search-Mailbox -identity $Mailbox.Alias -SearchQuery 'Subject:"Re ...
++     ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Search-Mailbox:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Search-Mailbox : The term 'Search-Mailbox' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email\Remove-EmailByS
+ubjectAndDate2.ps1:15 char:2
++     Search-Mailbox -identity $Mailbox.Alias -SearchQuery 'Subject:"Re ...
++     ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Search-Mailbox:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+***********************************
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> Connect-HSCExchangeOnline
+Import-Module : The specified module 'ActiveDirectory' was not loaded because no valid module file was found in any 
+module directory.
+At C:\Users\jbrusoeadmin\Documents\GitHub\HSC-Powershell-Repository\1HSCCustomModules\HSC-ActiveDirectoryModule\HSC-Acti
+veDirectoryModule.psm1:33 char:1
++ Import-Module ActiveDirectory
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (ActiveDirectory:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+Connection Account: jbrusoeadmin@hsc.wvu.edu
+Encrypted File Path: C:\Users\jbrusoeadmin\Documents\GitHub\HSC-Powershell-Repository\1HSCCustomModules\EncryptedFiles\jbrusoeadmin-HSVDIWIN10JB.txt
+Connecting to HSC Exchange Online with V2 cmdlets...
+
+----------------------------------------------------------------------------
+The module allows access to all existing remote PowerShell (V1) cmdlets in addition to the 9 new, faster, and more reliable cmdlets.
+
+|--------------------------------------------------------------------------|
+|    Old Cmdlets                    |    New/Reliable/Faster Cmdlets       |
+|--------------------------------------------------------------------------|
+|    Get-CASMailbox                 |    Get-EXOCASMailbox                 |
+|    Get-Mailbox                    |    Get-EXOMailbox                    |
+|    Get-MailboxFolderPermission    |    Get-EXOMailboxFolderPermission    |
+|    Get-MailboxFolderStatistics    |    Get-EXOMailboxFolderStatistics    |
+|    Get-MailboxPermission          |    Get-EXOMailboxPermission          |
+|    Get-MailboxStatistics          |    Get-EXOMailboxStatistics          |
+|    Get-MobileDeviceStatistics     |    Get-EXOMobileDeviceStatistics     |
+|    Get-Recipient                  |    Get-EXORecipient                  |
+|    Get-RecipientPermission        |    Get-EXORecipientPermission        |
+|--------------------------------------------------------------------------|
+
+To get additional information, run: Get-Help Connect-ExchangeOnline or check https://aka.ms/exops-docs
+
+Send your product improvement suggestions and feedback to exocmdletpreview@service.microsoft.com. For issues related to the module, contact Microsoft support. Don't use the feedback alias for problems or support issues.
+----------------------------------------------------------------------------
+
+
+Successfully authenticated to Exchange Online with V2 cmdlets
+True
+PS C:\Users\jbrusoeadmin\Documents\GitHub\HSC-PowerShell-Repository\4NonScheduledTaskFiles\Remove-Email> .\Remove-EmailBySubjectAndDate2.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20201020102206
+**********************

@@ -1,0 +1,738 @@
+\\hs.wvu-ad.wvu.edu\public\sod\dh
+\\hs.wvu-ad.wvu.edu\public\sod\ds
+\\hs.wvu-ad.wvu.edu\public\sod\OD
+\\hs.wvu-ad.wvu.edu\public\sod\OP
+\\hs.wvu-ad.wvu.edu\public\sod\ortho
+\\hs.wvu-ad.wvu.edu\public\sod\os
+\\hs.wvu-ad.wvu.edu\public\sod\PD
+\\hs.wvu-ad.wvu.edu\public\sod\prostho
+\\hs.wvu-ad.wvu.edu\public\sod\rd
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aashaffer
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aburns
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\acaldwell
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aclemsic
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\adavis
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\addanks
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\adj0003
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\agarber2
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\agardino
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ahelfer
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ala0008
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\amsumey
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\aowens5
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\asink
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\awright
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\AXIUM
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\baclay
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bdadisman
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bjdevito
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bmcginnis
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bmoughamer
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bphilli7
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bstafford
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\btolley
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\bwinlan1
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cbeck
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cdavis15
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cdsmith2
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\chalterman
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\chaynes
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\crg0026
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\csimonyi
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\csisler
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ctenney
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dboggess
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dlfoley
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dmandel
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dmcneil
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dmott
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dpg0003
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Dpuderbaugh
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dshultz
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ekehler
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hhall
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hjordan
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hlantz
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hnwillis
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hrcurfman
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jberlin
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jetucker
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\JFAZIO
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jfletch5
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jlovell
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jmacias
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jmferencak
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jnash
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jnmoss
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jpanderson
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jrose17
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jrupar
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jsauter
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jsmallwood
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\JTEETS
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jts0001
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jwaxman
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kacoles
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kbrooks5
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Kdeprospero
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kdm0003
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kdposton
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kja0016
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kjohnson
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kjohnston
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\klb0053
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\krevans
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\kwolfe
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lbise
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lchristopher
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\leheinzman
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\loeddy
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\LPACK
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lscole
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mdkuhn
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mfidler
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mhewston
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mjjones1
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlengman
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mmoughamer
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\moscanya
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mrc00012
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mrz0001
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mvm0007
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mwoods
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\nltennant
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\pagray
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\PBENSON
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\pccarreon
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\plwalker
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\pmccutheon
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Public
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\punderwood
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rcmoore
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rdove
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rekerby
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rfaris
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rhayhurst
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rmcale
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rmilburn
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rolunka
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rshreves
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sag0001
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\schapman
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\scroston
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sdee
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Senior Checkout
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sherschler
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sjones
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\slhayhurst
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\slittle
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\slodell
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Sniederriter
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\SOD_HELP
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\spaugh
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sscumaci
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\stblake
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\swhitac1
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tcox
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tgrimes
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tlocke
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\TMAYLE
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tngan
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\trazmus
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tsummerl
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\twcoles
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wamyers
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wlawson
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\woscanyan
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wridenour
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\WVUPIPELINE
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ybilovol
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\agarber2\Backup 20171026
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\AXIUM\Axium4.31.04
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff\Backups
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff\Boards
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff\MiPACS
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff\Outlook Files
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff\ScanSnap 300
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff\SnapScan S300
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cegroff\Tools
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\axiumupdate
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\DAU Backups
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\dt
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\infotouch
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\Jan13
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\Jan6
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\MiPACS Server Monitor Install 64Bit
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\Senior Checkout Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\cscott\WVU
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ctenney\temparchives
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dmcneil\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\dpg0003\dpg0003@hsc.wvu.edu
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Dpuderbaugh\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky\Drafts
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky\Final Copies
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky\Minutes
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ebahurinsky\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\ekehler\New Folder
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\hhall\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jetucker\Backups
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Contacts
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Downloads
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Links
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Music
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Oracle
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Saved Games
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Searches
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jkalar\Videos
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jlovell\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\jnash\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Kdeprospero\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Kdeprospero\temparchives
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\lbise\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\LPACK\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\LPACK\temparchives
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Contacts
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Links
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Music
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Oracle
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Ron cases
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Saved Games
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Searches
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\memalakpour\Videos
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8\COHRA
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8\COHRA1 Scans
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8\Desktop 10-29-14
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8\HSC Pics
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8\Screening Letter
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\mlaw8\Shipments
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\punderwood\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rmilburn\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rmilburn\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rmilburn\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\Custom Office Templates
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\Cyberlink
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\Fax
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\Network Monitor 3
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\OneNote Notebooks
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\raj shenoy
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\rotational
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\Scanned Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\rwence\Updater5
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Sniederriter\Backup 20180413
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Sniederriter\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Sniederriter\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\Sniederriter\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sscumaci\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sscumaci\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sscumaci\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sscumaci\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\sscumaci\temparchives
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tcox\backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tcox\data
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tcox\gwarchive
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tcox\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tcox\Outlook Archive
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tngan\COHRA G110 meeting minutes
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\trazmus\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\trazmus\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\trazmus\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\trazmus\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\trazmus\temparchives
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\tsummerl\scans
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wlawson\backups
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wlawson\Card Studio
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wlawson\exported
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wlawson\Issue Tracking
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wlawson\SAN
+\\hs.wvu-ad.wvu.edu\public\sod\dentadmin\wridenour\printing
+\\hs.wvu-ad.wvu.edu\public\sod\dh\arm0002
+\\hs.wvu-ad.wvu.edu\public\sod\dh\ashockey
+\\hs.wvu-ad.wvu.edu\public\sod\dh\CFRERE
+\\hs.wvu-ad.wvu.edu\public\sod\dh\CSPEAR
+\\hs.wvu-ad.wvu.edu\public\sod\dh\jablanco
+\\hs.wvu-ad.wvu.edu\public\sod\dh\JHOWELL
+\\hs.wvu-ad.wvu.edu\public\sod\dh\jsummers
+\\hs.wvu-ad.wvu.edu\public\sod\dh\kdf0001
+\\hs.wvu-ad.wvu.edu\public\sod\dh\LHURLEY
+\\hs.wvu-ad.wvu.edu\public\sod\dh\llisauckis
+\\hs.wvu-ad.wvu.edu\public\sod\dh\mgaydos
+\\hs.wvu-ad.wvu.edu\public\sod\dh\Mstewart
+\\hs.wvu-ad.wvu.edu\public\sod\dh\nmetts
+\\hs.wvu-ad.wvu.edu\public\sod\dh\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\dh\rmp0001
+\\hs.wvu-ad.wvu.edu\public\sod\dh\saustin
+\\hs.wvu-ad.wvu.edu\public\sod\dh\secain
+\\hs.wvu-ad.wvu.edu\public\sod\dh\CFRERE\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dh\CFRERE\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\dh\CFRERE\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dh\CSPEAR\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dh\CSPEAR\downloads
+\\hs.wvu-ad.wvu.edu\public\sod\dh\LHURLEY\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dh\Mstewart\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dh\nmetts\Office Files
+\\hs.wvu-ad.wvu.edu\public\sod\dh\saustin\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\akincell
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\awhetse1
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\BWALTERS
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\CREED
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\DHICKMAN
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\dvnajar
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\dwmcneil
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\ekerwin
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\elopuch
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\ereid
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\kkrieter
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\mboyles2
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\mbshah
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\MMONAHAN
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\rdinsmore
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\rzelder
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\tmcgrew
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\wmccutcheon
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\wmyers
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\DHICKMAN\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\DHICKMAN\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\mboyles2\2017
+\\hs.wvu-ad.wvu.edu\public\sod\dprh\MMONAHAN\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\ds\csymes
+\\hs.wvu-ad.wvu.edu\public\sod\ds\edharshbarger
+\\hs.wvu-ad.wvu.edu\public\sod\ds\Gjeffries
+\\hs.wvu-ad.wvu.edu\public\sod\ds\rjjurevic
+\\hs.wvu-ad.wvu.edu\public\sod\ds\rmclingerman
+\\hs.wvu-ad.wvu.edu\public\sod\ds\sgrimes
+\\hs.wvu-ad.wvu.edu\public\sod\ds\smahavad
+\\hs.wvu-ad.wvu.edu\public\sod\ds\SRENNER
+\\hs.wvu-ad.wvu.edu\public\sod\ds\csymes\OLD EPID
+\\hs.wvu-ad.wvu.edu\public\sod\endo\arbennett
+\\hs.wvu-ad.wvu.edu\public\sod\endo\atomsic
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe
+\\hs.wvu-ad.wvu.edu\public\sod\endo\ccaldwell2
+\\hs.wvu-ad.wvu.edu\public\sod\endo\cconnor
+\\hs.wvu-ad.wvu.edu\public\sod\endo\cmspatafore
+\\hs.wvu-ad.wvu.edu\public\sod\endo\CMYERS
+\\hs.wvu-ad.wvu.edu\public\sod\endo\dobutler
+\\hs.wvu-ad.wvu.edu\public\sod\endo\dreynolds2
+\\hs.wvu-ad.wvu.edu\public\sod\endo\efragal1
+\\hs.wvu-ad.wvu.edu\public\sod\endo\endoresident
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gcriser
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gwhite
+\\hs.wvu-ad.wvu.edu\public\sod\endo\jday
+\\hs.wvu-ad.wvu.edu\public\sod\endo\jminchau
+\\hs.wvu-ad.wvu.edu\public\sod\endo\kalowe
+\\hs.wvu-ad.wvu.edu\public\sod\endo\khildebrand
+\\hs.wvu-ad.wvu.edu\public\sod\endo\lgocheno
+\\hs.wvu-ad.wvu.edu\public\sod\endo\machamaa
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mdw0004
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mgwilliam
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nbeam
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson
+\\hs.wvu-ad.wvu.edu\public\sod\endo\ppetley
+\\hs.wvu-ad.wvu.edu\public\sod\endo\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\endo\RJACKSON
+\\hs.wvu-ad.wvu.edu\public\sod\endo\shoran
+\\hs.wvu-ad.wvu.edu\public\sod\endo\shuggins
+\\hs.wvu-ad.wvu.edu\public\sod\endo\sstiles
+\\hs.wvu-ad.wvu.edu\public\sod\endo\tpham
+\\hs.wvu-ad.wvu.edu\public\sod\endo\wisakr
+\\hs.wvu-ad.wvu.edu\public\sod\endo\atomsic\gwarchive
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe\Literature Study Guides
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe\Miscellaneous Desktop Items
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe\PowerPoint Presentations
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe\Spencer's ENDO
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe\Stowe's Documents
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe\Stuff from Skidmore & Spatafore
+\\hs.wvu-ad.wvu.edu\public\sod\endo\bstowe\Thesis Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\endo\dreynolds2\Dr. Reynolds
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gcriser\gwarchive
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\Boards
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\Gabe Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\Gabe's Documents
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\Letters
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\Levin Group Management
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\Literature
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\Literature Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\nbeam
+\\hs.wvu-ad.wvu.edu\public\sod\endo\gmholley\SurgeryPhotos
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\.oracle_jre_usage
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\2016 DxTx
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\721 Lectures 2018
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Classic Lit 2015
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\CODA UNC Site Visit Info
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Contacts
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Current Lit Additional Journals
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Documents
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Dropbox
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Endo Syllabi New 2018
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Links
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Music
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Oracle
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Personal
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Radiology
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Resident Boot Camp
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Test Construction
+\\hs.wvu-ad.wvu.edu\public\sod\endo\mls0001\Videos
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\avulsion
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\Camera backup
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\David Cook Pham surgery follow-up
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\HSC desktop data stuff
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\IandD
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\instrument bypassed
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\IRB
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\Namsupak
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\pulp cap radiographs
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\Richard Stewart tooth 8-Wilcox treat 2008
+\\hs.wvu-ad.wvu.edu\public\sod\endo\nnicholson\Taddie tooth 30
+\\hs.wvu-ad.wvu.edu\public\sod\endo\PUBLIC\Lit review 8-16-12
+\\hs.wvu-ad.wvu.edu\public\sod\endo\PUBLIC\Lit review 8-9-12
+\\hs.wvu-ad.wvu.edu\public\sod\endo\PUBLIC\Lit Review Aug 30
+\\hs.wvu-ad.wvu.edu\public\sod\endo\PUBLIC\Lit review sept 27
+\\hs.wvu-ad.wvu.edu\public\sod\endo\PUBLIC\Nicholson's recommended Articles
+\\hs.wvu-ad.wvu.edu\public\sod\endo\RJACKSON\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\endo\sstiles\gwarchive
+\\hs.wvu-ad.wvu.edu\public\sod\OD\amerbedone
+\\hs.wvu-ad.wvu.edu\public\sod\OD\dedwards
+\\hs.wvu-ad.wvu.edu\public\sod\OD\jbarber
+\\hs.wvu-ad.wvu.edu\public\sod\OD\jstevens
+\\hs.wvu-ad.wvu.edu\public\sod\OD\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\OD\slovell
+\\hs.wvu-ad.wvu.edu\public\sod\OP\GKEYES
+\\hs.wvu-ad.wvu.edu\public\sod\OP\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\aanderson
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\awang
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\bfiddler
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\clhilling
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\cwestfall
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\dbchoi
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\dheinrichs
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\dking
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\dlattanzi
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\DOCHOI
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\eholly
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\emcfarland
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\ewreed
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\gbryant
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\JBONELLO
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\JDEMPSEY
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\jgilmore
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\jhamilton
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\jlawren4
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\jmullins
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\js0152
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\kkirsch
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\kpacilli
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\kweaver
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lewright
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\ljackfert
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\machamaa
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\madams
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\magonchar
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mbecht
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mboyles1
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mcavey
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mhazey
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\nburns
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\ptemple
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rmcrout
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsebbahi
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rvanlaecken
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\selarue
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\tcrowe1
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\tdo
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\trglass
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\ttremont
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\uhnguyen
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\vlopuch
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\cwestfall\Boards
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\cwestfall\Research
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\kpacilli\BRACKET  order form
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\691 Anatomy
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\744 Lecture
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\AA Female Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\AAO Legal Handbook For Orthodontists
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\ABO
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\AJODO Article Review
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\American Dental Tech Tips
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Anatomage
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Before and After
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Case Presentation
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Choi to Pittman
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Classes
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Cleft Lip Palate
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Clinic Policy
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\CV Statement
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Dr. Little
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Equipment Electrical
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Forms from AAO
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Invivo
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\KDIS_3D_Module
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Letterhead
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Lexar
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\New folder
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Orthodontic Office Design
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Patient Instructions
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Patients
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\SAO Poster Pres Doyoung
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Start Up
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\lmpittman\Washington Superimposition method
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\6 Elements
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Accutech
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Board Review
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Classes
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Company Catalogs
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Computer
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Diagnosis Forms
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Instructions for Pt
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Letterhead
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Miscellaneous
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\New Resident Folder
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Patients
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Practice Management
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Printing
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Research
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\SARPE
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Seminar
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\Tremont Cases
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\VECS Expander
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\mmunn\WALA
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Classes
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Clinic Policy
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Clinical Boards
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Diagnosis Forms
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Letterhead
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Mis
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Patient Instructions
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\Research
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\rsparks\zzzzz - Need to Workup
+\\hs.wvu-ad.wvu.edu\public\sod\ortho\ttremont\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\os\1. Orthognathic - Tucker
+\\hs.wvu-ad.wvu.edu\public\sod\os\aadeniran
+\\hs.wvu-ad.wvu.edu\public\sod\os\bblack
+\\hs.wvu-ad.wvu.edu\public\sod\os\bfallon
+\\hs.wvu-ad.wvu.edu\public\sod\os\Bmarshall
+\\hs.wvu-ad.wvu.edu\public\sod\os\bsang
+\\hs.wvu-ad.wvu.edu\public\sod\os\cbrock
+\\hs.wvu-ad.wvu.edu\public\sod\os\cchambers
+\\hs.wvu-ad.wvu.edu\public\sod\os\chazey
+\\hs.wvu-ad.wvu.edu\public\sod\os\dforbes
+\\hs.wvu-ad.wvu.edu\public\sod\os\dstahr
+\\hs.wvu-ad.wvu.edu\public\sod\os\dtatich
+\\hs.wvu-ad.wvu.edu\public\sod\os\eaechard
+\\hs.wvu-ad.wvu.edu\public\sod\os\emccall
+\\hs.wvu-ad.wvu.edu\public\sod\os\ggismondi
+\\hs.wvu-ad.wvu.edu\public\sod\os\gmjoshua
+\\hs.wvu-ad.wvu.edu\public\sod\os\gpresidents
+\\hs.wvu-ad.wvu.edu\public\sod\os\grcygan
+\\hs.wvu-ad.wvu.edu\public\sod\os\jamatonak
+\\hs.wvu-ad.wvu.edu\public\sod\os\jff0009
+\\hs.wvu-ad.wvu.edu\public\sod\os\jgreene
+\\hs.wvu-ad.wvu.edu\public\sod\os\jkerr
+\\hs.wvu-ad.wvu.edu\public\sod\os\JNIEUSMA
+\\hs.wvu-ad.wvu.edu\public\sod\os\jschmidt
+\\hs.wvu-ad.wvu.edu\public\sod\os\jwrigh49
+\\hs.wvu-ad.wvu.edu\public\sod\os\jwrobleski
+\\hs.wvu-ad.wvu.edu\public\sod\os\kdh0018
+\\hs.wvu-ad.wvu.edu\public\sod\os\kreynol6
+\\hs.wvu-ad.wvu.edu\public\sod\os\kthompson
+\\hs.wvu-ad.wvu.edu\public\sod\os\LBAKOS
+\\hs.wvu-ad.wvu.edu\public\sod\os\lgilbert
+\\hs.wvu-ad.wvu.edu\public\sod\os\mbkingston
+\\hs.wvu-ad.wvu.edu\public\sod\os\mcnimmich
+\\hs.wvu-ad.wvu.edu\public\sod\os\mhanchett
+\\hs.wvu-ad.wvu.edu\public\sod\os\mzaritsky
+\\hs.wvu-ad.wvu.edu\public\sod\os\ppangilinan
+\\hs.wvu-ad.wvu.edu\public\sod\os\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\os\RGRAVES
+\\hs.wvu-ad.wvu.edu\public\sod\os\rgreene
+\\hs.wvu-ad.wvu.edu\public\sod\os\rkkhanna
+\\hs.wvu-ad.wvu.edu\public\sod\os\rshaikh
+\\hs.wvu-ad.wvu.edu\public\sod\os\sedward
+\\hs.wvu-ad.wvu.edu\public\sod\os\smcudney
+\\hs.wvu-ad.wvu.edu\public\sod\os\SSINE
+\\hs.wvu-ad.wvu.edu\public\sod\os\tliston
+\\hs.wvu-ad.wvu.edu\public\sod\os\zdmace
+\\hs.wvu-ad.wvu.edu\public\sod\os\Bmarshall\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\os\emccall\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\os\jff0009\OMFS Consents
+\\hs.wvu-ad.wvu.edu\public\sod\os\JNIEUSMA\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\os\kreynol6\Contacts
+\\hs.wvu-ad.wvu.edu\public\sod\os\kreynol6\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\os\kreynol6\Documents
+\\hs.wvu-ad.wvu.edu\public\sod\os\kreynol6\Music
+\\hs.wvu-ad.wvu.edu\public\sod\os\kreynol6\Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\os\LBAKOS\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\os\LBAKOS\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\os\LBAKOS\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\os\mhanchett\BoardsStuff
+\\hs.wvu-ad.wvu.edu\public\sod\os\mhanchett\WVU Presentations
+\\hs.wvu-ad.wvu.edu\public\sod\os\RGRAVES\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\os\RGRAVES\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\os\RGRAVES\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\os\smcudney\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\os\smcudney\Documents
+\\hs.wvu-ad.wvu.edu\public\sod\os\smcudney\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\os\smcudney\Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\os\smcudney\PIMVLibraries
+\\hs.wvu-ad.wvu.edu\public\sod\os\smcudney\Videos
+\\hs.wvu-ad.wvu.edu\public\sod\PD\bbstevens
+\\hs.wvu-ad.wvu.edu\public\sod\PD\bls0034
+\\hs.wvu-ad.wvu.edu\public\sod\PD\CLIN
+\\hs.wvu-ad.wvu.edu\public\sod\PD\dbishop1
+\\hs.wvu-ad.wvu.edu\public\sod\PD\DCUPP
+\\hs.wvu-ad.wvu.edu\public\sod\PD\gnb0001
+\\hs.wvu-ad.wvu.edu\public\sod\PD\grd0003
+\\hs.wvu-ad.wvu.edu\public\sod\PD\jdyer
+\\hs.wvu-ad.wvu.edu\public\sod\PD\jrhillflechtenmacher
+\\hs.wvu-ad.wvu.edu\public\sod\PD\JUHRIN
+\\hs.wvu-ad.wvu.edu\public\sod\PD\kemaddux
+\\hs.wvu-ad.wvu.edu\public\sod\PD\kreveal
+\\hs.wvu-ad.wvu.edu\public\sod\PD\LBOYLES
+\\hs.wvu-ad.wvu.edu\public\sod\PD\llray
+\\hs.wvu-ad.wvu.edu\public\sod\PD\mhaffar
+\\hs.wvu-ad.wvu.edu\public\sod\PD\mjhanna
+\\hs.wvu-ad.wvu.edu\public\sod\PD\pdavis
+\\hs.wvu-ad.wvu.edu\public\sod\PD\tstewart
+\\hs.wvu-ad.wvu.edu\public\sod\PD\westonb
+\\hs.wvu-ad.wvu.edu\public\sod\PD\wg0005
+\\hs.wvu-ad.wvu.edu\public\sod\PD\kreveal\My ScanSnap
+\\hs.wvu-ad.wvu.edu\public\sod\PD\kreveal\OneNote Notebooks
+\\hs.wvu-ad.wvu.edu\public\sod\PD\kreveal\Outlook Files
+\\hs.wvu-ad.wvu.edu\public\sod\PD\kreveal\Scanned Documents
+\\hs.wvu-ad.wvu.edu\public\sod\PD\LBOYLES\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\perio\aperri
+\\hs.wvu-ad.wvu.edu\public\sod\perio\badanan
+\\hs.wvu-ad.wvu.edu\public\sod\perio\dlanderson
+\\hs.wvu-ad.wvu.edu\public\sod\perio\Dmorrison
+\\hs.wvu-ad.wvu.edu\public\sod\perio\echaves
+\\hs.wvu-ad.wvu.edu\public\sod\perio\ereed2
+\\hs.wvu-ad.wvu.edu\public\sod\perio\eross
+\\hs.wvu-ad.wvu.edu\public\sod\perio\japalmer
+\\hs.wvu-ad.wvu.edu\public\sod\perio\kazarembarabatin
+\\hs.wvu-ad.wvu.edu\public\sod\perio\kfleckenstein
+\\hs.wvu-ad.wvu.edu\public\sod\perio\kthomas5
+\\hs.wvu-ad.wvu.edu\public\sod\perio\lnamsupak
+\\hs.wvu-ad.wvu.edu\public\sod\perio\LWOLFE
+\\hs.wvu-ad.wvu.edu\public\sod\perio\mamuthukuru
+\\hs.wvu-ad.wvu.edu\public\sod\perio\mkoul
+\\hs.wvu-ad.wvu.edu\public\sod\perio\Rhornbrook
+\\hs.wvu-ad.wvu.edu\public\sod\perio\rjsoberdash
+\\hs.wvu-ad.wvu.edu\public\sod\perio\TAMMY
+\\hs.wvu-ad.wvu.edu\public\sod\perio\tchipps
+\\hs.wvu-ad.wvu.edu\public\sod\perio\badanan\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\perio\badanan\Documents
+\\hs.wvu-ad.wvu.edu\public\sod\perio\badanan\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\perio\badanan\Music
+\\hs.wvu-ad.wvu.edu\public\sod\perio\badanan\Pictures
+\\hs.wvu-ad.wvu.edu\public\sod\perio\badanan\Videos
+\\hs.wvu-ad.wvu.edu\public\sod\perio\dlanderson\backup
+\\hs.wvu-ad.wvu.edu\public\sod\perio\dlanderson\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\perio\dlanderson\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\perio\dlanderson\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\perio\Rhornbrook\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\aapatel
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\acanizales
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\akanawati
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\cboustany
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\dalenezi
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\gcunningham
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\Jbeaumont
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\jesilvestri
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\kalawadi
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\klreider
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\mbobbera
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\mevans11
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\mharper4
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\nandrein
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\NSMITH
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\pacanallatos
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\prosthoresidents
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\stahmasebi
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\tludovici
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\wal-yassin
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\Jbeaumont\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\pacanallatos\CBCT-Simplant
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\pacanallatos\Research
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\pacanallatos\Resident Forms
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\PUBLIC\CBCT-Simplant
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\PUBLIC\NAndreini
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\tludovici\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\prostho\tludovici\temparchives
+\\hs.wvu-ad.wvu.edu\public\sod\rd\agrubler
+\\hs.wvu-ad.wvu.edu\public\sod\rd\AKOPICH
+\\hs.wvu-ad.wvu.edu\public\sod\rd\awilson2
+\\hs.wvu-ad.wvu.edu\public\sod\rd\ayuh
+\\hs.wvu-ad.wvu.edu\public\sod\rd\bshipe
+\\hs.wvu-ad.wvu.edu\public\sod\rd\cnkennedy
+\\hs.wvu-ad.wvu.edu\public\sod\rd\cwine
+\\hs.wvu-ad.wvu.edu\public\sod\rd\dcarrier
+\\hs.wvu-ad.wvu.edu\public\sod\rd\dgetz1
+\\hs.wvu-ad.wvu.edu\public\sod\rd\dmcintyre
+\\hs.wvu-ad.wvu.edu\public\sod\rd\erogers4
+\\hs.wvu-ad.wvu.edu\public\sod\rd\eross
+\\hs.wvu-ad.wvu.edu\public\sod\rd\ga0033
+\\hs.wvu-ad.wvu.edu\public\sod\rd\gcunningham
+\\hs.wvu-ad.wvu.edu\public\sod\rd\gnaylor
+\\hs.wvu-ad.wvu.edu\public\sod\rd\hayers
+\\hs.wvu-ad.wvu.edu\public\sod\rd\jamix
+\\hs.wvu-ad.wvu.edu\public\sod\rd\jboyles
+\\hs.wvu-ad.wvu.edu\public\sod\rd\jmartha
+\\hs.wvu-ad.wvu.edu\public\sod\rd\jrmartin
+\\hs.wvu-ad.wvu.edu\public\sod\rd\jroth
+\\hs.wvu-ad.wvu.edu\public\sod\rd\jyorty
+\\hs.wvu-ad.wvu.edu\public\sod\rd\kaazzouz
+\\hs.wvu-ad.wvu.edu\public\sod\rd\kburdette
+\\hs.wvu-ad.wvu.edu\public\sod\rd\lavisnic
+\\hs.wvu-ad.wvu.edu\public\sod\rd\lyura
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mawilson
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mcid
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mmeador
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mpuderbaugh
+\\hs.wvu-ad.wvu.edu\public\sod\rd\msapon
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mwiener
+\\hs.wvu-ad.wvu.edu\public\sod\rd\PUBLIC
+\\hs.wvu-ad.wvu.edu\public\sod\rd\rwiener
+\\hs.wvu-ad.wvu.edu\public\sod\rd\shatcher
+\\hs.wvu-ad.wvu.edu\public\sod\rd\sheltoniif
+\\hs.wvu-ad.wvu.edu\public\sod\rd\swc0002
+\\hs.wvu-ad.wvu.edu\public\sod\rd\tnbrindock
+\\hs.wvu-ad.wvu.edu\public\sod\rd\twjarrett
+\\hs.wvu-ad.wvu.edu\public\sod\rd\wabdullah
+\\hs.wvu-ad.wvu.edu\public\sod\rd\wam0001
+\\hs.wvu-ad.wvu.edu\public\sod\rd\whegmann
+\\hs.wvu-ad.wvu.edu\public\sod\rd\wqueen
+\\hs.wvu-ad.wvu.edu\public\sod\rd\AKOPICH\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mwiener\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mwiener\Desktop
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mwiener\Favorites
+\\hs.wvu-ad.wvu.edu\public\sod\rd\mwiener\My Documents
+\\hs.wvu-ad.wvu.edu\public\sod\rd\rwiener\Backup
+\\hs.wvu-ad.wvu.edu\public\sod\rd\rwiener\public

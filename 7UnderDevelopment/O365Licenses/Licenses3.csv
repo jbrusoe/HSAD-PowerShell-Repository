@@ -1,0 +1,176 @@
+#TYPE Microsoft.Open.AzureAD.Model.SubscribedSku
+"CapabilityStatus","ConsumedUnits","ObjectId","PrepaidUnits","ServicePlans","SkuId","SkuPartNumber","AppliesTo"
+"Enabled","51","a2d1f95f-8510-4424-8ae1-5c596bdbd578_c5928f49-12ba-48f7-ada3-0d743a3601d5","class LicenseUnitsDetail {
+  Enabled: 89
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","c5928f49-12ba-48f7-ada3-0d743a3601d5","VISIOCLIENT","User"
+"Enabled","20","a2d1f95f-8510-4424-8ae1-5c596bdbd578_c2cda955-3359-44e5-989f-852ca0cfa02f","class LicenseUnitsDetail {
+  Enabled: 32
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","c2cda955-3359-44e5-989f-852ca0cfa02f","MCOMEETADV_FACULTY","User"
+"Enabled","0","a2d1f95f-8510-4424-8ae1-5c596bdbd578_26ad4b5c-b686-462e-84b9-d7c22b46837f","class LicenseUnitsDetail {
+  Enabled: 4500
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","26ad4b5c-b686-462e-84b9-d7c22b46837f","ATP_ENTERPRISE_FACULTY","Company"
+"Enabled","1","a2d1f95f-8510-4424-8ae1-5c596bdbd578_984df360-9a74-4647-8cf8-696749f6247a","class LicenseUnitsDetail {
+  Enabled: 0
+  Suspended: 0
+  Warning: 4500
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","984df360-9a74-4647-8cf8-696749f6247a","MEE_FACULTY","User"
+"Enabled","869","a2d1f95f-8510-4424-8ae1-5c596bdbd578_78e66a63-337a-4a9a-8959-41c6654dfb56","class LicenseUnitsDetail {
+  Enabled: 500000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","78e66a63-337a-4a9a-8959-41c6654dfb56","STANDARDWOFFPACK_IW_FACULTY","User"
+"Enabled","20","a2d1f95f-8510-4424-8ae1-5c596bdbd578_f8a1db68-be16-40ed-86d5-cb42ce701560","class LicenseUnitsDetail {
+  Enabled: 20
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","f8a1db68-be16-40ed-86d5-cb42ce701560","POWER_BI_PRO","User"
+"Enabled","3091","a2d1f95f-8510-4424-8ae1-5c596bdbd578_e578b273-6db4-4691-bba0-8d691f4da603","class LicenseUnitsDetail {
+  Enabled: 0
+  Suspended: 0
+  Warning: 4500
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","e578b273-6db4-4691-bba0-8d691f4da603","ENTERPRISEPACKPLUS_FACULTY","User"
+"Enabled","0","a2d1f95f-8510-4424-8ae1-5c596bdbd578_6470687e-a428-4b7a-bef2-8a291ad947c9","class LicenseUnitsDetail {
+  Enabled: 25
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","6470687e-a428-4b7a-bef2-8a291ad947c9","WINDOWS_STORE","Company"
+"Enabled","3989","a2d1f95f-8510-4424-8ae1-5c596bdbd578_6fd2c87f-b296-42f0-b197-1e91e994b900","class LicenseUnitsDetail {
+  Enabled: 4255
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","6fd2c87f-b296-42f0-b197-1e91e994b900","ENTERPRISEPACK","User"
+"Enabled","5","a2d1f95f-8510-4424-8ae1-5c596bdbd578_de5f128b-46d7-4cfc-b915-a89ba060ea56","class LicenseUnitsDetail {
+  Enabled: 5
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","de5f128b-46d7-4cfc-b915-a89ba060ea56","POWER_BI_PRO_FACULTY","User"
+"Enabled","128","a2d1f95f-8510-4424-8ae1-5c596bdbd578_e82ae690-a2d5-4d76-8d30-7c6e01e6022e","class LicenseUnitsDetail {
+  Enabled: 1000000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","e82ae690-a2d5-4d76-8d30-7c6e01e6022e","STANDARDWOFFPACK_IW_STUDENT","User"
+"Enabled","228","a2d1f95f-8510-4424-8ae1-5c596bdbd578_f30db892-07e9-47e9-837c-80727f46fd3d","class LicenseUnitsDetail {
+  Enabled: 10000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","f30db892-07e9-47e9-837c-80727f46fd3d","FLOW_FREE","User"
+"Enabled","3","a2d1f95f-8510-4424-8ae1-5c596bdbd578_dcb1a3ae-b33f-4487-846a-a640262fadf4","class LicenseUnitsDetail {
+  Enabled: 10000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","dcb1a3ae-b33f-4487-846a-a640262fadf4","POWERAPPS_VIRAL","User"
+"Enabled","4","a2d1f95f-8510-4424-8ae1-5c596bdbd578_6070a4c8-34c6-4937-8dfb-39bbc6397a60","class LicenseUnitsDetail {
+  Enabled: 27
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","6070a4c8-34c6-4937-8dfb-39bbc6397a60","MEETING_ROOM","User"
+"Enabled","225","a2d1f95f-8510-4424-8ae1-5c596bdbd578_28db6bcc-8442-405b-9ebb-e2f4da7355ed","class LicenseUnitsDetail {
+  Enabled: 4000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","28db6bcc-8442-405b-9ebb-e2f4da7355ed","EXCHANGE_STANDARD_ALUMNI","User"
+"Enabled","43","a2d1f95f-8510-4424-8ae1-5c596bdbd578_a403ebcc-fae0-4ca2-8c8c-7a907fd6c235","class LicenseUnitsDetail {
+  Enabled: 1000000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","a403ebcc-fae0-4ca2-8c8c-7a907fd6c235","POWER_BI_STANDARD","User"
+"Enabled","0","a2d1f95f-8510-4424-8ae1-5c596bdbd578_6634e0ce-1a9f-428c-a498-f84ec7b8aa2e","class LicenseUnitsDetail {
+  Enabled: 0
+  Suspended: 0
+  Warning: 5000
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","6634e0ce-1a9f-428c-a498-f84ec7b8aa2e","STANDARDWOFFPACK","User"
+"Enabled","16","a2d1f95f-8510-4424-8ae1-5c596bdbd578_46974aed-363e-423c-9e6a-951037cec495","class LicenseUnitsDetail {
+  Enabled: 16
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","46974aed-363e-423c-9e6a-951037cec495","PROJECTPROFESSIONAL_FACULTY","User"
+"Enabled","1424","a2d1f95f-8510-4424-8ae1-5c596bdbd578_8efbe2f6-106e-442f-97d4-a59aa6037e06","class LicenseUnitsDetail {
+  Enabled: 0
+  Suspended: 0
+  Warning: 4500
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","8efbe2f6-106e-442f-97d4-a59aa6037e06","WIN10_ENT_A3_FAC","User"
+"Enabled","7734","a2d1f95f-8510-4424-8ae1-5c596bdbd578_efccb6f7-5641-4e0e-bd10-b4976e1bf68e","class LicenseUnitsDetail {
+  Enabled: 3230
+  Suspended: 0
+  Warning: 4500
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","efccb6f7-5641-4e0e-bd10-b4976e1bf68e","EMS","User"
+"Enabled","11","a2d1f95f-8510-4424-8ae1-5c596bdbd578_0c266dff-15dd-4b49-8397-2bb16070ed52","class LicenseUnitsDetail {
+  Enabled: 30
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","0c266dff-15dd-4b49-8397-2bb16070ed52","MCOMEETADV","User"
+"Enabled","1373","a2d1f95f-8510-4424-8ae1-5c596bdbd578_4b590615-0888-425a-a965-b3bf7789848d","class LicenseUnitsDetail {
+  Enabled: 4500
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","4b590615-0888-425a-a965-b3bf7789848d","M365EDU_A3_FACULTY","User"
+"Enabled","15","a2d1f95f-8510-4424-8ae1-5c596bdbd578_53818b1b-4a27-454b-8896-0dba576410e6","class LicenseUnitsDetail {
+  Enabled: 97
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","53818b1b-4a27-454b-8896-0dba576410e6","PROJECTPROFESSIONAL","User"
+"Enabled","19595","a2d1f95f-8510-4424-8ae1-5c596bdbd578_ee02fd1b-340e-4a4b-b355-4a514e4c8943","class LicenseUnitsDetail {
+  Enabled: 20400
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","ee02fd1b-340e-4a4b-b355-4a514e4c8943","EXCHANGEARCHIVE_ADDON","User"
+"Enabled","0","a2d1f95f-8510-4424-8ae1-5c596bdbd578_94763226-9b3c-4e75-a931-5c89701abe66","class LicenseUnitsDetail {
+  Enabled: 5000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","94763226-9b3c-4e75-a931-5c89701abe66","STANDARDWOFFPACK_FACULTY","User"
+"Enabled","19620","a2d1f95f-8510-4424-8ae1-5c596bdbd578_66b55226-6b4f-492c-910c-a3b7a3c9d993","class LicenseUnitsDetail {
+  Enabled: 20400
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","66b55226-6b4f-492c-910c-a3b7a3c9d993","SPE_F1","User"
+"Enabled","20","a2d1f95f-8510-4424-8ae1-5c596bdbd578_bf95fd32-576a-4742-8d7a-6dc4940b9532","class LicenseUnitsDetail {
+  Enabled: 20
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","bf95fd32-576a-4742-8d7a-6dc4940b9532","VISIOCLIENT_FACULTY","User"
+"Enabled","1","a2d1f95f-8510-4424-8ae1-5c596bdbd578_8c4ce438-32a7-4ac5-91a6-e22ae08d9c8b","class LicenseUnitsDetail {
+  Enabled: 10000
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","8c4ce438-32a7-4ac5-91a6-e22ae08d9c8b","RIGHTSMANAGEMENT_ADHOC","User"
+"Enabled","23410","a2d1f95f-8510-4424-8ae1-5c596bdbd578_4ef96642-f096-40de-a3e9-d83fb2f90211","class LicenseUnitsDetail {
+  Enabled: 24655
+  Suspended: 0
+  Warning: 0
+}
+","System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.ServicePlanInfo]","4ef96642-f096-40de-a3e9-d83fb2f90211","ATP_ENTERPRISE","User"
